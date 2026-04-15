@@ -14,13 +14,14 @@
       "Bash(curl -s http://localhost:4325/)",
       "Bash(curl -s http://localhost:4325/plants/)",
       "Bash(curl -s http://localhost:4325/plants/olive-tree/)",
-      "Bash(curl -s -o /dev/null -w \"index:%{http_code} detail:\" http://localhost:4325/)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code} cal:\" http://localhost:4325/plants/birds-nest-fern-study)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code} plants:\" http://localhost:4325/calendar)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:4325/plants)",
-      "Bash(git add *)",
-      "Bash(curl -s -o /dev/null -w \"index:%{http_code}\\\\n\" http://localhost:4325/)",
-      "Bash(git commit -m 'Indoor plant audit + healthStatus data model *)"
+      "Bash(git status:*)",
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(curl -s -o /dev/null -w \"index:%{http_code} mistletoe:\" http://localhost:4325/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} holly:\" http://localhost:4325/plants/mistletoe-cactus)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:4325/plants/japanese-holly-fern-3)"
     ]
   }
 }
