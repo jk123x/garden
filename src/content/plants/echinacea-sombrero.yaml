@@ -5,7 +5,7 @@ health: "One plant confirmed alive — a red flower spotted in the raised bed (A
 healthStatus: monitor
 lastAssessed: "2026-04"
 photoNeeded: "Close-up of each crown in the raised bed — confirm which plants survived"
-notes: "Echinacea 'Sombrero' series. In the raised corrugated metal bed with the Rudbeckia. Root cause of the die-off is likely overwatering — Echinacea are prairie plants that need dry, well-drained roots. The metal bed gets very hot in summer, and heavy compensatory watering created exactly the wet conditions Echinacea can't handle (Rudbeckia tolerates wet much better). The surviving plant should be left alone — don't overwater it. Reduce watering this bed over winter. If the survivor does well, consider replanting with better drainage in mind. Needs a close-up photo."
+notes: "Echinacea 'Sombrero Salsa Red'. Originally 2 plants in the raised corrugated metal bed alongside Rudbeckia ×2, Achillea ×2, and Salvia nemorosa ×2. Most of the bed has been taken over by the Rudbeckia. Jay cut back the dying Echinacea hard. Root cause of die-off is likely overwatering — the metal bed gets very hot in summer, and heavy compensatory watering created wet conditions Echinacea can't handle (Rudbeckia tolerates wet much better). One plant confirmed alive with a red flower in April 2026. The whole bed needs a cleanup audit to find what's still alive underneath the Rudbeckia."
 tasks:
   - months: [8, 9]
     task: Check for new growth emerging from crown

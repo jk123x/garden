@@ -51,3 +51,7 @@ h1, h2, h3, h4 {
 .animate-in > :nth-child(6) { animation-delay: 300ms; }
 .animate-in > :nth-child(7) { animation-delay: 360ms; }
 .animate-in > :nth-child(8) { animation-delay: 420ms; }
+.animate-in > :nth-child(9) { animation-delay: 480ms; }
+.animate-in > :nth-child(10) { animation-delay: 540ms; }
+.animate-in > :nth-child(11) { animation-delay: 600ms; }
+.animate-in > :nth-child(12) { animation-delay: 660ms; }

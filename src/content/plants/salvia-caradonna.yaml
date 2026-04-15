@@ -1,0 +1,21 @@
+name: Salvia nemorosa 'Caradonna'
+type: perennial
+location: Backyard (raised bed)
+health: "Unknown — originally 2 plants in the raised bed but not visible in photos. May be dead or smothered by the Rudbeckia. Needs checking."
+healthStatus: unknown
+lastAssessed: "2026-04"
+photoNeeded: "Check the raised bed for any surviving Salvia — upright purple flower spikes, dark stems, opposite green leaves"
+notes: "Ornamental sage (Salvia nemorosa 'Caradonna'). Originally planted as 2 plants in the corrugated metal raised bed alongside Rudbeckia, Echinacea, and Achillea. 'Caradonna' has distinctive dark purple-black stems and upright violet-purple flower spikes. It's a clumping perennial that dies back in winter and reshoots in spring. If it's alive, it'll be visible as a basal rosette of green leaves low down. Could easily have been cut back with the Echinacea, or overwhelmed by the Rudbeckia's spread."
+tasks:
+  - months: [1, 2]
+    task: Deadhead spent flower spikes to encourage repeat flowering
+    category: prune
+  - months: [3, 4]
+    task: Cut back all stems to basal foliage as plant goes dormant
+    category: prune
+  - months: [9]
+    task: Feed with general fertiliser as new growth emerges
+    category: feed
+  - months: [9]
+    task: Divide clumps every 3-4 years
+    category: general

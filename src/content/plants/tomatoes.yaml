@@ -1,0 +1,27 @@
+name: Tomatoes
+type: vegetable
+location: Backyard (raised beds)
+health: "Done for the season — in bad shape. Need pulling out and clearing. Plants in at least 2 raised beds."
+healthStatus: monitor
+lastAssessed: "2026-04"
+photoNeeded: "Photos of both beds with tomato plants — show current state for cleanup planning"
+notes: "Summer annuals that are finished for the year. In at least 2 raised corrugated beds (one shared with basil, another separate). Pull out all dead/dying plants, remove any stakes or ties, and clear the beds completely. Work in fresh compost and aged manure before replanting in October-November. Don't compost diseased tomato foliage — bin it to avoid carrying over fungal problems."
+tasks:
+  - months: [10]
+    task: Plant seedlings after last frost
+    category: plant
+  - months: [10, 11, 12, 1, 2]
+    task: Feed with tomato-specific fertiliser fortnightly
+    category: feed
+  - months: [11, 12, 1, 2]
+    task: Water deeply and regularly — consistent moisture prevents blossom end rot
+    category: water
+  - months: [12, 1, 2]
+    task: Pinch out side shoots (suckers) for indeterminate varieties
+    category: prune
+  - months: [1, 2, 3]
+    task: Harvest ripe fruit regularly
+    category: harvest
+  - months: [3, 4]
+    task: Pull out spent plants, clear beds, add compost
+    category: general

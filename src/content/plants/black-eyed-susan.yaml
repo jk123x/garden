@@ -1,11 +1,11 @@
 name: Black Eyed Susan
 type: perennial
-location: Backyard
-health: "Blooming strongly with masses of yellow flowers in the raised bed. What appears to be a red flower nearby may be a surviving Echinacea — worth checking. Some trailing growth spilling over the bed edge."
+location: Backyard (raised bed)
+health: "Blooming strongly — has spread to dominate most of the raised bed. The Rudbeckia has outcompeted the other 3 species originally planted alongside it (Echinacea, Achillea, Salvia nemorosa). The whole bed needs auditing."
 healthStatus: healthy
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0922.jpg
-notes: "Rudbeckia fulgida. Taking up the left half of the raised corrugated bed, flowering prolifically. A red flower visible in the bed might mean the Echinacea isn't completely dead — check. Deadhead spent flowers to keep blooms coming. Cut all stems to ground level in late autumn/early winter once flowering is truly done. Will come back strongly in spring."
+notes: "Rudbeckia fulgida var. fulgida. Originally 2 plants, now dominating the raised corrugated metal bed. The bed originally had 8 plants across 4 species (Rudbeckia ×2, Echinacea ×2, Achillea ×2, Salvia nemorosa ×2) but the Rudbeckia has spread aggressively and likely smothered or outcompeted the others. One Echinacea confirmed surviving. The bed needs a proper cleanup session — pull back the Rudbeckia to find what's still alive underneath, divide if needed, and decide whether to keep it as a Rudbeckia feature or restore the mixed planting. Basil is also in this bed (different end)."
 tasks:
   - months: [6, 7]
     task: Cut back dead growth to ground level

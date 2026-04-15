@@ -1,12 +1,13 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import { getCollection } from 'astro:content';
-import { TYPE_LABELS } from '../../lib/utils';
+import { TYPE_LABELS, HEALTH_STATUS_LABELS, HEALTH_STATUS_DOTS } from '../../lib/utils';
 
 const plants = await getCollection('plants');
 const sortedPlants = plants.sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const types = [...new Set(plants.map((p) => p.data.type))].sort();
+const healthStatuses = [...new Set(plants.map((p) => p.data.healthStatus).filter(Boolean))].sort() as string[];
 ---
 
 <Layout title="All Plants">
@@ -32,12 +33,31 @@ const types = [...new Set(plants.map((p) => p.data.type))].sort();
       ))}
     </div>
 
+    <div class="flex flex-wrap gap-2" id="health-filters">
+      <button
+        data-health-filter="all"
+        class="health-filter-btn active px-3.5 py-1.5 rounded-full text-sm font-medium bg-terra text-white transition-colors"
+      >
+        All health
+      </button>
+      {healthStatuses.map((status) => (
+        <button
+          data-health-filter={status}
+          class="health-filter-btn px-3.5 py-1.5 rounded-full text-sm font-medium bg-rule-light text-ink-soft hover:bg-rule transition-colors inline-flex items-center gap-1.5"
+        >
+          <span class:list={['w-2 h-2 rounded-full', HEALTH_STATUS_DOTS[status]]}></span>
+          {HEALTH_STATUS_LABELS[status] || status}
+        </button>
+      ))}
+    </div>
+
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="plant-grid">
       {sortedPlants.map((plant) => (
         <a
           href={`/plants/${plant.id}`}
           class="plant-card group block bg-paper rounded-xl border border-rule-light overflow-hidden hover:border-terra/30 hover:shadow-lg hover:shadow-terra/5 transition-all duration-300"
           data-type={plant.data.type}
+          data-health={plant.data.healthStatus || 'none'}
           data-location={plant.data.location}
           data-indoor={String(plant.data.indoor)}
         >
@@ -60,8 +80,11 @@ const types = [...new Set(plants.map((p) => p.data.type))].sort();
               <span class="bg-rule-light/80 px-2.5 py-0.5 rounded-md text-sm font-medium">{TYPE_LABELS[plant.data.type] || plant.data.type}</span>
               <span class="text-ink-faint">{plant.data.location}</span>
             </div>
-            {plant.data.health && (
-              <p class="text-sm text-ink-faint mt-2.5">{plant.data.health}</p>
+            {plant.data.healthStatus && (
+              <span class="flex items-center gap-1.5 mt-2.5">
+                <span class:list={['w-2 h-2 rounded-full shrink-0', HEALTH_STATUS_DOTS[plant.data.healthStatus]]}></span>
+                <span class="text-xs text-ink-faint">{HEALTH_STATUS_LABELS[plant.data.healthStatus]}</span>
+              </span>
             )}
           </div>
         </a>
@@ -71,21 +94,36 @@ const types = [...new Set(plants.map((p) => p.data.type))].sort();
 </Layout>
 
 <script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const typeButtons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const healthButtons = document.querySelectorAll<HTMLButtonElement>('.health-filter-btn');
   const cards = document.querySelectorAll<HTMLAnchorElement>('.plant-card');
 
-  buttons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      buttons.forEach((b) => {
-        b.classList.remove('bg-terra', 'text-white', 'active');
-        b.classList.add('bg-rule-light', 'text-ink-soft');
-      });
-      btn.classList.add('bg-terra', 'text-white', 'active');
-      btn.classList.remove('bg-rule-light', 'text-ink-soft');
+  function activateButton(btn: HTMLButtonElement, group: NodeListOf<HTMLButtonElement>) {
+    group.forEach((b) => {
+      b.classList.remove('bg-terra', 'text-white', 'active');
+      b.classList.add('bg-rule-light', 'text-ink-soft');
+    });
+    btn.classList.add('bg-terra', 'text-white', 'active');
+    btn.classList.remove('bg-rule-light', 'text-ink-soft');
+  }
 
+  function isEnvHidden(card: HTMLElement): boolean {
+    const env = localStorage.getItem('garden-env') || 'outdoor';
+    const isIndoor = card.dataset.indoor === 'true';
+    return env === 'indoor' ? !isIndoor : isIndoor;
+  }
+
+  function updateCardVisibility(card: HTMLElement) {
+    const typeHidden = card.dataset.typeHidden === 'true';
+    const healthHidden = card.dataset.healthHidden === 'true';
+    card.style.display = (typeHidden || healthHidden || isEnvHidden(card)) ? 'none' : '';
+  }
+
+  typeButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      activateButton(btn, typeButtons);
       const filter = btn.dataset.filter!;
       cards.forEach((card) => {
-        if (card.style.display === 'none' && card.dataset.indoor !== undefined) return;
         if (filter === 'all') {
           card.dataset.typeHidden = 'false';
         } else {
@@ -97,13 +135,18 @@ const types = [...new Set(plants.map((p) => p.data.type))].sort();
     });
   });
 
-  function updateCardVisibility(card: HTMLElement) {
-    const envHidden = card.style.display === 'none';
-    const typeHidden = card.dataset.typeHidden === 'true';
-    if (!envHidden && !typeHidden) {
-      card.style.display = '';
-    } else if (typeHidden) {
-      card.style.display = 'none';
-    }
-  }
+  healthButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      activateButton(btn, healthButtons);
+      const filter = btn.dataset.healthFilter!;
+      cards.forEach((card) => {
+        if (filter === 'all') {
+          card.dataset.healthHidden = 'false';
+        } else {
+          card.dataset.healthHidden = card.dataset.health === filter ? 'false' : 'true';
+        }
+        updateCardVisibility(card);
+      });
+    });
+  });
 </script>
