@@ -1,0 +1,17 @@
+name: Grey Star
+type: perennial
+indoor: true
+location: Library
+health: "Stressed — brown edges, needs more humidity"
+image: /images/plants/IMG_0934.jpg
+notes: "Ctenanthe setosa 'Grey Star'. Likes humidity, hates drying out."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with liquid fertiliser monthly
+    category: feed
+  - months: [12, 1, 2]
+    task: Keep soil consistently moist — never let it fully dry
+    category: water
+  - months: [6, 7, 8]
+    task: Watch for crispy leaf edges — mist if air is dry from heating
+    category: general

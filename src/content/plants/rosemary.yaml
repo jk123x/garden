@@ -1,0 +1,16 @@
+name: Rosemary
+type: herb
+location: Backyard
+health: "Healthy"
+image: /images/plants/IMG_0921.jpg
+notes: "Large bush."
+tasks:
+  - months: [2, 3]
+    task: Prune after flowering — shape but don't cut into old wood
+    category: prune
+  - months: [9]
+    task: Light feed with complete fertiliser
+    category: feed
+  - months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    task: Harvest sprigs as needed
+    category: harvest

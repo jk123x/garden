@@ -1,0 +1,15 @@
+name: Native Violets
+type: groundcover
+location: Various — planted around the garden
+health: "Healthy"
+notes: "Viola hederacea. Spreading ground cover with small purple/white flowers."
+tasks:
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [3]
+    task: Thin out or divide if spreading too far
+    category: prune
+  - months: [12, 1, 2]
+    task: Water in dry spells — prefers consistent moisture
+    category: water

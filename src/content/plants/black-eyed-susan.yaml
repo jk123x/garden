@@ -1,0 +1,19 @@
+name: Black Eyed Susan
+type: perennial
+location: Backyard
+health: "Healthy"
+image: /images/plants/IMG_0922.jpg
+notes: "Rudbeckia fulgida. Multiple plants in raised bed."
+tasks:
+  - months: [6, 7]
+    task: Cut back dead growth to ground level
+    category: prune
+  - months: [9]
+    task: Feed with complete fertiliser as new growth appears
+    category: feed
+  - months: [9]
+    task: Divide crowded clumps
+    category: general
+  - months: [12, 1, 2]
+    task: Deadhead spent flowers to encourage more blooms
+    category: general

@@ -1,0 +1,17 @@
+name: String of Hearts
+type: succulent
+indoor: true
+location: Front entrance (hanging)
+health: "OK"
+image: /images/plants/IMG_0951.jpg
+notes: "Ceropegia woodii. Trailing heart-shaped leaves on thin stems."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering — very drought tolerant, let dry fully between drinks
+    category: water
+  - months: [9]
+    task: Trim leggy stems to encourage bushier growth
+    category: prune

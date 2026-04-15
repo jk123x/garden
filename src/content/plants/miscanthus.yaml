@@ -1,0 +1,16 @@
+name: Miscanthus
+type: grass
+location: Front yard
+health: "Dormant — seasonal dieback, normal for autumn"
+image: /images/plants/IMG_0893.jpg
+notes: "Big ornamental grass."
+tasks:
+  - months: [8]
+    task: Cut back hard to about 15cm before new growth
+    category: prune
+  - months: [9]
+    task: Feed with complete fertiliser as new growth appears
+    category: feed
+  - months: [9]
+    task: Divide clumps if getting too large
+    category: general

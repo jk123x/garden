@@ -1,0 +1,18 @@
+name: Birds Nest Fern
+type: fern
+location: Front yard
+health: "Healthy"
+image: /images/plants/IMG_0958.jpg
+tasks:
+  - months: [9, 12]
+    task: Feed with liquid fertiliser (half strength)
+    category: feed
+  - months: [9]
+    task: Remove old/damaged outer fronds
+    category: prune
+  - months: [4]
+    task: Mulch around base to retain moisture
+    category: mulch
+  - months: [12, 1, 2]
+    task: Keep moist — water if soil dries out
+    category: water

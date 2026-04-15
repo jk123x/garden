@@ -1,0 +1,12 @@
+name: Dichondra
+type: groundcover
+location: Front yard — woven throughout garden beds
+health: "Healthy"
+notes: "Dichondra repens (Kidney Weed). Australian native ground cover with soft kidney-shaped leaves. Nice texture filler between other plants."
+tasks:
+  - months: [9]
+    task: Feed lightly with slow-release fertiliser
+    category: feed
+  - months: [12, 1, 2]
+    task: Water in extended dry spells
+    category: water

@@ -1,0 +1,17 @@
+name: Japanese Holly Fern (#3)
+type: fern
+indoor: true
+location: Library
+health: "Check individually"
+image: /images/plants/IMG_0940.jpg
+notes: "Cyrtomium falcatum. Three plants total in library — this is #3."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [9]
+    task: Remove old/tatty fronds
+    category: prune
+  - months: [12, 1, 2]
+    task: Keep soil consistently moist in summer
+    category: water

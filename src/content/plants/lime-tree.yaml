@@ -1,0 +1,27 @@
+name: Lime Tree
+type: fruit
+location: Backyard
+health: "Healthy"
+image: /images/plants/IMG_0926.jpg
+tasks:
+  - months: [9]
+    task: Feed with citrus fertiliser
+    category: feed
+  - months: [12]
+    task: Feed again mid-summer
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [9]
+    task: Light prune to shape
+    category: prune
+  - months: [12, 1, 2]
+    task: Deep water weekly in hot weather
+    category: water
+  - months: [1, 2, 3, 4, 5]
+    task: Pick ripe limes
+    category: harvest
+  - months: [10, 11]
+    task: Check for citrus gall wasp — prune out galls before October
+    category: spray

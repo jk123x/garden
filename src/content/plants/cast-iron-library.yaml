@@ -1,0 +1,17 @@
+name: Cast Iron Plant (x2, Library)
+type: perennial
+indoor: true
+location: Library
+health: "Struggling — very sparse, only 2-3 leaves"
+image: /images/plants/IMG_0936.jpg
+notes: "Aspidistra elatior. Two plants."
+tasks:
+  - months: [9, 3]
+    task: Feed with slow-release or liquid fertiliser
+    category: feed
+  - months: [9]
+    task: Wipe dust off leaves
+    category: general
+  - months: [9]
+    task: Remove any yellowing leaves at base
+    category: prune

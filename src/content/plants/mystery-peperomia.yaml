@@ -1,0 +1,14 @@
+name: Mystery Peperomia
+type: perennial
+indoor: true
+location: Library
+health: "Recovering — nearly died, down to one leaf, coming back"
+image: /images/plants/IMG_0962.jpg
+notes: "Possibly a Peperomia variety. Nearly died and is slowly recovering."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering — let soil dry more between drinks
+    category: water

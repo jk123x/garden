@@ -1,0 +1,20 @@
+name: Kentia Palm
+type: palm
+indoor: true
+location: Library
+health: "Healthy"
+image: /images/plants/IMG_0930.jpg
+notes: "Howea forsteriana. Slow grower, low light tolerant."
+tasks:
+  - months: [9, 11, 1]
+    task: Feed with liquid fertiliser every couple of months
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering over winter
+    category: water
+  - months: [9]
+    task: Trim brown frond tips if needed
+    category: prune
+  - months: [9]
+    task: Wipe dust off fronds
+    category: general

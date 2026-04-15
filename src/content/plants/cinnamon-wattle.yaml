@@ -1,0 +1,16 @@
+name: Cinnamon Wattle
+type: tree
+location: Front yard
+health: "Healthy"
+image: /images/plants/IMG_0891.jpg
+notes: "Acacia leprosa or similar. Needs confirming — might be a different wattle variety."
+tasks:
+  - months: [10]
+    task: Light prune after flowering to shape
+    category: prune
+  - months: [9]
+    task: Feed with native-specific fertiliser (low phosphorus)
+    category: feed
+  - months: [4]
+    task: Mulch around base
+    category: mulch

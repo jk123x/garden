@@ -1,0 +1,16 @@
+name: Banksia
+type: shrub
+location: Front yard
+health: "Healthy — spent flowers are normal seasonal dieback"
+image: /images/plants/IMG_0955.jpg
+notes: "Flower cones dry out naturally after blooming. Prune spent cones if desired."
+tasks:
+  - months: [9]
+    task: Feed with native fertiliser (low phosphorus)
+    category: feed
+  - months: [3]
+    task: Prune spent flower cones if desired
+    category: prune
+  - months: [4]
+    task: Mulch around base
+    category: mulch

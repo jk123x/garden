@@ -1,0 +1,13 @@
+name: Westringia
+type: shrub
+location: Front yard
+health: "Healthy"
+image: /images/plants/IMG_0889.jpg
+notes: "Coastal Rosemary (Westringia fruticosa). Dense dome-shaped shrub, tiny leaves. Naturally tidy shape."
+tasks:
+  - months: [10, 3]
+    task: Light trim to maintain shape
+    category: prune
+  - months: [9]
+    task: Feed with native fertiliser (low phosphorus)
+    category: feed

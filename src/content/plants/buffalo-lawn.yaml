@@ -1,0 +1,26 @@
+name: Buffalo Lawn
+type: grass
+location: Backyard
+notes: "Roughly 5x5m patch."
+tasks:
+  - months: [9]
+    task: Aerate lawn
+    category: general
+  - months: [9]
+    task: Feed with lawn fertiliser
+    category: feed
+  - months: [12]
+    task: Feed again mid-summer
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [10]
+    task: Dethatch if spongy/built up
+    category: general
+  - months: [12, 1, 2]
+    task: Deep water 2-3 times per week in hot weather
+    category: water
+  - months: [9, 10, 11, 12, 1, 2, 3]
+    task: Mow regularly
+    category: general

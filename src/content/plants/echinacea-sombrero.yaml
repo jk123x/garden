@@ -1,0 +1,21 @@
+name: Echinacea Sombrero
+type: perennial
+location: Backyard (raised bed)
+health: "Struggling — half-died, hoping for comeback"
+notes: "Echinacea 'Sombrero' series. In the raised bed with the Rudbeckia. Cut back and waiting to see if they return."
+tasks:
+  - months: [8, 9]
+    task: Check for new growth emerging from crown
+    category: general
+  - months: [9]
+    task: Feed with complete fertiliser if new growth appears
+    category: feed
+  - months: [3]
+    task: Cut back dead stems to ground level
+    category: prune
+  - months: [4]
+    task: Mulch around crown to protect over winter
+    category: mulch
+  - months: [12, 1, 2]
+    task: Deadhead spent flowers to encourage more blooms
+    category: general

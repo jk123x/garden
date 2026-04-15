@@ -1,0 +1,16 @@
+name: Mexican Sage
+type: perennial
+location: Backyard
+health: "Healthy, blooming well"
+image: /images/plants/IMG_0915.jpg
+notes: "Salvia leucantha (Mexican Bush Sage). Multiple plants."
+tasks:
+  - months: [8]
+    task: Hard prune — cut back by half to promote bushy new growth
+    category: prune
+  - months: [9]
+    task: Feed with complete fertiliser
+    category: feed
+  - months: [10, 11, 12, 1, 2, 3]
+    task: Deadhead spent flower spikes for repeat blooms
+    category: general

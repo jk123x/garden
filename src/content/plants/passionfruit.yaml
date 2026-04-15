@@ -1,0 +1,25 @@
+name: Passionfruit
+type: climber
+location: Backyard
+tasks:
+  - months: [8, 9]
+    task: Hard prune — cut back by a third
+    category: prune
+  - months: [9]
+    task: Feed heavily with complete fertiliser
+    category: feed
+  - months: [12]
+    task: Feed again mid-summer
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [4]
+    task: Mulch thickly around base
+    category: mulch
+  - months: [12, 1, 2]
+    task: Deep water regularly in hot weather
+    category: water
+  - months: [2, 3, 4, 5]
+    task: Harvest fruit as it drops or wrinkles
+    category: harvest

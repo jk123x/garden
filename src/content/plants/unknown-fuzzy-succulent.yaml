@@ -1,0 +1,14 @@
+name: Unknown Fuzzy Succulent
+type: succulent
+indoor: true
+location: Library
+health: "OK"
+image: /images/plants/IMG_0935.jpg
+notes: "Unidentified. Upright stems covered in white/silvery fuzz. Possibly Tradescantia sillamontana (White Velvet) or similar."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering over winter
+    category: water

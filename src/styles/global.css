@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #2c2825;
+  --color-ink-soft: #6b6560;
+  --color-ink-faint: #9e9690;
+  --color-parchment: #f5f1ea;
+  --color-paper: #fefcf8;
+  --color-rule: #e2dcd2;
+  --color-rule-light: #ece7de;
+  --color-terra: #c4613a;
+  --color-terra-soft: #f7ebe5;
+  --color-olive: #5a7247;
+  --color-olive-soft: #e5eddf;
+  --font-display: 'Crimson Pro', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 19px;
+  line-height: 1.65;
+  @apply bg-parchment text-ink antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in > * {
+  animation: fade-up 0.4s ease-out both;
+}
+
+.animate-in > :nth-child(1) { animation-delay: 0ms; }
+.animate-in > :nth-child(2) { animation-delay: 60ms; }
+.animate-in > :nth-child(3) { animation-delay: 120ms; }
+.animate-in > :nth-child(4) { animation-delay: 180ms; }
+.animate-in > :nth-child(5) { animation-delay: 240ms; }
+.animate-in > :nth-child(6) { animation-delay: 300ms; }
+.animate-in > :nth-child(7) { animation-delay: 360ms; }
+.animate-in > :nth-child(8) { animation-delay: 420ms; }

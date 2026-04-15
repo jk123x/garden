@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx astro:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4325/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4325/plants)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4325/plants/placeholder-rose)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4325/calendar)",
+      "Bash(sips -s format jpeg --resampleHeight 1200 -s formatOptions 80 /Users/jaykinkade/Downloads/IMG_0910.HEIC --out /Users/jaykinkade/garden/public/images/plants/IMG_0910.jpg)",
+      "Bash(kill 1376)",
+      "Bash(python3:*)"
+    ]
+  }
+}

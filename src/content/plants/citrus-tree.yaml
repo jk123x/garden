@@ -1,0 +1,27 @@
+name: Citrus Tree (Backyard)
+type: fruit
+location: Backyard
+health: "Healthy"
+image: /images/plants/IMG_0914.jpg
+tasks:
+  - months: [9]
+    task: Feed with citrus fertiliser
+    category: feed
+  - months: [12]
+    task: Feed again mid-summer
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [9]
+    task: Light prune to shape
+    category: prune
+  - months: [12, 1, 2]
+    task: Deep water weekly in hot weather
+    category: water
+  - months: [6, 7, 8, 9]
+    task: Pick ripe fruit
+    category: harvest
+  - months: [10, 11]
+    task: Check for citrus gall wasp — prune out galls before October
+    category: spray

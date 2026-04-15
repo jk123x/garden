@@ -1,0 +1,15 @@
+name: Chinese Money Plant (Study)
+type: perennial
+indoor: true
+location: Study
+notes: "Pilea peperomioides."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with liquid fertiliser monthly
+    category: feed
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Rotate pot quarter-turn for even growth
+    category: general
+  - months: [9, 10]
+    task: Pot up any pups or give away
+    category: general

@@ -1,0 +1,25 @@
+name: Feijoa
+type: fruit
+location: Front fence (one side)
+health: "Healthy"
+image: /images/plants/IMG_0896.jpg
+notes: "Pineapple guava. Produces fruit in autumn. Still too tall — needs more thinning to keep height down."
+tasks:
+  - months: [9]
+    task: Feed with complete fertiliser
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [6, 7]
+    task: Harvest fruit as it drops
+    category: harvest
+  - months: [7, 8]
+    task: Prune hard to reduce height — thin out top growth, keep lower and open
+    category: prune
+  - months: [4]
+    task: Mulch around base
+    category: mulch
+  - months: [12, 1, 2]
+    task: Deep water in dry spells
+    category: water

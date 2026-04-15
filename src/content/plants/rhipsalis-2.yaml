@@ -1,0 +1,17 @@
+name: Rhipsalis teres
+type: succulent
+indoor: true
+location: Library (wall-mounted)
+health: "OK"
+image: /images/plants/IMG_0965.jpg
+notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering — let dry out between drinks
+    category: water
+  - months: [12, 1, 2]
+    task: Water when top cm of soil is dry
+    category: water

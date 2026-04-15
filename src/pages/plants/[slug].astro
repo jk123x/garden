@@ -1,0 +1,122 @@
+---
+import Layout from '../../layouts/layout.astro';
+import { getCollection } from 'astro:content';
+import { MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, TYPE_LABELS, getCurrentMonth } from '../../lib/utils';
+
+export async function getStaticPaths() {
+  const plants = await getCollection('plants');
+  return plants.map((plant) => ({
+    params: { slug: plant.id },
+    props: { plant },
+  }));
+}
+
+const { plant } = Astro.props;
+const { name, type, indoor, location, health, image, notes, tasks } = plant.data;
+const currentMonth = getCurrentMonth();
+
+const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
+  const month = i + 1;
+  return {
+    month,
+    name: MONTH_NAMES_SHORT[i],
+    tasks: tasks.filter((t: { months: number[] }) => t.months.includes(month)),
+    isCurrent: month === currentMonth,
+  };
+});
+---
+
+<Layout title={`${name} — Garden`}>
+  <div class="animate-in space-y-10">
+    <div>
+      <a href="/plants" class="text-sm text-terra hover:text-terra/80 font-medium transition-colors">&larr; All plants</a>
+
+      {image ? (
+        <div class="mt-5 flex flex-col md:flex-row gap-8">
+          <div class="md:flex-1">
+            <h1 class="text-5xl font-semibold text-ink tracking-tight">{name}</h1>
+            <div class="flex flex-wrap items-center gap-2.5 mt-3">
+              <span class="bg-rule-light px-2.5 py-1 rounded-md text-xs font-medium text-ink-soft">{TYPE_LABELS[type] || type}</span>
+              <span class:list={['px-2.5 py-1 rounded-md text-xs font-medium', indoor ? 'bg-sky-50 text-sky-700' : 'bg-olive-soft text-olive']}>
+                {indoor ? 'Indoor' : 'Outdoor'}
+              </span>
+              <span class="text-ink-faint">{location}</span>
+            </div>
+            {health && (
+              <p class="text-sm text-ink-soft mt-3">{health}</p>
+            )}
+            {notes && <p class="text-ink-soft mt-4 leading-relaxed">{notes}</p>}
+          </div>
+          <div class="md:w-80 shrink-0">
+            <img
+              src={image}
+              alt={name}
+              class="w-full h-64 md:h-72 object-cover rounded-xl border border-rule-light shadow-sm"
+            />
+          </div>
+        </div>
+      ) : (
+        <div class="mt-3">
+          <h1 class="text-5xl font-semibold text-ink tracking-tight">{name}</h1>
+          <div class="flex flex-wrap items-center gap-2.5 mt-3">
+            <span class="bg-rule-light px-2.5 py-1 rounded-md text-xs font-medium text-ink-soft">{TYPE_LABELS[type] || type}</span>
+            <span class:list={['px-2.5 py-1 rounded-md text-xs font-medium', indoor ? 'bg-sky-50 text-sky-700' : 'bg-olive-soft text-olive']}>
+              {indoor ? 'Indoor' : 'Outdoor'}
+            </span>
+            <span class="text-ink-faint">{location}</span>
+          </div>
+          {health && (
+            <p class="text-sm text-ink-soft mt-3">{health}</p>
+          )}
+          {notes && <p class="text-ink-soft mt-4 leading-relaxed">{notes}</p>}
+        </div>
+      )}
+    </div>
+
+    <div>
+      <h2 class="text-3xl font-semibold text-ink mb-5">Care calendar</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        {tasksByMonth.map(({ name: monthName, tasks: monthTasks, isCurrent }) => (
+          <div
+            class:list={[
+              'rounded-xl border p-4 min-h-[110px] transition-all',
+              isCurrent
+                ? 'border-terra/40 bg-terra-soft ring-1 ring-terra/10'
+                : monthTasks.length > 0
+                  ? 'border-rule-light bg-paper'
+                  : 'border-rule-light/50 bg-parchment/50',
+            ]}
+          >
+            <div class="flex items-center justify-between mb-2.5">
+              <span class:list={[
+                'font-display font-semibold',
+                isCurrent ? 'text-terra' : 'text-ink',
+              ]}>
+                {monthName}
+              </span>
+              {isCurrent && (
+                <span class="text-[10px] font-semibold uppercase tracking-wider text-terra bg-terra/10 px-1.5 py-0.5 rounded-md">
+                  Now
+                </span>
+              )}
+            </div>
+            {monthTasks.length > 0 ? (
+              <ul class="space-y-2">
+                {monthTasks.map((task: { category: string; task: string }) => (
+                  <li>
+                    <span class:list={['inline-block px-2 py-0.5 rounded-md text-xs font-semibold tracking-wide uppercase', CATEGORY_COLORS[task.category]]}>
+                      {CATEGORY_LABELS[task.category]}
+                    </span>
+                    <span class="text-sm text-ink-soft block mt-1 leading-snug">{task.task}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="text-xs text-ink-faint italic">Nothing</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

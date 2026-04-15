@@ -1,0 +1,17 @@
+name: String of Pearls
+type: succulent
+indoor: true
+location: Library
+health: "Recovering — nearly died, coming back"
+image: /images/plants/IMG_0961.jpg
+notes: "Senecio rowleyanus. Nearly died but has been brought back to life."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength succulent fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering significantly over winter
+    category: water
+  - months: [12, 1, 2]
+    task: Water when pearls start to look slightly wrinkled
+    category: water

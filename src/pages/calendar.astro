@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/layout.astro';
+import { getCollection } from 'astro:content';
+import { MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS, getCurrentMonth, getTasksForMonth } from '../lib/utils';
+
+const allPlants = await getCollection('plants');
+const currentMonth = getCurrentMonth();
+
+function buildMonths(plants: typeof allPlants) {
+  return Array.from({ length: 12 }, (_, i) => {
+    const month = i + 1;
+    const tasks = getTasksForMonth(plants, month);
+    const byPlant = tasks.reduce<Record<string, typeof tasks>>((acc, task) => {
+      if (!acc[task.plantId]) acc[task.plantId] = [];
+      acc[task.plantId].push(task);
+      return acc;
+    }, {});
+    return { month, name: MONTH_NAMES[i], tasks, byPlant, isCurrent: month === currentMonth };
+  });
+}
+
+const outdoorMonths = buildMonths(allPlants.filter((p) => !p.data.indoor));
+const indoorMonths = buildMonths(allPlants.filter((p) => p.data.indoor));
+---
+
+<Layout title="Calendar — Garden">
+  {[{ indoor: false, months: outdoorMonths }, { indoor: true, months: indoorMonths }].map(({ indoor, months }) => (
+    <div data-indoor={String(indoor)} class="animate-in space-y-8">
+      <h1 class="text-6xl font-semibold text-ink tracking-tight">Year calendar</h1>
+
+      <nav class="flex flex-wrap gap-1.5">
+        {months.map(({ month, name, isCurrent, tasks }) => (
+          <a
+            href={`#month-${indoor ? 'in' : 'out'}-${month}`}
+            class:list={[
+              'px-3 py-1.5 rounded-full text-sm font-medium transition-colors',
+              isCurrent
+                ? 'bg-terra text-white'
+                : tasks.length > 0
+                  ? 'bg-rule-light text-ink hover:bg-rule'
+                  : 'bg-rule-light/50 text-ink-faint hover:bg-rule-light',
+            ]}
+          >
+            {name.slice(0, 3)}
+            {tasks.length > 0 && (
+              <span class:list={[
+                'ml-1 text-xs',
+                isCurrent ? 'text-white/70' : 'text-ink-faint',
+              ]}>
+                {tasks.length}
+              </span>
+            )}
+          </a>
+        ))}
+      </nav>
+
+      <div class="space-y-10">
+        {months.map(({ month, name, byPlant, isCurrent, tasks }) => (
+          <section id={`month-${indoor ? 'in' : 'out'}-${month}`} class="scroll-mt-20">
+            <div class="flex items-center gap-3 mb-4">
+              <h2 class:list={[
+                'text-4xl font-semibold tracking-tight',
+                isCurrent ? 'text-terra' : 'text-ink',
+              ]}>
+                {name}
+              </h2>
+              {isCurrent && (
+                <span class="text-[10px] font-semibold uppercase tracking-wider text-terra bg-terra/10 px-2 py-0.5 rounded-md">
+                  Current
+                </span>
+              )}
+              {tasks.length === 0 && (
+                <span class="text-sm text-ink-faint italic">Nothing scheduled</span>
+              )}
+            </div>
+
+            {Object.entries(byPlant).length > 0 && (
+              <div class="space-y-3">
+                {Object.entries(byPlant).map(([plantId, plantTasks]) => (
+                  <div class:list={[
+                    'rounded-xl border p-5',
+                    isCurrent ? 'border-terra/20 bg-paper' : 'border-rule-light bg-paper',
+                  ]}>
+                    <a
+                      href={`/plants/${plantId}`}
+                      class="font-display text-2xl font-medium text-ink hover:text-terra transition-colors"
+                    >
+                      {plantTasks[0].plantName}
+                    </a>
+                    <ul class="mt-3 space-y-2">
+                      {plantTasks.map((task) => (
+                        <li class="flex items-center gap-2.5">
+                          <span class:list={['inline-block px-2 py-0.5 rounded-md text-[11px] font-semibold tracking-wide uppercase shrink-0', CATEGORY_COLORS[task.category]]}>
+                            {CATEGORY_LABELS[task.category]}
+                          </span>
+                          <span class="text-ink-soft">{task.task}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
+          </section>
+        ))}
+      </div>
+    </div>
+  ))}
+</Layout>

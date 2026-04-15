@@ -1,0 +1,16 @@
+name: Dianella 'Clarity Blue'
+type: perennial
+location: Front yard
+health: "Healthy"
+image: /images/plants/IMG_0952.jpg
+notes: "Flax lily. Blue-purple flowers followed by blue berries. Multiple plants across front garden."
+tasks:
+  - months: [8]
+    task: Cut back old flower stalks and any tatty leaves
+    category: prune
+  - months: [9]
+    task: Feed with slow-release native fertiliser (low phosphorus)
+    category: feed
+  - months: [9]
+    task: Divide crowded clumps if needed
+    category: general

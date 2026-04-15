@@ -1,0 +1,25 @@
+name: Strawberry
+type: fruit
+location: Backyard (near path)
+health: "Healthy"
+image: /images/plants/IMG_0920.jpg
+notes: "Multiple plants near the stone path."
+tasks:
+  - months: [3]
+    task: Feed with strawberry/fruit fertiliser
+    category: feed
+  - months: [9]
+    task: Feed again in spring
+    category: feed
+  - months: [4]
+    task: Mulch with straw to keep fruit off soil
+    category: mulch
+  - months: [10, 11, 12, 1]
+    task: Harvest ripe fruit
+    category: harvest
+  - months: [3]
+    task: Remove old/dead leaves and runners
+    category: prune
+  - months: [12, 1, 2]
+    task: Water regularly in hot weather
+    category: water

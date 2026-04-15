@@ -1,0 +1,17 @@
+name: Birds Nest Fern (Library)
+type: fern
+indoor: true
+location: Library
+health: "OK"
+image: /images/plants/IMG_0931.jpg
+notes: "Asplenium nidus. Don't water into the centre rosette."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [9]
+    task: Remove damaged outer fronds
+    category: prune
+  - months: [12, 1, 2]
+    task: Keep moist — doesn't like drying out in summer
+    category: water

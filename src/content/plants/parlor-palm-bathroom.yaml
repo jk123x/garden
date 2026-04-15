@@ -1,0 +1,17 @@
+name: Parlor Palm (Bathroom)
+type: palm
+indoor: true
+location: Bathroom
+health: "OK"
+image: /images/plants/IMG_0927.jpg
+notes: "Chamaedorea elegans."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering over winter
+    category: water
+  - months: [9]
+    task: Trim any brown/yellow fronds
+    category: prune

@@ -1,0 +1,17 @@
+name: Rabbit's Foot Fern (Bathroom)
+type: fern
+indoor: true
+location: Bathroom
+health: "Healthy"
+image: /images/plants/IMG_0929.jpg
+notes: "Davallia. Fuzzy rhizomes creep over pot edges."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [6, 7, 8]
+    task: Reduce watering — let dry out a bit more between drinks
+    category: water
+  - months: [9]
+    task: Repot if rhizomes are overcrowded
+    category: general

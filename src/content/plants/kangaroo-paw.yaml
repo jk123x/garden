@@ -1,0 +1,19 @@
+name: Kangaroo Paw
+type: perennial
+location: Front yard, backyard
+health: "Healthy"
+image: /images/plants/IMG_0956.jpg
+notes: "Multiple plants across front and back."
+tasks:
+  - months: [3, 4]
+    task: Cut back old flowering stems and dead foliage
+    category: prune
+  - months: [9]
+    task: Feed with native fertiliser (low phosphorus)
+    category: feed
+  - months: [9]
+    task: Divide crowded clumps
+    category: general
+  - months: [11, 12, 1]
+    task: Check for ink spot disease — remove affected leaves
+    category: spray

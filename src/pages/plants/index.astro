@@ -1,0 +1,109 @@
+---
+import Layout from '../../layouts/layout.astro';
+import { getCollection } from 'astro:content';
+import { TYPE_LABELS } from '../../lib/utils';
+
+const plants = await getCollection('plants');
+const sortedPlants = plants.sort((a, b) => a.data.name.localeCompare(b.data.name));
+
+const types = [...new Set(plants.map((p) => p.data.type))].sort();
+---
+
+<Layout title="All Plants">
+  <div class="animate-in space-y-8">
+    <div>
+      <h1 class="text-6xl font-semibold text-ink tracking-tight">Plants</h1>
+    </div>
+
+    <div class="flex flex-wrap gap-2" id="filters">
+      <button
+        data-filter="all"
+        class="filter-btn active px-3.5 py-1.5 rounded-full text-sm font-medium bg-terra text-white transition-colors"
+      >
+        All
+      </button>
+      {types.map((type) => (
+        <button
+          data-filter={`type:${type}`}
+          class="filter-btn px-3.5 py-1.5 rounded-full text-sm font-medium bg-rule-light text-ink-soft hover:bg-rule transition-colors"
+        >
+          {TYPE_LABELS[type] || type}
+        </button>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" id="plant-grid">
+      {sortedPlants.map((plant) => (
+        <a
+          href={`/plants/${plant.id}`}
+          class="plant-card group block bg-paper rounded-xl border border-rule-light overflow-hidden hover:border-terra/30 hover:shadow-lg hover:shadow-terra/5 transition-all duration-300"
+          data-type={plant.data.type}
+          data-location={plant.data.location}
+          data-indoor={String(plant.data.indoor)}
+        >
+          {plant.data.image ? (
+            <div class="relative overflow-hidden">
+              <img
+                src={plant.data.image}
+                alt={plant.data.name}
+                class="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+          ) : (
+            <div class="h-3 bg-gradient-to-r from-terra/20 via-terra/10 to-transparent"></div>
+          )}
+          <div class="p-5">
+            <h2 class="font-display text-2xl font-semibold text-ink group-hover:text-terra transition-colors">{plant.data.name}</h2>
+            <div class="flex items-center gap-2 mt-2.5 text-ink-soft">
+              <span class="bg-rule-light/80 px-2.5 py-0.5 rounded-md text-sm font-medium">{TYPE_LABELS[plant.data.type] || plant.data.type}</span>
+              <span class="text-ink-faint">{plant.data.location}</span>
+            </div>
+            {plant.data.health && (
+              <p class="text-sm text-ink-faint mt-2.5">{plant.data.health}</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('.plant-card');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => {
+        b.classList.remove('bg-terra', 'text-white', 'active');
+        b.classList.add('bg-rule-light', 'text-ink-soft');
+      });
+      btn.classList.add('bg-terra', 'text-white', 'active');
+      btn.classList.remove('bg-rule-light', 'text-ink-soft');
+
+      const filter = btn.dataset.filter!;
+      cards.forEach((card) => {
+        if (card.style.display === 'none' && card.dataset.indoor !== undefined) return;
+        if (filter === 'all') {
+          card.dataset.typeHidden = 'false';
+        } else {
+          const [key, value] = filter.split(':');
+          card.dataset.typeHidden = card.dataset[key] === value ? 'false' : 'true';
+        }
+        updateCardVisibility(card);
+      });
+    });
+  });
+
+  function updateCardVisibility(card: HTMLElement) {
+    const envHidden = card.style.display === 'none';
+    const typeHidden = card.dataset.typeHidden === 'true';
+    if (!envHidden && !typeHidden) {
+      card.style.display = '';
+    } else if (typeHidden) {
+      card.style.display = 'none';
+    }
+  }
+</script>

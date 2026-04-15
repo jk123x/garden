@@ -1,0 +1,19 @@
+name: Bartlettina sordida
+type: shrub
+location: Backyard (around frangipani)
+health: "OK"
+image: /images/plants/IMG_0911.jpg
+notes: "Purple Torch / Mexican Bush Daisy. Semi-tropical, large soft leaves, purple fuzzy flowers."
+tasks:
+  - months: [9]
+    task: Prune to shape and control size
+    category: prune
+  - months: [9]
+    task: Feed with complete fertiliser
+    category: feed
+  - months: [12, 1, 2]
+    task: Water in dry periods — prefers consistent moisture
+    category: water
+  - months: [6, 7]
+    task: Protect from heavy frost — mulch base or cover if needed
+    category: general

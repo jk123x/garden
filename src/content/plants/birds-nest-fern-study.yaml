@@ -1,0 +1,20 @@
+name: Birds Nest Fern (Study)
+type: fern
+indoor: true
+location: Study
+health: "Stressed — brown/curling fronds, needs attention"
+image: /images/plants/IMG_0959.jpg
+notes: "Asplenium nidus. Struggling — may need more humidity or less direct light."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [9]
+    task: Remove damaged outer fronds
+    category: prune
+  - months: [12, 1, 2]
+    task: Keep moist — doesn't like drying out in summer
+    category: water
+  - months: [6, 7, 8]
+    task: Mist regularly if air is dry from heating
+    category: general

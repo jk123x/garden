@@ -1,0 +1,19 @@
+name: Native Frangipani
+type: tree
+location: Backyard
+health: "OK"
+image: /images/plants/IMG_0910.jpg
+notes: "Hymenosporum flavum. 4+ metres tall. Flowers in spring/summer."
+tasks:
+  - months: [8]
+    task: Light prune to shape if needed
+    category: prune
+  - months: [9]
+    task: Feed with complete fertiliser
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [1, 2]
+    task: Deep water in extended dry/hot spells
+    category: water

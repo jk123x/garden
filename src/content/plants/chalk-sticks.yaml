@@ -1,0 +1,13 @@
+name: Dwarf Blue Chalk Sticks
+type: groundcover
+location: Front yard
+health: "Healthy"
+image: /images/plants/IMG_0887.jpg
+notes: "Senecio serpens 'Dwarf Blue'. Fine blue-grey foliage. Multiple patches through front garden."
+tasks:
+  - months: [3]
+    task: Trim back any leggy growth
+    category: prune
+  - months: [9]
+    task: Feed with slow-release native fertiliser (low phosphorus)
+    category: feed

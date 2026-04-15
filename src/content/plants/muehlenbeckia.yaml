@@ -1,0 +1,16 @@
+name: Muehlenbeckia
+type: climber
+location: Front fence (other side)
+health: "Healthy"
+image: /images/plants/IMG_0954.jpg
+notes: "Wire vine / mattress vine. Vigorous grower, good for covering fences."
+tasks:
+  - months: [3, 9]
+    task: Trim to shape
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [12, 1, 2]
+    task: Water in extended dry periods
+    category: water

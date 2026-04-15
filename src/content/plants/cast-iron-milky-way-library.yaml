@@ -1,0 +1,17 @@
+name: Cast Iron Plant (Milky Way)
+type: perennial
+indoor: true
+location: Library
+health: "Some yellowing"
+image: /images/plants/IMG_0944.jpg
+notes: "Aspidistra elatior 'Milky Way'. Spotted/speckled leaves."
+tasks:
+  - months: [9, 3]
+    task: Feed with slow-release or liquid fertiliser
+    category: feed
+  - months: [9]
+    task: Wipe dust off leaves
+    category: general
+  - months: [9]
+    task: Remove any yellowing leaves at base
+    category: prune

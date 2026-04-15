@@ -1,0 +1,16 @@
+name: Muehlenbeckia (Front, new)
+type: climber
+location: Front fence
+health: "Establishing"
+image: /images/plants/IMG_0957.jpg
+notes: "New planting along front fence."
+tasks:
+  - months: [3, 9]
+    task: Trim to shape
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [12, 1, 2]
+    task: Water in extended dry periods
+    category: water

@@ -1,0 +1,15 @@
+name: Lily Turf
+type: groundcover
+location: Various — around the garden
+health: "Healthy"
+notes: "Liriope muscari. Clumping ground cover with purple flower spikes."
+tasks:
+  - months: [8]
+    task: Cut back old foliage before new spring growth
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [9]
+    task: Divide crowded clumps if needed
+    category: general

@@ -1,0 +1,12 @@
+name: Nature Strip
+type: groundcover
+location: Front (nature strip)
+image: /images/plants/IMG_0952.jpg
+notes: "Has some weeds, could use a fixup. Plan what to plant here."
+tasks:
+  - months: [9, 10]
+    task: Weed and tidy up
+    category: general
+  - months: [3, 4]
+    task: Weed and tidy up
+    category: general

@@ -1,0 +1,15 @@
+name: Lavender
+type: shrub
+location: Backyard
+health: "Healthy, flowering"
+image: /images/plants/IMG_0918.jpg
+tasks:
+  - months: [2, 3]
+    task: Prune back by a third after flowering — don't cut into old wood
+    category: prune
+  - months: [9]
+    task: Light feed with slow-release fertiliser
+    category: feed
+  - months: [8]
+    task: Light trim to tidy shape before spring
+    category: prune
