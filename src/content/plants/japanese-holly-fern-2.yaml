@@ -1,11 +1,12 @@
-name: Japanese Holly Fern (#2)
+name: Japanese Holly Fern (Grey Pot)
 type: fern
 indoor: true
 location: Library
-health: "Unknown — no photo on file, audit pending"
-healthStatus: unknown
+health: "Good — fronds spreading well, centre slightly sparse but no obvious stress"
+healthStatus: good
 lastAssessed: "2026-04"
-notes: "Cyrtomium falcatum. Three plants total in library — this is #2. No photo yet — need one for health assessment."
+image: /images/plants/IMG_0970.jpg
+notes: "Cyrtomium falcatum. Round grey ceramic pot. Good frond coverage, a bit more open through the middle than the Cream Pot one, but otherwise clean foliage."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly

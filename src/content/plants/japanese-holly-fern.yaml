@@ -1,12 +1,12 @@
-name: Japanese Holly Fern (#1)
+name: Japanese Holly Fern (Cream Pot)
 type: fern
 indoor: true
 location: Library
-health: "Check individually — grouped photo, hard to isolate"
-healthStatus: unknown
+health: "Healthy — dense lush foliage, fronds arching well"
+healthStatus: healthy
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0942.jpg
-notes: "Cyrtomium falcatum. Three plants total in library — this is #1. Current photo groups multiple ferns; needs an isolated shot to assess properly."
+image: /images/plants/IMG_0969.jpg
+notes: "Cyrtomium falcatum. Round cream/tan pot on a dark plant stand. Lush, good density, fronds spreading nicely. The healthiest of the three Library holly ferns."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly

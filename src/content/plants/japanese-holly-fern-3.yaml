@@ -1,18 +1,21 @@
-name: Japanese Holly Fern (#3)
+name: Japanese Holly Fern (Black Pot)
 type: fern
 indoor: true
 location: Library
-health: "Check individually — grouped photo, hard to isolate"
-healthStatus: unknown
+health: "Monitor — yellowing leaves visible on close inspection, some tip browning"
+healthStatus: monitor
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0940.jpg
-notes: "Cyrtomium falcatum. Three plants total in library — this is #3. Needs an isolated photo to assess properly."
+image: /images/plants/IMG_0971.jpg
+notes: "Cyrtomium falcatum. Dark ceramic pot, top-down view shows full frond spread but a close-up (IMG_0972) reveals one leaf gone fully yellow with a necrotic brown centre — likely either a cold draft leaf, over-watering stress, or just an older frond. Worth checking for more like it and pulling any that are fully gone."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
   - months: [9]
     task: Remove old/tatty fronds
+    category: prune
+  - months: [4]
+    task: Remove any fully yellowed leaves and inspect soil moisture
     category: prune
   - months: [12, 1, 2]
     task: Keep soil consistently moist in summer

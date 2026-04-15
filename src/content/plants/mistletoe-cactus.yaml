@@ -1,0 +1,25 @@
+name: Mistletoe Cactus (Hanging)
+type: succulent
+indoor: true
+location: Indoor (hanging)
+health: "Healthy — thin pendulous stems, good fresh growth from the centre"
+healthStatus: healthy
+lastAssessed: "2026-04"
+image: /images/plants/IMG_0968.jpg
+notes: "Likely Rhipsalis baccifera (Mistletoe Cactus) — thin needle-like green stems in a pale yellow rounded pot, suspended in a white macramé hanger. ID not fully confirmed; could also be a fine-stemmed Rhipsalis variety like R. cassutha. Update slug/name once identified."
+tasks:
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — let dry out between drinks
+    category: water
+  - months: [12, 1, 2]
+    task: Water when top cm of soil is dry
+    category: water
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray
+  - months: [9]
+    task: Trim any shrivelled/dead stems to tidy shape
+    category: prune
