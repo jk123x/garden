@@ -2,16 +2,24 @@ name: Parlor Palm (Bathroom)
 type: palm
 indoor: true
 location: Bathroom
-health: "OK"
+health: "Healthy"
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0927.jpg
-notes: "Chamaedorea elegans."
+notes: "Chamaedorea elegans. Bright green, full — benefits from the bathroom humidity."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
-    task: Reduce watering over winter
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — check top 2cm before watering
     category: water
   - months: [9]
     task: Trim any brown/yellow fronds
     category: prune
+  - months: [4, 5]
+    task: Wipe fronds with damp cloth to remove dust
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

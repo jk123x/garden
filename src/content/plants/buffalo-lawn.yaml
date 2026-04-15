@@ -1,7 +1,11 @@
 name: Buffalo Lawn
 type: grass
 location: Backyard
-notes: "Roughly 5x5m patch."
+health: "Needs photo for proper assessment"
+healthStatus: unknown
+lastAssessed: "2026-04"
+photoNeeded: "General shot of the lawn patch"
+notes: "Roughly 5x5m patch in the backyard. No photo taken yet — Jay will add later."
 tasks:
   - months: [9]
     task: Aerate lawn

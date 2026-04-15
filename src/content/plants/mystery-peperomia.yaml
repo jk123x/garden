@@ -2,13 +2,24 @@ name: Mystery Peperomia
 type: perennial
 indoor: true
 location: Library
-health: "Recovering — nearly died, down to one leaf, coming back"
+health: "Recovering well — cluster of fresh new leaves emerging"
+healthStatus: establishing
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0962.jpg
-notes: "Possibly a Peperomia variety. Nearly died and is slowly recovering."
+notes: "Possibly a Peperomia variety. Was down to almost nothing; now producing a healthy cluster of glossy new leaves. Keep the momentum — water sparingly, avoid stem rot."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let soil dry more between drinks
     category: water
+  - months: [4, 5, 6]
+    task: Bottom-water sparingly to avoid stem rot
+    category: water
+  - months: [4, 5]
+    task: Wipe leaves with damp cloth to remove dust
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

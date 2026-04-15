@@ -1,9 +1,11 @@
 name: Muehlenbeckia (Front, new)
 type: climber
 location: Front fence
-health: "Establishing"
+health: "Very sparse — tiny stems just beginning to weave along the fence base. Barely visible. Will need 1-2 growing seasons to show real coverage."
+healthStatus: establishing
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0957.jpg
-notes: "New planting along front fence."
+notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place."
 tasks:
   - months: [3, 9]
     task: Trim to shape

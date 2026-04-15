@@ -1,7 +1,8 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import { getCollection } from 'astro:content';
-import { MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, TYPE_LABELS, getCurrentMonth } from '../../lib/utils';
+import { MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, TYPE_LABELS, getCurrentMonth, HEALTH_STATUS_COLORS, HEALTH_STATUS_LABELS, ATTENTION_STATUSES } from '../../lib/utils';
+import HealthBadge from '../../components/HealthBadge.astro';
 
 export async function getStaticPaths() {
   const plants = await getCollection('plants');
@@ -12,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { plant } = Astro.props;
-const { name, type, indoor, location, health, image, notes, tasks } = plant.data;
+const { name, type, indoor, location, health, healthStatus, lastAssessed, image, notes, tasks } = plant.data;
 const currentMonth = getCurrentMonth();
 
 const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
@@ -42,10 +43,22 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
               </span>
               <span class="text-ink-faint">{location}</span>
             </div>
-            {health && (
-              <p class="text-sm text-ink-soft mt-3">{health}</p>
+            {healthStatus && (
+              <div class="flex items-center gap-3 mt-3">
+                <HealthBadge status={healthStatus} />
+                {lastAssessed && (
+                  <span class="text-xs text-ink-faint">Assessed {lastAssessed}</span>
+                )}
+              </div>
             )}
-            {notes && <p class="text-ink-soft mt-4 leading-relaxed">{notes}</p>}
+            {health && (
+              <p class="text-ink-soft mt-2">{health}</p>
+            )}
+            {notes && (
+              <div class="mt-5 pt-4 border-t border-rule-light/60">
+                <p class="text-ink-soft leading-relaxed">{notes}</p>
+              </div>
+            )}
           </div>
           <div class="md:w-80 shrink-0">
             <img
@@ -65,10 +78,22 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
             </span>
             <span class="text-ink-faint">{location}</span>
           </div>
-          {health && (
-            <p class="text-sm text-ink-soft mt-3">{health}</p>
+          {healthStatus && (
+            <div class="flex items-center gap-3 mt-3">
+              <HealthBadge status={healthStatus} />
+              {lastAssessed && (
+                <span class="text-xs text-ink-faint">Assessed {lastAssessed}</span>
+              )}
+            </div>
           )}
-          {notes && <p class="text-ink-soft mt-4 leading-relaxed">{notes}</p>}
+          {health && (
+            <p class="text-ink-soft mt-2">{health}</p>
+          )}
+          {notes && (
+            <div class="mt-5 pt-4 border-t border-rule-light/60">
+              <p class="text-ink-soft leading-relaxed">{notes}</p>
+            </div>
+          )}
         </div>
       )}
     </div>

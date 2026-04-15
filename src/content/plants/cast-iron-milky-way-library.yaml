@@ -2,16 +2,30 @@ name: Cast Iron Plant (Milky Way)
 type: perennial
 indoor: true
 location: Library
-health: "Some yellowing"
+health: "OK — good leaf density, some outer leaves bronzing at edges"
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0944.jpg
-notes: "Aspidistra elatior 'Milky Way'. Spotted/speckled leaves."
+notes: "Aspidistra elatior 'Milky Way'. The white speckles are normal — not yellowing. A couple of outer leaves show bronze edges which may indicate over-watering or mineral buildup. Flush soil in autumn and hold off feed."
 tasks:
   - months: [9, 3]
     task: Feed with slow-release or liquid fertiliser
     category: feed
+  - months: [4]
+    task: Flush soil with plain water; hold off feed until spring
+    category: water
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — let soil dry more between drinks
+    category: water
+  - months: [4, 5]
+    task: Wipe leaves with damp cloth to remove dust
+    category: general
   - months: [9]
     task: Wipe dust off leaves
     category: general
   - months: [9]
     task: Remove any yellowing leaves at base
     category: prune
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

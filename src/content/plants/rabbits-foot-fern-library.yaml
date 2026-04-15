@@ -2,16 +2,24 @@ name: Rabbit's Foot Fern (Library)
 type: fern
 indoor: true
 location: Library
-health: "Very healthy"
+health: "Thriving — lush, dense mound"
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0948.jpg
-notes: "Davallia."
+notes: "Davallia. Gorgeous feathery foliage, no brown tips."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry out a bit more between drinks
     category: water
+  - months: [4, 5, 6, 7, 8]
+    task: Group with other plants or sit on pebble tray for humidity
+    category: general
   - months: [9]
     task: Repot if rhizomes are overcrowded
     category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

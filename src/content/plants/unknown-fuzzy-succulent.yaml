@@ -2,13 +2,24 @@ name: Unknown Fuzzy Succulent
 type: succulent
 indoor: true
 location: Library
-health: "OK"
+health: "OK — slightly leggy, a trim will bring it back in shape"
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0935.jpg
-notes: "Unidentified. Upright stems covered in white/silvery fuzz. Possibly Tradescantia sillamontana (White Velvet) or similar."
+notes: "Unidentified. Upright fuzzy stems — likely Tradescantia sillamontana (White Velvet). Some stems flopping; a small flower spike was visible. Benefits from pruning back to encourage bushier, upright growth."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
-    task: Reduce watering over winter
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — let dry between drinks
     category: water
+  - months: [4]
+    task: Trim leggy stems and use cuttings to fill the pot
+    category: prune
+  - months: [4, 5, 6, 7, 8]
+    task: Move to brightest available indirect-light spot
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

@@ -2,16 +2,30 @@ name: String of Pearls
 type: succulent
 indoor: true
 location: Library
-health: "Recovering — nearly died, coming back"
+health: "Recovering — mixed strand quality, some algae on soil surface"
+healthStatus: establishing
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0961.jpg
-notes: "Senecio rowleyanus. Nearly died but has been brought back to life."
+notes: "Senecio rowleyanus. Was nearly lost, back now but uneven — some plump pearls, others shrivelled. Algae/moss on the soil surface suggests it's been kept a bit too wet."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength succulent fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
-    task: Reduce watering significantly over winter
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering significantly — let soil dry fully between drinks
     category: water
   - months: [12, 1, 2]
     task: Water when pearls start to look slightly wrinkled
     category: water
+  - months: [4]
+    task: Trim any mushy strands and check for root rot
+    category: prune
+  - months: [4, 5]
+    task: Clear any algae or moss from the soil surface
+    category: general
+  - months: [4, 5, 6, 7, 8]
+    task: Move to brightest available spot — succulents need every photon in autumn
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

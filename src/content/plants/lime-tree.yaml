@@ -1,7 +1,11 @@
 name: Lime Tree
 type: fruit
 location: Backyard
-health: "Healthy"
+health: "Producing fruit but multiple leaves showing yellowing — interveinal chlorosis (yellow between the veins, veins stay green) visible on several leaves, not just one or two. Classic sign of magnesium deficiency, common in citrus. Needs a feed."
+healthStatus: good
+lastAssessed: "2026-04"
+notes: "Growing next to sage plants near the back deck. One green lime visible on the tree. The yellowing pattern across multiple leaves is more than normal leaf cycling — the interveinal chlorosis suggests magnesium deficiency. Apply Epsom salts (magnesium sulfate) as a foliar spray or soil drench, plus a good citrus-specific fertiliser. The crowding from the sage plants right up against it isn't helping — citrus prefer good airflow around the canopy. Last fed April 15 2026 — had been 2 months since the previous feed. Still worth applying Epsom salts separately for the magnesium deficiency (1 tablespoon per litre of water as a soil drench)."
+photoNeeded: "Close-up of the yellowing leaves — need to confirm chlorosis pattern for diagnosis"
 image: /images/plants/IMG_0926.jpg
 tasks:
   - months: [9]

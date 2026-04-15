@@ -1,9 +1,12 @@
 name: Kangaroo Paw
 type: perennial
 location: Front yard, backyard
-health: "Healthy"
+health: "Mostly healthy foliage but brown/dried tips visible on multiple leaves — could be old growth dying off or early signs of ink spot disease (Alternaria). Spent flower stalks throughout the clumps need removing. Centres look congested."
+healthStatus: good
+lastAssessed: "2026-04"
+photoNeeded: "Close-up of the brown leaf tips — checking for ink spot disease (concentric ring pattern)"
 image: /images/plants/IMG_0956.jpg
-notes: "Multiple plants across front and back."
+notes: "Multiple clumps across front and back. The brown leaf tips are the main concern — ink spot (Alternaria alternata) is common on kangaroo paws in Melbourne, especially in autumn when moisture and humidity increase. If the brown patches spread down the leaves or have concentric ring patterns, that's ink spot and affected foliage should be removed and binned (not composted). Cut spent flower stalks to the base, pull out dead leaves from the centre to improve airflow. If ink spot is confirmed, a copper-based fungicide spray in autumn helps."
 tasks:
   - months: [3, 4]
     task: Cut back old flowering stems and dead foliage

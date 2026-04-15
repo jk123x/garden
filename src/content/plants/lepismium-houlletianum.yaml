@@ -2,14 +2,20 @@ name: Lepismium Houlletianum
 type: succulent
 indoor: true
 location: Study
-notes: "Snowdrop cactus. Epiphytic, trailing habit."
+health: "Unknown — no photo on file, audit pending"
+healthStatus: unknown
+lastAssessed: "2026-04"
+notes: "Snowdrop cactus. Epiphytic, trailing habit. No photo yet — need one for health assessment."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
-    task: Reduce watering over winter
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — let dry between drinks
     category: water
   - months: [12, 1, 2]
     task: Water when top cm of soil is dry
     category: water
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

@@ -1,9 +1,11 @@
 name: Bartlettina sordida
 type: shrub
 location: Backyard (around frangipani)
-health: "OK"
+health: "OK but tired-looking heading into autumn. Dead material and old flower stalks at the base need clearing. Some leaves have dark spots. The droopy habit is normal for this species, but the overall plant looks like it's been through a tough summer."
+healthStatus: good
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0911.jpg
-notes: "Purple Torch / Mexican Bush Daisy. Semi-tropical, large soft leaves, purple fuzzy flowers."
+notes: "Purple Torch / Mexican Bush Daisy (Bartlettina sordida). Semi-tropical with large soft velvety leaves. Growing around the frangipani base along the back fence. The dead brown material at the base of the plant needs cleaning out — old leaves and spent flower stalks. Watch the dark spots on leaves — could be fungal if it spreads, but likely just weathering from summer heat. Cut back hard in spring if it gets too scruffy."
 tasks:
   - months: [9]
     task: Prune to shape and control size

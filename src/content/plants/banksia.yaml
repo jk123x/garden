@@ -1,9 +1,11 @@
 name: Banksia
 type: shrub
 location: Front yard
-health: "Healthy — spent flowers are normal seasonal dieback"
+health: "Healthy — active flowering cones at various stages of development. Fine needle-like foliage is green and undamaged. Some leaf litter around the base."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0955.jpg
-notes: "Flower cones dry out naturally after blooming. Prune spent cones if desired."
+notes: "Native banksia with distinctive cone-like flower heads. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or prune for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
 tasks:
   - months: [9]
     task: Feed with native fertiliser (low phosphorus)

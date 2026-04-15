@@ -1,6 +1,11 @@
 name: Passionfruit
 type: climber
 location: Backyard
+health: "Needs photo for proper assessment"
+healthStatus: unknown
+lastAssessed: "2026-04"
+photoNeeded: "Overall vine plus close-up of leaves and any fruit"
+notes: "Backyard climber. No photo taken yet — Jay will add later. Should be checked for vigour heading into the cooler months."
 tasks:
   - months: [8, 9]
     task: Hard prune — cut back by a third

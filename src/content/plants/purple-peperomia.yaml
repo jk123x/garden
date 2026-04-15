@@ -2,13 +2,21 @@ name: Purple Peperomia
 type: perennial
 indoor: true
 location: Library
-health: "OK"
+health: "Healthy"
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0947.jpg
-notes: "Possibly Peperomia caperata or similar. 'Devils something' — need to confirm exact variety."
+notes: "Heart-shaped leaves, green tops with purple/red undersides and stems. Possibly Peperomia caperata or similar. Looks happy."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let soil dry more between drinks
     category: water
+  - months: [4, 5]
+    task: Wipe leaves with damp cloth to remove dust
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

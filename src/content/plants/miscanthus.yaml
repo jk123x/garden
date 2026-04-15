@@ -1,9 +1,11 @@
 name: Miscanthus
 type: grass
 location: Front yard
-health: "Dormant — seasonal dieback, normal for autumn"
+health: "Dormant — completely brown and dried back. This is 100% normal for Melbourne in April. The whole plant dies to the ground over winter and reshoots vigorously from the base in spring."
+healthStatus: dormant
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0893.jpg
-notes: "Big ornamental grass."
+notes: "Big ornamental grass in the front yard next to the Westringia. The brown/dead look is expected and not a problem. Cut back to 15-20cm above the ground in late July or August, before new growth starts pushing through. If left uncut, the old dead stems make it harder for fresh growth to come through cleanly. Will be back to full height by January."
 tasks:
   - months: [8]
     task: Cut back hard to about 15cm before new growth

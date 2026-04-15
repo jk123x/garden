@@ -1,9 +1,11 @@
 name: Westringia
 type: shrub
 location: Front yard
-health: "Healthy"
+health: "Excellent condition — dense dome-shaped form with tight silvery-green foliage. Naturally tidy shape with no bare patches, dieback, or pest damage visible."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0889.jpg
-notes: "Coastal Rosemary (Westringia fruticosa). Dense dome-shaped shrub, tiny leaves. Naturally tidy shape."
+notes: "Coastal Rosemary (Westringia fruticosa). One of the healthiest plants in the garden. The naturally tight dome shape needs minimal to no pruning. Drought-tolerant Australian native that genuinely thrives in Melbourne. No action needed."
 tasks:
   - months: [10, 3]
     task: Light trim to maintain shape

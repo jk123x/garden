@@ -1,8 +1,12 @@
 name: Nature Strip
 type: groundcover
 location: Front (nature strip)
+health: "Needs assessment — currently weedy, visible in background of other photos"
+healthStatus: unknown
+lastAssessed: "2026-04"
+photoNeeded: "Dedicated photo showing current state and weed situation"
 image: /images/plants/IMG_0952.jpg
-notes: "Has some weeds, could use a fixup. Plan what to plant here."
+notes: "The nature strip out front. Has some weeds and could use a proper plan for what to plant here. Using Dianella photo as placeholder — needs its own photo."
 tasks:
   - months: [9, 10]
     task: Weed and tidy up

@@ -1,9 +1,11 @@
 name: Dwarf Blue Chalk Sticks
 type: groundcover
 location: Front yard
-health: "Healthy"
+health: "Good blue-grey colour, fleshy leaves look plump (well-hydrated). Some sparse patches near the base but generally filling in well."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0887.jpg
-notes: "Senecio serpens 'Dwarf Blue'. Fine blue-grey foliage. Multiple patches through front garden."
+notes: "Senecio serpens 'Dwarf Blue'. Low-growing succulent patches through the front garden alongside the dianella and dichondra. The blue-grey colour is vibrant which means they're getting enough light. Sparse patches at the base could fill in — succulents dropped into gaps will root easily. Very drought-tolerant, practically indestructible. Avoid overwatering in winter."
 tasks:
   - months: [3]
     task: Trim back any leggy growth

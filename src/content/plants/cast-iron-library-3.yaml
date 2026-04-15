@@ -2,13 +2,27 @@ name: Cast Iron Plant (Library, small)
 type: perennial
 indoor: true
 location: Library
-health: "Struggling — cut back hard, recovering"
+health: "Recovering — cut back hard, a few pale leaves, watch for new shoots"
+healthStatus: establishing
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0960.jpg
-notes: "Aspidistra elatior. Was cut way back, slowly regrowing."
+notes: "Aspidistra elatior. Cut way back, slowly regrowing in a blue ceramic pot. Pot size looks appropriate — just needs patience and the right conditions."
 tasks:
   - months: [9, 3]
     task: Feed with slow-release or liquid fertiliser
     category: feed
+  - months: [4, 5, 6]
+    task: Resist watering — new shoots emerge slowly; keep dry-side
+    category: water
+  - months: [4, 5, 6, 7, 8]
+    task: Move closer to brightest available window — light drops fast through autumn
+    category: general
+  - months: [4, 5]
+    task: Wipe leaves with damp cloth to remove dust
+    category: general
   - months: [9]
     task: Wipe dust off leaves
     category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

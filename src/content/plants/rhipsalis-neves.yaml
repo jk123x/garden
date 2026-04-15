@@ -2,16 +2,21 @@ name: Rhipsalis Neves-Armondii
 type: succulent
 indoor: true
 location: Library
-health: "OK"
+health: "Thriving — full lush cascade"
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0964.jpg
-notes: "Epiphytic cactus. Trailing/hanging habit."
+notes: "Epiphytic cactus. Hanging beautifully with dense trailing stems."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry out between drinks
     category: water
   - months: [12, 1, 2]
     task: Water when top cm of soil is dry
     category: water
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

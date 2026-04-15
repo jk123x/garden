@@ -1,8 +1,10 @@
 name: Native Violets
 type: groundcover
 location: Various — planted around the garden
-health: "Healthy"
-notes: "Viola hederacea. Spreading ground cover with small purple/white flowers."
+health: "Spreading and visible in wider garden shots, with small purple-white flowers. No dedicated photo but looks fine where visible."
+healthStatus: healthy
+lastAssessed: "2026-04"
+notes: "Viola hederacea. Australian native ground cover with small round leaves and purple/white flowers. Visible near the stone path in wider backyard shots. Evergreen, handles part shade well, and spreads to fill gaps. Like the dichondra, it's doing its job as living ground cover. A dedicated close-up photo would let us check for any issues."
 tasks:
   - months: [9]
     task: Feed with slow-release fertiliser

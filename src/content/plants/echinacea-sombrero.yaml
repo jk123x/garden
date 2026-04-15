@@ -1,8 +1,11 @@
 name: Echinacea Sombrero
 type: perennial
 location: Backyard (raised bed)
-health: "Struggling — half-died, hoping for comeback"
-notes: "Echinacea 'Sombrero' series. In the raised bed with the Rudbeckia. Cut back and waiting to see if they return."
+health: "One plant confirmed alive — a red flower spotted in the raised bed (April 2026). At least one crown survived. The others likely died from overwatering: Jay was watering heavily to compensate for the metal bed getting extremely hot in summer, which suited the Rudbeckia but rotted the Echinacea roots."
+healthStatus: monitor
+lastAssessed: "2026-04"
+photoNeeded: "Close-up of each crown in the raised bed — confirm which plants survived"
+notes: "Echinacea 'Sombrero' series. In the raised corrugated metal bed with the Rudbeckia. Root cause of the die-off is likely overwatering — Echinacea are prairie plants that need dry, well-drained roots. The metal bed gets very hot in summer, and heavy compensatory watering created exactly the wet conditions Echinacea can't handle (Rudbeckia tolerates wet much better). The surviving plant should be left alone — don't overwater it. Reduce watering this bed over winter. If the survivor does well, consider replanting with better drainage in mind. Needs a close-up photo."
 tasks:
   - months: [8, 9]
     task: Check for new growth emerging from crown

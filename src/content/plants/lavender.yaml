@@ -1,7 +1,11 @@
 name: Lavender
 type: shrub
 location: Backyard
-health: "Healthy, flowering"
+health: "Flowering well but getting leggy — the lower stems are bare and woody with all the growth and flowers up top on long stems. Weedy grass growing around the base. Needs a hard prune after flowering to prevent the woody-base problem getting worse."
+healthStatus: good
+lastAssessed: "2026-04"
+notes: "Growing along the back path near a window. The purple flower spikes look good, but the plant habit is heading toward trouble — lavender goes permanently woody and splits open if not pruned annually. After flowering finishes, cut back hard into green growth (not into bare wood — it won't resprout from old wood). Clear the weedy grass from around the base. This is the most important maintenance window for lavender."
+photoNeeded: "Shot of the woody base section to assess how far up the bare wood goes"
 image: /images/plants/IMG_0918.jpg
 tasks:
   - months: [2, 3]

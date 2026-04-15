@@ -1,5 +1,9 @@
 name: Unknown Tree/Plant (Right Side)
 type: tree
 location: Right side (east)
-notes: "Big and wild. Need to ID from photo."
+health: "Needs photo and ID"
+healthStatus: unknown
+lastAssessed: "2026-04"
+photoNeeded: "Close-up of leaves, bark, and overall form for ID"
+notes: "Big and wild tree/plant on the right (east) side of the property. Need to ID from a proper photo. No photo taken yet — Jay will add later."
 tasks: []

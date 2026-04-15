@@ -10,9 +10,12 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 
 ## Data
 
-- 39 plants as YAML files in `src/content/plants/`
-- Schema in `src/content.config.ts` — name, type, indoor/outdoor, location, health, notes, monthly care tasks
-- 4 unknown plants still need ID (front yard shrubs, ground covers, right side tree, front hanging indoor)
+- 41 plants as YAML files in `src/content/plants/` (Star Jasmine split into 3 fence sections)
+- Schema in `src/content.config.ts` — name, type, indoor/outdoor, location, health, healthStatus (enum), lastAssessed, notes, monthly care tasks
+- `healthStatus` enum: healthy, good, monitor, struggling, dormant, establishing, unknown
+- All outdoor plants assessed April 2026 with photos
+- 4 outdoor plants still need photos: Buffalo Lawn, Passionfruit, Unknown Tree (Right Side), Echinacea Sombrero
+- Cinnamon Wattle variety still needs confirmation
 
 ## Design
 
@@ -25,21 +28,26 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 
 ## Pages
 
-- `/` — Dashboard: current month tasks grouped by category, "coming up" preview
-- `/plants` — Grid with type filters, indoor/outdoor toggle
-- `/plants/[slug]` — Detail page with 12-month care calendar
+- `/` — Dashboard: seasonal context banner, "needs attention" section, "needs assessment" chips, current month tasks grouped by category, "coming up" preview
+- `/plants` — Grid with type filters, health status filters, indoor/outdoor toggle, health dot indicators
+- `/plants/[slug]` — Detail page with health badge, assessment date, rich notes, 12-month care calendar
 - `/calendar` — Full year view, tasks grouped by plant per month
 
 ## Key patterns
 
 - Indoor/outdoor toggle persisted in localStorage, filters via `data-indoor` attributes
 - Plant type filters on `/plants` use `data-type` + `data-typeHidden` for visibility
+- Health status filters on `/plants` use `data-health` + `data-healthHidden` for visibility
 - Category colors defined in `src/lib/utils.ts` as Tailwind class strings
-- `getTasksForMonth()` in utils.ts is the core data helper
+- Health status colors/labels/dots also in utils.ts (same pattern as categories)
+- `SEASONAL_CONTEXT` in utils.ts — Melbourne-specific seasonal notes for all 12 months
+- `getPlantsNeedingAttention()` returns `{ attention, unassessed }` based on `healthStatus` enum
+- `getTasksForMonth()` is the core data helper
+- Reusable components in `src/components/`: `HealthBadge.astro`, `AttentionCard.astro`
 
 ## What's next
 
-- Photo audit session: Jay sends plant photos, assess health, save to `public/images/plants/`
-- Update health fields based on photo assessment
-- ID the 4 unknown plants
+- Photos needed: Buffalo Lawn, Passionfruit, Unknown Tree (Right Side), Echinacea Sombrero, Nature Strip
+- ID the unknown plants (right side tree, cinnamon wattle confirmation, small backyard citrus)
+- Indoor plant health audit (28 plants still without healthStatus)
 - Deploy to Vercel

@@ -9,7 +9,18 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4325/calendar)",
       "Bash(sips -s format jpeg --resampleHeight 1200 -s formatOptions 80 /Users/jaykinkade/Downloads/IMG_0910.HEIC --out /Users/jaykinkade/garden/public/images/plants/IMG_0910.jpg)",
       "Bash(kill 1376)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:4325/)",
+      "Bash(curl -s http://localhost:4325/plants/)",
+      "Bash(curl -s http://localhost:4325/plants/olive-tree/)",
+      "Bash(curl -s -o /dev/null -w \"index:%{http_code} detail:\" http://localhost:4325/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} cal:\" http://localhost:4325/plants/birds-nest-fern-study)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} plants:\" http://localhost:4325/calendar)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:4325/plants)",
+      "Bash(git add *)",
+      "Bash(curl -s -o /dev/null -w \"index:%{http_code}\\\\n\" http://localhost:4325/)",
+      "Bash(git commit -m 'Indoor plant audit + healthStatus data model *)"
     ]
   }
 }

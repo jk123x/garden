@@ -2,9 +2,11 @@ name: Grey Star
 type: perennial
 indoor: true
 location: Library
-health: "Stressed — brown edges, needs more humidity"
+health: "Stressed — severe leaf curl, brown edges, humidity critical"
+healthStatus: struggling
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0934.jpg
-notes: "Ctenanthe setosa 'Grey Star'. Likes humidity, hates drying out."
+notes: "Ctenanthe setosa 'Grey Star'. Leaves curling inward as a drought/dry-air response. Purple undersides are normal. Keep away from any heating or air vents — dry air is the enemy."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with liquid fertiliser monthly
@@ -12,6 +14,18 @@ tasks:
   - months: [12, 1, 2]
     task: Keep soil consistently moist — never let it fully dry
     category: water
+  - months: [4, 5]
+    task: Mist 2-3x weekly and check soil — do not let it dry out
+    category: general
+  - months: [4, 5, 6, 7, 8]
+    task: Group with other plants or sit on a pebble tray for humidity
+    category: general
+  - months: [4, 5, 6, 7, 8]
+    task: Keep away from heating vents and dry-air zones
+    category: general
   - months: [6, 7, 8]
     task: Watch for crispy leaf edges — mist if air is dry from heating
     category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

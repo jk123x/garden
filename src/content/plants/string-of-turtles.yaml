@@ -2,16 +2,27 @@ name: String of Turtles
 type: succulent
 indoor: true
 location: Library
-health: "OK"
+health: "OK — sparse, would benefit from pinch-pruning for density"
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0937.jpg
-notes: "Peperomia prostrata. Tiny round patterned leaves on trailing stems."
+notes: "Peperomia prostrata. Tiny round patterned leaves on trailing stems. Coverage is thin — pinch tips to encourage branching."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry between drinks
     category: water
   - months: [12, 1, 2]
     task: Water when soil is dry — don't overwater
     category: water
+  - months: [4]
+    task: Pinch stem tips to encourage bushier growth
+    category: prune
+  - months: [4, 5, 6, 7, 8]
+    task: Move to brightest available indirect-light spot
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

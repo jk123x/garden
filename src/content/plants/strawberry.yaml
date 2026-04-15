@@ -1,9 +1,11 @@
 name: Strawberry
 type: fruit
 location: Backyard (near path)
-health: "Healthy"
+health: "Good foliage — dense dark green leaves with active runners extending outward. No fruit visible which is expected for April. Some yellowed older leaves at the base but that's normal leaf cycling."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0920.jpg
-notes: "Multiple plants near the stone path."
+notes: "Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months."
 tasks:
   - months: [3]
     task: Feed with strawberry/fruit fertiliser

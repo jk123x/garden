@@ -1,9 +1,11 @@
 name: Cushion Bush
 type: shrub
 location: Front yard
-health: "Healthy"
+health: "Mostly dense silvery foliage but there are some brown/dead sections within the mound and a few bare woody stems visible. Small new growth buds present. May need light trimming to remove dead material."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0886.jpg
-notes: "Leucophyta brownii. Silvery-white wiry stems, coral-like texture. Multiple patches through front garden."
+notes: "Leucophyta brownii (Cushion Bush). Multiple patches through the front garden. The silvery-white coral-like texture is the main visual feature. Some internal die-off is normal — trim out dead brown sections to keep it tidy and encourage fresh growth. Australian coastal native that likes full sun and sharp drainage. If brown sections are increasing, check drainage — they hate wet feet."
 tasks:
   - months: [3]
     task: Light trim to shape after flowering

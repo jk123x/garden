@@ -1,9 +1,11 @@
 name: Citrus Tree (Backyard, small)
 type: fruit
 location: Backyard
-health: "Healthy"
+health: "Growing but leaves are noticeably paler/lighter green than the larger citrus — may need additional feeding. Overall shape and growth are fine for a younger tree."
+healthStatus: good
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0917.jpg
-notes: "Smaller citrus — exact variety uncertain. Similar care to other citrus."
+notes: "Smaller citrus near the back deck. The pale lime-green tone compared to the larger backyard citrus suggests it's either a young tree still establishing or it's not getting enough nutrients. Give it a good citrus feed and see if the colour improves over the next month. Exact variety still uncertain. Last fed April 15 2026 — had been 2 months since the previous feed. The pale leaves may improve now that it's been fed. Check again in a couple of weeks."
 tasks:
   - months: [9]
     task: Feed with citrus fertiliser

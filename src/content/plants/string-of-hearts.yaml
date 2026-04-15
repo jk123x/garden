@@ -2,16 +2,27 @@ name: String of Hearts
 type: succulent
 indoor: true
 location: Front entrance (hanging)
-health: "OK"
+health: "OK — sparse trailing, would benefit from a trim and brighter spot"
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0951.jpg
-notes: "Ceropegia woodii. Trailing heart-shaped leaves on thin stems."
+notes: "Ceropegia woodii. Strand coverage is modest — could be denser. A haircut encourages branching. Make sure it gets bright indirect light."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — very drought tolerant, let dry fully between drinks
     category: water
+  - months: [4]
+    task: Give stems a haircut to encourage branching and bushier growth
+    category: prune
   - months: [9]
     task: Trim leggy stems to encourage bushier growth
     category: prune
+  - months: [4, 5, 6, 7, 8]
+    task: Move to brightest available indirect-light spot
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

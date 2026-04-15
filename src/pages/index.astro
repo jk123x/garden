@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/layout.astro';
 import { getCollection } from 'astro:content';
-import { getCurrentMonth, getTasksForMonth, MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS } from '../lib/utils';
+import { getCurrentMonth, getTasksForMonth, getPlantsNeedingAttention, MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS, SEASONAL_CONTEXT } from '../lib/utils';
+import AttentionCard from '../components/AttentionCard.astro';
 
 const allPlants = await getCollection('plants');
 const currentMonth = getCurrentMonth();
@@ -28,15 +29,32 @@ function groupByCategory(tasks: ReturnType<typeof getTasksForMonth>) {
 const outdoorByCategory = groupByCategory(outdoorTasks);
 const indoorByCategory = groupByCategory(indoorTasks);
 
-type TaskGroup = { indoor: boolean; tasks: ReturnType<typeof getTasksForMonth>; byCategory: Record<string, ReturnType<typeof getTasksForMonth>>; nextTasks: ReturnType<typeof getTasksForMonth>; plantCount: number };
+const outdoorAttention = getPlantsNeedingAttention(outdoorPlants);
+const indoorAttention = getPlantsNeedingAttention(indoorPlants);
+
+const seasonalContext = SEASONAL_CONTEXT[currentMonth];
+const isAutumn = currentMonth >= 4 && currentMonth <= 5;
+
+const outdoorPhotosNeeded = outdoorPlants.filter(p => p.data.photoNeeded);
+const indoorPhotosNeeded = indoorPlants.filter(p => p.data.photoNeeded);
+
+type TaskGroup = {
+  indoor: boolean;
+  tasks: ReturnType<typeof getTasksForMonth>;
+  byCategory: Record<string, ReturnType<typeof getTasksForMonth>>;
+  nextTasks: ReturnType<typeof getTasksForMonth>;
+  plantCount: number;
+  attention: typeof outdoorAttention;
+  photosNeeded: typeof outdoorPhotosNeeded;
+};
 const groups: TaskGroup[] = [
-  { indoor: false, tasks: outdoorTasks, byCategory: outdoorByCategory, nextTasks: outdoorNextTasks, plantCount: outdoorPlants.length },
-  { indoor: true, tasks: indoorTasks, byCategory: indoorByCategory, nextTasks: indoorNextTasks, plantCount: indoorPlants.length },
+  { indoor: false, tasks: outdoorTasks, byCategory: outdoorByCategory, nextTasks: outdoorNextTasks, plantCount: outdoorPlants.length, attention: outdoorAttention, photosNeeded: outdoorPhotosNeeded },
+  { indoor: true, tasks: indoorTasks, byCategory: indoorByCategory, nextTasks: indoorNextTasks, plantCount: indoorPlants.length, attention: indoorAttention, photosNeeded: indoorPhotosNeeded },
 ];
 ---
 
 <Layout title="Garden Dashboard">
-  {groups.map(({ indoor, tasks, byCategory, nextTasks, plantCount }) => (
+  {groups.map(({ indoor, tasks, byCategory, nextTasks, plantCount, attention, photosNeeded }) => (
     <div data-indoor={String(indoor)} class="animate-in space-y-10">
       <div>
         <h1 class="text-6xl font-semibold text-ink tracking-tight">
@@ -44,8 +62,85 @@ const groups: TaskGroup[] = [
         </h1>
         <p class="text-ink-soft mt-3 text-lg">
           {tasks.length} task{tasks.length !== 1 ? 's' : ''} across {plantCount} plant{plantCount !== 1 ? 's' : ''}
+          {attention.attention.length > 0 && (
+            <span> · {attention.attention.length} need{attention.attention.length === 1 ? 's' : ''} attention</span>
+          )}
         </p>
       </div>
+
+      {photosNeeded.length > 0 && (
+        <section class="bg-terra-soft/50 rounded-xl border border-terra/15 p-5">
+          <h2 class="font-display text-lg font-semibold text-terra mb-3">Photos needed</h2>
+          <ul class="space-y-2.5">
+            {photosNeeded.map((plant) => (
+              <li class="flex items-start gap-3">
+                <a href={`/plants/${plant.id}`} class="text-terra hover:text-terra/80 font-medium transition-colors shrink-0 whitespace-nowrap">
+                  {plant.data.name}
+                </a>
+                <span class="text-sm text-ink-soft">{plant.data.photoNeeded}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {seasonalContext && (
+        <div class="bg-olive-soft/60 border border-olive/10 rounded-xl p-5">
+          <p class="font-display text-lg font-semibold text-olive">{seasonalContext.headline}</p>
+          <p class="text-ink-soft mt-1">{seasonalContext.description}</p>
+        </div>
+      )}
+
+      {attention.attention.length > 0 && (
+        <section>
+          <h2 class="text-2xl font-semibold text-ink mb-4 flex items-baseline gap-3">
+            Needs attention
+            <span class="text-ink-faint text-sm font-normal">
+              {attention.attention.length} flagged
+            </span>
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {attention.attention.map((plant) => (
+              <AttentionCard plant={plant} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {attention.unassessed.length > 0 && (
+        <div class="bg-paper/60 rounded-xl border border-rule-light p-5">
+          <p class="text-sm font-medium text-ink-soft mb-3">Needs assessment</p>
+          <div class="flex flex-wrap gap-2">
+            {attention.unassessed.map((plant) => (
+              <a
+                href={`/plants/${plant.id}`}
+                class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-100 text-sm text-stone-600 hover:bg-stone-200 transition-colors"
+              >
+                {plant.data.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {indoor && isAutumn && (
+        <section class="bg-terra-soft/40 rounded-xl border border-terra/15 p-6">
+          <h2 class="text-xl font-semibold text-ink mb-1">
+            Indoor autumn care
+          </h2>
+          <p class="font-display italic text-ink-soft mb-4 text-sm">
+            A few things worth doing across the whole indoor collection this month.
+          </p>
+          <ul class="space-y-1.5 text-ink text-sm">
+            <li class="flex gap-3"><span class="text-terra">·</span>Water less often — check soil 2cm down before watering. Cool rooms dry slowly.</li>
+            <li class="flex gap-3"><span class="text-terra">·</span>Boost humidity for ferns and Grey Star — pebble trays or group plants.</li>
+            <li class="flex gap-3"><span class="text-terra">·</span>Yellow sticky traps for fungus gnats — autumn is peak.</li>
+            <li class="flex gap-3"><span class="text-terra">·</span>Wipe dust off broadleaves so they can photosynthesise in low light.</li>
+            <li class="flex gap-3"><span class="text-terra">·</span>Shift plants closer to the brightest windows. Daylight drops fast from here.</li>
+            <li class="flex gap-3"><span class="text-terra">·</span>Hold off feeding until spring (September) — no growth, no feed.</li>
+          </ul>
+        </section>
+      )}
 
       {tasks.length === 0 ? (
         <div class="bg-paper rounded-xl p-10 text-center border border-rule-light">

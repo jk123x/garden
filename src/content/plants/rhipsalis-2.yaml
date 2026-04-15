@@ -2,16 +2,21 @@ name: Rhipsalis teres
 type: succulent
 indoor: true
 location: Library (wall-mounted)
-health: "OK"
+health: "OK — sculptural form, watch for etiolation if stems pale further"
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0965.jpg
-notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth."
+notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth. A slightly pale green — make sure it gets enough light."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
+  - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry out between drinks
     category: water
   - months: [12, 1, 2]
     task: Water when top cm of soil is dry
     category: water
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

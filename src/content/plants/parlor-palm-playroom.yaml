@@ -2,16 +2,30 @@ name: Parlor Palm (Playroom)
 type: palm
 indoor: true
 location: Playroom
-health: "Very leggy, needs more light"
+health: "Severely leggy — etiolated single stem, sitting on heat/AC unit"
+healthStatus: struggling
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0950.jpg
-notes: "Chamaedorea elegans."
+notes: "Chamaedorea elegans. Stem has stretched dramatically toward the window, only a small tuft of fronds at the top. Currently on top of an HVAC unit — dry air plus bottom heat is a bad combo. Relocate before winter or the plant will keep declining."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with liquid fertiliser monthly
     category: feed
-  - months: [6, 7, 8]
-    task: Reduce watering over winter
+  - months: [4]
+    task: Relocate to brightest available spot, off the heating/AC unit
+    category: general
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering — check soil 2cm down before watering
     category: water
+  - months: [9]
+    task: Consider cutting the leggy stem back hard to encourage fresh growth
+    category: prune
   - months: [9]
     task: Trim any brown/yellow fronds
     category: prune
+  - months: [4, 5]
+    task: Wipe fronds with damp cloth to remove dust
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

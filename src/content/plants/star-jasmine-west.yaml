@@ -1,0 +1,21 @@
+name: Star Jasmine (West fence)
+type: climber
+location: Left (west) side fence and pergola
+health: "Moderate coverage growing along the west side fence and up into a pergola/carport structure. Not as dense as the back fence but filling in. Stems are healthy and climbing."
+healthStatus: good
+lastAssessed: "2026-04"
+image: /images/plants/sj-west-main.jpg
+notes: "Trachelospermum jasminoides. Growing along the west/left side and onto overhead structure. Sparser than the back fence section but actively growing. Train stems where you want coverage — jasmine follows the structure you give it. Feed in spring to push new growth."
+tasks:
+  - months: [1, 2]
+    task: Prune and shape after flowering
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [10, 11, 12, 1]
+    task: Train and tie in new growth
+    category: general

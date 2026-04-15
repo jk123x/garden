@@ -1,0 +1,21 @@
+name: Star Jasmine (Back fence)
+type: climber
+location: Back (north) fence
+health: "Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried leaf debris caught in the dense growth and a few yellow leaves (normal cycling). This section is fully established and vigorous."
+healthStatus: healthy
+lastAssessed: "2026-04"
+image: /images/plants/IMG_0919.jpg
+notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
+tasks:
+  - months: [1, 2]
+    task: Prune and shape after flowering
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [10, 11, 12, 1]
+    task: Train and tie in new growth
+    category: general

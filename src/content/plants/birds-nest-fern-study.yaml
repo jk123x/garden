@@ -2,19 +2,33 @@ name: Birds Nest Fern (Study)
 type: fern
 indoor: true
 location: Study
-health: "Stressed — brown/curling fronds, needs attention"
+health: "Stressed — multiple brown/curling frond tips, low humidity suspected"
+healthStatus: struggling
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0959.jpg
-notes: "Asplenium nidus. Struggling — may need more humidity or less direct light."
+notes: "Asplenium nidus. Many fronds showing brown crispy tips and edges. Likely too dry — study is probably low humidity. Don't water into the centre rosette. May also be pot-bound."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
+  - months: [4]
+    task: Trim worst brown fronds at the base
+    category: prune
   - months: [9]
     task: Remove damaged outer fronds
     category: prune
   - months: [12, 1, 2]
     task: Keep moist — doesn't like drying out in summer
     category: water
-  - months: [6, 7, 8]
-    task: Mist regularly if air is dry from heating
+  - months: [4, 5]
+    task: Reduce watering — check soil 2cm down before watering
+    category: water
+  - months: [4, 5, 6, 7, 8]
+    task: Mist fronds and sit on pebble tray / group with other plants for humidity
     category: general
+  - months: [4, 5]
+    task: Gently wipe fronds with damp cloth to remove dust
+    category: general
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

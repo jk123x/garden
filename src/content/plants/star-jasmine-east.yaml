@@ -1,0 +1,21 @@
+name: Star Jasmine (East fence)
+type: climber
+location: Right (east) side fence, near kids' bedrooms
+health: "Very sparse — mostly bare stems with scattered fresh leaf growth. This is the newest section and will take 1-2 more growing seasons to fill in meaningfully."
+healthStatus: establishing
+lastAssessed: "2026-04"
+image: /images/plants/sj-east-side.jpg
+notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there."
+tasks:
+  - months: [1, 2]
+    task: Prune and shape after flowering
+    category: prune
+  - months: [9]
+    task: Feed with slow-release fertiliser
+    category: feed
+  - months: [3]
+    task: Feed again in autumn
+    category: feed
+  - months: [10, 11, 12, 1]
+    task: Train and tie in new growth
+    category: general

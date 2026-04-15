@@ -13,6 +13,9 @@ const plants = defineCollection({
     indoor: z.boolean().default(false),
     location: z.string(),
     health: z.string().optional(),
+    healthStatus: z.enum(['healthy', 'good', 'monitor', 'struggling', 'dormant', 'establishing', 'unknown']).optional(),
+    lastAssessed: z.string().optional(),
+    photoNeeded: z.string().optional(),
     image: z.string().optional(),
     notes: z.string().optional(),
     tasks: z.array(z.object({

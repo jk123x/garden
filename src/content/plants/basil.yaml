@@ -1,9 +1,11 @@
 name: Basil
 type: herb
 location: Backyard (raised bed)
-health: "Healthy"
+health: "Still green but getting leggy — stems elongating with leaves concentrated at the top. Close to bolting. Harvest hard now before cool weather finishes it off."
+healthStatus: good
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0923.jpg
-notes: "In raised corrugated bed."
+notes: "Growing in the raised corrugated bed. Annual that won't survive winter in Melbourne. The plants are starting to get leggy and stretched, which means bolting (flowering) is imminent. Once basil flowers, leaf production drops and flavour changes. Harvest everything you can now — make pesto, freeze leaves. Don't bother trying to maintain it through autumn, just enjoy what's left and replant in October."
 tasks:
   - months: [10, 11, 12, 1, 2]
     task: Pinch off flower buds to keep producing leaves

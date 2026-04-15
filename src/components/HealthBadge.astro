@@ -1,0 +1,17 @@
+---
+import { HEALTH_STATUS_LABELS, HEALTH_STATUS_COLORS } from '../lib/utils';
+
+interface Props {
+  status: string;
+  size?: 'sm' | 'md';
+}
+
+const { status, size = 'md' } = Astro.props;
+const label = HEALTH_STATUS_LABELS[status] || status;
+const colors = HEALTH_STATUS_COLORS[status] || 'bg-stone-100 text-stone-600';
+const sizeClasses = size === 'sm' ? 'text-xs px-2 py-0.5' : 'text-sm px-2.5 py-1';
+---
+
+<span class:list={['inline-block rounded-md font-semibold tracking-wide', colors, sizeClasses]}>
+  {label}
+</span>

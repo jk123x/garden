@@ -1,7 +1,10 @@
 name: Citrus Tree (Backyard)
 type: fruit
 location: Backyard
-health: "Healthy"
+health: "Healthy — dense green canopy with good leaf colour. Growing very close to the Mexican Sage which is crowding it slightly. Lighter green on newer upper growth is normal."
+healthStatus: healthy
+lastAssessed: "2026-04"
+notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
 image: /images/plants/IMG_0914.jpg
 tasks:
   - months: [9]

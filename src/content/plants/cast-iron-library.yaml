@@ -2,16 +2,33 @@ name: Cast Iron Plant (x2, Library)
 type: perennial
 indoor: true
 location: Library
-health: "Struggling — very sparse, only 2-3 leaves"
+health: "Struggling — very sparse (2-3 limp leaves), oversized pot risks overwatering"
+healthStatus: struggling
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0936.jpg
-notes: "Aspidistra elatior. Two plants."
+notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring."
 tasks:
   - months: [9, 3]
     task: Feed with slow-release or liquid fertiliser
     category: feed
+  - months: [4]
+    task: Stop watering until top 5cm of soil is fully dry; relocate to brightest available spot
+    category: water
+  - months: [4, 5, 6, 7, 8]
+    task: Reduce watering significantly — soil stays wet much longer in cool months
+    category: water
   - months: [9]
-    task: Wipe dust off leaves
+    task: Repot into a snug, smaller pot and use a free-draining mix
+    category: general
+  - months: [4, 5, 6, 7, 8]
+    task: Move closer to brightest available window — light drops fast through autumn
+    category: general
+  - months: [4, 5]
+    task: Wipe leaves with damp cloth to remove dust
     category: general
   - months: [9]
     task: Remove any yellowing leaves at base
     category: prune
+  - months: [4, 5, 6]
+    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
+    category: spray

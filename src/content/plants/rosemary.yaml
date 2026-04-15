@@ -1,9 +1,11 @@
 name: Rosemary
 type: herb
 location: Backyard
-health: "Healthy"
+health: "Genuinely healthy — large dense bush with good upright form, full foliage top to bottom. One of the most trouble-free plants in the garden."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0921.jpg
-notes: "Large bush."
+notes: "Rosmarinus officinalis. Big established bush along the back fence near the star jasmine. Dense, upright, and full with no bare patches or dieback. Thrives on the full sun and free-draining position. Basically bulletproof in Melbourne. Prune for shape and harvest after flowering in spring."
 tasks:
   - months: [2, 3]
     task: Prune after flowering — shape but don't cut into old wood

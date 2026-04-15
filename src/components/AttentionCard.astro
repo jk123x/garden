@@ -1,0 +1,45 @@
+---
+import HealthBadge from './HealthBadge.astro';
+
+interface Props {
+  plant: {
+    id: string;
+    data: {
+      name: string;
+      location: string;
+      indoor?: boolean;
+      health?: string;
+      healthStatus?: string;
+      image?: string;
+    };
+  };
+}
+
+const { plant } = Astro.props;
+const { name, location, health, healthStatus, image, indoor } = plant.data;
+---
+
+<a
+  href={`/plants/${plant.id}`}
+  data-indoor={String(!!indoor)}
+  class="block bg-paper rounded-xl border border-rule-light overflow-hidden hover:border-terra/30 hover:shadow-lg hover:shadow-terra/5 transition-all duration-300"
+>
+  {image && (
+    <img
+      src={image}
+      alt={name}
+      class="w-full h-36 object-cover"
+      loading="lazy"
+    />
+  )}
+  <div class="p-4">
+    <h3 class="font-display text-lg font-semibold text-ink">{name}</h3>
+    <div class="flex items-center gap-2 mt-2">
+      {healthStatus && <HealthBadge status={healthStatus} size="sm" />}
+      <span class="text-xs text-ink-faint">{location}</span>
+    </div>
+    {health && (
+      <p class="text-sm text-ink-soft mt-2 line-clamp-2">{health}</p>
+    )}
+  </div>
+</a>

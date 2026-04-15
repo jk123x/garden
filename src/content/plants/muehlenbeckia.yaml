@@ -1,9 +1,11 @@
 name: Muehlenbeckia
 type: climber
 location: Front fence (other side)
-health: "Healthy"
+health: "Vigorous — dense fine-textured growth cascading over the front fence and forming a thick living screen. Some internal brown/dead material within the mass but that's typical for muehlenbeckia. Overall excellent coverage."
+healthStatus: healthy
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0954.jpg
-notes: "Wire vine / mattress vine. Vigorous grower, good for covering fences."
+notes: "Wire vine / mattress vine (Muehlenbeckia complexa). The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill."
 tasks:
   - months: [3, 9]
     task: Trim to shape

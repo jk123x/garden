@@ -1,9 +1,11 @@
 name: Cinnamon Wattle
 type: tree
 location: Front yard
-health: "Healthy"
+health: "The tree itself looks fine — good canopy shape, no obvious dieback or bare patches. But the variety still genuinely needs confirming. The weeping narrow-leaf form could be Acacia leprosa (Cinnamon Wattle), Acacia cognata (River Wattle/Bower Wattle), or a cultivar like 'Limelight'. A closer photo of the phyllodes (leaves) and bark would help ID it."
+healthStatus: monitor
+lastAssessed: "2026-04"
 image: /images/plants/IMG_0891.jpg
-notes: "Acacia leprosa or similar. Needs confirming — might be a different wattle variety."
+notes: "Tall weeping tree near the front of the house, next to the Westringia. The fine pendulous foliage creates a nice screen. Some yellow older leaves at the base which is normal autumn leaf cycling for wattles. Health-wise it's fine — the 'monitor' status is because we're not 100% sure what it is, and different wattle species have different lifespans (some are short-lived 7-15 year trees). Getting the ID right matters for knowing what to expect."
 tasks:
   - months: [10]
     task: Light prune after flowering to shape
