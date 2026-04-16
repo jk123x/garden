@@ -69,18 +69,55 @@ const groups: TaskGroup[] = [
       </div>
 
       {!indoor && (
-        <section class="bg-paper rounded-xl border border-rule-light border-l-4 border-l-olive p-5">
-          <div class="flex items-baseline justify-between mb-3">
-            <h2 class="font-display text-lg font-semibold text-ink">Right now</h2>
+        <section class="bg-paper rounded-xl border border-rule-light border-l-4 border-l-olive p-5 space-y-5">
+          <div class="flex items-baseline justify-between">
+            <h2 class="font-display text-lg font-semibold text-ink">Right now — autumn work</h2>
             <a href="/transplant" class="text-sm text-terra hover:text-terra/80 font-medium transition-colors">Transplant plan &rarr;</a>
           </div>
-          <ul class="space-y-2.5 text-ink-soft">
-            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Mulch the new bed</strong> — 3-5cm sugar cane or pea straw, keep 5cm off stems/crowns</span></li>
-            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Watch transplants for wilting</strong> over the next 1-2 weeks. Water gently if they droop.</span></li>
-            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">No fertiliser on transplants</strong> for 2-3 weeks — let roots establish</span></li>
-            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Lavender hard prune</strong> when the current flowering finishes — cut into lowest green growth (not bare wood)</span></li>
-            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Follow-up Epsom salts on citrus</strong> in 2-3 weeks if yellowing persists (done April 16)</span></li>
-          </ul>
+
+          <div>
+            <p class="text-sm font-semibold text-ink mb-2">Mulching (before the cold sets in)</p>
+            <ul class="space-y-1.5 text-ink-soft text-sm">
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>New perennial bed (transplants) — 3-5cm sugar cane or pea straw, keep 5cm off stems</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Feijoa, Banksia, Cinnamon Wattle — mulch around the base</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Strawberry — straw mulch specifically (keeps fruit off soil)</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold text-ink mb-2">Cutting back / tidying</p>
+            <ul class="space-y-1.5 text-ink-soft text-sm">
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Kangaroo Paw (front + back) — cut spent flower stalks to base, pull dead leaves from centre of clumps</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Achillea — cut back any remaining spent flower stems</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Native daisies — tidy spent flowers</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Birds nest fern — clear dead material from centre of rosette, remove worst brown fronds</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold text-ink mb-2">Weeding</p>
+            <ul class="space-y-1.5 text-ink-soft text-sm">
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Nature strip — hand-weed the small weeds through the grass</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Lavender base — clear the weedy grass around it</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold text-ink mb-2">Transplant post-care (April 16 →)</p>
+            <ul class="space-y-1.5 text-ink-soft text-sm">
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Watch transplants for wilting over 1-2 weeks. Water gently if they droop.</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>No fertiliser on transplants for 2-3 weeks</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Follow-up Epsom salts on citrus in 2-3 weeks if yellowing persists</span></li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold text-ink mb-2">When flowering finishes</p>
+            <ul class="space-y-1.5 text-ink-soft text-sm">
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Lavender — hard prune into lowest green growth (not bare wood). Critical intervention this year.</span></li>
+              <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span>Mexican Sage — cut back by half to two-thirds (usually May-June)</span></li>
+            </ul>
+          </div>
         </section>
       )}
 
