@@ -137,7 +137,7 @@ const groups: TaskGroup[] = [
         </section>
       )}
 
-      {seasonalContext && (
+      {!indoor && seasonalContext && (
         <div class="bg-olive-soft/60 border border-olive/10 rounded-xl p-5">
           <p class="font-display text-lg font-semibold text-olive">{seasonalContext.headline}</p>
           <p class="text-ink-soft mt-1">{seasonalContext.description}</p>
