@@ -1,11 +1,10 @@
 name: Tomatoes
 type: vegetable
 location: Backyard (raised beds)
-health: "Done for the season — in bad shape. Need pulling out and clearing. Plants in at least 2 raised beds."
-healthStatus: monitor
+health: "All tomato plants pulled from all 3 raised beds as of April 16. All beds cleared and composted. Ready for replanting in October-November."
+healthStatus: dormant
 lastAssessed: "2026-04"
-photoNeeded: "Photos of both beds with tomato plants — show current state for cleanup planning"
-notes: "Summer annuals that are finished for the year. In at least 2 raised corrugated beds (one shared with basil, another separate). Pull out all dead/dying plants, remove any stakes or ties, and clear the beds completely. Work in fresh compost and aged manure before replanting in October-November. Don't compost diseased tomato foliage — bin it to avoid carrying over fungal problems."
+notes: "Summer annuals. Three raised beds previously had tomatoes — all cleared and composted April 16. One bed is now being used for transplanted perennials (Echinacea, Achillea). The other two beds are resting over winter with fresh compost worked in. For next season, plan where the tomatoes will go — ideally rotate them so they're not in the same bed year-on-year to reduce disease pressure."
 tasks:
   - months: [10]
     task: Plant seedlings after last frost

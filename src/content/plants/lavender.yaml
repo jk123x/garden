@@ -1,12 +1,11 @@
 name: Lavender
 type: shrub
 location: Backyard
-health: "Flowering well but getting leggy — the lower stems are bare and woody with all the growth and flowers up top on long stems. Weedy grass growing around the base. Needs a hard prune after flowering to prevent the woody-base problem getting worse."
+health: "Woody base confirmed from close-ups — roughly 20-30cm of bare woody stems before any green foliage. Still flowering well on top but the leggy/woody habit is well established. Salvageable with careful pruning but this is the last chance before it's gone too far."
 healthStatus: good
 lastAssessed: "2026-04"
-notes: "Growing along the back path near a window. The purple flower spikes look good, but the plant habit is heading toward trouble — lavender goes permanently woody and splits open if not pruned annually. After flowering finishes, cut back hard into green growth (not into bare wood — it won't resprout from old wood). Clear the weedy grass from around the base. This is the most important maintenance window for lavender."
-photoNeeded: "Shot of the woody base section to assess how far up the bare wood goes"
-image: /images/plants/IMG_0918.jpg
+notes: "Growing along the back path near a window. The woody base is the main issue — lavender becomes permanently leggy if not pruned regularly, and once stems go bare they won't regrow leaves from old wood. Immediately after flowering finishes (late autumn), prune HARD into the lowest remaining green growth — don't cut into bare wood. The plant will look drastic but recover with fresh foliage from the remaining green. This is the critical intervention. If you let it go another year, it'll split open in the middle and need replacing."
+image: /images/plants/IMG_1004.jpg
 tasks:
   - months: [2, 3]
     task: Prune back by a third after flowering — don't cut into old wood

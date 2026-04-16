@@ -1,11 +1,11 @@
 name: Basil
 type: herb
 location: Backyard (raised bed)
-health: "In bad shape — leggy, close to bolting, end of season. The whole veggie bed needs clearing out. Tomato plants in the same bed are also done."
-healthStatus: monitor
+health: "Bed has been cleared and composted (April 16). Nothing growing now. Ready for replanting in October."
+healthStatus: dormant
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0923.jpg
-notes: "Growing in a raised corrugated bed with tomato plants. Both annuals, both done for the season. Harvest any remaining basil leaves now (pesto, freeze), then pull everything out and clear the bed. Don't try to maintain it — replant in October. The bed will need fresh compost worked in before spring planting."
+image: /images/plants/IMG_0993.jpg
+notes: "Annual herb. Veggie bed was cleared out on April 16 — Jay then transplanted Echinacea and Achillea into it rather than leaving it empty for basil. Basil will need a different spot in October, or share space with the perennials if there's room in the corners."
 tasks:
   - months: [10, 11, 12, 1, 2]
     task: Pinch off flower buds to keep producing leaves

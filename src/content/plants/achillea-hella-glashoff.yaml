@@ -1,11 +1,11 @@
 name: Achillea 'Hella Glashoff'
 type: perennial
-location: Backyard (raised bed)
-health: "Alive — ferny grey-green foliage clearly visible in the perennial bed close-up photos (April 2026). Surviving despite being crowded by the Rudbeckia. Needs space."
-healthStatus: monitor
+location: Backyard (new composted bed + original bed)
+health: "Divided and transplanted April 16. Some clumps moved to the newly composted bed, some stayed in the original bed. Good root division, plants look healthy."
+healthStatus: healthy
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0975.jpg
-notes: "Yarrow (Achillea 'Hella Glashoff'). Originally 2 plants, confirmed surviving in the raised bed — the distinctive ferny grey-green foliage is visible in photos. Being crowded by the dominant Rudbeckia. When the bed gets its cleanup, pull back the Rudbeckia to give the Achillea room. If the clumps are healthy enough, they can be divided and spread. Tough plant that can bounce back if given space and light."
+image: /images/plants/IMG_1018.jpg
+notes: "Yarrow (Achillea 'Hella Glashoff'). Originally 2 plants in the metal bed — divided during the April 16 transplant session into multiple clumps across both beds. Yarrow divides easily and transplants well. The ferny basal foliage and the tall flowering stems (that topple when tall) are the same plant. Water in deeply, mulch lightly, no feeding for 2-3 weeks. Should establish fast in the fresh compost."
 tasks:
   - months: [3, 4]
     task: Cut back spent flower stems

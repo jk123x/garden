@@ -1,11 +1,11 @@
 name: Echinacea Sombrero
 type: perennial
-location: Backyard (raised bed)
-health: "One plant confirmed alive — a red flower spotted in the raised bed (April 2026). At least one crown survived. The others likely died from overwatering: Jay was watering heavily to compensate for the metal bed getting extremely hot in summer, which suited the Rudbeckia but rotted the Echinacea roots."
-healthStatus: monitor
+location: Backyard (new composted bed)
+health: "Transplanted April 16 to the newly composted bed. Clump is intact with multiple emerging flower buds and the original red bloom. In better drainage now — should really take off once it settles."
+healthStatus: good
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0976.jpg
-notes: "Echinacea 'Sombrero Salsa Red'. Originally 2 plants in the raised corrugated metal bed alongside Rudbeckia ×2, Achillea ×2, and Salvia nemorosa ×2. Most of the bed has been taken over by the Rudbeckia. Jay cut back the dying Echinacea hard. Root cause of die-off is likely overwatering — the metal bed gets very hot in summer, and heavy compensatory watering created wet conditions Echinacea can't handle (Rudbeckia tolerates wet much better). One plant confirmed alive with a red flower in April 2026. The whole bed needs a cleanup audit to find what's still alive underneath the Rudbeckia."
+image: /images/plants/IMG_1018.jpg
+notes: "Echinacea 'Sombrero Salsa Red'. Moved from the original metal raised bed (where overwatering killed the others) into the freshly composted bed that previously held tomatoes/basil. Water in deeply, mulch 3-5cm keeping it off the crown, then leave alone. No fertiliser for 2-3 weeks. Key rule: don't overwater over winter — that's what killed the previous plants. Normal rainfall should be enough. Check soil with finger test before watering."
 tasks:
   - months: [8, 9]
     task: Check for new growth emerging from crown

@@ -1,12 +1,11 @@
 name: Lime Tree
 type: fruit
 location: Backyard
-health: "Producing fruit but multiple leaves showing yellowing — interveinal chlorosis (yellow between the veins, veins stay green) visible on several leaves, not just one or two. Classic sign of magnesium deficiency, common in citrus. Needs a feed."
+health: "Two issues confirmed from close-up photos: (1) magnesium deficiency — clear interveinal chlorosis visible, yellow between green veins. (2) Citrus leaf miner — silvery squiggly tracks on multiple leaves, distinctive curled leaf margins. Both are treatable."
 healthStatus: good
 lastAssessed: "2026-04"
-notes: "Growing next to sage plants near the back deck. One green lime visible on the tree. The yellowing pattern across multiple leaves is more than normal leaf cycling — the interveinal chlorosis suggests magnesium deficiency. Apply Epsom salts (magnesium sulfate) as a foliar spray or soil drench, plus a good citrus-specific fertiliser. The crowding from the sage plants right up against it isn't helping — citrus prefer good airflow around the canopy. Last fed April 15 2026 — had been 2 months since the previous feed. Still worth applying Epsom salts separately for the magnesium deficiency (1 tablespoon per litre of water as a soil drench)."
-photoNeeded: "Close-up of the yellowing leaves — need to confirm chlorosis pattern for diagnosis"
-image: /images/plants/IMG_0926.jpg
+notes: "Growing next to sage plants near the back deck. Last fed April 15 2026 with fruit fertiliser. Epsom salts drench applied April 16 for the magnesium deficiency. Re-check leaves in 2-3 weeks — if yellowing persists, repeat the Epsom salts. Citrus leaf miner is the other confirmed issue — silvery squiggly tracks and curled leaves. Treat with PestOil or eco-oil fortnightly during active growth (spring/summer). Prune off the worst curled leaves. Leaf miner looks bad but rarely kills established trees."
+image: /images/plants/IMG_0998.jpg
 tasks:
   - months: [9]
     task: Feed with citrus fertiliser

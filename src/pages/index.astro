@@ -68,6 +68,22 @@ const groups: TaskGroup[] = [
         </p>
       </div>
 
+      {!indoor && (
+        <section class="bg-paper rounded-xl border border-rule-light border-l-4 border-l-olive p-5">
+          <div class="flex items-baseline justify-between mb-3">
+            <h2 class="font-display text-lg font-semibold text-ink">Right now</h2>
+            <a href="/transplant" class="text-sm text-terra hover:text-terra/80 font-medium transition-colors">Transplant plan &rarr;</a>
+          </div>
+          <ul class="space-y-2.5 text-ink-soft">
+            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Mulch the new bed</strong> — 3-5cm sugar cane or pea straw, keep 5cm off stems/crowns</span></li>
+            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Watch transplants for wilting</strong> over the next 1-2 weeks. Water gently if they droop.</span></li>
+            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">No fertiliser on transplants</strong> for 2-3 weeks — let roots establish</span></li>
+            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Lavender hard prune</strong> when the current flowering finishes — cut into lowest green growth (not bare wood)</span></li>
+            <li class="flex gap-3"><span class="text-olive shrink-0">·</span><span><strong class="text-ink">Follow-up Epsom salts on citrus</strong> in 2-3 weeks if yellowing persists (done April 16)</span></li>
+          </ul>
+        </section>
+      )}
+
       {photosNeeded.length > 0 && (
         <section class="bg-terra-soft/50 rounded-xl border border-terra/15 p-5">
           <h2 class="font-display text-lg font-semibold text-terra mb-3">Photos needed</h2>
