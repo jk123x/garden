@@ -1,0 +1,15 @@
+name: Native Daisies (unidentified)
+type: perennial
+location: Backyard (garden bed near path)
+health: "Flowering well — purple daisy-like flowers in good numbers, with some white flowers mixed in. Plants look healthy and vigorous."
+healthStatus: healthy
+lastAssessed: "2026-04"
+image: /images/plants/IMG_0985.jpg
+notes: "Unidentified native flowering plants near the stone path. Purple daisy-like flowers — possibly Brachyscome multifida (Cut-leaf Daisy) or similar native daisy. White flowers also present nearby. Jay can't remember the name. A closer look at the leaf shape would help narrow the ID. Flowering well in April which is a good sign."
+tasks:
+  - months: [3, 4]
+    task: Tidy up spent flowers
+    category: prune
+  - months: [9]
+    task: Feed lightly with native-friendly fertiliser (low phosphorus)
+    category: feed

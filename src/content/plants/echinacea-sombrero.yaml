@@ -4,7 +4,7 @@ location: Backyard (raised bed)
 health: "One plant confirmed alive — a red flower spotted in the raised bed (April 2026). At least one crown survived. The others likely died from overwatering: Jay was watering heavily to compensate for the metal bed getting extremely hot in summer, which suited the Rudbeckia but rotted the Echinacea roots."
 healthStatus: monitor
 lastAssessed: "2026-04"
-photoNeeded: "Close-up of each crown in the raised bed — confirm which plants survived"
+image: /images/plants/IMG_0976.jpg
 notes: "Echinacea 'Sombrero Salsa Red'. Originally 2 plants in the raised corrugated metal bed alongside Rudbeckia ×2, Achillea ×2, and Salvia nemorosa ×2. Most of the bed has been taken over by the Rudbeckia. Jay cut back the dying Echinacea hard. Root cause of die-off is likely overwatering — the metal bed gets very hot in summer, and heavy compensatory watering created wet conditions Echinacea can't handle (Rudbeckia tolerates wet much better). One plant confirmed alive with a red flower in April 2026. The whole bed needs a cleanup audit to find what's still alive underneath the Rudbeckia."
 tasks:
   - months: [8, 9]

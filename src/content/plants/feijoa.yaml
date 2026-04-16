@@ -1,11 +1,11 @@
 name: Feijoa
 type: fruit
 location: Front fence (one side)
-health: "Healthy foliage. Recently cut hard from 3.5m to 2m. Target height is 150-200cm. Needs time to recover before further pruning — next trim in late winter (August)."
+health: "Foliage healthy but internal structure is very congested even after the big 3.5m to 2m cut. Lots of crossing and competing branches visible. Needs thinning through the centre."
 healthStatus: healthy
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0896.jpg
-notes: "Pineapple guava (Acca sellowiana). Near the front fence. Just had a major height reduction from 3.5m to 2m — that's a big cut and the tree needs time to recover and push regrowth. Don't cut again until late winter (August), then take another 20-30cm with heading cuts and thin out the regrowth from the big cut. Goal is 150-160cm maintained with light trimming twice a year: after fruiting (April) and shaping (August). Going harder now would stress it too much after already losing 1.5m of height."
+image: /images/plants/IMG_0988.jpg
+notes: "Pineapple guava (Acca sellowiana). Near the front fence. Just had a major height reduction from 3.5m to 2m. The new photos (0987-0989) show the post-cut structure clearly — it's dense and congested inside. Next step is thinning: remove crossing branches, anything growing inward, and competing leaders. Wait until late winter (August) to do this — the tree needs to recover from the height cut first. Then maintain at 150-160cm with light trimming twice a year (after fruiting in April + shaping in August)."
 tasks:
   - months: [9]
     task: Feed with complete fertiliser

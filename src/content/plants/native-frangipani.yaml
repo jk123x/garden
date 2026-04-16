@@ -1,12 +1,11 @@
 name: Native Frangipani
 type: tree
 location: Backyard
-health: "Hard to assess — photo is a backlit silhouette so leaf condition isn't visible. Form looks OK from the outline, canopy is a bit open but that may be normal autumn thinning. Needs a better photo taken closer in daylight."
+health: "Canopy is open/sparse but that's partly intentional — Jay pruned the lower branches to let light through to plants below. Leaves look dark green where visible. The open structure is a combination of deliberate shaping and normal autumn thinning."
 healthStatus: good
 lastAssessed: "2026-04"
-photoNeeded: "Close-up of leaves and trunk in daylight — current photo is a useless backlit silhouette"
-image: /images/plants/IMG_0910.jpg
-notes: "Hymenosporum flavum. 4+ metres tall. The current photo (backlit against cloudy sky) doesn't show leaf detail at all — can only judge the tree's outline. Fallen yellow leaves on the lawn below are normal for April. Semi-deciduous in Melbourne, so some canopy thinning is expected heading into winter. A close-up photo of the leaves and trunk would let us properly check for issues."
+image: /images/plants/IMG_0982.jpg
+notes: "Hymenosporum flavum. 4+ metres tall. The sparse canopy that looked concerning in the original silhouette photo is actually partly by design — Jay pruned lower branches to improve light for understorey plants. The remaining leaves look dark green and healthy where visible in the newer photos (0981-0982). Still semi-deciduous so some thinning in autumn is expected. The tree structure looks fine — no major dieback or dead branches visible."
 tasks:
   - months: [8]
     task: Light prune to shape if needed

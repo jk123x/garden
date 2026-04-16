@@ -1,11 +1,11 @@
 name: Birds Nest Fern
 type: fern
 location: Front yard
-health: "Good overall size and vigour but brown edges visible on several fronds. Some frond tips are damaged or torn. Dried dead material at the centre of the rosette needs cleaning out. The brown edges suggest wind exposure or possibly too much direct sun over summer."
+health: "Good colour and size but brown margins on multiple fronds confirmed in close-up (IMG_0990). Some frond tips torn or damaged. Dead material accumulated in the centre of the rosette. Needs cleanup and possibly more shelter."
 healthStatus: good
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0958.jpg
-notes: "Asplenium australasicum. Big outdoor specimen in the front yard. The bright lime-green fronds are a good colour, but the brown frond margins and damaged tips indicate some stress — most likely wind damage or summer sun scorch. These ferns prefer sheltered, dappled light. Clean out any dead material from the centre of the rosette (old frond bases, leaf litter) to prevent rot. Damaged fronds can be removed at the base if they look bad. Check that the spot is getting enough afternoon shade — if the fronds keep browning, it may need relocation or shade cloth."
+image: /images/plants/IMG_0990.jpg
+notes: "Asplenium australasicum. Big outdoor specimen in the front yard. The close-up photo confirms brown frond edges — this is most likely wind damage or summer sun scorch. The centre of the rosette has accumulated dead frond bases and leaf litter that should be cleaned out to prevent rot. Remove the worst-damaged fronds at the base. If the browning keeps getting worse, the fern may need more afternoon shade — either from nearby plants or a temporary shade cloth over summer. Keep the soil consistently moist but not waterlogged."
 tasks:
   - months: [9, 12]
     task: Feed with liquid fertiliser (half strength)

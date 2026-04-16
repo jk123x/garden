@@ -1,10 +1,11 @@
 name: Lily Turf
 type: groundcover
 location: Various — around the garden
-health: "Dense green clumps visible in wider shots. No dedicated photo for close inspection."
+health: "Healthy — dense dark green clumps along sleepers/edging. No browning or damage visible."
 healthStatus: healthy
 lastAssessed: "2026-04"
-notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Multiple plants around the garden. Virtually indestructible — handles sun, shade, drought, and neglect. A dedicated photo would be good to confirm condition, but these rarely have problems."
+image: /images/plants/IMG_0983.jpg
+notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers. Some autumn leaf litter scattered around but the plant itself looks great. Virtually indestructible."
 tasks:
   - months: [8]
     task: Cut back old foliage before new spring growth

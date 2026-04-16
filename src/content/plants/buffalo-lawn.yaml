@@ -1,11 +1,11 @@
 name: Buffalo Lawn
 type: grass
 location: Backyard
-health: "Needs photo for proper assessment"
-healthStatus: unknown
+health: "Green but a bit thin and patchy in places. Scattered autumn leaves on the surface. Not terrible but could be thicker — may benefit from aeration and a feed."
+healthStatus: good
 lastAssessed: "2026-04"
-photoNeeded: "General shot of the lawn patch"
-notes: "Roughly 5x5m patch in the backyard. No photo taken yet — Jay will add later."
+image: /images/plants/IMG_0978.jpg
+notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (September), a feed, and overseeding any bare patches. Buffalo recovers well from runners so it should fill in with some attention. Clear the autumn leaf drop regularly so the grass gets light."
 tasks:
   - months: [9]
     task: Aerate lawn
