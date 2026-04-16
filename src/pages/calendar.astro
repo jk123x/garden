@@ -5,6 +5,7 @@ import { MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS, getCurrentMonth, getTask
 
 const allPlants = await getCollection('plants');
 const currentMonth = getCurrentMonth();
+const imageMap = new Map(allPlants.map(p => [p.id, p.data.image]));
 
 function buildMonths(plants: typeof allPlants) {
   return Array.from({ length: 12 }, (_, i) => {
@@ -78,25 +79,37 @@ const indoorMonths = buildMonths(allPlants.filter((p) => p.data.indoor));
               <div class="space-y-3">
                 {Object.entries(byPlant).map(([plantId, plantTasks]) => (
                   <div class:list={[
-                    'rounded-xl border p-5',
+                    'rounded-xl border p-5 flex gap-5',
                     isCurrent ? 'border-terra/20 bg-paper' : 'border-rule-light bg-paper',
                   ]}>
-                    <a
-                      href={`/plants/${plantId}`}
-                      class="font-display text-2xl font-medium text-ink hover:text-terra transition-colors"
-                    >
-                      {plantTasks[0].plantName}
-                    </a>
-                    <ul class="mt-3 space-y-2">
-                      {plantTasks.map((task) => (
-                        <li class="flex items-center gap-2.5">
-                          <span class:list={['inline-block px-2 py-0.5 rounded-md text-[11px] font-semibold tracking-wide uppercase shrink-0', CATEGORY_COLORS[task.category]]}>
-                            {CATEGORY_LABELS[task.category]}
-                          </span>
-                          <span class="text-ink-soft">{task.task}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    {imageMap.get(plantId) && (
+                      <a href={`/plants/${plantId}`} class="shrink-0">
+                        <img
+                          src={imageMap.get(plantId)}
+                          alt=""
+                          class="w-20 h-20 sm:w-24 sm:h-24 rounded-lg object-cover border border-rule-light"
+                          loading="lazy"
+                        />
+                      </a>
+                    )}
+                    <div class="flex-1 min-w-0">
+                      <a
+                        href={`/plants/${plantId}`}
+                        class="font-display text-2xl font-medium text-ink hover:text-terra transition-colors"
+                      >
+                        {plantTasks[0].plantName}
+                      </a>
+                      <ul class="mt-3 space-y-2">
+                        {plantTasks.map((task) => (
+                          <li class="flex items-center gap-2.5">
+                            <span class:list={['inline-block px-2 py-0.5 rounded-md text-[11px] font-semibold tracking-wide uppercase shrink-0', CATEGORY_COLORS[task.category]]}>
+                              {CATEGORY_LABELS[task.category]}
+                            </span>
+                            <span class="text-ink-soft">{task.task}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 ))}
               </div>
