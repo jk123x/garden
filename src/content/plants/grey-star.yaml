@@ -5,6 +5,8 @@ location: Library
 health: "Stressed — severe leaf curl, brown edges, humidity critical"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Mist 2-3x weekly and move away from any heating/AC vents. Set up a pebble tray."
 image: /images/plants/IMG_0934.jpg
 notes: "Ctenanthe setosa 'Grey Star'. Leaves curling inward as a drought/dry-air response. Purple undersides are normal. Keep away from any heating or air vents — dry air is the enemy."
 tasks:

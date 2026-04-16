@@ -5,6 +5,8 @@ location: Library
 health: "OK — sparse, would benefit from pinch-pruning for density"
 healthStatus: monitor
 lastAssessed: "2026-04"
+urgency: ongoing
+nextAction: "Pinch stem tips to encourage bushier growth."
 image: /images/plants/IMG_0937.jpg
 notes: "Peperomia prostrata. Tiny round patterned leaves on trailing stems. Coverage is thin — pinch tips to encourage branching."
 tasks:

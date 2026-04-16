@@ -5,6 +5,8 @@ location: Library
 health: "Struggling — tiny regrowth (2 small leaves) in a very oversized pot"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Stop watering until top 5cm fully dry. Plan to repot into a much smaller pot in spring."
 image: /images/plants/IMG_0933.jpg
 notes: "Aspidistra elatior. Was cut back hard and is re-emerging from the rhizome. Pot is way too big for current root mass — huge overwatering risk. Keep dry and consider repotting into a much smaller pot in spring."
 tasks:

@@ -5,6 +5,8 @@ location: Library
 health: "OK — good leaf density, some outer leaves bronzing at edges"
 healthStatus: monitor
 lastAssessed: "2026-04"
+urgency: ongoing
+nextAction: "Flush soil with plain water once; hold off feeding until spring."
 image: /images/plants/IMG_0944.jpg
 notes: "Aspidistra elatior 'Milky Way'. The white speckles are normal — not yellowing. A couple of outer leaves show bronze edges which may indicate over-watering or mineral buildup. Flush soil in autumn and hold off feed."
 tasks:

@@ -5,6 +5,8 @@ location: Library
 health: "OK — mostly healthy, a few brown frond tips"
 healthStatus: monitor
 lastAssessed: "2026-04"
+urgency: ongoing
+nextAction: "Wipe dust off fronds. Otherwise just keep humidity up."
 image: /images/plants/IMG_0931.jpg
 notes: "Asplenium nidus. Lush rippled fronds, good central rosette. A couple of fronds show tip browning. Don't water into the centre rosette."
 tasks:

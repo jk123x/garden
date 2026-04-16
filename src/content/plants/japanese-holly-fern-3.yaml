@@ -5,6 +5,8 @@ location: Library
 health: "Struggling — mealybug or scale infestation (white powdery + sticky honeydew on leaves)"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: today
+nextAction: "Treat mealybug — isopropyl-alcohol dab + soapy wipe-down. Plant should already be isolated."
 image: /images/plants/IMG_0971.jpg
 notes: "Cyrtomium falcatum. Close-up (IMG_0972) revealed white powdery fluff plus sticky honeydew — classic mealybug or scale. Already showing yellowing/necrotic patches on stressed leaves. ISOLATE IMMEDIATELY from other Library plants. Treat with 70% isopropyl alcohol on cotton bud, then soapy wipe-down. Repeat weekly for 3-4 weeks. If not cleared by round 3, step up to systemic (imidacloprid/Confidor)."
 tasks:

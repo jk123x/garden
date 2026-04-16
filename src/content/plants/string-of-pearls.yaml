@@ -5,6 +5,8 @@ location: Library
 health: "Recovering — mixed strand quality, some algae on soil surface"
 healthStatus: establishing
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Trim any mushy strands and clear algae/moss off the soil surface."
 image: /images/plants/IMG_0961.jpg
 notes: "Senecio rowleyanus. Was nearly lost, back now but uneven — some plump pearls, others shrivelled. Algae/moss on the soil surface suggests it's been kept a bit too wet."
 tasks:

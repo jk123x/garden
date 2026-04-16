@@ -5,6 +5,8 @@ location: Study
 health: "Stressed — multiple brown/curling frond tips, low humidity suspected"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Trim worst brown fronds at the base, then mist daily for 2 weeks."
 image: /images/plants/IMG_0959.jpg
 notes: "Asplenium nidus. Many fronds showing brown crispy tips and edges. Likely too dry — study is probably low humidity. Don't water into the centre rosette. May also be pot-bound."
 tasks:

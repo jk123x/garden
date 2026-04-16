@@ -14,6 +14,8 @@ const plants = defineCollection({
     location: z.string(),
     health: z.string().optional(),
     healthStatus: z.enum(['healthy', 'good', 'monitor', 'struggling', 'dormant', 'establishing', 'unknown']).optional(),
+    urgency: z.enum(['today', 'week', 'ongoing']).optional(),
+    nextAction: z.string().optional(),
     lastAssessed: z.string().optional(),
     photoNeeded: z.string().optional(),
     image: z.string().optional(),

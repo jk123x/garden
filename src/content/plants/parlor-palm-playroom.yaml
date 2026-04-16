@@ -5,6 +5,8 @@ location: Playroom
 health: "Severely leggy — etiolated single stem, sitting on heat/AC unit"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Relocate off the heating/AC unit to the brightest available spot."
 image: /images/plants/IMG_0950.jpg
 notes: "Chamaedorea elegans. Stem has stretched dramatically toward the window, only a small tuft of fronds at the top. Currently on top of an HVAC unit — dry air plus bottom heat is a bad combo. Relocate before winter or the plant will keep declining."
 tasks:

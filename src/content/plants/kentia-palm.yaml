@@ -5,6 +5,8 @@ location: Library
 health: "OK — sparse fronds, monitor for new growth"
 healthStatus: monitor
 lastAssessed: "2026-04"
+urgency: ongoing
+nextAction: "Just hold steady — slow grower, frond count will rebuild over months."
 image: /images/plants/IMG_0930.jpg
 notes: "Howea forsteriana. Slow grower, low-light tolerant. Current frond count is modest — pot is also on the larger side so watering restraint is important."
 tasks:

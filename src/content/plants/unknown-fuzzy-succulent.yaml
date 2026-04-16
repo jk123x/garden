@@ -5,6 +5,8 @@ location: Library
 health: "OK — slightly leggy, a trim will bring it back in shape"
 healthStatus: monitor
 lastAssessed: "2026-04"
+urgency: ongoing
+nextAction: "Trim leggy stems and tuck the cuttings back into the pot to fill it out."
 image: /images/plants/IMG_0935.jpg
 notes: "Unidentified. Upright fuzzy stems — likely Tradescantia sillamontana (White Velvet). Some stems flopping; a small flower spike was visible. Benefits from pruning back to encourage bushier, upright growth."
 tasks:

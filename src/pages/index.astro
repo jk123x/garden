@@ -144,21 +144,61 @@ const groups: TaskGroup[] = [
         </div>
       )}
 
-      {attention.attention.length > 0 && (
-        <section>
-          <h2 class="text-2xl font-semibold text-ink mb-4 flex items-baseline gap-3">
-            Needs attention
-            <span class="text-ink-faint text-sm font-normal">
-              {attention.attention.length} flagged
-            </span>
-          </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {attention.attention.map((plant) => (
-              <AttentionCard plant={plant} />
+      {attention.attention.length > 0 && (() => {
+        const today = attention.attention.filter((p) => p.data.urgency === 'today');
+        const week = attention.attention.filter((p) => p.data.urgency === 'week');
+        const ongoing = attention.attention.filter((p) => p.data.urgency === 'ongoing' || !p.data.urgency);
+        const tiers = [
+          { key: 'today', label: 'Today', subtitle: 'drop everything', plants: today, accent: 'border-l-rose-500', dotBg: 'bg-rose-500', headerColor: 'text-rose-700' },
+          { key: 'week', label: 'This week', subtitle: 'within 7 days', plants: week, accent: 'border-l-amber-500', dotBg: 'bg-amber-500', headerColor: 'text-amber-700' },
+          { key: 'ongoing', label: 'Ongoing', subtitle: 'recovery watch', plants: ongoing, accent: 'border-l-stone-300', dotBg: 'bg-stone-400', headerColor: 'text-ink-soft' },
+        ];
+        return (
+          <section class="space-y-6">
+            <h2 class="text-2xl font-semibold text-ink mb-1 flex items-baseline gap-3">
+              To do
+              <span class="text-ink-faint text-sm font-normal">
+                {attention.attention.length} plant{attention.attention.length === 1 ? '' : 's'} flagged
+              </span>
+            </h2>
+            {tiers.map((tier) => tier.plants.length > 0 && (
+              <div>
+                <div class="flex items-baseline gap-2.5 mb-2">
+                  <h3 class:list={['font-display text-lg font-semibold', tier.headerColor]}>{tier.label}</h3>
+                  <span class="text-ink-faint text-xs">· {tier.subtitle} · {tier.plants.length}</span>
+                </div>
+                <ul class:list={['bg-paper rounded-xl border border-rule-light border-l-4 divide-y divide-rule-light/60 overflow-hidden', tier.accent]}>
+                  {tier.plants.map((plant) => (
+                    <li class="px-4 py-3.5 flex items-center gap-4">
+                      <span class:list={['w-2 h-2 rounded-full shrink-0', tier.dotBg]}></span>
+                      {plant.data.image && (
+                        <img
+                          src={plant.data.image}
+                          alt=""
+                          class="w-10 h-10 rounded-full object-cover border border-rule-light shrink-0"
+                          loading="lazy"
+                        />
+                      )}
+                      <div class="flex-1 min-w-0">
+                        <a
+                          href={`/plants/${plant.id}`}
+                          class="text-terra hover:text-terra/80 font-medium transition-colors"
+                        >
+                          {plant.data.name}
+                        </a>
+                        <span class="text-ink-faint text-xs ml-2">· {plant.data.location}</span>
+                        {plant.data.nextAction && (
+                          <p class="text-ink-soft text-sm mt-0.5">{plant.data.nextAction}</p>
+                        )}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </div>
-        </section>
-      )}
+          </section>
+        );
+      })()}
 
       {attention.unassessed.length > 0 && (
         <div class="bg-paper/60 rounded-xl border border-rule-light p-5">

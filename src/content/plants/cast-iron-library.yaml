@@ -5,6 +5,8 @@ location: Library
 health: "Struggling — very sparse (2-3 limp leaves), oversized pot risks overwatering"
 healthStatus: struggling
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Stop watering until top 5cm fully dry; relocate to brightest available spot."
 image: /images/plants/IMG_0936.jpg
 notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring."
 tasks:
