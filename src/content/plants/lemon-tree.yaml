@@ -1,12 +1,11 @@
 name: Lemon Tree
 type: fruit
 location: Front yard
-health: "Established tree with reasonable canopy, though somewhat open — you can see through the branching in places. Leaf colour is OK from the distance in this photo but hard to assess detail. A closer shot would help check for citrus leaf miner, scale, or nutrient issues."
+health: "Healthier than the backyard citrus — Jay reports it's looking noticeably better. Producing fruit. The somewhat open canopy in the distance photo is just natural form."
 healthStatus: healthy
 lastAssessed: "2026-04"
-photoNeeded: "Close-up of leaves to check for leaf miner, scale, or nutrient issues"
 image: /images/plants/IMG_0888.jpg
-notes: "Front yard lemon tree. The photo is taken from a distance which makes detailed assessment difficult. The canopy being a bit open/sparse could indicate it needs heavier feeding (lemons are greedy), or it might just be the tree's natural form. Worth doing a close inspection of the leaves for: curled/tunneled leaves (citrus leaf miner), sticky residue or black sooty mould (scale insects), yellowing patterns (nutrient deficiency). Feed with citrus fertiliser in autumn and again in late winter. Confirmed producing lemons. Last fed April 15 2026 — had been 2 months since previous feed. Closer photos coming to check leaf condition for pests."
+notes: "Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October."
 tasks:
   - months: [9]
     task: Feed with citrus fertiliser

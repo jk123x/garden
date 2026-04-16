@@ -1,12 +1,11 @@
 name: Nature Strip
 type: groundcover
 location: Front (nature strip)
-health: "Needs assessment — currently weedy, visible in background of other photos"
-healthStatus: unknown
+health: "Doing OK — grass is green overall but has lots of little weeds through it. Some thin/bare patches. Not terrible, just needs weeding and tidying."
+healthStatus: good
 lastAssessed: "2026-04"
-photoNeeded: "Dedicated photo showing current state and weed situation"
-image: /images/plants/IMG_0952.jpg
-notes: "The nature strip out front. Has some weeds and could use a proper plan for what to plant here. Using Dianella photo as placeholder — needs its own photo."
+image: /images/plants/IMG_1020.jpg
+notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
 tasks:
   - months: [9, 10]
     task: Weed and tidy up

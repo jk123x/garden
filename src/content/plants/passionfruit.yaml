@@ -1,11 +1,10 @@
 name: Passionfruit
 type: climber
 location: Backyard
-health: "Growing through the star jasmine on the back fence — hard to distinguish the two from a distance but the vine appears to have decent foliage. Competing for space with vigorous jasmine. A closer look at the leaves and any fruit would help assess properly."
+health: "Growing through the star jasmine on the back fence — detail photos confirm decent foliage coverage mixed in with the jasmine. No visible fruit from these angles. Competing for space with the vigorous jasmine but holding its own."
 healthStatus: good
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0979.jpg
-photoNeeded: "Close-up of the passionfruit leaves and stems where they're distinct from the jasmine — check for vigour and any fruit"
+image: /images/plants/IMG_0979_2.jpg
 notes: "Growing on the back (north) fence, tangled in with the star jasmine. The two climbers are sharing the same fence which means they're competing. The passionfruit has larger, 3-lobed leaves vs the jasmine's small glossy ovals — visible in the upper portions of the fence coverage. The vine appears to be holding its own. Passionfruit are short-lived (5-7 years) and need heavy feeding. Should be producing fruit through autumn — check for any on the ground. Hard prune in late winter."
 tasks:
   - months: [8, 9]
