@@ -1,0 +1,12 @@
+name: Dusty Miller
+type: perennial
+location: Backyard (lawn edge near the paving / wood-chip patch)
+health: "Spotted in July 2026 photos — healthy knee-high mound of silvery-white woolly foliage, flowering small yellow buttons through midwinter. Thriving on zero attention."
+healthStatus: healthy
+lastAssessed: "2026-07"
+image: /images/plants/dusty-miller.jpg
+notes: "Tentative ID: Dusty Miller (Jacobaea maritima, syn. Senecio cineraria) — Jay doesn't know its origin, ID from July 2026 photos. Silver woolly leaves, small yellow clustered button flowers when mature. If correct, it's a bulletproof drought-hardy Mediterranean subshrub grown mainly for the silver foliage. The yellow flowers signal a mature plant; many gardeners shear them off to keep the silver foliage dense, but leaving them is harmless. Gets leggy over years — a light shear after flowering keeps it compact. Never needs water once established, dislikes wet feet, no feeding required. Confirm ID when convenient: woolly white felted leaves, deeply lobed, held on whitish stems."
+tasks:
+  - months: [11]
+    task: Light shear after flowering to keep the silver mound compact — don't cut into old bare wood
+    category: prune
