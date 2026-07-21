@@ -20,6 +20,9 @@ tasks:
     task: Cut flowers for the vase — this IS the maintenance
     category: harvest
 log:
+  - date: "2026-07-21"
+    entry: "Raised-bed check (photos): two of the distributed plants healthy with green basal growth. One planting grazed to bare stems — likely slugs/snails harboured by the straw mulch. Crown left in place: winter dieback is normal for these anyway, roots likely alive. Verdict mid-September — replace if no basal shoots by then. Protect crowns with pet-safe iron-based snail bait (cat-safe) and pull mulch back a few cm from crowns."
+    category: general
   - date: "2026-05-20"
     entry: "3 plants from 100mm pots. 1 in the cutting bed with echinacea, 2 distributed to other beds. Sugarcane mulch applied."
     category: plant

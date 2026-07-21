@@ -1,11 +1,17 @@
 name: Citrus Tree (Backyard)
 type: fruit
 location: Backyard
-health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Healthy — dense green canopy with good leaf colour. Still crowded slightly by the Mexican Sage — that'll ease when the sage is cut back post-flowering."
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "July 2026 photo assessment: carrying a heavy crop of ripe oranges. Widespread pale/interveinal yellowing on older leaves (green veins, yellow between) — nutrient hunger from the fruit load + cold-soil winter drawdown, mostly magnesium and nitrogen. Ants trailing on parts of the tree with dark sooty smudges on some leaves — strong sign of scale being farmed for honeydew. Light clearance prune done July."
+healthStatus: monitor
+lastAssessed: "2026-07"
+urgency: week
+nextAction: "Three jobs, one session: (1) Pick all ripe oranges — the crop is the biggest nutrient drain and it's ready now. (2) Follow the ant trails to find scale (brown/black bumps on stems and leaf undersides), then spray the whole tree with horticultural oil (PestOil/eco-oil) on a cool dry day, coating undersides; repeat in 2-3 weeks. Ants gone = scale dead. (3) Epsom salts drench for the magnesium yellowing (same treatment as April). Hold nitrogen — the slow-release citrus feed in the blitz covers spring."
 notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
 image: /images/plants/IMG_0914.jpg
+log:
+  - date: "2026-07-21"
+    entry: "Photo assessment: heavy ripe orange crop, interveinal chlorosis on older leaves (Mg/N hunger — fruit load + winter), ants trailing in parts with sooty smudges on leaves = suspected scale. Plan: harvest, oil spray x2, Epsom drench. Light clearance prune done (branches in the way only). One leaf with dense spider web — ordinary garden spider, harmless, left alone."
+    category: general
 tasks:
   - months: [9]
     task: Feed with citrus fertiliser

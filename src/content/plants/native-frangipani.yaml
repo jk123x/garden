@@ -5,11 +5,8 @@ health: "Canopy is open/sparse but that's partly intentional — Jay pruned the 
 healthStatus: good
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0982.jpg
-notes: "Hymenosporum flavum. 4+ metres tall. The sparse canopy that looked concerning in the original silhouette photo is actually partly by design — Jay pruned lower branches to improve light for understorey plants. The remaining leaves look dark green and healthy where visible in the newer photos (0981-0982). Still semi-deciduous so some thinning in autumn is expected. The tree structure looks fine — no major dieback or dead branches visible."
+notes: "Hymenosporum flavum. 4+ metres tall. The sparse canopy that looked concerning in the original silhouette photo is actually partly by design — Jay pruned lower branches to improve light for understorey plants. The remaining leaves look dark green and healthy where visible in the newer photos (0981-0982). Still semi-deciduous so some thinning in autumn is expected. The tree structure looks fine — no major dieback or dead branches visible. Pruning dropped from the plan July 2026 — canopy is too high to reach safely and it doesn't need it; don't re-add prune tasks."
 tasks:
-  - months: [8]
-    task: Light prune to shape if needed
-    category: prune
   - months: [9]
     task: Feed with complete fertiliser
     category: feed

@@ -5,7 +5,11 @@ health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Th
 healthStatus: healthy
 lastAssessed: "2026-04"
 urgency: week
-nextAction: "Tie audit across all three jasmine sections (back, west, east). Ties are 4-12 months old and stems thicken fast in spring — girdling risk. Remove any tie where the stem has twined onto the wire itself (the tie's done its job), cut out any tie biting into bark, re-tie loosely (figure-8) only where a stem still needs holding. Bonus: gets rid of the bright plastic look."
+nextAction: "Tie audit across all three jasmine sections — ~25% done (21 July), keep going. Remove any tie where the stem has twined onto the wire itself, cut out any tie biting into bark, re-tie loosely (figure-8) only where a stem still needs holding. Ties are 4-12 months old and stems thicken fast in spring — girdling risk."
+log:
+  - date: "2026-07-21"
+    entry: "Tie removal pass started — roughly 25% of unnecessary ties removed across the jasmine sections."
+    category: general
 image: /images/plants/IMG_0919.jpg
 notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
 tasks:
