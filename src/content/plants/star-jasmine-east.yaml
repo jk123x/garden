@@ -1,12 +1,31 @@
 name: Star Jasmine (East fence)
 type: climber
-location: Right (east) side fence, near kids' bedrooms
-health: "Very sparse — mostly bare stems with scattered fresh leaf growth. This is the newest section and will take 1-2 more growing seasons to fill in meaningfully."
-healthStatus: establishing
-lastAssessed: "2026-04"
+location: Right (east) side fence, near kids' bedrooms (laundry side)
+health: "Pine bark mulch down April 2026 (debris cleared first). Original run still very sparse — mostly bare stems with scattered fresh leaf growth. Wall-top run flagged pale/yellow-green on 13 May, then crisped to brown/desiccated by 15 May — desiccation collapse of the most exposed, shallowest-rooted section, driven by the cold-night / warm-sunny-day swing (chilled shallow roots can't resupply water fast enough on a run of 22°C blue-sky days; dark fence radiates extra heat onto foliage pressed against it), worsened by thin wall-top soil, no drip on the original run, irrigation off for winter. NOT the eco-seaweed. Crisped leaves are dead; lower foliage and the 2 new plants unaffected. Deep-soaked ~50L+ on 15 May + 15mm slow rain 17 May — root zone recharged, now in recovery/monitor awaiting the scratch-test verdict on which stems survived. Both new 150mm plants planted 1 May 2026 past the giant taro stump, 1m apart — backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires."
+healthStatus: struggling
+lastAssessed: "2026-05"
+urgency: ongoing
+nextAction: "New jasmines need manual watering while irrigation is off — 5L per plant weekly during dry stretches, skip if it's rained. Also: hand-strip dead brown leaves from the old desiccated section anytime, scratch-test doubtful stems."
 image: /images/plants/sj-east-side.jpg
-notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there."
+notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care."
 tasks:
+  - months: [5]
+    task: New jasmines — 5L per plant daily for first week, then 5L every 2-3 days for weeks 2-4. Skip if proper rain.
+    category: water
+    completed: "2026-05"
+  - months: [6, 7, 8]
+    task: New jasmines — 5L weekly only during dry stretches; let winter rain do the work otherwise
+    category: water
+  - months: [9, 10, 11]
+    task: New jasmines — deep water (5-8L) 2-3× per week as spring growth ramps up
+    category: water
+  - months: [12, 1, 2, 3]
+    task: New jasmines — deep water 2-3× per week through summer. Switch to drip irrigation by December if not done.
+    category: water
+  - months: [5, 6, 7, 8]
+    task: Install drip line extension to 2 new jasmines past taro stump. All parts purchased — just needs install before spring system turn-on.
+    category: general
+    completed: "2026-05"
   - months: [1, 2]
     task: Prune and shape after flowering
     category: prune
@@ -18,4 +37,32 @@ tasks:
     category: feed
   - months: [10, 11, 12, 1]
     task: Train and tie in new growth
+    category: general
+log:
+  - date: "2026-05-06"
+    entry: "Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on."
+    category: general
+  - date: "2026-05-01"
+    entry: "Planted 2 new star jasmines past the giant taro stump, 1m apart. Backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires."
+    category: plant
+  - date: "2026-05-07"
+    entry: "On top of hand-watering the 2 new plants while drip extension is being prepped."
+    category: water
+  - date: "2026-05-08"
+    entry: "Drip extension installed and working. First test, an adjustable shrubbler cap blew off under pressure — swapped both for Holman PC pressure-compensating shrubblers (24 L/hr). Both new plants now on drip."
+    category: general
+  - date: "2026-05-13"
+    entry: "Wall-top section observed pale/yellow-green compared to other sections. Likely drying out + nutrient draw-down (thinner soil + more sun on wall top). Liquid feed + deep water to-do added. Reassess in 4 weeks."
+    category: general
+  - date: "2026-05-15"
+    entry: "Wall-top run crisped from pale to brown/desiccated over ~2 days (photos). Desiccation collapse: cold-night / warm-sunny-day swing — chilled shallow roots couldn't resupply water fast enough on a run of 22°C blue-sky days, dark fence radiating extra heat onto the foliage. Lower foliage + new plants fine. Ruled out eco-seaweed (mild tonic, wrong damage pattern, section was already failing on the 13th)."
+    category: general
+  - date: "2026-05-15"
+    entry: "Friday night — deep soak ~50L+ over ~30 min along the whole laundry-side run (not just wall-top). Slow 30-min delivery soaked in well; cold-night downside minor given the volume."
+    category: water
+  - date: "2026-05-17"
+    entry: "~15mm slow soaking rain — excellent deep penetration across the whole run, no runoff. Effectively a second deep soak 2 days after the manual one."
+    category: water
+  - date: "2026-05-18"
+    entry: "Root zone now well charged (Fri soak + Sun rain). No further watering — risk flipped to cold waterlogging. Recovery/monitor phase: scratch-test stems for survival verdict, hand-strip dead leaves + undo bundled ties anytime, cut only individually-confirmed-dead stems, structural cut-back waits for Jan/Feb. Hold nitrogen feed until spring."
     category: general

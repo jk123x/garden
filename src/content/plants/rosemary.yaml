@@ -3,7 +3,7 @@ type: herb
 location: Backyard
 health: "Genuinely healthy — large dense bush with good upright form, full foliage top to bottom. One of the most trouble-free plants in the garden."
 healthStatus: healthy
-lastAssessed: "2026-04"
+lastAssessed: "2026-05"
 image: /images/plants/IMG_0921.jpg
 notes: "Rosmarinus officinalis. Big established bush along the back fence near the star jasmine. Dense, upright, and full with no bare patches or dieback. Thrives on the full sun and free-draining position. Basically bulletproof in Melbourne. Prune for shape and harvest after flowering in spring."
 tasks:
@@ -16,3 +16,7 @@ tasks:
   - months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     task: Harvest sprigs as needed
     category: harvest
+log:
+  - date: "2026-05-18"
+    entry: "Pruned back (off-season tidy). Bulletproof bush, handled it fine. Doesn't replace the normal after-flowering shape prune in Feb/Mar."
+    category: prune

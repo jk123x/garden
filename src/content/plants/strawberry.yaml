@@ -1,7 +1,7 @@
 name: Strawberry
 type: fruit
 location: Backyard (near path)
-health: "Good foliage — dense dark green leaves with active runners extending outward. No fruit visible which is expected for April. Some yellowed older leaves at the base but that's normal leaf cycling."
+health: "Sugarcane mulch down April 2026. Good foliage — dense dark green leaves with active runners extending outward. No fruit visible (expected for April). Some yellowed older leaves at base from normal cycling."
 healthStatus: healthy
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0920.jpg
@@ -16,6 +16,7 @@ tasks:
   - months: [4]
     task: Mulch with straw to keep fruit off soil
     category: mulch
+    completed: "2026-04"
   - months: [10, 11, 12, 1]
     task: Harvest ripe fruit
     category: harvest

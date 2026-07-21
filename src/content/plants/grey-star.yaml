@@ -5,8 +5,8 @@ location: Library
 health: "Stressed — severe leaf curl, brown edges, humidity critical"
 healthStatus: struggling
 lastAssessed: "2026-04"
-urgency: week
-nextAction: "Mist 2-3x weekly and move away from any heating/AC vents. Set up a pebble tray."
+urgency: later
+nextAction: "Bottom-watered 2026-04-20. Next bottom water ~2026-04-27. Watch new growth — recovery shows as new leaves unfurling flat instead of curled."
 image: /images/plants/IMG_0934.jpg
 notes: "Ctenanthe setosa 'Grey Star'. Leaves curling inward as a drought/dry-air response. Purple undersides are normal. Keep away from any heating or air vents — dry air is the enemy."
 tasks:
@@ -17,7 +17,10 @@ tasks:
     task: Keep soil consistently moist — never let it fully dry
     category: water
   - months: [4, 5]
-    task: Mist 2-3x weekly and check soil — do not let it dry out
+    task: Bottom-water weekly and keep soil evenly moist — do not let it dry out
+    category: water
+  - months: [4, 5]
+    task: Run a humidifier nearby or move to a humid room (bathroom/kitchen)
     category: general
   - months: [4, 5, 6, 7, 8]
     task: Group with other plants or sit on a pebble tray for humidity
@@ -25,8 +28,11 @@ tasks:
   - months: [4, 5, 6, 7, 8]
     task: Keep away from heating vents and dry-air zones
     category: general
+  - months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    task: Wipe leaves with damp cloth monthly — support leaf from below, check undersides for spider mites
+    category: general
   - months: [6, 7, 8]
-    task: Watch for crispy leaf edges — mist if air is dry from heating
+    task: Watch for crispy leaf edges — run humidifier or move to humid room if dry
     category: general
   - months: [4, 5, 6]
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed

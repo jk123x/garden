@@ -1,7 +1,7 @@
 name: Banksia
 type: shrub
 location: Front yard
-health: "Healthy — active flowering cones at various stages of development. Fine needle-like foliage is green and undamaged. Some leaf litter around the base."
+health: "Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged."
 healthStatus: healthy
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0955.jpg
@@ -16,3 +16,4 @@ tasks:
   - months: [4]
     task: Mulch around base
     category: mulch
+    completed: "2026-04"

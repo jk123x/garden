@@ -1,9 +1,9 @@
 name: Kangaroo Paw
 type: perennial
 location: Front yard, backyard
-health: "Better than first thought — close-up photos show no ink spot pattern (no concentric rings on leaves). The brown material is mostly dead leaves accumulated in the centres of the clumps plus some natural leaf-tip ageing. Just needs clean-up, not fungicide."
+health: "Both clumps tidied — front (April) and back (May). Spent stalks cut to base, dead leaves pulled from centre. No ink spot (close-ups ruled it out). Routine ink spot check still worth doing in late spring/summer."
 healthStatus: healthy
-lastAssessed: "2026-04"
+lastAssessed: "2026-05"
 image: /images/plants/IMG_1021.jpg
 notes: "Multiple clumps across front and back. The close-up photos (IMG_1021, IMG_1022) ruled out ink spot disease — no concentric ring pattern visible. What looked concerning from a distance is actually just accumulated dead leaves in the middle of the clumps and normal leaf-tip browning on older foliage. Pull out the dead material from the centres to improve airflow, cut any spent flower stalks to the base. Still worth a routine inkspot check in late spring/summer when conditions favour the disease."
 tasks:
@@ -19,3 +19,7 @@ tasks:
   - months: [11, 12, 1]
     task: Check for ink spot disease — remove affected leaves
     category: spray
+log:
+  - date: "2026-05-06"
+    entry: "Back clump now tidied (front was done in April). Spent stalks cut to base, dead leaves pulled from centres."
+    category: prune

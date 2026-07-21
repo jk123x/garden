@@ -1,7 +1,7 @@
 name: Cinnamon Wattle
 type: tree
 location: Front yard
-health: "The tree itself looks fine — good canopy shape, no obvious dieback or bare patches. But the variety still genuinely needs confirming. The weeping narrow-leaf form could be Acacia leprosa (Cinnamon Wattle), Acacia cognata (River Wattle/Bower Wattle), or a cultivar like 'Limelight'. A closer photo of the phyllodes (leaves) and bark would help ID it."
+health: "Pine bark mulch down April 2026 (no compost — natives hate rich soil). Tree itself looks fine — good canopy, no obvious dieback. Variety still needs confirming — could be Acacia leprosa, A. cognata, or a cultivar like 'Limelight'. A closer photo of the phyllodes and bark would help."
 healthStatus: monitor
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0891.jpg
@@ -16,3 +16,4 @@ tasks:
   - months: [4]
     task: Mulch around base
     category: mulch
+    completed: "2026-04"

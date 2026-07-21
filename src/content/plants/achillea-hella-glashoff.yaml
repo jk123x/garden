@@ -1,18 +1,26 @@
 name: Achillea 'Hella Glashoff'
 type: perennial
 location: Backyard (new composted bed + original bed)
-health: "Divided and transplanted April 16. Some clumps moved to the newly composted bed, some stayed in the original bed. Good root division, plants look healthy."
+health: "Settled in after the April 16 division/transplant. Three weeks on, all clumps are fine — no wilting, foliage holding. Established."
 healthStatus: healthy
-lastAssessed: "2026-04"
+lastAssessed: "2026-05"
 image: /images/plants/IMG_1018.jpg
 notes: "Yarrow (Achillea 'Hella Glashoff'). Originally 2 plants in the metal bed — divided during the April 16 transplant session into multiple clumps across both beds. Yarrow divides easily and transplants well. The ferny basal foliage and the tall flowering stems (that topple when tall) are the same plant. Water in deeply, mulch lightly, no feeding for 2-3 weeks. Should establish fast in the fresh compost."
 tasks:
   - months: [3, 4]
     task: Cut back spent flower stems
     category: prune
+    completed: "2026-04"
   - months: [9]
     task: Divide clumps if overcrowded
     category: general
   - months: [9]
     task: Feed lightly — achillea prefers lean soil
     category: feed
+log:
+  - date: "2026-05-06"
+    entry: "Transplant watch period over — all divided clumps settled in fine, no wilting."
+    category: general
+  - date: "2026-04-16"
+    entry: "Divided and transplanted. Some clumps moved to the newly composted bed, some stayed in the original bed."
+    category: plant

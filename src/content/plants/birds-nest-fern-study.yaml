@@ -2,11 +2,11 @@ name: Birds Nest Fern (Study)
 type: fern
 indoor: true
 location: Study
-health: "Stressed — multiple brown/curling frond tips, low humidity suspected"
-healthStatus: struggling
-lastAssessed: "2026-04"
+health: "Worst brown fronds trimmed at the base May 2026. Now misting daily and watching for fresh fronds unfurling from centre as recovery signal."
+healthStatus: monitor
+lastAssessed: "2026-05"
 urgency: week
-nextAction: "Trim worst brown fronds at the base, then mist daily for 2 weeks."
+nextAction: "Mist daily for 2 weeks (until ~mid-May). Watch the centre rosette for new fronds emerging — that's the recovery signal. If no new growth by end of May, suspect pot-bound and consider repotting."
 image: /images/plants/IMG_0959.jpg
 notes: "Asplenium nidus. Many fronds showing brown crispy tips and edges. Likely too dry — study is probably low humidity. Don't water into the centre rosette. May also be pot-bound."
 tasks:

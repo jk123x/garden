@@ -1,11 +1,13 @@
 name: Buffalo Lawn
 type: grass
 location: Backyard
-health: "Green but a bit thin and patchy in places. Scattered autumn leaves on the surface. Not terrible but could be thicker — may benefit from aeration and a feed."
-healthStatus: good
-lastAssessed: "2026-04"
+health: "Green but a bit thin and patchy in places. Winter grass (Poa annua) starting to appear — needs ongoing spot-pulling through the cooler months before it seeds in spring."
+healthStatus: monitor
+lastAssessed: "2026-05"
+urgency: later
+nextAction: "Spot-pull winter grass (Poa annua) before it seeds"
 image: /images/plants/IMG_0978.jpg
-notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (September), a feed, and overseeding any bare patches. Buffalo recovers well from runners so it should fill in with some attention. Clear the autumn leaf drop regularly so the grass gets light."
+notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (September), a feed, and overseeding any bare patches. Buffalo recovers well from runners so it should fill in with some attention. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring."
 tasks:
   - months: [9]
     task: Aerate lawn
@@ -27,4 +29,11 @@ tasks:
     category: water
   - months: [9, 10, 11, 12, 1, 2, 3]
     task: Mow regularly
+    category: general
+  - months: [5, 6, 7, 8]
+    task: Spot-pull winter grass before it seeds
+    category: general
+log:
+  - date: "2026-05-06"
+    entry: "Winter grass (Poa annua) starting to appear. Will need ongoing spot-pulling through autumn/winter."
     category: general

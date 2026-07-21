@@ -16,6 +16,3 @@ tasks:
   - months: [3]
     task: Feed again in autumn
     category: feed
-  - months: [4, 5, 6]
-    task: Harvest olives if desired
-    category: harvest

@@ -1,18 +1,23 @@
 name: Lavender
 type: shrub
 location: Backyard
-health: "Woody base confirmed from close-ups — roughly 20-30cm of bare woody stems before any green foliage. Still flowering well on top but the leggy/woody habit is well established. Salvageable with careful pruning but this is the last chance before it's gone too far."
-healthStatus: good
-lastAssessed: "2026-04"
-notes: "Growing along the back path near a window. The woody base is the main issue — lavender becomes permanently leggy if not pruned regularly, and once stems go bare they won't regrow leaves from old wood. Immediately after flowering finishes (late autumn), prune HARD into the lowest remaining green growth — don't cut into bare wood. The plant will look drastic but recover with fresh foliage from the remaining green. This is the critical intervention. If you let it go another year, it'll split open in the middle and need replacing."
-image: /images/plants/IMG_1004.jpg
+health: "Hard cutback done 20 May 2026. Cut to lowest green growth, avoiding bare wood. Woody base exposed — expected. Watch cut stubs for regrowth over next 4-6 weeks. Don't touch until September."
+healthStatus: monitor
+lastAssessed: "2026-05"
+notes: "Growing along the back path near a window. The woody base is the main issue — lavender becomes permanently leggy if not pruned regularly, and once stems go bare they won't regrow leaves from old wood. Cut each stem to the lowest point with green leaves — never into bare wood. After cutting, watch stubs over 4-6 weeks: stubs that push new leaves are alive; stubs that stay brown and dry are dead and can be snipped flush later. Tidy second cut to balance shape in September once regrowth pattern is visible. Photo IMG_1004.jpg currently attached looks like the wrong plant (lance-shaped leaves, not lavender needles) — needs replacing with a real photo."
+image: /images/plants/lavender.jpg
 tasks:
-  - months: [2, 3]
-    task: Prune back by a third after flowering — don't cut into old wood
+  - months: [5, 6]
+    task: Hard prune after flowering — into lowest green growth, never into bare wood
     category: prune
+    completed: "2026-05"
   - months: [9]
     task: Light feed with slow-release fertiliser
     category: feed
-  - months: [8]
-    task: Light trim to tidy shape before spring
+  - months: [9]
+    task: Tidy second cut to balance shape — only into stubs with visible regrowth
+    category: prune
+log:
+  - date: "2026-05-20"
+    entry: "Hard cutback done. Cut each stem to lowest green growth, avoiding bare wood. Woody base exposed. Monitoring for regrowth."
     category: prune

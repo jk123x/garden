@@ -1,7 +1,7 @@
 name: Lime Tree
 type: fruit
 location: Backyard
-health: "Two issues confirmed from close-up photos: (1) magnesium deficiency — clear interveinal chlorosis visible, yellow between green veins. (2) Citrus leaf miner — silvery squiggly tracks on multiple leaves, distinctive curled leaf margins. Both are treatable."
+health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Two treatable issues still active: (1) magnesium deficiency — Epsom salts applied April 16, recheck in 2-3 weeks. (2) Citrus leaf miner — silvery tracks and curled leaves. Treat with PestOil fortnightly in spring/summer."
 healthStatus: good
 lastAssessed: "2026-04"
 notes: "Growing next to sage plants near the back deck. Last fed April 15 2026 with fruit fertiliser. Epsom salts drench applied April 16 for the magnesium deficiency. Re-check leaves in 2-3 weeks — if yellowing persists, repeat the Epsom salts. Citrus leaf miner is the other confirmed issue — silvery squiggly tracks and curled leaves. Treat with PestOil or eco-oil fortnightly during active growth (spring/summer). Prune off the worst curled leaves. Leaf miner looks bad but rarely kills established trees."
@@ -25,6 +25,7 @@ tasks:
   - months: [1, 2, 3, 4, 5]
     task: Pick ripe limes
     category: harvest
+    completed: "2026-04"
   - months: [10, 11]
     task: Check for citrus gall wasp — prune out galls before October
     category: spray

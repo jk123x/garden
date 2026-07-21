@@ -1,7 +1,7 @@
 name: Birds Nest Fern
 type: fern
 location: Front yard
-health: "Good colour and size but brown margins on multiple fronds confirmed in close-up (IMG_0990). Some frond tips torn or damaged. Dead material accumulated in the centre of the rosette. Needs cleanup and possibly more shelter."
+health: "Centre of rosette cleared and worst brown fronds removed April 2026. Good colour and size. Brown frond margins (wind/sun damage) still visible on some fronds. Possibly needs more shelter if browning continues."
 healthStatus: good
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0990.jpg
@@ -16,6 +16,7 @@ tasks:
   - months: [4]
     task: Mulch around base to retain moisture
     category: mulch
+    completed: "2026-04"
   - months: [12, 1, 2]
     task: Keep moist — water if soil dries out
     category: water

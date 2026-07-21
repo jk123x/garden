@@ -1,0 +1,27 @@
+name: Echinacea (cutting bed)
+type: perennial
+location: Backyard (cutting bed)
+health: "Newly planted May 2026. 2 plants from 100mm pots in the cutting bed, mulched with sugarcane. Establishing."
+healthStatus: establishing
+lastAssessed: "2026-05"
+image: /images/plants/cutting-bed.jpg
+urgency: ongoing
+nextAction: "Establishment watering — check soil every 5-7 days in dry weather, deep soak if dry at finger depth. Err dry over wet (rot risk). Skip if it's rained recently."
+notes: "Species echinacea planted in the cutting bed — either tennesseensis 'Rocky Top' or purpurea 'Rubinstern' (variety TBC). Deliberately chose species types over fancy hybrids — Jay has prior echinacea-rot history with hybrids. Key rule: do not overwater, especially through winter. The cutting bed has good drainage and irrigation, which suits echinacea. Leave spent seed heads through winter. Cut old stems to ground in late winter before new growth. Shares the bed with rudbeckia and echinacea sombrero."
+tasks:
+  - months: [8, 9]
+    task: Check for new basal growth emerging from crown
+    category: general
+  - months: [9]
+    task: Feed with complete fertiliser if new growth appears
+    category: feed
+  - months: [3, 4]
+    task: Cut back dead stems to ground level
+    category: prune
+  - months: [12, 1, 2]
+    task: Deadhead spent flowers for repeat blooms or cut for the vase
+    category: harvest
+log:
+  - date: "2026-05-20"
+    entry: "2 plants from 100mm pots planted in the cutting bed alongside 1 rudbeckia. Sugarcane mulch applied."
+    category: plant

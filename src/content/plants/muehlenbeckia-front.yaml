@@ -1,9 +1,11 @@
 name: Muehlenbeckia (Front, new)
 type: climber
 location: Front fence
-health: "Very sparse — tiny stems just beginning to weave along the fence base. Barely visible. Will need 1-2 growing seasons to show real coverage."
-healthStatus: establishing
-lastAssessed: "2026-04"
+health: "Light trim and mulched April 2026 — spreading out a bit. Still sparse, thread-like stems weaving along the fence base. Top half browned off suddenly mid-May 2026, same week as the East star jasmine and almost certainly the same cause: cold-night / warm-sunny-day desiccation of an establishing plant on shallow immature roots with no drip — the exposed upper portion went, the sheltered lower growth stayed green. Not disease, not the seaweed. Recovery expected — muehlenbeckia reshoots vigorously from live lower wood. Will need 1-2 growing seasons to show real coverage."
+healthStatus: struggling
+lastAssessed: "2026-05"
+urgency: later
+nextAction: "Top half desiccated mid-May (same event as East jasmine). Do NOT escalate watering — the dead top isn't a water deficit and it's had 15mm rain; finger-test before any water (dry 10cm down only). Scratch-test stems — green = will reshoot, leave it; brown/snaps = dead, and check for a girdling tie. Hand-strip dead growth + tidy anytime; leave structural cut-back for the normal Mar/Sep trim. Expect it to reshoot through the dead top once it warms."
 image: /images/plants/IMG_0957.jpg
 notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place."
 tasks:
@@ -16,3 +18,7 @@ tasks:
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water
+log:
+  - date: "2026-05-18"
+    entry: "Top half browned off suddenly mid-May, reported same week as the East star jasmine desiccation. Same diagnosis by parallel: cold-night / warm-sunny-day swing, establishing plant on shallow immature roots with no drip — exposed upper portion died, sheltered lower growth stayed green. Zoomed crops confirmed it: upper run pale/browned and heavily defoliated (bare wiry stem), lower drape still green — same exposed-top/sheltered-base signature as the jasmine (the lush green behind the mesh is background grass/weeds, not the vine). Synchronous timing + matching pattern across two unrelated plants makes the environmental cause confident. Recovery expected; do not over-water (15mm rain 17 May was sufficient). Scratch-test stems + check for a girdling stem to rule out mechanical."
+    category: general

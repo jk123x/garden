@@ -19,6 +19,7 @@ tasks:
   - months: [4]
     task: Mulch around crown to protect over winter
     category: mulch
+    completed: "2026-04"
   - months: [12, 1, 2]
     task: Deadhead spent flowers to encourage more blooms
     category: general

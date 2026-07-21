@@ -1,27 +1,30 @@
 name: Feijoa
 type: fruit
 location: Front fence (one side)
-health: "Foliage healthy but internal structure is very congested even after the big 3.5m to 2m cut. Lots of crossing and competing branches visible. Needs thinning through the centre."
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "Decision made May 2026 to remove entirely — fruit fly breeding host and too much ongoing maintenance. Gardener booked for July/August visit to potentially remove, or Jay may DIY beforehand."
+healthStatus: monitor
+lastAssessed: "2026-05"
+urgency: later
+nextAction: "Remove tree — gardener visit Jul/Aug or DIY"
 image: /images/plants/IMG_0988.jpg
-notes: "Pineapple guava (Acca sellowiana). Near the front fence. Just had a major height reduction from 3.5m to 2m. The new photos (0987-0989) show the post-cut structure clearly — it's dense and congested inside. Next step is thinning: remove crossing branches, anything growing inward, and competing leaders. Wait until late winter (August) to do this — the tree needs to recover from the height cut first. Then maintain at 150-160cm with light trimming twice a year (after fruiting in April + shaping in August)."
+notes: "Pineapple guava (Acca sellowiana). Near the front fence. Intentionally NOT mulched — bare soil makes daily fallen fruit pickup easier. Fruit fly management is the priority: strategy is to prevent fruit from developing rather than fight the pest on ripe fruit. Remove flowers in October before fruit sets (or net the whole tree before flowering). Pick up any fallen fruit daily and solarise in a sealed black bag 2+ weeks or red-lid bin — never compost. Tree itself is healthy and still needs the thinning cut in late winter (August) to open up the interior."
+log:
+  - date: "2026-05-18"
+    entry: "Decision to remove feijoa entirely. Too much maintenance — grows too tall, fruit fly breeding host, daily fruit pickup. Gardener booked for Jul/Aug visit to remove, or Jay may DIY."
+    category: general
 tasks:
   - months: [9]
     task: Feed with complete fertiliser
     category: feed
-  - months: [3]
-    task: Feed again in autumn
-    category: feed
-  - months: [6, 7]
-    task: Harvest fruit as it drops
-    category: harvest
+  - months: [10]
+    task: Remove all flowers before fruit sets (or net tree) — fruit fly control
+    category: general
+  - months: [2, 3, 4, 5, 6, 7]
+    task: Pick up and bag/solarise any fallen fruit daily — never compost
+    category: general
   - months: [7, 8]
     task: Prune hard to reduce height — thin out top growth, keep lower and open
     category: prune
-  - months: [4]
-    task: Mulch around base
-    category: mulch
   - months: [12, 1, 2]
     task: Deep water in dry spells
     category: water

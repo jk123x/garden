@@ -1,9 +1,11 @@
 name: Nature Strip
 type: groundcover
 location: Front (nature strip)
-health: "Doing OK — grass is green overall but has lots of little weeds through it. Some thin/bare patches. Not terrible, just needs weeding and tidying."
+health: "First pass weeding done with the xact taproot puller, then mowed. Looking tidier but a second pass is needed once the deeper-rooted weeds regrow."
 healthStatus: good
-lastAssessed: "2026-04"
+lastAssessed: "2026-05"
+urgency: later
+nextAction: "Second weeding pass once weeds regrow after May mow"
 image: /images/plants/IMG_1020.jpg
 notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
 tasks:
@@ -12,4 +14,8 @@ tasks:
     category: general
   - months: [3, 4]
     task: Weed and tidy up
+    category: general
+log:
+  - date: "2026-05-06"
+    entry: "First pass weeding with xact taproot puller, then mowed. Second pass pending once weeds regrow."
     category: general

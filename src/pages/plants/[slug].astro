@@ -13,8 +13,10 @@ export async function getStaticPaths() {
 }
 
 const { plant } = Astro.props;
-const { name, type, indoor, location, health, healthStatus, lastAssessed, image, notes, tasks } = plant.data;
+const { name, type, indoor, location, health, healthStatus, lastAssessed, image, notes, tasks, log } = plant.data;
 const currentMonth = getCurrentMonth();
+
+const logEntries = [...log].sort((a, b) => b.date.localeCompare(a.date));
 
 const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
   const month = i + 1;
@@ -97,6 +99,28 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
         </div>
       )}
     </div>
+
+    {logEntries.length > 0 && (
+      <div>
+        <h2 class="text-3xl font-semibold text-ink mb-5">Log</h2>
+        <ol class="space-y-4 border-l border-rule-light pl-5">
+          {logEntries.map((entry: { date: string; entry: string; category?: string }) => (
+            <li class="relative">
+              <span class="absolute -left-[27px] top-1.5 w-2.5 h-2.5 rounded-full bg-terra ring-2 ring-paper"></span>
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <span class="font-display font-semibold text-ink">{entry.date}</span>
+                {entry.category && (
+                  <span class:list={['inline-block px-2 py-0.5 rounded-md text-[10px] font-semibold tracking-wide uppercase', CATEGORY_COLORS[entry.category]]}>
+                    {CATEGORY_LABELS[entry.category]}
+                  </span>
+                )}
+              </div>
+              <p class="text-ink-soft leading-relaxed mt-1">{entry.entry}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
 
     <div>
       <h2 class="text-3xl font-semibold text-ink mb-5">Care calendar</h2>

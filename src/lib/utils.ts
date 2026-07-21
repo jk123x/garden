@@ -99,12 +99,14 @@ export function getCurrentMonth(): number {
 }
 
 export function getTasksForMonth(
-  plants: Array<{ id: string; data: { name: string; tasks: Array<{ months: number[]; task: string; category: string }> } }>,
+  plants: Array<{ id: string; data: { name: string; tasks: Array<{ months: number[]; task: string; category: string; completed?: string }> } }>,
   month: number,
 ) {
+  const year = new Date().getFullYear();
+  const yearTag = String(year);
   return plants.flatMap((plant) =>
     plant.data.tasks
-      .filter((task) => task.months.includes(month))
+      .filter((task) => task.months.includes(month) && !(task.completed && task.completed.startsWith(yearTag)))
       .map((task) => ({
         plantId: plant.id,
         plantName: plant.data.name,
@@ -113,16 +115,15 @@ export function getTasksForMonth(
   );
 }
 
+const URGENCY_ORDER = ['today', 'week', 'ongoing'];
+
 export function getPlantsNeedingAttention(
-  plants: Array<{ id: string; data: { name: string; location: string; indoor?: boolean; healthStatus?: string; health?: string; image?: string } }>,
+  plants: Array<{ id: string; data: { name: string; location: string; indoor?: boolean; healthStatus?: string; health?: string; image?: string; urgency?: string; nextAction?: string } }>,
 ) {
   const attention = plants
-    .filter(p => p.data.healthStatus && ATTENTION_STATUSES.includes(p.data.healthStatus))
-    .sort((a, b) => {
-      const aIdx = ATTENTION_STATUSES.indexOf(a.data.healthStatus!);
-      const bIdx = ATTENTION_STATUSES.indexOf(b.data.healthStatus!);
-      return aIdx - bIdx;
-    });
+    .filter(p => p.data.urgency && URGENCY_ORDER.includes(p.data.urgency))
+    .sort((a, b) => URGENCY_ORDER.indexOf(a.data.urgency!) - URGENCY_ORDER.indexOf(b.data.urgency!));
+  const later = plants.filter(p => p.data.urgency === 'later');
   const unassessed = plants.filter(p => !p.data.healthStatus || p.data.healthStatus === 'unknown');
-  return { attention, unassessed };
+  return { attention, later, unassessed };
 }

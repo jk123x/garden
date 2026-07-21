@@ -1,36 +1,27 @@
 name: Japanese Holly Fern (Black Pot)
 type: fern
 indoor: true
-location: Library
-health: "Struggling — mealybug or scale infestation (white powdery + sticky honeydew on leaves)"
-healthStatus: struggling
+location: Library (isolated)
+health: "Monitor — white crumbly material most likely sori (reproductive structures), not mealybug. Reassessed after closer inspection."
+healthStatus: monitor
+urgency: week
 lastAssessed: "2026-04"
-urgency: today
-nextAction: "Treat mealybug — isopropyl-alcohol dab + soapy wipe-down. Plant should already be isolated."
+nextAction: "Keep isolated 2-3 weeks and press-test for stickiness. Return to shelf if no honeydew or new white fluff appears on stems/crown."
 image: /images/plants/IMG_0971.jpg
-notes: "Cyrtomium falcatum. Close-up (IMG_0972) revealed white powdery fluff plus sticky honeydew — classic mealybug or scale. Already showing yellowing/necrotic patches on stressed leaves. ISOLATE IMMEDIATELY from other Library plants. Treat with 70% isopropyl alcohol on cotton bud, then soapy wipe-down. Repeat weekly for 3-4 weeks. If not cleared by round 3, step up to systemic (imidacloprid/Confidor)."
+notes: "Cyrtomium falcatum. Original April assessment flagged mealybug based on white powdery material + honeydew. After alcohol + soapy wipe-down treatment, closer inspection found no visible bugs and the remaining white crumbly material is most likely sori (fern reproductive structures on frond undersides). No spread to neighbouring plants, which supports the sori theory. Honeydew from original assessment was either a light infestation that the first treatment killed, or a misread (water spots, condensation). Currently isolated as a precaution. Plan: monitor for 2-3 weeks, press-test leaves for stickiness, inspect weekly for any new white fluff on stems/crown (not frond undersides where sori live). If nothing appears, return to normal Library shelf and treat as healthy."
 tasks:
-  - months: [4]
-    task: "URGENT — isolate plant from other indoor plants to prevent spread"
+  - months: [4, 5]
+    task: "Weekly inspection — check stems, crown, and axils for new white fluff or stickiness (ignore round dot-clusters on frond undersides, those are sori)"
+    category: general
+  - months: [4, 5]
+    task: "Press-test a few leaves each week — any stickiness means active pest, treat immediately with alcohol + soap"
     category: general
   - months: [4]
-    task: "Dab each visible bug with 70% isopropyl alcohol on cotton bud; wipe down fronds with soapy water"
-    category: spray
-  - months: [4, 5]
-    task: "Repeat alcohol/soap treatment every 5-7 days for 3-4 weeks (kills hatching eggs)"
-    category: spray
-  - months: [4]
-    task: "Inspect every other Library plant for mealybug/scale (leaf undersides, axils, pot rims)"
-    category: spray
-  - months: [4]
-    task: "Clean shelf, stand, and saucer with soapy water — eggs survive off-plant"
+    task: "Rinse fronds with plain tepid water to remove any remaining soap residue from the earlier treatment"
     category: general
   - months: [5]
-    task: "If still present after 3 rounds, apply systemic insecticide (imidacloprid/Confidor soil drench)"
-    category: spray
-  - months: [4]
-    task: "Remove any fully yellowed or dead fronds"
-    category: prune
+    task: "If no signs of pest after 2-3 weeks isolation, return to Library shelf and resume normal care"
+    category: general
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
     category: feed
@@ -44,7 +35,7 @@ tasks:
     task: Reduce watering — check soil 2cm down before watering
     category: water
   - months: [4, 5, 6, 7, 8]
-    task: Group with other plants or sit on pebble tray for humidity (only once pest-free)
+    task: Group with other plants or sit on pebble tray for humidity (only once confirmed pest-free)
     category: general
   - months: [4, 5, 6]
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed
