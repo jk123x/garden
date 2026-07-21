@@ -6,6 +6,10 @@ healthStatus: good
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0917.jpg
 notes: "Smaller citrus near the back deck. The pale lime-green tone compared to the larger backyard citrus suggests it's either a young tree still establishing or it's not getting enough nutrients. Give it a good citrus feed and see if the colour improves over the next month. Exact variety still uncertain. Last fed April 15 2026 — had been 2 months since the previous feed. The pale leaves may improve now that it's been fed. Check again in a couple of weeks."
+log:
+  - date: "2026-07-21"
+    entry: "Epsom salts drench applied — leaves still pale, treating for magnesium alongside the big backyard citrus."
+    category: feed
 tasks:
   - months: [9]
     task: Feed with citrus fertiliser
