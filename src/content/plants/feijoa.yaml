@@ -1,14 +1,17 @@
 name: Feijoa
 type: fruit
 location: Front fence (one side)
-health: "Decision made May 2026 to remove entirely — fruit fly breeding host and too much ongoing maintenance. Gardener booked for July/August visit to potentially remove, or Jay may DIY beforehand."
+health: "Decision made May 2026 to remove entirely — fruit fly breeding host and too much ongoing maintenance. Gardener visit fell through (July 2026), so removal is now DIY or a one-off tree contractor."
 healthStatus: monitor
-lastAssessed: "2026-05"
-urgency: later
-nextAction: "Remove tree — gardener visit Jul/Aug or DIY"
+lastAssessed: "2026-07"
+urgency: week
+nextAction: "Gardener's not coming. Best pre-baby move: cut to waist-height stumps now and paint the fresh cuts with glyphosate — kills the tree, guarantees no fruit next season, and turns removal into a dig-the-stumps-whenever job. If that's too big right now, book a one-off tree lopper instead. Either way, decide before spring."
 image: /images/plants/IMG_0988.jpg
 notes: "Pineapple guava (Acca sellowiana). Near the front fence. Intentionally NOT mulched — bare soil makes daily fallen fruit pickup easier. Fruit fly management is the priority: strategy is to prevent fruit from developing rather than fight the pest on ripe fruit. Remove flowers in October before fruit sets (or net the whole tree before flowering). Pick up any fallen fruit daily and solarise in a sealed black bag 2+ weeks or red-lid bin — never compost. Tree itself is healthy and still needs the thinning cut in late winter (August) to open up the interior."
 log:
+  - date: "2026-07-21"
+    entry: "Gardener visit (feijoa removal + west wall climber) not happening. New plan: DIY cut-and-paint to stumps before spring, or book a one-off contractor. Stump removal can wait indefinitely once the tree is dead."
+    category: general
   - date: "2026-05-18"
     entry: "Decision to remove feijoa entirely. Too much maintenance — grows too tall, fruit fly breeding host, daily fruit pickup. Gardener booked for Jul/Aug visit to remove, or Jay may DIY."
     category: general

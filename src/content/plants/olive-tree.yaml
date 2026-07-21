@@ -4,6 +4,8 @@ location: Backyard
 health: "Healthy — mature tree with full silvery-green canopy. Good branch structure, no dieback visible. Some internal crossing branches could be thinned for airflow."
 healthStatus: healthy
 lastAssessed: "2026-04"
+urgency: week
+nextAction: "Winter prune — thin internal crossing branches to open the centre for airflow. Jul/Aug window closes with the baby's arrival."
 notes: "Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden."
 image: /images/plants/IMG_0912.jpg
 tasks:

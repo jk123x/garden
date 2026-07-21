@@ -5,8 +5,6 @@ health: "Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting b
 healthStatus: establishing
 lastAssessed: "2026-05"
 image: /images/plants/cutting-bed.jpg
-urgency: ongoing
-nextAction: "Establishment watering — check soil every 3-4 days in dry weather, deep soak if dry at finger depth. Skip if it's rained recently."
 notes: "Rudbeckia fulgida var. deamii (Deam's Black-eyed Susan). 3 plants total — 1 in the cutting bed, 2 distributed to other beds around the garden. Tough, long-lived perennial that handles Melbourne heat and drought once established. Flowers late summer into autumn on stiff stems — great cut flower. Leave spent seed heads through winter for structure and birds. Cut old stems to ground level in late winter before new basal growth emerges."
 tasks:
   - months: [8, 9]

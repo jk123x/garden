@@ -4,9 +4,7 @@ indoor: true
 location: Library (isolated)
 health: "Monitor — white crumbly material most likely sori (reproductive structures), not mealybug. Reassessed after closer inspection."
 healthStatus: monitor
-urgency: week
 lastAssessed: "2026-04"
-nextAction: "Keep isolated 2-3 weeks and press-test for stickiness. Return to shelf if no honeydew or new white fluff appears on stems/crown."
 image: /images/plants/IMG_0971.jpg
 notes: "Cyrtomium falcatum. Original April assessment flagged mealybug based on white powdery material + honeydew. After alcohol + soapy wipe-down treatment, closer inspection found no visible bugs and the remaining white crumbly material is most likely sori (fern reproductive structures on frond undersides). No spread to neighbouring plants, which supports the sori theory. Honeydew from original assessment was either a light infestation that the first treatment killed, or a misread (water spots, condensation). Currently isolated as a precaution. Plan: monitor for 2-3 weeks, press-test leaves for stickiness, inspect weekly for any new white fluff on stems/crown (not frond undersides where sori live). If nothing appears, return to normal Library shelf and treat as healthy."
 tasks:

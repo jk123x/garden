@@ -47,13 +47,13 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 
 ## What's next
 
-- Photos needed: Passionfruit, Unknown Tree (Right Side), Echinacea Sombrero (Buffalo Lawn + Nature Strip now have photos)
+- **Baby due ~4 Aug 2026.** Strategy set July 2026: front-load September's spring work into late July / early Aug because Jay is unavailable for early spring. The dashboard "To do" is the pre-baby punch list: winter prunes (passionfruit, olive, black eyed susan, lily turf, dianella), a slow-release feed blitz replacing the September feeds (citrus / native low-P / general + lawn), Poa annua purge, nature strip second pass, jasmine tie audit, feijoa decision. **When Jay reports the feed blitz done, mark the September feed tasks `completed: "2026-08"`** so spring doesn't re-surface them.
+- **Spring while Jay is out:** irrigation turn-on in Sept is the one must-do (single tap/switch, drip extension to new jasmines already installed May). Everything else can slip.
+- **Gardener is NOT coming** (confirmed July 2026). The two booked jobs are unassigned: (1) west-facing black wall climber — deferred, replan later; (2) feijoa removal — now DIY cut-and-paint to stumps, or one-off contractor. Once dead/removed, delete or archive the YAML.
+- Indoor plants: Jay did a tidy-up July 2026, "mostly looking ok" — stale April/May urgency flags cleared. Full health audit (28 plants without healthStatus) still pending, low priority.
+- Photos needed: Passionfruit, Unknown Tree (Right Side), Echinacea Sombrero
 - ID the unknown plants (right side tree, cinnamon wattle confirmation, small backyard citrus)
-- Indoor plant health audit (28 plants still without healthStatus)
-- Nature strip: second weeding pass once weeds regrow after May mow
-- Buffalo lawn: ongoing winter grass (Poa annua) spot-pulling May–Aug
-- **Feijoa removal:** Decision made May 2026 to remove entirely — fruit fly breeding host, grows too tall, too much maintenance. Gardener may do it Jul/Aug or Jay DIY. Once removed, delete or archive the YAML.
-- **Gardener visit Jul/Aug 2026:** Booked for two jobs — (1) plant a climber on the west-facing black wall (gets extremely hot), (2) potentially remove the feijoa trees
+- Cutting bed: establishing through winter, leave alone, no feed for echinacea until new growth shows (rot risk)
 - Deploy to Vercel
 - **Cutting bed (old tomato bed):** standalone irrigated 1m² north-facing bed, hot/harsh part-sun, drains and dries in summer. Cat-safe cut-flower patch. **Planted May 2026:** Rudbeckia fulgida var. deamii + Echinacea (species type, variety TBC) alongside the existing Echinacea Sombrero (transplanted April). Sugarcane mulch applied. Salvia cut back. All establishing — leave alone through winter, rain handles watering. Deliberately avoided fancy Echinacea hybrids — short-lived/rot-prone, and Jay has prior echinacea-rot history. Care = cutting for the vase is the maintenance, cut old stems down late autumn, no extra water for the echinacea (rot risk), bed irrigation only.
 

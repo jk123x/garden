@@ -5,8 +5,6 @@ health: "Newly planted May 2026. 2 plants from 100mm pots in the cutting bed, mu
 healthStatus: establishing
 lastAssessed: "2026-05"
 image: /images/plants/cutting-bed.jpg
-urgency: ongoing
-nextAction: "Establishment watering — check soil every 5-7 days in dry weather, deep soak if dry at finger depth. Err dry over wet (rot risk). Skip if it's rained recently."
 notes: "Species echinacea planted in the cutting bed — either tennesseensis 'Rocky Top' or purpurea 'Rubinstern' (variety TBC). Deliberately chose species types over fancy hybrids — Jay has prior echinacea-rot history with hybrids. Key rule: do not overwater, especially through winter. The cutting bed has good drainage and irrigation, which suits echinacea. Leave spent seed heads through winter. Cut old stems to ground in late winter before new growth. Shares the bed with rudbeckia and echinacea sombrero."
 tasks:
   - months: [8, 9]
