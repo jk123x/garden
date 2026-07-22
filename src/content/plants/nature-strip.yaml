@@ -4,8 +4,8 @@ location: Front (nature strip)
 health: "First pass weeding done with the xact taproot puller, then mowed. Looking tidier but a second pass is needed once the deeper-rooted weeds regrow."
 healthStatus: good
 lastAssessed: "2026-05"
-urgency: week
-nextAction: "Second weeding pass with the taproot puller — regrowth since the May mow has had 10+ weeks. Getting them out before they seed in spring matters more than usual: no weeding is happening in Sep/Oct this year."
+urgency: later
+nextAction: "Second weeding pass with the taproot puller, whenever — no deadline. Regrowth since the May mow has had 10+ weeks; the more that comes out before spring, the less seeds while you're off duty."
 image: /images/plants/IMG_1020.jpg
 notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
 tasks:
