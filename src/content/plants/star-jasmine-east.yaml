@@ -39,6 +39,9 @@ tasks:
     task: Train and tie in new growth
     category: general
 log:
+  - date: "2026-07-22"
+    entry: "New jasmines watered (5L each) — up to date and looking good."
+    category: water
   - date: "2026-05-06"
     entry: "Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on."
     category: general
