@@ -1,12 +1,17 @@
 name: Lime Tree
 type: fruit
 location: Backyard
-health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Two treatable issues still active: (1) magnesium deficiency — Epsom salts applied April 16, recheck in 2-3 weeks. (2) Citrus leaf miner — silvery tracks and curled leaves. Treat with PestOil fortnightly in spring/summer."
-healthStatus: good
-lastAssessed: "2026-04"
+health: "Major renovation prune 22 July 2026: heavy gall wasp infestation discovered — the worst of the four citrus by far — and ~50-65% of canopy removed cutting out clear galls. This chronic gall load explains the years of poor cropping from a big tree. Post-prune photos: open structure, decent green foliage remaining, even flowering. Viable, but in recovery mode — expect a big soft regrowth flush from October (which is also prime gall wasp egg-laying target) and little to no fruit for 12-18 months. Leaf miner history on file; spring flush will need eco-oil."
+healthStatus: struggling
+lastAssessed: "2026-07"
+urgency: later
+nextAction: "Recovery mode — mostly hands off. (1) STOP cutting: tag any maybe-galls with string and recheck late summer — live ones fatten visibly; next winter they'll be obvious. Rule of thumb: a gall is a spindle bulge mid-stem that tapers back to normal at both ends; natural thickening only happens at forks. (2) NO fertiliser for this tree — skip it in the feed blitz; nitrogen fuels the soft flush the wasps target. Resume light feeding autumn 2027. (3) If any newly-exposed inner limbs sit in full sun, paint them with 50:50 white acrylic + water to stop sunburn. (4) October option now the tree is small: throw fine insect netting over it Oct-Dec to block re-infestation during wasp emergence. (5) eco-oil the spring flush fortnightly for leaf miner. (6) Bag-sun-bin every galled pruning."
 notes: "Growing next to sage plants near the back deck. Last fed April 15 2026 with fruit fertiliser. Epsom salts drench applied April 16 for the magnesium deficiency. Re-check leaves in 2-3 weeks — if yellowing persists, repeat the Epsom salts. Citrus leaf miner is the other confirmed issue — silvery squiggly tracks and curled leaves. Treat with PestOil or eco-oil fortnightly during active growth (spring/summer). Prune off the worst curled leaves. Leaf miner looks bad but rarely kills established trees."
 image: /images/plants/IMG_0998.jpg
 log:
+  - date: "2026-07-22"
+    entry: "Renovation prune: ~50-65% of canopy removed cutting out gall wasp galls — tree was heavily infested, worst of the four citrus. Chronic gall load = the long-standing 'huge tree, few limes' mystery solved. Post-prune: open frame, healthy remaining foliage, flowering. Recovery plan set: no feed this year, tag ambiguous swellings and recheck rather than cut more, whitewash any sun-exposed limbs, optional insect netting Oct-Dec, eco-oil on spring flush, gall check every winter from now on. September feed + prune tasks suppressed for 2026."
+    category: prune
   - date: "2026-07-22"
     entry: "Epsom salts drench applied — follow-up on the April magnesium deficiency treatment."
     category: feed
@@ -17,6 +22,7 @@ tasks:
   - months: [9]
     task: Feed with citrus fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12]
     task: Feed again mid-summer
     category: feed
@@ -26,6 +32,7 @@ tasks:
   - months: [9]
     task: Light prune to shape
     category: prune
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Deep water weekly in hot weather
     category: water
