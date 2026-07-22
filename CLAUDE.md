@@ -2,6 +2,8 @@
 
 Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone 10b.
 
+**What this project is for (Jay, July 2026):** quick-reference guides. Jay grabs spare moments in the garden and wants to glance at a page and instantly know the next task and how to do it. Every page, card and nextAction should be written for that glance — task first, instructions inline, no context-hunting. Seamless is the bar.
+
 ## Stack
 
 - Astro 6 + Tailwind CSS v4 (using `@theme` in global.css, no tailwind.config)

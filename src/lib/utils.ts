@@ -94,6 +94,90 @@ export const SEASONAL_CONTEXT: Record<number, { headline: string; description: s
   12: { headline: 'Early summer', description: 'Heat arriving. Mulch everything, set up consistent watering. Harvest stone fruit and berries. Watch for sun scorch on young plants.' },
 };
 
+export interface FeedGroup {
+  dose: string;
+  plants: string[];
+}
+
+export interface FeedProduct {
+  id: string;
+  name: string;
+  status: 'in the shed' | 'ordered';
+  timing: string;
+  accent: string;      // tailwind classes for the label accent bar
+  chip: string;        // tailwind classes for plant chips
+  note?: string;
+  groups: FeedGroup[];
+}
+
+export const FEEDING_PLAN: FeedProduct[] = [
+  {
+    id: 'native',
+    name: 'Osmocote Native',
+    status: 'ordered',
+    timing: 'The day it arrives',
+    accent: 'bg-terra',
+    chip: 'bg-terra-soft text-terra',
+    note: 'Low phosphorus. The only fertiliser the natives ever get — regular fertiliser harms them. Controlled-release, so early application costs nothing: it waits for warm soil.',
+    groups: [
+      { dose: 'Standard dose', plants: ['Banksia', 'Cinnamon Wattle', 'Kangaroo Paw', 'Westringia', 'Cushion Bush', 'Chalk Sticks', 'Dianellas', 'Native Daisies'] },
+    ],
+  },
+  {
+    id: 'richgro',
+    name: 'Richgro All Purpose',
+    status: 'in the shed',
+    timing: 'Early August',
+    accent: 'bg-olive',
+    chip: 'bg-olive-soft text-olive',
+    note: 'Conventional fertiliser — applied too early, winter rain leaches it past sleeping roots. Hold until the last calm weekend before the due date.',
+    groups: [
+      { dose: 'Normal dose', plants: ['Mexican Sage', "Salvia 'Caradonna'", 'Black Eyed Susan', 'Miscanthus', 'Bartlettina', 'Olive Tree', 'Native Frangipani', 'Giant Taro', 'Strawberry', 'Muehlenbeckia ×2', 'Star Jasmine (back)', 'Star Jasmine (west)'] },
+      { dose: 'Generous — heavy feeder', plants: ['Passionfruit'] },
+      { dose: 'Light dose', plants: ['Star Jasmine (east — wide around the 2 new plants, not against stems)', 'Achillea', 'Lavender', 'Lily Turf', 'Dichondra', 'Native Violets'] },
+    ],
+  },
+  {
+    id: 'citrus',
+    name: 'Experts Choice Fruit & Citrus',
+    status: 'in the shed',
+    timing: 'Early August',
+    accent: 'bg-amber-500',
+    chip: 'bg-amber-50 text-amber-800',
+    note: 'Light dose only — lush nitrogen-fed growth is exactly what gall wasps lay eggs into. Never the lime this year.',
+    groups: [
+      { dose: 'Light dose', plants: ['Lemon Tree', 'Citrus Tree (orange)', 'Citrus Tree (small)'] },
+    ],
+  },
+  {
+    id: 'lawn',
+    name: 'Sudden Impact for Lawns',
+    status: 'in the shed',
+    timing: 'Early August',
+    accent: 'bg-emerald-600',
+    chip: 'bg-emerald-50 text-emerald-800',
+    groups: [
+      { dose: 'Per bag rate', plants: ['Buffalo Lawn'] },
+    ],
+  },
+];
+
+export const FEEDING_SKIPS: Array<{ plant: string; reason: string }> = [
+  { plant: 'Lime Tree', reason: 'recovering from the gall renovation prune — no feed until autumn 2027' },
+  { plant: 'Feijoa', reason: 'being removed' },
+  { plant: 'Rosemary', reason: 'recovering from dieback, and prefers lean soil anyway' },
+  { plant: 'Echinacea (cutting bed + Sombrero)', reason: 'rot risk — feed only if new growth shows in spring' },
+  { plant: "Rudbeckia 'Deamii'", reason: 'same rule as the echinacea' },
+  { plant: 'Dusty Miller', reason: 'never needs feeding' },
+];
+
+export const FEEDING_YEAR: Array<{ when: string; label: string; detail: string; current?: boolean }> = [
+  { when: 'Early Aug', label: 'The big round', detail: 'Everything above, one lap. Normally a September job — front-loaded to August this year.', current: true },
+  { when: 'Sept', label: 'Conditionals only', detail: 'Cutting-bed echinacea + rudbeckia get a feed only if new basal growth has appeared.' },
+  { when: 'Dec', label: 'Summer top-up', detail: 'Citrus (light), passionfruit, buffalo lawn.' },
+  { when: 'Mar', label: 'Autumn round', detail: 'Citrus, buffalo lawn, olive, all jasmine runs. Lime rejoins here in 2027.' },
+];
+
 export function getCurrentMonth(): number {
   return new Date().getMonth() + 1;
 }
