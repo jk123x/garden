@@ -28,7 +28,8 @@
       "Bash(sips -s format jpeg -Z 1200 -s formatOptions 70 \"/Users/jaykinkade/Downloads/IMG_1227.HEIC\" --out \"/tmp/IMG_1227_sm.jpg\")",
       "Read(//Users/jaykinkade/Downloads/**)",
       "Bash(sips -s format jpeg __TRACKED_VAR__.HEIC --out /tmp/__TRACKED_VAR__.jpg)",
-      "Bash(sips *)"
+      "Bash(sips *)",
+      "Bash(node -e ' *)"
     ]
   }
 }
