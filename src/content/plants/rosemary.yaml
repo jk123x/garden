@@ -1,11 +1,9 @@
 name: Rosemary
 type: herb
 location: Backyard
-health: "July 2026 photo assessment: roughly half the bush has collapsed — grey-brown dead sprawled woody stems with only sparse needles — while the other half is regrowing well (green sprigs, still flowering). Likely root-zone stress from the wet winter or old-wood collapse. Rosemary does not reshoot from bare wood, so the dead half won't recover."
-healthStatus: struggling
+health: "Dead half removed 22 July 2026 (photo verified — clean work). What remains is a leaning, sculptural old trunk with long woody stems carrying healthy green growth and flowers at the tips. Alive and viable, but permanently leggy — rosemary can't reshoot from the bare wood, so the form now is roughly the form forever. Foliage will thicken at the green tips through spring."
+healthStatus: monitor
 lastAssessed: "2026-07"
-urgency: week
-nextAction: "Cut the dead half out entirely at the base — bare grey wood won't reshoot, ever, so there's nothing to wait for. Keep the live green half; it can rebuild. Take a few 10cm cuttings from healthy sprigs as insurance (they strike easily in a glass of water or gritty mix). Don't water it — wet feet is the likely culprit."
 image: /images/plants/IMG_0921.jpg
 notes: "Rosmarinus officinalis. Big established bush along the back fence near the star jasmine. Dense, upright, and full with no bare patches or dieback. Thrives on the full sun and free-draining position. Basically bulletproof in Melbourne. Prune for shape and harvest after flowering in spring."
 tasks:
@@ -19,6 +17,9 @@ tasks:
     task: Harvest sprigs as needed
     category: harvest
 log:
+  - date: "2026-07-22"
+    entry: "Dead half cut out at the base. Remaining live section: leaning woody trunk, green flowering growth at stem tips. Verdict: correct call, plant viable. Long-term options: embrace the windswept look and tip-pinch new growth in spring to thicken the ends, or plant a young replacement nearby and let this one see out its years. Take cuttings from green sprigs as succession insurance. No watering — drainage stress was the likely cause of the collapse."
+    category: prune
   - date: "2026-07-21"
     entry: "Photo assessment: ~half the bush dead (grey sprawled bare stems), other half regrowing nicely and flowering. Jay confirmed same from the ground. Plan: remove dead half at base, keep live half, take cuttings as insurance."
     category: general
