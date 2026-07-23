@@ -34,6 +34,8 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - `/plants` — Grid with type filters, health status filters, indoor/outdoor toggle, health dot indicators
 - `/plants/[slug]` — Detail page with health badge, assessment date, rich notes, 12-month care calendar
 - `/calendar` — Full year view, tasks grouped by plant per month
+- `/feeding` — Quick-reference feeding guide: 4 products with plant lists + doses, skip list, year timeline. Data in `FEEDING_PLAN`/`FEEDING_SKIPS`/`FEEDING_YEAR` in utils.ts
+- `/playbook` — "Before the Baby" operations page: 15-min jobs, the 3 sessions with inline how-tos + gear, slippable list, gall wasp cheat sheet, done list. Data hardcoded in the page frontmatter. **Keep in sync**: when Jay reports work done, update the playbook lists AND the plant YAML. Delete or repurpose this page once the pre-baby window passes
 
 ## Key patterns
 
