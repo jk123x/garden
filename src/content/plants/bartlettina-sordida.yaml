@@ -13,6 +13,7 @@ tasks:
   - months: [9]
     task: Feed with complete fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Water in dry periods — prefers consistent moisture
     category: water
@@ -20,3 +21,7 @@ tasks:
     task: Protect from heavy frost — mulch base or cover if needed
     category: general
     completed: "2026-07"
+log:
+  - date: "2026-07-29"
+    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    category: feed

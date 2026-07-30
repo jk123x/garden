@@ -13,6 +13,7 @@ tasks:
   - months: [9]
     task: Feed with native-specific fertiliser (low phosphorus)
     category: feed
+    completed: "2026-07"
   - months: [4]
     task: Mulch around base
     category: mulch

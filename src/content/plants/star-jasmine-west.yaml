@@ -13,9 +13,14 @@ tasks:
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [3]
     task: Feed again in autumn
     category: feed
   - months: [10, 11, 12, 1]
     task: Train and tie in new growth
     category: general
+log:
+  - date: "2026-07-29"
+    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    category: feed

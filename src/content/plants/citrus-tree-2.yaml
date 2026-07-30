@@ -1,12 +1,18 @@
-name: Citrus Tree (Backyard, small)
+name: Grapefruit Tree
 type: fruit
 location: Backyard
-health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the larger citrus. Fed April 15 — check again in 2-3 weeks to see if colour improves."
+health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency."
 healthStatus: good
-lastAssessed: "2026-04"
+lastAssessed: "2026-07"
 image: /images/plants/IMG_0917.jpg
-notes: "Smaller citrus near the back deck. The pale lime-green tone compared to the larger backyard citrus suggests it's either a young tree still establishing or it's not getting enough nutrients. Give it a good citrus feed and see if the colour improves over the next month. Exact variety still uncertain. Last fed April 15 2026 — had been 2 months since the previous feed. The pale leaves may improve now that it's been fed. Check again in a couple of weeks."
+notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-07-30"
+    entry: "Fed with Experts Choice, light dose — September feed replaced. Gall wasp triple-checked: clean, no galls found. Tree has always had strong growth. Decision: no preventive treatments — eco-oil is contact-only with no residual (pointless without scale present) and there's nothing to gall-prune. Stays on the annual winter gall check; lush growth is what wasps target, so keep feeds light."
+    category: feed
+  - date: "2026-07-29"
+    entry: "Variety confirmed: grapefruit. Renamed from 'Citrus Tree (Backyard, small)'."
+    category: general
   - date: "2026-07-21"
     entry: "Epsom salts drench applied — leaves still pale, treating for magnesium alongside the big backyard citrus."
     category: feed
@@ -14,12 +20,16 @@ tasks:
   - months: [9]
     task: Feed with citrus fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12]
     task: Feed again mid-summer
     category: feed
   - months: [3]
     task: Feed again in autumn
     category: feed
+  - months: [8, 9, 10]
+    task: Taste-test a grapefruit every few weeks — yellow ≠ ripe, they sweeten with hang time and hold on the tree for months
+    category: harvest
   - months: [9]
     task: Light prune to shape
     category: prune

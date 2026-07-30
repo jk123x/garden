@@ -9,6 +9,11 @@ tasks:
   - months: [9]
     task: Feed lightly with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Water in extended dry spells
     category: water
+log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    category: feed

@@ -13,3 +13,4 @@ tasks:
   - months: [9]
     task: Feed lightly with native-friendly fertiliser (low phosphorus)
     category: feed
+    completed: "2026-07"

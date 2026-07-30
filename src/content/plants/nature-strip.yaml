@@ -5,7 +5,7 @@ health: "First pass weeding done with the xact taproot puller, then mowed. Looki
 healthStatus: good
 lastAssessed: "2026-05"
 urgency: week
-nextAction: "Second weeding pass with the taproot puller — regrowth since the May mow has had 10+ weeks. Getting them out before they seed in spring matters more than usual: no weeding is happening in Sep/Oct this year."
+nextAction: "Finish the second weeding pass — halfway done 29 Jul, taproot puller on the remaining half. Getting them out before they seed in spring matters more than usual: no weeding is happening in Sep/Oct this year."
 image: /images/plants/IMG_1020.jpg
 notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
 tasks:
@@ -16,6 +16,9 @@ tasks:
     task: Weed and tidy up
     category: general
 log:
+  - date: "2026-07-29"
+    entry: "Second weeding pass halfway done with the taproot puller, wet-soil conditions ideal. Remaining half still to go."
+    category: general
   - date: "2026-05-06"
     entry: "First pass weeding with xact taproot puller, then mowed. Second pass pending once weeds regrow."
     category: general

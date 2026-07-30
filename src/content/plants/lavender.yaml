@@ -14,10 +14,14 @@ tasks:
   - months: [9]
     task: Light feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [9]
     task: Tidy second cut to balance shape — only into stubs with visible regrowth
     category: prune
 log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    category: feed
   - date: "2026-05-20"
     entry: "Hard cutback done. Cut each stem to lowest green growth, avoiding bare wood. Woody base exposed. Monitoring for regrowth."
     category: prune

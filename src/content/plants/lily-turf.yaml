@@ -1,20 +1,27 @@
 name: Lily Turf
 type: groundcover
 location: Various — around the garden
-health: "Healthy — dense dark green clumps along sleepers/edging. No browning or damage visible."
+health: "Annual cut-back done 30 Jul 2026 — sheared low along the sleepers, fed. Looks stubbly now; fresh spring growth replaces the lot. Was dense and healthy pre-shear."
 healthStatus: healthy
-lastAssessed: "2026-04"
-urgency: week
-nextAction: "Cut back old foliage now, before new spring growth emerges — quick job with shears along the sleepers."
+lastAssessed: "2026-07"
 image: /images/plants/IMG_0983.jpg
 notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers. Some autumn leaf litter scattered around but the plant itself looks great. Virtually indestructible."
 tasks:
   - months: [8]
     task: Cut back old foliage before new spring growth
     category: prune
+    completed: "2026-07"
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [9]
     task: Divide crowded clumps if needed
     category: general
+log:
+  - date: "2026-07-30"
+    entry: "Annual cut-back done — old foliage sheared along the sleepers ahead of spring regrowth."
+    category: prune
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    category: feed

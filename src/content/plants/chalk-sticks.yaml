@@ -13,3 +13,4 @@ tasks:
   - months: [9]
     task: Feed with slow-release native fertiliser (low phosphorus)
     category: feed
+    completed: "2026-07"

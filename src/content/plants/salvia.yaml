@@ -4,8 +4,6 @@ location: Backyard
 health: "Hard cutback done late May 2026. Cut to 10-20cm stalks, sugarcane mulch refreshed around base. Will resprout from base in spring."
 healthStatus: dormant
 lastAssessed: "2026-05"
-urgency: week
-nextAction: "Feed blitz — full plant list. RICHGRO ALL PURPOSE, normal dose: Mexican sage, salvia caradonna, black eyed susan, miscanthus, bartlettina, passionfruit (generous — heavy feeder), olive, native frangipani, giant taro, strawberry, both muehlenbeckias, star jasmine back + west. Light dose: east jasmine (half-handful wide around each new plant, not against stems), achillea, lavender, lily turf, dichondra, native violets. EXPERTS CHOICE, light dose: lemon, orange, small backyard citrus. SUDDEN IMPACT: buffalo lawn. OSMOCOTE NATIVE (ordered), natives get ONLY this: banksia, cinnamon wattle, kangaroo paw, westringia, cushion bush, chalk sticks, dianellas, native daisies. SKIP ENTIRELY: lime (recovering), feijoa (being removed), rosemary (recovering, likes lean soil), cutting-bed echinacea + sombrero (rot risk, feed only when new growth shows), rudbeckia (same), dusty miller (never needs it). Also: snail bait in copper tub + cutting bed while you're out there. Replaces all September feeds."
 image: /images/plants/cutting-bed.jpg
 notes: "Salvia leucantha (Mexican Bush Sage). Multiple plants producing masses of purple velvet flower spikes — easily the best performer in the garden right now. Growth is sprawling, reaching over the stone path area. Cut back hard (by half to two-thirds) after flowering finishes, usually around May-June. Practical trigger: cut when the bees abandon the spikes — that's the reliable signal flowering's spent, better than going by the calendar. Regrows fast from the base in spring. The spent flower spikes turn brown and should be removed."
 tasks:
@@ -16,10 +14,14 @@ tasks:
   - months: [9]
     task: Feed with complete fertiliser
     category: feed
+    completed: "2026-07"
   - months: [10, 11, 12, 1, 2, 3]
     task: Deadhead spent flower spikes for repeat blooms
     category: general
 log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
+    category: feed
   - date: "2026-05-20"
     entry: "Hard cutback done. Cut to 10-20cm stalks. Sugarcane mulch refreshed around base and garden edges tidied."
     category: prune

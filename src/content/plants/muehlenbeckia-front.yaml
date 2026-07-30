@@ -1,24 +1,29 @@
 name: Muehlenbeckia (Front, new)
 type: climber
 location: Front fence
-health: "Light trim and mulched April 2026 — spreading out a bit. Still sparse, thread-like stems weaving along the fence base. Top half browned off suddenly mid-May 2026, same week as the East star jasmine and almost certainly the same cause: cold-night / warm-sunny-day desiccation of an establishing plant on shallow immature roots with no drip — the exposed upper portion went, the sheltered lower growth stayed green. Not disease, not the seaweed. Recovery expected — muehlenbeckia reshoots vigorously from live lower wood. Will need 1-2 growing seasons to show real coverage."
-healthStatus: struggling
-lastAssessed: "2026-05"
+health: "Tidied and trimmed July 2026 — dead growth from the May top-dieback cleaned up. Recovering: muehlenbeckia reshoots vigorously from live lower wood, expect the real bounce-back with spring warmth. Will need 1-2 growing seasons to show real coverage."
+healthStatus: monitor
+lastAssessed: "2026-07"
 urgency: later
-nextAction: "Scratch-test the dead-looking top (green = will reshoot in spring, leave it) and check for a girdling tie while doing the jasmine tie audit. Strip dead growth anytime. Structural trim + feed at the normal September window."
+nextAction: "Once spring runners reach about a metre, pinch the tips to force low branching, and train stems sideways along the fence rather than letting them race upward. Glance at it after any big cold-night/warm-day swing — still shallow-rooted after the May dieback."
 image: /images/plants/IMG_0957.jpg
 notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place."
 tasks:
   - months: [3, 9]
     task: Trim to shape
     category: prune
+    completed: "2026-07"
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water
 log:
+  - date: "2026-07-29"
+    entry: "Tidied and trimmed along with the established section — dead top growth from the May desiccation stripped out. September trim front-loaded. Fed with Richgro All Purpose same day — September feed replaced."
+    category: prune
   - date: "2026-05-18"
     entry: "Top half browned off suddenly mid-May, reported same week as the East star jasmine desiccation. Same diagnosis by parallel: cold-night / warm-sunny-day swing, establishing plant on shallow immature roots with no drip — exposed upper portion died, sheltered lower growth stayed green. Zoomed crops confirmed it: upper run pale/browned and heavily defoliated (bare wiry stem), lower drape still green — same exposed-top/sheltered-base signature as the jasmine (the lush green behind the mesh is background grass/weeds, not the vine). Synchronous timing + matching pattern across two unrelated plants makes the environmental cause confident. Recovery expected; do not over-water (15mm rain 17 May was sufficient). Scratch-test stems + check for a girdling stem to rule out mechanical."
     category: general

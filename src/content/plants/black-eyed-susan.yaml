@@ -6,6 +6,9 @@ healthStatus: healthy
 lastAssessed: "2026-07"
 image: /images/plants/IMG_1017.jpg
 log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
+    category: feed
   - date: "2026-07-22"
     entry: "Dead flower stems cut to ground level ahead of spring regrowth. Basal rosettes healthy."
     category: prune
@@ -18,6 +21,7 @@ tasks:
   - months: [9]
     task: Feed with complete fertiliser as new growth appears
     category: feed
+    completed: "2026-07"
   - months: [9]
     task: Divide crowded clumps
     category: general

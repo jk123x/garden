@@ -5,10 +5,15 @@ health: "Spreading and visible in wider garden shots, with small purple-white fl
 healthStatus: healthy
 lastAssessed: "2026-04"
 notes: "Viola hederacea. Australian native ground cover with small round leaves and purple/white flowers. Visible near the stone path in wider backyard shots. Evergreen, handles part shade well, and spreads to fill gaps. Like the dichondra, it's doing its job as living ground cover. A dedicated close-up photo would let us check for any issues."
+log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    category: feed
 tasks:
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [3]
     task: Thin out or divide if spreading too far
     category: prune

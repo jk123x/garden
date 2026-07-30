@@ -146,7 +146,7 @@ export const FEEDING_PLAN: FeedProduct[] = [
     chip: 'bg-amber-50 text-amber-800',
     note: 'Light dose only — lush nitrogen-fed growth is exactly what gall wasps lay eggs into. Never the lime this year.',
     groups: [
-      { dose: 'Light dose', plants: ['Lemon Tree', 'Citrus Tree (orange)', 'Citrus Tree (small)'] },
+      { dose: 'Light dose', plants: ['Lemon Tree', 'Citrus Tree (orange)', 'Grapefruit Tree'] },
     ],
   },
   {
@@ -164,7 +164,7 @@ export const FEEDING_PLAN: FeedProduct[] = [
 
 export const FEEDING_SKIPS: Array<{ plant: string; reason: string }> = [
   { plant: 'Lime Tree', reason: 'recovering from the gall renovation prune — no feed until autumn 2027' },
-  { plant: 'Feijoa', reason: 'being removed' },
+  { plant: 'Feijoa', reason: 'cut to 1m — no feed while it re-establishes, lean keeps regrowth manageable' },
   { plant: 'Rosemary', reason: 'recovering from dieback, and prefers lean soil anyway' },
   { plant: 'Echinacea (cutting bed + Sombrero)', reason: 'rot risk — feed only if new growth shows in spring' },
   { plant: "Rudbeckia 'Deamii'", reason: 'same rule as the echinacea' },

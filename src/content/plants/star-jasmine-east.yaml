@@ -5,7 +5,7 @@ health: "Pine bark mulch down April 2026 (debris cleared first). Original run st
 healthStatus: struggling
 lastAssessed: "2026-05"
 urgency: ongoing
-nextAction: "New jasmines: 5L per plant only during dry stretches — winter rain covers it otherwise. Overdue: scratch-test the desiccated wall-top stems for the survival verdict (green under bark = leave it, brown/snaps = cut it out), and strip dead leaves. Include this run in the tie audit."
+nextAction: "Watch the new plants for leaf-edge browning into mid-August (over-fed 29 Jul, triaged same day — excess removed and flushed). Still overdue: scratch-test the desiccated wall-top stems (green under bark = leave it, brown/snaps = cut it out), strip dead leaves, include this run in the tie audit."
 image: /images/plants/sj-east-side.jpg
 notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care."
 tasks:
@@ -32,6 +32,7 @@ tasks:
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [3]
     task: Feed again in autumn
     category: feed
@@ -39,6 +40,12 @@ tasks:
     task: Train and tie in new growth
     category: general
 log:
+  - date: "2026-07-30"
+    entry: "Section near the giant taro fed — light dose of Richgro All Purpose, spread wide, not against stems (feed blitz round 2). Whole east run's September feed now replaced."
+    category: feed
+  - date: "2026-07-29"
+    entry: "New plants fed with Richgro All Purpose — heavier than the intended half-handful light dose. Triaged same day: granules pulled away from stems, excess removed, each plant slow-flushed with a full watering can. Watch for leaf-edge browning over the next 2-3 weeks. Section near the giant taro not fed (ran out of fertiliser)."
+    category: feed
   - date: "2026-07-22"
     entry: "New jasmines watered (5L each) — up to date and looking good."
     category: water

@@ -13,6 +13,7 @@ tasks:
   - months: [9]
     task: Feed again in spring
     category: feed
+    completed: "2026-07"
   - months: [4]
     task: Mulch with straw to keep fruit off soil
     category: mulch
@@ -26,3 +27,7 @@ tasks:
   - months: [12, 1, 2]
     task: Water regularly in hot weather
     category: water
+log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
+    category: feed

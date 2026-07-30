@@ -1,70 +1,54 @@
 ---
 import Layout from '../layouts/layout.astro';
 
-const DUE_DATE = new Date('2026-08-04');
+const DUE_DATE = new Date('2026-08-12');
 const today = new Date();
 const daysLeft = Math.max(0, Math.ceil((DUE_DATE.getTime() - today.getTime()) / 86400000));
 
 const QUICK_HITS = [
-  { job: 'Book the feijoa contractor', how: 'One phone call. Any lopper/tree service. Before summer is fine — no fruit fly risk until fruit sets next autumn.' },
-  { job: 'Snail bait the copper tub + cutting bed', how: 'The moment the Multiguard arrives: pull straw back from the crowns, scatter pellets, done. Protects the spring shoots on your cut flowers.' },
-  { job: 'Osmocote Native on the 8 natives', how: 'The day it arrives: banksia, wattle, kangaroo paw, westringia, cushion bush, chalk sticks, dianellas, native daisies. It waits for warm soil — early costs nothing.' },
-  { job: 'A chunk of jasmine ties', how: 'Any 15 minutes: remove ties where the stem has twined onto the wire, cut anything biting bark, loose figure-8 only where still needed. ~75% to go.' },
+  { job: 'Lemon feed + lawn feed', how: 'Experts Choice LIGHT on the lemon (orange + grapefruit done, never the lime). Sudden Impact over the buffalo, dry grass blades only. Both in the shed.' },
+  { job: 'Check the lemon for scale', how: 'Dark speckling showed in the 22 Jul photos. Ants trailing or brown bumps on stems/leaf undersides = eco-oil it like the orange. One minute to check.' },
+  { job: 'High-impact weeding spots', how: 'Just the beds around plants you care about and the street-visible patches. Finish-off job, not a full weed. Best after rain.' },
+  { job: 'Finish the nature strip weeding', how: 'Halfway there. Taproot puller on the remaining half — best right after rain while roots slide out whole.' },
+  { job: 'A chunk of jasmine ties', how: 'Any 15 minutes: remove ties where the stem has twined onto the wire, cut anything biting bark, loose figure-8 only where still needed. Halfway — ~50% to go.' },
   { job: 'Scratch-test the east jasmine wall-top', how: 'Thumbnail on the desiccated stems: green underneath = leave, brown-and-snaps = cut it out. 30 seconds in passing.' },
+  { job: 'Fern scale wipe rounds (indoor)', how: 'Both affected holly ferns: cloth + half-strength alcohol or soapy water, hard along the midribs, top and bottom. Round 2 ~5-8 Aug, round 3 a week later. No oils on ferns.' },
 ];
 
 const SESSIONS = [
   {
-    name: 'The orange session',
-    time: '~1 hour',
-    gear: 'Secateurs, a bucket, eco-oil (when the order lands)',
-    deadline: 'Before the due date — the spray matters most',
-    steps: [
-      'Pick every ripe orange. The crop is the biggest drain on the tree and it’s ready.',
-      'Follow the ant trails to the scale: brown/black bumps on stems and leaf undersides.',
-      'Spray the whole tree with eco-oil on a cool dry day — coat the leaf undersides, that’s where scale lives.',
-      'While standing there: snip clear galls off this tree and the small citrus next to it. Sausage swellings mid-stem only — anything swollen at a branch fork is normal wood, leave it.',
-      'Galled offcuts go in the green bin. Ants still trailing in 3 weeks = repeat the spray.',
-    ],
-  },
-  {
-    name: 'The feed lap',
-    time: '~1 hour, one walk',
-    gear: 'Richgro All Purpose + Experts Choice + Sudden Impact (shed)',
-    deadline: 'Early August — last calm weekend before the due date',
-    steps: [
-      'Full plant-by-plant map lives on the Feeding page — work off that.',
-      'Short version: Richgro on beds/climbers/trees listed, light on the delicate ones.',
-      'Experts Choice LIGHT on lemon + orange + small citrus. Never the lime.',
-      'Sudden Impact over the buffalo.',
-      'Skip list is on the Feeding page — lime, feijoa, rosemary, cutting-bed flowers, dusty miller.',
-    ],
-    link: { href: '/feeding', label: 'Open the Feeding guide →' },
-  },
-  {
     name: 'The pruning session',
-    time: '~1.5 hours',
+    time: '~2.5 hours (or split the feijoa into its own session)',
     gear: 'Secateurs, loppers, pruning saw (all owned)',
-    deadline: 'Before the due date — winter windows close with it',
+    deadline: 'Before the due date — winter windows close with it. Dry day for the big cuts.',
     steps: [
+      'Feijoa renovation: every leader down to ~70-80cm — end goal is a dense 1.5m shrub, and regrowth erupts at the cuts, so cutting low is what makes the base leafy. Bare wood is fine — it reshoots from old wood. No long stubs, clear the dead middle, offcuts in the green bin. Cancel the removal contractor if still booked.',
       'Passionfruit: cut the whole vine back by a third. Untangle from the jasmine as you go — 3-lobed leaves = passionfruit, small glossy ovals = jasmine.',
       'Olive: dead/crossing/rubbing branches first, then a few inward-growing ones so light reaches the centre — “a bird could fly through it”. Cut just outside the branch collar, never flush. Suckers off the base. Stop at ~20% of the canopy. Whole branches at their origin, never tip-trims.',
-      'Lily turf: shear the clumps along the sleepers to the ground. New growth replaces it all in spring.',
-      'Dianella: cut old flower stalks and tatty leaves at the base. Ten minutes.',
+      'Dianella: NO shearing (unlike the lily turf) — snip old flower stalks at the base, pull dead leaves that slide out with a gentle tug, cut stubborn brown ones at the base. Remove the worst 10-20%, not a reset. Ten minutes.',
     ],
   },
 ];
 
 const SLIPPABLE = [
-  { job: 'Second eco-oil spray on the orange', when: '2–3 weeks after the first. If a newborn makes it week 4, the first spray still did most of the work.' },
+  { job: 'Second eco-oil spray on the orange', when: '~13–20 Aug (2–3 weeks after the 30 Jul round 1). If a newborn makes it week 4, the first spray still did most of the work. Judge round 1 by ant traffic — dead scale stays stuck on.' },
   { job: 'Lemon harvest', when: 'As they ripen through Aug–Sept. Casual, bowl at a time. Fruit from galled branches is completely fine to eat.' },
   { job: 'Lemon gall prune', when: 'AFTER the lemons are off, BEFORE end of September — the one hard deadline in the garden. Same rules as the orange session; prunings straight into a bin that’s getting collected.' },
   { job: 'Irrigation back on', when: 'Mid-September. Literally one tap. The single must-do garden action while you’re on baby duty.' },
-  { job: 'Nature strip second weeding pass', when: 'Whenever. Taproot puller, the regrowth since the May mow.' },
   { job: 'Remaining jasmine ties', when: 'Whenever, in chunks.' },
 ];
 
 const DONE = [
+  'Eco-oil round 1: orange + lime sprayed 30 Jul',
+  'Orange + grapefruit fed (Experts Choice, light)',
+  'Gall wasp triple-checked all citrus — grapefruit clean, no treatment needed, stays on the annual winter check',
+  'Lily turf: annual cut-back done',
+  'Feed blitz round 2 (Richgro): Mexican sage, black eyed susan, miscanthus, giant taro, strawberry, east jasmine gap, achillea, lavender, lily turf, dichondra, native violets',
+  'Over-fed new jasmines triaged: excess removed, clumps spread, slow-flushed',
+  'Feed blitz round 1: olive, frangipani, muehlenbeckias, passionfruit, jasmine back + west, bartlettina, caradonna',
+  'Natives fed: Osmocote Native on all 8 — September native feeds cancelled',
+  'Both muehlenbeckias tidied and trimmed — September trim front-loaded',
+  'Snail bait down: copper tub + cutting bed pelleted',
   'Lawn: winter grass purged (before seed set)',
   'Lime: renovation prune done — zero jobs until winter 2027',
   'Rosemary: dead half removed',

@@ -1,18 +1,26 @@
 name: Muehlenbeckia
 type: climber
 location: Front fence (other side)
-health: "Trimmed and mulched April 2026 — looking tidy and spreading out nicely. Vigorous, dense fine-textured growth forming a thick living screen along the front fence. Some internal brown/dead material within the mass is typical."
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "Tidied and trimmed July 2026. Skeleton now reaches every grate on the fence but much of it is a single strand — coverage is patchy, especially the bottom half. Thickening is the job now, not reach."
+healthStatus: good
+lastAssessed: "2026-07"
+urgency: later
+nextAction: "Spring training for density: tip-prune the leaders once new growth kicks off (forces branching instead of long single whips) and weave or tie new runners into the low grates — the bottom half won't fill on its own."
 image: /images/plants/IMG_0954.jpg
 notes: "Wire vine / mattress vine (Muehlenbeckia complexa). The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill."
 tasks:
   - months: [3, 9]
     task: Trim to shape
     category: prune
+    completed: "2026-07"
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water
+log:
+  - date: "2026-07-29"
+    entry: "Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced."
+    category: prune

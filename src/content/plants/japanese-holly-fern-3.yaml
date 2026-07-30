@@ -2,26 +2,19 @@ name: Japanese Holly Fern (Black Pot)
 type: fern
 indoor: true
 location: Library (isolated)
-health: "Monitor — white crumbly material most likely sori (reproductive structures), not mealybug. Reassessed after closer inspection."
-healthStatus: monitor
-lastAssessed: "2026-04"
+health: "Fern scale (Pinnaspis aspidistrae) confirmed July 2026 — the white material was never sori. Heavy colonies along the rachis of multiple fronds. Treatable but persistent; if it's still recurring after two treatment rounds, bin the plant rather than risk the fern collection."
+healthStatus: struggling
+lastAssessed: "2026-07"
+urgency: week
+nextAction: "Fern scale round 2 due ~5-8 Aug, on BOTH affected holly ferns (this one + the second one Jay found 29 Jul): WIPE (not spray) every frond top and bottom with a cloth and half-strength alcohol or soapy water, hard along the midribs — the rubbing removes armor a mist can't. Round 3 another 7-10 days later. Crawlers hatch unprotected between rounds; the repeats are what end it. Keep both isolated from other plants throughout. NO eco-oil on ferns. Watch for alcohol burn (browning) after round 1's heavy spray. Still recurring after round 3? Bin them — two ferns aren't worth the collection."
 image: /images/plants/IMG_0971.jpg
-notes: "Cyrtomium falcatum. Original April assessment flagged mealybug based on white powdery material + honeydew. After alcohol + soapy wipe-down treatment, closer inspection found no visible bugs and the remaining white crumbly material is most likely sori (fern reproductive structures on frond undersides). No spread to neighbouring plants, which supports the sori theory. Honeydew from original assessment was either a light infestation that the first treatment killed, or a misread (water spots, condensation). Currently isolated as a precaution. Plan: monitor for 2-3 weeks, press-test leaves for stickiness, inspect weekly for any new white fluff on stems/crown (not frond undersides where sori live). If nothing appears, return to normal Library shelf and treat as healthy."
+notes: "Cyrtomium falcatum. DIAGNOSIS HISTORY: April 2026 flagged white powdery material, treated with alcohol + soap, then re-read as probable sori and downgraded to monitor. July 2026 photos overturned that — the white felted 1-2mm flecks and cottony ribbons run along the TOP of the rachis and scatter across leaflet upper surfaces, which sori never do (sori are firm round dots in rows on the underside only). This matches male fern scale armor exactly: white, felted, conspicuous against dark foliage, clustering along midribs, with tan oyster-shell females hidden in the mass. Fern scale is one of the most common pests of exactly this species. Armored scale, so no honeydew — the April 'honeydew' was a misread. It has been active since at least April; the wipe-downs knocked it back but never cleared the crawlers."
 tasks:
-  - months: [4, 5]
-    task: "Weekly inspection — check stems, crown, and axils for new white fluff or stickiness (ignore round dot-clusters on frond undersides, those are sori)"
-    category: general
-  - months: [4, 5]
-    task: "Press-test a few leaves each week — any stickiness means active pest, treat immediately with alcohol + soap"
-    category: general
-  - months: [4]
-    task: "Rinse fronds with plain tepid water to remove any remaining soap residue from the earlier treatment"
-    category: general
-  - months: [5]
-    task: "If no signs of pest after 2-3 weeks isolation, return to Library shelf and resume normal care"
-    category: general
+  - months: [8, 9]
+    task: "Fern scale follow-up — wipe fronds with soapy water/alcohol every 7-10 days, inspect midribs for new white flecks. Still recurring after 3 rounds = bin the plant"
+    category: spray
   - months: [9, 10, 11, 12, 1, 2]
-    task: Feed with half-strength liquid fertiliser monthly
+    task: Feed with half-strength liquid fertiliser monthly (only once pest-free)
     category: feed
   - months: [9]
     task: Remove old/tatty fronds
@@ -32,9 +25,19 @@ tasks:
   - months: [4, 5]
     task: Reduce watering — check soil 2cm down before watering
     category: water
-  - months: [4, 5, 6, 7, 8]
-    task: Group with other plants or sit on pebble tray for humidity (only once confirmed pest-free)
-    category: general
   - months: [4, 5, 6]
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed
     category: spray
+log:
+  - date: "2026-07-29"
+    entry: "Collection inspection done: white scale clearly present on 2 holly ferns only (this one + one other — pot TBC). Library bird's nest, rabbit's foots and the rest look clear. Both affected ferns get the wipe rounds together; round 1 alcohol spray covered them."
+    category: general
+  - date: "2026-07-29"
+    entry: "Jay reports the big indoor bird's nest fern (study) went gradually lifeless and was binned earlier in July — retrospectively a possible fern scale casualty (bird's nest ferns are prime hosts). Notably its decline was diagnosed in May as dryness/low humidity and never responded to daily misting — consistent with scale being the real cause. If so, the infestation has been circulating indoors for months. Raises the priority of inspecting all remaining indoor ferns. YAML for the binned fern deleted; outdoor bird's nest is fine."
+    category: general
+  - date: "2026-07-29"
+    entry: "Treatment round 1 done same day as diagnosis: worst-affected fronds cut off, remaining fronds sprayed liberally with isopropyl alcohol (neighbouring plants sprayed too). Round 2 due 5-8 Aug as a cloth wipe, round 3 a week after that. Watch for alcohol burn on fronds from the heavy spray."
+    category: spray
+  - date: "2026-07-29"
+    entry: "Fresh photos re-examined with research: fern scale (Pinnaspis aspidistrae) confirmed, overturning the April 'probably sori' verdict. White felted male scales in heavy colonies along the tops of the rachises and scattered over leaflet surfaces — wrong side and wrong texture for sori. Plan: re-isolate, cut worst fronds, soapy wipe-downs every 7-10 days, no oils on ferns, bin if it persists. Neighbouring ferns need a check."
+    category: general

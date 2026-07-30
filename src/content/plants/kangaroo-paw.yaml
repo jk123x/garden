@@ -13,6 +13,7 @@ tasks:
   - months: [9]
     task: Feed with native fertiliser (low phosphorus)
     category: feed
+    completed: "2026-07"
   - months: [9]
     task: Divide crowded clumps
     category: general

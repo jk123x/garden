@@ -5,8 +5,14 @@ health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Th
 healthStatus: healthy
 lastAssessed: "2026-04"
 urgency: week
-nextAction: "Tie audit across all three jasmine sections — ~25% done (21 July), keep going. Remove any tie where the stem has twined onto the wire itself, cut out any tie biting into bark, re-tie loosely (figure-8) only where a stem still needs holding. Ties are 4-12 months old and stems thicken fast in spring — girdling risk."
+nextAction: "Tie audit across all three jasmine sections — ~50% done (29 July), keep chipping away. Remove any tie where the stem has twined onto the wire itself, cut out any tie biting into bark, re-tie loosely (figure-8) only where a stem still needs holding. Ties are 4-12 months old and stems thicken fast in spring — girdling risk."
 log:
+  - date: "2026-07-29"
+    entry: "Tie audit now ~50% done — steady progress in chunks since 21 July."
+    category: general
+  - date: "2026-07-29"
+    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed. East section near the giant taro not done yet (ran out of fertiliser)."
+    category: feed
   - date: "2026-07-21"
     entry: "Tie removal pass started — roughly 25% of unnecessary ties removed across the jasmine sections."
     category: general
@@ -19,6 +25,7 @@ tasks:
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
+    completed: "2026-07"
   - months: [3]
     task: Feed again in autumn
     category: feed

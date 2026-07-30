@@ -17,7 +17,11 @@ tasks:
   - months: [9]
     task: Feed lightly — achillea prefers lean soil
     category: feed
+    completed: "2026-07"
 log:
+  - date: "2026-07-30"
+    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    category: feed
   - date: "2026-05-06"
     entry: "Transplant watch period over — all divided clumps settled in fine, no wilting."
     category: general
