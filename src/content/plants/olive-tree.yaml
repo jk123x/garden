@@ -1,16 +1,18 @@
 name: Olive Tree
 type: tree
 location: Backyard
-health: "Healthy — mature tree with full silvery-green canopy. Good branch structure, no dieback visible. Some internal crossing branches could be thinned for airflow."
+health: "Big winter prune done 31 July 2026 — ~33% off, lower limbs removed for a clean lifted trunk with the canopy carried high. Healthy silvery canopy on what remains. Expect a vigorous response in spring: watershoots along the trunk and around cuts — rub or snip them off while pencil-thin, monthly through the growing season."
 healthStatus: healthy
-lastAssessed: "2026-04"
-urgency: week
-nextAction: "Winter prune, DIY with these rules: (1) Dead, damaged, crossing/rubbing branches first — always cut. (2) Then remove a few inward-growing branches so light reaches the centre; aim for 'a bird could fly through it'. (3) Cut just outside the branch collar (the swollen ring at the base), never flush. (4) Remove any suckers from the base/trunk. (5) Stop at ~20% of the canopy total. Step back after every few cuts and look. Don't shorten branch tips — take whole branches at their origin or leave them."
+lastAssessed: "2026-07"
 notes: "Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden."
-image: /images/plants/IMG_0912.jpg
+image: /images/plants/IMG_2120.jpg
 tasks:
   - months: [7, 8]
     task: Prune to shape — open up centre for airflow
+    category: prune
+    completed: "2026-07"
+  - months: [10, 11, 12, 1, 2, 3]
+    task: Rub off watershoots and trunk suckers while pencil-thin — response to the big 2026 prune
     category: prune
   - months: [9]
     task: Feed with complete fertiliser
@@ -20,6 +22,9 @@ tasks:
     task: Feed again in autumn
     category: feed
 log:
+  - date: "2026-07-31"
+    entry: "Winter prune done — ~33% of canopy removed, heavier than the planned 20% and more of a crown lift than an interior thin (lower limbs off, clean bare trunk, canopy carried high — photos IMG_2119/2120). Olives tolerate this fine. Follow-through job created: watershoots and trunk suckers will erupt in spring along the trunk and cut sites — rub them off young or the tree re-bushes from the base. No more pruning this year."
+    category: prune
   - date: "2026-07-29"
     entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
     category: feed

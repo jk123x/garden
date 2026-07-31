@@ -1,17 +1,20 @@
 name: Dianella 'Clarity Blue'
 type: perennial
 location: Front yard
-health: "Healthy — upright dark green strappy leaves, no browning or damage visible from the photos. Clumps look well-established."
+health: "Healthy and well-established. Winter groom done 31 July 2026 — old flower stalks and tatty leaves cut at the base. Fed in the July blitz. Nothing needed until spring."
 healthStatus: healthy
-lastAssessed: "2026-04"
-urgency: week
-nextAction: "Cut back old flower stalks and tatty leaves — 10-minute tidy while doing the front yard feed round."
+lastAssessed: "2026-07"
 image: /images/plants/IMG_0952.jpg
+log:
+  - date: "2026-07-31"
+    entry: "Winter groom done — spent flower stalks and tatty leaves cut at the base (the groom, not the shear). August tidy task satisfied."
+    category: prune
 notes: "Flax lily (Dianella 'Clarity Blue'). Multiple plants through the front garden providing good structural contrast with the silvery cushion bush and blue chalk sticks. Hardy Australian native that handles Melbourne conditions well. Blue-purple flowers in spring followed by blue berries. One of the lowest-maintenance plants here."
 tasks:
   - months: [8]
     task: Cut back old flower stalks and any tatty leaves
     category: prune
+    completed: "2026-07"
   - months: [9]
     task: Feed with slow-release native fertiliser (low phosphorus)
     category: feed

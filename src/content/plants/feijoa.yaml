@@ -1,14 +1,20 @@
 name: Feijoa
 type: fruit
 location: Front fence (one side)
-health: "Plan revised July 2026: no longer being removed. Renovation cut to ~70-80cm, then rebuild as dense ~1.5m shrubs leafy to the base — if the woodiness and maintenance stay under control, they stay. Fruit prevention regime continues regardless (fruit fly host)."
+health: "RENOVATION CUT DONE 31 July 2026 — all trunks down to ~1m (just below fence top), clean angled cuts, low leafy skirt retained as the recovery solar panel. Now rebuilding as dense ~1.5m managed shrubs. Expect the reshoot flush from October."
 healthStatus: monitor
 lastAssessed: "2026-07"
-urgency: week
-nextAction: "Hard cutback — DRY DAY (big cuts + wet = disease risk, same rule as the olive). Cut each leader to ~70-80cm even though the end goal is 1.5m: regrowth erupts at and below the cuts, so the cut height sets where the leafy base starts. Bare wood is fine — feijoas reshoot from dormant buds under old bark. No long stubs; clear dead/crossing wood in the middle; offcuts in the green bin. Then in late spring: tip the reshoots at ~30cm so they branch — that's what makes it dense instead of leggy again. Let it rise to 1.5m over 1-2 years, held with 1-2 hedge trims a year. IMPORTANT: cancel/repurpose the removal contractor if still booked."
-image: /images/plants/IMG_0988.jpg
+urgency: today
+nextAction: "Post-cut tidy (tomorrow): (1) bring the long leafy laterals arching over the fence back to a side shoot inside the fence line — same lid rule, horizontal edition; (2) clear offcuts and leaf litter off the chalk sticks and paw clumps below. Do NOT re-cut or even up the trunks. Then nothing until October flower-strip and the Nov-Dec tip-prune of regrowth at ~30cm. Cancel/repurpose the removal contractor if still booked."
+image: /images/plants/IMG_2122.jpg
 notes: "Pineapple guava (Acca sellowiana). Near the front fence. KEPT-SHORT REGIME (from July 2026): renovation cut to ~1m, then manage as a short shrub. No fruit wanted — strip flowers in October before fruit sets (they'll all be in reach on a short plant), or hedge-trim the new growth tips in late spring; regularly trimmed feijoas barely flower. First spring after the hard cut it will flower much less anyway (energy goes to regrowth). Intentionally NOT mulched — bare soil makes fallen-fruit pickup easier if any fruit sneaks through. Any fallen fruit: daily pickup, solarise in a sealed black bag 2+ weeks or red-lid bin — never compost, fruit fly host. No feed while re-establishing after the cut — lean conditions also keep the regrowth manageable."
 log:
+  - date: "2026-07-31"
+    entry: "MAIN CUT COMPLETE (evening) — every trunk down to ~1m just below fence top, clean angled cuts, low leafy growth retained under the cut plane (photos IMG_2121-2123; IMG_2122 now the profile shot). Tidy pending next day: pull the long laterals arching over the fence back inside the line, clear debris off the chalk sticks. September prune task satisfied by this cut."
+    category: prune
+  - date: "2026-07-31"
+    entry: "Renovation cut underway — first trunks taken down to ~1m (cut height revised from 70-80cm to just-below-fence-top after photo review; hidden stubs + a season of regrowth room to the 1.5m target). Cuts are clean and angled, right call on height (photos IMG_2114/2117). Guidance given: keep leafy growth below the cut plane as the interim solar panel, only shorten strays poking above it; formal tipping waits for Nov-Dec at 30cm regrowth."
+    category: prune
   - date: "2026-07-29"
     entry: "Plan revised: keeping the feijoas. Hard cutback to ~1m planned as an important upcoming job — trial as short managed shrubs instead of removal. Contractor removal arrangement superseded (cancel if still pending). October flower-strip becomes the permanent no-fruit strategy."
     category: general
@@ -33,8 +39,9 @@ tasks:
     task: Pick up and bag/solarise any fallen fruit daily — never compost
     category: general
   - months: [7, 8]
-    task: Renovation cut to ~70-80cm (2026), then annual winter height check at the 1.5m target
+    task: Renovation cut to ~1m / just below fence top (2026), then annual winter height check at the 1.5m target
     category: prune
+    completed: "2026-07"
   - months: [12, 1, 2]
     task: Deep water in dry spells
     category: water

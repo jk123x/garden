@@ -1,7 +1,7 @@
 name: Bartlettina sordida
 type: shrub
 location: Backyard (around frangipani)
-health: "Looking good — recovered from its tired post-summer state, coming through winter fine with no frost protection needed (July 2026, Jay's assessment)."
+health: "Thriving — big volume expansion through winter, flower buds coming through. Slumping under its own soft top-heavy growth (normal for bartlettina; the September cutback resets it). Holes in leaves noted 30 Jul — likely slugs/snails, baiting with Multiguard."
 healthStatus: healthy
 lastAssessed: "2026-07"
 image: /images/plants/IMG_0911.jpg
@@ -22,6 +22,12 @@ tasks:
     category: general
     completed: "2026-07"
 log:
+  - date: "2026-07-31"
+    entry: "Multiguard ring laid around the base for the leaf-hole culprit. Refresh after heavy rain if holes keep appearing; if they do and there's no slime trail, check undersides for caterpillars."
+    category: general
+  - date: "2026-07-30"
+    entry: "Holes in leaves spotted — probable slugs/snails on the soft winter growth; Multiguard bait to go down (caterpillar check on leaf undersides while at it). Plant otherwise booming: big winter volume expansion, flower buds coming, stems slumping/leaning under the top-heavy soft growth — posture issue only, normal for the species, September cutback will reset it. Loose stake-tie any stem gone fully horizontal; don't cut flowering tops."
+    category: general
   - date: "2026-07-29"
     entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
     category: feed

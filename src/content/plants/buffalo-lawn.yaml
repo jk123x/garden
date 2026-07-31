@@ -13,6 +13,7 @@ tasks:
   - months: [9]
     task: Feed with lawn fertiliser
     category: feed
+    completed: "2026-07"
   - months: [12]
     task: Feed again mid-summer
     category: feed
@@ -33,6 +34,9 @@ tasks:
     category: general
     completed: "2026-07"
 log:
+  - date: "2026-07-31"
+    entry: "Fed with Sudden Impact for Lawns — September feed front-loaded (pre-baby blitz). Spring aerate + overseed of bare patches remains the September job."
+    category: feed
   - date: "2026-07-21"
     entry: "Winter grass purge fully done — Poa annua pulled before seed set, plus misc broadleaf weeds. Watch-list stays: kikuyu (bright green runner grass, dig out whole runners incl. rooted nodes — can't be sprayed out of buffalo)."
     category: general

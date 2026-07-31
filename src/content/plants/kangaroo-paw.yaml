@@ -1,9 +1,11 @@
 name: Kangaroo Paw
 type: perennial
 location: Front yard, backyard
-health: "Both clumps tidied — front (April) and back (May). Spent stalks cut to base, dead leaves pulled from centre. No ink spot (close-ups ruled it out). Routine ink spot check still worth doing in late spring/summer."
-healthStatus: healthy
-lastAssessed: "2026-05"
+health: "Winter blackening confirmed July 2026 — heavy black marking on the front clumps (by the banksia/feijoa). Ink spot, arrived after the April all-clear. Not fatal, but marked leaves never recover their colour. Treatment: full 5cm haircut in late winter."
+healthStatus: monitor
+lastAssessed: "2026-07"
+urgency: week
+nextAction: "Ink spot haircut: cut the black-marked front clumps right down to ~5cm, whole clump, late winter timing is ideal (now). Foliage to the green bin, not compost. New fans regrow clean in spring; flowering resumes on the new growth. Confirm each clump is a paw before scalping: flat strappy leaves in an iris-like fan = paw, cut away; folded/keeled leaves with a midrib = dianella, groom only."
 image: /images/plants/IMG_1021.jpg
 notes: "Multiple clumps across front and back. The close-up photos (IMG_1021, IMG_1022) ruled out ink spot disease — no concentric ring pattern visible. What looked concerning from a distance is actually just accumulated dead leaves in the middle of the clumps and normal leaf-tip browning on older foliage. Pull out the dead material from the centres to improve airflow, cut any spent flower stalks to the base. Still worth a routine inkspot check in late spring/summer when conditions favour the disease."
 tasks:
@@ -21,6 +23,9 @@ tasks:
     task: Check for ink spot disease — remove affected leaves
     category: spray
 log:
+  - date: "2026-07-31"
+    entry: "Ink spot present on the front clumps — extensive black marking on leaves (photos IMG_2108/2109; Jay initially read the clumps as dianellas, but they sit exactly where the paws live and the flat fanned leaves + black blotching fit kangaroo paw ink spot). April's all-clear superseded — the blackening developed over winter. Plan: full 5cm haircut now, bin the foliage, clean regrowth in spring."
+    category: general
   - date: "2026-05-06"
     entry: "Back clump now tidied (front was done in April). Spent stalks cut to base, dead leaves pulled from centres."
     category: prune

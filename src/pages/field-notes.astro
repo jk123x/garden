@@ -1,0 +1,229 @@
+---
+import Layout from '../layouts/layout.astro';
+
+type Mark =
+  | { kind: 'pin'; n: number; x: number; y: number; tone: 'act' | 'id' | 'leave'; text: string }
+  | { kind: 'ring'; n: number; x: number; y: number; r: number; tone: 'act' | 'id' | 'leave'; text: string }
+  | { kind: 'cutline'; y: number; tilt?: number; tag: string; text: string };
+
+interface Plate {
+  img: string;
+  ratio: string;
+  section: string;
+  title: string;
+  intro: string;
+  marks: Mark[];
+  foot?: string;
+}
+
+const PLATES: Plate[] = [
+  {
+    img: '/images/field/IMG_2098.jpg',
+    ratio: '3/4',
+    section: 'The feijoa cut',
+    title: 'The patient, before',
+    intro:
+      'Healthy, vigorous, multi-trunked — and carrying all its foliage up high, well above the fence. The renovation cut resets where the leafy growth starts.',
+    marks: [
+      { kind: 'pin', n: 1, x: 48, y: 28, tone: 'id', text: 'Feijoa canopy — all the leaf is up here. After the cut, regrowth erupts at and below the cut height instead.' },
+      { kind: 'pin', n: 2, x: 20, y: 63, tone: 'id', text: 'Fence top — your proposed cut height. The recommendation sits just below this line (see next plate).' },
+      { kind: 'pin', n: 3, x: 85, y: 58, tone: 'leave', text: 'Banksia and the strappy underplanting — not part of this job. Drop branches outward onto the driveway side, not onto these.' },
+    ],
+    foot: 'Winter timing is right: cut on a dry day, before the spring flush. Offcuts in the green bin.',
+  },
+  {
+    img: '/images/field/IMG_2100.jpg',
+    ratio: '3/4',
+    section: 'The feijoa cut',
+    title: 'Where to cut',
+    intro:
+      'Every trunk, individually, with loppers or the pruning saw — at about 1m, a hand-width below the fence top. Slight angle on each cut so water sheds. No need to find a bud: feijoas reshoot from dormant buds under old bark, even on bare wood.',
+    marks: [
+      { kind: 'cutline', y: 64, tilt: -2, tag: 'cut all trunks about here (~1m)', text: 'A hand-width below the fence top. Stubs hidden from the street; regrowth fills the 1–1.5m zone and reaches the target height within a season. Stagger individual cuts ±10cm for a natural dome rather than a flat-top.' },
+      { kind: 'ring', n: 1, x: 40, y: 20, r: 9, tone: 'act', text: 'Orange sprinkler fitting and old nursery tag wedged in the branches — take both out before you start cutting.' },
+      { kind: 'pin', n: 2, x: 62, y: 50, tone: 'id', text: 'Clear any dead or crossing wood in the middle while the structure is open.' },
+    ],
+    foot: 'Cutting at the full fence height would work too — but it leaves only ~30cm of regrowth room before the 1.5m target, so the bush ends up top-heavy and needs trimming almost immediately. Lower cut, better shrub.',
+  },
+  {
+    img: '/images/field/IMG_2112.jpg',
+    ratio: '3/4',
+    section: 'Lemon: gall or not',
+    title: 'This one is a gall',
+    intro:
+      'Exactly what you thought. Spindle-shaped swelling in the middle of a stem, tapering back to normal wood at both ends, surface smooth with no exit holes — an occupied gall, cut it.',
+    marks: [
+      { kind: 'ring', n: 1, x: 49, y: 45, r: 9, tone: 'act', text: 'The gall — sausage swelling mid-stem, smooth and solid. No pinprick holes means this season’s brood is still inside.' },
+      { kind: 'pin', n: 2, x: 50, y: 33, tone: 'act', text: 'Cut here: 1–2cm above the gall in this photo — the thicker grey wood is the trunk side. If no fruit hangs beyond the cut, it can come off today; no need to wait for harvest on this branch.' },
+    ],
+    foot: 'Offcut goes sealed in a bag or straight into a green bin that’s getting collected. Never compost, never an open pile.',
+  },
+  {
+    img: '/images/field/IMG_2113.jpg',
+    ratio: '3/4',
+    section: 'Lemon: gall or not',
+    title: 'This one is not',
+    intro:
+      'Also exactly what you thought. The swelling sits at a junction where several branches radiate from one point — that’s normal wood doing normal wood things, not a gall.',
+    marks: [
+      { kind: 'ring', n: 1, x: 46, y: 58, r: 11, tone: 'leave', text: 'Branch junction — the swelling is the collar where the stems meet, not a mid-stem sausage. Leave it alone.' },
+      { kind: 'pin', n: 2, x: 76, y: 10, tone: 'id', text: 'Lemons stay on until picked — fruit is safe to eat regardless of galls elsewhere on the tree.' },
+    ],
+    foot: 'The rule that decides every case: mid-stem swelling tapering at both ends = gall. Swelling at a fork = wood.',
+  },
+  {
+    img: '/images/field/IMG_2109.jpg',
+    ratio: '3/4',
+    section: 'The strappy layer',
+    title: 'The black-marked clumps — kangaroo paws, most likely',
+    intro:
+      'Revised call: these sit exactly where the kangaroo paws live, the leaves are flat straps in iris-like fans, and the black marking is classic kangaroo paw ink spot that develops over a wet winter. Marked leaves never clean up — the black is permanent on that leaf. The fix is the full haircut: cut the whole clump to ~5cm now, late winter is the textbook time, and the spring fans come back clean.',
+    marks: [
+      { kind: 'pin', n: 1, x: 45, y: 45, tone: 'act', text: 'Cut the whole clump to ~5cm. Foliage to the green bin, not compost. Flowering resumes on the clean new growth.' },
+      { kind: 'pin', n: 2, x: 28, y: 58, tone: 'id', text: 'The black blotching — ink spot. It will NOT fade in the warm months; only new leaves come clean, which is why the full cut beats picking at it.' },
+      { kind: 'pin', n: 3, x: 84, y: 18, tone: 'leave', text: 'Dwarf banksia with spent ‘candles’ — old flower brushes can be snapped off for tidiness or left; the plant doesn’t care.' },
+      { kind: 'pin', n: 4, x: 40, y: 87, tone: 'leave', text: 'Chalk sticks creeping in from the bed edge — fine where it is.' },
+    ],
+    foot: 'Ten-second check before each scalp: flat strappy leaves in a fan = kangaroo paw, cut away. A folded/keeled leaf with a raised midrib = an actual dianella — those get the groom instead. Any clump you’re unsure about, cut one leaf at the base and look at its cross-section.',
+  },
+  {
+    img: '/images/field/IMG_2110.jpg',
+    ratio: '3/4',
+    section: 'The strappy layer',
+    title: 'The big one is not a dianella',
+    intro:
+      'The broad-leaved fountain is a different plant — and it’s not on the books. The wide pleated leaves and thick fleshy base read as a crinum lily or young gymea, not any dianella. It gets nothing done to it for now.',
+    marks: [
+      { kind: 'ring', n: 1, x: 50, y: 28, r: 13, tone: 'id', text: 'Broad, soft, pleated straps from a thick base — dianella leaves are half this width and stiff. Likely crinum (swamp lily) or gymea. A flower will settle it — send a photo when it throws one.' },
+      { kind: 'pin', n: 2, x: 30, y: 72, tone: 'act', text: 'More of the black-marked clumps — same verdict as the previous plate: kangaroo paw fans get the 5cm haircut; any genuinely folded-leaf dianella gets the groom.' },
+      { kind: 'pin', n: 3, x: 72, y: 84, tone: 'leave', text: 'Banksia — nothing needed.' },
+    ],
+    foot: 'Added to the notes as an unrecorded plant. If you want it catalogued properly, a flower or a base close-up will pin the ID.',
+  },
+  {
+    img: '/images/field/IMG_2107.jpg',
+    ratio: '4/3',
+    section: 'The strappy layer',
+    title: 'The tuft among the dusty miller',
+    intro:
+      'This finer, darker tuft is the lily turf suspect. The base test decides it: grip a few leaves where they emerge. Soft, floppy, narrow, grassy = liriope — shear the lot to 5cm like the ones along the sleepers. Stiff leaves rising in a flat iris-like fan = a dianella seedling — groom only.',
+    marks: [
+      { kind: 'ring', n: 1, x: 55, y: 42, r: 11, tone: 'act', text: 'The suspect. My read from the photo leans liriope (narrower, softer, darker than the dianellas two plates up) — but the base test takes ten seconds and is definitive.' },
+      { kind: 'pin', n: 2, x: 50, y: 10, tone: 'leave', text: 'Dusty miller — the white felted leaves. Never needs feeding, nothing to do.' },
+      { kind: 'pin', n: 3, x: 14, y: 55, tone: 'leave', text: 'Chalk sticks — leave.' },
+    ],
+  },
+  {
+    img: '/images/field/IMG_2106.jpg',
+    ratio: '3/4',
+    section: 'The strappy layer',
+    title: 'The clump on the fence line — already handled',
+    intro:
+      'Cut to 5cm on 31 July: it sat in the new muehlenbeckia’s establishment zone and the vine wins. Nothing more to do — just watch what regrows in spring.',
+    marks: [
+      { kind: 'pin', n: 1, x: 55, y: 45, tone: 'id', text: 'The clump, pre-cut. If it regrows as a soft grassy tuft it was liriope and will look fine at the fence base; if it sulks or stays sparse it was a dianella — pull it out then and let the vine have the spot.' },
+      { kind: 'pin', n: 2, x: 22, y: 76, tone: 'leave', text: 'Chalk sticks bed — it marks easily when stepped on, mind it when tying the vine.' },
+    ],
+  },
+];
+
+const sections = [...new Set(PLATES.map((p) => p.section))];
+const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+const TONE = {
+  act: { dot: 'bg-terra text-white', ring: 'border-terra', chip: 'bg-terra text-white' },
+  id: { dot: 'bg-olive text-white', ring: 'border-olive', chip: 'bg-olive text-white' },
+  leave: { dot: 'bg-ink-soft text-white', ring: 'border-ink-soft', chip: 'bg-ink-soft text-white' },
+};
+---
+
+<Layout title="Field Notes — Garden">
+  <div class="animate-in">
+    <div class="mb-10">
+      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">Annotated photos · 31 July 2026</p>
+      <h1 class="text-4xl font-semibold mb-2">Field Notes</h1>
+      <p class="text-ink-soft max-w-2xl">
+        The garden, marked up — where to cut, what each thing is, what to leave alone.
+        <span class="text-terra font-medium">Terracotta</span> marks mean act,
+        <span class="text-olive font-medium">olive</span> marks identify,
+        grey marks mean hands off. Pin positions are approximate — read the note, then find the spot in front of you.
+      </p>
+    </div>
+
+    {sections.map((section) => (
+      <section class="mb-14">
+        <h2 class="font-display text-3xl font-semibold mb-5 pb-2 border-b border-rule">{section}</h2>
+        <div class="space-y-10">
+          {PLATES.filter((p) => p.section === section).map((plate) => {
+            const idx = PLATES.indexOf(plate);
+            return (
+              <figure class="bg-paper rounded-xl border border-rule overflow-hidden">
+                <div class="px-5 pt-4 pb-3">
+                  <p class="font-display italic text-ink-faint text-lg leading-none mb-1">Plate {roman[idx]}</p>
+                  <h3 class="font-display text-2xl font-semibold mb-1.5">{plate.title}</h3>
+                  <p class="text-ink-soft text-[0.97rem] max-w-2xl">{plate.intro}</p>
+                </div>
+
+                <div class="px-5">
+                  <div class="relative rounded-lg overflow-hidden border border-rule-light" style={`aspect-ratio: ${plate.ratio};`}>
+                    <img src={plate.img} alt={plate.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+
+                    {plate.marks.map((m) => {
+                      if (m.kind === 'cutline') {
+                        return (
+                          <div class="absolute left-0 right-0" style={`top: ${m.y}%; transform: rotate(${m.tilt ?? 0}deg);`}>
+                            <div class="border-t-2 border-dashed border-terra/95 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]"></div>
+                            <span class="absolute right-2 -top-3.5 -translate-y-1/2 bg-terra text-white text-xs font-semibold px-2.5 py-1 rounded-full shadow-md whitespace-nowrap">
+                              ✂ {m.tag}
+                            </span>
+                          </div>
+                        );
+                      }
+                      if (m.kind === 'ring') {
+                        return (
+                          <div
+                            class:list={['absolute rounded-full border-[3px] shadow-[0_0_0_1.5px_rgba(255,255,255,0.85),inset_0_0_0_1.5px_rgba(255,255,255,0.85)]', TONE[m.tone].ring]}
+                            style={`left: ${m.x - m.r}%; top: ${m.y - m.r * (plate.ratio === '4/3' ? 4 / 3 : 3 / 4)}%; width: ${m.r * 2}%; aspect-ratio: 1;`}
+                          >
+                            <span class:list={['absolute -top-2 -right-2 w-6 h-6 rounded-full text-xs font-bold flex items-center justify-center shadow-md', TONE[m.tone].dot]}>{m.n}</span>
+                          </div>
+                        );
+                      }
+                      return (
+                        <span
+                          class:list={['absolute w-6 h-6 -ml-3 -mt-3 rounded-full text-xs font-bold flex items-center justify-center shadow-[0_0_0_2px_rgba(255,255,255,0.9),0_2px_5px_rgba(0,0,0,0.45)]', TONE[m.tone].dot]}
+                          style={`left: ${m.x}%; top: ${m.y}%;`}
+                        >{m.n}</span>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <figcaption class="px-5 py-4">
+                  <ul class="space-y-2">
+                    {plate.marks.map((m) =>
+                      m.kind === 'cutline' ? (
+                        <li class="flex gap-3 items-baseline">
+                          <span class="shrink-0 bg-terra text-white text-xs font-semibold px-2 py-0.5 rounded-full">✂ cut line</span>
+                          <span class="text-[0.95rem] text-ink-soft">{m.text}</span>
+                        </li>
+                      ) : (
+                        <li class="flex gap-3 items-baseline">
+                          <span class:list={['shrink-0 w-5 h-5 rounded-full text-[0.7rem] font-bold flex items-center justify-center translate-y-0.5', TONE[m.tone].dot]}>{m.n}</span>
+                          <span class="text-[0.95rem] text-ink-soft">{m.text}</span>
+                        </li>
+                      )
+                    )}
+                  </ul>
+                  {plate.foot && (
+                    <p class="mt-3 pt-3 border-t border-rule-light text-[0.9rem] text-ink-faint italic font-display text-base">{plate.foot}</p>
+                  )}
+                </figcaption>
+              </figure>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Layout>
