@@ -1,0 +1,32 @@
+name: Cotyledon 'Silver Waves'
+type: succulent
+indoor: false
+location: Front yard, near the gate
+health: "Established sprawler, healthy under the mess — got trampled in the 7 Aug asparagus-fern removal, so a section is flattened with bent and detached leaves. Recovers from stem nodes in spring; the loose leaves won't re-root, bin them."
+healthStatus: good
+lastAssessed: "2026-08"
+image: /images/winter-2026/IMG_2332.jpg
+photos:
+  - src: /images/winter-2026/IMG_2332.jpg
+    caption: "The roughed-up patch after the asparagus removal — broad wavy powder-coated leaves, thick sprawling stems (7 Aug 2026)"
+  - src: /images/winter-2026/IMG_2267.jpg
+    caption: "Curled silver paddles beside the rosemary, end of winter (6 Aug 2026)"
+notes: "Cotyledon orbiculata 'Silver Waves' — CONFIRMED Aug 2026: the garden designer emailed Jay the plant name, so this is definite, not a photo ID. Broad obovate paddle leaves with wavy, sometimes twisted margins and a powdery white farina that rubs off on your thumb (that rub-off is the 30-second confirm — felted lookalikes like Angel Wings senecio don't wipe clean). Leaves in opposite pairs at the tips of thick woody-succulent sprawling stems. Was mistaken for more of the dwarf blue chalk sticks until Aug 2026 — the bed's only other blue is the Dwarf Blue chalk sticks (designer-confirmed, one species). 100% confirm comes at flowering: a tall 30-60cm stalk of drooping orange/coral bells, likely late spring-summer. DON'T rub the leaves for fun — the farina is the ornament and doesn't regenerate. Propagation: stem cuttings only (callus a few days, then insert); detached leaves strike poorly, not worth saving. CAT-SAFETY FLAG: unlike the chalk sticks (mild GI-only), Cotyledon orbiculata contains bufadienolide cardiac glycosides — genuinely toxic if grazed in quantity (documented in dogs/livestock). Realistic risk to a passing cat is low (bitter, powder-coated, cats don't graze it), but it's the one plant in the bed that isn't technically cat-safe — Jay's informed call to keep it, made Aug 2026."
+tasks:
+  - months: [3]
+    task: Trim leggy or snapped stems back to a node — poke healthy offcuts in as cuttings if cover is wanted
+    category: prune
+  - months: [9]
+    task: Feed with slow-release native fertiliser (low phosphorus) alongside the chalk sticks
+    category: feed
+    completed: "2026-07"
+  - months: [11, 12, 1]
+    task: Watch for the flower stalk — drooping orange/coral bells on a 30-60cm stem, the plant's main event
+    category: general
+log:
+  - date: "2026-08-07"
+    entry: "ID made DEFINITE: the garden designer emailed Jay the plant name — Cotyledon orbiculata 'Silver Waves'. Photo verification had already landed on the same species independently."
+    category: general
+  - date: "2026-08-07"
+    entry: "Identified. Jay flagged that the 'other blue thing' near the gate is NOT chalk sticks and proposed Cotyledon orbiculata 'Silver Waves' — research verification agrees (~90% at species level): powdery farina with visible rub-off marks, wavy paddle leaves, sprawling woody stems; felted lookalikes (Angel Wings senecio, Kalanchoe) eliminated. New catalogue entry — 45th plant. Supersedes the 7 Aug note on the chalk sticks entry that called this patch 'more chalk sticks'. Trample recovery correction: the scattered detached leaves will NOT re-root reliably (that advice only holds for chalk-stick stem bits) — bin the loose leaves, poke broken STEM pieces in instead."
+    category: general

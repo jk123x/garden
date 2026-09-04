@@ -1,14 +1,35 @@
 name: Citrus Tree (Backyard)
 type: fruit
 location: Backyard
-health: "Scale treatment underway: eco-oil round 1 sprayed 30 Jul, second spray due mid-Aug, watching ant traffic as the success signal. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N), ants + sooty smudges = scale being farmed. Light clearance prune done July."
+health: "Scale treatment COMPLETE: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) both done. Verdict phase: watch ant traffic on trunk/fruit over the next fortnight — dropping = won; still busy trails in early Sept = a third oil round. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
 healthStatus: monitor
 lastAssessed: "2026-07"
-urgency: later
-nextAction: "Second eco-oil spray ~13-20 Aug (2-3 weeks after the 30 Jul round 1) — catches crawlers that hatch after round 1; fine if it slips a week. Judge round 1 by ant traffic dropping, not by scale falling off (dead scale stays stuck on — thumbnail flick: dry and flaky = dead). Pick ripe oranges as they come."
+urgency: week
+readyFrom: "2026-09-01"
+dueBy: "2026-09-07"
+nextAction: "Ant-traffic check (30 sec): trails on the trunk/fruit gone or way down = scale beaten, done. Still busy = one more eco-oil round. Dead scale stays stuck on — thumbnail flick: dry and flaky = dead. Pick ripe oranges as they come."
 notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
-image: /images/plants/IMG_2086.jpg
+image: /images/winter-2026/IMG_2303.jpg
+photos:
+  - src: /images/winter-2026/IMG_2303.jpg
+    caption: "End-of-winter profile — fruit still on (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2302.jpg
+    caption: "Behind the lime at the citrus corner (6 Aug 2026)"
+  - src: /images/plants/IMG_2086.jpg
+    caption: "After the oil + feed session, 30 Jul 2026"
 log:
+  - date: "2026-09-05"
+    entry: "Jay confirmed the backyard fruit trees were cut back hard recently (the heavy Aug prune session). September 'light prune to shape' marked done — no further pruning this year; the tree needs its regrowth. Hard-prune caveats stand: light feeds only (lush flush attracts gall wasp) and the Oct gall check matters more than usual."
+    category: prune
+  - date: "2026-08-18"
+    entry: "Eco-oil round 2 sprayed (whole tree) — scale treatment program complete. Now the verdict window: ant traffic over the next fortnight decides whether a third round is needed."
+    category: spray
+  - date: "2026-08-06"
+    entry: "Compost tuck-under + mulch top-up done (with the other citrus). Remaining on this tree: second eco-oil spray ~13-20 Aug, keep picking."
+    category: mulch
+  - date: "2026-08-06"
+    entry: "Baseline photo correction (Jay): the tub-tree shots I first filed here (IMG_2291/2292) are the GRAPEFRUIT. This orange's baseline shots: IMG_2303 is its profile (by the studio, fruit still on, foliage solid), and it's the background tree in IMG_2302 behind the lime. Keep picking; second eco-oil spray ~13-20 Aug unchanged, judged by ant traffic."
+    category: general
   - date: "2026-07-30"
     entry: "Eco-oil round 1 sprayed (whole tree, scale treatment). Fed with Experts Choice, light dose — September feed replaced. Gall wasp triple-checked. Second oil spray due ~mid-Aug. Post-session photo (IMG_2086): foliage colour looking decent, good crop of ripe oranges still on the tree — harvest still to do."
     category: spray
@@ -35,12 +56,13 @@ tasks:
   - months: [9]
     task: Light prune to shape
     category: prune
+    completed: "2026-08"
   - months: [12, 1, 2]
     task: Deep water weekly in hot weather
     category: water
   - months: [6, 7, 8, 9]
     task: Pick ripe fruit
     category: harvest
-  - months: [10, 11]
-    task: Check for citrus gall wasp — prune out galls before October
+  - months: [10]
+    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
     category: spray

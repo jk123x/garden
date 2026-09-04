@@ -18,8 +18,9 @@ tasks:
     category: feed
     completed: "2026-07"
   - months: [9]
-    task: Divide clumps every 3-4 years
+    task: "Divide check (10 sec): woody, sparse centre = divide (roughly every 3-4 years)."
     category: general
+    completed: "2026-09"
 log:
   - date: "2026-07-29"
     entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."

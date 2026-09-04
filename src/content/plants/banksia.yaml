@@ -4,12 +4,24 @@ location: Front yard
 health: "Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged."
 healthStatus: healthy
 lastAssessed: "2026-07"
-image: /images/plants/IMG_0955.jpg
+image: /images/winter-2026/IMG_2278.jpg
+photos:
+  - src: /images/winter-2026/IMG_2278.jpg
+    caption: "Candles at multiple stages, end of winter (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2273.jpg
+    caption: "The bed toward the street — feijoa stubs behind (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2272.jpg
+    caption: "From the porch side (6 Aug 2026)"
+  - src: /images/plants/IMG_0955.jpg
+    caption: "April 2026 assessment"
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2272/2273/2278). Flowering well — multiple orange-brown candles at different stages, fine foliage clean and green. Nothing needed."
+    category: general
   - date: "2026-07-29"
     entry: "Native feed blitz done: Osmocote Native applied to all 8 natives (banksia, cinnamon wattle, kangaroo paw, westringia, cushion bush, chalk sticks, dianellas, native daisies). Replaces the September native feeds."
     category: feed
-notes: "Native banksia with distinctive cone-like flower heads. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or prune for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
+notes: "Native banksia with distinctive cone-like flower heads. July 2026 photos sharpen the ID: low mounding habit, fine needle foliage, round orange-brown brush cones held close to the bush — reads as a dwarf Banksia spinulosa type ('Birthday Candles' or similar cultivar). Grows in the front bed alongside the kangaroo paws and feijoas. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or snap off for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
 tasks:
   - months: [9]
     task: Feed with native fertiliser (low phosphorus)

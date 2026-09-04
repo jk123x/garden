@@ -1,12 +1,21 @@
 name: Rhipsalis Neves-Armondii
 type: succulent
 indoor: true
-location: Library
-health: "Thriving — full lush cascade"
+location: Study (windowsill)
+health: "Thriving — full lush cascade. Aug 2026 photo: stems plump, deep even green, well hydrated. Heavy aerial-root production along the stems — normal epiphyte behaviour, possibly hinting at dry air; harmless."
 healthStatus: healthy
-lastAssessed: "2026-04"
-image: /images/plants/IMG_0964.jpg
-notes: "Epiphytic cactus. Hanging beautifully with dense trailing stems."
+lastAssessed: "2026-08"
+image: /images/plants/rhipsalis-study-aug-2026.jpg
+photos:
+  - src: /images/plants/rhipsalis-study-aug-2026.jpg
+    caption: "On the study windowsill — plump green stems, aerial roots everywhere (23 Aug 2026)"
+  - src: /images/plants/IMG_0964.jpg
+    caption: "April 2026 assessment"
+notes: "Epiphytic cactus. Dense trailing pencil-thin stems, white swirl pot. Location corrected Aug 2026: study windowsill (was filed as library — good news given the library pest cluster). The pale wiry threads along stems are aerial roots — normal for the species, NOT spider mite webbing (webbing = silk sheets spanning between stems + stippled foliage); snip for looks or leave. Brown papery stem tips = old growth points, cosmetic."
+log:
+  - date: "2026-08-23"
+    entry: "Photo check (Jay asked about the pale threads): aerial roots, normal — explicitly NOT spider mite webbing. Stems plump and deep green, plant thriving. Location corrected library → study windowsill, which also removes it from the library pest-cluster worry list. Heavy aerial roots can hint at dry air — optional occasional mist, no action required."
+    category: general
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly

@@ -1,0 +1,18 @@
+name: Irrigation (whole garden)
+type: groundcover
+location: Garden-wide
+healthStatus: good
+lastAssessed: "2026-09"
+notes: "Tracking entry, not a plant — the garden-wide drip system. Runs spring/summer, off through autumn/winter (rain covers it). One tap/switch turns the whole thing on. The drip extension to the new east jasmines was plumbed in May 2026, so they're covered the moment it's on. Turning this on is the one must-do of spring."
+tasks:
+  - months: [10]
+    byDay: 15
+    task: "Turn the drip system ON — one tap. Mid-Oct is the target while spring rain still helps out; if a warm dry week arrives earlier, do it then. THEN CHECK THE CONTROLLER PROGRAMME — a past mis-code flooded and badly damaged the lawn, so confirm run times/frequency look sane before walking away. Also walk the lines once and check the drippers at the new east jasmines are wetting their root zones"
+    category: water
+  - months: [5]
+    task: "Turn the drip system OFF for autumn/winter — rain takes over from here"
+    category: water
+log:
+  - date: "2026-09-05"
+    entry: "Tracking entry created — the irrigation turn-on was flagged as spring's one must-do but wasn't visible anywhere in the app. Now dated: on by 15 Oct, earlier if a warm dry spell hits. Still rainy early Sept, no rush."
+    category: general

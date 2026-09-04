@@ -3,13 +3,21 @@ type: perennial
 location: Front yard
 health: "Healthy and well-established. Winter groom done 31 July 2026 — old flower stalks and tatty leaves cut at the base. Fed in the July blitz. Nothing needed until spring."
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: "2026-08"
 image: /images/plants/IMG_0952.jpg
+photos:
+  - src: /images/winter-2026/IMG_2277.jpg
+    caption: "The fence-corner clumps, confirmed dianellas (6 Aug 2026)"
+  - src: /images/plants/IMG_0952.jpg
+    caption: "April 2026 assessment"
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos: Jay confirmed the two full strappy clumps by the front fence corner (IMG_2277, next to the feijoa stubs) are dianellas — I'd flagged them as possible missed kangaroo paws. Full foliage post-groom is exactly right for these. One older leaf carries a dark blotch — snip it at the base next time passing, no urgency (dianellas get the groom, never the scalp)."
+    category: general
   - date: "2026-07-31"
     entry: "Winter groom done — spent flower stalks and tatty leaves cut at the base (the groom, not the shear). August tidy task satisfied."
     category: prune
-notes: "Flax lily (Dianella 'Clarity Blue'). Multiple plants through the front garden providing good structural contrast with the silvery cushion bush and blue chalk sticks. Hardy Australian native that handles Melbourne conditions well. Blue-purple flowers in spring followed by blue berries. One of the lowest-maintenance plants here."
+notes: "Flax lily (Dianella 'Clarity Blue'). Multiple plants through the front garden providing good structural contrast with the silvery cushion bush and blue chalk sticks. Hardy Australian native that handles Melbourne conditions well. Blue-purple flowers in spring followed by blue berries. One of the lowest-maintenance plants here. ID note (settled July 2026): the green strappy clumps in the banksia/feijoa bed are NOT dianellas — they're the kangaroo paws. True dianella tell: folded/keeled leaf with a raised midrib. Dianellas get the groom (worst leaves at the base), never the 5cm scalp the paws get."
 tasks:
   - months: [8]
     task: Cut back old flower stalks and any tatty leaves
@@ -20,5 +28,6 @@ tasks:
     category: feed
     completed: "2026-07"
   - months: [9]
-    task: Divide crowded clumps if needed
+    task: "Divide check (10 sec): dead centre or clump outgrowing its spot = divide. Dianellas go years without needing it."
     category: general
+    completed: "2026-09"

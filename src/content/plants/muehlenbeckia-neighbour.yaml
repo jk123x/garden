@@ -3,22 +3,30 @@ type: climber
 location: Neighbour boundary fence
 health: "Covers about a third of the fence and stuck there. Neighbour hedge-trims her side hard with an electric trimmer, which shears off the twining growth woven through the grates — the vine detaches and hangs awkwardly off the fence on our side rather than gripping it. Vigour is fine; attachment is the problem."
 healthStatus: monitor
-lastAssessed: "2026-07"
+lastAssessed: "2026-09"
 notes: "Wire vine (Muehlenbeckia complexa), third of the three front-boundary muehlenbeckias. The neighbour's trimming isn't harmful in itself — muehlenbeckia responds to hedging by densifying — but it keeps stripping the attachment points, so the vine can't hold or extend along the fence. Fix is structural: tie main stems firmly to our side of the fence with soft ties through the grates, below where the trimmer reaches, and train leaders horizontally along the uncovered two-thirds. Done properly, the ongoing trimming becomes free density maintenance and full coverage is roughly two growing seasons away. Left alone, it stays at a third indefinitely."
-urgency: later
-nextAction: "Tie, don't weave — vine stays entirely on our side, only the soft ties (jute/velcro tape) pass through the grates. Lay main stems flat against the fence, tie at solid bars every 30-40cm, train leaders horizontally along the bare two-thirds. Check ties after her trimming sessions. Start when spring growth kicks off."
 tasks:
   - months: [3, 9]
     task: Trim to shape
     category: prune
+    completed: "2026-09"
   - months: [9]
     task: Feed with slow-release fertiliser
     category: feed
     completed: "2026-07"
+  - months: [10, 11, 12, 1, 2, 3]
+    task: "Coverage training (5 min): tie main stems flat against our side at solid bars (soft ties through the grates), lead leaders horizontally into the bare two-thirds, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached"
+    category: general
+  - months: [12]
+    task: "Growth-push top-up: light dose of Richgro — the July feed is spent; the fence run is being pushed for coverage"
+    category: feed
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water
 log:
+  - date: "2026-09-05"
+    entry: "Jay reports the neighbour-fence job done (tie/train + trim). Ongoing from here: glance at the ties after the neighbour's trimming sessions, and keep training new leaders horizontally into the bare two-thirds as spring growth comes."
+    category: general
   - date: "2026-07-29"
     entry: "First record created. Coverage assessed at ~1/3 of the fence, not extending because the neighbour's hard hedge-trimming shears off attachment growth through the grates — vine hangs detached on our side. Plan: soft-tie stems to the fence and train laterally; ~2 growing seasons to full cover once attached. Fed with Richgro All Purpose in the 29 Jul blitz along with the other two — September feed replaced."
     category: general

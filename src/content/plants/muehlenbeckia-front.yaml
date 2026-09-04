@@ -17,6 +17,12 @@ tasks:
     task: Feed with slow-release fertiliser
     category: feed
     completed: "2026-07"
+  - months: [10, 11, 12, 1, 2, 3]
+    task: "Coverage training (5 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage"
+    category: general
+  - months: [12]
+    task: "Growth-push top-up: light dose of Richgro — the July feed is spent; this vine is being pushed for coverage"
+    category: feed
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water

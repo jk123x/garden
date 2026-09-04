@@ -1,14 +1,36 @@
-name: Cinnamon Wattle
+name: Cinnamon Wattle 'Scarlet Blaze'
 type: tree
 location: Front yard
-health: "Pine bark mulch down April 2026 (no compost — natives hate rich soil). Tree itself looks fine — good canopy, no obvious dieback. Variety still needs confirming — could be Acacia leprosa, A. cognata, or a cultivar like 'Limelight'. A closer photo of the phyllodes and bark would help."
-healthStatus: monitor
-lastAssessed: "2026-04"
-image: /images/plants/IMG_0891.jpg
-notes: "Tall weeping tree near the front of the house, next to the Westringia. The fine pendulous foliage creates a nice screen. Some yellow older leaves at the base which is normal autumn leaf cycling for wattles. Health-wise it's fine — the 'monitor' status is because we're not 100% sure what it is, and different wattle species have different lifespans (some are short-lived 7-15 year trees). Getting the ID right matters for knowing what to expect."
+health: "Assessed Aug 2026 (photo zoom + Jay's report): genuinely healthy despite the slump. Dense phyllode cover with only normal cycling yellowing, smooth clean bark with no borer holes, gum bleeds or cracking visible, and a heavy load of red flowers opening along the branchlets — that's a tree with energy to spare, not one in decline. The pronounced lean is structural (wind incident), not a health problem: the canopy has kept growing and flowering at the new angle."
+healthStatus: healthy
+lastAssessed: "2026-08"
+image: /images/winter-2026/IMG_2271.jpg
+photos:
+  - src: /images/plants/IMG_2337.jpg
+    caption: "Pre-flowering baseline — loaded with bud, draping over the westringia (8 Aug 2026)"
+  - src: /images/winter-2026/IMG_2271.jpg
+    caption: "In heavy red bud — Scarlet Blaze confirmed (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2265.jpg
+    caption: "Weeping over the front bed (6 Aug 2026)"
+  - src: /images/plants/IMG_0891.jpg
+    caption: "April 2026 assessment"
+notes: "VARIETY CONFIRMED Aug 2026: Acacia leprosa 'Scarlet Blaze' — the red flowers settle it (the only red-flowered wattle in cultivation; famous Melbourne chance find, floral emblem candidate stuff). Jay loves this tree. What the ID means: naturally semi-weeping with a flexible leader — a slumped, willowy posture is partly just what it does, wind assist or not. It is also SHORT-LIVED: 7-15 years is the realistic span, so enjoy it hard and take cuttings/succession seriously in a few years. Managing the slump: do NOT try to winch it upright (snaps roots on an established tree); instead use the October post-flowering prune to lighten the heavy side and reduce sail so the lean stops progressing. Old stakes sit against the trunk — check any remaining ties aren't girdling and cut them off if the tree is self-supporting at the base. Watch-fors on an aging leprosa: borer holes/gum or sawdust frass on the trunk, and sudden branch dieback — either one is worth a photo. Low phosphorus feeds only."
+log:
+  - date: "2026-08-17"
+    entry: "De-staked: slack straps cut off, broken stakes pulled, trunk debris cleared. Pressure ridge on the bark heals itself as the trunk thickens — glance once a season. Next touchpoint is the October post-flowering prune (lighten the heavy side, clear the westringia's shoulder)."
+    category: general
+  - date: "2026-08-08"
+    entry: "Stake + trunk inspection from Jay's close-ups (IMG_2338-2342). Trunk healthy: smooth clean bark, no borer holes, gum or frass. But the old staking is now junk-plus-hazard: stakes broken (splintered ends wedged in the canopy and against the trunk) and several wide fabric straps still wrapped on the trunk/low branches — one pressure ridge already visible along the trunk where a strap has been biting. 10-min job, anytime: cut off every slack strap, pull the broken stakes, clear debris from around the trunk. Caution: nudge-test each piece first — if one is actually load-bearing on the leaning trunk (goes tight when pushed), leave that single piece until the October prune lightens the canopy, then remove. Pressure-marked bark heals itself as it thickens; no sealant. Glance at the ridge once a season."
+    category: general
+  - date: "2026-08-08"
+    entry: "Jay flagged scattered yellowing phyllodes (photo IMG_2337). Zoom verdict: normal turnover, not a problem — the yellow ones are older inner phyllodes, each uniformly yellow, scattered as singles through a dense canopy that's carrying a huge bud load. Wattles shed old foliage year-round and it spikes just before/during mass flowering (resources go to the flowers) and after a wet winter. Expect MORE yellow-and-drop during and after the show — still normal. Care = nothing active: no extra feed (Sept feed already done, low-P only ever), no winter watering, mulch kept off the trunk. The two triggers that WOULD matter: yellowing concentrated on one whole limb that then wilts (borer check — gum bleeds, sawdust frass, holes) or the entire canopy going pale at once (drainage). Neither is present. Also noted: the drape over the westringia is fine until October — at the post-flowering prune, remove the branches resting on the dome (cut back to a green lateral, never a bare-wood stub) so its shoulder gets light back."
+    category: general
+  - date: "2026-08-06"
+    entry: "VARIETY LOCKED IN: 'Scarlet Blaze' — Jay confirmed, and the photo zooms show the red pompoms already opening along the branchlets. Health evaluation off the baseline photos (IMG_2265/2271 + crops): dense healthy canopy, clean bark (no borer holes, gum or cracks visible at the trunk or unions), heavy flower load = good vigour. The wind-incident slump is structural only — the tree has kept growing and flowering at its new angle, and semi-weeping posture is native to this cultivar anyway. Plan: don't pull it upright; use the October post-flowering prune to lighten the heavy side so the lean doesn't progress; check the old stake ties at the trunk aren't girdling; keep a casual eye out for borer frass as it ages (short-lived species, 7-15yr)."
+    category: general
 tasks:
   - months: [10]
-    task: Light prune after flowering to shape
+    task: "Post-flowering prune: lighten the heavy slumped side, and clear the westringia — remove the branches resting on the dome so its shoulder gets 30-50cm of daylight. Every cut back to a green lateral; wattles don't reshoot from bare wood."
     category: prune
   - months: [9]
     task: Feed with native-specific fertiliser (low phosphorus)

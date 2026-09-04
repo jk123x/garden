@@ -4,7 +4,16 @@ location: Backyard
 health: "Canopy is open/sparse but that's partly intentional — Jay pruned the lower branches to let light through to plants below. Leaves look dark green where visible. The open structure is a combination of deliberate shaping and normal autumn thinning."
 healthStatus: good
 lastAssessed: "2026-04"
-image: /images/plants/IMG_0982.jpg
+image: /images/winter-2026/IMG_2297.jpg
+photos:
+  - src: /images/winter-2026/IMG_2297.jpg
+    caption: "Canopy dense through winter (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2296.jpg
+    caption: "Trunk and understorey (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2288.jpg
+    caption: "Over the flower-bed corner (6 Aug 2026)"
+  - src: /images/plants/IMG_0982.jpg
+    caption: "April 2026 assessment"
 notes: "Hymenosporum flavum. 4+ metres tall. The sparse canopy that looked concerning in the original silhouette photo is actually partly by design — Jay pruned lower branches to improve light for understorey plants. The remaining leaves look dark green and healthy where visible in the newer photos (0981-0982). Still semi-deciduous so some thinning in autumn is expected. The tree structure looks fine — no major dieback or dead branches visible. Pruning dropped from the plan July 2026 — canopy is too high to reach safely and it doesn't need it; don't re-add prune tasks."
 tasks:
   - months: [9]
@@ -18,6 +27,9 @@ tasks:
     task: Deep water in extended dry/hot spells
     category: water
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2288/2296-2298 — Jay confirmed the tree over the flower-bed corner in 2288 is this one, not the grapefruit). Tall canopy holding dense and dark green through winter, trunk sound. The understorey arrangement (bartlettina + strappy clumps at the base) looks settled."
+    category: general
   - date: "2026-07-29"
     entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
     category: feed

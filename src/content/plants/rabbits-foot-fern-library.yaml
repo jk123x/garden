@@ -2,11 +2,22 @@ name: Rabbit's Foot Fern (Library)
 type: fern
 indoor: true
 location: Library
-health: "Thriving — lush, dense mound"
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "Fern scale spread here from the library holly fern — small amounts of white flecks spotted 18 Aug 2026, alcohol spray (round 1) same day. Caught early and lightly; underlying plant still lush."
+healthStatus: monitor
+lastAssessed: "2026-08"
+urgency: week
+readyFrom: "2026-09-05"
+dueBy: "2026-09-08"
+nextAction: "Fern scale round 3 (final) on this fern + the flecked parlor palm: cloth wipe with half-strength alcohol, fronds top and bottom plus the furry feet. After this, weekly fleck glances only — fresh flecks reappearing = the wipes lost. While wiping, 30-sec check on everything else in the library."
 image: /images/plants/IMG_0948.jpg
-notes: "Davallia. Gorgeous feathery foliage, no brown tips."
+notes: "Davallia. Gorgeous feathery foliage, no brown tips. Fern scale history from Aug 2026 — check the rhizomes ('feet') as well as fronds when inspecting; scale hides on them."
+log:
+  - date: "2026-08-29"
+    entry: "Round 2 alcohol wipe done — this fern + the flecked parlor palm, one day past the 25-28 window (fine). Round 3 (final) re-dated to ~5-8 Sept, a week out from the actual round 2 date."
+    category: spray
+  - date: "2026-08-18"
+    entry: "Small amounts of white fern-scale flecks found (spread from the black-pot holly fern, same room) — alcohol spray round 1 done on sight. Rounds 2-3 as cloth wipes at 7-10 day intervals. This confirms crawlers are circulating beyond the two holly ferns: the 29 Jul all-clear on the rest of the collection is superseded, whole indoor collection gets a fleck check."
+    category: spray
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly
@@ -18,7 +29,7 @@ tasks:
     task: Group with other plants or sit on pebble tray for humidity
     category: general
   - months: [9]
-    task: Repot if rhizomes are overcrowded
+    task: "Repot check (10 sec): furry rhizomes circling the pot rim with nowhere left to creep = repot one size up. Room to roam = leave it."
     category: general
   - months: [4, 5, 6]
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed

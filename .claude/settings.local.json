@@ -29,7 +29,8 @@
       "Read(//Users/jaykinkade/Downloads/**)",
       "Bash(sips -s format jpeg __TRACKED_VAR__.HEIC --out /tmp/__TRACKED_VAR__.jpg)",
       "Bash(sips *)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(node *)"
     ]
   }
 }

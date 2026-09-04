@@ -3,10 +3,26 @@ type: fruit
 location: Backyard
 health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency."
 healthStatus: good
-lastAssessed: "2026-07"
-image: /images/plants/IMG_0917.jpg
+lastAssessed: "2026-08"
+image: /images/winter-2026/IMG_2291.jpg
+photos:
+  - src: /images/winter-2026/IMG_2291.jpg
+    caption: "Canopy with ripening fruit — taste-test season open (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2292.jpg
+    caption: "Multi-trunk in the tub by the bins (6 Aug 2026)"
+  - src: /images/plants/IMG_0917.jpg
+    caption: "April 2026 assessment"
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-09-05"
+    entry: "Jay confirmed the backyard fruit trees were cut back hard recently (the heavy Aug prune session). September 'light prune to shape' marked done — no further pruning this year. Hard-prune caveats: light feeds only, Oct gall check matters more than usual."
+    category: prune
+  - date: "2026-08-06"
+    entry: "Compost tuck-under DONE (all four citrus): sugarcane pulled back, compost on the root zone clear of the trunk, mulch topped up over it. The trees are set for the spring push — nothing owed now until the summer feed round."
+    category: mulch
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos — Jay confirmed IMG_2291/2292 are this tree (the multi-trunk one in the tub by the bins; I'd filed them under the orange, and the tall tree in IMG_2288 is the native frangipani, not this). State: canopy dense with fruit ripening — taste-test season is open, they sweeten with hang time. The pale/interveinal mottling on older leaves matches this tree's known magnesium story; Epsom was drenched in July, and the verdict shows in the NEW spring growth, not the old leaves — don't re-treat off these photos. Compost tuck-under still pending delivery."
+    category: general
   - date: "2026-07-30"
     entry: "Fed with Experts Choice, light dose — September feed replaced. Gall wasp triple-checked: clean, no galls found. Tree has always had strong growth. Decision: no preventive treatments — eco-oil is contact-only with no residual (pointless without scale present) and there's nothing to gall-prune. Stays on the annual winter gall check; lush growth is what wasps target, so keep feeds light."
     category: feed
@@ -33,9 +49,10 @@ tasks:
   - months: [9]
     task: Light prune to shape
     category: prune
+    completed: "2026-08"
   - months: [12, 1, 2]
     task: Deep water weekly in hot weather
     category: water
-  - months: [10, 11]
-    task: Check for citrus gall wasp — prune out galls before October
+  - months: [10]
+    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
     category: spray

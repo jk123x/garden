@@ -3,12 +3,24 @@ type: climber
 location: Front fence (other side)
 health: "Tidied and trimmed July 2026. Skeleton now reaches every grate on the fence but much of it is a single strand — coverage is patchy, especially the bottom half. Thickening is the job now, not reach."
 healthStatus: good
-lastAssessed: "2026-07"
-urgency: later
-nextAction: "Spring training for density: tip-prune the leaders once new growth kicks off (forces branching instead of long single whips) and weave or tie new runners into the low grates — the bottom half won't fill on its own."
+lastAssessed: "2026-09"
+urgency: week
+nextAction: "Top reduction (15-20 min): shear the sun-seeking risers flush with the fence top and take ~1/3 off the overhanging cap so it sits tight to the fence line — the top is hogging the energy that should be filling the bare lower grates. Salvage rule: a long strand that pulls free easily AND reaches bare grate gets tied down low + tip pinched off (pinching stops it climbing back up and forces side shoots along the tied length); anything tangled or short just gets cut. Snip the nature-strip escapees while there."
 image: /images/plants/IMG_0954.jpg
+photos:
+  - src: /images/winter-2026/IMG_2270.jpg
+    caption: "Climbing the fence corner by the bins (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2274.jpg
+    caption: "Draping the deck edge, miscanthus tuft below (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2276.jpg
+    caption: "Runners threading through the fence — trim the escapees (6 Aug 2026)"
+  - src: /images/plants/IMG_0954.jpg
+    caption: "July 2026, after the tidy"
 notes: "Wire vine / mattress vine (Muehlenbeckia complexa). The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill."
 tasks:
+  - months: [10, 11, 12, 1, 2, 3]
+    task: "Monthly top shear (10 min): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip"
+    category: prune
   - months: [3, 9]
     task: Trim to shape
     category: prune
@@ -17,10 +29,19 @@ tasks:
     task: Feed with slow-release fertiliser
     category: feed
     completed: "2026-07"
+  - months: [12]
+    task: "Growth-push top-up: second dose of Richgro — the July feed is spent by now; this fence is being pushed for full coverage"
+    category: feed
   - months: [12, 1, 2]
     task: Water in extended dry periods
     category: water
 log:
+  - date: "2026-09-02"
+    entry: "Early-spring photo check (IMG_3407): top-heavy — dense overhanging cap plus risers reaching for sun, lower/mid grates still bare wiry skeleton. Jay has been tying runners low and toward the sparse west end. Verdict: cut the top NOW rather than let it grow out — apical dominance means the top keeps winning until it's removed; spring regrowth hides the cuts within weeks."
+    category: prune
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2270/2274). Fence coverage looks full and healthy going into spring. (Correction from Jay: the big freestanding dome by the porch in IMG_2272 is the westringia, not this plant.) Note: runners are threading through the front fence onto the nature strip side (IMG_2276) — snip the escapees when passing so they don't get mowed into a mess."
+    category: general
   - date: "2026-07-29"
     entry: "Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced."
     category: prune

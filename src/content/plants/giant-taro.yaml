@@ -2,10 +2,15 @@ name: Giant Taro
 type: perennial
 indoor: false
 location: Right (east) side, behind star jasmine fence
-health: "Cut back. One trunk kept at ~1m for window view, others removed at ground level, stumps dug. Spot now clear behind the east fence — opened up the space for the 2 new star jasmine plantings."
+health: "Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small."
 healthStatus: good
-lastAssessed: "2026-05"
-image: /images/plants/giant-taro.jpg
+lastAssessed: "2026-08"
+image: /images/winter-2026/IMG_2310.jpg
+photos:
+  - src: /images/winter-2026/IMG_2310.jpg
+    caption: "The kept trunk, two big leaves — the mulch pups visible here were pulled 7 Aug (6 Aug 2026)"
+  - src: /images/plants/giant-taro.jpg
+    caption: "Before the April cutback"
 notes: "Alocasia, species TBC — most likely Alocasia 'Calidora' or Alocasia × portora (macrorrhizos × odora hybrid) given the combination of thick brown tree-like trunk with rounded matte leaves. Could also be Alocasia macrorrhizos. Confirm species by checking trunk texture (smooth-fibrous vs scarred-rough) and whether it ever flowers (odora flowers are strongly fragrant at night). Wear gloves and long sleeves when cutting — sap contains calcium oxalate crystals, severe skin/eye irritant. Multiple stems = original plant + established offsets. To keep permanently smaller, dig out side pups when cutting back. Watch for any regrowth from missed root pieces and cut at ground level early."
 tasks:
   - months: [4]
@@ -31,6 +36,12 @@ tasks:
     category: prune
     completed: "2026-05"
 log:
+  - date: "2026-08-07"
+    entry: "All regrowth pups pulled — back to just the one kept trunk. Closes the low-urgency weeding item early. Pups regrow from any root fragment, so glance at the mulch each visit and cut new arrowhead leaves at ground level while they're small."
+    category: general
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2310). Kept trunk carrying two big healthy leaves through winter. The small arrowhead-leaf seedlings in the mulch around the base: Jay confirmed they're just more taro — regrowth pups from root pieces missed in the April dig. DECISION: Jay will pull them all out at some point, no rush — it stays on the weeding round-2 list as the low-urgency item (gloves and long sleeves for the sap; easier now while small than after a spring growth spurt)."
+    category: general
   - date: "2026-07-30"
     entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
     category: feed

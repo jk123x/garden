@@ -1,0 +1,139 @@
+---
+import Layout from '../layouts/layout.astro';
+
+interface Photo {
+  img: string;
+  ids: string[];
+  note?: string;
+}
+
+interface Area {
+  title: string;
+  photos: Photo[];
+}
+
+const AREAS: Area[] = [
+  {
+    title: 'Front bed — banksia, gymea, paws, feijoa stubs',
+    photos: [
+      { img: 'IMG_2265', ids: ['Gymea Lily (probable)', "Bird's Nest Fern", 'Cinnamon Wattle', 'Muehlenbeckia'] },
+      { img: 'IMG_2272', ids: ['Westringia', 'Kangaroo Paw', 'Banksia', 'Gymea Lily (probable)'], note: 'The big dome by the porch is the westringia; banksia candles behind the paw fans.' },
+      { img: 'IMG_2273', ids: ['Banksia', 'Gymea Lily (probable)', 'Feijoa stubs', 'Chalk Sticks'], note: 'Feijoa trunks at ~1m — the renovation shot.' },
+      { img: 'IMG_2277', ids: ['Dianella', 'Feijoa stubs'] },
+      { img: 'IMG_2278', ids: ['Banksia', 'Gymea Lily (probable)'] },
+      { img: 'IMG_2279', ids: ['Feijoa stubs', 'Kangaroo Paw regrowth', 'Banksia', 'Chalk Sticks'], note: 'Paw regrowth pushing through the fresh bark.' },
+    ],
+  },
+  {
+    title: 'Front fence, lemon + nature strip',
+    photos: [
+      { img: 'IMG_2266', ids: ['Chalk Sticks', 'Westringia', 'Muehlenbeckia', 'Lemon Tree'] },
+      { img: 'IMG_2267', ids: ['Westringia', 'Chalk Sticks', 'Muehlenbeckia', 'Cinnamon Wattle'] },
+      { img: 'IMG_2268', ids: ['Westringia', 'Muehlenbeckia', 'Chalk Sticks'] },
+      { img: 'IMG_2269', ids: ['Lemon Tree'], note: 'Loaded — pre-harvest.' },
+      { img: 'IMG_2270', ids: ['Lemon Tree', 'Muehlenbeckia', 'Chalk Sticks'] },
+      { img: 'IMG_2271', ids: ['Cinnamon Wattle', "Bird's Nest Fern", 'Muehlenbeckia'], note: 'Heavy red-orange bud.' },
+      { img: 'IMG_2320', ids: ['Lemon Tree — after'], note: 'After the 6 Aug session: fed, gall prune, eco-oil round 1.' },
+      { img: 'IMG_2319', ids: ['Asparagus fern volunteer (pulled)', 'Westringia', 'Chalk Sticks'], note: 'Pulled 7 Aug — re-dig if shoots reappear in spring.' },
+      { img: 'IMG_2274', ids: ['Miscanthus', 'Muehlenbeckia', "Bird's Nest Fern"], note: 'Miscanthus reshooting from the April cutback.' },
+      { img: 'IMG_2275', ids: ["Bird's Nest Fern", 'Dichondra'] },
+      { img: 'IMG_2276', ids: ['Nature Strip', 'Muehlenbeckia runners'] },
+    ],
+  },
+  {
+    title: 'Jasmine runs',
+    photos: [
+      { img: 'IMG_2280', ids: ['Star Jasmine (West)'] },
+      { img: 'IMG_2281', ids: ['Star Jasmine (West)'] },
+      { img: 'IMG_2282', ids: ['Star Jasmine (West)'] },
+      { img: 'IMG_2283', ids: ['Star Jasmine (Back)'] },
+      { img: 'IMG_2284', ids: ['Star Jasmine (Back)'] },
+      { img: 'IMG_2285', ids: ['Star Jasmine (Back)'] },
+      { img: 'IMG_2286', ids: ['Star Jasmine (Back)'] },
+      { img: 'IMG_2287', ids: ['Star Jasmine (Back)'], note: 'The woody thin stretch by the corner — spring training target.' },
+      { img: 'IMG_2308', ids: ['Star Jasmine (East)'], note: 'Dense mature end outside the laundry.' },
+      { img: 'IMG_2309', ids: ['Star Jasmine (East)'], note: 'Tie audit handiwork on the top wires.' },
+    ],
+  },
+  {
+    title: 'East side — laundry run, taro, passionfruit extension',
+    photos: [
+      { img: 'IMG_2310', ids: ['Giant Taro'], note: 'Pups visible here were all pulled 7 Aug — one trunk again.' },
+      { img: 'IMG_2311', ids: ['Passionfruit — top-wire extension'], note: 'The runner already reaching the far side of the shed.' },
+      { img: 'IMG_2312', ids: ['Star Jasmine (East)'] },
+      { img: 'IMG_2313', ids: ['Star Jasmine (East)'] },
+      { img: 'IMG_2314', ids: ['Star Jasmine (East) — new plants'] },
+      { img: 'IMG_2315', ids: ['Drip line', 'Kikuyu (cleared)'], note: 'Kikuyu cleared to bare brick 7 Aug — ring check Nov/Dec.' },
+    ],
+  },
+  {
+    title: 'Backyard — citrus, olive, beds and tubs',
+    photos: [
+      { img: 'IMG_2288', ids: ['Star Jasmine (Back)', 'Flower beds', 'Native Frangipani'] },
+      { img: 'IMG_2289', ids: ['Flower beds — achillea, echinacea, rudbeckia'], note: 'Ferny grey-green rosette = achillea, leave; flat rosette = flatweed, pull.' },
+      { img: 'IMG_2290', ids: ['Lily Turf ×2 — tub-side'], note: 'The two clumps the shear missed. Leave alone (Jay’s call).' },
+      { img: 'IMG_2291', ids: ['Grapefruit Tree'], note: 'Pale mottled older leaves = the known Mg story, don’t re-treat.' },
+      { img: 'IMG_2292', ids: ['Grapefruit Tree — trunk + tub'] },
+      { img: 'IMG_2293', ids: ['Flower bed'] },
+      { img: 'IMG_2294', ids: ['Rosemary'], note: 'The kept half flowering blue.' },
+      { img: 'IMG_2295', ids: ['Bartlettina sordida'], note: 'Budded up.' },
+      { img: 'IMG_2296', ids: ['Native Frangipani — trunk'] },
+      { img: 'IMG_2297', ids: ['Native Frangipani'] },
+      { img: 'IMG_2298', ids: ['Native Frangipani'] },
+      { img: 'IMG_2299', ids: ['Olive Tree'], note: 'Post crown-lift.' },
+      { img: 'IMG_2300', ids: ['Olive Tree'] },
+      { img: 'IMG_2301', ids: ['Mexican Sage', 'Native Daisies'] },
+      { img: 'IMG_2302', ids: ['Lime Tree (front)', 'Orange (behind)', 'Rosemary'] },
+      { img: 'IMG_2303', ids: ['Orange — Citrus Tree (Backyard)'], note: 'Baseline profile shot.' },
+      { img: 'IMG_2304', ids: ['Mexican Sage', 'Native Daisies', 'Star Jasmine face runners'] },
+      { img: 'IMG_2305', ids: ['Passionfruit cap', 'Star Jasmine framework', 'Mexican Sage regrowth'], note: 'Bare legs under the leafy top — normal.' },
+      { img: 'IMG_2306', ids: ['Lavender', 'Blue Star Fern', 'bee hotel corner'] },
+      { img: 'IMG_2307', ids: ['Rudbeckia — copper tub', 'Mexican Sage'], note: 'Green shoots in the tub — September verdict trending keep.' },
+    ],
+  },
+];
+
+const total = AREAS.reduce((n, a) => n + a.photos.length, 0);
+---
+
+<Layout title="Photo Baseline — Garden">
+  <div class="animate-in">
+    <div class="mb-10">
+      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">End-of-winter baseline &middot; 6 August 2026</p>
+      <h1 class="text-4xl font-semibold mb-2">Winter Photo Baseline</h1>
+      <p class="text-ink-soft max-w-2xl">
+        All {total} photos from the winter sweep — the &ldquo;before&rdquo; set for spring comparison (shoot the &ldquo;after&rdquo; set Nov&ndash;Dec).
+        Every plant ID is settled; details live on each plant&rsquo;s page.
+      </p>
+    </div>
+
+    {AREAS.map((area) => (
+      <section class="mb-14">
+        <h2 class="font-display text-3xl font-semibold mb-5 pb-2 border-b border-rule">{area.title}</h2>
+        <div class="grid sm:grid-cols-2 gap-6">
+          {area.photos.map((p) => (
+            <figure class="bg-paper rounded-xl border border-rule overflow-hidden flex flex-col">
+              <a href={`/images/winter-2026/${p.img}.jpg`} target="_blank" class="block relative" style="aspect-ratio: 4/3;">
+                <img
+                  src={`/images/winter-2026/${p.img}.jpg`}
+                  alt={p.ids.join(', ')}
+                  class="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </a>
+              <figcaption class="px-4 py-3 flex-1 flex flex-col gap-2">
+                <span class="font-mono text-sm text-ink-faint">{p.img}</span>
+                <div class="flex flex-wrap gap-1.5">
+                  {p.ids.map((id) => (
+                    <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-olive/10 text-olive">{id}</span>
+                  ))}
+                </div>
+                {p.note && <p class="text-[0.92rem] text-ink-soft">{p.note}</p>}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Layout>

@@ -3,8 +3,15 @@ type: perennial
 location: Backyard (new composted bed + original bed)
 health: "Settled in after the April 16 division/transplant. Three weeks on, all clumps are fine — no wilting, foliage holding. Established."
 healthStatus: healthy
-lastAssessed: "2026-05"
+lastAssessed: "2026-08"
 image: /images/plants/IMG_1018.jpg
+photos:
+  - src: /images/winter-2026/IMG_2289.jpg
+    caption: "Ferny rosettes holding in the flower beds (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2293.jpg
+    caption: "The second bed (6 Aug 2026)"
+  - src: /images/plants/IMG_1018.jpg
+    caption: "After the April division"
 notes: "Yarrow (Achillea 'Hella Glashoff'). Originally 2 plants in the metal bed — divided during the April 16 transplant session into multiple clumps across both beds. Yarrow divides easily and transplants well. The ferny basal foliage and the tall flowering stems (that topple when tall) are the same plant. Water in deeply, mulch lightly, no feeding for 2-3 weeks. Should establish fast in the fresh compost."
 tasks:
   - months: [3, 4]
@@ -12,13 +19,17 @@ tasks:
     category: prune
     completed: "2026-04"
   - months: [9]
-    task: Divide clumps if overcrowded
+    task: "Divide check (10 sec): dead/bald centre with growth only round the rim, or flowering way down = time to divide. Divided Apr 2026 — unlikely to need it before ~2028."
     category: general
+    completed: "2026-09"
   - months: [9]
     task: Feed lightly — achillea prefers lean soil
     category: feed
     completed: "2026-07"
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2289 — Jay confirmed the raised oval beds are the flower beds, achillea + echinacea etc). The green ferny growth in the near bed is most likely these clumps' basal rosettes holding through winter. Weeding note attached to the round-2 list: feathery soft grey-green rosette = achillea, LEAVE; flat rosette pressed against the straw = flatweed, PULL."
+    category: general
   - date: "2026-07-30"
     entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
     category: feed

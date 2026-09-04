@@ -1,0 +1,26 @@
+name: End-of-Winter Photo Audit
+type: groundcover
+location: Whole garden
+healthStatus: healthy
+lastAssessed: "2026-08"
+notes: "Tracking entry, not a plant. The winter 2026 works (feijoa renovation, paw haircut, olive prune, passionfruit reshape, feed blitz) reset half the garden — this photo set is the 'before' baseline. AUDIT CLOSED 7 Aug 2026: every ID settled, no open questions. The only follow-up is the spring comparison shoot (task below)."
+tasks:
+  - months: [11, 12]
+    task: Spring comparison shoot — re-shoot the winter-2026 baseline angles (all 51 on /photo-audit) and compare
+    category: general
+log:
+  - date: "2026-08-07"
+    entry: "AUDIT CLOSED. Final IDs settled in a live session with Jay: the front-gate 'other blue thing' = Cotyledon 'Silver Waves' (designer-confirmed, new 45th entry), all chalk sticks = Dwarf Blue (designer-confirmed), Blue Star Fern confirmed (research + Jay), IMG_2290 tub-side clumps = two lily turfs the shear missed (leave alone), IMG_2332/2333 feathery sprigs = trample debris from the work sessions, not a plant. /photo-audit page trimmed to a plain baseline gallery. No questions remain."
+    category: general
+  - date: "2026-08-07"
+    entry: "Asparagus fern RIPPED OUT by Jay (photos IMG_2332/2333) — the audit's flagged weed is gone; watch the spot for tuber regrowth in spring. Same session: the front chalk sticks patch got roughed up (recovers fine, loose bits re-rootable). The 'other blue thing' question resolved by Jay: it's all just dwarf blue chalk sticks, misshapen and beaten up — no new plant."
+    category: general
+  - date: "2026-08-06"
+    entry: "ID review session with Jay, same day — most questions answered live: 2277 = dianellas (no missed paw haircut), 2274 = miscanthus reshooting, 2288's tree = native frangipani, 2291/2292 = grapefruit (not orange), 2289/2293 = the flower beds (achillea/echinacea), 2305's 'bare tree' = jasmine's bare lower framework, 2306 = dusty miller + lavender (both already catalogued), 2308/2309/2311 = east side outside the laundry (passionfruit runner has reached the far side of the shed), 2272 big dome = westringia, wattle = 'Scarlet Blaze' CONFIRMED. Weeding round 2 put on the dashboard at Jay's request (kikuyu in east bed, flower-bed rosettes, taro seedlings). Remaining: jasmine run mapping for 2280-2287, base test on the tub-side clumps, bartlettina confirm."
+    category: general
+  - date: "2026-08-06"
+    entry: "Photo sweep DONE — 51 photos (IMG_2265-2315) covering front bed, front fence, nature strip, all three jasmine runs, passionfruit wall, all four citrus, olive, rosemary, sage bed, bartlettina, frangipani, taro, raised beds and tubs. Stored in /images/winter-2026/ as the end-of-winter baseline. Review page built at /photo-audit with proposed IDs and open questions; log entries written to all clearly-identified plants."
+    category: general
+  - date: "2026-08-02"
+    entry: "Created at Jay's request — end-of-winter photo sweep of every garden area, to be sent to Claude for storage and record updates."
+    category: general

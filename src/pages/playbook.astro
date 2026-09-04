@@ -6,40 +6,32 @@ const today = new Date();
 const daysLeft = Math.max(0, Math.ceil((DUE_DATE.getTime() - today.getTime()) / 86400000));
 
 const QUICK_HITS = [
-  { area: 'Front', job: 'Feijoa tidy', how: 'Over-fence laterals back to a side shoot inside the fence line, stray whips above the lid off, debris cleared off the chalk sticks. No re-cutting the trunks.' },
-  { area: 'Front', job: 'Kangaroo paw ink-spot haircut', how: 'The black-marked clumps by the banksia: cut whole clumps to ~5cm, green bin the foliage. Black leaves never recover — the cut is the treatment. Fan check per handful: folded keeled leaf = dianella, leave it. Marked up on Field Notes.' },
+  { area: 'All', job: 'End-of-winter photo sweep', how: 'Phone walk of every area — front bed, fences + muehlenbeckias, nature strip, east side + shed corner, back wall, all backyard beds and trees. Wide shots + changes. Send to Claude as the "before" baseline ahead of spring.' },
+  { area: 'Back', job: 'Compost tuck-under (when delivery lands)', how: 'Citrus ×4 + passionfruit: pull the sugarcane back → 2-3cm compost on bare soil (hand-width off trunk) → sugarcane back over, topped up from the bale. Trees stay on sugarcane, not bark.' },
   { area: 'Front', job: 'Lemon first pass', how: 'Experts Choice LIGHT feed (last unfed citrus — never the lime). One-minute scale check: ants or brown bumps = eco-oil it. Snip the photo-confirmed gall if no fruit hangs beyond the cut. Pick lemons as they ripen.' },
   { area: 'Front', job: 'Finish the nature strip weeding', how: 'Halfway there. Taproot puller on the remaining half — best right after rain while roots slide out whole.' },
   { area: 'Back', job: 'Orange harvest', how: 'Pick every ripe orange — the crop is the biggest drain on the tree. Second oil spray is on the slippable list.' },
-  { area: 'Front + back', job: 'High-impact weeding spots', how: 'Just the beds around plants you care about and the street-visible patches. Finish-off job, not a full weed. Best after rain.' },
-  { area: 'Sides', job: 'A chunk of jasmine ties', how: 'Any 15 minutes: remove ties where the stem has twined onto the wire, cut anything biting bark, loose figure-8 only where still needed. Halfway — ~50% to go.' },
-  { area: 'Sides', job: 'Scratch-test the east jasmine wall-top', how: 'Thumbnail on the desiccated stems: green underneath = leave, brown-and-snaps = cut it out. 30 seconds in passing. Also glance at the new plants for leaf-edge browning (over-feed watch, to mid-Aug).' },
   { area: 'Indoor', job: 'Fern scale wipe rounds', how: 'Both affected holly ferns: cloth + half-strength alcohol or soapy water, hard along the midribs, top and bottom. Round 2 ~5-8 Aug, round 3 a week later. No oils on ferns.' },
 ];
 
-const SESSIONS = [
-  {
-    name: 'The pruning session',
-    time: '~2.5 hours (or split the feijoa into its own session)',
-    gear: 'Secateurs, loppers, pruning saw (all owned)',
-    deadline: 'Before the due date — winter windows close with it. Dry day for the big cuts.',
-    steps: [
-      'Feijoa: MAIN CUT DONE 31 Jul. Tidy remains: laterals arching over the fence back to a side shoot inside the line, debris off the chalk sticks. No re-cutting. Cancel the removal contractor if still booked.',
-      'Passionfruit: cut the whole vine back by a third. Untangle from the jasmine as you go — 3-lobed leaves = passionfruit, small glossy ovals = jasmine.',
-    ],
-  },
-];
+const SESSIONS = [];
 
 const SLIPPABLE = [
   { job: 'Second eco-oil spray on the orange', when: '~13–20 Aug (2–3 weeks after the 30 Jul round 1). If a newborn makes it week 4, the first spray still did most of the work. Judge round 1 by ant traffic — dead scale stays stuck on.' },
   { job: 'Lemon harvest', when: 'As they ripen through Aug–Sept. Casual, bowl at a time. Fruit from galled branches is completely fine to eat.' },
   { job: 'Lemon gall prune', when: 'AFTER the lemons are off, BEFORE end of September — the one hard deadline in the garden. Same rules as the orange session; prunings straight into a bin that’s getting collected.' },
   { job: 'Irrigation back on', when: 'Mid-September. Literally one tap. The single must-do garden action while you’re on baby duty.' },
-  { job: 'Remaining jasmine ties', when: 'Whenever, in chunks.' },
 ];
 
 const DONE = [
-  'Feijoa renovation cut: all trunks to ~1m, leafy skirt kept — the big one is done',
+  'Jasmine tie audit COMPLETE — all three sections, girdling risk cleared before spring thickening',
+  'East jasmine scratch test done, dead laundry-side growth cut out — May desiccation event closed',
+  'Feijoa bed mulched: 1m³ pine bark down 4 Aug (future mulch = Bunnings bags, never bulk again)',
+  'Passionfruit winter prune COMPLETE: cap tightened, thatch out, east top-wire extension trained, roof cleared, fruiting stems spared',
+  'High-impact weeding: priority beds + street-visible spots cleared',
+  'ALL winter prunes done — every pruning-session job is finished',
+  'Feijoa renovation COMPLETE: trunks to ~1m, tidy done, bed cleared',
+  'Kangaroo paws: ink-spot haircut done — clean spring fans incoming',
   'Dianella Clarity Blue: winter groom done',
   'Olive: big winter prune done — ~33% off, lifted clean trunk. Spring watershoots get rubbed off young',
   'Lawn fed: Sudden Impact down 31 Jul',
@@ -101,7 +93,7 @@ const DONE = [
     </section>
 
     <!-- Got an hour? -->
-    <section class="mb-12">
+    {SESSIONS.length > 0 && <section class="mb-12">
       <h2 class="font-display text-3xl font-semibold mb-1">Got an hour? Do the next session</h2>
       <p class="text-ink-soft mb-4">In this order if possible — but any of them beats none of them.</p>
       <div class="space-y-5">
@@ -129,7 +121,7 @@ const DONE = [
           </div>
         ))}
       </div>
-    </section>
+    </section>}
 
     <!-- Allowed to slip -->
     <section class="mb-12">

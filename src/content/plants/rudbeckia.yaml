@@ -5,13 +5,17 @@ health: "Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting b
 healthStatus: establishing
 lastAssessed: "2026-05"
 image: /images/plants/cutting-bed.jpg
+photos:
+  - src: /images/winter-2026/IMG_2307.jpg
+    caption: "The copper tub — green shoots through the straw (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2289.jpg
+    caption: "The flower beds under winter straw (6 Aug 2026)"
+  - src: /images/plants/cutting-bed.jpg
+    caption: "The cutting bed at planting, May 2026"
 notes: "Rudbeckia fulgida var. deamii (Deam's Black-eyed Susan). 3 plants total — 1 in the cutting bed, 2 distributed to other beds around the garden. Tough, long-lived perennial that handles Melbourne heat and drought once established. Flowers late summer into autumn on stiff stems — great cut flower. Leave spent seed heads through winter for structure and birds. Cut old stems to ground level in late winter before new basal growth emerges."
 tasks:
-  - months: [8, 9]
-    task: Check for new basal growth emerging
-    category: general
   - months: [9]
-    task: Feed with complete fertiliser as growth starts
+    task: "Crown check, then feed only on a yes: green basal shoots showing = light feed with complete fertiliser as growth starts. Nothing showing = leave it alone, no water, no feed"
     category: feed
   - months: [3, 4]
     task: Cut spent stems to ground level
@@ -20,6 +24,15 @@ tasks:
     task: Cut flowers for the vase — this IS the maintenance
     category: harvest
 log:
+  - date: "2026-09-05"
+    entry: "Jay's call: NOT replacing these flowers — the mid-September copper-tub keep-or-replace verdict is cancelled. If the grazed plant regrows, great; if not, oh well. Nothing to check, nothing to buy. The monthly tasks (feed as growth starts, cut for the vase in summer) still apply to whatever comes back."
+    category: general
+  - date: "2026-08-19"
+    entry: "Multiguard re-scattered after the 10 Aug rain washed out the July bait: copper tub, cutting bed, bartlettina ring. Tub shoots covered through to the mid-Sept keep-or-replace verdict."
+    category: general
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2307 tub, IMG_2288/2289 raised beds). Green shoots visible in the copper tub through the straw — if that's the grazed plant reshooting, the mid-September replace-or-keep verdict is trending keep. Weed seedlings are coming up through the sugarcane in the raised beds — worth a 10-minute hand-pull before they seed, so the crowns aren't competing at spring push."
+    category: general
   - date: "2026-07-29"
     entry: "Snail bait done: Multiguard (iron EDTA, cat-safe) scattered in the copper tub and cutting bed. Spring basal shoots protected."
     category: general

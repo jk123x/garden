@@ -23,8 +23,9 @@ tasks:
     category: feed
     completed: "2026-07"
   - months: [9]
-    task: Divide crowded clumps
+    task: "Divide check (10 sec): dead centre with a ring of growth round it = divide (typically every 3-4 years)."
     category: general
+    completed: "2026-09"
   - months: [12, 1, 2]
     task: Deadhead spent flowers to encourage more blooms
     category: general

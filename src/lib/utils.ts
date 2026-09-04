@@ -201,13 +201,29 @@ export function getTasksForMonth(
 
 const URGENCY_ORDER = ['today', 'week', 'ongoing'];
 
+export function getTodayIso(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+export function formatShortDate(iso: string): string {
+  const [, m, d] = iso.split('-').map(Number);
+  return `${d} ${MONTH_NAMES_SHORT[m - 1]}`;
+}
+
 export function getPlantsNeedingAttention(
-  plants: Array<{ id: string; data: { name: string; location: string; indoor?: boolean; healthStatus?: string; health?: string; image?: string; urgency?: string; nextAction?: string } }>,
+  plants: Array<{ id: string; data: { name: string; location: string; indoor?: boolean; healthStatus?: string; health?: string; image?: string; urgency?: string; nextAction?: string; readyFrom?: string; dueBy?: string } }>,
+  todayIso: string = getTodayIso(),
 ) {
-  const attention = plants
+  const flagged = plants
     .filter(p => p.data.urgency && URGENCY_ORDER.includes(p.data.urgency))
     .sort((a, b) => URGENCY_ORDER.indexOf(a.data.urgency!) - URGENCY_ORDER.indexOf(b.data.urgency!));
+  // ISO date strings compare correctly as plain strings
+  const attention = flagged.filter(p => !p.data.readyFrom || p.data.readyFrom <= todayIso);
+  const waiting = flagged
+    .filter(p => p.data.readyFrom && p.data.readyFrom > todayIso)
+    .sort((a, b) => a.data.readyFrom!.localeCompare(b.data.readyFrom!));
   const later = plants.filter(p => p.data.urgency === 'later');
   const unassessed = plants.filter(p => !p.data.healthStatus || p.data.healthStatus === 'unknown');
-  return { attention, later, unassessed };
+  return { attention, waiting, later, unassessed };
 }

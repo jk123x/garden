@@ -5,7 +5,12 @@ health: "Annual cut-back done 30 Jul 2026 — sheared low along the sleepers, fe
 healthStatus: healthy
 lastAssessed: "2026-07"
 image: /images/plants/IMG_0983.jpg
-notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers. Some autumn leaf litter scattered around but the plant itself looks great. Virtually indestructible."
+photos:
+  - src: /images/winter-2026/IMG_2290.jpg
+    caption: "The two tub-side clumps the shear missed — leave alone (6 Aug 2026)"
+  - src: /images/plants/IMG_0983.jpg
+    caption: "The sleeper clumps, April 2026"
+notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers, PLUS two clumps at the base of the orange's tub (ID'd Aug 2026, photo IMG_2290) — those two are exempt from the annual shear, Jay's call: leave them alone. Virtually indestructible."
 tasks:
   - months: [8]
     task: Cut back old foliage before new spring growth
@@ -16,9 +21,13 @@ tasks:
     category: feed
     completed: "2026-07"
   - months: [9]
-    task: Divide crowded clumps if needed
+    task: "Divide check (10 sec): dead centre with growth only round the rim = divide. Goes years without needing it."
     category: general
+    completed: "2026-09"
 log:
+  - date: "2026-08-07"
+    entry: "Two more clumps identified from the winter photos (IMG_2290): the green strappy pair at the base of the orange's tub are lily turf the shear missed — Jay confirmed. His standing call: those two stay unsheared, leave alone."
+    category: general
   - date: "2026-07-30"
     entry: "Annual cut-back done — old foliage sheared along the sleepers ahead of spring regrowth."
     category: prune

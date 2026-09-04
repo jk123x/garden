@@ -1,12 +1,19 @@
 name: Rhipsalis teres
 type: succulent
 indoor: true
-location: Library (wall-mounted)
-health: "OK — sculptural form, watch for etiolation if stems pale further"
+location: Study (wall-mounted)
+health: "OK — sculptural form, watch for etiolation if stems pale further. Aug 2026 photo: unchanged from April — still sparse/wild and slightly pale, not worse."
 healthStatus: monitor
-lastAssessed: "2026-04"
+lastAssessed: "2026-08"
 image: /images/plants/IMG_0965.jpg
-notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth. A slightly pale green — make sure it gets enough light."
+photos:
+  - src: /images/plants/rhipsalis-teres-aug-2026.jpg
+    caption: "On the study wall bracket — unchanged from April (23 Aug 2026)"
+notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth. A slightly pale green — make sure it gets enough light. Location corrected Aug 2026: it's on the STUDY shelf wall (was filed as library)."
+log:
+  - date: "2026-08-23"
+    entry: "Photo check on the study shelf (location corrected library → study). Same as April: sparse angular sculptural growth, slightly pale but stable. Monitor stands — the tell would be new growth coming through paler and stretchier than the old."
+    category: general
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with half-strength liquid fertiliser monthly

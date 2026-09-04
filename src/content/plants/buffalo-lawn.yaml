@@ -1,14 +1,19 @@
 name: Buffalo Lawn
 type: grass
 location: Backyard
-health: "Green but thin and patchy in places, with some worn/brown patches on the west side. Winter grass purge fully done 21 July 2026, before seed set. Spring aerate + feed + overseeding of bare patches is the next big step (September)."
+health: "Green but thin and patchy in places, with some worn/brown patches on the west side. Winter grass purge fully done 21 July 2026, before seed set. Feed done (front-loaded July). No reseeding (Jay, Sept 2026 — buffalo fills patches via runners anyway); aerate in October when actively growing."
 healthStatus: monitor
-lastAssessed: "2026-07"
+lastAssessed: "2026-09"
 image: /images/plants/IMG_0978.jpg
-notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (September), a feed, and overseeding any bare patches. Buffalo recovers well from runners so it should fill in with some attention. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring. Second watch-list weed (flagged by the gardener): kikuyu — a bright-green runner grass that invades buffalo permanently and can't be selectively sprayed out. Distinguish from buffalo by narrow pointed folded leaves vs buffalo's broad round-tipped ones. Remove whole runners including rooted nodes the moment any appears."
+photos:
+  - src: /images/winter-2026/IMG_2288.jpg
+    caption: "Winter lawn at the flower-bed corner (6 Aug 2026)"
+  - src: /images/plants/IMG_0978.jpg
+    caption: "July 2026 assessment"
+notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (October, while actively growing) and regular feeds. No reseeding — buffalo isn't sold as seed and fills bare patches itself via runners, so mowing + feeding is what drives recovery. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring. Second watch-list weed (flagged by the gardener): kikuyu — a bright-green runner grass that invades buffalo permanently and can't be selectively sprayed out. Distinguish from buffalo by narrow pointed folded leaves vs buffalo's broad round-tipped ones. Remove whole runners including rooted nodes the moment any appears."
 tasks:
-  - months: [9]
-    task: Aerate lawn
+  - months: [10]
+    task: Aerate lawn while it's growing strongly — recovers into the holes fastest then
     category: general
   - months: [9]
     task: Feed with lawn fertiliser
@@ -18,22 +23,32 @@ tasks:
     task: Feed again mid-summer
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Feed again in autumn (late Mar) — the autumn feed is what holds buffalo's winter colour"
     category: feed
   - months: [10]
     task: Dethatch if spongy/built up
     category: general
+  - months: [3]
+    byDay: 31
+    task: "LAWN SPECIES VERDICT (decided Sept 2026): kids use the yard at 15-20°, not 35° — buffalo is greenest exactly when they're inside. If it wintered thin again despite this season's densify program, autumn is tall fescue conversion season: spray out buffalo, rake, seed (March-April window, ~a weekend + a month of keeping it damp). Fescue = green all year, clumping (can't run wild like the old kikuyu), reseedable patches; costs summer watering (drip handles it) + year-round mowing. Happy with the buffalo = delete this task"
+    category: general
   - months: [12, 1, 2]
     task: Deep water 2-3 times per week in hot weather
     category: water
-  - months: [9, 10, 11, 12, 1, 2, 3]
-    task: Mow regularly
+  - months: [10, 11, 12, 1, 2, 3]
+    task: Mow when it looks shaggy — buffalo only really grows Nov-Mar, so early spring may need nothing
     category: general
   - months: [5, 6, 7, 8]
     task: Spot-pull winter grass before it seeds
     category: general
     completed: "2026-07"
 log:
+  - date: "2026-09-05"
+    entry: "Species rethink (Jay): switched from kikuyu years ago because it ran wild; buffalo grows slower but is now delivering 'lawn only in summer' — inverted for a family whose kids play outside at 15-20°, not 35°. Tall fescue flagged as the honest alternative: year-round green, clumping (no kikuyu-style invasion), seed-repairable, but needs summer irrigation + year-round mowing. Decision deferred to March 2027 (task added): give buffalo this season's densify program first, convert in the autumn seeding window if it still disappoints. Key context: the lawn was FLOODED last year by mis-coded irrigation — much of the current thinness is likely flood damage growing out, not species character, so this is buffalo's first fair season. Benchmark for March: well-kept buffalo = good Oct-May, dull-but-green winter (autumn feed + no scalping). If Jay wants grass that looks GOOD in July, that's fescue territory regardless."
+    category: general
+  - date: "2026-09-05"
+    entry: "Jay raked leaves off and ripped out winter grass — the real early-spring lawn jobs, done. Lawn still very bare/thin, so no point mowing yet: first mow waits until there's actual growth to cut (~Oct). Aerate Oct. Watch: bare patches are open ground for spring weeds — pull anything green that isn't buffalo when passing, so the runners get the space."
+    category: general
   - date: "2026-07-31"
     entry: "Fed with Sudden Impact for Lawns — September feed front-loaded (pre-baby blitz). Spring aerate + overseed of bare patches remains the September job."
     category: feed

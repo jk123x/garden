@@ -18,7 +18,7 @@ tasks:
     task: Group with other plants or sit on pebble tray for humidity
     category: general
   - months: [9]
-    task: Repot if rootbound — use well-draining epiphyte mix
+    task: "Repot check (10 sec): roots poking out the drainage holes or water running straight through = repot into well-draining epiphyte mix. Otherwise leave it."
     category: general
   - months: [4, 5]
     task: Wipe leaf segments with damp cloth to remove dust

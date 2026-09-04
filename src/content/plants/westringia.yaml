@@ -3,8 +3,21 @@ type: shrub
 location: Front yard
 health: "Excellent condition — dense dome-shaped form with tight silvery-green foliage. Naturally tidy shape with no bare patches, dieback, or pest damage visible."
 healthStatus: healthy
-lastAssessed: "2026-04"
-image: /images/plants/IMG_0889.jpg
+lastAssessed: "2026-08"
+log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2267/2268/2272). Flowering through winter, dome tight and healthy. Jay confirmed the big dome by the porch in IMG_2272 is this westringia (the one that carried the Christmas lights last year) — I'd initially read it as the muehlenbeckia. Nothing needed."
+    category: general
+image: /images/winter-2026/IMG_2268.jpg
+photos:
+  - src: /images/winter-2026/IMG_2268.jpg
+    caption: "Flowering through winter (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2272.jpg
+    caption: "The big dome by the porch — the Christmas-lights bush (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2319.jpg
+    caption: "Lilac flowers up close (6 Aug 2026)"
+  - src: /images/plants/IMG_0889.jpg
+    caption: "April 2026 assessment"
 notes: "Coastal Rosemary (Westringia fruticosa). One of the healthiest plants in the garden. The naturally tight dome shape needs minimal to no pruning. Drought-tolerant Australian native that genuinely thrives in Melbourne. No action needed."
 tasks:
   - months: [10, 3]

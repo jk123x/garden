@@ -18,7 +18,7 @@ tasks:
     task: Group with other plants or sit on pebble tray for humidity
     category: general
   - months: [9]
-    task: Repot if rhizomes are overcrowded
+    task: "Repot check (10 sec): furry rhizomes circling the pot rim with nowhere left to creep = repot one size up. Room to roam = leave it."
     category: general
   - months: [4, 5, 6]
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed

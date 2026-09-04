@@ -3,10 +3,14 @@ type: climber
 location: Back (north) fence
 health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous."
 healthStatus: healthy
-lastAssessed: "2026-04"
-urgency: week
-nextAction: "Tie audit across all three jasmine sections — ~50% done (29 July), keep chipping away. Remove any tie where the stem has twined onto the wire itself, cut out any tie biting into bark, re-tie loosely (figure-8) only where a stem still needs holding. Ties are 4-12 months old and stems thicken fast in spring — girdling risk."
+lastAssessed: "2026-08"
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2283-2288 — the run along the studio, plus the dense corner by the raised beds). Espaliered laterals sitting neatly on the mesh with the fresh figure-8 ties from the tie audit visible throughout. Coverage: dense and mature at the corner end, mid-run filling, some lower-fence gaps that spring growth + sideways training will close. Looks well set up."
+    category: general
+  - date: "2026-08-05"
+    entry: "Tie audit COMPLETE across all three jasmine sections — every unnecessary tie removed, nothing left biting bark. Girdling risk for the spring thickening season cleared. Spring/summer training ties get the loose figure-8 treatment from here."
+    category: general
   - date: "2026-07-29"
     entry: "Tie audit now ~50% done — steady progress in chunks since 21 July."
     category: general
@@ -16,7 +20,18 @@ log:
   - date: "2026-07-21"
     entry: "Tie removal pass started — roughly 25% of unnecessary ties removed across the jasmine sections."
     category: general
-image: /images/plants/IMG_0919.jpg
+image: /images/winter-2026/IMG_2285.jpg
+photos:
+  - src: /images/winter-2026/IMG_2283.jpg
+    caption: "The studio run — camellia over the top (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2285.jpg
+    caption: "Mid-run laterals on the mesh (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2287.jpg
+    caption: "The woody thin stretch by the corner — spring training target (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2288.jpg
+    caption: "The mature corner by the flower beds (6 Aug 2026)"
+  - src: /images/plants/IMG_0919.jpg
+    caption: "April 2026 assessment"
 notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
 tasks:
   - months: [1, 2]
@@ -26,9 +41,16 @@ tasks:
     task: Feed with slow-release fertiliser
     category: feed
     completed: "2026-07"
+  - months: [12]
+    task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
+    category: feed
   - months: [3]
     task: Feed again in autumn
     category: feed
-  - months: [10, 11, 12, 1]
-    task: Train and tie in new growth
+  - months: [10]
+    day: 1
+    task: "THE timing-critical session (15 min): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch tips near the lower-fence gaps and the woody corner stretch (IMG_2287) to force laterals there, tie what's already reaching. The top is won; the low gaps are the season goal. Cool spring? Wait until runners hit 30cm"
+    category: general
+  - months: [11, 12, 1]
+    task: "Cohort ties (10 min): lead the newest laterals into the remaining low gaps while supple"
     category: general

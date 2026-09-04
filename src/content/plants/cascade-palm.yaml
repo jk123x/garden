@@ -1,0 +1,38 @@
+name: Cascade Palm
+type: palm
+indoor: true
+location: Library
+health: "Trending well — spider mites found 21 Aug 2026, water blasts 21 + 29 Aug. At the second blast Jay reports it looking really good: healthier, no visible stippling or webbing. Not declaring victory yet (eggs are invisible) — one more round + weekly glances to confirm."
+healthStatus: monitor
+lastAssessed: "2026-08"
+urgency: week
+readyFrom: "2026-09-01"
+dueBy: "2026-09-02"
+nextAction: "Next mite round, ~3-4 days after the 29 Aug blast — either another water blast (undersides especially) or the one-and-done alternative: in-place eco-oil to run-off with a drop sheet, round 2 a week later. Blasts need the 3-4 day rhythm to beat the breeding cycle; oil needs just two sessions. Water mist between rounds either way. Oil is palm-safe, never fern-safe."
+notes: "Chamaedorea cataractarum. Added to the catalogue Aug 2026 when Jay reported spider mites on it (raised by Jay — not a cataloguing reopen). Spider mites love exactly this plant in exactly these conditions: warm dry indoor air, winter heating season. Long-term prevention = humidity (pebble tray, occasional shower) and a glance at frond undersides for pale stippling whenever watering. Mite signs: fine speckled bronzing/silvering on fronds, webbing at frond tips and where leaflets meet the stem."
+log:
+  - date: "2026-08-29"
+    entry: "Water blast round 2 done (same day the plan wobble was discussed — Jay blasted it after all). 8-day gap since round 1, so the cycle effectively restarts from here: next round ~1-2 Sept, then every 3-4 days, or switch to the two-session eco-oil plan. Condition report at blast time: looking really good — healthier than at discovery, no visible stippling or webbing. Round 1 + cool room likely knocked the population right down. Encouraging, but eggs are invisible: at least one more round, then weekly glances to confirm the win."
+    category: spray
+  - date: "2026-08-29"
+    entry: "Plan change: water-blast cycle abandoned — plant too big/awkward to move to a water source, and no follow-up blasts happened in 8 days. Switched to in-place eco-oil: round 1 asap (by ~1 Sept), round 2 a week later, water misting in between. Two sessions replaces the failed 4-5 blast schedule."
+    category: spray
+  - date: "2026-08-21"
+    entry: "IMPORTANT correction: the library heater has NEVER been on — the 'dry heated air' theory for the library pest cluster is wrong. Revised read: the library is an infection cluster, not a hostile-air room. The black-pot holly fern's scale has been active there since at least April; grouped plants let it spread (rabbit's foot, probably the dead bird's nest). The cascade palm's mites in a cool room = a slow-burn population, likely established over months, not a heat-driven bloom — which also means the blast cycle should win comfortably. Room-level fix is spacing between plants + the weekly checks, not temperature."
+    category: general
+  - date: "2026-08-21"
+    entry: "Spider mites found — pale stippling/webbing territory. First water blast done on discovery. Plan: repeat blasts every 3-4 days for 2 weeks, isolate from other plants, humidity up; escalate to eco-oil wipe only if they persist (safe on palms, never on ferns). Note: third indoor pest event of the winter (fern scale on the holly ferns + rabbit's foot/parlor palm, now mites) — dry heated air is driving all of it; the weekly scale fleck-check now doubles as a mite stipple-check across the collection. Lives in the LIBRARY — the same room as the scale epicentre (black-pot holly fern, rabbit's foot fern, the dead bird's nest). That room is now the confirmed pest hotspot: driest air or densest plant grouping, or both. Keep the library plants spaced apart, humidity up room-wide, and check every library plant on the weekly pass."
+    category: spray
+tasks:
+  - months: [6, 7, 8]
+    task: "Winter heating = mite season: glance at frond undersides for stippling when watering; boost humidity with a pebble tray"
+    category: general
+  - months: [9, 10, 11, 12, 1, 2]
+    task: Feed with half-strength liquid fertiliser monthly
+    category: feed
+  - months: [12, 1, 2]
+    task: Keep soil consistently moist in summer
+    category: water
+  - months: [4, 5]
+    task: Reduce watering — check soil 2cm down before watering
+    category: water

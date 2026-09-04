@@ -3,15 +3,21 @@ type: perennial
 location: Backyard (new composted bed)
 health: "Transplanted April 16 to the newly composted bed. Clump is intact with multiple emerging flower buds and the original red bloom. In better drainage now — should really take off once it settles."
 healthStatus: good
-lastAssessed: "2026-04"
+lastAssessed: "2026-08"
+log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos of the flower beds (IMG_2288/2289). Bed quiet under sugarcane — normal, echinacea is fully dormant; the crown check for new growth runs Aug-Sept as tasked. Weeds germinating through the straw are on the round-2 weeding list — hand-pull only, no digging near the crown, and no watering during checks (the old overwatering rule stands)."
+    category: general
 image: /images/plants/IMG_1018.jpg
+photos:
+  - src: /images/winter-2026/IMG_2289.jpg
+    caption: "The flower beds, dormant under straw (6 Aug 2026)"
+  - src: /images/plants/IMG_1018.jpg
+    caption: "After the April transplant"
 notes: "Echinacea 'Sombrero Salsa Red'. Moved from the original metal raised bed (where overwatering killed the others) into the freshly composted bed that previously held tomatoes/basil. Water in deeply, mulch 3-5cm keeping it off the crown, then leave alone. No fertiliser for 2-3 weeks. Key rule: don't overwater over winter — that's what killed the previous plants. Normal rainfall should be enough. Check soil with finger test before watering."
 tasks:
-  - months: [8, 9]
-    task: Check for new growth emerging from crown
-    category: general
   - months: [9]
-    task: Feed with complete fertiliser if new growth appears
+    task: "Crown check, then feed only on a yes: green shoots at the crown = light feed with complete fertiliser, kept off the crown. No shoots = do nothing, no extra water either (rot risk)"
     category: feed
   - months: [3]
     task: Cut back dead stems to ground level

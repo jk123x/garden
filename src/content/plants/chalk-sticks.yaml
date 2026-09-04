@@ -1,12 +1,44 @@
 name: Dwarf Blue Chalk Sticks
 type: groundcover
 location: Front yard
-health: "Good blue-grey colour, fleshy leaves look plump (well-hydrated). Some sparse patches near the base but generally filling in well."
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "Main mounds dense, plump, good colour — wintering well. The patch near the gate is flattened with woody stems exposed after the 7 Aug asparagus-fern removal: cosmetic only, everything's alive. It re-clothes from stem nodes through spring — expect it to look rough until ~Oct and be filled in by Dec. No extra water meanwhile (winter wet is the one thing that kills these)."
+healthStatus: good
+lastAssessed: "2026-08"
+urgency: later
+nextAction: "Optional 5-min when passing the front gate: gather the healthy detached blue segments off the straw and poke them 2-3cm into the bare gaps — they root where they sit and speed the fill-in. Bin the Cotyledon's loose broad leaves (those don't strike)."
+log:
+  - date: "2026-08-07"
+    entry: "Designer confirmation: the chalk sticks are Dwarf Blue (serpens), per the garden designer's email — closes the serpens-vs-mandraliscae question for good. One species across the whole bed."
+    category: general
+  - date: "2026-08-07"
+    entry: "Second ID pass, Jay's 'Blue Spruce' sedum hypothesis for the big mounds tested against the photos with the drip riser as a scale ruler — REJECTED on every character (leaves 2-3× too long, flattened not terete needles, chalky farina not green-blue, thick bare stems not wiry pink threads, and spent CREAM button flowers on the stem tips where sedum throws yellow stars). Same measurements also demoted mandraliscae (leaves half its minimum length): the mounds are most likely just old sprawling serpens (~65%) — same species as the tight mats, different age and sun. Longest-leaf tie-breaker queued as a passing job. Health verdict from the photos: everything alive; the roughed-up gate patch is cosmetic and re-clothes through spring."
+    category: general
+  - date: "2026-08-07"
+    entry: "ID CORRECTION (supersedes the earlier entry today): Jay realised the 'misshapen broad-leaf' plant near the gate is NOT chalk sticks — it's Cotyledon 'Silver Waves' (his ID, verified ~90% at species level; new catalogue entry). And the big floppy mounds with longer flatter pointed leaves are probably the full-size blue chalk sticks (mandraliscae), not the dwarf — side-by-side leaf test pending, same care regardless. The true dwarf patches are the tight mats of short chunky fingers. Recovery advice split: chalk-stick stem bits still re-root when poked in; the cotyledon's detached LEAVES don't — bin those, use stem pieces."
+    category: general
+  - date: "2026-08-07"
+    entry: "Bed tidy-up session (photos IMG_2332/2333): the patch near the gate got roughed up in the asparagus-fern removal — a section is flattened with old woody brown stems exposed, loose fingers/stem bits scattered across the straw, and some stems carrying misshapen, flattened-looking leaves. [Broad-leaf ID in this entry corrected later same day — see above.] Recovery is automatic: it re-leafs along the woody frame in spring, and detached pieces are free plants — poke healthy segments a few cm into soil wherever cover is wanted and they root. The big mound by the path is untouched and dense."
+    category: general
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2266/2273/2279). Good blue colour, plump leaves, patches expanding along the fence line and bed edges. Wintered fine."
+    category: general
 image: /images/plants/IMG_0887.jpg
-notes: "Senecio serpens 'Dwarf Blue'. Low-growing succulent patches through the front garden alongside the dianella and dichondra. The blue-grey colour is vibrant which means they're getting enough light. Sparse patches at the base could fill in — succulents dropped into gaps will root easily. Very drought-tolerant, practically indestructible. Avoid overwatering in winter."
+photos:
+  - src: /images/winter-2026/IMG_2333.jpg
+    caption: "The main mound — old sprawling serpens, winter-lean leaves reading flatter (designer-confirmed Dwarf Blue) (7 Aug 2026)"
+  - src: /images/winter-2026/IMG_2332.jpg
+    caption: "The roughed-up section — stubby dwarf bits among straw; the broad leaves at top are the Cotyledon (7 Aug 2026)"
+  - src: /images/winter-2026/IMG_2267.jpg
+    caption: "Front fence patches, end of winter (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2279.jpg
+    caption: "Edging the renovated feijoa bed (6 Aug 2026)"
+  - src: /images/plants/IMG_0887.jpg
+    caption: "April 2026 assessment"
+notes: "Senecio serpens 'Dwarf Blue' (syn. Curio repens), designer-confirmed — every blue chalk sticks patch in the front garden is this one species; the big floppy mounds are just older, part-shaded plants (winter-lean leaves read flatter and longer). Flowers: cream-white button clusters on stalks above the blue mat, summer-autumn — that's the flowering Jay remembers in this bed (IMG_0887 shows it). The broad wavy powdery paddles near the gate are a different plant: Cotyledon 'Silver Waves', its own entry. The feathery blue-grey sprigs in the winter photos (IMG_2332/2333) were trample debris from the work sessions, not a plant. Stem segments dropped into gaps root easily. Very drought-tolerant, practically indestructible. Avoid overwatering in winter."
 tasks:
+  - months: [10]
+    task: Spring recovery check on the gate patch — any stem that hasn't reshot by late Oct gets trimmed back to a live node; poke loose healthy segments into remaining gaps
+    category: prune
   - months: [3]
     task: Trim back any leggy growth
     category: prune

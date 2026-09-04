@@ -6,7 +6,21 @@ healthStatus: struggling
 lastAssessed: "2026-07"
 notes: "Growing next to sage plants near the back deck. LOW-PRIORITY TREE (Jay's call, July 2026): minimal-care regime after the gall renovation prune. Rules: no fertiliser until autumn 2027, no further pruning while it recovers, irrigation covers water. The one standing job is the annual winter gall snip (in tasks) — without it the gall load rebuilds and the tree goes back to producing nothing. Optional extras (whitewash, netting, leaf-miner oil) deliberately dropped. Leaf miner history: cosmetic, ignore. Gall ID rule: sausage swelling mid-stem between joints = gall; swelling at a branch fork = normal wood."
 image: /images/plants/IMG_2087.jpg
+photos:
+  - src: /images/winter-2026/IMG_2302.jpg
+    caption: "The sparse recovery frame, holding through winter (6 Aug 2026)"
+  - src: /images/plants/IMG_2087.jpg
+    caption: "After the gall renovation prune, Jul 2026"
 log:
+  - date: "2026-08-18"
+    entry: "Bonus eco-oil spray alongside the orange's round 2. Harmless top-up, but it doesn't replace the October flush round — oil has no residual, and the leaf-miner/gall-wasp target is the new spring foliage, which doesn't exist yet. October spray stays on the books."
+    category: spray
+  - date: "2026-08-06"
+    entry: "Compost tuck-under + mulch top-up done (with the other citrus). Note: compost is soil conditioning, not a feed — the no-fertiliser-until-autumn-2027 rule still stands."
+    category: mulch
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos (IMG_2302/2303 — the sparse young frame near the studio). Holding its remaining foliage through winter as expected; nothing new. October flush + its eco-oil round is the next touchpoint."
+    category: general
   - date: "2026-07-30"
     entry: "Eco-oil sprayed alongside the orange. Note: oil has no residual, so the October spring flush still needs its own eco-oil round (leaf miner + the flush being prime gall wasp target) — this spray doesn't cover it. Gall status triple-checked in the same sweep. Still no fertiliser until autumn 2027. Photos IMG_2087/2088: open post-renovation frame holding its remaining foliage fine through winter — sparse as expected, waiting on the spring flush."
     category: spray

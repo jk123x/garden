@@ -28,6 +28,9 @@ tasks:
     task: Water regularly in hot weather
     category: water
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos taken around the path/tub area. Plants quiet through winter as expected; fed 30 Jul, straw in place. Watch for new leaf push from late Aug."
+    category: general
   - date: "2026-07-30"
     entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
     category: feed

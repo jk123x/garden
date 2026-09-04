@@ -1,14 +1,34 @@
 name: Lemon Tree
 type: fruit
 location: Front yard
-health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Healthier than the backyard citrus. Producing fruit. Canopy openness is natural form."
-healthStatus: healthy
-lastAssessed: "2026-04"
+health: "Scale treatment COMPLETE: eco-oil rounds 1 (6 Aug, with the gall-prune + feed) and 2 (21 Aug) both done. Verdict phase: ant-traffic check ~4-11 Sept decides if a third round is needed. A handful of lemons still ripening on the frame. In recovery mode from the heavy gall-prune: expect a big spring flush, which is prime gall wasp bait — keep feeds light."
+healthStatus: monitor
+lastAssessed: "2026-08"
 urgency: week
-nextAction: "The last unfinished citrus. Sequence: LEMONS FIRST, GALLS SECOND — both done before end of September. (1) Pick the lemons as they ripen; safe to eat regardless of galls (larvae live only in stem wood, never fruit). (2) Then gall-prune: cut 1-2cm below each gall into clean stem. Galled stems with no fruit can be cut NOW. Pinprick exit holes = old/empty, low priority. Prioritise fat fresh galls, stop at ~1/3 of canopy. Seal cuttings in a bag, sun for a few weeks, bin — NEVER compost. Also: LIGHT Experts Choice feed (orange + grapefruit done 30 Jul, this tree's still owed), and check the dark leaf speckling from the 22 Jul photos — ants or brown bumps = eco-oil it like the orange."
-image: /images/plants/IMG_0888.jpg
+readyFrom: "2026-09-04"
+dueBy: "2026-09-11"
+nextAction: "Ant-traffic check (30 sec): ants gone or way down on the trunk/fruit = scale cycle broken, treatment done. Still busy trails = one more oil round. Keep picking the remaining lemons as they ripen."
+image: /images/winter-2026/IMG_2320.jpg
+photos:
+  - src: /images/winter-2026/IMG_2320.jpg
+    caption: "After the big session — fed, gall-pruned, oiled (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2269.jpg
+    caption: "Loaded with fruit before the haircut (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2270.jpg
+    caption: "Trunk and bins corner, pre-prune (6 Aug 2026)"
+  - src: /images/plants/IMG_0888.jpg
+    caption: "April 2026 assessment"
 notes: "Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October."
 log:
+  - date: "2026-08-21"
+    entry: "Eco-oil round 2 sprayed (whole tree), inside the 20-27 Aug window — scale treatment program complete. Verdict via ant traffic ~2 weeks out: gone = won, still busy = round 3."
+    category: spray
+  - date: "2026-08-06"
+    entry: "Compost tuck-under + mulch top-up done (with the other citrus). Combined with the feed, haircut and oil, this tree's winter program is fully complete."
+    category: mulch
+  - date: "2026-08-06"
+    entry: "THE BIG SESSION (same day as the baseline photos): fed, massive haircut, eco-oil round 1 — the last unfinished citrus is done. Post-prune photo IMG_2320: open vase frame, clean trunk, interior thinned hard, a handful of lemons left ripening. Ants observed crawling on the lemons — that's scale being farmed for honeydew (ants don't damage the fruit themselves); the oil smothers the scale, but only on contact, so round 2 in 2-3 weeks is what actually breaks the cycle. Watch-outs logged: spring flush off a hard prune is prime gall wasp target (feeds stay light, next winter's gall check matters), and newly exposed limbs may want 50/50 white acrylic before summer sun."
+    category: prune
   - date: "2026-07-22"
     entry: "Epsom salts drench applied — with this, all four citrus are done."
     category: feed
@@ -19,9 +39,13 @@ log:
     entry: "Citrus gall wasp confirmed — Jay ID'd galls after googling, lots of them across the citrus trees. Winter gall-pruning added to the punch list (must happen before spring emergence). Yearly winter gall check now a standing job."
     category: general
 tasks:
+  - months: [11]
+    task: Paint 50/50 white acrylic on the limbs newly sun-exposed by the Aug hard prune — sunburn protection before summer
+    category: general
   - months: [9]
     task: Feed with citrus fertiliser
     category: feed
+    completed: "2026-08"
   - months: [12]
     task: Feed again mid-summer
     category: feed
@@ -31,12 +55,14 @@ tasks:
   - months: [9]
     task: Light prune to shape
     category: prune
+    completed: "2026-08"
   - months: [12, 1, 2]
     task: Deep water weekly in hot weather
     category: water
   - months: [6, 7, 8, 9, 10]
     task: Pick ripe lemons
     category: harvest
-  - months: [10, 11]
-    task: Check for citrus gall wasp — prune out galls before October
+  - months: [10]
+    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
     category: spray
+    completed: "2026-08"

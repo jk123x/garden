@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { plant } = Astro.props;
-const { name, type, indoor, location, health, healthStatus, lastAssessed, image, notes, tasks, log } = plant.data;
+const { name, type, indoor, location, health, healthStatus, lastAssessed, image, photos, notes, tasks, log } = plant.data;
 const currentMonth = getCurrentMonth();
 
 const logEntries = [...log].sort((a, b) => b.date.localeCompare(a.date));
@@ -99,6 +99,24 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
         </div>
       )}
     </div>
+
+    {photos.length > 0 && (
+      <div>
+        <h2 class="text-3xl font-semibold text-ink mb-5">Photos</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {photos.map((photo: { src: string; caption?: string }) => (
+            <figure>
+              <a href={photo.src} target="_blank" class="block relative rounded-xl overflow-hidden border border-rule-light shadow-sm" style="aspect-ratio: 4/3;">
+                <img src={photo.src} alt={photo.caption || name} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+              </a>
+              {photo.caption && (
+                <figcaption class="text-xs text-ink-faint mt-1.5 leading-snug">{photo.caption}</figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      </div>
+    )}
 
     {logEntries.length > 0 && (
       <div>

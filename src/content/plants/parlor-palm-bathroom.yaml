@@ -7,6 +7,10 @@ healthStatus: healthy
 lastAssessed: "2026-04"
 image: /images/plants/IMG_0927.jpg
 notes: "Chamaedorea elegans. Bright green, full — benefits from the bathroom humidity."
+log:
+  - date: "2026-08-18"
+    entry: "One of the two parlor palms (Jay forgets which) showed small white fern-scale flecks and got an alcohol spray round 1 — the sprayed one will be identifiable by the flecks/treatment residue. Whichever palm it is: cloth-wipe rounds 2-3 at 7-10 day intervals alongside the library rabbit's foot. Check stems and frond undersides."
+    category: spray
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
     task: Feed with liquid fertiliser monthly

@@ -4,7 +4,16 @@ location: Left (west) side fence and pergola
 health: "Pine bark mulch down April 2026 (debris cleared first). Moderate coverage growing along the west side fence and up into the pergola. Not as dense as the back fence but filling in. Stems healthy and climbing."
 healthStatus: good
 lastAssessed: "2026-04"
-image: /images/plants/sj-west-main.jpg
+image: /images/winter-2026/IMG_2280.jpg
+photos:
+  - src: /images/winter-2026/IMG_2280.jpg
+    caption: "The side path — dense mid-run, bare trellis near end (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2281.jpg
+    caption: "Espaliered stems with tie-audit ties (6 Aug 2026)"
+  - src: /images/winter-2026/IMG_2282.jpg
+    caption: "Coverage building toward the backyard (6 Aug 2026)"
+  - src: /images/plants/sj-west-main.jpg
+    caption: "April 2026 assessment"
 notes: "Trachelospermum jasminoides. Growing along the west/left side and onto overhead structure. Sparser than the back fence section but actively growing. Train stems where you want coverage — jasmine follows the structure you give it. Feed in spring to push new growth."
 tasks:
   - months: [1, 2]
@@ -14,13 +23,23 @@ tasks:
     task: Feed with slow-release fertiliser
     category: feed
     completed: "2026-07"
+  - months: [12]
+    task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
+    category: feed
   - months: [3]
     task: Feed again in autumn
     category: feed
-  - months: [10, 11, 12, 1]
-    task: Train and tie in new growth
+  - months: [10]
+    day: 1
+    task: "THE timing-critical session (20 min): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty mesh is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm"
+    category: general
+  - months: [11, 12, 1]
+    task: "Cohort ties (10 min): tie the newest runners into the remaining bare trellis while they're still supple"
     category: general
 log:
+  - date: "2026-08-06"
+    entry: "End-of-winter baseline photos CONFIRMED as this run: IMG_2280-2282 (the narrow path along the house). Coverage dense and healthy mid-run and tall above fence height; bare trellis at the near ends is the spring training target — tie new runners sideways into the empty mesh rather than letting everything go up. Fresh tie-audit ties visible on the espaliered stems. (Mapping note: 2308/2309 turned out to be the east run, not this one.)"
+    category: general
   - date: "2026-07-29"
     entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
     category: feed
