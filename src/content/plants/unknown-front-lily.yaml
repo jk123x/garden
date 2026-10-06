@@ -1,6 +1,7 @@
 name: Gymea Lily (probable)
 type: perennial
 location: Front yard — banksia/feijoa bed, near the fence
+zones: [1]
 health: "Healthy and vigorous — big fountain of broad, soft, pleated strap leaves from a thick fleshy base. No action needed; awaiting ID."
 healthStatus: healthy
 lastAssessed: "2026-08"
@@ -15,7 +16,7 @@ photos:
 notes: "First recorded July 2026 — spotted during the feijoa photo session, previously assumed to be part of the dianella/kangaroo paw clumps but clearly a different plant: leaves are 5-8cm wide, soft and pleated, twice the width of anything else in the bed, rising from a thick fleshy rosette base (spiral wrap, not a dianella's flat fan). LEADING ID: young Doryanthes excelsa (gymea lily). Jay's observation seals the lean — it has never flowered and just holds its rosette shape year after year (like the front-yard bird's nest fern's habit). That's classic pre-maturity gymea: they sit as a static architectural rosette for 8-15 years before the first flower. A crinum would have flowered most summers by now. Care = exactly what Jay already does: nothing plus an occasional tidy of spent outer leaves at the base. Confirmation whenever it finally flowers: a 2-4m spear with a red head = gymea, white spidery clusters = crinum after all. Note for the future: a maturing gymea gets BIG (rosette 2m+ wide) — placement decision for future Jay."
 tasks:
   - months: [12, 1, 2]
-    task: Watch for a flower stalk — photograph it for ID if one appears
+    task: "Flower spear watch (10 sec): look for a thick stalk rising from the centre of the rosette. If one appears, photograph it: a 2-4m spear with a red head confirms gymea, a shorter stem of white or pink trumpets means crinum. No stalk = nothing to do."
     category: general
 log:
   - date: "2026-08-06"

@@ -1,6 +1,7 @@
 name: Passionfruit
 type: climber
 location: Backyard
+zones: [4]
 health: "WINTER PRUNE COMPLETE 2 Aug 2026 — cap tightened to a clean band, dead thatch out, east-bound runners trained along the top wire past the shed (two-storey arrangement live), roof cleared, fruiting stems spared. Green fruit ripening near the shed corner into spring. Expect the new-growth eruption from October — that's where this season's flowers and fruit come from."
 healthStatus: good
 lastAssessed: "2026-08"
@@ -30,27 +31,27 @@ log:
     category: feed
 tasks:
   - months: [8, 9]
-    task: Hard prune — cut back by a third
+    task: "Winter prune (1-2 hr, secateurs): cut the tangle back by about a third, dead brown thatch out of the cap, runners diving down the fence face cut out, anything on the shed roof cut and pulled while green. Spare stems carrying green fruit until picked. Fruit forms on the new growth that follows, so this prune sets the crop."
     category: prune
     completed: "2026-08"
   - months: [9]
-    task: Feed heavily with complete fertiliser
+    task: "Late-winter feed (5 min): Richgro All Purpose, generous dose (heavy feeder), spread over the whole root zone a metre out from the base and watered in. Never piled against the stem: collar rot."
     category: feed
     completed: "2026-07"
   - months: [12]
-    task: Feed again mid-summer
+    task: "Summer feed (5 min): Richgro All Purpose, generous dose over the root zone a metre out from the base, watered in. Flowers are setting fruit now and this is the feed that fills them. Never against the stem."
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Richgro All Purpose, normal dose over the root zone, watered in. Last feed before the vine slows; keeps the fruit still on the vine filling."
     category: feed
   - months: [4]
-    task: Mulch thickly around base
+    task: "Mulch (15 min): sugarcane from the bale 5-8cm deep over the root zone a metre out from the base, a hand's width clear of the stem. Shallow-rooted vine, the mulch is its water buffer."
     category: mulch
     completed: "2026-04"
-  - months: [12, 1, 2]
-    task: Deep water regularly in hot weather
-    category: water
+  - months: [11, 12, 1, 2]
+    task: "Runner patrol (5 min): any runner heading onto the shed roof, or diving down the fence face into the jasmine's mesh, gets cut at the top wire and pulled while green. Left to autumn it dies into a mat you cannot pull. The top wire is the vine's only lane."
+    category: prune
   - months: [2, 3, 4, 5]
-    task: Harvest fruit as it drops or wrinkles
+    task: "Harvest: purple and slightly wrinkled, or drops into your hand. Walk the east run past the shed too and pick up every dropped fruit; bin it, never compost (fruit fly)."
     category: harvest
     completed: "2026-04"

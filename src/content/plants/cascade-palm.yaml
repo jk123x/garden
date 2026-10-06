@@ -2,15 +2,17 @@ name: Cascade Palm
 type: palm
 indoor: true
 location: Library
-health: "Trending well — spider mites found 21 Aug 2026, water blasts 21 + 29 Aug. At the second blast Jay reports it looking really good: healthier, no visible stippling or webbing. Not declaring victory yet (eggs are invisible) — one more round + weekly glances to confirm."
+health: "Mite program CLOSED 11 Sept 2026 after four water blasts (21 + 29 Aug, 5 + 11 Sept). No visible stippling or webbing at the last rounds. Weekly underside glance continues with the library fleck check; recurrence = eco-oil, which is fine on palms."
 healthStatus: monitor
-lastAssessed: "2026-08"
-urgency: week
-readyFrom: "2026-09-01"
-dueBy: "2026-09-02"
-nextAction: "Next mite round, ~3-4 days after the 29 Aug blast — either another water blast (undersides especially) or the one-and-done alternative: in-place eco-oil to run-off with a drop sheet, round 2 a week later. Blasts need the 3-4 day rhythm to beat the breeding cycle; oil needs just two sessions. Water mist between rounds either way. Oil is palm-safe, never fern-safe."
+lastAssessed: "2026-09"
 notes: "Chamaedorea cataractarum. Added to the catalogue Aug 2026 when Jay reported spider mites on it (raised by Jay — not a cataloguing reopen). Spider mites love exactly this plant in exactly these conditions: warm dry indoor air, winter heating season. Long-term prevention = humidity (pebble tray, occasional shower) and a glance at frond undersides for pale stippling whenever watering. Mite signs: fine speckled bronzing/silvering on fronds, webbing at frond tips and where leaflets meet the stem."
 log:
+  - date: "2026-09-11"
+    entry: "Fourth and final mite blast done (Jay). Treatment program closed: blasts 21 + 29 Aug, 5 + 11 Sept. Now weekly underside glances only, covered by the library fleck-check item on the holly fern card. Fresh pale stippling or webbing = restart with eco-oil."
+    category: spray
+  - date: "2026-09-05"
+    entry: "Third mite round done (Jay). Program: blasts 21 + 29 Aug, round 3 on 5 Sept. One more round in 3-4 days to close the breeding cycle, then weekly underside glances only."
+    category: spray
   - date: "2026-08-29"
     entry: "Water blast round 2 done (same day the plan wobble was discussed — Jay blasted it after all). 8-day gap since round 1, so the cycle effectively restarts from here: next round ~1-2 Sept, then every 3-4 days, or switch to the two-session eco-oil plan. Condition report at blast time: looking really good — healthier than at discovery, no visible stippling or webbing. Round 1 + cool room likely knocked the population right down. Encouraging, but eggs are invisible: at least one more round, then weekly glances to confirm the win."
     category: spray
@@ -28,7 +30,7 @@ tasks:
     task: "Winter heating = mite season: glance at frond undersides for stippling when watering; boost humidity with a pebble tray"
     category: general
   - months: [9, 10, 11, 12, 1, 2]
-    task: Feed with half-strength liquid fertiliser monthly
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
   - months: [12, 1, 2]
     task: Keep soil consistently moist in summer

@@ -1,6 +1,7 @@
 name: Lily Turf
 type: groundcover
-location: Various — around the garden
+location: Sleeper clumps around the native frangipani (lawn edge) + two tub-side clumps by the orange
+zones: [2, 4]
 health: "Annual cut-back done 30 Jul 2026 — sheared low along the sleepers, fed. Looks stubbly now; fresh spring growth replaces the lot. Was dense and healthy pre-shear."
 healthStatus: healthy
 lastAssessed: "2026-07"
@@ -13,11 +14,11 @@ photos:
 notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers, PLUS two clumps at the base of the orange's tub (ID'd Aug 2026, photo IMG_2290) — those two are exempt from the annual shear, Jay's call: leave them alone. Virtually indestructible."
 tasks:
   - months: [8]
-    task: Cut back old foliage before new spring growth
+    task: "Annual shear (15 min, scissors): cut the sleeper clumps down to 5-8cm before the new spring blades push, tatty old foliage and all. Leave the two clumps at the base of the orange's tub alone (Jay's call). Shear after the new blades are up and you take the tips off fresh growth."
     category: prune
     completed: "2026-07"
   - months: [9]
-    task: Feed with slow-release fertiliser
+    task: "Feed (2 min): Richgro All Purpose, light dose, scattered along the sleeper clumps and watered in."
     category: feed
     completed: "2026-07"
   - months: [9]

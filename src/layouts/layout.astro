@@ -10,12 +10,11 @@ const currentPath = Astro.url.pathname;
 
 const nav = [
   { href: '/', label: 'Dashboard' },
-  { href: '/playbook', label: 'Playbook' },
-  { href: '/field-notes', label: 'Field notes' },
-  { href: '/photo-audit', label: 'Photo audit' },
   { href: '/plants', label: 'Plants' },
   { href: '/calendar', label: 'Calendar' },
   { href: '/feeding', label: 'Feeding' },
+  { href: '/irrigation', label: 'Irrigation' },
+  { href: '/field-notes', label: 'Field notes' },
 ];
 ---
 
@@ -24,7 +23,7 @@ const nav = [
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -32,9 +31,9 @@ const nav = [
   </head>
   <body class="min-h-screen">
     <header class="sticky top-0 z-10 bg-parchment/90 backdrop-blur-md">
-      <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="/" class="font-display text-2xl font-semibold text-ink tracking-tight italic">Garden</a>
+      <div class="max-w-5xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-2">
         <div class="flex items-center gap-6">
+          <a href="/" class="font-display text-2xl font-semibold text-ink tracking-tight italic">Garden</a>
           <div id="env-toggle" class="flex gap-3">
             <button
               data-env="outdoor"
@@ -49,28 +48,27 @@ const nav = [
               Indoor
             </button>
           </div>
-          <span class="w-px h-4 bg-rule"></span>
-          <nav class="flex gap-1">
-            {nav.map(({ href, label }) => {
-              const active = href === '/'
-                ? currentPath === '/'
-                : currentPath.startsWith(href);
-              return (
-                <a
-                  href={href}
-                  class:list={[
-                    'px-3.5 py-2 rounded-md font-medium transition-colors',
-                    active
-                      ? 'bg-terra/10 text-terra'
-                      : 'text-ink-soft hover:text-ink',
-                  ]}
-                >
-                  {label}
-                </a>
-              );
-            })}
-          </nav>
         </div>
+        <nav class="flex gap-1 overflow-x-auto -mx-2 px-2 whitespace-nowrap">
+          {nav.map(({ href, label }) => {
+            const active = href === '/'
+              ? currentPath === '/'
+              : currentPath.startsWith(href);
+            return (
+              <a
+                href={href}
+                class:list={[
+                  'px-3.5 py-2 rounded-md font-medium transition-colors',
+                  active
+                    ? 'bg-terra/10 text-terra'
+                    : 'text-ink-soft hover:text-ink',
+                ]}
+              >
+                {label}
+              </a>
+            );
+          })}
+        </nav>
       </div>
       <div class="max-w-5xl mx-auto px-6">
         <div class="h-px bg-gradient-to-r from-transparent via-rule to-transparent"></div>
@@ -81,13 +79,14 @@ const nav = [
     </main>
     <script>
       function initEnvToggle() {
-        const env = localStorage.getItem('garden-env') || 'outdoor';
+        let env = 'outdoor';
+        try { env = localStorage.getItem('garden-env') || 'outdoor'; } catch {}
         applyEnv(env);
 
         document.querySelectorAll<HTMLButtonElement>('.env-btn').forEach((btn) => {
           btn.addEventListener('click', () => {
             const selected = btn.dataset.env!;
-            localStorage.setItem('garden-env', selected);
+            try { localStorage.setItem('garden-env', selected); } catch {}
             applyEnv(selected);
           });
         });
@@ -106,12 +105,6 @@ const nav = [
           const isIndoor = el.dataset.indoor === 'true';
           const show = env === 'indoor' ? isIndoor : !isIndoor;
           el.style.display = show ? '' : 'none';
-        });
-
-        document.querySelectorAll<HTMLElement>('[data-env-summary]').forEach((el) => {
-          const outdoor = el.dataset.envSummaryOutdoor || '';
-          const indoor = el.dataset.envSummaryIndoor || '';
-          el.textContent = env === 'indoor' ? indoor : outdoor;
         });
 
         document.body.dataset.env = env;

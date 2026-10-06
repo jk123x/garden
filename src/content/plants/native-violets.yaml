@@ -1,6 +1,7 @@
 name: Native Violets
 type: groundcover
 location: Various — planted around the garden
+zones: [4]
 health: "Spreading and visible in wider garden shots, with small purple-white flowers. No dedicated photo but looks fine where visible."
 healthStatus: healthy
 lastAssessed: "2026-04"
@@ -11,12 +12,9 @@ log:
     category: feed
 tasks:
   - months: [9]
-    task: Feed with slow-release fertiliser
+    task: "Feed (2 min): Richgro All Purpose, light dose, scattered over the patches and watered in."
     category: feed
     completed: "2026-07"
   - months: [3]
-    task: Thin out or divide if spreading too far
+    task: "Edge check (5 min, hand fork): runners crossing into the path or over a neighbour's crown = pull them back to the bed edge, and replant the lifted pieces into any bare shady gap. Still inside its bed = leave it."
     category: prune
-  - months: [12, 1, 2]
-    task: Water in dry spells — prefers consistent moisture
-    category: water

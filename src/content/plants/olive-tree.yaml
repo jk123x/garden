@@ -1,6 +1,7 @@
 name: Olive Tree
 type: tree
 location: Backyard
+zones: [4]
 health: "Big winter prune done 31 July 2026 — ~33% off, lower limbs removed for a clean lifted trunk with the canopy carried high. Healthy silvery canopy on what remains. Expect a vigorous response in spring: watershoots along the trunk and around cuts — rub or snip them off while pencil-thin, monthly through the growing season."
 healthStatus: healthy
 lastAssessed: "2026-07"
@@ -15,18 +16,18 @@ photos:
     caption: "Right after the prune, 31 Jul 2026"
 tasks:
   - months: [7, 8]
-    task: Prune to shape — open up centre for airflow
+    task: "Winter shape prune (1 hr, secateurs + saw): open the centre for airflow, crossing and inward branches back to a fork, never more than a quarter of the canopy. After the 2026 crown lift, 2027 is a light year: tidy only, no more lifting."
     category: prune
     completed: "2026-07"
   - months: [10, 11, 12, 1, 2, 3]
-    task: Rub off watershoots and trunk suckers while pencil-thin — response to the big 2026 prune
+    task: "Watershoot patrol (5 min): rub off with a thumb, or snip flush, every soft upright shoot on the trunk or around the big 2026 cuts while it is still pencil-thin and green. Left a season they harden into a second canopy from the base. Monthly because they come in waves."
     category: prune
   - months: [9]
-    task: Feed with complete fertiliser
+    task: "Late-winter feed (5 min): Richgro All Purpose, normal dose, scattered at the dripline (the canopy edge, not against the trunk) and watered in."
     category: feed
     completed: "2026-07"
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Richgro All Purpose, normal dose at the dripline, watered in. This is the feed that builds next spring's flower buds, so do it even though the tree looks like it needs nothing."
     category: feed
 log:
   - date: "2026-08-06"

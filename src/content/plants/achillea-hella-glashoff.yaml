@@ -1,6 +1,7 @@
 name: Achillea 'Hella Glashoff'
 type: perennial
 location: Backyard (new composted bed + original bed)
+zones: [2, 3]
 health: "Settled in after the April 16 division/transplant. Three weeks on, all clumps are fine — no wilting, foliage holding. Established."
 healthStatus: healthy
 lastAssessed: "2026-08"
@@ -15,7 +16,7 @@ photos:
 notes: "Yarrow (Achillea 'Hella Glashoff'). Originally 2 plants in the metal bed — divided during the April 16 transplant session into multiple clumps across both beds. Yarrow divides easily and transplants well. The ferny basal foliage and the tall flowering stems (that topple when tall) are the same plant. Water in deeply, mulch lightly, no feeding for 2-3 weeks. Should establish fast in the fresh compost."
 tasks:
   - months: [3, 4]
-    task: Cut back spent flower stems
+    task: "Cut back (5 min): once the flat flower heads have gone brown and papery, cut every flowering stem down to the ferny basal rosette. Leave the rosette itself untouched, that is next year's plant. Snap test on doubtful stems: dry and hollow = cut"
     category: prune
     completed: "2026-04"
   - months: [9]
@@ -23,10 +24,13 @@ tasks:
     category: general
     completed: "2026-09"
   - months: [9]
-    task: Feed lightly — achillea prefers lean soil
+    task: "Feed light (2 min): a small scatter of Richgro All Purpose around each clump, about half what the bag says, then water in. The mistake is generosity: rich soil makes achillea tall, soft and floppy, so if in doubt use less"
     category: feed
     completed: "2026-07"
 log:
+  - date: "2026-09-17"
+    entry: "Irrigation: the composted bed near the house is on ZONE 2 (the lawn zone, 12-min run, one shrubbler) not zone 3 as first mapped. Its shrubbler was buried and dead; dug out and working 17 Sept. A 12-min run is ~5L, so on a 35°+ day this bed is a hose job."
+    category: water
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2289 — Jay confirmed the raised oval beds are the flower beds, achillea + echinacea etc). The green ferny growth in the near bed is most likely these clumps' basal rosettes holding through winter. Weeding note attached to the round-2 list: feathery soft grey-green rosette = achillea, LEAVE; flat rosette pressed against the straw = flatweed, PULL."
     category: general

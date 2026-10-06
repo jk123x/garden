@@ -2,11 +2,24 @@ name: High-Impact Weeding
 type: groundcover
 location: Front + visible beds
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: "2026-09"
 urgency: later
-nextAction: "One spot left, only if passing: flower beds (the raised ovals) — hand-pull flatweed rosettes through the sugarcane before they seed. Feathery soft grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL. No digging, no watering. Everything else waits for the late-spring round."
+nextAction: "Standing job, any spare 10 minutes: walk the front bed, the path edges and the raised flower beds and pull whatever's showing. Feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL; soft pale tufty grass = poa, pull whole from moist soil. Hand-pull only, no digging, green-bin it. Never finished, always worth it."
 notes: "Tracking entry, not a plant. Covers the short list of weeding spots that matter most: beds around favourite plants and street-visible areas. Created July 2026 as part of the pre-baby punch list — the goal is 'finished-looking' in the places people (and Jay) actually see. Round 1 DONE 2 Aug 2026. Round 2 closed 7 Aug 2026 — Jay's best-effort pass before checking out for a few months (baby). Next round: late spring/early summer when the warm flush comes through — kikuyu ring defence at the east jasmines is queued on that plant's own tasks (Nov/Dec)."
+tasks:
+  - months: [10, 11]
+    task: "Late-spring weeding round (45 min): the warm flush is when everything germinates, so this is the round that matters. Order: front bed and street-visible spots first, then the flower-bed flatweed through the sugarcane (feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL), then any taro seedlings, cut out young. Pull when the soil is moist, green-bin it. Kikuyu at the east jasmines is on that card."
+    category: general
+  - months: [2, 3]
+    task: "Late-summer weeding round (30 min): pull anything carrying seed heads before they drop. One seeding weed pulled now is a hundred fewer next spring. Front bed and the nature strip edge first. Hand-pull only, no digging: the succulents' roots are shallow."
+    category: general
+  - months: [6, 7]
+    task: "Winter grass pass (20 min): poa annua is the soft pale-green tufty grass that pulls out whole by hand from moist soil. Get it before the fluffy whitish seed heads form in late winter. Front bed, path edges, the raised beds."
+    category: general
 log:
+  - date: "2026-09-08"
+    entry: "Flower-bed flatweed pulled by Jay. Card stays in 'Whenever you're passing' permanently as a standing job (Jay's call: not to-do-list important, but always worth doing when the list is empty or dull). Seasonal rounds stay as dated tasks."
+    category: general
   - date: "2026-08-07"
     entry: "Round 2 closed as best-effort (Jay's call — done for a few months). (1) East jasmine kikuyu: cleared right back to the old brick paving under the grass (IMG_2335/2336) — better than expected; regrowth from brick-joint nodes is inevitable but slow, ring-defence task queued Nov/Dec on the jasmine. (3) Taro pups: ALL pulled, back to one taro. (2) Flower-bed flatweed: not done, downgraded to 'later' — 5-min hand-pull if ever passing, otherwise it joins the late-spring round."
     category: general

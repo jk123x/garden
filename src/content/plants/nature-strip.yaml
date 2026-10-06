@@ -13,11 +13,11 @@ photos:
 notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
 tasks:
   - months: [9, 10]
-    task: Weed and tidy up
+    task: "Weed pass (30 min, taproot puller): work the strip after rain when the soil is soft, pull thistle and flatweed rosettes before they throw a seed stalk, then mow. Dry soil snaps the root and it regrows."
     category: general
     completed: "2026-08"
   - months: [3, 4]
-    task: Weed and tidy up
+    task: "Autumn weed pass (30 min, taproot puller): after the first proper autumn rain, pull every rosette before it seeds, then mow. Bare patches bigger than a hand = push in a few buffalo runners and keep them damp for a fortnight."
     category: general
 log:
   - date: "2026-08-21"

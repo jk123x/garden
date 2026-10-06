@@ -9,7 +9,7 @@ image: /images/plants/IMG_0961.jpg
 notes: "Senecio rowleyanus. Was nearly lost, back now but uneven — some plump pearls, others shrivelled. Algae/moss on the soil surface suggests it's been kept a bit too wet."
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
-    task: Feed with half-strength succulent fertiliser monthly
+    task: "Feed: PowerFeed at quarter strength, about 0.5ml per litre, only when the soil is due a drink anyway. Overfeeding stretches the strands and rots the roots. Fishy for a day, so do it outside"
     category: feed
   - months: [4, 5, 6, 7, 8]
     task: Reduce watering significantly — let soil dry fully between drinks

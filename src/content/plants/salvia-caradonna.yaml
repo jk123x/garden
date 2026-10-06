@@ -1,20 +1,21 @@
 name: Salvia nemorosa 'Caradonna'
 type: perennial
 location: Backyard (raised bed)
+zones: [3]
 health: "Cut back hard. Nothing visible above ground — dormant through winter, expected to reshoot from the crown in spring (September)."
 healthStatus: dormant
 lastAssessed: "2026-04"
 notes: "Ornamental sage (Salvia nemorosa 'Caradonna'). Originally 2 plants in the raised bed. Jay cut them back hard when the bed got messy. Salvia nemorosa is a clumping perennial that dies back to the base and reshoots — a hard cutback isn't a death sentence. Watch for new basal growth in September. If nothing emerges by October, the crowns are dead. The overwatering that killed the Echinacea may have also damaged these — Salvia nemorosa prefers well-drained soil."
 tasks:
   - months: [1, 2]
-    task: Deadhead spent flower spikes to encourage repeat flowering
+    task: "Deadhead (5 min): when a spike is mostly brown, cut it off just above the first pair of leaves below it, not just the tip. Cutting to leaves is what triggers the second flush. Do the whole clump in one go once about half the spikes are spent."
     category: prune
   - months: [3, 4]
-    task: Cut back all stems to basal foliage as plant goes dormant
+    task: "Cut back (5 min): once the last flush is finished and the stems are browning, cut every stem down to the low basal leaves, about 5cm. Leave the basal rosette alone. Do not water afterwards: soggy winter soil is what killed the echinacea in this bed."
     category: prune
     completed: "2026-04"
   - months: [9]
-    task: Feed with general fertiliser as new growth emerges
+    task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the clump once green basal shoots are showing, then watered in. No shoots yet = no feed, look again in a fortnight."
     category: feed
     completed: "2026-07"
   - months: [9]

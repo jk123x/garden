@@ -9,7 +9,7 @@ image: /images/plants/IMG_0933.jpg
 notes: "Aspidistra elatior. Was cut back hard and is re-emerging from the rhizome. Pot is way too big for current root mass — huge overwatering risk. Keep dry and consider repotting into a much smaller pot in spring."
 tasks:
   - months: [9, 3]
-    task: Feed with slow-release or liquid fertiliser
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
     category: feed
   - months: [4]
     task: Stop watering until top 5cm of soil is fully dry

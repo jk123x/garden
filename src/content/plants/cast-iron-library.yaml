@@ -9,7 +9,7 @@ image: /images/plants/IMG_0936.jpg
 notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring."
 tasks:
   - months: [9, 3]
-    task: Feed with slow-release or liquid fertiliser
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
     category: feed
   - months: [4]
     task: Stop watering until top 5cm of soil is fully dry; relocate to brightest available spot

@@ -4,6 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   server: { port: 4325 },
+  redirects: {
+    '/playbook': '/',
+  },
   vite: {
     plugins: [tailwindcss()],
   },

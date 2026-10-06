@@ -9,7 +9,7 @@ image: /images/plants/IMG_0960.jpg
 notes: "Aspidistra elatior. Cut way back, slowly regrowing in a blue ceramic pot. Pot size looks appropriate — just needs patience and the right conditions."
 tasks:
   - months: [9, 3]
-    task: Feed with slow-release or liquid fertiliser
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
     category: feed
   - months: [4, 5, 6]
     task: Resist watering — new shoots emerge slowly; keep dry-side

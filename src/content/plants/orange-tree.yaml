@@ -1,13 +1,10 @@
-name: Citrus Tree (Backyard)
+name: Orange Tree
 type: fruit
 location: Backyard
-health: "Scale treatment COMPLETE: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) both done. Verdict phase: watch ant traffic on trunk/fruit over the next fortnight — dropping = won; still busy trails in early Sept = a third oil round. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
+zones: [4]
+health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) done, ant check 8 Sept = no ants, cycle broken. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
 healthStatus: monitor
-lastAssessed: "2026-07"
-urgency: week
-readyFrom: "2026-09-01"
-dueBy: "2026-09-07"
-nextAction: "Ant-traffic check (30 sec): trails on the trunk/fruit gone or way down = scale beaten, done. Still busy = one more eco-oil round. Dead scale stays stuck on — thumbnail flick: dry and flaky = dead. Pick ripe oranges as they come."
+lastAssessed: "2026-09"
 notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
 image: /images/winter-2026/IMG_2303.jpg
 photos:
@@ -18,6 +15,12 @@ photos:
   - src: /images/plants/IMG_2086.jpg
     caption: "After the oil + feed session, 30 Jul 2026"
 log:
+  - date: "2026-09-17"
+    entry: "ID settled by Jay 17 Sept 2026: this card is the ORANGE (the other backyard citrus with the lime and grapefruit). Card renamed from 'Citrus Tree (Backyard)'. Stays on zone 4."
+    category: general
+  - date: "2026-09-08"
+    entry: "Ant check: Jay confirms no ants. Scale cycle broken, no third oil round, treatment program closed (same result as the lemon the same day). Next pest item is the annual winter gall check."
+    category: spray
   - date: "2026-09-05"
     entry: "Jay confirmed the backyard fruit trees were cut back hard recently (the heavy Aug prune session). September 'light prune to shape' marked done — no further pruning this year; the tree needs its regrowth. Hard-prune caveats stand: light feeds only (lush flush attracts gall wasp) and the Oct gall check matters more than usual."
     category: prune
@@ -44,22 +47,22 @@ log:
     category: general
 tasks:
   - months: [9]
-    task: Feed with citrus fertiliser
+    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
     completed: "2026-07"
   - months: [12]
-    task: Feed again mid-summer
+    task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
   - months: [9]
-    task: Light prune to shape
+    task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: "2026-08"
-  - months: [12, 1, 2]
-    task: Deep water weekly in hot weather
-    category: water
+  - months: [11]
+    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
+    category: general
   - months: [6, 7, 8, 9]
     task: Pick ripe fruit
     category: harvest

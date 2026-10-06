@@ -1,6 +1,7 @@
 name: Buffalo Lawn
 type: grass
 location: Backyard
+zones: [2]
 health: "Green but thin and patchy in places, with some worn/brown patches on the west side. Winter grass purge fully done 21 July 2026, before seed set. Feed done (front-loaded July). No reseeding (Jay, Sept 2026 — buffalo fills patches via runners anyway); aerate in October when actively growing."
 healthStatus: monitor
 lastAssessed: "2026-09"
@@ -13,33 +14,31 @@ photos:
 notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (October, while actively growing) and regular feeds. No reseeding — buffalo isn't sold as seed and fills bare patches itself via runners, so mowing + feeding is what drives recovery. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring. Second watch-list weed (flagged by the gardener): kikuyu — a bright-green runner grass that invades buffalo permanently and can't be selectively sprayed out. Distinguish from buffalo by narrow pointed folded leaves vs buffalo's broad round-tipped ones. Remove whole runners including rooted nodes the moment any appears."
 tasks:
   - months: [10]
-    task: Aerate lawn while it's growing strongly — recovers into the holes fastest then
+    task: "Aerate (30 min): the day after rain or a good water, push a garden fork 10cm in every 10-15cm across the lawn and rock it back and forth to open the holes. Buffalo is growing hard now, so it heals into the holes fastest. Skip it if the ground is bone dry, the fork just bounces"
     category: general
   - months: [9]
-    task: Feed with lawn fertiliser
+    task: "Feed (10 min): Sudden Impact for Lawns at the bag rate, spread evenly, then water in well the same day. Unwatered granules scorch the grass in patches"
     category: feed
     completed: "2026-07"
   - months: [12]
-    task: Feed again mid-summer
+    task: "Summer feed (10 min): Sudden Impact for Lawns at the bag rate, spread evenly and watered in the same day. Do it on a mild morning, never ahead of a 35+ day, or the feed burns the grass"
     category: feed
   - months: [3]
+    day: 20
     task: "Feed again in autumn (late Mar) — the autumn feed is what holds buffalo's winter colour"
     category: feed
   - months: [10]
-    task: Dethatch if spongy/built up
+    task: "Thatch check (10 sec): press a hand into the lawn. If there is more than a finger-width of spongy brown dead material under the green, rake it out hard with a metal rake. Buffalo rarely needs this, so if it feels firm, skip it"
     category: general
   - months: [3]
     byDay: 31
     task: "LAWN SPECIES VERDICT (decided Sept 2026): kids use the yard at 15-20°, not 35° — buffalo is greenest exactly when they're inside. If it wintered thin again despite this season's densify program, autumn is tall fescue conversion season: spray out buffalo, rake, seed (March-April window, ~a weekend + a month of keeping it damp). Fescue = green all year, clumping (can't run wild like the old kikuyu), reseedable patches; costs summer watering (drip handles it) + year-round mowing. Happy with the buffalo = delete this task"
     category: general
-  - months: [12, 1, 2]
-    task: Deep water 2-3 times per week in hot weather
-    category: water
   - months: [10, 11, 12, 1, 2, 3]
-    task: Mow when it looks shaggy — buffalo only really grows Nov-Mar, so early spring may need nothing
+    task: "Mow (20 min): only when it looks shaggy, buffalo mostly grows Nov-Mar so early spring may need nothing. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
     category: general
   - months: [5, 6, 7, 8]
-    task: Spot-pull winter grass before it seeds
+    task: "Winter grass pull (10 min when passing): the tell is soft light-green tufts with fine white-green seed heads, paler than the buffalo. Pull whole tufts by hand, they come out easily. Do it before the seed heads open or it explodes in spring"
     category: general
     completed: "2026-07"
 log:

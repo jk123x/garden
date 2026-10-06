@@ -1,6 +1,7 @@
 name: Cinnamon Wattle 'Scarlet Blaze'
 type: tree
 location: Front yard
+zones: [1]
 health: "Assessed Aug 2026 (photo zoom + Jay's report): genuinely healthy despite the slump. Dense phyllode cover with only normal cycling yellowing, smooth clean bark with no borer holes, gum bleeds or cracking visible, and a heavy load of red flowers opening along the branchlets — that's a tree with energy to spare, not one in decline. The pronounced lean is structural (wind incident), not a health problem: the canopy has kept growing and flowering at the new angle."
 healthStatus: healthy
 lastAssessed: "2026-08"
@@ -30,13 +31,14 @@ log:
     category: general
 tasks:
   - months: [10]
-    task: "Post-flowering prune: lighten the heavy slumped side, and clear the westringia — remove the branches resting on the dome so its shoulder gets 30-50cm of daylight. Every cut back to a green lateral; wattles don't reshoot from bare wood."
+    day: 20
+    task: "Post-flowering prune (30 min, secateurs for anything thicker than a pencil): lighten the heavy slumped side, and clear the westringia by removing the branches resting on the dome so its shoulder gets 30-50cm of daylight. Every cut back to a green lateral; wattles don't reshoot from bare wood. Then finish the westringia's unfinished side in the same session (its own 20 Oct row)."
     category: prune
   - months: [9]
-    task: Feed with native-specific fertiliser (low phosphorus)
+    task: "Feed (2 min): Osmocote Native at the bag rate over the root zone out to the drip line, then water in. Only ever this product, wattles are phosphorus-sensitive"
     category: feed
     completed: "2026-07"
   - months: [4]
-    task: Mulch around base
+    task: "Mulch (10 min): top up to about 5cm over the root zone, keeping a clear hand-width gap around the trunk. While there, glance at the old strap pressure ridge on the trunk: bark healing over it is fine, gum or sawdust there is a borer sign worth a photo"
     category: mulch
     completed: "2026-04"

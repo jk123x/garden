@@ -1,13 +1,10 @@
 name: Lemon Tree
 type: fruit
 location: Front yard
-health: "Scale treatment COMPLETE: eco-oil rounds 1 (6 Aug, with the gall-prune + feed) and 2 (21 Aug) both done. Verdict phase: ant-traffic check ~4-11 Sept decides if a third round is needed. A handful of lemons still ripening on the frame. In recovery mode from the heavy gall-prune: expect a big spring flush, which is prime gall wasp bait — keep feeds light."
+zones: [1]
+health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (6 Aug) and 2 (21 Aug) done, ant-traffic check 8 Sept = no ants, cycle broken. A handful of lemons still ripening on the frame. In recovery from the heavy gall-prune: expect a big spring flush, which is prime gall wasp bait — keep feeds light."
 healthStatus: monitor
-lastAssessed: "2026-08"
-urgency: week
-readyFrom: "2026-09-04"
-dueBy: "2026-09-11"
-nextAction: "Ant-traffic check (30 sec): ants gone or way down on the trunk/fruit = scale cycle broken, treatment done. Still busy trails = one more oil round. Keep picking the remaining lemons as they ripen."
+lastAssessed: "2026-09"
 image: /images/winter-2026/IMG_2320.jpg
 photos:
   - src: /images/winter-2026/IMG_2320.jpg
@@ -20,6 +17,9 @@ photos:
     caption: "April 2026 assessment"
 notes: "Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October."
 log:
+  - date: "2026-09-08"
+    entry: "Ant-traffic check: Jay confirms no ants on the lemon. Scale cycle broken, no third oil round. Treatment program closed. Keep picking the last lemons as they ripen."
+    category: spray
   - date: "2026-08-21"
     entry: "Eco-oil round 2 sprayed (whole tree), inside the 20-27 Aug window — scale treatment program complete. Verdict via ant traffic ~2 weeks out: gone = won, still busy = round 3."
     category: spray
@@ -40,25 +40,22 @@ log:
     category: general
 tasks:
   - months: [11]
-    task: Paint 50/50 white acrylic on the limbs newly sun-exposed by the Aug hard prune — sunburn protection before summer
+    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
     category: general
   - months: [9]
-    task: Feed with citrus fertiliser
+    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
     completed: "2026-08"
   - months: [12]
-    task: Feed again mid-summer
+    task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
   - months: [9]
-    task: Light prune to shape
+    task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: "2026-08"
-  - months: [12, 1, 2]
-    task: Deep water weekly in hot weather
-    category: water
   - months: [6, 7, 8, 9, 10]
     task: Pick ripe lemons
     category: harvest

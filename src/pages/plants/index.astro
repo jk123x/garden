@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import { getCollection } from 'astro:content';
+import Photo from '../../components/Photo.astro';
 import { TYPE_LABELS, HEALTH_STATUS_LABELS, HEALTH_STATUS_DOTS } from '../../lib/utils';
 
 const plants = await getCollection('plants');
@@ -63,11 +64,12 @@ const healthStatuses = [...new Set(plants.map((p) => p.data.healthStatus).filter
         >
           {plant.data.image ? (
             <div class="relative overflow-hidden">
-              <img
+              <Photo
                 src={plant.data.image}
                 alt={plant.data.name}
+                widths={[480, 960]}
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 class="w-full h-52 object-cover transition-transform duration-500 group-hover:scale-105"
-                loading="lazy"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>

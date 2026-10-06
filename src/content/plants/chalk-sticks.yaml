@@ -1,12 +1,14 @@
 name: Dwarf Blue Chalk Sticks
 type: groundcover
 location: Front yard
+zones: [1]
 health: "Main mounds dense, plump, good colour — wintering well. The patch near the gate is flattened with woody stems exposed after the 7 Aug asparagus-fern removal: cosmetic only, everything's alive. It re-clothes from stem nodes through spring — expect it to look rough until ~Oct and be filled in by Dec. No extra water meanwhile (winter wet is the one thing that kills these)."
 healthStatus: good
-lastAssessed: "2026-08"
-urgency: later
-nextAction: "Optional 5-min when passing the front gate: gather the healthy detached blue segments off the straw and poke them 2-3cm into the bare gaps — they root where they sit and speed the fill-in. Bin the Cotyledon's loose broad leaves (those don't strike)."
+lastAssessed: "2026-09"
 log:
+  - date: "2026-09-05"
+    entry: "Jay calls the gate patch sorted for now — the optional poke-segments-in job is off the list. Let it re-clothe through spring on its own; the October check on the spring regrowth stands."
+    category: general
   - date: "2026-08-07"
     entry: "Designer confirmation: the chalk sticks are Dwarf Blue (serpens), per the garden designer's email — closes the serpens-vs-mandraliscae question for good. One species across the whole bed."
     category: general
@@ -37,12 +39,13 @@ photos:
 notes: "Senecio serpens 'Dwarf Blue' (syn. Curio repens), designer-confirmed — every blue chalk sticks patch in the front garden is this one species; the big floppy mounds are just older, part-shaded plants (winter-lean leaves read flatter and longer). Flowers: cream-white button clusters on stalks above the blue mat, summer-autumn — that's the flowering Jay remembers in this bed (IMG_0887 shows it). The broad wavy powdery paddles near the gate are a different plant: Cotyledon 'Silver Waves', its own entry. The feathery blue-grey sprigs in the winter photos (IMG_2332/2333) were trample debris from the work sessions, not a plant. Stem segments dropped into gaps root easily. Very drought-tolerant, practically indestructible. Avoid overwatering in winter."
 tasks:
   - months: [10]
+    day: 20
     task: Spring recovery check on the gate patch — any stem that hasn't reshot by late Oct gets trimmed back to a live node; poke loose healthy segments into remaining gaps
     category: prune
   - months: [3]
-    task: Trim back any leggy growth
+    task: "Leggy trim (5 min): the trigger is bare woody stem showing between the soil and the blue fingers. Cut those stems back to a point where fingers still grow, and poke the cut-off tips into any gap, they root. Never water them in, wet soil kills these"
     category: prune
   - months: [9]
-    task: Feed with slow-release native fertiliser (low phosphorus)
+    task: "Feed (2 min): a light scatter of Osmocote Native across the patches, less than the bag rate. Succulents hardly need it, and rich feed makes them soft and floppy"
     category: feed
     completed: "2026-07"

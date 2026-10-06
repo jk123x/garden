@@ -1,6 +1,7 @@
 name: Star Jasmine (East fence)
 type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
+zones: [4]
 health: "Scratch test done and confirmed-dead growth cut out along the laundry side, 5 Aug 2026. Some MARGINAL stems deliberately left on the fence — wait-and-see through spring. The October flush is the verdict: anything that hasn't pushed new leaf by late October is dead and comes off then. Sparse but tidy going into spring. Ties removed run-wide (tie audit complete). Both new 150mm plants (planted 1 May past the giant taro stump, on drip since May) totally healthy — over-feed watch cleared 5 Aug with no leaf-edge browning."
 healthStatus: monitor
 lastAssessed: "2026-08"
@@ -31,17 +32,17 @@ tasks:
     category: general
     completed: "2026-05"
   - months: [1, 2]
-    task: Prune and shape after flowering
+    task: "After-flowering prune (15 min): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Every live runner on the fence stays."
     category: prune
   - months: [9]
-    task: Feed with slow-release fertiliser
+    task: "Feed (5 min): Richgro All Purpose, LIGHT dose spread wide around the two new plants and never against the stems (one over-feed scare already). Normal dose along the established part of the run. Water in."
     category: feed
     completed: "2026-07"
   - months: [12]
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now. LIGHT dose spread wide near the new plants, never against stems (they've had one over-feed scare already)"
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Richgro All Purpose, light dose wide around the new plants, normal dose along the rest, watered in. Carries the run through the last warm flush before winter."
     category: feed
   - months: [10]
     day: 1
@@ -60,6 +61,9 @@ tasks:
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
 log:
+  - date: "2026-09-16"
+    entry: "Jay: the jasmine is really starting to grow again after a run of 20°+ days. Spring flush is on, about a fortnight ahead of a typical year. The 1 Oct timing-critical session stays on its date, but the trigger is length not date: the week the longest new runners hit 30-60cm and still bend easily is the week to go, even if that lands late Sept."
+    category: general
   - date: "2026-08-07"
     entry: "Kikuyu cleared around the new plants (IMG_2335/2336) — Jay stripped the runners back to the old brick paving under the grass, rebuilt the bark mulch ring, dripper untouched. Best-effort pass and a good one: on brick the kikuyu can only root shallowly in the joints, so what regrows in spring comes from the joint nodes and the lawn edge above — expect creep back over the mulch by Nov. Plan adapted: no more weeding here for a few months (Jay's call); a 10-min ring-defence task is queued for Nov/Dec instead of runner-by-runner eradication."
     category: general

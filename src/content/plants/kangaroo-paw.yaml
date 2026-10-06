@@ -1,6 +1,7 @@
 name: Kangaroo Paw
 type: perennial
 location: Front yard, backyard
+zones: [1, 2, 4]
 health: "Ink spot haircut DONE 2 Aug 2026 — front clumps cut to short stubble, infected foliage removed. Clean new fans expected with spring warmth; flowering resumes on the new growth. Watch that regrowth comes through clean — if fresh leaves blacken quickly, flag it."
 healthStatus: good
 lastAssessed: "2026-08"
@@ -15,10 +16,10 @@ photos:
 notes: "Multiple clumps across front and back. The front clumps are the green strappy fans in the banksia/feijoa bed near the front fence — easily mistaken for dianellas out of flower (ID note: paw leaves are FLAT straps in an iris-like fan; dianella leaves are folded/keeled with a raised midrib). The famous flowers are seasonal stalks that rise out of these fans in late spring/summer — the fans ARE the plant. Ink spot history: April 2026 close-ups were clean, but a heavy outbreak developed over the wet winter (black blotching, permanent on affected leaves). Management regime from 2026: cut whole clumps to ~5cm annually after flowering (or late winter if blackened) — hard cutback is the ink spot treatment AND prevention; paws thrive on it and reflower on new growth. Foliage always to green bin, never compost."
 tasks:
   - months: [3, 4]
-    task: Cut back old flowering stems and dead foliage
+    task: "Annual haircut after flowering (15 min, scissors): cut each whole clump to ~5cm stubble, spent flower stalks and all. This is the ink spot prevention, not a tidy: a partial trim leaves infected leaves behind. Foliage to the green bin, never compost."
     category: prune
   - months: [9]
-    task: Feed with native fertiliser (low phosphorus)
+    task: "Feed (2 min): Osmocote Native, standard dose, scattered round each clump and watered in. Native only: the phosphorus in regular fertiliser harms it."
     category: feed
     completed: "2026-07"
   - months: [9]
@@ -26,9 +27,12 @@ tasks:
     category: general
     completed: "2026-09"
   - months: [11, 12, 1]
-    task: Check for ink spot disease — remove affected leaves
+    task: "Ink spot check (30 sec per clump): black blotches or streaks on the new fans = cut those leaves off at the base and green-bin them. A few marks after a wet spell are normal. A clump more than half blackened gets the full 5cm haircut early."
     category: spray
 log:
+  - date: "2026-09-17"
+    entry: "Irrigation: the back clumps probably get some zone 2 drip (shrubblers found buried and dug out 17 Sept) on top of zone 4; front clumps unchanged on zone 1."
+    category: water
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos. Short green shoots pushing through the fresh bark in the feijoa bed (IMG_2279) — if that's the scalped clumps, regrowth is already moving and coming through clean. The full uncut fans by the front fence corner (IMG_2277) turned out to be DIANELLAS (Jay confirmed) — no missed paw clumps, haircut coverage complete. So the front bed holds both: scalped paws mid-bed, groomed dianellas at the fence corner."
     category: general

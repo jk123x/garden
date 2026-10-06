@@ -2,6 +2,7 @@ name: Cotyledon 'Silver Waves'
 type: succulent
 indoor: false
 location: Front yard, near the gate
+zones: [1]
 health: "Established sprawler, healthy under the mess — got trampled in the 7 Aug asparagus-fern removal, so a section is flattened with bent and detached leaves. Recovers from stem nodes in spring; the loose leaves won't re-root, bin them."
 healthStatus: good
 lastAssessed: "2026-08"

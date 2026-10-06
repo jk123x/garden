@@ -1,6 +1,7 @@
 name: Native Daisies (unidentified)
 type: perennial
 location: Backyard (garden bed near path)
+zones: [4]
 health: "July 2026 photos: spreading vigorously — fine feathery mats now covering a good stretch of the bed near the path and birdbath, still flowering purple through midwinter. Thriving."
 healthStatus: healthy
 lastAssessed: "2026-07"
@@ -17,9 +18,9 @@ log:
     category: general
 tasks:
   - months: [3, 4]
-    task: Tidy up spent flowers
+    task: "Shear the mats (10 min, scissors): a third off all over, spent flowers and leggy stems together, so the mat stays tight. Cut only where there is green below the cut; it doesn't reshoot from bare woody stems. Still in full flower = wait for the lull."
     category: prune
   - months: [9]
-    task: Feed lightly with native-friendly fertiliser (low phosphorus)
+    task: "Feed (2 min): Osmocote Native, standard dose, scattered over the mats. Native only."
     category: feed
     completed: "2026-07"

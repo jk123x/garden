@@ -1,0 +1,152 @@
+---
+import Layout from '../layouts/layout.astro';
+
+const zones = [
+  { n: 1, name: 'Front yard', kind: 'Pop-up sprinklers', minutes: 15, cap: 'no hosing out the front, so summer coverage comes from 3 days a week, not longer runs; heatwave week with the lemon wilting = 20 min for that week, then back to 15', covers: 'Everything out the front: banksia, wattle, westringia, cushion bush, dianellas, gymea, chalk sticks, cotyledon, lemon, feijoa, miscanthus, front kangaroo paws, all three fence muehlenbeckias' },
+  { n: 2, name: 'Lawn', kind: 'Pop-up sprinklers plus a drip line', minutes: 12, cap: 'never more than 15, this is the zone that flooded', covers: 'The buffalo lawn, plus the frangipani, its lily turf and the bartlettina living off overspray. Also a drip line with shrubblers (found buried 17 Sept): the composted bed nearest the house (echinacea Sombrero, achillea), the lime, and the sage and strawberry area. A 12 min run is about 5L per shrubbler, so those get the hose on hot days' },
+  { n: 3, name: 'Flower beds', kind: 'Drip with bubblers', minutes: 30, cap: 'echinacea and the cutting bed rot if wetter', covers: 'The achillea\'s original bed, black eyed susan, Caradonna, the cutting bed' },
+  { n: 4, name: 'Everything out the back', kind: 'Drip', minutes: 60, cap: '', covers: 'All three star jasmine runs (about 20 plants), grapefruit, orange, olive, passionfruit, giant taro, blue star fern, Mexican sage, lavender, dusty miller, rosemary, strawberry, back kangaroo paws' },
+];
+
+const frequency = [
+  { when: 'September', days: '1 day a week' },
+  { when: 'October', days: '2 days a week, three or four apart' },
+  { when: 'First 30° day in the forecast', days: '3 days a week' },
+  { when: 'April', days: 'back to 1 day a week' },
+  { when: 'May', days: 'off at the tap and the controller' },
+];
+
+const spares = [
+  'Goof plugs (Holman 4mm micro repair plugs) for torn holes',
+  '4mm off-take barbs, the joint that goes into the thick pipe',
+  '4mm barbed joiners for splicing tube',
+  'Pope 300mm riser stakes, the tube clips into the side, the head sits at the top',
+  '13mm and 19mm end plugs',
+  'Drip punch, use the 4mm side',
+  'Still to get: Holman PC Barbed Emitter 10-pack (the shrubbler) and 4mm x 10m flex tube. Both were missing from the September delivery',
+];
+
+const replaceSteps = [
+  'Zone off. Twist and pull the old body off the 4mm tube. Cut the tube behind it only if it will not budge.',
+  'Dip the tube end in a mug of hot water for 10 seconds.',
+  'Push the new shrubbler on until the barb is fully in.',
+  'Spike a riser stake beside the plant, snap the tube into the clip so the head sits at the top pointing down.',
+  'If the old one was pushed straight into the thick pipe and the hole is torn: goof plug it, punch a fresh hole 2cm along, off-take barb in, short tube, shrubbler, stake.',
+  'Zone on. A slow steady bubble is right. Read the programme back before closing the lid.',
+];
+
+const deadBranches = [
+  { see: 'Water squirts from the tube', means: 'The head was blocked.', fix: 'Push a new shrubbler on. Done.' },
+  { see: 'Nothing from the tube', means: 'The blockage is further back.', fix: 'Follow the tube back to the thick pipe and pull it off the barb there.' },
+  { see: 'Water at the barb', means: 'The tube is kinked or blocked.', fix: 'Cut a fresh length of 4mm tube, hot water both ends, barb one end, shrubbler the other.' },
+  { see: 'Nothing at the barb either', means: 'The barb is blocked, or this head is on a different zone.', fix: 'Run the other zones one at a time first (the September \'dead\' bubbler was on zone 2, not 3). Then pull the barb and poke it clear with a pin, or push in a new one.' },
+];
+---
+
+<Layout title="Irrigation — Garden">
+  <div class="animate-in">
+    <div class="mb-10">
+      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">Quick reference</p>
+      <h1 class="text-4xl font-semibold mb-3">Irrigation</h1>
+      <p class="text-ink-soft max-w-2xl">
+        The four zones and their run times for the controller, then how to fix a dripper, with what is in the shed. Read the
+        watering days back before you close the controller lid.
+      </p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="font-display text-2xl font-semibold mb-4">Zones and run times</h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        {zones.map((z) => (
+          <div class="bg-paper rounded-xl border border-rule p-5 flex flex-col">
+            <div class="flex items-baseline justify-between gap-3">
+              <h3 class="font-display text-2xl font-semibold">Zone {z.n} · {z.name}</h3>
+              <span class="font-display text-3xl font-semibold text-terra whitespace-nowrap">{z.minutes} min</span>
+            </div>
+            <p class="text-sm font-medium text-olive mb-2">{z.kind}{z.cap && <span class="text-ink-faint font-normal"> · {z.cap}</span>}</p>
+            <p class="text-ink-soft text-sm">{z.covers}</p>
+          </div>
+        ))}
+      </div>
+      <div class="mt-5 bg-paper rounded-xl border border-rule p-5">
+        <p class="text-xs uppercase tracking-widest text-ink-faint mb-2">How often. Run times never change, only the days.</p>
+        <ul class="grid sm:grid-cols-2 gap-x-8 gap-y-1.5">
+          {frequency.map((f) => (
+            <li class="flex gap-2.5 items-baseline">
+              <span class="w-1.5 h-1.5 rounded-full bg-terra shrink-0 translate-y-[-2px]"></span>
+              <span><strong class="font-semibold">{f.when}</strong> <span class="text-ink-soft">— {f.days}</span></span>
+            </li>
+          ))}
+        </ul>
+        <p class="text-sm text-ink-soft mt-3 pt-3 border-t border-rule-light">
+          One start time only, 5 to 6am. Skip a run after a 20mm+ week. Anything out the back that
+          wants more than its zone gives it on a hot day is a hose job, never a longer run. The front is
+          never hosed: zone 1 has to carry it, so the summer step-up to 3 days a week is what feeds the lemon and feijoa.
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-display text-2xl font-semibold mb-1">Fixing a dripper</h2>
+      <p class="text-ink-soft mb-5 max-w-2xl">
+        The September 2026 audit repairs are done (17 Sept): every zone runs and every head has been
+        checked. This is the reference for next time. Same skill as the May install: pull the old
+        part off, push the new one on. Bring garden scissors, a mug of hot water and a pin.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-4 mb-5">
+        <div class="bg-paper rounded-xl border border-rule p-5">
+          <h3 class="font-display text-xl font-semibold mb-2">Spares in the shed</h3>
+          <ul class="space-y-1.5">
+            {spares.map((s) => (
+              <li class="flex gap-2.5 items-baseline text-sm">
+                <span class="w-1.5 h-1.5 rounded-full bg-terra shrink-0 translate-y-[-2px]"></span>
+                <span>{s}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="bg-paper rounded-xl border border-rule p-5">
+          <h3 class="font-display text-xl font-semibold mb-2">Before you start</h3>
+          <p class="text-ink-soft text-sm">
+            At the controller turn the dial to Manual and start the zone you are working on. You need it
+            running to see what is coming out where. A head that stays dry on one zone may belong to
+            another, so run each zone in turn before calling anything dead. Turn it off when you are done
+            and read the programme back: one start time, the right days.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-paper rounded-xl border border-rule overflow-hidden mb-5">
+        <div class="h-1.5 bg-olive"></div>
+        <div class="p-5">
+          <h3 class="font-display text-2xl font-semibold mb-3">Replacing a shrubbler <span class="text-xs text-ink-faint font-sans font-normal">2 min</span></h3>
+          <ol class="space-y-1.5 list-decimal pl-6">
+            {replaceSteps.map((s) => <li>{s}</li>)}
+          </ol>
+        </div>
+      </div>
+
+      <div class="bg-paper rounded-xl border border-rule overflow-hidden">
+        <div class="h-1.5 bg-olive"></div>
+        <div class="p-5">
+          <h3 class="font-display text-2xl font-semibold mb-1">A dead one <span class="text-xs text-ink-faint font-sans font-normal">5 to 10 min</span></h3>
+          <p class="font-medium mb-3">Zone running. Pull the head off the tube and look at what comes out.</p>
+          <div class="divide-y divide-rule-light border-t border-rule-light">
+            {deadBranches.map((b) => (
+              <div class="grid sm:grid-cols-[1fr_2fr] gap-x-6 gap-y-1 py-3">
+                <p class="font-semibold">{b.see}</p>
+                <p><span class="text-ink-soft">{b.means}</span> <span class="font-medium">{b.fix}</span></p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p class="text-sm text-ink-faint border-t border-rule-light pt-4">
+      One rule outranks everything on this page: no bubbler lies under the mulch. Buried ones silt up,
+      which is how you ended up fishing for them.
+    </p>
+  </div>
+</Layout>

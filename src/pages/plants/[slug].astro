@@ -1,8 +1,12 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import { getCollection } from 'astro:content';
-import { MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, TYPE_LABELS, getCurrentMonth, HEALTH_STATUS_COLORS, HEALTH_STATUS_LABELS, ATTENTION_STATUSES } from '../../lib/utils';
+import { getImage } from 'astro:assets';
+import { MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, TYPE_LABELS, getCurrentMonth } from '../../lib/utils';
+import { todayFrom, attentionChip, isWaiting } from '../../lib/schedule';
+import { resolveImage } from '../../lib/images';
 import HealthBadge from '../../components/HealthBadge.astro';
+import Photo from '../../components/Photo.astro';
 
 export async function getStaticPaths() {
   const plants = await getCollection('plants');
@@ -13,8 +17,22 @@ export async function getStaticPaths() {
 }
 
 const { plant } = Astro.props;
-const { name, type, indoor, location, health, healthStatus, lastAssessed, image, photos, notes, tasks, log } = plant.data;
+const { name, type, indoor, location, zones, health, healthStatus, lastAssessed, image, photos, notes, tasks, log, urgency, nextAction } = plant.data;
 const currentMonth = getCurrentMonth();
+const today = todayFrom();
+
+const chip = urgency && urgency !== 'later' ? attentionChip(plant.data, today) : null;
+const waiting = isWaiting(plant.data, today);
+const CHIP_CLASS = { urgent: 'bg-amber-50 text-amber-700', late: 'bg-red-50 text-red-700', muted: 'bg-stone-100 text-stone-500' };
+
+// Gallery thumbnails are resized; the click-through opens a 1600px copy.
+const gallery = await Promise.all(
+  photos.map(async (photo: { src: string; caption?: string }) => {
+    const meta = await resolveImage(photo.src);
+    const large = meta ? await getImage({ src: meta, width: 1600, format: 'jpg', quality: 78 }) : null;
+    return { ...photo, large: large?.src ?? photo.src };
+  }),
+);
 
 const logEntries = [...log].sort((a, b) => b.date.localeCompare(a.date));
 
@@ -44,6 +62,9 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
                 {indoor ? 'Indoor' : 'Outdoor'}
               </span>
               <span class="text-ink-faint">{location}</span>
+              {zones && zones.length > 0 && (
+                <a href="/plants/irrigation" class="bg-sky-50 text-sky-700 px-2.5 py-1 rounded-md text-xs font-medium">Zone {zones.join(' + ')}</a>
+              )}
             </div>
             {healthStatus && (
               <div class="flex items-center gap-3 mt-3">
@@ -63,9 +84,12 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
             )}
           </div>
           <div class="md:w-80 shrink-0">
-            <img
+            <Photo
               src={image}
               alt={name}
+              widths={[640, 1280]}
+              sizes="(min-width: 768px) 20rem, 100vw"
+              loading="eager"
               class="w-full h-64 md:h-72 object-cover rounded-xl border border-rule-light shadow-sm"
             />
           </div>
@@ -79,6 +103,9 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
               {indoor ? 'Indoor' : 'Outdoor'}
             </span>
             <span class="text-ink-faint">{location}</span>
+              {zones && zones.length > 0 && (
+                <a href="/plants/irrigation" class="bg-sky-50 text-sky-700 px-2.5 py-1 rounded-md text-xs font-medium">Zone {zones.join(' + ')}</a>
+              )}
           </div>
           {healthStatus && (
             <div class="flex items-center gap-3 mt-3">
@@ -100,14 +127,24 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
       )}
     </div>
 
-    {photos.length > 0 && (
+    {nextAction && (
+      <section class:list={['bg-paper rounded-xl border border-rule-light border-l-4 p-5', urgency === 'later' || waiting ? 'border-l-stone-300' : 'border-l-olive']}>
+        <p class="text-sm font-semibold text-ink mb-2">
+          {urgency === 'later' ? "Whenever you're passing" : waiting ? 'Waiting' : 'Do now'}
+          {chip && <span class:list={['ml-1.5 align-middle text-[11px] font-semibold rounded px-1.5 py-0.5', CHIP_CLASS[chip.tone]]}>{chip.text}</span>}
+        </p>
+        <p class="text-ink-soft text-sm leading-relaxed">{nextAction}</p>
+      </section>
+    )}
+
+    {gallery.length > 0 && (
       <div>
         <h2 class="text-3xl font-semibold text-ink mb-5">Photos</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          {photos.map((photo: { src: string; caption?: string }) => (
+          {gallery.map((photo) => (
             <figure>
-              <a href={photo.src} target="_blank" class="block relative rounded-xl overflow-hidden border border-rule-light shadow-sm" style="aspect-ratio: 4/3;">
-                <img src={photo.src} alt={photo.caption || name} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+              <a href={photo.large} target="_blank" rel="noopener" class="block relative rounded-xl overflow-hidden border border-rule-light shadow-sm" style="aspect-ratio: 4/3;">
+                <Photo src={photo.src} alt={photo.caption || name} widths={[400, 800]} sizes="(min-width: 640px) 33vw, 50vw" class="absolute inset-0 w-full h-full object-cover" />
               </a>
               {photo.caption && (
                 <figcaption class="text-xs text-ink-faint mt-1.5 leading-snug">{photo.caption}</figcaption>

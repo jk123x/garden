@@ -3,16 +3,59 @@ type: groundcover
 location: Garden-wide
 healthStatus: good
 lastAssessed: "2026-09"
-notes: "Tracking entry, not a plant — the garden-wide drip system. Runs spring/summer, off through autumn/winter (rain covers it). One tap/switch turns the whole thing on. The drip extension to the new east jasmines was plumbed in May 2026, so they're covered the moment it's on. Turning this on is the one must-do of spring."
+notes: "Tracking entry, not a plant — the garden-wide drip system run by a basic Rainbird controller. ZONE MAP (Jay's audit, 11 Sept 2026; each plant card carries its zone as a chip next to its location): ZONE 1 = POP-UP SPRINKLERS (not drip), the whole front yard: banksia, wattle, westringia domes, cushion bush, dianellas, gymea, chalk sticks + cotyledon, dichondra, front bird's nest fern, lemon, feijoa, all three fence muehlenbeckias (south, east and west fences are all front-yard), miscanthus, front kangaroo paws. ZONE 2 = the lawn pop-ups PLUS a drip line (found 17 Sept 2026, the shrubblers were buried in mulch): the newest flower bed nearest the house (the composted ex-tomato bed: echinacea Sombrero + the achillea's second half, one shrubbler), plus shrubblers at the LIME (best-covered of the back citrus) and through the Mexican sage / strawberry area, probably reaching the back kangaroo paws; those ground-cover areas also get zone 4 water. The orange and grapefruit stay on zone 4. Run time is set for the lawn (12 min, never more than 15) so each shrubbler on this zone delivers only ~5L a run; the frangipani, lily turf and bartlettina live off overspray, and anything on zone 2 that wants more in a heatwave gets a hose soak, never a longer zone 2 run. ZONE 3 = the other flower beds: the achillea's original bed, black eyed susan, Caradonna, and the cutting bed (echinacea + rudbeckia). ZONE 4 = everything else out the back: all three star jasmine runs (east, west, back; ~20 plants between them), the orange and grapefruit (the lime is zone 2), olive, passionfruit, giant taro, blue star fern, Mexican sage, lavender, dusty miller, rosemary, strawberry, native daisies, native violets, the tub-side lily turf, kangaroo paws out the back. Four zones total (confirmed by the audit). REPAIRS DONE 17 Sept 2026: every zone runs, every head checked. Spares in the shed: goof plugs, 4mm off-take barbs, 4mm joiners, riser stakes, 13mm + 19mm end plugs, drip punch (PC shrubblers and 4mm tube were missing from the Bunnings delivery, chase or click-and-collect so a spare pack is on hand for summer). Replacing a shrubbler: pull the old body off, hot-water the tube end 10 seconds, push the new one on to the hilt, clip the tube into a riser stake so the head sits above the mulch. Nature strip: not irrigated. Every outdoor plant is tagged; nature strip is unirrigated. Stations 5-6: Jay believes unused, checking. Runs spring/summer, off through autumn/winter (rain covers it). One tap/switch turns the whole thing on. The drip extension to the new east jasmines was plumbed in May 2026, so they're covered the moment it's on.\n\nHISTORY: a mis-coded programme flooded and badly damaged the lawn last year. The usual cause is a schedule set to every day, or two start times on the same programme so every zone runs twice. Whenever the programme is touched, read back the watering days and count the start times before walking away.\n\nRUN TIMES PER ZONE (set 11 Sept 2026, fixed all season): zone 1 front sprinklers 15 min (sprays on a bed of natives and succulents, longer just runs off and rots the chalk sticks and cotyledon). Jay does NOT hose the front, so zone 1 must carry the lemon and feijoa through summer on its own: coverage comes from the 3-days-a-week step-up, not longer runs; the one exception is a heatwave week with the lemon wilting or leaf-curling, bump zone 1 to 20 min for that week then back to 15; zone 2 lawn pop-ups 12 min, never more than 15; zone 3 flower beds 30 min (echinacea and the cutting bed rot if wetter); zone 4 jasmine runs (~20 plants), citrus and the rest 60 min. Run times stay fixed all season; only the days per week change. FREQUENCY: Sept 1 day a week. Oct 2 days a week. From the first 30°+ day (usually Nov) 3 days a week. April back to 1 day a week. May off at the tap AND the controller. One start time only, 5-6am. After a 20mm+ week skip the next run (rain total is on the dashboard weather strip). On a 35°+ day the heat-event rows on the new plantings and giant taro add a hose soak on top. HOSE RULE (Jay, 11 Sept 2026): the kid loves using the backyard hose, so extra hand-hosing in warm weather is welcome and cheap. Backyard hose jobs are the fix for anything on the lawn zone that wants more than the 12 min pop-up run: frangipani, bartlettina, the lily turf round the trunk. Never lengthen zone 2 to water a shrub; send the kid with the hose.\n\nADJUSTING (no calibration tests, Jay 20 Sept 2026; run times are fixed and only these three signals change anything): lawn squelching the morning after a run = take 3 min off zone 2. Flower beds dry 5cm down the day after a summer run = add 10 min to zone 3. Citrus or jasmine wilting by evening in a hot week = hose them, never lengthen the zone; the lemon is the one exception, zone 1 to 20 min for that week then back to 15."
 tasks:
+  - months: [9]
+    completed: "2026-09"
+    task: "Set the controller to the new run times (3 min): zone 1 front 15 min, zone 2 lawn 12 min, zone 3 flower beds 30 min, zone 4 jasmines and back 60 min. One programme, one start time at 5-6am, 1 day a week for September. Before closing the lid read the days back and count the start times: every day, or two start times, is the mis-code that flooded the lawn. Full table on the Irrigation page in the nav."
+    category: water
+  - months: [9]
+    day: 10
+    completed: "2026-09"
+    task: "Morning-after check (5 min): after the first 6am run, walk the lawn and the flower beds. Standing water or a squelching lawn = the run time is too long for that zone, halve it. Then open the controller and read back the watering days: it should say one day a week for September, not every day. Every day is the mis-code that flooded the lawn."
+    category: water
   - months: [10]
-    byDay: 15
-    task: "Turn the drip system ON — one tap. Mid-Oct is the target while spring rain still helps out; if a warm dry week arrives earlier, do it then. THEN CHECK THE CONTROLLER PROGRAMME — a past mis-code flooded and badly damaged the lawn, so confirm run times/frequency look sane before walking away. Also walk the lines once and check the drippers at the new east jasmines are wetting their root zones"
+    day: 7
+    task: "Rain delay ends today (2 min): push it another 7 days so the first run back is Wed 14 Oct. The 1-3 Oct soak was ~75mm and the week is 14-21°, so the beds want water around the 11th-14th, not today. Open the lid, add 7 days of rain delay, read back: 1 day a week, one 5-6am start, run times unchanged. Only let it run today if a flower bed is dry 5cm down. If the forecast shows a 25°+ day before the 14th, start a manual run of all four zones that morning instead."
+    category: water
+  - months: [10]
+    byDay: 31
+    task: "Step up to 2 days a week (2 min at the controller) the first week the forecast shows a 25°+ day with under 5mm of rain in the previous 7 days (rain total is on the dashboard weather strip). Pick two days three or four apart (Wed + Sat), keep the one 5-6am start, run times unchanged. Read the days back before closing the lid. Still cool and damp at the end of October = stay on 1 day a week and this rolls into November."
+    category: water
+  - months: [11]
+    task: "Summer frequency (2 min): when the first 30°+ day is in the 7-day forecast, go to 3 days a week (e.g. Mon/Wed/Sat), run times unchanged. Only the frequency changes for heat, never the run time, or the lawn floods again."
+    category: water
+  - months: [12]
+    task: "Summer line walk (10 min): run each zone by hand and walk every line while it runs. Look for dry dripper ends, a puddle at a blown joint, and drippers at the two new east jasmines actually wetting their root zones. A dry dripper in a heatwave kills a plant in a week."
+    category: water
+  - months: [4]
+    task: "Autumn wind-down (2 min): drop to 1 day a week once April days sit under 25°. Rain is doing more of the work now and wet April beds rot crowns in the flower beds."
     category: water
   - months: [5]
-    task: "Turn the drip system OFF for autumn/winter — rain takes over from here"
+    task: "Turn the drip system OFF (2 min): once May rain is regular, close the one tap fully and set the controller to off, not paused. A tap left weeping through winter is what rots crowns in the flower beds. Rain covers everything until the spring turn-on."
     category: water
 log:
+  - date: "2026-10-02"
+    entry: "Zone programme ran Wed 30 Sept, then 28mm Thu 1 Oct + 14mm Fri + ~33mm forecast Sat (75mm). Jay set a 7-day rain delay from Wednesday, next run Wed 7 Oct. Correct call: cool week ahead (14-21°), soil holds 10+ days. Step-up to 2 days/week withdrawn as a do-now; it now waits for a 25°+ day with a dry preceding week (Oct row). Watch the flower beds for pooling before zone 3 runs again."
+    category: water
+  - date: "2026-09-17"
+    entry: "IRRIGATION FULLY FIXED, SET UP AND READY. Jay finished the repair session: zone 3 snapped bubblers replaced, zone 4 capless end shrubbler on the west jasmine run replaced. The 'dead' bubbler turned out to be on ZONE 2, not 3: the newest flower bed nearest the house (composted ex-tomato bed) runs off a drip line on the lawn zone, along with previously buried shrubblers at citrus trees and a ground cover, all dug out and working. Zone map corrected: composted bed, lime, sage, strawberry and back paws retagged to zone 2 (Jay named them same day). Next: calibration row on 19 Sept."
+    category: water
+  - date: "2026-09-17"
+    entry: "Zone 4 gusher diagnosed by Jay: the last shrubbler on the west jasmine run has lost its cap (body still on the tube, no metering). Fix = swap the body for a new PC shrubbler, not refit the cap. Repair jobs on the Irrigation page updated."
+    category: water
+  - date: "2026-09-16"
+    entry: "Controller programmed to the 11 Sept run times (zone 1 15 min, zone 2 12 min, zone 3 30 min, zone 4 60 min, one start time, 1 day a week). Remaining: the dripper repair session once the Bunnings order lands. Zone 3 stays at 0 min until the two snapped bubblers are replaced (open 4mm tubes flood the bed)."
+    category: water
+  - date: "2026-09-11"
+    entry: "Audit faults: zone 3 two bubblers snapped while being dug out of the mulch (they were buried, which is also why bubblers block); one more zone 3 bubbler dead with nothing else wetting its spot; zone 4 the last dripper on the west jasmine run dumping big volume. Call: DIY, same skill as the May shrubbler install, ~$30 in parts. Repair session written as the do-now."
+    category: water
+  - date: "2026-09-11"
+    entry: "Zone audit done by Jay. Four working zones mapped: 1 front yard, 2 lawn + frangipani/grasses/bartlettina, 3 flower beds, 4 everything else (jasmines, back citrus, olive, passionfruit, misc). Zone map written into notes and each plant card tagged. Faults found in the audit to be logged next."
+    category: water
+  - date: "2026-09-09"
+    entry: "Turned on early — Jay programmed the first run for Thu 10 Sept 6am, 30 min on most zones and 60 min on the star jasmine zones, a month ahead of the 15 Oct target because the week is dry and Sat-Mon is forecast 21-24°. Verdict: fine as a first run and system test, provided the watering days are set to once a week, not daily (16mm fell on 5 Sept, days are 12-15°, soil is still holding winter moisture; 7mm + 12mm forecast Mon 14 / Tue 15). Zone audit + calibration queued as the do-now; zone count and map still unknown (5 or 6)."
+    category: water
   - date: "2026-09-05"
     entry: "Tracking entry created — the irrigation turn-on was flagged as spring's one must-do but wasn't visible anywhere in the app. Now dated: on by 15 Oct, earlier if a warm dry spell hits. Still rainy early Sept, no rush."
     category: general

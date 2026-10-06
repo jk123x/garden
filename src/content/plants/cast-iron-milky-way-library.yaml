@@ -9,7 +9,7 @@ image: /images/plants/IMG_0944.jpg
 notes: "Aspidistra elatior 'Milky Way'. The white speckles are normal — not yellowing. A couple of outer leaves show bronze edges which may indicate over-watering or mineral buildup. Flush soil in autumn and hold off feed."
 tasks:
   - months: [9, 3]
-    task: Feed with slow-release or liquid fertiliser
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
     category: feed
   - months: [4]
     task: Flush soil with plain water; hold off feed until spring

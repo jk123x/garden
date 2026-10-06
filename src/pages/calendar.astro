@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/layout.astro';
 import { getCollection } from 'astro:content';
+import Photo from '../components/Photo.astro';
 import { MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS, getCurrentMonth, getTasksForMonth } from '../lib/utils';
 
 const allPlants = await getCollection('plants');
@@ -84,11 +85,12 @@ const indoorMonths = buildMonths(allPlants.filter((p) => p.data.indoor));
                   ]}>
                     {imageMap.get(plantId) && (
                       <a href={`/plants/${plantId}`} class="shrink-0">
-                        <img
+                        <Photo
                           src={imageMap.get(plantId)}
                           alt=""
+                          widths={[192, 384]}
+                          sizes="6rem"
                           class="w-20 h-20 sm:w-24 sm:h-24 rounded-lg object-cover border border-rule-light"
-                          loading="lazy"
                         />
                       </a>
                     )}

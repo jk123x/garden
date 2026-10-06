@@ -1,9 +1,10 @@
 name: Lavender
 type: shrub
 location: Backyard
-health: "Regrowth confirmed Aug 2026 — fresh feathery grey-green growth on the cut frame (baseline photo IMG_2306, ID'd during the photo audit). The May hard-cut watch is resolved: it's alive and rebuilding. September tidy cut proceeds as tasked, only into stubs with visible regrowth."
+zones: [4]
+health: "Regrowth confirmed Aug 2026 — fresh feathery grey-green growth on the cut frame (baseline photo IMG_2306, ID'd during the photo audit). The May hard-cut watch is resolved: it's alive and rebuilding. September tidy cut done 11 Sept 2026. Nothing until the May post-flowering prune."
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: "2026-09"
 notes: "Growing along the back path near a window. The woody base is the main issue — lavender becomes permanently leggy if not pruned regularly, and once stems go bare they won't regrow leaves from old wood. Cut each stem to the lowest point with green leaves — never into bare wood. After cutting, watch stubs over 4-6 weeks: stubs that push new leaves are alive; stubs that stay brown and dry are dead and can be snipped flush later. Tidy second cut to balance shape in September once regrowth pattern is visible. Photo IMG_1004.jpg currently attached looks like the wrong plant (lance-shaped leaves, not lavender needles) — needs replacing with a real photo."
 image: /images/winter-2026/IMG_2306-lavender.jpg
 photos:
@@ -13,18 +14,25 @@ photos:
     caption: "In context by the bench and bee hotel (6 Aug 2026)"
 tasks:
   - months: [5, 6]
-    task: Hard prune after flowering — into lowest green growth, never into bare wood
+    task: "Hard prune after flowering (15 min, secateurs): cut every stem to the lowest point that still has green leaves, spent flower stalks included, then even the dome. Never into bare grey wood, it won't reshoot."
     category: prune
     completed: "2026-05"
   - months: [9]
-    task: Light feed with slow-release fertiliser
+    task: "Light feed (2 min): Richgro All Purpose, half the bag rate, scattered at the dripline and watered in. Rich soil makes lavender soft and floppy, so half dose is the ceiling."
     category: feed
     completed: "2026-07"
   - months: [9, 10]
     byDay: 15
+    completed: "2026-09"
     task: "Tidy second cut (~10 min): balance the shape, cutting only into stubs with green regrowth — never into bare grey wood. Stubs still brown and dry from the May cut are dead: snip them off flush. Why the deadline: after mid-Oct you are cutting off the spring flush and delaying summer flowers"
     category: prune
 log:
+  - date: "2026-09-11"
+    entry: "Tidy second cut done (Jay's fixup round, 11 Sept). Shape balanced, only live stubs cut into. Next touch is the May hard prune after flowering."
+    category: prune
+  - date: "2026-09-11"
+    entry: "Mix-up resolved by photo: the plant Jay pruned and mounded on 10-11 Sept (IMG_3571) is the MEXICAN SAGE by the jasmine fence, not this lavender. The mound plan, root check and dead-wood pass moved off this card. Whether the lavender itself (needle leaves, by the bee hotel next to the blue star fern) got its September tidy cut is unconfirmed, so the row stays open."
+    category: general
   - date: "2026-08-06"
     entry: "Identified in the end-of-winter baseline photos (IMG_2306, near the bench/bee hotel). Fresh needle regrowth visible on the frame = the May hard-cut gamble paid off; a stray flower even showing in the close-up crop. Rub-sniff a sprig to double-confirm (lavender smell is unmistakable). September's balance cut is the next touch. (The blue-grey lobed plant beside it is a separate unknown — see the photo audit.)"
     category: general

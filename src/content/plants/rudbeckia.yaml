@@ -1,9 +1,10 @@
 name: Rudbeckia 'Deamii'
 type: perennial
 location: Backyard (cutting bed + other beds)
+zones: [3]
 health: "Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting bed, 2 distributed to other beds. Sugarcane mulch applied. Establishing."
 healthStatus: establishing
-lastAssessed: "2026-05"
+lastAssessed: "2026-09"
 image: /images/plants/cutting-bed.jpg
 photos:
   - src: /images/winter-2026/IMG_2307.jpg
@@ -15,15 +16,19 @@ photos:
 notes: "Rudbeckia fulgida var. deamii (Deam's Black-eyed Susan). 3 plants total — 1 in the cutting bed, 2 distributed to other beds around the garden. Tough, long-lived perennial that handles Melbourne heat and drought once established. Flowers late summer into autumn on stiff stems — great cut flower. Leave spent seed heads through winter for structure and birds. Cut old stems to ground level in late winter before new basal growth emerges."
 tasks:
   - months: [9]
-    task: "Crown check, then feed only on a yes: green basal shoots showing = light feed with complete fertiliser as growth starts. Nothing showing = leave it alone, no water, no feed"
+    task: "Crown check, then feed only on a yes: green basal shoots showing = one 9L can of half-strength PowerFeed (about 1ml per litre) round the crown, not on it. Nothing showing = leave it alone, no water, no feed"
     category: feed
+    completed: "2026-09"
   - months: [3, 4]
-    task: Cut spent stems to ground level
+    task: "Cut back (5 min): once the flowers are brown and the stems dry, cut every old stem to 3cm above the crown with scissors. Want the seed heads for the birds? Leave them and do this cut in August instead. Never cut the green basal leaves: that is next year's plant."
     category: prune
   - months: [12, 1, 2, 3]
-    task: Cut flowers for the vase — this IS the maintenance
+    task: "Cut for the vase (whenever): cut stems long, to just above a leaf pair, and take them freely. Cutting is what keeps the plant compact and flowering. Leave a few late heads if you want winter seed heads for the birds."
     category: harvest
 log:
+  - date: "2026-09-10"
+    entry: "Fed: half-strength PowerFeed round the crown (basal shoots showing, so the conditional was a yes)."
+    category: feed
   - date: "2026-09-05"
     entry: "Jay's call: NOT replacing these flowers — the mid-September copper-tub keep-or-replace verdict is cancelled. If the grazed plant regrows, great; if not, oh well. Nothing to check, nothing to buy. The monthly tasks (feed as growth starts, cut for the vase in summer) still apply to whatever comes back."
     category: general

@@ -1,11 +1,14 @@
 name: Mexican Sage
 type: perennial
 location: Backyard
-health: "Basal regrowth well underway (Aug 2026 photos) — fresh silver-green foliage pushing from the May cutback stubs. Fed in the July blitz. On track to run hard in spring."
+zones: [2, 4]
+health: "Spring regrowth strong (11 Sept 2026 photo IMG_3571): a ring of fresh grey-green shoots from the base and from the old stubs, exactly the normal post-cutback pattern. The dead-looking centre is last season's cut stems; new growth comes from the rhizomes around them. Jay mounded potting mix with a little dolomite over the centre on 10-11 Sept thinking it was the lavender. Harmless: the sage roots along buried stems anyway."
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: "2026-09"
 image: /images/winter-2026/IMG_2304.jpg
 photos:
+  - src: /images/plants/IMG_3571.jpg
+    caption: "After the dead-stub pass and the potting-mix mound over the centre. Rim shoots are the spring regrowth (11 Sept 2026)"
   - src: /images/winter-2026/IMG_2304.jpg
     caption: "Basal regrowth from the May cutback (6 Aug 2026)"
   - src: /images/winter-2026/IMG_2307.jpg
@@ -15,17 +18,23 @@ photos:
 notes: "Salvia leucantha (Mexican Bush Sage). Multiple plants producing masses of purple velvet flower spikes — easily the best performer in the garden right now. Growth is sprawling, reaching over the stone path area. Cut back hard (by half to two-thirds) after flowering finishes, usually around May-June. Practical trigger: cut when the bees abandon the spikes — that's the reliable signal flowering's spent, better than going by the calendar. Regrows fast from the base in spring. The spent flower spikes turn brown and should be removed."
 tasks:
   - months: [5, 6]
-    task: Hard prune after flowering — cut back by half to two-thirds
+    task: "Hard cutback (20 min, secateurs): when the bees abandon the spikes, cut every stem to 10-20cm stubs. Take the whole clump, not just the spent bits: half-hearted cutting leaves a woody frame that flowers less. It regrows from the base in spring. Refresh the sugarcane round the base after."
     category: prune
     completed: "2026-05"
   - months: [9]
-    task: Feed with complete fertiliser
+    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered round each clump at the dripline and watered in. Last calm weekend before spring."
     category: feed
     completed: "2026-07"
   - months: [10, 11, 12, 1, 2, 3]
-    task: Deadhead spent flower spikes for repeat blooms
+    task: "Deadhead (5 min): snip any spike that has gone brown and dry back to the leaf pair below it. Keeps the purple spikes coming through summer. While there, trim any stem sprawling across the stone path back to the bed edge."
     category: general
 log:
+  - date: "2026-09-17"
+    entry: "Irrigation: this area is on ZONE 2's drip line (shrubblers found buried and dug out 17 Sept) as well as zone 4."
+    category: water
+  - date: "2026-09-11"
+    entry: "Dead stubs pulled from the centre, then Grow Better potting mix with a little dolomite mounded over the bare middle (IMG_3571). Done under the belief it was the lavender; the photo shows the sage's lanceolate grey rugose leaves and the same spot as IMG_2304. No harm, no follow-up needed. Regrowth ring is strong."
+    category: prune
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2302/2304/2307). Fresh silver-green basal regrowth well underway from the May cutback — right on schedule, fed and ready to run in spring. Status moves from dormant to establishing regrowth."
     category: general

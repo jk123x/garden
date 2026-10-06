@@ -1,3 +1,5 @@
+import { todayFrom } from './schedule';
+
 export const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December',
@@ -102,7 +104,6 @@ export interface FeedGroup {
 export interface FeedProduct {
   id: string;
   name: string;
-  status: 'in the shed' | 'ordered';
   timing: string;
   accent: string;      // tailwind classes for the label accent bar
   chip: string;        // tailwind classes for plant chips
@@ -114,11 +115,10 @@ export const FEEDING_PLAN: FeedProduct[] = [
   {
     id: 'native',
     name: 'Osmocote Native',
-    status: 'ordered',
-    timing: 'The day it arrives',
+    timing: 'Once a year, late winter',
     accent: 'bg-terra',
     chip: 'bg-terra-soft text-terra',
-    note: 'Low phosphorus. The only fertiliser the natives ever get — regular fertiliser harms them. Controlled-release, so early application costs nothing: it waits for warm soil.',
+    note: 'Low phosphorus. The only fertiliser the natives ever get; regular fertiliser harms them. Controlled-release, so going early costs nothing: it waits for warm soil.',
     groups: [
       { dose: 'Standard dose', plants: ['Banksia', 'Cinnamon Wattle', 'Kangaroo Paw', 'Westringia', 'Cushion Bush', 'Chalk Sticks', 'Dianellas', 'Native Daisies'] },
     ],
@@ -126,60 +126,71 @@ export const FEEDING_PLAN: FeedProduct[] = [
   {
     id: 'richgro',
     name: 'Richgro All Purpose',
-    status: 'in the shed',
-    timing: 'Early August',
+    timing: 'Late winter round, then a December top-up on the six climbers',
     accent: 'bg-olive',
     chip: 'bg-olive-soft text-olive',
-    note: 'Conventional fertiliser — applied too early, winter rain leaches it past sleeping roots. Hold until the last calm weekend before the due date.',
+    note: 'Conventional fertiliser. Applied too early, winter rain leaches it past sleeping roots, so hold the winter round until the last calm weekend before spring. Check the bag before December.',
     groups: [
-      { dose: 'Normal dose', plants: ['Mexican Sage', "Salvia 'Caradonna'", 'Black Eyed Susan', 'Miscanthus', 'Bartlettina', 'Olive Tree', 'Native Frangipani', 'Giant Taro', 'Strawberry', 'Muehlenbeckia ×2', 'Star Jasmine (back)', 'Star Jasmine (west)'] },
-      { dose: 'Generous — heavy feeder', plants: ['Passionfruit'] },
-      { dose: 'Light dose', plants: ['Star Jasmine (east — wide around the 2 new plants, not against stems)', 'Achillea', 'Lavender', 'Lily Turf', 'Dichondra', 'Native Violets'] },
+      { dose: 'Normal dose', plants: ['Mexican Sage', "Salvia 'Caradonna'", 'Black Eyed Susan', 'Miscanthus', 'Bartlettina', 'Olive Tree', 'Native Frangipani', 'Giant Taro', 'Strawberry', 'Muehlenbeckia ×3', 'Star Jasmine (back)', 'Star Jasmine (west)'] },
+      { dose: 'Generous, heavy feeder', plants: ['Passionfruit'] },
+      { dose: 'Light dose', plants: ['Star Jasmine (east): wide around the 2 new plants, never against stems', 'Achillea', 'Lavender', 'Lily Turf', 'Dichondra', 'Native Violets'] },
     ],
   },
   {
     id: 'citrus',
     name: 'Experts Choice Fruit & Citrus',
-    status: 'in the shed',
-    timing: 'Early August',
+    timing: 'Light doses in late winter, December and March',
     accent: 'bg-amber-500',
     chip: 'bg-amber-50 text-amber-800',
-    note: 'Light dose only — lush nitrogen-fed growth is exactly what gall wasps lay eggs into. Never the lime this year.',
+    note: 'Light dose only. Lush nitrogen-fed growth is exactly what gall wasps lay eggs into, and the hard-pruned trees will flush hard anyway. Not the lime until autumn 2027.',
     groups: [
       { dose: 'Light dose', plants: ['Lemon Tree', 'Citrus Tree (orange)', 'Grapefruit Tree'] },
     ],
   },
   {
+    id: 'liquid',
+    name: 'PowerFeed PRO Tomatoes & Vegetables (liquid)',
+    timing: 'Indoor plants monthly Sept to Feb; outdoor conditionals in September',
+    accent: 'bg-sky-600',
+    chip: 'bg-sky-50 text-sky-800',
+    note: 'Fish, compost and seaweed concentrate. The 1.2L bottle makes 540L, so full rate is about 2ml per litre and half strength is 1ml per litre (10ml in a 9L can). Always onto moist soil, never dry. It smells fishy for a day, so dose indoor plants in the laundry or outside. Not for the natives. The Eco-Seaweed powder on the same shelf is a tonic, not a feed: good after repotting or heat stress, but it does not replace this.',
+    groups: [
+      { dose: 'Half strength, monthly', plants: ['All indoor plants except succulents', 'Cast irons: once now, once in March', 'Kentia: every second month'] },
+      { dose: 'Quarter strength', plants: ['String of Pearls'] },
+      { dose: 'Half strength, one can, only if shoots are showing', plants: ['Rosemary', 'Echinacea (both)', "Rudbeckia 'Deamii'"] },
+    ],
+  },
+  {
     id: 'lawn',
     name: 'Sudden Impact for Lawns',
-    status: 'in the shed',
-    timing: 'Early August',
+    timing: 'Late winter, mid-summer and late March',
     accent: 'bg-emerald-600',
     chip: 'bg-emerald-50 text-emerald-800',
+    note: 'The late-March feed is the one that holds buffalo colour through winter.',
     groups: [
-      { dose: 'Per bag rate', plants: ['Buffalo Lawn'] },
+      { dose: 'Bag rate', plants: ['Buffalo Lawn'] },
     ],
   },
 ];
 
 export const FEEDING_SKIPS: Array<{ plant: string; reason: string }> = [
-  { plant: 'Lime Tree', reason: 'recovering from the gall renovation prune — no feed until autumn 2027' },
-  { plant: 'Feijoa', reason: 'cut to 1m — no feed while it re-establishes, lean keeps regrowth manageable' },
-  { plant: 'Rosemary', reason: 'recovering from dieback, and prefers lean soil anyway' },
-  { plant: 'Echinacea (cutting bed + Sombrero)', reason: 'rot risk — feed only if new growth shows in spring' },
+  { plant: 'Lime Tree', reason: 'recovering from the gall renovation prune. No feed until autumn 2027' },
+  { plant: 'Feijoa', reason: 'cut to 1m. No feed while it re-establishes; lean keeps regrowth manageable' },
+  { plant: 'Rosemary', reason: 'recovering from dieback, and prefers lean soil anyway. One half-strength can in September is the ceiling' },
+  { plant: 'Echinacea (cutting bed + Sombrero)', reason: 'rot risk. Feed only once new basal growth shows in spring' },
   { plant: "Rudbeckia 'Deamii'", reason: 'same rule as the echinacea' },
   { plant: 'Dusty Miller', reason: 'never needs feeding' },
 ];
 
-export const FEEDING_YEAR: Array<{ when: string; label: string; detail: string; current?: boolean }> = [
-  { when: 'Early Aug', label: 'The big round', detail: 'Everything above, one lap. Normally a September job — front-loaded to August this year.', current: true },
-  { when: 'Sept', label: 'Conditionals only', detail: 'Cutting-bed echinacea + rudbeckia get a feed only if new basal growth has appeared.' },
-  { when: 'Dec', label: 'Summer top-up', detail: 'Citrus (light), passionfruit, buffalo lawn.' },
-  { when: 'Mar', label: 'Autumn round', detail: 'Citrus, buffalo lawn, olive, all jasmine runs. Lime rejoins here in 2027.' },
+export const FEEDING_YEAR: Array<{ months: number[]; when: string; label: string; detail: string }> = [
+  { months: [8, 9], when: 'Late winter', label: 'The big round', detail: 'Everything above, one lap. Normally a September job; in 2026 it was front-loaded to late July and August for the baby.' },
+  { months: [9], when: 'September', label: 'Conditionals only', detail: 'Cutting-bed echinacea, rudbeckia and rosemary get one can of half-strength PowerFeed, and only if new basal growth has appeared. Indoor monthly PowerFeed starts.' },
+  { months: [12], when: 'December', label: 'Summer top-up', detail: 'Citrus (light), passionfruit, buffalo lawn, and the growth-push Richgro on all six climbers.' },
+  { months: [3], when: 'March', label: 'Autumn round', detail: 'Citrus, buffalo lawn, olive and all three jasmine runs. The lime rejoins here in 2027.' },
 ];
 
 export function getCurrentMonth(): number {
-  return new Date().getMonth() + 1;
+  return todayFrom().month;
 }
 
 export function getTasksForMonth(
@@ -201,19 +212,9 @@ export function getTasksForMonth(
 
 const URGENCY_ORDER = ['today', 'week', 'ongoing'];
 
-export function getTodayIso(): string {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
-
-export function formatShortDate(iso: string): string {
-  const [, m, d] = iso.split('-').map(Number);
-  return `${d} ${MONTH_NAMES_SHORT[m - 1]}`;
-}
-
-export function getPlantsNeedingAttention(
-  plants: Array<{ id: string; data: { name: string; location: string; indoor?: boolean; healthStatus?: string; health?: string; image?: string; urgency?: string; nextAction?: string; readyFrom?: string; dueBy?: string } }>,
-  todayIso: string = getTodayIso(),
+export function getPlantsNeedingAttention<P extends { data: { urgency?: string; readyFrom?: string; dueBy?: string; healthStatus?: string } }>(
+  plants: P[],
+  todayIso: string = todayFrom().iso,
 ) {
   const flagged = plants
     .filter(p => p.data.urgency && URGENCY_ORDER.includes(p.data.urgency))

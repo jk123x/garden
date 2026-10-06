@@ -1,6 +1,7 @@
 name: Grapefruit Tree
 type: fruit
 location: Backyard
+zones: [4]
 health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency."
 healthStatus: good
 lastAssessed: "2026-08"
@@ -34,25 +35,25 @@ log:
     category: feed
 tasks:
   - months: [9]
-    task: Feed with citrus fertiliser
+    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
     completed: "2026-07"
   - months: [12]
-    task: Feed again mid-summer
+    task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
   - months: [8, 9, 10]
     task: Taste-test a grapefruit every few weeks — yellow ≠ ripe, they sweeten with hang time and hold on the tree for months
     category: harvest
   - months: [9]
-    task: Light prune to shape
+    task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: "2026-08"
-  - months: [12, 1, 2]
-    task: Deep water weekly in hot weather
-    category: water
+  - months: [11]
+    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
+    category: general
   - months: [10]
     task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
     category: spray

@@ -2,16 +2,15 @@ name: Rabbit's Foot Fern (Library)
 type: fern
 indoor: true
 location: Library
-health: "Fern scale spread here from the library holly fern — small amounts of white flecks spotted 18 Aug 2026, alcohol spray (round 1) same day. Caught early and lightly; underlying plant still lush."
+health: "Fern scale caught early (18 Aug 2026, spread from the library holly fern) and all three wipe rounds done: 18 Aug spray, late Aug wipe, 5 Sept wipe. Plant still lush. Now in the weekly fleck-glance phase — fresh white flecks on fronds or feet = the wipes lost."
 healthStatus: monitor
-lastAssessed: "2026-08"
-urgency: week
-readyFrom: "2026-09-05"
-dueBy: "2026-09-08"
-nextAction: "Fern scale round 3 (final) on this fern + the flecked parlor palm: cloth wipe with half-strength alcohol, fronds top and bottom plus the furry feet. After this, weekly fleck glances only — fresh flecks reappearing = the wipes lost. While wiping, 30-sec check on everything else in the library."
+lastAssessed: "2026-09"
 image: /images/plants/IMG_0948.jpg
 notes: "Davallia. Gorgeous feathery foliage, no brown tips. Fern scale history from Aug 2026 — check the rhizomes ('feet') as well as fronds when inspecting; scale hides on them."
 log:
+  - date: "2026-09-05"
+    entry: "Fern scale round 3 (final) wipe done (Jay) — half-strength alcohol, fronds top and bottom plus the feet, with the flecked parlor palm in the same pass. Treatment program complete; weekly fleck glance from here (covered by the library-wide check on the holly fern card)."
+    category: spray
   - date: "2026-08-29"
     entry: "Round 2 alcohol wipe done — this fern + the flecked parlor palm, one day past the 25-28 window (fine). Round 3 (final) re-dated to ~5-8 Sept, a week out from the actual round 2 date."
     category: spray
@@ -20,7 +19,7 @@ log:
     category: spray
 tasks:
   - months: [9, 10, 11, 12, 1, 2]
-    task: Feed with half-strength liquid fertiliser monthly
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
   - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry out a bit more between drinks

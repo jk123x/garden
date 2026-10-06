@@ -1,6 +1,7 @@
 name: Strawberry
 type: fruit
 location: Backyard (near path)
+zones: [2, 4]
 health: "Sugarcane mulch down April 2026. Good foliage — dense dark green leaves with active runners extending outward. No fruit visible (expected for April). Some yellowed older leaves at base from normal cycling."
 healthStatus: healthy
 lastAssessed: "2026-04"
@@ -8,26 +9,26 @@ image: /images/plants/IMG_0920.jpg
 notes: "Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months."
 tasks:
   - months: [3]
-    task: Feed with strawberry/fruit fertiliser
+    task: "Autumn feed (5 min): Richgro All Purpose, normal dose scattered between the plants and watered in. Autumn is when next spring's crowns build, so this is the feed that sets the crop."
     category: feed
   - months: [9]
-    task: Feed again in spring
+    task: "Spring feed (5 min): Richgro All Purpose, normal dose scattered between the plants and watered in, as the new leaves push. Not on the crowns."
     category: feed
     completed: "2026-07"
   - months: [4]
-    task: Mulch with straw to keep fruit off soil
+    task: "Straw mulch (10 min): sugarcane from the bale tucked under the leaves so fruit sits on straw, not soil (soil contact = rot and slugs). Keep it off the crowns or they rot too."
     category: mulch
     completed: "2026-04"
   - months: [10, 11, 12, 1]
     task: Harvest ripe fruit
     category: harvest
   - months: [3]
-    task: Remove old/dead leaves and runners
+    task: "Tidy (15 min, scissors): cut yellowed and dead leaves off at the base, and any runner that has crossed the path. A runner with its own roots and a good crown can be cut free and moved to a gap instead of binned. Old leaves left through winter hold fungal spores."
     category: prune
-  - months: [12, 1, 2]
-    task: Water regularly in hot weather
-    category: water
 log:
+  - date: "2026-09-17"
+    entry: "Irrigation: this area is on ZONE 2's drip line (shrubblers found buried and dug out 17 Sept) as well as zone 4."
+    category: water
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos taken around the path/tub area. Plants quiet through winter as expected; fed 30 Jul, straw in place. Watch for new leaf push from late Aug."
     category: general

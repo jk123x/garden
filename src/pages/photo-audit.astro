@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/layout.astro';
+import Photo from '../components/Photo.astro';
+import { getImage } from 'astro:assets';
+import { resolveImage } from '../lib/images';
 
 interface Photo {
   img: string;
@@ -29,12 +32,12 @@ const AREAS: Area[] = [
     photos: [
       { img: 'IMG_2266', ids: ['Chalk Sticks', 'Westringia', 'Muehlenbeckia', 'Lemon Tree'] },
       { img: 'IMG_2267', ids: ['Westringia', 'Chalk Sticks', 'Muehlenbeckia', 'Cinnamon Wattle'] },
-      { img: 'IMG_2268', ids: ['Westringia', 'Muehlenbeckia', 'Chalk Sticks'] },
+      { img: 'IMG_2268', ids: ['Needle-leaf lilac-flowered shrub (un-ID\'d — not the westringia)', 'Muehlenbeckia', 'Chalk Sticks'] },
       { img: 'IMG_2269', ids: ['Lemon Tree'], note: 'Loaded — pre-harvest.' },
       { img: 'IMG_2270', ids: ['Lemon Tree', 'Muehlenbeckia', 'Chalk Sticks'] },
       { img: 'IMG_2271', ids: ['Cinnamon Wattle', "Bird's Nest Fern", 'Muehlenbeckia'], note: 'Heavy red-orange bud.' },
       { img: 'IMG_2320', ids: ['Lemon Tree — after'], note: 'After the 6 Aug session: fed, gall prune, eco-oil round 1.' },
-      { img: 'IMG_2319', ids: ['Asparagus fern volunteer (pulled)', 'Westringia', 'Chalk Sticks'], note: 'Pulled 7 Aug — re-dig if shoots reappear in spring.' },
+      { img: 'IMG_2319', ids: ['Asparagus fern volunteer (pulled)', 'Needle-leaf lilac-flowered shrub (un-ID\'d — not the westringia)', 'Chalk Sticks'], note: 'Pulled 7 Aug — re-dig if shoots reappear in spring.' },
       { img: 'IMG_2274', ids: ['Miscanthus', 'Muehlenbeckia', "Bird's Nest Fern"], note: 'Miscanthus reshooting from the April cutback.' },
       { img: 'IMG_2275', ids: ["Bird's Nest Fern", 'Dichondra'] },
       { img: 'IMG_2276', ids: ['Nature Strip', 'Muehlenbeckia runners'] },
@@ -94,6 +97,17 @@ const AREAS: Area[] = [
 ];
 
 const total = AREAS.reduce((n, a) => n + a.photos.length, 0);
+
+const largeUrl = async (img: string) => {
+  const meta = await resolveImage(`/images/winter-2026/${img}.jpg`);
+  return meta ? (await getImage({ src: meta, width: 1600, format: 'jpg', quality: 78 })).src : `/images/winter-2026/${img}.jpg`;
+};
+const areas = await Promise.all(
+  AREAS.map(async (area) => ({
+    ...area,
+    photos: await Promise.all(area.photos.map(async (p) => ({ ...p, large: await largeUrl(p.img) }))),
+  })),
+);
 ---
 
 <Layout title="Photo Baseline — Garden">
@@ -107,18 +121,19 @@ const total = AREAS.reduce((n, a) => n + a.photos.length, 0);
       </p>
     </div>
 
-    {AREAS.map((area) => (
+    {areas.map((area) => (
       <section class="mb-14">
         <h2 class="font-display text-3xl font-semibold mb-5 pb-2 border-b border-rule">{area.title}</h2>
         <div class="grid sm:grid-cols-2 gap-6">
           {area.photos.map((p) => (
             <figure class="bg-paper rounded-xl border border-rule overflow-hidden flex flex-col">
-              <a href={`/images/winter-2026/${p.img}.jpg`} target="_blank" class="block relative" style="aspect-ratio: 4/3;">
-                <img
+              <a href={p.large} target="_blank" rel="noopener" class="block relative" style="aspect-ratio: 4/3;">
+                <Photo
                   src={`/images/winter-2026/${p.img}.jpg`}
                   alt={p.ids.join(', ')}
+                  widths={[480, 960]}
+                  sizes="(min-width: 640px) 50vw, 100vw"
                   class="absolute inset-0 w-full h-full object-cover"
-                  loading="lazy"
                 />
               </a>
               <figcaption class="px-4 py-3 flex-1 flex flex-col gap-2">

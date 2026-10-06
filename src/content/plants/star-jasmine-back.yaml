@@ -1,10 +1,14 @@
 name: Star Jasmine (Back fence)
 type: climber
 location: Back (north) fence
+zones: [4]
 health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous."
 healthStatus: healthy
 lastAssessed: "2026-08"
 log:
+  - date: "2026-09-16"
+    entry: "Jay: the jasmine is really starting to grow again after a run of 20°+ days. Spring flush is on, about a fortnight ahead of a typical year. The 1 Oct timing-critical session stays on its date, but the trigger is length not date: the week the longest new runners hit 30-60cm and still bend easily is the week to go, even if that lands late Sept."
+    category: general
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2283-2288 — the run along the studio, plus the dense corner by the raised beds). Espaliered laterals sitting neatly on the mesh with the fresh figure-8 ties from the tie audit visible throughout. Coverage: dense and mature at the corner end, mid-run filling, some lower-fence gaps that spring growth + sideways training will close. Looks well set up."
     category: general
@@ -35,17 +39,17 @@ photos:
 notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
 tasks:
   - months: [1, 2]
-    task: Prune and shape after flowering
+    task: "After-flowering prune (30 min, secateurs): once the last flowers drop, cut back anything reaching onto the gutter or roof and any runner crossing into the garden path. Take the long whippy tails back to the fence line. Pull dead brown leaves out of the interior by hand. Do not cut into the old wood on the fence face: that is the coverage."
     category: prune
   - months: [9]
-    task: Feed with slow-release fertiliser
+    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
     category: feed
     completed: "2026-07"
   - months: [12]
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
     category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min): Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
     category: feed
   - months: [10]
     day: 1

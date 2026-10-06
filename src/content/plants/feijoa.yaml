@@ -1,6 +1,7 @@
 name: Feijoa
 type: fruit
 location: Front fence (one side)
+zones: [1]
 health: "RENOVATION COMPLETE 2 Aug 2026, bed mulched 4 Aug — all trunks at ~1m with clean angled cuts, leafy laterals retained below the line, fresh 20mm pine bark down (no compost, deliberately lean while rebuilding). Expect the reshoot flush from October; nothing to do until the flower-strip."
 healthStatus: monitor
 lastAssessed: "2026-08"
@@ -14,6 +15,9 @@ photos:
     caption: "The renovation cut, 31 Jul 2026"
 notes: "Pineapple guava (Acca sellowiana). Near the front fence. KEPT-SHORT REGIME (from July 2026): renovation cut to ~1m, then manage as a short shrub. No fruit wanted — strip flowers in October before fruit sets (they'll all be in reach on a short plant), or hedge-trim the new growth tips in late spring; regularly trimmed feijoas barely flower. First spring after the hard cut it will flower much less anyway (energy goes to regrowth). Mulch policy updated Aug 2026: bed now gets wood-chip mulch (the old keep-it-bare-for-fruit-pickup rule is retired — the flower-strip regime means effectively no fruit; if any sneaks through, check under mulch during pickup season). Any fallen fruit: daily pickup, solarise in a sealed black bag 2+ weeks or red-lid bin — never compost, fruit fly host. No feed while re-establishing after the cut — lean conditions also keep the regrowth manageable."
 log:
+  - date: "2026-09-17"
+    entry: "Jay noticed tiny flea/mosquito-like insects over the bark mulch. Nothing needed: size and behaviour = fungus gnats or springtails breeding in damp fresh pine bark, normal for early spring, they thin out as the surface dries. Not fruit fly (7mm, wasp-like, sits on leaves, not active here until it warms) and no rotting fruit under the mulch: the bed was cleared before the bark went down in Aug. Fruit fly risk is next autumn's crop, covered by the Oct flower strip."
+    category: general
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2273/2277/2279). Trunks at ~1m along the fence with retained leafy laterals, fresh bark down — the 'before' shot for the October reshoot flush. Bed looks clean."
     category: general
@@ -40,22 +44,19 @@ log:
     category: general
 tasks:
   - months: [9]
-    task: Feed with complete fertiliser
+    task: "No feed while it rebuilds from the 1m cut (skip list): lean soil keeps the regrowth manageable. Revisit in 2027 only if regrowth is weak, meaning few shoots and pale leaves."
     category: feed
     completed: "2026-07"
   - months: [10]
-    task: Remove all flowers before fruit sets — permanent no-fruit regime (fruit fly control)
+    task: "Strip every flower (10 min, fingers): pinch off the red-and-white flowers and buds along all the regrowth, all within reach on a 1m plant. A missed flower becomes fruit, and fruit means fruit fly and daily pickup. First spring after the hard cut there will be few anyway."
     category: general
   - months: [11, 12]
-    task: Tip the regrowth shoots at ~30cm so they branch — builds the dense base; also stops late flowers
+    task: "Tip the regrowth (10 min, scissors): once new shoots reach about 30cm, snip 2-3cm off each tip so it branches. Builds the dense low shrub and stops late flowers. Only the soft new shoots, not back into old wood."
     category: prune
   - months: [2, 3, 4, 5, 6, 7]
-    task: Pick up and bag/solarise any fallen fruit daily — never compost
+    task: "Fruit pickup, daily in season (2 min): any fallen fruit into a sealed black bag to solarise for 2+ weeks, or the red-lid bin. Never compost, fruit fly host. With the flower-strip there should be almost none, so check under the bark mulch."
     category: general
   - months: [7, 8]
-    task: Renovation cut to ~1m / just below fence top (2026), then annual winter height check at the 1.5m target
+    task: "Winter height check (2 min): shrubs above the 1.5m target = cut the tallest trunks back to just below fence top with secateurs, angled cuts, leafy laterals kept below the line. Under target = nothing to do."
     category: prune
     completed: "2026-07"
-  - months: [12, 1, 2]
-    task: Deep water in dry spells
-    category: water

@@ -6,7 +6,7 @@ health: "Fern scale (Pinnaspis aspidistrae) confirmed July 2026 — the white ma
 healthStatus: monitor
 lastAssessed: "2026-08"
 urgency: later
-nextAction: "Weekly midrib glance on both holly ferns (30 sec): fresh white felted flecks reappearing = the wipes lost, bin the plant — two ferns aren't worth the collection. Clear through mid-Sept = won, end isolation and resume normal care + feeding."
+nextAction: "Weekly library fleck glance (1 min): both holly ferns' midribs, the rabbit's foot fern's fronds and feet, the flecked parlor palm, and the cascade palm's frond undersides. Fresh white flecks on a fern = the wipes lost, bin it — two ferns aren't worth the collection. Everything clean through mid-Sept = won, end isolation and resume normal care + feeding."
 image: /images/plants/IMG_0971.jpg
 notes: "Cyrtomium falcatum. DIAGNOSIS HISTORY: April 2026 flagged white powdery material, treated with alcohol + soap, then re-read as probable sori and downgraded to monitor. July 2026 photos overturned that — the white felted 1-2mm flecks and cottony ribbons run along the TOP of the rachis and scatter across leaflet upper surfaces, which sori never do (sori are firm round dots in rows on the underside only). This matches male fern scale armor exactly: white, felted, conspicuous against dark foliage, clustering along midribs, with tan oyster-shell females hidden in the mass. Fern scale is one of the most common pests of exactly this species. Armored scale, so no honeydew — the April 'honeydew' was a misread. It has been active since at least April; the wipe-downs knocked it back but never cleared the crawlers."
 tasks:
@@ -14,7 +14,7 @@ tasks:
     task: "Fern scale follow-up — wipe fronds with soapy water/alcohol every 7-10 days, inspect midribs for new white flecks. Still recurring after 3 rounds = bin the plant"
     category: spray
   - months: [9, 10, 11, 12, 1, 2]
-    task: Feed with half-strength liquid fertiliser monthly (only once pest-free)
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside. Only once the fleck checks have held clear"
     category: feed
   - months: [9]
     task: Remove old/tatty fronds

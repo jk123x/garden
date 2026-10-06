@@ -9,7 +9,7 @@ image: /images/plants/IMG_0930.jpg
 notes: "Howea forsteriana. Slow grower, low-light tolerant. Current frond count is modest — pot is also on the larger side so watering restraint is important."
 tasks:
   - months: [9, 11, 1]
-    task: Feed with liquid fertiliser every couple of months
+    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Palms burn on strong feeds, so half is the ceiling. Fishy for a day, so do it in the laundry or outside"
     category: feed
   - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let top 3cm dry between drinks

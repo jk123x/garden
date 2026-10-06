@@ -1,9 +1,10 @@
 name: Echinacea (cutting bed)
 type: perennial
 location: Backyard (cutting bed)
+zones: [3]
 health: "Newly planted May 2026. 2 plants from 100mm pots in the cutting bed, mulched with sugarcane. Establishing."
 healthStatus: establishing
-lastAssessed: "2026-05"
+lastAssessed: "2026-09"
 image: /images/plants/cutting-bed.jpg
 photos:
   - src: /images/winter-2026/IMG_2289.jpg
@@ -15,15 +16,19 @@ photos:
 notes: "Species echinacea planted in the cutting bed — either tennesseensis 'Rocky Top' or purpurea 'Rubinstern' (variety TBC). Deliberately chose species types over fancy hybrids — Jay has prior echinacea-rot history with hybrids. Key rule: do not overwater, especially through winter. The cutting bed has good drainage and irrigation, which suits echinacea. Leave spent seed heads through winter. Cut old stems to ground in late winter before new growth. Shares the bed with rudbeckia and echinacea sombrero."
 tasks:
   - months: [9]
-    task: "Crown check, then feed only on a yes: green basal shoots at the crown = light feed with complete fertiliser, kept off the crown itself. No shoots = do nothing, no extra water either — this bed has rot history"
+    task: "Crown check, then feed only on a yes: green basal shoots at the crown = one 9L can of half-strength PowerFeed (about 1ml per litre) round the crown, never poured onto it. No shoots = do nothing, no extra water either — this bed has rot history"
     category: feed
-  - months: [3, 4]
-    task: Cut back dead stems to ground level
+    completed: "2026-09"
+  - months: [5]
+    task: "Cut the dead stems to ground level (5 min, secateurs) once they are fully brown and the seed heads spent, just above the crown. Don't dig around the crown and don't water it in: this bed has rot history."
     category: prune
   - months: [12, 1, 2]
     task: Deadhead spent flowers for repeat blooms or cut for the vase
     category: harvest
 log:
+  - date: "2026-09-10"
+    entry: "Fed: half-strength PowerFeed round the crowns, kept off them (basal shoots showing, so the conditional was a yes)."
+    category: feed
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos of the raised beds (IMG_2289/2293). Beds are quiet under straw (normal — echinacea is fully dormant), but weeds are germinating through the mulch. Hand-pull them before spring; do NOT disturb or overwater the crowns while checking. Basal-growth check due from late Aug."
     category: general

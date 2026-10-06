@@ -1,6 +1,7 @@
 name: Banksia
 type: shrub
 location: Front yard
+zones: [1]
 health: "Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged."
 healthStatus: healthy
 lastAssessed: "2026-07"
@@ -24,13 +25,13 @@ log:
 notes: "Native banksia with distinctive cone-like flower heads. July 2026 photos sharpen the ID: low mounding habit, fine needle foliage, round orange-brown brush cones held close to the bush — reads as a dwarf Banksia spinulosa type ('Birthday Candles' or similar cultivar). Grows in the front bed alongside the kangaroo paws and feijoas. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or snap off for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
 tasks:
   - months: [9]
-    task: Feed with native fertiliser (low phosphorus)
+    task: "Feed (2 min): Osmocote Native at the bag rate, scattered over the root zone out to the drip line, then water in. Only ever this product: regular fertiliser is high phosphorus and can kill a banksia"
     category: feed
     completed: "2026-07"
   - months: [3]
-    task: Prune spent flower cones if desired
+    task: "Cone tidy (5 min, optional): snap or snip off cones that have gone grey-brown and dry. Leave anything still green, yellow or orange, those are live flowers still developing. Never cut into the foliage behind a cone, the bush does not need shaping"
     category: prune
   - months: [4]
-    task: Mulch around base
+    task: "Mulch (10 min): rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"
     category: mulch
     completed: "2026-04"

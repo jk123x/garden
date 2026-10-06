@@ -1,29 +1,44 @@
 name: Westringia
 type: shrub
 location: Front yard
-health: "Excellent condition — dense dome-shaped form with tight silvery-green foliage. Naturally tidy shape with no bare patches, dieback, or pest damage visible."
+zones: [1]
+health: "Pass 1 of the size reduction done 16 Sept 2026, conservatively: shape kept, no cuts into bare wood, still well short of a third off. Porch dome finished; the wattle-side dome is unfinished where the wattle drapes over it. Reshoot check 20 Oct decides how hard pass 2 can go. Was: healthy but has outgrown its spot — Jay, 8 Sept 2026: the front domes have 'gotten so huge'. Dense, no dieback. Size reduction is the job, done in two passes (Sept + March) so no cut goes into bare wood."
 healthStatus: healthy
-lastAssessed: "2026-08"
+lastAssessed: "2026-09"
 log:
+  - date: "2026-09-16"
+    entry: "Pass 1 done by Jay (IMG_3713 porch dome, IMG_3714 wattle-side dome). Verdict on the work: correct. Dome shape kept, no flat top, no bare patches or brown showing, clippings are leafy tips not thick stems, so every cut left green below it. Deliberately conservative, nowhere near a third, because we don't yet know how this plant reshoots from older wood. The wattle-side dome stopped short under the wattle's drape; it gets finished in the October wattle-prune session once the shoulder is clear. Follow-up set for 20 Oct: look just below the cut line. New shoots pushing from below the cuts all over = reshoots readily, take the next bite then (toward a third, a little into older wood where a leaf bud shows). No shoots below the cuts = tip-grower only, stay conservative for good. Sweep the cut bits off the brick path and stone slab; on the mulch they're fine."
+    category: prune
+  - date: "2026-09-08"
+    entry: "Jay: the big round front plants have gotten huge, asked whether to cut back yet. Answer: yes, now — early spring shape reduction, up to a third, never into leafless wood, second pass in March. Gallery corrected: IMG_2268 and IMG_2319 removed (a different plant, the needle-leaf lilac-flowered one by the front fence)."
+    category: prune
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2267/2268/2272). Flowering through winter, dome tight and healthy. Jay confirmed the big dome by the porch in IMG_2272 is this westringia (the one that carried the Christmas lights last year) — I'd initially read it as the muehlenbeckia. Nothing needed."
+    entry: "End-of-winter baseline photo (IMG_2272). Dome tight and healthy. Jay confirmed the big dome by the porch in IMG_2272 is this westringia (the one that carried the Christmas lights last year) — I'd initially read it as the muehlenbeckia. (IMG_2268/2319, the needle-leaf lilac-flowered plant by the front fence, were filed here by mistake — Jay 8 Sept: not this plant.)"
     category: general
-image: /images/winter-2026/IMG_2268.jpg
+image: /images/winter-2026/IMG_2272.jpg
 photos:
-  - src: /images/winter-2026/IMG_2268.jpg
-    caption: "Flowering through winter (6 Aug 2026)"
+  - src: /images/plants/IMG_3713.jpg
+    caption: "Porch dome after pass 1, conservative (16 Sept 2026)"
+  - src: /images/plants/IMG_3714.jpg
+    caption: "Wattle-side dome after pass 1, unfinished under the wattle's drape (16 Sept 2026)"
   - src: /images/winter-2026/IMG_2272.jpg
     caption: "The big dome by the porch — the Christmas-lights bush (6 Aug 2026)"
-  - src: /images/winter-2026/IMG_2319.jpg
-    caption: "Lilac flowers up close (6 Aug 2026)"
   - src: /images/plants/IMG_0889.jpg
     caption: "April 2026 assessment"
-notes: "Coastal Rosemary (Westringia fruticosa). One of the healthiest plants in the garden. The naturally tight dome shape needs minimal to no pruning. Drought-tolerant Australian native that genuinely thrives in Melbourne. No action needed."
+notes: "The big round grey-green domes out the front (Jay calls them the westringias; the one by the porch carries the Christmas lights). Bulletproof, dense, no pest history. They've outgrown their spots, so from 2026 they get a two-pass shape reduction each year: early Sept and March, up to a third each time, never cutting into leafless wood. ID caveat, no action needed: the tiny rounded leaves don't match Westringia fruticosa (which has narrow needle leaves) — Correa alba or bush germander (Teucrium fruticans) are the likely candidates, and a flower photo settles it whenever it flowers. Pruning rules are the same for all three."
 tasks:
-  - months: [10, 3]
-    task: Light trim to maintain shape
+  - months: [9]
+    completed: "2026-09"
+    task: "Shape reduction, pass 1 (20 min per dome): up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood."
+    category: prune
+  - months: [10]
+    day: 20
+    task: "Reshoot check + finish the wattle-side dome (same session as the wattle prune, 20 min): first look just below your Sept cut line on the porch dome. New shoots pushing from below the cuts all over = the plant reshoots readily, so take the next bite now, toward a third off, and a little into older wood wherever a leaf bud shows. No shoots below the cuts = tip-grower, stay conservative. Then, with the wattle's branches off the second dome's shoulder, finish that side to match the rest: grab a handful, snip, green leaf below every cut."
+    category: prune
+  - months: [3]
+    task: "Shape reduction, pass 2 (20 min per dome): up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood. How hard to go was settled by the 20 Oct reshoot check."
     category: prune
   - months: [9]
-    task: Feed with native fertiliser (low phosphorus)
+    task: "Feed (2 min): Osmocote Native, standard dose, scattered under the dome at the dripline and watered in. Native fertiliser only, never the Richgro: the phosphorus burns it. Controlled-release, so going early costs nothing."
     category: feed
     completed: "2026-07"

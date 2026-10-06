@@ -1,6 +1,7 @@
 name: Bartlettina sordida
 type: shrub
 location: Backyard (around frangipani)
+zones: [2]
 health: "Thriving — big volume expansion through winter, flower buds coming through. Slumping under its own soft top-heavy growth (normal for bartlettina; the September cutback resets it). Holes in leaves noted 30 Jul — likely slugs/snails, baiting with Multiguard."
 healthStatus: healthy
 lastAssessed: "2026-07"
@@ -17,14 +18,11 @@ tasks:
     task: "Prune to shape and control size once the purple flower puffs are finished — it blooms late winter/spring, so cutting earlier costs you the show"
     category: prune
   - months: [9]
-    task: Feed with complete fertiliser
+    task: "Feed (2 min): Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feed AFTER the spring cutback, not before it, or you feed growth you are about to remove"
     category: feed
     completed: "2026-07"
-  - months: [12, 1, 2]
-    task: Water in dry periods — prefers consistent moisture
-    category: water
   - months: [6, 7]
-    task: Protect from heavy frost — mulch base or cover if needed
+    task: "Frost check (1 min): the trigger is a forecast under 2 degrees on the dashboard weather strip. That night, throw an old sheet over the top and pull it off in the morning. Blackened soft tips after a frost are cosmetic, cut them off in spring, not now"
     category: general
     completed: "2026-07"
 log:

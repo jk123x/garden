@@ -1,10 +1,14 @@
 name: Birds Nest Fern
 type: fern
 location: Front yard
+zones: [1]
 health: "Centre of rosette cleared and worst brown fronds removed April 2026. Good colour and size. Brown frond margins (wind/sun damage) still visible on some fronds. Possibly needs more shelter if browning continues."
 healthStatus: good
 lastAssessed: "2026-08"
 log:
+  - date: "2026-09-08"
+    entry: "Fed by Jay (spring feed, both rosettes). September feed row marked completed."
+    category: feed
   - date: "2026-09-05"
     entry: "Tidied up by Jay — old/damaged outer fronds removed. September prune done."
     category: prune
@@ -22,16 +26,17 @@ photos:
 notes: "Asplenium australasicum. Big outdoor specimen in the front yard. The close-up photo confirms brown frond edges — this is most likely wind damage or summer sun scorch. The centre of the rosette has accumulated dead frond bases and leaf litter that should be cleaned out to prevent rot. Remove the worst-damaged fronds at the base. If the browning keeps getting worse, the fern may need more afternoon shade — either from nearby plants or a temporary shade cloth over summer. Keep the soil consistently moist but not waterlogged."
 tasks:
   - months: [9, 12]
-    task: "Feed both rosettes: liquid fertiliser at HALF strength, watered onto the soil around the base — never into the rosette centre, the funnel holds liquid and rots. Dry soil? Water first, then feed"
+    task: "Feed both rosettes (5 min): any indoor-plant liquid feed at HALF the label dose (ferns burn on full strength), watered onto the soil around the base. No liquid feed in the house? A small pinch of Richgro All Purpose scattered at the dripline and watered in does the same job. Never pour anything into the rosette centre, the funnel holds liquid and rots. Dry soil? Water first, then feed"
     category: feed
+    completed: "2026-09"
   - months: [9]
-    task: Remove old/damaged outer fronds
+    task: "Frond tidy (10 min): cut fully brown or badly torn outer fronds off at the base with scissors, and scoop dead frond bases and leaf litter out of the rosette centre so it cannot rot. Leave green fronds with only brown edges, they still feed the plant"
     category: prune
     completed: "2026-09"
   - months: [4]
-    task: Mulch around base to retain moisture
+    task: "Mulch (5 min): top up around the base to about 5cm, keeping mulch out of the rosette centre and off the crown. Mulch in the funnel holds water against the growing point and rots it"
     category: mulch
     completed: "2026-04"
   - months: [12, 1, 2]
-    task: Keep moist — water if soil dries out
+    task: "Heat check (2 min): on any forecast 35+ day, water the root zone the evening before and drape shade cloth or an old sheet over it for the afternoon. Crisp brown frond margins after a hot day mean it needed this. Drip covers normal summer days"
     category: water

@@ -1,6 +1,7 @@
 name: Miscanthus
 type: grass
 location: Front yard
+zones: [1]
 health: "Reshooting confirmed Aug 2026 — a healthy tuft of fine new blades up through the sugarcane at the deck edge (early, but normal for a mild winter). Fed 30 Jul. Back to full height by January."
 healthStatus: good
 lastAssessed: "2026-08"
@@ -12,8 +13,12 @@ photos:
     caption: "April 2026, cut back"
 notes: "Big ornamental grass in the front yard next to the Westringia. Cut back early this year (April) rather than the usual July/August — still fine, it was already fully brown and dormant. Sugarcane mulch down at the base. Will be back to full height by January. Next year's cut-back can go back to late winter if preferred."
 tasks:
+  - months: [7, 8]
+    task: "Annual cutback (15 min, secateurs or scissors in handfuls): once the clump is fully brown, tie it into a bundle with string, then cut the lot to 10-15cm above ground. Do it before the end of August: cutting after the new green blades are up shears their tips."
+    category: prune
+    completed: "2026-04"
   - months: [9]
-    task: Feed with complete fertiliser as new growth appears
+    task: "Feed (2 min): Richgro All Purpose, normal dose, round the crown once new blades are showing. Feeding before it wakes just leaches."
     category: feed
     completed: "2026-07"
   - months: [9]

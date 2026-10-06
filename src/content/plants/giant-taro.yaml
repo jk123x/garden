@@ -2,6 +2,7 @@ name: Giant Taro
 type: perennial
 indoor: false
 location: Right (east) side, behind star jasmine fence
+zones: [4]
 health: "Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small."
 healthStatus: good
 lastAssessed: "2026-08"
@@ -14,25 +15,22 @@ photos:
 notes: "Alocasia, species TBC — most likely Alocasia 'Calidora' or Alocasia × portora (macrorrhizos × odora hybrid) given the combination of thick brown tree-like trunk with rounded matte leaves. Could also be Alocasia macrorrhizos. Confirm species by checking trunk texture (smooth-fibrous vs scarred-rough) and whether it ever flowers (odora flowers are strongly fragrant at night). Wear gloves and long sleeves when cutting — sap contains calcium oxalate crystals, severe skin/eye irritant. Multiple stems = original plant + established offsets. To keep permanently smaller, dig out side pups when cutting back. Watch for any regrowth from missed root pieces and cut at ground level early."
 tasks:
   - months: [4]
-    task: Cut back hard — keep one trunk at ~1m, remove others at ground, dig stumps
+    task: "Autumn cutback (30 min, gloves and long sleeves, the sap burns): keep one trunk at ~1m for the window view, cut every other stem at ground level and dig the stump so it can't pup. Bag the sap-wet offcuts."
     category: prune
     completed: "2026-04"
   - months: [9]
-    task: Feed with slow-release fertiliser as growth resumes
+    task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the base and watered in once a new leaf is unrolling. Feeding it while dormant just leaches away."
     category: feed
     completed: "2026-07"
   - months: [12, 1, 2]
-    task: Water deeply during heat — large leaves transpire heavily
+    task: "Heat-day deep water (5 min): on a 35°+ day, or when the big leaves are drooping by mid-morning, run the hose slowly on the root zone for a couple of minutes on top of the drip. Afternoon droop alone is normal, it recovers overnight."
     category: water
-  - months: [10, 11, 12, 1, 2]
-    task: Liquid feed monthly through main growing season
-    category: feed
   - months: [6, 7]
-    task: Mulch crown to protect from any frost
+    task: "Mulch the crown before frost (5 min): 5-8cm of sugarcane over the base and lower trunk, loose, not packed wet against the trunk. Frost-burnt leaves are cosmetic; a frozen crown isn't."
     category: mulch
     completed: "2026-05"
   - months: [3, 4, 5]
-    task: Remove yellowing/spent leaves at petiole base
+    task: "Cut spent leaves (2 min, gloves): any leaf more than half yellow comes off at the base of its stalk, flush with the trunk. Any arrowhead leaf in the mulch is a pup: cut it at ground level while small."
     category: prune
     completed: "2026-05"
 log:

@@ -1,13 +1,15 @@
 ---
 import Layout from '../layouts/layout.astro';
 import { getCollection } from 'astro:content';
-import { getCurrentMonth, getPlantsNeedingAttention, getTodayIso, formatShortDate, MONTH_NAMES, MONTH_NAMES_SHORT, CATEGORY_LABELS, CATEGORY_COLORS, SEASONAL_CONTEXT } from '../lib/utils';
+import { getPlantsNeedingAttention, MONTH_NAMES, CATEGORY_LABELS, CATEGORY_COLORS } from '../lib/utils';
+import {
+  todayFrom, placeTask, taskChip, deadlineKey, attentionChip, isWaiting,
+  type Placement, type Chip, type ChipTone,
+} from '../lib/schedule';
 
 const allPlants = await getCollection('plants');
-const currentMonth = getCurrentMonth();
-const nextMonth = currentMonth === 12 ? 1 : currentMonth + 1;
-
-const imageMap = new Map(allPlants.map(p => [p.id, p.data.image]));
+const today = todayFrom();
+const currentMonth = today.month;
 
 const outdoorPlants = allPlants.filter((p) => !p.data.indoor);
 const indoorPlants = allPlants.filter((p) => p.data.indoor);
@@ -15,18 +17,28 @@ const indoorPlants = allPlants.filter((p) => p.data.indoor);
 const DASHBOARD_HIDDEN_CATEGORIES = ['harvest'];
 const CATEGORY_ORDER = ['spray', 'prune', 'feed', 'plant', 'mulch', 'general', 'water'];
 
+// Chip colours by tone; the same map lives in the client script below.
+const CHIP_CLASS: Record<ChipTone, string> = {
+  urgent: 'bg-amber-50 text-amber-700',
+  late: 'bg-red-50 text-red-700',
+  muted: 'bg-stone-100 text-stone-500',
+};
+const CHIP_BASE = 'ml-1.5 align-middle text-[11px] font-semibold rounded px-1.5 py-0.5';
+const DOTS: Record<string, string> = { today: 'text-rose-500', week: 'text-amber-500', ongoing: 'text-olive' };
+
 type TaskRow = {
   plantId: string;
   plantName: string;
   months: number[];
   day?: number;
+  byDay?: number;
   task: string;
   category: string;
   completed?: string;
 };
 
 // Every non-harvest task, all twelve months — the client script places each
-// row (Do now / Waiting / Coming up / hidden) against the real current date,
+// row (Do now / Coming up / hidden) against the real current date,
 // so nothing goes stale between deploys.
 const taskRowsFor = (plants: typeof allPlants): TaskRow[] =>
   plants
@@ -37,30 +49,8 @@ const taskRowsFor = (plants: typeof allPlants): TaskRow[] =>
     )
     .sort((a, b) => CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category));
 
-const todayIso = getTodayIso();
-const todayDay = Number(todayIso.slice(8, 10));
-const yearTag = todayIso.slice(0, 4);
-
-type Placement = 'now' | 'wait' | 'coming' | 'pool';
-const placeRow = (row: TaskRow): Placement => {
-  if (row.completed && row.completed.startsWith(yearTag)) return 'pool';
-  if (row.months.includes(currentMonth)) {
-    return row.day && todayDay < row.day ? 'wait' : 'now';
-  }
-  if (row.months.includes(nextMonth)) return 'coming';
-  return 'pool';
-};
-
-// How many consecutive months a task's window runs past `fromMonth` —
-// 0 means it closes this month (most urgent).
-const windowInfo = (row: TaskRow, fromMonth: number) => {
-  let end = fromMonth, steps = 0;
-  while (steps < 11 && row.months.includes((end % 12) + 1)) { end = (end % 12) + 1; steps++; }
-  return { endMonth: end, steps };
-};
-
-const outdoorAttention = getPlantsNeedingAttention(outdoorPlants);
-const indoorAttention = getPlantsNeedingAttention(indoorPlants);
+const outdoorAttention = getPlantsNeedingAttention(outdoorPlants, today.iso);
+const indoorAttention = getPlantsNeedingAttention(indoorPlants, today.iso);
 
 const isAutumn = currentMonth >= 4 && currentMonth <= 5;
 
@@ -78,37 +68,18 @@ const groups: TaskGroup[] = [
   { indoor: false, rows: taskRowsFor(outdoorPlants), plantCount: outdoorPlants.length, attention: outdoorAttention, photosNeeded: outdoorPhotosNeeded },
   { indoor: true, rows: taskRowsFor(indoorPlants), plantCount: indoorPlants.length, attention: indoorAttention, photosNeeded: indoorPhotosNeeded },
 ];
+
+const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip.tone]}` : 'hidden');
 ---
 
 <Layout title="Garden Dashboard">
   {groups.map(({ indoor, rows, plantCount, attention, photosNeeded }) => {
-    // Real deadline rank: window-close month, then the byDay within it
-    const deadlineKey = (row: TaskRow) =>
-      windowInfo(row, currentMonth).steps * 31 + (row.byDay ?? 31);
-    const nowRows = rows
-      .filter((r) => placeRow(r) === 'now')
-      .sort((a, b) => deadlineKey(a) - deadlineKey(b));
-    const waitRows = rows.filter((r) => placeRow(r) === 'wait');
-    const comingRows = rows.filter((r) => placeRow(r) === 'coming');
-    const poolRows = rows.filter((r) => placeRow(r) === 'pool');
-
-    const taskChip = (row: TaskRow, placement: Placement): { text: string; cls: string } => {
-      if (placement === 'wait') return { text: `from ${row.day} ${MONTH_NAMES_SHORT[currentMonth - 1]}`, cls: 'bg-stone-100 text-stone-500' };
-      if (placement === 'coming') {
-        return { text: row.day ? `${row.day} ${MONTH_NAMES_SHORT[nextMonth - 1]}` : MONTH_NAMES_SHORT[nextMonth - 1], cls: 'bg-stone-100 text-stone-500' };
-      }
-      const { endMonth, steps } = windowInfo(row, currentMonth);
-      if (row.byDay) {
-        const label = `${row.byDay} ${MONTH_NAMES_SHORT[endMonth - 1]}`;
-        if (steps === 0 && todayDay > row.byDay) return { text: `was due ${label}`, cls: 'bg-red-50 text-red-700' };
-        return { text: `by ${label}`, cls: steps === 0 ? 'bg-amber-50 text-amber-700' : 'bg-stone-100 text-stone-500' };
-      }
-      if (steps === 0) return { text: `by end ${MONTH_NAMES_SHORT[currentMonth - 1]}`, cls: 'bg-amber-50 text-amber-700' };
-      return { text: `${MONTH_NAMES_SHORT[currentMonth - 1]}–${MONTH_NAMES_SHORT[endMonth - 1]}`, cls: 'bg-stone-100 text-stone-500' };
-    };
+    const placed = (p: Placement) => rows.filter((r) => placeTask(r, today) === p);
+    const nowRows = placed('now').sort((a, b) => deadlineKey(a, today) - deadlineKey(b, today));
+    const poolRows = rows.filter((r) => placeTask(r, today) !== 'now');
 
     const renderTaskRow = (row: TaskRow) => {
-      const placement = placeRow(row);
+      const chip = taskChip(row, placeTask(row, today), today);
       return (
       <li
         class="flex gap-3"
@@ -124,20 +95,49 @@ const groups: TaskGroup[] = [
           <span class:list={['ml-1.5 align-middle text-[11px] uppercase tracking-wide font-semibold rounded px-1.5 py-0.5', CATEGORY_COLORS[row.category]]}>
             {CATEGORY_LABELS[row.category]}
           </span>
-          <span
-            data-task-chip
-            class:list={['ml-1.5 align-middle text-[11px] font-semibold rounded px-1.5 py-0.5', taskChip(row, placement).cls]}
-          >{taskChip(row, placement).text}</span>
+          <span data-task-chip class={chipClass(chip)}>{chip.text}</span>
           <span class="text-ink-soft"> — {row.task}</span>
         </span>
       </li>
       );
     };
 
+    // Date-blocked items render hidden and the client script reveals each on its date.
+    const nowPool = indoor
+      ? [...attention.attention, ...attention.waiting]
+      : [...attention.attention, ...attention.waiting, ...indoorAttention.attention, ...indoorAttention.waiting];
+
+    const renderItem = (plant: (typeof allPlants)[number]) => {
+      const waiting = isWaiting(plant.data, today);
+      const chip = attentionChip(plant.data, today);
+      return (
+        <li
+          class="flex gap-3"
+          hidden={waiting}
+          data-attention-item
+          data-urgency={plant.data.urgency}
+          data-ready-from={plant.data.readyFrom}
+          data-due-by={plant.data.dueBy}
+        >
+          <span class:list={['shrink-0', DOTS[plant.data.urgency ?? 'ongoing'] ?? 'text-olive']}>·</span>
+          <span>
+            <a href={`/plants/${plant.id}`} class="text-terra hover:text-terra/80 font-medium transition-colors">{plant.data.name}</a>
+            {!indoor && plant.data.indoor && (
+              <span class="ml-1.5 align-middle text-[11px] uppercase tracking-wide font-semibold text-olive bg-olive/10 rounded px-1.5 py-0.5">indoor</span>
+            )}
+            <span data-chip class={chipClass(chip)}>{chip?.text}</span>
+            {plant.data.nextAction && <span> — {plant.data.nextAction}</span>}
+          </span>
+        </li>
+      );
+    };
+
+    const boxEmpty = attention.attention.length === 0 && nowRows.length === 0;
+
     return (
     <div data-indoor={String(indoor)} class="animate-in space-y-10" data-dash-group>
       <div>
-        <h1 class="text-6xl font-semibold text-ink tracking-tight">
+        <h1 class="text-6xl font-semibold text-ink tracking-tight" data-month-heading>
           {MONTH_NAMES[currentMonth - 1]}
         </h1>
         <p class="text-ink-soft mt-3 text-lg">
@@ -159,67 +159,18 @@ const groups: TaskGroup[] = [
         </section>
       )}
 
-      {(() => {
-        const nowPool = indoor ? attention.attention : [...attention.attention, ...indoorAttention.attention];
-        const waitPool = indoor ? attention.waiting : [...attention.waiting, ...indoorAttention.waiting];
-        const DOTS = { today: 'text-rose-500', week: 'text-amber-500', ongoing: 'text-olive' };
-        const chipFor = (plant, isWaiting) => {
-          const { readyFrom, dueBy } = plant.data;
-          if (isWaiting && readyFrom) return { text: `from ${formatShortDate(readyFrom)}`, cls: 'bg-stone-100 text-stone-500' };
-          if (dueBy && dueBy < todayIso) return { text: `was due ${formatShortDate(dueBy)}`, cls: 'bg-red-50 text-red-700' };
-          if (dueBy) return { text: `by ${formatShortDate(dueBy)}`, cls: 'bg-amber-50 text-amber-700' };
-          return null;
-        };
-        const renderItem = (plant, isWaiting) => {
-          const chip = chipFor(plant, isWaiting);
-          return (
-            <li
-              class="flex gap-3"
-              data-attention-item
-              data-urgency={plant.data.urgency}
-              data-ready-from={plant.data.readyFrom}
-              data-due-by={plant.data.dueBy}
-            >
-              <span class:list={['shrink-0', isWaiting ? 'text-stone-300' : (DOTS[plant.data.urgency ?? 'ongoing'] ?? 'text-olive')]} data-dot>·</span>
-              <span>
-                <a href={`/plants/${plant.id}`} class="text-terra hover:text-terra/80 font-medium transition-colors">{plant.data.name}</a>
-                {!indoor && plant.data.indoor && (
-                  <span class="ml-1.5 align-middle text-[11px] uppercase tracking-wide font-semibold text-olive bg-olive/10 rounded px-1.5 py-0.5">indoor</span>
-                )}
-                <span
-                  data-chip
-                  class:list={['ml-1.5 align-middle text-[11px] font-semibold rounded px-1.5 py-0.5', chip ? chip.cls : 'hidden']}
-                >{chip?.text}</span>
-                {plant.data.nextAction && <span> — {plant.data.nextAction}</span>}
-              </span>
-            </li>
-          );
-        };
-        const boxEmpty = nowPool.length === 0 && waitPool.length === 0 && nowRows.length === 0 && waitRows.length === 0;
-        return (
-          <section class:list={['bg-paper rounded-xl border border-rule-light border-l-4 border-l-olive p-5 space-y-4', boxEmpty && 'hidden']} data-todo-box>
-            <h2 class="font-display text-lg font-semibold text-ink">To do</h2>
-            <div data-now-section class:list={[nowPool.length === 0 && nowRows.length === 0 && 'hidden']}>
-              <p class="text-sm font-semibold text-ink mb-2">Do now</p>
-              <ul class="space-y-1.5 text-ink-soft text-sm" data-now-list>
-                {nowPool.map((plant) => renderItem(plant, false))}
-              </ul>
-              <ul class="space-y-2 mt-3" data-tasks-now-list>
-                {nowRows.map(renderTaskRow)}
-              </ul>
-            </div>
-            <div data-wait-section class:list={[waitPool.length === 0 && waitRows.length === 0 && 'hidden']}>
-              <p class="text-sm font-semibold text-ink-faint mb-2">Waiting <span class="font-normal">— nothing to do yet; each moves up to "Do now" on its date</span></p>
-              <ul class="space-y-1.5 text-ink-faint text-sm" data-wait-list>
-                {waitPool.map((plant) => renderItem(plant, true))}
-              </ul>
-              <ul class="space-y-2 mt-3" data-tasks-wait-list>
-                {waitRows.map(renderTaskRow)}
-              </ul>
-            </div>
-          </section>
-        );
-      })()}
+      <section class:list={['bg-paper rounded-xl border border-rule-light border-l-4 border-l-olive p-5 space-y-4', boxEmpty && 'hidden']} data-todo-box>
+        <h2 class="font-display text-lg font-semibold text-ink">To do</h2>
+        <div data-now-section class:list={[boxEmpty && 'hidden']}>
+          <p class="text-sm font-semibold text-ink mb-2">Do now</p>
+          <ul class="space-y-1.5 text-ink-soft text-sm" data-now-list>
+            {nowPool.map(renderItem)}
+          </ul>
+          <ul class="space-y-2 mt-3" data-tasks-now-list>
+            {nowRows.map(renderTaskRow)}
+          </ul>
+        </div>
+      </section>
 
       <div class:list={['bg-paper rounded-xl p-10 text-center border border-rule-light', (nowRows.length > 0 || attention.attention.length > 0) && 'hidden']} data-empty-state>
         <p class="text-ink-faint italic font-display text-lg">Nothing to do right now. Nice.</p>
@@ -296,17 +247,6 @@ const groups: TaskGroup[] = [
         </div>
       )}
 
-      <div class:list={[comingRows.length === 0 && 'hidden']} data-coming-section>
-        <h2 class="text-3xl font-semibold text-ink mb-4" data-coming-heading>
-          Coming up in {MONTH_NAMES[nextMonth - 1]}
-        </h2>
-        <div class="bg-paper/60 rounded-xl border border-rule-light p-5">
-          <ul class="space-y-2.5" data-coming-list>
-            {comingRows.map(renderTaskRow)}
-          </ul>
-        </div>
-      </div>
-
       <ul class="hidden" data-task-pool>
         {poolRows.map(renderTaskRow)}
       </ul>
@@ -317,22 +257,24 @@ const groups: TaskGroup[] = [
 
 <script>
   // Re-place everything against the real current date on every load — builds
-  // go stale between deploys. Tasks carry data-months (+ optional data-day):
-  // due this month = Do now; this month but before its day = Waiting with a
-  // date chip; next month = Coming up; everything else stays hidden.
-  const now = new Date();
-  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-  const curMonth = now.getMonth() + 1;
-  const curDay = now.getDate();
-  const nextMonthNum = curMonth === 12 ? 1 : curMonth + 1;
-  const yearTag = String(now.getFullYear());
-  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  const fmt = (iso: string) => {
-    const [, m, d] = iso.split('-').map(Number);
-    return `${d} ${MONTHS[m - 1]}`;
-  };
+  // go stale between deploys. The placement rules live in lib/schedule.ts and
+  // are shared with the build step above.
+  import {
+    MONTHS_LONG, todayFrom, placeTask, taskChip, deadlineKey, attentionChip, isWaiting,
+  } from '../lib/schedule';
+
+  const today = todayFrom();
   const CHIP_BASE = 'ml-1.5 align-middle text-[11px] font-semibold rounded px-1.5 py-0.5';
-  const DOTS: Record<string, string> = { today: 'text-rose-500', week: 'text-amber-500', ongoing: 'text-olive' };
+  const CHIP_CLASS: Record<string, string> = {
+    urgent: 'bg-amber-50 text-amber-700',
+    late: 'bg-red-50 text-red-700',
+    muted: 'bg-stone-100 text-stone-500',
+  };
+  const setChip = (el: HTMLElement | null, chip: { text: string; tone: string } | null) => {
+    if (!el) return;
+    el.className = chip ? `${CHIP_BASE} ${CHIP_CLASS[chip.tone]}` : 'hidden';
+    el.textContent = chip?.text ?? '';
+  };
 
   // Live Melbourne weather: last fortnight's rain + week ahead, with hints for
   // the weather-gated jobs (early irrigation-on, deep watering, frost).
@@ -373,111 +315,45 @@ const groups: TaskGroup[] = [
 
   document.querySelectorAll<HTMLElement>('[data-dash-group]').forEach((group) => {
     const nowList = group.querySelector<HTMLElement>('[data-now-list]');
-    const waitList = group.querySelector<HTMLElement>('[data-wait-list]');
     const tasksNowList = group.querySelector<HTMLElement>('[data-tasks-now-list]');
-    const tasksWaitList = group.querySelector<HTMLElement>('[data-tasks-wait-list]');
-    const comingList = group.querySelector<HTMLElement>('[data-coming-list]');
     const pool = group.querySelector<HTMLElement>('[data-task-pool]');
+    if (!nowList || !tasksNowList || !pool) return;
 
-    // Urgency/date-window plant items (unchanged behaviour)
-    if (nowList && waitList) {
-      group.querySelectorAll<HTMLElement>('[data-attention-item]').forEach((li) => {
-        const ready = li.dataset.readyFrom ?? '';
-        const due = li.dataset.dueBy ?? '';
-        const waiting = ready !== '' && ready > today;
+    const heading = group.querySelector('[data-month-heading]');
+    if (heading) heading.textContent = MONTHS_LONG[today.month - 1];
 
-        if (waiting && li.parentElement !== waitList) waitList.appendChild(li);
-        if (!waiting && li.parentElement !== nowList) nowList.appendChild(li);
+    group.querySelectorAll<HTMLElement>('[data-attention-item]').forEach((li) => {
+      const item = { readyFrom: li.dataset.readyFrom || undefined, dueBy: li.dataset.dueBy || undefined };
+      li.hidden = isWaiting(item, today);
+      setChip(li.querySelector<HTMLElement>('[data-chip]'), attentionChip(item, today));
+    });
 
-        const dot = li.querySelector<HTMLElement>('[data-dot]');
-        if (dot) dot.className = `shrink-0 ${waiting ? 'text-stone-300' : (DOTS[li.dataset.urgency ?? 'ongoing'] ?? 'text-olive')}`;
+    const taskOf = (li: HTMLElement) => ({
+      months: (li.dataset.months ?? '').split(',').map(Number),
+      day: Number(li.dataset.day ?? 0) || undefined,
+      byDay: Number(li.dataset.byDay ?? 0) || undefined,
+      completed: li.dataset.completed || undefined,
+    });
 
-        const chip = li.querySelector<HTMLElement>('[data-chip]');
-        if (chip) {
-          if (waiting) {
-            chip.className = `${CHIP_BASE} bg-stone-100 text-stone-500`;
-            chip.textContent = `from ${fmt(ready)}`;
-          } else if (due && due < today) {
-            chip.className = `${CHIP_BASE} bg-red-50 text-red-700`;
-            chip.textContent = `was due ${fmt(due)}`;
-          } else if (due) {
-            chip.className = `${CHIP_BASE} bg-amber-50 text-amber-700`;
-            chip.textContent = `by ${fmt(due)}`;
-          } else {
-            chip.className = 'hidden';
-            chip.textContent = '';
-          }
-        }
-      });
-    }
-
-    // Month-anchored task rows
-    if (tasksNowList && tasksWaitList && comingList && pool) {
-      group.querySelectorAll<HTMLElement>('[data-task-row]').forEach((li) => {
-        const months = (li.dataset.months ?? '').split(',').map(Number);
-        const day = Number(li.dataset.day ?? 0);
-        const completed = li.dataset.completed ?? '';
-        let dest = pool;
-        if (!(completed && completed.startsWith(yearTag))) {
-          if (months.includes(curMonth)) dest = day && curDay < day ? tasksWaitList : tasksNowList;
-          else if (months.includes(nextMonthNum)) dest = comingList;
-        }
-        if (li.parentElement !== dest) dest.appendChild(li);
-
-        const chip = li.querySelector<HTMLElement>('[data-task-chip]');
-        if (chip) {
-          const byDay = Number(li.dataset.byDay ?? 0);
-          chip.className = `${CHIP_BASE} bg-stone-100 text-stone-500`;
-          if (dest === tasksWaitList) {
-            chip.textContent = `from ${day} ${MONTHS[curMonth - 1]}`;
-          } else if (dest === comingList) {
-            chip.textContent = day ? `${day} ${MONTHS[nextMonthNum - 1]}` : MONTHS[nextMonthNum - 1];
-          } else {
-            let end = curMonth, s = 0;
-            while (s < 11 && months.includes((end % 12) + 1)) { end = (end % 12) + 1; s++; }
-            if (byDay) {
-              const label = `${byDay} ${MONTHS[end - 1]}`;
-              if (s === 0 && curDay > byDay) {
-                chip.className = `${CHIP_BASE} bg-red-50 text-red-700`;
-                chip.textContent = `was due ${label}`;
-              } else {
-                if (s === 0) chip.className = `${CHIP_BASE} bg-amber-50 text-amber-700`;
-                chip.textContent = `by ${label}`;
-              }
-            } else if (s === 0) {
-              chip.className = `${CHIP_BASE} bg-amber-50 text-amber-700`;
-              chip.textContent = `by end ${MONTHS[curMonth - 1]}`;
-            } else {
-              chip.textContent = `${MONTHS[curMonth - 1]}–${MONTHS[end - 1]}`;
-            }
-          }
-        }
-      });
-    }
+    group.querySelectorAll<HTMLElement>('[data-task-row]').forEach((li) => {
+      const task = taskOf(li);
+      const placement = placeTask(task, today);
+      const dest = placement === 'now' ? tasksNowList : pool;
+      if (li.parentElement !== dest) dest.appendChild(li);
+      if (placement === 'now') setChip(li.querySelector<HTMLElement>('[data-task-chip]'), taskChip(task, placement, today));
+    });
 
     // Most urgent first: real deadline (window close + byDay) soonest to the top
-    if (tasksNowList) {
-      const keyOf = (li: Element) => {
-        const el = li as HTMLElement;
-        const months = (el.dataset.months ?? '').split(',').map(Number);
-        let end = curMonth, s = 0;
-        while (s < 11 && months.includes((end % 12) + 1)) { end = (end % 12) + 1; s++; }
-        return s * 31 + (Number(el.dataset.byDay ?? 0) || 31);
-      };
-      [...tasksNowList.children].sort((a, b) => keyOf(a) - keyOf(b)).forEach((el) => tasksNowList.appendChild(el));
-    }
+    [...tasksNowList.children]
+      .sort((a, b) => deadlineKey(taskOf(a as HTMLElement), today) - deadlineKey(taskOf(b as HTMLElement), today))
+      .forEach((el) => tasksNowList.appendChild(el));
 
     // Section visibility + counts against real placement
-    const nowCount = (nowList?.children.length ?? 0) + (tasksNowList?.children.length ?? 0);
-    const waitCount = (waitList?.children.length ?? 0) + (tasksWaitList?.children.length ?? 0);
+    const nowCount = [...nowList.children].filter((el) => !(el as HTMLElement).hidden).length + tasksNowList.children.length;
     group.querySelector('[data-now-section]')?.classList.toggle('hidden', nowCount === 0);
-    group.querySelector('[data-wait-section]')?.classList.toggle('hidden', waitCount === 0);
-    group.querySelector('[data-todo-box]')?.classList.toggle('hidden', nowCount === 0 && waitCount === 0);
+    group.querySelector('[data-todo-box]')?.classList.toggle('hidden', nowCount === 0);
     group.querySelector('[data-empty-state]')?.classList.toggle('hidden', nowCount > 0);
-    group.querySelector('[data-coming-section]')?.classList.toggle('hidden', (comingList?.children.length ?? 0) === 0);
-    const heading = group.querySelector('[data-coming-heading]');
-    if (heading) heading.textContent = `Coming up in ${['January','February','March','April','May','June','July','August','September','October','November','December'][nextMonthNum - 1]}`;
     const headerCount = group.querySelector('[data-header-count]');
-    if (headerCount) headerCount.textContent = String(tasksNowList?.children.length ?? 0);
+    if (headerCount) headerCount.textContent = String(tasksNowList.children.length);
   });
 </script>

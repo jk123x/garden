@@ -1,14 +1,26 @@
-name: End-of-Winter Photo Audit
+name: Garden Photo Rounds
 type: groundcover
 location: Whole garden
 healthStatus: healthy
-lastAssessed: "2026-08"
-notes: "Tracking entry, not a plant. The winter 2026 works (feijoa renovation, paw haircut, olive prune, passionfruit reshape, feed blitz) reset half the garden — this photo set is the 'before' baseline. AUDIT CLOSED 7 Aug 2026: every ID settled, no open questions. The only follow-up is the spring comparison shoot (task below)."
+lastAssessed: "2026-09"
+notes: "Tracking entry, not a plant. REVIEW RULE (8 Sept 2026, after the westringia slipped through the Aug round): every photo in a round must produce either a dated job on the plant card or an explicit 'nothing needed, because...' in the log. A plant that has outgrown its spot, gone leggy or changed shape counts as a job, not a healthy note. The winter 2026 works (feijoa renovation, paw haircut, olive prune, passionfruit reshape, feed blitz) reset half the garden — this photo set is the 'before' baseline. AUDIT CLOSED 7 Aug 2026: every ID settled, no open questions. The only follow-up is the spring comparison shoot (task below)."
 tasks:
   - months: [11, 12]
-    task: Spring comparison shoot — re-shoot the winter-2026 baseline angles (all 51 on /photo-audit) and compare
+    task: "Spring photo round (20 min): walk every area with the phone and re-shoot the 51 winter-2026 baseline angles on /photo-audit, plus a close-up of anything that changed. Send the lot to Claude: it compares against the baseline, updates every plant's health, and writes the summer job list"
+    category: general
+  - months: [3]
+    task: "Autumn photo round (20 min): same walk, every area, wide shots + close-ups of anything struggling after summer. Send to Claude for the autumn job list and to see how the season went"
+    category: general
+  - months: [8]
+    task: "End-of-winter photo round (20 min): every area before the spring flush. This is the year's baseline set, so match the /photo-audit angles. Send to Claude for the spring job list"
     category: general
 log:
+  - date: "2026-09-08"
+    entry: "Miss found: the Aug round photographed the front westringia domes at double their April size and I logged 'nothing needed'. New review rule written into the notes: every photo yields a job or a stated reason for none. Same day: outdoor task-quality pass started, rewriting bare-label calendar rows into glance-ready how-tos."
+    category: general
+  - date: "2026-09-05"
+    entry: "Jay asked for photo-round prompts on a fixed rhythm: end of winter (Aug), late spring (Nov/Dec) and autumn (Mar). Card renamed to Garden Photo Rounds and the three rounds added as tasks so they surface on the dashboard at the right time."
+    category: general
   - date: "2026-08-07"
     entry: "AUDIT CLOSED. Final IDs settled in a live session with Jay: the front-gate 'other blue thing' = Cotyledon 'Silver Waves' (designer-confirmed, new 45th entry), all chalk sticks = Dwarf Blue (designer-confirmed), Blue Star Fern confirmed (research + Jay), IMG_2290 tub-side clumps = two lily turfs the shear missed (leave alone), IMG_2332/2333 feathery sprigs = trample debris from the work sessions, not a plant. /photo-audit page trimmed to a plain baseline gallery. No questions remain."
     category: general

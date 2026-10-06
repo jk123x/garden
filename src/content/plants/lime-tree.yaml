@@ -1,6 +1,7 @@
 name: Lime Tree
 type: fruit
 location: Backyard
+zones: [2]
 health: "Major renovation prune 22 July 2026: heavy gall wasp infestation discovered — the worst of the four citrus by far — and ~50-65% of canopy removed cutting out clear galls. This chronic gall load explains the years of poor cropping from a big tree. Post-prune photos: open structure, decent green foliage remaining, even flowering. Viable, but in recovery mode — expect a big soft regrowth flush from October (which is also prime gall wasp egg-laying target) and little to no fruit for 12-18 months. Leaf miner history on file; spring flush will need eco-oil."
 healthStatus: struggling
 lastAssessed: "2026-07"
@@ -12,6 +13,9 @@ photos:
   - src: /images/plants/IMG_2087.jpg
     caption: "After the gall renovation prune, Jul 2026"
 log:
+  - date: "2026-09-17"
+    entry: "Irrigation: the lime is on ZONE 2 (the lawn zone), not 4. Its shrubbler was buried; dug out and working 17 Sept, and Jay says it now gets the best coverage of the back citrus. Zone 2 runs 12 min, so the shrubbler gives ~5L a run: fine in spring, a hose job on hot days."
+    category: water
   - date: "2026-08-18"
     entry: "Bonus eco-oil spray alongside the orange's round 2. Harmless top-up, but it doesn't replace the October flush round — oil has no residual, and the leaf-miner/gall-wasp target is the new spring foliage, which doesn't exist yet. October spray stays on the books."
     category: spray
@@ -34,28 +38,29 @@ log:
     entry: "Light clearance prune (only where branches were in the way). Dense healthy dark green canopy in July photos."
     category: prune
 tasks:
+  - months: [11, 12, 1, 2, 3]
+    task: "Weekly hose (5 min): once a week Nov-Mar, plus any 35°+ day, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its zone 2 shrubbler gives ~5L a run and the zone can never run longer than 15 min for the lawn, so the hose is what carries this tree through summer."
+    category: water
   - months: [9]
-    task: Feed with citrus fertiliser
+    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose under the outer canopy edge, watered in. NOT before autumn 2027: the tree is recovering from the 2026 gall renovation and soft fed growth is gall wasp bait."
     category: feed
     completed: "2026-07"
-  - months: [12]
-    task: Feed again mid-summer
-    category: feed
   - months: [3]
-    task: Feed again in autumn
+    task: "Autumn feed (5 min), the first feed since the 2026 gall renovation: Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. If the tree is still pushing pale soft shoots, wait a month; feed hardened growth, not the flush."
     category: feed
+    completed: "2026-07"
   - months: [9]
-    task: Light prune to shape
+    task: "Light shape prune (10 min, secateurs): only crossing branches and anything dragging on the ground, cuts back to a fork. While recovering from the 2026 renovation, that is the ceiling: the tree needs every leaf it has."
     category: prune
     completed: "2026-07"
-  - months: [12, 1, 2]
-    task: Deep water weekly in hot weather
-    category: water
+  - months: [10]
+    task: "Eco-oil on the spring flush (10 min): spray the new soft leaves until dripping, both sides, on a cool evening under 25°. Leaf miner tunnels the flush and the winter oil has no residual, so this round is its own job. Never spray in heat or full sun: leaf burn."
+    category: spray
   - months: [1, 2, 3, 4, 5]
     task: Pick ripe limes
     category: harvest
     completed: "2026-04"
   - months: [6, 7]
-    task: Annual 10-minute gall snip — cut out any sausage-shaped stem swellings, bin them
+    task: "Annual gall snip (10 min, the one job that matters on this tree): run a hand along every young stem feeling for sausage-shaped swellings. Mid-stem between joints = gall, cut 5cm below it and bin it, never compost (the wasps emerge from it). Swelling at a branch fork = normal wood, leave it. Must be done before spring emergence."
     category: prune
     completed: "2026-07"
