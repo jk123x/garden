@@ -11,11 +11,8 @@ photos:
     caption: "Winter lawn at the flower-bed corner (6 Aug 2026)"
   - src: /images/plants/IMG_0978.jpg
     caption: "July 2026 assessment"
-notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Could benefit from aeration (October, while actively growing) and regular feeds. No reseeding — buffalo isn't sold as seed and fills bare patches itself via runners, so mowing + feeding is what drives recovery. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring. Second watch-list weed (flagged by the gardener): kikuyu — a bright-green runner grass that invades buffalo permanently and can't be selectively sprayed out. Distinguish from buffalo by narrow pointed folded leaves vs buffalo's broad round-tipped ones. Remove whole runners including rooted nodes the moment any appears."
+notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive, but the coverage is thin/patchy — you can see bare spots. Regular feeds drive it. No aerating: Jay did it ~April 2026 and dropped it for good (Oct 2026, too much effort for the return). No reseeding — buffalo isn't sold as seed and fills bare patches itself via runners, so mowing + feeding is what drives recovery. Clear the autumn leaf drop regularly so the grass gets light. Winter grass (Poa annua) is the main weed pressure May–August — pull by hand before it seeds, or it'll explode in spring. Second watch-list weed (flagged by the gardener): kikuyu — a bright-green runner grass that invades buffalo permanently and can't be selectively sprayed out. Distinguish from buffalo by narrow pointed folded leaves vs buffalo's broad round-tipped ones. Remove whole runners including rooted nodes the moment any appears."
 tasks:
-  - months: [10]
-    task: "Aerate (30 min): the day after rain or a good water, push a garden fork 10cm in every 10-15cm across the lawn and rock it back and forth to open the holes. Buffalo is growing hard now, so it heals into the holes fastest. Skip it if the ground is bone dry, the fork just bounces"
-    category: general
   - months: [9]
     task: "Feed (10 min): Sudden Impact for Lawns at the bag rate, spread evenly, then water in well the same day. Unwatered granules scorch the grass in patches"
     category: feed
@@ -44,6 +41,9 @@ tasks:
     category: general
     completed: "2026-07"
 log:
+  - date: "2026-10-16"
+    entry: "October aerate row deleted at Jay's request: done about six months ago, not worth the effort again. Mow + feed only from here."
+    category: general
   - date: "2026-10-07"
     entry: "Thatch check done, nothing to rake. Lawn not growing yet, so no mow; mow row now starts in November."
     category: general

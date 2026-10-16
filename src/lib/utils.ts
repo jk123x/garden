@@ -90,7 +90,7 @@ export const SEASONAL_CONTEXT: Record<number, { headline: string; description: s
   6: { headline: 'Early winter', description: 'Most plants resting. Minimal watering needed unless very dry. Good time for structural pruning and garden planning.' },
   7: { headline: 'Mid-winter', description: 'Coldest month. Plants dormant or slow-growing. Prune roses and deciduous fruit trees. Plan spring planting. Leave frost-sensitive plants alone.' },
   8: { headline: 'Late winter', description: 'Days lengthening. Watch for early spring growth. Feed citrus, prepare garden beds. Start seeds undercover for spring planting.' },
-  9: { headline: 'Early spring', description: 'Growth exploding. Feed everything, aerate lawns, plant new stock. Watch for pests waking up. Wattles and native shrubs flowering.' },
+  9: { headline: 'Early spring', description: 'Growth exploding. Feed everything, plant new stock. Watch for pests waking up. Wattles and native shrubs flowering.' },
   10: { headline: 'Mid-spring', description: 'Peak planting time. Warm-season crops go in. Jasmine and other climbers pushing new growth hard. Stay on top of weeding.' },
   11: { headline: 'Late spring', description: 'Getting warmer. Increase watering. Summer annuals and herbs go in now. Prune spring-flowering shrubs after they finish.' },
   12: { headline: 'Early summer', description: 'Heat arriving. Mulch everything, set up consistent watering. Harvest stone fruit and berries. Watch for sun scorch on young plants.' },
