@@ -12,6 +12,8 @@ const today = todayFrom();
 const currentMonth = today.month;
 
 const outdoorPlants = allPlants.filter((p) => !p.data.indoor);
+const irrigationState = allPlants.find((p) => p.id === 'irrigation')?.data.irrigation ?? { stage: 'off', schedule: '' };
+const irrigationLabel = irrigationState.stage === 'off' ? 'Irrigation off' : `Irrigation on · ${irrigationState.schedule}`;
 const indoorPlants = allPlants.filter((p) => p.data.indoor);
 
 const DASHBOARD_HIDDEN_CATEGORIES = ['harvest'];
@@ -150,9 +152,9 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
       </div>
 
       {!indoor && (
-        <section class="hidden bg-paper/60 rounded-xl border border-rule-light px-5 py-4 space-y-2" data-weather>
+        <section class="hidden bg-paper/60 rounded-xl border border-rule-light px-5 py-4 space-y-2" data-weather data-irrigation-stage={irrigationState.stage} data-irrigation-schedule={irrigationState.schedule}>
           <div class="flex items-baseline justify-between gap-4 flex-wrap">
-            <p class="text-sm text-ink-soft"><span class="font-semibold text-ink">Melbourne weather</span> · <span data-weather-past></span></p>
+            <p class="text-sm text-ink-soft"><span class="font-semibold text-ink">Melbourne weather</span> · <span data-weather-past></span> · <a href="/irrigation" class={irrigationState.stage === 'off' ? 'text-ink-faint' : 'text-olive font-semibold'}>{irrigationLabel}</a></p>
             <p class="text-[11px] text-ink-faint" data-weather-updated></p>
           </div>
           <div class="flex gap-2 flex-wrap text-[12px]" data-weather-days></div>
@@ -281,7 +283,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
   // the weather-gated jobs (early irrigation-on, deep watering, frost).
   const weatherBox = document.querySelector<HTMLElement>('[data-weather]');
   if (weatherBox) {
-    fetch('https://api.open-meteo.com/v1/forecast?latitude=-37.81&longitude=144.96&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&past_days=14&forecast_days=7&timezone=Australia%2FMelbourne')
+    fetch('https://api.open-meteo.com/v1/forecast?latitude=-37.81&longitude=144.96&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&past_days=14&forecast_days=10&timezone=Australia%2FMelbourne')
       .then((r) => r.json())
       .then((data) => {
         const { time, temperature_2m_max: mx, temperature_2m_min: mn, precipitation_sum: pr } = data.daily;
@@ -291,7 +293,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
         el('[data-weather-past]')!.textContent = `${Math.round(pastRain)}mm rain in the last fortnight`;
         el('[data-weather-updated]')!.textContent = 'live · open-meteo';
         const daysEl = el('[data-weather-days]')!;
-        for (let i = T; i < time.length; i++) {
+        for (let i = T; i < T + 7; i++) {
           const d = new Date(time[i] + 'T12:00:00');
           const label = i === T ? 'Today' : d.toLocaleDateString('en-AU', { weekday: 'short' });
           const chip = document.createElement('span');
@@ -300,14 +302,27 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
           chip.textContent = `${label} ${Math.round(mn[i])}–${Math.round(mx[i])}°${rain}`;
           daysEl.appendChild(chip);
         }
-        const weekRain = pr.slice(T).reduce((a: number, b: number) => a + (b || 0), 0);
-        const warmDays = mx.slice(T).filter((v: number) => v >= 24).length;
+        const week = { mx: mx.slice(T, T + 7), mn: mn.slice(T, T + 7), pr: pr.slice(T, T + 7) };
+        const sum = (a: number[]) => a.reduce((x, y) => x + (y || 0), 0);
+        const weekRain = sum(week.pr);
+        const tenDayRain = sum(pr.slice(T));
+        const warmDays = week.mx.filter((v: number) => v >= 24).length;
+        const hottest = Math.max(...week.mx);
+        const stage = weatherBox.dataset.irrigationStage || 'off';
+        const schedule = weatherBox.dataset.irrigationSchedule || '';
+        const on = stage !== 'off';
         const hint = el('[data-weather-hint]')!;
         const hints: string[] = [];
-        if (mn.slice(T).some((v: number) => v <= 2)) hints.push('Frost risk this week — leave frost-touched growth alone, it protects what\'s beneath.');
-        if (warmDays >= 3 && weekRain < 5) hints.push('Warm dry stretch ahead — deep-water weather. If irrigation isn\'t on yet, this is the "turn it on early" trigger.');
-        else if (mx.slice(T).some((v: number) => v >= 32)) hints.push('30°+ day coming — deep-water anything recently planted the evening before.');
-        if (weekRain >= 20) hints.push(`Proper rain coming (~${Math.round(weekRain)}mm) — skip any watering plans.`);
+        if (week.mn.some((v: number) => v <= 2)) hints.push('Frost risk this week — leave frost-touched growth alone, it protects what\'s beneath.');
+        if (warmDays >= 3 && weekRain < 5) {
+          if (!on) hints.push('Warm dry stretch ahead: turn the irrigation on early.');
+          else if (stage === 'spring' && hottest >= 30 && tenDayRain < 10) hints.push(`${Math.round(hottest)}° in a dry week: the summer step-up trigger. Controller to 3 days a week, run times unchanged.`);
+          else if (stage === 'spring' && hottest >= 30) hints.push(`${Math.round(hottest)}° day ahead but rain follows it: not the step-up trigger, stay on ${schedule}.`);
+          else hints.push(`Warm dry stretch, irrigation (${schedule}) covers it. Hose the backyard on the hot afternoons; lemon wilting = zone 1 to 20 min this week.`);
+        } else if (hottest >= 32) {
+          hints.push(on ? '32°+ day coming: hose-soak the new plantings and the giant taro the evening before. Zone runs stay as they are.' : '32°+ day coming: deep-water anything recently planted the evening before.');
+        }
+        if (weekRain >= 20) hints.push(on ? `Proper rain coming (~${Math.round(weekRain)}mm): once it has actually fallen, put a rain delay on the controller.` : `Proper rain coming (~${Math.round(weekRain)}mm): skip any watering plans.`);
         if (hints.length) { hint.textContent = hints.join(' '); hint.classList.remove('hidden'); }
         weatherBox.classList.remove('hidden');
       })

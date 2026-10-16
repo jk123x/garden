@@ -26,7 +26,7 @@ tasks:
 log:
   - date: "2026-10-16"
     entry: "Jay: on top of the weeds, all the flower beds look good. Late-spring round marked done for Oct-Nov. Standing 'whenever you're passing' job stays, as always."
-    category: weeding
+    category: general
   - date: "2026-09-08"
     entry: "Flower-bed flatweed pulled by Jay. Card stays in 'Whenever you're passing' permanently as a standing job (Jay's call: not to-do-list important, but always worth doing when the list is empty or dull). Seasonal rounds stay as dated tasks."
     category: general
