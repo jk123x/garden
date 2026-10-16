@@ -4,7 +4,7 @@ location: Backyard
 zones: [4]
 health: "Big winter prune done 31 July 2026 — ~33% off, lower limbs removed for a clean lifted trunk with the canopy carried high. Healthy silvery canopy on what remains. Expect a vigorous response in spring: watershoots along the trunk and around cuts — rub or snip them off while pencil-thin, monthly through the growing season."
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: "2026-10"
 notes: "Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden."
 image: /images/winter-2026/IMG_2299.jpg
 photos:
@@ -22,6 +22,8 @@ tasks:
   - months: [10, 11, 12, 1, 2, 3]
     task: "Watershoot patrol (5 min): rub off with a thumb, or snip flush, every soft upright shoot on the trunk or around the big 2026 cuts while it is still pencil-thin and green. Left a season they harden into a second canopy from the base. Monthly because they come in waves."
     category: prune
+    completed: "2026-10"
+    repeat: monthly
   - months: [9]
     task: "Late-winter feed (5 min): Richgro All Purpose, normal dose, scattered at the dripline (the canopy edge, not against the trunk) and watered in."
     category: feed
@@ -30,6 +32,9 @@ tasks:
     task: "Autumn feed (5 min): Richgro All Purpose, normal dose at the dripline, watered in. This is the feed that builds next spring's flower buds, so do it even though the tree looks like it needs nothing."
     category: feed
 log:
+  - date: "2026-10-09"
+    entry: "October watershoot patrol done: trunk and cut-site shoots rubbed/snipped off. Next wave due November."
+    category: prune
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2299/2300). The crown lift reads really well from the lawn — clean trunk, canopy held high, healthy silvery foliage, no stress from the ~33% cut. Nothing to do until spring watershoot patrol."
     category: general

@@ -4,7 +4,7 @@ location: Front yard
 zones: [1]
 health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (6 Aug) and 2 (21 Aug) done, ant-traffic check 8 Sept = no ants, cycle broken. A handful of lemons still ripening on the frame. In recovery from the heavy gall-prune: expect a big spring flush, which is prime gall wasp bait — keep feeds light."
 healthStatus: monitor
-lastAssessed: "2026-09"
+lastAssessed: "2026-10"
 image: /images/winter-2026/IMG_2320.jpg
 photos:
   - src: /images/winter-2026/IMG_2320.jpg
@@ -17,6 +17,9 @@ photos:
     caption: "April 2026 assessment"
 notes: "Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October."
 log:
+  - date: "2026-10-09"
+    entry: "October gall wasp check done alongside the backyard citrus: no galls found on the post-prune flush."
+    category: general
   - date: "2026-09-08"
     entry: "Ant-traffic check: Jay confirms no ants on the lemon. Scale cycle broken, no third oil round. Treatment program closed. Keep picking the last lemons as they ripen."
     category: spray
@@ -60,6 +63,6 @@ tasks:
     task: Pick ripe lemons
     category: harvest
   - months: [10]
-    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
-    category: spray
+    task: "Gall wasp check (5 min, no spraying): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+    category: prune
     completed: "2026-08"

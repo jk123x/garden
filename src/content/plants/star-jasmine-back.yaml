@@ -6,6 +6,9 @@ health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Th
 healthStatus: healthy
 lastAssessed: "2026-08"
 log:
+  - date: "2026-10-07"
+    entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
+    category: general
   - date: "2026-09-16"
     entry: "Jay: the jasmine is really starting to grow again after a run of 20°+ days. Spring flush is on, about a fortnight ahead of a typical year. The 1 Oct timing-critical session stays on its date, but the trigger is length not date: the week the longest new runners hit 30-60cm and still bend easily is the week to go, even if that lands late Sept."
     category: general
@@ -39,7 +42,7 @@ photos:
 notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
 tasks:
   - months: [1, 2]
-    task: "After-flowering prune (30 min, secateurs): once the last flowers drop, cut back anything reaching onto the gutter or roof and any runner crossing into the garden path. Take the long whippy tails back to the fence line. Pull dead brown leaves out of the interior by hand. Do not cut into the old wood on the fence face: that is the coverage."
+    task: "After-flowering prune (2-3 hours, secateurs): once the last flowers drop, cut back anything reaching onto the gutter or roof and any runner crossing into the garden path. Take the long whippy tails back to the fence line. Pull dead brown leaves out of the interior by hand. This is also the one time to thin the unruly sections to a skeleton: where the face is a tangle, keep one stem per grate and cut the surplus woody stems at the base, never shortened. Thin, never strip: a grate with nothing left on it is a hole for a year. The low gaps and the woody corner keep everything."
     category: prune
   - months: [9]
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
@@ -53,8 +56,9 @@ tasks:
     category: feed
   - months: [10]
     day: 1
-    task: "THE timing-critical session (15 min): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch tips near the lower-fence gaps and the woody corner stretch (IMG_2287) to force laterals there, tie what's already reaching. The top is won; the low gaps are the season goal. Cool spring? Wait until runners hit 30cm"
+    task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch tips near the lower-fence gaps and the woody corner stretch (IMG_2287) to force laterals there, tie what's already reaching. The top is won; the low gaps are the season goal. Cool spring? Wait until runners hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: general
   - months: [11, 12, 1]
-    task: "Cohort ties (10 min): lead the newest laterals into the remaining low gaps while supple"
+    task: "Cohort ties (1-2 hours): lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
+    repeat: monthly

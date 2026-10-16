@@ -2,19 +2,19 @@ name: Muehlenbeckia (West fence, new)
 type: climber
 location: West fence
 zones: [1]
-health: "Tiny but alive, 8 Sept 2026: a handful of thin strands with small leaves, one low clump at the base, a couple of strands tied along the bottom rail. Regrowing after the May dieback. Tip-pinched 8 Sept. No trimming needed; this plant needs every leaf it has. Coverage is 1-2 seasons away."
+health: "7 Oct 2026: strands tied along the lower grate, leafing up, still thin. Earlier: tiny but alive, 8 Sept 2026: a handful of thin strands with small leaves, one low clump at the base, a couple of strands tied along the bottom rail. Regrowing after the May dieback. Tip-pinched 8 Sept. No trimming needed; this plant needs every leaf it has. Coverage is 1-2 seasons away."
 healthStatus: monitor
-lastAssessed: "2026-09"
-urgency: later
-nextAction: "Once spring runners reach about a metre, pinch the tips to force low branching, and train stems sideways along the fence rather than letting them race upward. Glance at it after any big cold-night/warm-day swing — still shallow-rooted after the May dieback."
+lastAssessed: "2026-10"
 image: /images/plants/IMG_0957.jpg
 photos:
+  - src: /images/plants/IMG_3928.jpg
+    caption: "7 Oct 2026: strands tied along the lower grate toward the street gate, leafing up after the spring flush"
   - src: /images/plants/IMG_3497.jpg
     caption: "8 Sept 2026: still tiny, strands tied along the bottom rail, hose reel right beside it"
 notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place."
 tasks:
   - months: [12, 3]
-    task: "Tie check (5 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
+    task: "Tie check (20 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
   - months: [3, 9]
     task: "Season tidy (5 min): this plant is still tiny, so trim means tidy only. Snip anything dead (dry, snaps clean) and pinch the tip off any runner racing straight up so it branches low instead. No shearing until the fence is covered."
@@ -25,8 +25,10 @@ tasks:
     category: feed
     completed: "2026-07"
   - months: [10, 11, 12, 1, 2, 3]
-    task: "Coverage training (5 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage"
+    task: "Coverage training (30-60 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage"
     category: general
+    repeat: monthly
+    completed: "2026-10"
   - months: [12]
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; this vine is being pushed for coverage"
     category: feed
@@ -34,6 +36,9 @@ tasks:
     task: "Heat check (1 min): on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
 log:
+  - date: "2026-10-07"
+    entry: "October coverage training DONE (IMG_3928/3929): more strands tied sideways along the lower grate toward the gate, small leaves coming along every strand. Still thin, but every strand is on the fence and pointed the right way. Nothing needed, because the plant needs all its leaf right now and the November row picks it up again."
+    category: general
   - date: "2026-09-17"
     entry: "Jay tied a good number of garden ties along the fence to guide the stems into a coverage skeleton. Vine is cut back hard everywhere but well guided. Ties are temporary: the vine holds itself once laterals wrap the wire, so the Dec + Mar tie-check rows decide tie by tie when each comes off."
     category: general

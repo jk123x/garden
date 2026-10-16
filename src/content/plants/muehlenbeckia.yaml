@@ -2,11 +2,13 @@ name: Muehlenbeckia (South fence)
 type: climber
 location: South (street) fence
 zones: [1]
-health: "Top reduction done 8 Sept 2026 (scissors + secateurs), possibly including some thick feeder stems. Watch for strands wilting then browning over the next 2-3 weeks: that's a severed run, pull it once crispy and tie a live runner into the gap. Coverage still patchy on the lower half; thickening is the job, not reach."
+health: "7 Oct 2026: October shear done, more strands tied down low. Upper half dense, lower half still open net over grate. Earlier: top reduction done 8 Sept 2026 (scissors + secateurs), possibly including some thick feeder stems. Watch for strands wilting then browning over the next 2-3 weeks: that's a severed run, pull it once crispy and tie a live runner into the gap. Coverage still patchy on the lower half; thickening is the job, not reach."
 healthStatus: good
-lastAssessed: "2026-09"
+lastAssessed: "2026-10"
 image: /images/plants/IMG_0954.jpg
 photos:
+  - src: /images/plants/IMG_3925.jpg
+    caption: "After the October shear, 7 Oct 2026 — street face from the footpath. Cap flat on the rail, top half dense, grate still showing through the lower half"
   - src: /images/plants/IMG_3494.jpg
     caption: "After the trim, 8 Sept 2026 — street face. Cap reduced to a band on the rail, lower panel a loose net of strands"
   - src: /images/plants/IMG_3493.jpg
@@ -32,17 +34,19 @@ photos:
 notes: "Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill."
 tasks:
   - months: [12, 3]
-    task: "Tie check (5 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
+    task: "Tie check (30 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
   - months: [9]
     day: 28
     task: "Dieback check after the 8 Sept trim (2 min): any strand with wilted or browned leaves while its neighbours are flushing = a run severed by the trim. Pull it out once it's dry and crispy, then tie a live runner across the gap. Green everywhere = nothing to do"
     category: general
   - months: [10, 11, 12, 1, 2, 3]
-    task: "Monthly top shear (10 min): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip"
+    task: "Monthly top shear (about an hour): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip"
     category: prune
+    repeat: monthly
+    completed: "2026-10"
   - months: [3, 9]
-    task: "Season trim (20 min): cut the top cap back tight to the fence line on both faces, snip the street-side escapees flush with the wires, and cut out any strand that is dry and snaps clean (bendy = alive, leave it). Scissors for handfuls of green, secateurs for stiff dark stems. Rake the clippings off the succulents below."
+    task: "Season trim (2-3 hours): cut the top cap back tight to the fence line on both faces, snip the street-side escapees flush with the wires, and cut out any strand that is dry and snaps clean (bendy = alive, leave it). Scissors for handfuls of green, secateurs for stiff dark stems. Rake the clippings off the succulents below."
     category: prune
     completed: "2026-07"
   - months: [9]
@@ -53,6 +57,9 @@ tasks:
     task: "Growth-push top-up: second dose of Richgro — the July feed is spent by now; this fence is being pushed for full coverage"
     category: feed
 log:
+  - date: "2026-10-07"
+    entry: "October monthly shear DONE (IMG_3925/3926): Jay tied more strands down toward the bare lower grate first, then cut the top back a fair way. Photos: cap sheared flat along the rail, upper half dense and holding green, lower half still an open net of strands over visible grate. Nothing needed, because the lower fill is exactly what the tie-downs are for and the next shear is November's row. Corner by the gate post (IMG_3927) has runners led along the top rail toward the post with bare grate beyond it: that is the west fence's job to fill from its side."
+    category: prune
   - date: "2026-09-17"
     entry: "Jay tied a good number of garden ties along the fence to guide the stems into a coverage skeleton. Vine is cut back hard everywhere but well guided. Ties are temporary: the vine holds itself once laterals wrap the wire, so the Dec + Mar tie-check rows decide tie by tie when each comes off."
     category: general

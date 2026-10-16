@@ -8,13 +8,18 @@ lastAssessed: "2026-04"
 image: /images/plants/IMG_0927.jpg
 notes: "Chamaedorea elegans. Bright green, full — benefits from the bathroom humidity."
 log:
+  - date: "2026-10-16"
+    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    category: feed
   - date: "2026-08-18"
     entry: "One of the two parlor palms (Jay forgets which) showed small white fern-scale flecks and got an alcohol spray round 1 — the sprayed one will be identifiable by the flecks/treatment residue. Whichever palm it is: cloth-wipe rounds 2-3 at 7-10 day intervals alongside the library rabbit's foot. Check stems and frond undersides."
     category: spray
 tasks:
-  - months: [9, 10, 11, 12, 1, 2]
+  - completed: "2026-10"
+    months: [9, 10, 11, 12, 1, 2]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
+    repeat: monthly
   - months: [4, 5, 6, 7, 8]
     task: Reduce watering — check top 2cm before watering
     category: water

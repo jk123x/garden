@@ -28,6 +28,13 @@ describe('placeTask', () => {
     expect(placeTask({ months: [9], completed: '2026-07' }, sep5)).toBe('pool');
     expect(placeTask({ months: [9], completed: '2025-09' }, sep5)).toBe('now');
   });
+  it('hides a monthly-repeat task only for the month it was done', () => {
+    const oct7 = todayFrom(new Date(2026, 9, 7));
+    const nov1 = todayFrom(new Date(2026, 10, 1));
+    const shear = { months: [10, 11, 12, 1, 2, 3], completed: '2026-10', repeat: 'monthly' as const };
+    expect(placeTask(shear, oct7)).toBe('pool');
+    expect(placeTask(shear, nov1)).toBe('now');
+  });
   it('parks everything else in the pool', () => {
     expect(placeTask({ months: [3, 4] }, sep5)).toBe('pool');
   });

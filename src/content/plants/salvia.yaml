@@ -28,6 +28,7 @@ tasks:
   - months: [10, 11, 12, 1, 2, 3]
     task: "Deadhead (5 min): snip any spike that has gone brown and dry back to the leaf pair below it. Keeps the purple spikes coming through summer. While there, trim any stem sprawling across the stone path back to the bed edge."
     category: general
+    repeat: monthly
 log:
   - date: "2026-09-17"
     entry: "Irrigation: this area is on ZONE 2's drip line (shrubblers found buried and dug out 17 Sept) as well as zone 4."

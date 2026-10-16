@@ -4,7 +4,7 @@ location: Backyard
 zones: [2]
 health: "Green but thin and patchy in places, with some worn/brown patches on the west side. Winter grass purge fully done 21 July 2026, before seed set. Feed done (front-loaded July). No reseeding (Jay, Sept 2026 — buffalo fills patches via runners anyway); aerate in October when actively growing."
 healthStatus: monitor
-lastAssessed: "2026-09"
+lastAssessed: "2026-10"
 image: /images/plants/IMG_0978.jpg
 photos:
   - src: /images/winter-2026/IMG_2288.jpg
@@ -30,18 +30,23 @@ tasks:
   - months: [10]
     task: "Thatch check (10 sec): press a hand into the lawn. If there is more than a finger-width of spongy brown dead material under the green, rake it out hard with a metal rake. Buffalo rarely needs this, so if it feels firm, skip it"
     category: general
+    completed: "2026-10"
   - months: [3]
     byDay: 31
     task: "LAWN SPECIES VERDICT (decided Sept 2026): kids use the yard at 15-20°, not 35° — buffalo is greenest exactly when they're inside. If it wintered thin again despite this season's densify program, autumn is tall fescue conversion season: spray out buffalo, rake, seed (March-April window, ~a weekend + a month of keeping it damp). Fescue = green all year, clumping (can't run wild like the old kikuyu), reseedable patches; costs summer watering (drip handles it) + year-round mowing. Happy with the buffalo = delete this task"
     category: general
-  - months: [10, 11, 12, 1, 2, 3]
-    task: "Mow (20 min): only when it looks shaggy, buffalo mostly grows Nov-Mar so early spring may need nothing. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
+  - months: [11, 12, 1, 2, 3]
+    task: "Mow (20 min): only when it looks shaggy. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
     category: general
+    repeat: monthly
   - months: [5, 6, 7, 8]
     task: "Winter grass pull (10 min when passing): the tell is soft light-green tufts with fine white-green seed heads, paler than the buffalo. Pull whole tufts by hand, they come out easily. Do it before the seed heads open or it explodes in spring"
     category: general
     completed: "2026-07"
 log:
+  - date: "2026-10-07"
+    entry: "Thatch check done, nothing to rake. Lawn not growing yet, so no mow; mow row now starts in November."
+    category: general
   - date: "2026-09-05"
     entry: "Species rethink (Jay): switched from kikuyu years ago because it ran wild; buffalo grows slower but is now delivering 'lawn only in summer' — inverted for a family whose kids play outside at 15-20°, not 35°. Tall fescue flagged as the honest alternative: year-round green, clumping (no kikuyu-style invasion), seed-repairable, but needs summer irrigation + year-round mowing. Decision deferred to March 2027 (task added): give buffalo this season's densify program first, convert in the autumn seeding window if it still disappoints. Key context: the lawn was FLOODED last year by mis-coded irrigation — much of the current thinness is likely flood damage growing out, not species character, so this is buffalo's first fair season. Benchmark for March: well-kept buffalo = good Oct-May, dull-but-green winter (autumn feed + no scalping). If Jay wants grass that looks GOOD in July, that's fescue territory regardless."
     category: general

@@ -88,6 +88,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
         data-day={row.day}
         data-by-day={row.byDay}
         data-completed={row.completed}
+        data-repeat={row.repeat}
       >
         <span class="shrink-0 text-olive">·</span>
         <span class="text-sm">
@@ -333,6 +334,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
       day: Number(li.dataset.day ?? 0) || undefined,
       byDay: Number(li.dataset.byDay ?? 0) || undefined,
       completed: li.dataset.completed || undefined,
+      repeat: li.dataset.repeat === 'monthly' ? ('monthly' as const) : undefined,
     });
 
     group.querySelectorAll<HTMLElement>('[data-task-row]').forEach((li) => {

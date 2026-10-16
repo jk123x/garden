@@ -7,6 +7,9 @@ healthStatus: monitor
 lastAssessed: "2026-09"
 notes: "Chamaedorea cataractarum. Added to the catalogue Aug 2026 when Jay reported spider mites on it (raised by Jay — not a cataloguing reopen). Spider mites love exactly this plant in exactly these conditions: warm dry indoor air, winter heating season. Long-term prevention = humidity (pebble tray, occasional shower) and a glance at frond undersides for pale stippling whenever watering. Mite signs: fine speckled bronzing/silvering on fronds, webbing at frond tips and where leaflets meet the stem."
 log:
+  - date: "2026-10-16"
+    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    category: feed
   - date: "2026-09-11"
     entry: "Fourth and final mite blast done (Jay). Treatment program closed: blasts 21 + 29 Aug, 5 + 11 Sept. Now weekly underside glances only, covered by the library fleck-check item on the holly fern card. Fresh pale stippling or webbing = restart with eco-oil."
     category: spray
@@ -29,9 +32,11 @@ tasks:
   - months: [6, 7, 8]
     task: "Winter heating = mite season: glance at frond undersides for stippling when watering; boost humidity with a pebble tray"
     category: general
-  - months: [9, 10, 11, 12, 1, 2]
+  - completed: "2026-10"
+    months: [9, 10, 11, 12, 1, 2]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
+    repeat: monthly
   - months: [12, 1, 2]
     task: Keep soil consistently moist in summer
     category: water

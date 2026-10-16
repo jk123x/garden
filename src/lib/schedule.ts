@@ -39,16 +39,22 @@ export interface TaskLike {
   day?: number;
   byDay?: number;
   completed?: string;
+  repeat?: 'monthly';
 }
 
 export type Placement = 'now' | 'wait' | 'pool';
 
-export function isDoneThisYear(task: TaskLike, today: Today): boolean {
-  return !!task.completed && task.completed.startsWith(String(today.year));
+// A once-a-season job (completed "2026-09") stays hidden for the rest of that
+// year. A `repeat: monthly` job is only hidden for the month it was completed
+// in, so a monthly shear done 7 Oct comes back on 1 Nov.
+export function isDone(task: TaskLike, today: Today): boolean {
+  if (!task.completed) return false;
+  if (task.repeat === 'monthly') return task.completed === today.iso.slice(0, 7);
+  return task.completed.startsWith(String(today.year));
 }
 
 export function placeTask(task: TaskLike, today: Today): Placement {
-  if (isDoneThisYear(task, today)) return 'pool';
+  if (isDone(task, today)) return 'pool';
   if (task.months.includes(today.month)) {
     return task.day && today.day < task.day ? 'wait' : 'now';
   }

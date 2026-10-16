@@ -2,9 +2,9 @@ name: Star Jasmine (East fence)
 type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
 zones: [4]
-health: "Scratch test done and confirmed-dead growth cut out along the laundry side, 5 Aug 2026. Some MARGINAL stems deliberately left on the fence — wait-and-see through spring. The October flush is the verdict: anything that hasn't pushed new leaf by late October is dead and comes off then. Sparse but tidy going into spring. Ties removed run-wide (tie audit complete). Both new 150mm plants (planted 1 May past the giant taro stump, on drip since May) totally healthy — over-feed watch cleared 5 Aug with no leaf-edge browning."
+health: "7 Oct 2026: spring tie-in session done on the laundry side. The second-last plant toward the back garden is dead (May collapse casualty), cut to the stump, replacement due this month. Earlier: scratch test done and confirmed-dead growth cut out along the laundry side, 5 Aug 2026. Some MARGINAL stems deliberately left on the fence — wait-and-see through spring. The October flush is the verdict: anything that hasn't pushed new leaf by late October is dead and comes off then. Sparse but tidy going into spring. Ties removed run-wide (tie audit complete). Both new 150mm plants (planted 1 May past the giant taro stump, on drip since May) totally healthy — over-feed watch cleared 5 Aug with no leaf-edge browning."
 healthStatus: monitor
-lastAssessed: "2026-08"
+lastAssessed: "2026-10"
 image: /images/winter-2026/IMG_2312.jpg
 photos:
   - src: /images/winter-2026/IMG_2308.jpg
@@ -32,7 +32,7 @@ tasks:
     category: general
     completed: "2026-05"
   - months: [1, 2]
-    task: "After-flowering prune (15 min): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Every live runner on the fence stays."
+    task: "After-flowering prune (2-3 hours): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Then, on the COVERED laundry end only, the haircut: shear the face flat to 10cm off the fence, cut anything above the top wire back to just below it, and thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base. It re-clothes over summer and sets next year's buds on the new growth. Bare sections keep every live runner."
     category: prune
   - months: [9]
     task: "Feed (5 min): Richgro All Purpose, LIGHT dose spread wide around the two new plants and never against the stems (one over-feed scare already). Normal dose along the established part of the run. Water in."
@@ -46,14 +46,23 @@ tasks:
     category: feed
   - months: [10]
     day: 1
-    task: "THE timing-critical session (20 min): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on and runners supple — pinch the tips of the new plants' leaders and any leader you want to branch, then tie the soft new runners into the SPARSE laundry-side fence and the wires past the taro (loose figure-8s, led horizontally). This one session sets the whole season's direction. Cool spring / no runners yet? Wait until they hit 30cm and do it then"
+    task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on and runners supple — pinch the tips of the new plants' leaders and any leader you want to branch, then tie the soft new runners into the SPARSE laundry-side fence and the wires past the taro (loose figure-8s, led horizontally). This one session sets the whole season's direction. Cool spring / no runners yet? Wait until they hit 30cm and do it then"
     category: general
+    completed: "2026-10"
+  - months: [10]
+    task: "Replace the dead plant (1-2 hours + a Bunnings trip): buy one Trachelospermum jasminoides in a 200mm pot. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
+    category: plant
+  - months: [10]
+    task: "Thin the covered laundry end (2-3 hours, secateurs then scissors): on any wire carrying 3-4 shoots, keep the lowest one that is twined on and cut the rest off at the base where they leave the parent stem, never shortened. Only on covered fence: bare sections keep every runner. No shearing the face now: that comes off the old wood and takes the flowers with it, it is the Jan/Feb job. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
+    category: prune
   - months: [11, 12, 1]
-    task: "Cohort ties (10 min): tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence"
+    task: "Cohort ties (1-2 hours): tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
+    repeat: monthly
   - months: [10, 11]
     task: Verdict on the wait-and-see stems — any marginal stem from the May collapse that hasn't pushed new leaf by now is dead; cut it out. Two minutes with secateurs.
     category: prune
+    completed: "2026-10"
   - months: [11]
     task: "Mulch top-up along the run (Gardensure 50L bags from Bunnings, carried to the bed — standing rule, no bulk): get it down before summer heat. A hot-summer year makes this matter — mulch is the difference between the drip coping and not"
     category: mulch
@@ -61,6 +70,12 @@ tasks:
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
 log:
+  - date: "2026-10-07"
+    entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
+    category: general
+  - date: "2026-10-07"
+    entry: "Timing-critical session DONE on the laundry side: leaders pinched, supple runners tied into the gaps. Every dead stem from the May collapse ripped out along the run, so the wait-and-see verdict is closed. Same visit: the second-last plant heading toward the back garden is fully dead (never recovered from the May collapse), cut back to the stump. Replacement with a new star jasmine queued for this month; stump comes out first."
+    category: general
   - date: "2026-09-16"
     entry: "Jay: the jasmine is really starting to grow again after a run of 20°+ days. Spring flush is on, about a fortnight ahead of a typical year. The 1 Oct timing-critical session stays on its date, but the trigger is length not date: the week the longest new runners hit 30-60cm and still bend easily is the week to go, even if that lands late Sept."
     category: general

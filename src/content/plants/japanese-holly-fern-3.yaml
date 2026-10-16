@@ -13,9 +13,11 @@ tasks:
   - months: [8, 9]
     task: "Fern scale follow-up — wipe fronds with soapy water/alcohol every 7-10 days, inspect midribs for new white flecks. Still recurring after 3 rounds = bin the plant"
     category: spray
-  - months: [9, 10, 11, 12, 1, 2]
+  - completed: "2026-10"
+    months: [9, 10, 11, 12, 1, 2]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside. Only once the fleck checks have held clear"
     category: feed
+    repeat: monthly
   - months: [9]
     task: Remove old/tatty fronds
     category: prune
@@ -29,6 +31,9 @@ tasks:
     task: Check soil for fungus gnat larvae; yellow sticky trap if needed
     category: spray
 log:
+  - date: "2026-10-16"
+    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    category: feed
   - date: "2026-08-18"
     entry: "SPREAD CONFIRMED same day as round 3: small white flecks found on the library rabbit's foot fern + one of the parlor palms (both alcohol-sprayed on sight). Crawlers are circulating beyond the two holly ferns — the 29 Jul collection all-clear is dead. Retrospective: the library bird's nest fern that died and was binned 8 Aug lived in this same room; with scale now confirmed jumping plants here, both indoor bird's nest deaths look like probable scale casualties rather than 'the species can't cope indoors'. Collection-wide fleck check is now part of the weekly routine until everything holds clear."
     category: spray

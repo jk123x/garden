@@ -11,6 +11,7 @@ tasks:
   - months: [9, 3]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
     category: feed
+    repeat: monthly
   - months: [4]
     task: Stop watering until top 5cm of soil is fully dry; relocate to brightest available spot
     category: water
@@ -26,6 +27,7 @@ tasks:
   - months: [4, 5]
     task: Wipe leaves with damp cloth to remove dust
     category: general
+    repeat: monthly
   - months: [9]
     task: Remove any yellowing leaves at base
     category: prune

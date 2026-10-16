@@ -8,13 +8,18 @@ lastAssessed: "2026-04"
 image: /images/plants/IMG_0950.jpg
 notes: "Chamaedorea elegans. Stem has stretched dramatically toward the window, only a small tuft of fronds at the top. Already in the brightest spot available — room just doesn't have enough light for a palm. Stretched stem won't recover; the fix is either a grow light to stop further decline, or a hard prune in Sept to force fresh basal growth."
 log:
+  - date: "2026-10-16"
+    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    category: feed
   - date: "2026-08-18"
     entry: "One of the two parlor palms (Jay forgets which) showed small white fern-scale flecks and got an alcohol spray round 1 — the sprayed one will be identifiable by the flecks/treatment residue. Whichever palm it is: cloth-wipe rounds 2-3 at 7-10 day intervals alongside the library rabbit's foot. Check stems and frond undersides."
     category: spray
 tasks:
-  - months: [9, 10, 11, 12, 1, 2]
+  - completed: "2026-10"
+    months: [9, 10, 11, 12, 1, 2]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
+    repeat: monthly
   - months: [4]
     task: Add a small LED grow light on a timer (6-8hrs/day) to fix chronic light deficit
     category: general

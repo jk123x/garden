@@ -4,7 +4,7 @@ location: Backyard
 zones: [4]
 health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) done, ant check 8 Sept = no ants, cycle broken. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
 healthStatus: monitor
-lastAssessed: "2026-09"
+lastAssessed: "2026-10"
 notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
 image: /images/winter-2026/IMG_2303.jpg
 photos:
@@ -15,6 +15,9 @@ photos:
   - src: /images/plants/IMG_2086.jpg
     caption: "After the oil + feed session, 30 Jul 2026"
 log:
+  - date: "2026-10-09"
+    entry: "October gall wasp check done: no galls found. Nothing else to do on this tree until the Nov sunburn-paint check."
+    category: general
   - date: "2026-09-17"
     entry: "ID settled by Jay 17 Sept 2026: this card is the ORANGE (the other backyard citrus with the lime and grapefruit). Card renamed from 'Citrus Tree (Backyard)'. Stays on zone 4."
     category: general
@@ -67,5 +70,6 @@ tasks:
     task: Pick ripe fruit
     category: harvest
   - months: [10]
-    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
-    category: spray
+    task: "Gall wasp check (5 min, no spraying): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+    category: prune
+    completed: "2026-10"

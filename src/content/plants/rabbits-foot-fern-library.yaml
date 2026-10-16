@@ -8,6 +8,9 @@ lastAssessed: "2026-09"
 image: /images/plants/IMG_0948.jpg
 notes: "Davallia. Gorgeous feathery foliage, no brown tips. Fern scale history from Aug 2026 — check the rhizomes ('feet') as well as fronds when inspecting; scale hides on them."
 log:
+  - date: "2026-10-16"
+    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    category: feed
   - date: "2026-09-05"
     entry: "Fern scale round 3 (final) wipe done (Jay) — half-strength alcohol, fronds top and bottom plus the feet, with the flecked parlor palm in the same pass. Treatment program complete; weekly fleck glance from here (covered by the library-wide check on the holly fern card)."
     category: spray
@@ -18,9 +21,11 @@ log:
     entry: "Small amounts of white fern-scale flecks found (spread from the black-pot holly fern, same room) — alcohol spray round 1 done on sight. Rounds 2-3 as cloth wipes at 7-10 day intervals. This confirms crawlers are circulating beyond the two holly ferns: the 29 Jul all-clear on the rest of the collection is superseded, whole indoor collection gets a fleck check."
     category: spray
 tasks:
-  - months: [9, 10, 11, 12, 1, 2]
+  - completed: "2026-10"
+    months: [9, 10, 11, 12, 1, 2]
     task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
     category: feed
+    repeat: monthly
   - months: [4, 5, 6, 7, 8]
     task: Reduce watering — let dry out a bit more between drinks
     category: water

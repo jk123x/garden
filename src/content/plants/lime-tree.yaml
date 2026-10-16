@@ -4,7 +4,7 @@ location: Backyard
 zones: [2]
 health: "Major renovation prune 22 July 2026: heavy gall wasp infestation discovered — the worst of the four citrus by far — and ~50-65% of canopy removed cutting out clear galls. This chronic gall load explains the years of poor cropping from a big tree. Post-prune photos: open structure, decent green foliage remaining, even flowering. Viable, but in recovery mode — expect a big soft regrowth flush from October (which is also prime gall wasp egg-laying target) and little to no fruit for 12-18 months. Leaf miner history on file; spring flush will need eco-oil."
 healthStatus: struggling
-lastAssessed: "2026-07"
+lastAssessed: "2026-10"
 notes: "Growing next to sage plants near the back deck. LOW-PRIORITY TREE (Jay's call, July 2026): minimal-care regime after the gall renovation prune. Rules: no fertiliser until autumn 2027, no further pruning while it recovers, irrigation covers water. The one standing job is the annual winter gall snip (in tasks) — without it the gall load rebuilds and the tree goes back to producing nothing. Optional extras (whitewash, netting, leaf-miner oil) deliberately dropped. Leaf miner history: cosmetic, ignore. Gall ID rule: sausage swelling mid-stem between joints = gall; swelling at a branch fork = normal wood."
 image: /images/plants/IMG_2087.jpg
 photos:
@@ -13,6 +13,9 @@ photos:
   - src: /images/plants/IMG_2087.jpg
     caption: "After the gall renovation prune, Jul 2026"
 log:
+  - date: "2026-10-09"
+    entry: "Eco-oil sprayed on the spring flush (leaf miner / gall wasp round, the one that matters after the winter oil wore off). Gall check in the same session: nothing found. Minimal-care regime continues, no feed until autumn 2027."
+    category: spray
   - date: "2026-09-17"
     entry: "Irrigation: the lime is on ZONE 2 (the lawn zone), not 4. Its shrubbler was buried; dug out and working 17 Sept, and Jay says it now gets the best coverage of the back citrus. Zone 2 runs 12 min, so the shrubbler gives ~5L a run: fine in spring, a hose job on hot days."
     category: water
@@ -56,6 +59,7 @@ tasks:
   - months: [10]
     task: "Eco-oil on the spring flush (10 min): spray the new soft leaves until dripping, both sides, on a cool evening under 25°. Leaf miner tunnels the flush and the winter oil has no residual, so this round is its own job. Never spray in heat or full sun: leaf burn."
     category: spray
+    completed: "2026-10"
   - months: [1, 2, 3, 4, 5]
     task: Pick ripe limes
     category: harvest

@@ -3,15 +3,15 @@ import Layout from '../layouts/layout.astro';
 
 const zones = [
   { n: 1, name: 'Front yard', kind: 'Pop-up sprinklers', minutes: 15, cap: 'no hosing out the front, so summer coverage comes from 3 days a week, not longer runs; heatwave week with the lemon wilting = 20 min for that week, then back to 15', covers: 'Everything out the front: banksia, wattle, westringia, cushion bush, dianellas, gymea, chalk sticks, cotyledon, lemon, feijoa, miscanthus, front kangaroo paws, all three fence muehlenbeckias' },
-  { n: 2, name: 'Lawn', kind: 'Pop-up sprinklers plus a drip line', minutes: 12, cap: 'never more than 15, this is the zone that flooded', covers: 'The buffalo lawn, plus the frangipani, its lily turf and the bartlettina living off overspray. Also a drip line with shrubblers (found buried 17 Sept): the composted bed nearest the house (echinacea Sombrero, achillea), the lime, and the sage and strawberry area. A 12 min run is about 5L per shrubbler, so those get the hose on hot days' },
+  { n: 2, name: 'Lawn', kind: 'Pop-up sprinklers plus a drip line', minutes: 15, cap: 'bumped from 12 on 16 Oct 2026; 15 is the ceiling, this is the zone that flooded. Squelchy lawn the morning after = back to 12', covers: 'The buffalo lawn, plus the frangipani, its lily turf and the bartlettina living off overspray. Also a drip line with shrubblers (found buried 17 Sept): the composted bed nearest the house (echinacea Sombrero, achillea), the lime, and the sage and strawberry area. A 12 min run is about 5L per shrubbler, so those get the hose on hot days' },
   { n: 3, name: 'Flower beds', kind: 'Drip with bubblers', minutes: 30, cap: 'echinacea and the cutting bed rot if wetter', covers: 'The achillea\'s original bed, black eyed susan, Caradonna, the cutting bed' },
   { n: 4, name: 'Everything out the back', kind: 'Drip', minutes: 60, cap: '', covers: 'All three star jasmine runs (about 20 plants), grapefruit, orange, olive, passionfruit, giant taro, blue star fern, Mexican sage, lavender, dusty miller, rosemary, strawberry, back kangaroo paws' },
 ];
 
 const frequency = [
   { when: 'September', days: '1 day a week' },
-  { when: 'October', days: '2 days a week, three or four apart' },
-  { when: 'First 30° day in the forecast', days: '3 days a week' },
+  { when: 'October', days: '2 days a week, three or four apart (set to every 3 days from 17 Oct 2026)' },
+  { when: 'First 30° day in a dry week', days: '3 days a week (a one-off 30° day ahead of rain does not count)' },
   { when: 'April', days: 'back to 1 day a week' },
   { when: 'May', days: 'off at the tap and the controller' },
 ];

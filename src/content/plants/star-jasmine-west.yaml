@@ -18,7 +18,7 @@ photos:
 notes: "Trachelospermum jasminoides. Growing along the west/left side and onto overhead structure. Sparser than the back fence section but actively growing. Train stems where you want coverage — jasmine follows the structure you give it. Feed in spring to push new growth."
 tasks:
   - months: [1, 2]
-    task: "After-flowering prune (20 min, secateurs): once flowering finishes, cut back the runners that have gone over the top of the pergola and anything drooping off it into head height. Along the fence, leave every live runner: the bare trellis ends are the coverage target and pruning there costs a season."
+    task: "After-flowering prune (2-3 hours, secateurs): once flowering finishes, cut back the runners that have gone over the top of the pergola and anything drooping off it into head height. Along the fence, the bare ends keep every live runner: that is the coverage target and pruning there costs a season. Where the fence is already covered, thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base, never shortened."
     category: prune
   - months: [9]
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
@@ -32,12 +32,16 @@ tasks:
     category: feed
   - months: [10]
     day: 1
-    task: "THE timing-critical session (20 min): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty mesh is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm"
+    task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty fence is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: general
   - months: [11, 12, 1]
-    task: "Cohort ties (10 min): tie the newest runners into the remaining bare trellis while they're still supple"
+    task: "Cohort ties (1-2 hours): tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
+    repeat: monthly
 log:
+  - date: "2026-10-07"
+    entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
+    category: general
   - date: "2026-09-16"
     entry: "Jay: the jasmine is really starting to grow again after a run of 20°+ days. Spring flush is on, about a fortnight ahead of a typical year. The 1 Oct timing-critical session stays on its date, but the trigger is length not date: the week the longest new runners hit 30-60cm and still bend easily is the week to go, even if that lands late Sept."
     category: general

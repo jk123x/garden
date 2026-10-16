@@ -4,7 +4,7 @@ location: Backyard
 zones: [4]
 health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency."
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: "2026-10"
 image: /images/winter-2026/IMG_2291.jpg
 photos:
   - src: /images/winter-2026/IMG_2291.jpg
@@ -15,6 +15,12 @@ photos:
     caption: "April 2026 assessment"
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-10-09"
+    entry: "Sunshade clearance prune done: watershoots wrapping the retractable shade cut out. October gall check done, no galls found. Dec/Feb re-wrap checks stay on the card. No more cutting this year."
+    category: prune
+  - date: "2026-10-07"
+    entry: "Jay: the tree has grown really tall and is wrapping around the retractable sunshade (extended each morning, retracted each evening). Spring regrowth from the August hard prune, mostly vertical watershoots. Clearance prune row added for October plus Dec/Feb re-checks; clearance only, the no-more-renovation-cuts-this-year rule stands."
+    category: prune
   - date: "2026-09-05"
     entry: "Jay confirmed the backyard fruit trees were cut back hard recently (the heavy Aug prune session). September 'light prune to shape' marked done — no further pruning this year. Hard-prune caveats: light feeds only, Oct gall check matters more than usual."
     category: prune
@@ -55,5 +61,13 @@ tasks:
     task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
     category: general
   - months: [10]
-    task: "Gall wasp check: run hands along young stems feeling for sausage-shaped swellings — prune any out before month's end, ahead of spring emergence releasing the next generation into the garden"
-    category: spray
+    task: "Sunshade clearance prune (20 min, secateurs, loppers for anything thicker than a thumb): the tree is wrapping around the retractable sunshade. Take out every vertical watershoot that reaches the shade right back to where it leaves the limb, flush, no stub: those straight soft shoots are regrowth from the August hard prune and they come back if you only shorten them. Anything else touching the shade, cut 40cm below the line the shade sits on when extended, back to a bud or side branch, so a month of growth does not re-wrap it. Stop there. No cutting into the thick old wood and no more than that off the tree this year: it already lost half its canopy in August."
+    category: prune
+    completed: "2026-10"
+  - months: [12, 2]
+    task: "Sunshade clearance check (5 min): any shoot within 20cm of the extended sunshade, cut it 40cm below the shade line to a bud, watershoots out at the limb. Clear = done."
+    category: prune
+  - months: [10]
+    task: "Gall wasp check (5 min, no spraying): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+    category: prune
+    completed: "2026-10"

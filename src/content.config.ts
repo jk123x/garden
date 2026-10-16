@@ -34,6 +34,7 @@ const plants = defineCollection({
       task: z.string(),
       category: z.enum(['prune', 'feed', 'water', 'mulch', 'spray', 'plant', 'harvest', 'general']),
       completed: z.string().optional(),
+      repeat: z.enum(['monthly']).optional(),
     })).default([]),
     log: z.array(z.object({
       date: z.string(),
