@@ -1,35 +1,48 @@
 name: Kangaroo Paw
 type: perennial
 location: Front yard, backyard
-zones: [1, 2, 4]
-health: "Ink spot haircut DONE 2 Aug 2026 — front clumps cut to short stubble, infected foliage removed. Clean new fans expected with spring warmth; flowering resumes on the new growth. Watch that regrowth comes through clean — if fresh leaves blacken quickly, flag it."
+zones:
+  - 1
+  - 2
+  - 4
+health: "Flowering mid-October 2026: paws popping up around the place (Jay). Spring regrowth after the 2 Aug ink spot haircut came through and is flowering on the new fans. Ink spot check rows from November stand."
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: 2026-10
 image: /images/plants/IMG_1021.jpg
 photos:
   - src: /images/winter-2026/IMG_2279.jpg
-    caption: "Post-haircut stubble pushing through the fresh bark (6 Aug 2026)"
+    caption: Post-haircut stubble pushing through the fresh bark (6 Aug 2026)
   - src: /images/winter-2026/IMG_2272.jpg
-    caption: "Fans by the porch path (6 Aug 2026)"
+    caption: Fans by the porch path (6 Aug 2026)
   - src: /images/plants/IMG_1021.jpg
-    caption: "Before the ink spot haircut"
+    caption: Before the ink spot haircut
 notes: "Multiple clumps across front and back. The front clumps are the green strappy fans in the banksia/feijoa bed near the front fence — easily mistaken for dianellas out of flower (ID note: paw leaves are FLAT straps in an iris-like fan; dianella leaves are folded/keeled with a raised midrib). The famous flowers are seasonal stalks that rise out of these fans in late spring/summer — the fans ARE the plant. Ink spot history: April 2026 close-ups were clean, but a heavy outbreak developed over the wet winter (black blotching, permanent on affected leaves). Management regime from 2026: cut whole clumps to ~5cm annually after flowering (or late winter if blackened) — hard cutback is the ink spot treatment AND prevention; paws thrive on it and reflower on new growth. Foliage always to green bin, never compost."
 tasks:
-  - months: [3, 4]
+  - months:
+      - 3
+      - 4
     task: "Annual haircut after flowering (15 min, scissors): cut each whole clump to ~5cm stubble, spent flower stalks and all. This is the ink spot prevention, not a tidy: a partial trim leaves infected leaves behind. Foliage to the green bin, never compost."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Osmocote Native, standard dose, scattered round each clump and watered in. Native only: the phosphorus in regular fertiliser harms it."
     category: feed
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Divide check (10 sec): congested clump with a dead centre and fewer flower stems = divide."
     category: general
-    completed: "2026-09"
-  - months: [11, 12, 1]
+    completed: 2026-09
+  - months:
+      - 11
+      - 12
+      - 1
     task: "Ink spot check (30 sec per clump): black blotches or streaks on the new fans = cut those leaves off at the base and green-bin them. A few marks after a wet spell are normal. A clump more than half blackened gets the full 5cm haircut early."
     category: spray
 log:
+  - date: "2026-10-16"
+    entry: Flowering, lovely paws popping up around the place. Post-haircut regrowth clearly came through clean enough to flower. Nothing to do; enjoy them and run the Nov ink spot glance as scheduled.
+    category: general
   - date: "2026-09-17"
     entry: "Irrigation: the back clumps probably get some zone 2 drip (shrubblers found buried and dug out 17 Sept) on top of zone 4; front clumps unchanged on zone 1."
     category: water
@@ -37,11 +50,11 @@ log:
     entry: "End-of-winter baseline photos. Short green shoots pushing through the fresh bark in the feijoa bed (IMG_2279) — if that's the scalped clumps, regrowth is already moving and coming through clean. The full uncut fans by the front fence corner (IMG_2277) turned out to be DIANELLAS (Jay confirmed) — no missed paw clumps, haircut coverage complete. So the front bed holds both: scalped paws mid-bed, groomed dianellas at the fence corner."
     category: general
   - date: "2026-08-02"
-    entry: "Ink spot haircut done — front clumps cut to short stubble, foliage binned (photos IMG_2164-2167). Stubble height fine, no need to go lower; only stray uncut leaves at clump edges worth flushing off. Annual post-flowering cutback is now the standing prevention regime."
+    entry: Ink spot haircut done — front clumps cut to short stubble, foliage binned (photos IMG_2164-2167). Stubble height fine, no need to go lower; only stray uncut leaves at clump edges worth flushing off. Annual post-flowering cutback is now the standing prevention regime.
     category: prune
   - date: "2026-07-31"
     entry: "Ink spot present on the front clumps — extensive black marking on leaves (photos IMG_2108/2109; Jay initially read the clumps as dianellas, but they sit exactly where the paws live and the flat fanned leaves + black blotching fit kangaroo paw ink spot). April's all-clear superseded — the blackening developed over winter. Plan: full 5cm haircut now, bin the foliage, clean regrowth in spring."
     category: general
   - date: "2026-05-06"
-    entry: "Back clump now tidied (front was done in April). Spent stalks cut to base, dead leaves pulled from centres."
+    entry: Back clump now tidied (front was done in April). Spent stalks cut to base, dead leaves pulled from centres.
     category: prune

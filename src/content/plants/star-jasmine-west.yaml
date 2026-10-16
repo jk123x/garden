@@ -1,44 +1,58 @@
 name: Star Jasmine (West fence)
 type: climber
 location: Left (west) side fence and pergola
-zones: [4]
-health: "Pine bark mulch down April 2026 (debris cleared first). Moderate coverage growing along the west side fence and up into the pergola. Not as dense as the back fence but filling in. Stems healthy and climbing."
+zones:
+  - 4
+health: Pine bark mulch down April 2026 (debris cleared first). Moderate coverage growing along the west side fence and up into the pergola. Not as dense as the back fence but filling in. Stems healthy and climbing.
 healthStatus: good
-lastAssessed: "2026-04"
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2280.jpg
 photos:
   - src: /images/winter-2026/IMG_2280.jpg
-    caption: "The side path — dense mid-run, bare trellis near end (6 Aug 2026)"
+    caption: The side path — dense mid-run, bare trellis near end (6 Aug 2026)
   - src: /images/winter-2026/IMG_2281.jpg
-    caption: "Espaliered stems with tie-audit ties (6 Aug 2026)"
+    caption: Espaliered stems with tie-audit ties (6 Aug 2026)
   - src: /images/winter-2026/IMG_2282.jpg
-    caption: "Coverage building toward the backyard (6 Aug 2026)"
+    caption: Coverage building toward the backyard (6 Aug 2026)
   - src: /images/plants/sj-west-main.jpg
-    caption: "April 2026 assessment"
-notes: "Trachelospermum jasminoides. Growing along the west/left side and onto overhead structure. Sparser than the back fence section but actively growing. Train stems where you want coverage — jasmine follows the structure you give it. Feed in spring to push new growth."
+    caption: April 2026 assessment
+notes: "Trachelospermum jasminoides. Growing along the west/left side and onto overhead structure. Sparser than the back fence section but actively growing. Train stems where you want coverage — jasmine follows the structure you give it. Feed in spring to push new growth. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
-  - months: [1, 2]
+  - months:
+      - 1
+      - 2
     task: "After-flowering prune (2-3 hours, secateurs): once flowering finishes, cut back the runners that have gone over the top of the pergola and anything drooping off it into head height. Along the fence, the bare ends keep every live runner: that is the coverage target and pruning there costs a season. Where the fence is already covered, thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base, never shortened."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
     category: feed
-  - months: [10]
+  - months:
+      - 10
     day: 1
     task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty fence is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: general
-  - months: [11, 12, 1]
-    task: "Cohort ties (1-2 hours): tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    completed: 2026-10
+  - months:
+      - 11
+      - 12
+      - 1
+    task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
 log:
+  - date: "2026-10-16"
+    entry: "Big spring facelift in progress: ~3 hours a day for a week, 20 hours in, plenty left. Jay is thinning every wire to ONE leader per direction, removing the 2-3 competing green runners that were racing along the same wire. Confirmed as the right structure (a rope of runners shades itself and throws no laterals), with the refinement that losers get rerouted to bare wire or shortened to 2-3 leaves before anything is cut out at the base. Cost: some spring flower lost and coverage starts a few weeks behind, regrows fast in October. From here the monthly cohort-ties pass is a short untwine-and-tie, not another 20 hours."
+    category: prune
   - date: "2026-10-07"
     entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
     category: general
@@ -49,5 +63,5 @@ log:
     entry: "End-of-winter baseline photos CONFIRMED as this run: IMG_2280-2282 (the narrow path along the house). Coverage dense and healthy mid-run and tall above fence height; bare trellis at the near ends is the spring training target — tie new runners sideways into the empty mesh rather than letting everything go up. Fresh tie-audit ties visible on the espaliered stems. (Mapping note: 2308/2309 turned out to be the east run, not this one.)"
     category: general
   - date: "2026-07-29"
-    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed

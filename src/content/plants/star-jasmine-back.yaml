@@ -1,11 +1,15 @@
 name: Star Jasmine (Back fence)
 type: climber
 location: Back (north) fence
-zones: [4]
-health: "Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous."
+zones:
+  - 4
+health: Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous.
 healthStatus: healthy
-lastAssessed: "2026-08"
+lastAssessed: 2026-10
 log:
+  - date: "2026-10-16"
+    entry: "Big spring facelift in progress: ~3 hours a day for a week, 20 hours in, plenty left. Jay is thinning every wire to ONE leader per direction, removing the 2-3 competing green runners that were racing along the same wire. Confirmed as the right structure (a rope of runners shades itself and throws no laterals), with the refinement that losers get rerouted to bare wire or shortened to 2-3 leaves before anything is cut out at the base. Cost: some spring flower lost and coverage starts a few weeks behind, regrows fast in October. From here the monthly cohort-ties pass is a short untwine-and-tie, not another 20 hours."
+    category: prune
   - date: "2026-10-07"
     entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
     category: general
@@ -16,49 +20,59 @@ log:
     entry: "End-of-winter baseline photos (IMG_2283-2288 — the run along the studio, plus the dense corner by the raised beds). Espaliered laterals sitting neatly on the mesh with the fresh figure-8 ties from the tie audit visible throughout. Coverage: dense and mature at the corner end, mid-run filling, some lower-fence gaps that spring growth + sideways training will close. Looks well set up."
     category: general
   - date: "2026-08-05"
-    entry: "Tie audit COMPLETE across all three jasmine sections — every unnecessary tie removed, nothing left biting bark. Girdling risk for the spring thickening season cleared. Spring/summer training ties get the loose figure-8 treatment from here."
+    entry: Tie audit COMPLETE across all three jasmine sections — every unnecessary tie removed, nothing left biting bark. Girdling risk for the spring thickening season cleared. Spring/summer training ties get the loose figure-8 treatment from here.
     category: general
   - date: "2026-07-29"
-    entry: "Tie audit now ~50% done — steady progress in chunks since 21 July."
+    entry: Tie audit now ~50% done — steady progress in chunks since 21 July.
     category: general
   - date: "2026-07-29"
-    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed. East section near the giant taro not done yet (ran out of fertiliser)."
+    entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed. East section near the giant taro not done yet (ran out of fertiliser).
     category: feed
   - date: "2026-07-21"
-    entry: "Tie removal pass started — roughly 25% of unnecessary ties removed across the jasmine sections."
+    entry: Tie removal pass started — roughly 25% of unnecessary ties removed across the jasmine sections.
     category: general
 image: /images/winter-2026/IMG_2285.jpg
 photos:
   - src: /images/winter-2026/IMG_2283.jpg
-    caption: "The studio run — camellia over the top (6 Aug 2026)"
+    caption: The studio run — camellia over the top (6 Aug 2026)
   - src: /images/winter-2026/IMG_2285.jpg
-    caption: "Mid-run laterals on the mesh (6 Aug 2026)"
+    caption: Mid-run laterals on the mesh (6 Aug 2026)
   - src: /images/winter-2026/IMG_2287.jpg
-    caption: "The woody thin stretch by the corner — spring training target (6 Aug 2026)"
+    caption: The woody thin stretch by the corner — spring training target (6 Aug 2026)
   - src: /images/winter-2026/IMG_2288.jpg
-    caption: "The mature corner by the flower beds (6 Aug 2026)"
+    caption: The mature corner by the flower beds (6 Aug 2026)
   - src: /images/plants/IMG_0919.jpg
-    caption: "April 2026 assessment"
-notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping."
+    caption: April 2026 assessment
+notes: "Trachelospermum jasminoides. The back (north) fence is the most established section — proper wall-of-green coverage. The density is great but means the interior will accumulate dead leaves over time. After flowering in summer, prune to keep it off the gutters/roof and clear any dead material. Well-established jasmine like this is low-maintenance beyond seasonal shaping. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
-  - months: [1, 2]
+  - months:
+      - 1
+      - 2
     task: "After-flowering prune (2-3 hours, secateurs): once the last flowers drop, cut back anything reaching onto the gutter or roof and any runner crossing into the garden path. Take the long whippy tails back to the fence line. Pull dead brown leaves out of the interior by hand. This is also the one time to thin the unruly sections to a skeleton: where the face is a tangle, keep one stem per grate and cut the surplus woody stems at the base, never shortened. Thin, never strip: a grate with nothing left on it is a hole for a year. The low gaps and the woody corner keep everything."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
     category: feed
-  - months: [10]
+  - months:
+      - 10
     day: 1
     task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch tips near the lower-fence gaps and the woody corner stretch (IMG_2287) to force laterals there, tie what's already reaching. The top is won; the low gaps are the season goal. Cool spring? Wait until runners hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: general
-  - months: [11, 12, 1]
-    task: "Cohort ties (1-2 hours): lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    completed: 2026-10
+  - months:
+      - 11
+      - 12
+      - 1
+    task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly

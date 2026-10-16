@@ -1,75 +1,100 @@
 name: Star Jasmine (East fence)
 type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
-zones: [4]
+zones:
+  - 4
 health: "7 Oct 2026: spring tie-in session done on the laundry side. The second-last plant toward the back garden is dead (May collapse casualty), cut to the stump, replacement due this month. Earlier: scratch test done and confirmed-dead growth cut out along the laundry side, 5 Aug 2026. Some MARGINAL stems deliberately left on the fence — wait-and-see through spring. The October flush is the verdict: anything that hasn't pushed new leaf by late October is dead and comes off then. Sparse but tidy going into spring. Ties removed run-wide (tie audit complete). Both new 150mm plants (planted 1 May past the giant taro stump, on drip since May) totally healthy — over-feed watch cleared 5 Aug with no leaf-edge browning."
 healthStatus: monitor
-lastAssessed: "2026-10"
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2312.jpg
 photos:
   - src: /images/winter-2026/IMG_2308.jpg
-    caption: "The dense mature end outside the laundry (6 Aug 2026)"
+    caption: The dense mature end outside the laundry (6 Aug 2026)
   - src: /images/winter-2026/IMG_2309.jpg
-    caption: "Top-wire ties from the tie audit (6 Aug 2026)"
+    caption: Top-wire ties from the tie audit (6 Aug 2026)
   - src: /images/winter-2026/IMG_2312.jpg
-    caption: "The espalier above the troughs (6 Aug 2026)"
+    caption: The espalier above the troughs (6 Aug 2026)
   - src: /images/winter-2026/IMG_2314.jpg
-    caption: "New plants climbing from the trough bed — fully recovered (6 Aug 2026)"
+    caption: New plants climbing from the trough bed — fully recovered (6 Aug 2026)
   - src: /images/winter-2026/IMG_2315.jpg
-    caption: "Drip line at the base — kikuyu runners before the clear (6 Aug 2026)"
+    caption: Drip line at the base — kikuyu runners before the clear (6 Aug 2026)
   - src: /images/plants/IMG_2335.jpg
-    caption: "Kikuyu cleared to bare brick around the new plant, mulch ring rebuilt (7 Aug 2026)"
+    caption: Kikuyu cleared to bare brick around the new plant, mulch ring rebuilt (7 Aug 2026)
   - src: /images/plants/sj-east-side.jpg
-    caption: "April 2026 assessment"
-notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune."
+    caption: April 2026 assessment
+notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
-  - months: [5]
+  - months:
+      - 5
     task: New jasmines — 5L per plant daily for first week, then 5L every 2-3 days for weeks 2-4. Skip if proper rain.
     category: water
-    completed: "2026-05"
-  - months: [5, 6, 7, 8]
+    completed: 2026-05
+  - months:
+      - 5
+      - 6
+      - 7
+      - 8
     task: Install drip line extension to 2 new jasmines past taro stump. All parts purchased — just needs install before spring system turn-on.
     category: general
-    completed: "2026-05"
-  - months: [1, 2]
+    completed: 2026-05
+  - months:
+      - 1
+      - 2
     task: "After-flowering prune (2-3 hours): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Then, on the COVERED laundry end only, the haircut: shear the face flat to 10cm off the fence, cut anything above the top wire back to just below it, and thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base. It re-clothes over summer and sets next year's buds on the new growth. Bare sections keep every live runner."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (5 min): Richgro All Purpose, LIGHT dose spread wide around the two new plants and never against the stems (one over-feed scare already). Normal dose along the established part of the run. Water in."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now. LIGHT dose spread wide near the new plants, never against stems (they've had one over-feed scare already)"
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Richgro All Purpose, light dose wide around the new plants, normal dose along the rest, watered in. Carries the run through the last warm flush before winter."
     category: feed
-  - months: [10]
+  - months:
+      - 10
     day: 1
     task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on and runners supple — pinch the tips of the new plants' leaders and any leader you want to branch, then tie the soft new runners into the SPARSE laundry-side fence and the wires past the taro (loose figure-8s, led horizontally). This one session sets the whole season's direction. Cool spring / no runners yet? Wait until they hit 30cm and do it then"
     category: general
-    completed: "2026-10"
-  - months: [10]
+    completed: 2026-10
+  - months:
+      - 10
     task: "Replace the dead plant (1-2 hours + a Bunnings trip): buy one Trachelospermum jasminoides in a 200mm pot. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
     category: plant
-  - months: [10]
+  - months:
+      - 10
     task: "Thin the covered laundry end (2-3 hours, secateurs then scissors): on any wire carrying 3-4 shoots, keep the lowest one that is twined on and cut the rest off at the base where they leave the parent stem, never shortened. Only on covered fence: bare sections keep every runner. No shearing the face now: that comes off the old wood and takes the flowers with it, it is the Jan/Feb job. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: prune
-  - months: [11, 12, 1]
-    task: "Cohort ties (1-2 hours): tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+  - months:
+      - 11
+      - 12
+      - 1
+    task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
-  - months: [10, 11]
+  - months:
+      - 10
+      - 11
     task: Verdict on the wait-and-see stems — any marginal stem from the May collapse that hasn't pushed new leaf by now is dead; cut it out. Two minutes with secateurs.
     category: prune
-    completed: "2026-10"
-  - months: [11]
+    completed: 2026-10
+  - months:
+      - 11
     task: "Mulch top-up along the run (Gardensure 50L bags from Bunnings, carried to the bed — standing rule, no bulk): get it down before summer heat. A hot-summer year makes this matter — mulch is the difference between the drip coping and not"
     category: mulch
-  - months: [11, 12]
+  - months:
+      - 11
+      - 12
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
 log:
+  - date: "2026-10-16"
+    entry: "Big spring facelift in progress: ~3 hours a day for a week, 20 hours in, plenty left. Jay is thinning every wire to ONE leader per direction, removing the 2-3 competing green runners that were racing along the same wire. Confirmed as the right structure (a rope of runners shades itself and throws no laterals), with the refinement that losers get rerouted to bare wire or shortened to 2-3 leaves before anything is cut out at the base. Cost: some spring flower lost and coverage starts a few weeks behind, regrows fast in October. From here the monthly cohort-ties pass is a short untwine-and-tie, not another 20 hours."
+    category: prune
   - date: "2026-10-07"
     entry: "Pinch rule settled with Jay: runners into bare fence run unpinched (horizontal tie-in does the branching); pinch only over covered fence and above the top wire. Written into the cohort ties rows."
     category: general
@@ -86,7 +111,7 @@ log:
     entry: "End-of-winter baseline photos (IMG_2308/2309/2312-2315 — Jay confirmed 2308/2309 are this run, outside the laundry). The laundry end is the run's showpiece: dense mature coverage well above fence height, with the top-wire tie work from the audit visible (fresh figure-8s along the horizontals, ladder shot IMG_2309). New plants climbing from the trough bed look genuinely healthy — dark green, tied in, zero browning; the over-feed is fully behind them. Drip line in place at the base. Two follow-ups: the prune pile at the path's far end goes to the green bin, and runner grass (kikuyu/couch) is creeping into the bed edge along the fence base (IMG_2315) — pull the runners out whole, rooted nodes and all, before spring."
     category: general
   - date: "2026-08-05"
-    entry: "New plants looking totally healthy — no leaf-edge browning a week after the 29 Jul over-feed triage. Watch closed early; the same-day flush did its job."
+    entry: New plants looking totally healthy — no leaf-edge browning a week after the 29 Jul over-feed triage. Watch closed early; the same-day flush did its job.
     category: general
   - date: "2026-08-05"
     entry: "Scratch test done on the desiccated wall-top/laundry-side stems and the verdict acted on in the same pass — confirmed-dead growth cut back along the run (dead wood felt soggy: normal for 3-month-old dead wood after a wet winter, not a diagnostic red flag; base of plant firm-check queued as a passing glance). Marginal stems deliberately left to see how they fare — October flush decides, cull task added for Oct/Nov. Tie audit finished on this section too."
@@ -95,37 +120,37 @@ log:
     entry: "Hand-watering tasks for the new plants removed (Jay's call): rain forecast covers the next stretch, irrigation comes on mid-September, and both plants have been on the drip extension since May — the hand-watering schedule was legacy from before the drip install. Watering is now system-level like the rest of the garden."
     category: water
   - date: "2026-07-30"
-    entry: "Section near the giant taro fed — light dose of Richgro All Purpose, spread wide, not against stems (feed blitz round 2). Whole east run's September feed now replaced."
+    entry: Section near the giant taro fed — light dose of Richgro All Purpose, spread wide, not against stems (feed blitz round 2). Whole east run's September feed now replaced.
     category: feed
   - date: "2026-07-29"
     entry: "New plants fed with Richgro All Purpose — heavier than the intended half-handful light dose. Triaged same day: granules pulled away from stems, excess removed, each plant slow-flushed with a full watering can. Watch for leaf-edge browning over the next 2-3 weeks. Section near the giant taro not fed (ran out of fertiliser)."
     category: feed
   - date: "2026-07-22"
-    entry: "New jasmines watered (5L each) — up to date and looking good."
+    entry: New jasmines watered (5L each) — up to date and looking good.
     category: water
   - date: "2026-05-06"
-    entry: "Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on."
+    entry: Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on.
     category: general
   - date: "2026-05-01"
-    entry: "Planted 2 new star jasmines past the giant taro stump, 1m apart. Backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires."
+    entry: Planted 2 new star jasmines past the giant taro stump, 1m apart. Backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires.
     category: plant
   - date: "2026-05-07"
-    entry: "On top of hand-watering the 2 new plants while drip extension is being prepped."
+    entry: On top of hand-watering the 2 new plants while drip extension is being prepped.
     category: water
   - date: "2026-05-08"
-    entry: "Drip extension installed and working. First test, an adjustable shrubbler cap blew off under pressure — swapped both for Holman PC pressure-compensating shrubblers (24 L/hr). Both new plants now on drip."
+    entry: Drip extension installed and working. First test, an adjustable shrubbler cap blew off under pressure — swapped both for Holman PC pressure-compensating shrubblers (24 L/hr). Both new plants now on drip.
     category: general
   - date: "2026-05-13"
-    entry: "Wall-top section observed pale/yellow-green compared to other sections. Likely drying out + nutrient draw-down (thinner soil + more sun on wall top). Liquid feed + deep water to-do added. Reassess in 4 weeks."
+    entry: Wall-top section observed pale/yellow-green compared to other sections. Likely drying out + nutrient draw-down (thinner soil + more sun on wall top). Liquid feed + deep water to-do added. Reassess in 4 weeks.
     category: general
   - date: "2026-05-15"
     entry: "Wall-top run crisped from pale to brown/desiccated over ~2 days (photos). Desiccation collapse: cold-night / warm-sunny-day swing — chilled shallow roots couldn't resupply water fast enough on a run of 22°C blue-sky days, dark fence radiating extra heat onto the foliage. Lower foliage + new plants fine. Ruled out eco-seaweed (mild tonic, wrong damage pattern, section was already failing on the 13th)."
     category: general
   - date: "2026-05-15"
-    entry: "Friday night — deep soak ~50L+ over ~30 min along the whole laundry-side run (not just wall-top). Slow 30-min delivery soaked in well; cold-night downside minor given the volume."
+    entry: Friday night — deep soak ~50L+ over ~30 min along the whole laundry-side run (not just wall-top). Slow 30-min delivery soaked in well; cold-night downside minor given the volume.
     category: water
   - date: "2026-05-17"
-    entry: "~15mm slow soaking rain — excellent deep penetration across the whole run, no runoff. Effectively a second deep soak 2 days after the manual one."
+    entry: ~15mm slow soaking rain — excellent deep penetration across the whole run, no runoff. Effectively a second deep soak 2 days after the manual one.
     category: water
   - date: "2026-05-18"
     entry: "Root zone now well charged (Fri soak + Sun rain). No further watering — risk flipped to cold waterlogging. Recovery/monitor phase: scratch-test stems for survival verdict, hand-strip dead leaves + undo bundled ties anytime, cut only individually-confirmed-dead stems, structural cut-back waits for Jan/Feb. Hold nitrogen feed until spring."

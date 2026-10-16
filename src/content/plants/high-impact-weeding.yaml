@@ -2,21 +2,31 @@ name: High-Impact Weeding
 type: groundcover
 location: Front + visible beds
 healthStatus: good
-lastAssessed: "2026-09"
+lastAssessed: 2026-10
 urgency: later
 nextAction: "Standing job, any spare 10 minutes: walk the front bed, the path edges and the raised flower beds and pull whatever's showing. Feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL; soft pale tufty grass = poa, pull whole from moist soil. Hand-pull only, no digging, green-bin it. Never finished, always worth it."
 notes: "Tracking entry, not a plant. Covers the short list of weeding spots that matter most: beds around favourite plants and street-visible areas. Created July 2026 as part of the pre-baby punch list — the goal is 'finished-looking' in the places people (and Jay) actually see. Round 1 DONE 2 Aug 2026. Round 2 closed 7 Aug 2026 — Jay's best-effort pass before checking out for a few months (baby). Next round: late spring/early summer when the warm flush comes through — kikuyu ring defence at the east jasmines is queued on that plant's own tasks (Nov/Dec)."
 tasks:
-  - months: [10, 11]
+  - months:
+      - 10
+      - 11
     task: "Late-spring weeding round (45 min): the warm flush is when everything germinates, so this is the round that matters. Order: front bed and street-visible spots first, then the flower-bed flatweed through the sugarcane (feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL), then any taro seedlings, cut out young. Pull when the soil is moist, green-bin it. Kikuyu at the east jasmines is on that card."
     category: general
-  - months: [2, 3]
+    completed: 2026-10
+  - months:
+      - 2
+      - 3
     task: "Late-summer weeding round (30 min): pull anything carrying seed heads before they drop. One seeding weed pulled now is a hundred fewer next spring. Front bed and the nature strip edge first. Hand-pull only, no digging: the succulents' roots are shallow."
     category: general
-  - months: [6, 7]
+  - months:
+      - 6
+      - 7
     task: "Winter grass pass (20 min): poa annua is the soft pale-green tufty grass that pulls out whole by hand from moist soil. Get it before the fluffy whitish seed heads form in late winter. Front bed, path edges, the raised beds."
     category: general
 log:
+  - date: "2026-10-16"
+    entry: "Jay: on top of the weeds, all the flower beds look good. Late-spring round marked done for Oct-Nov. Standing 'whenever you're passing' job stays, as always."
+    category: weeding
   - date: "2026-09-08"
     entry: "Flower-bed flatweed pulled by Jay. Card stays in 'Whenever you're passing' permanently as a standing job (Jay's call: not to-do-list important, but always worth doing when the list is empty or dull). Seasonal rounds stay as dated tasks."
     category: general
@@ -27,5 +37,5 @@ log:
     entry: "Round 2 queued off the end-of-winter photo audit (Jay's call): kikuyu runners invading the east jasmine bed edge (IMG_2315), weed rosettes through the sugarcane in the raised beds (IMG_2289/2293), arrowhead seedlings around the taro (IMG_2310). All pre-spring jobs — the kikuyu is the one that gets expensive if it waits."
     category: general
   - date: "2026-08-02"
-    entry: "High-impact weeding round done — priority beds and street-visible spots cleared. Pre-baby punch list item closed."
+    entry: High-impact weeding round done — priority beds and street-visible spots cleared. Pre-baby punch list item closed.
     category: general
