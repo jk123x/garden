@@ -25,19 +25,6 @@ photos:
 notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
   - months:
-      - 5
-    task: New jasmines — 5L per plant daily for first week, then 5L every 2-3 days for weeks 2-4. Skip if proper rain.
-    category: water
-    completed: 2026-05
-  - months:
-      - 5
-      - 6
-      - 7
-      - 8
-    task: Install drip line extension to 2 new jasmines past taro stump. All parts purchased — just needs install before spring system turn-on.
-    category: general
-    completed: 2026-05
-  - months:
       - 1
       - 2
     task: "After-flowering prune (2-3 hours): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Then, on the COVERED laundry end only, the haircut: shear the face flat to 10cm off the fence, cut anything above the top wire back to just below it, and thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base. It re-clothes over summer and sets next year's buds on the new growth. Bare sections keep every live runner."
@@ -73,6 +60,8 @@ tasks:
       - 11
       - 12
       - 1
+      - 2
+      - 3
     task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
@@ -92,6 +81,9 @@ tasks:
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: cohort ties extended to March."
+    category: general
   - date: "2026-10-16"
     entry: "Big spring facelift in progress: ~3 hours a day for a week, 20 hours in, plenty left. Jay is thinning every wire to ONE leader per direction, removing the 2-3 competing green runners that were racing along the same wire. Confirmed as the right structure (a rope of runners shades itself and throws no laterals), with the refinement that losers get rerouted to bare wire or shortened to 2-3 leaves before anything is cut out at the base. Cost: some spring flower lost and coverage starts a few weeks behind, regrows fast in October. From here the monthly cohort-ties pass is a short untwine-and-tie, not another 20 hours."
     category: prune

@@ -1,26 +1,38 @@
 name: Native Daisies (unidentified)
 type: perennial
 location: Backyard (garden bed near path)
-zones: [4]
+zones:
+  - 4
 health: "July 2026 photos: spreading vigorously — fine feathery mats now covering a good stretch of the bed near the path and birdbath, still flowering purple through midwinter. Thriving."
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: 2026-07
 image: /images/plants/IMG_0985.jpg
 photos:
   - src: /images/winter-2026/IMG_2301.jpg
-    caption: "Flowering through midwinter along the path (6 Aug 2026)"
+    caption: Flowering through midwinter along the path (6 Aug 2026)
   - src: /images/plants/IMG_0985.jpg
-    caption: "July 2026, spreading well"
-notes: "Unidentified native flowering plants near the stone path. Purple daisy-like flowers — possibly Brachyscome multifida (Cut-leaf Daisy) or similar native daisy. White flowers also present nearby. Jay can't remember the name. A closer look at the leaf shape would help narrow the ID. Flowering well in April which is a good sign."
+    caption: July 2026, spreading well
+notes: Unidentified native flowering plants near the stone path. Purple daisy-like flowers — possibly Brachyscome multifida (Cut-leaf Daisy) or similar native daisy. White flowers also present nearby. Jay can't remember the name. A closer look at the leaf shape would help narrow the ID. Flowering well in April which is a good sign.
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: spring shear added."
+    category: general
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2301/2304). Silver mats still flowering through winter, spreading happily along the path edge. Nothing needed."
+    entry: End-of-winter baseline photos (IMG_2301/2304). Silver mats still flowering through winter, spreading happily along the path edge. Nothing needed.
     category: general
 tasks:
-  - months: [3, 4]
+  - months:
+      - 3
+      - 4
     task: "Shear the mats (10 min, scissors): a third off all over, spent flowers and leggy stems together, so the mat stays tight. Cut only where there is green below the cut; it doesn't reshoot from bare woody stems. Still in full flower = wait for the lull."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Osmocote Native, standard dose, scattered over the mats. Native only."
     category: feed
-    completed: "2026-07"
+    completed: 2026-07
+  - months:
+      - 11
+      - 12
+    task: "Shear after the spring flush (5 min, scissors): once most flowers have browned, take a third off all over. Brachyscome flowers again in a few weeks if sheared, and sprawls bare if not"
+    category: prune

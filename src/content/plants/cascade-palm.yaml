@@ -2,13 +2,16 @@ name: Cascade Palm
 type: palm
 indoor: true
 location: Library
-health: "Mite program CLOSED 11 Sept 2026 after four water blasts (21 + 29 Aug, 5 + 11 Sept). No visible stippling or webbing at the last rounds. Weekly underside glance continues with the library fleck check; recurrence = eco-oil, which is fine on palms."
+health: Mite program CLOSED 11 Sept 2026 after four water blasts (21 + 29 Aug, 5 + 11 Sept). No visible stippling or webbing at the last rounds. Weekly underside glance continues with the library fleck check; recurrence = eco-oil, which is fine on palms.
 healthStatus: monitor
-lastAssessed: "2026-09"
-notes: "Chamaedorea cataractarum. Added to the catalogue Aug 2026 when Jay reported spider mites on it (raised by Jay — not a cataloguing reopen). Spider mites love exactly this plant in exactly these conditions: warm dry indoor air, winter heating season. Long-term prevention = humidity (pebble tray, occasional shower) and a glance at frond undersides for pale stippling whenever watering. Mite signs: fine speckled bronzing/silvering on fronds, webbing at frond tips and where leaflets meet the stem."
+lastAssessed: 2026-09
+notes: "Chamaedorea cataractarum. Added to the catalogue Aug 2026 when Jay reported spider mites on it (raised by Jay — not a cataloguing reopen). Spider mites love exactly this plant in exactly these conditions: warm dry indoor air, winter heating season. Long-term prevention = humidity (pebble tray, occasional shower) and a glance at frond undersides for pale stippling whenever watering. Mite signs: fine speckled bronzing/silvering on fronds, webbing at frond tips and where leaflets meet the stem. Watering: evenly moist Oct-Mar (weekly-ish), top 3cm dry between drinks Apr-Sept."
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 4 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed
   - date: "2026-09-11"
     entry: "Fourth and final mite blast done (Jay). Treatment program closed: blasts 21 + 29 Aug, 5 + 11 Sept. Now weekly underside glances only, covered by the library fleck-check item on the holly fern card. Fresh pale stippling or webbing = restart with eco-oil."
@@ -29,17 +32,11 @@ log:
     entry: "Spider mites found — pale stippling/webbing territory. First water blast done on discovery. Plan: repeat blasts every 3-4 days for 2 weeks, isolate from other plants, humidity up; escalate to eco-oil wipe only if they persist (safe on palms, never on ferns). Note: third indoor pest event of the winter (fern scale on the holly ferns + rabbit's foot/parlor palm, now mites) — dry heated air is driving all of it; the weekly scale fleck-check now doubles as a mite stipple-check across the collection. Lives in the LIBRARY — the same room as the scale epicentre (black-pot holly fern, rabbit's foot fern, the dead bird's nest). That room is now the confirmed pest hotspot: driest air or densest plant grouping, or both. Keep the library plants spaced apart, humidity up room-wide, and check every library plant on the weekly pass."
     category: spray
 tasks:
-  - months: [6, 7, 8]
-    task: "Winter heating = mite season: glance at frond undersides for stippling when watering; boost humidity with a pebble tray"
-    category: general
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
+  - months:
+      - 11
+      - 12
+      - 1
+      - 2
     repeat: monthly
-  - months: [12, 1, 2]
-    task: Keep soil consistently moist in summer
-    category: water
-  - months: [4, 5]
-    task: Reduce watering — check soil 2cm down before watering
-    category: water
+    task: "Mite glance (30 sec) on a watering day: turn a few fronds over and look for pale speckling or fine webbing where leaflets meet the stem. Found = shower blast top and underside, repeat weekly four times. Warm dry summer rooms are mite season"
+    category: spray

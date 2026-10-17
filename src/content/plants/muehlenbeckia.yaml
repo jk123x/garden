@@ -1,62 +1,74 @@
 name: Muehlenbeckia (South fence)
 type: climber
 location: South (street) fence
-zones: [1]
+zones:
+  - 1
 health: "7 Oct 2026: October shear done, more strands tied down low. Upper half dense, lower half still open net over grate. Earlier: top reduction done 8 Sept 2026 (scissors + secateurs), possibly including some thick feeder stems. Watch for strands wilting then browning over the next 2-3 weeks: that's a severed run, pull it once crispy and tie a live runner into the gap. Coverage still patchy on the lower half; thickening is the job, not reach."
 healthStatus: good
-lastAssessed: "2026-10"
+lastAssessed: 2026-10
 image: /images/plants/IMG_0954.jpg
 photos:
   - src: /images/plants/IMG_3925.jpg
-    caption: "After the October shear, 7 Oct 2026 — street face from the footpath. Cap flat on the rail, top half dense, grate still showing through the lower half"
+    caption: After the October shear, 7 Oct 2026 — street face from the footpath. Cap flat on the rail, top half dense, grate still showing through the lower half
   - src: /images/plants/IMG_3494.jpg
-    caption: "After the trim, 8 Sept 2026 — street face. Cap reduced to a band on the rail, lower panel a loose net of strands"
+    caption: After the trim, 8 Sept 2026 — street face. Cap reduced to a band on the rail, lower panel a loose net of strands
   - src: /images/plants/IMG_3493.jpg
-    caption: "After the trim, 8 Sept 2026 — garden side. Wispy risers still above the rail (tie-down material), left lower panel bare"
+    caption: After the trim, 8 Sept 2026 — garden side. Wispy risers still above the rail (tie-down material), left lower panel bare
   - src: /images/plants/IMG_3495.jpg
-    caption: "After the trim, 8 Sept 2026 — west end by the rosemary, still the sparsest run"
+    caption: After the trim, 8 Sept 2026 — west end by the rosemary, still the sparsest run
   - src: /images/plants/IMG_3496.jpg
-    caption: "After the trim, 8 Sept 2026 — gate-post corner, loose cap draping the post"
+    caption: After the trim, 8 Sept 2026 — gate-post corner, loose cap draping the post
   - src: /images/plants/IMG_3486.jpg
-    caption: "Pre-trim, 8 Sept 2026 — heavy cap on the rail, risers reaching up, lower panels a single-strand skeleton"
+    caption: Pre-trim, 8 Sept 2026 — heavy cap on the rail, risers reaching up, lower panels a single-strand skeleton
   - src: /images/plants/IMG_3488.jpg
-    caption: "Pre-trim, 8 Sept 2026 — west end by the gate, the sparsest run and first target for tied-down runners"
+    caption: Pre-trim, 8 Sept 2026 — west end by the gate, the sparsest run and first target for tied-down runners
   - src: /images/plants/IMG_3490.jpg
-    caption: "Street face, 8 Sept 2026 — escapees to snip flush, weeds along the kerb base"
+    caption: Street face, 8 Sept 2026 — escapees to snip flush, weeds along the kerb base
   - src: /images/winter-2026/IMG_2270.jpg
-    caption: "Climbing the fence corner by the bins (6 Aug 2026)"
+    caption: Climbing the fence corner by the bins (6 Aug 2026)
   - src: /images/winter-2026/IMG_2274.jpg
-    caption: "Draping the deck edge, miscanthus tuft below (6 Aug 2026)"
+    caption: Draping the deck edge, miscanthus tuft below (6 Aug 2026)
   - src: /images/winter-2026/IMG_2276.jpg
-    caption: "Runners threading through the fence — trim the escapees (6 Aug 2026)"
+    caption: Runners threading through the fence — trim the escapees (6 Aug 2026)
   - src: /images/plants/IMG_0954.jpg
-    caption: "July 2026, after the tidy"
-notes: "Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill."
+    caption: July 2026, after the tidy
+notes: Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill.
 tasks:
-  - months: [12, 3]
+  - months:
+      - 12
+      - 3
     task: "Tie check (30 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
-  - months: [9]
-    day: 28
-    task: "Dieback check after the 8 Sept trim (2 min): any strand with wilted or browned leaves while its neighbours are flushing = a run severed by the trim. Pull it out once it's dry and crispy, then tie a live runner across the gap. Green everywhere = nothing to do"
-    category: general
-  - months: [10, 11, 12, 1, 2, 3]
+  - months:
+      - 10
+      - 11
+      - 12
+      - 1
+      - 2
+      - 3
     task: "Monthly top shear (about an hour): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip"
     category: prune
     repeat: monthly
-    completed: "2026-10"
-  - months: [3, 9]
+    completed: 2026-10
+  - months:
+      - 3
+      - 9
     task: "Season trim (2-3 hours): cut the top cap back tight to the fence line on both faces, snip the street-side escapees flush with the wires, and cut out any strand that is dry and snaps clean (bendy = alive, leave it). Scissors for handfuls of green, secateurs for stiff dark stems. Rake the clippings off the succulents below."
     category: prune
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the fence base over the root zone and watered in. Go the last calm weekend before spring: any earlier and winter rain leaches it past sleeping roots."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Growth-push top-up: second dose of Richgro — the July feed is spent by now; this fence is being pushed for full coverage"
     category: feed
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: stale Sept dieback-check row deleted."
+    category: general
   - date: "2026-10-07"
     entry: "October monthly shear DONE (IMG_3925/3926): Jay tied more strands down toward the bare lower grate first, then cut the top back a fair way. Photos: cap sheared flat along the rail, upper half dense and holding green, lower half still an open net of strands over visible grate. Nothing needed, because the lower fill is exactly what the tie-downs are for and the next shear is November's row. Corner by the gate post (IMG_3927) has runners led along the top rail toward the post with bare grate beyond it: that is the west fence's job to fill from its side."
     category: prune
@@ -82,5 +94,5 @@ log:
     entry: "End-of-winter baseline photos (IMG_2270/2274). Fence coverage looks full and healthy going into spring. (Correction from Jay: the big freestanding dome by the porch in IMG_2272 is the westringia, not this plant.) Note: runners are threading through the front fence onto the nature strip side (IMG_2276) — snip the escapees when passing so they don't get mowed into a mess."
     category: general
   - date: "2026-07-29"
-    entry: "Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced."
+    entry: Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced.
     category: prune

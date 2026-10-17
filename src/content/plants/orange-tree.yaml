@@ -1,20 +1,24 @@
 name: Orange Tree
 type: fruit
 location: Backyard
-zones: [4]
+zones:
+  - 4
 health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) done, ant check 8 Sept = no ants, cycle broken. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
 healthStatus: monitor
-lastAssessed: "2026-10"
-notes: "Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season."
+lastAssessed: 2026-10
+notes: Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season.
 image: /images/winter-2026/IMG_2303.jpg
 photos:
   - src: /images/winter-2026/IMG_2303.jpg
-    caption: "End-of-winter profile — fruit still on (6 Aug 2026)"
+    caption: End-of-winter profile — fruit still on (6 Aug 2026)
   - src: /images/winter-2026/IMG_2302.jpg
-    caption: "Behind the lime at the citrus corner (6 Aug 2026)"
+    caption: Behind the lime at the citrus corner (6 Aug 2026)
   - src: /images/plants/IMG_2086.jpg
-    caption: "After the oil + feed session, 30 Jul 2026"
+    caption: After the oil + feed session, 30 Jul 2026
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: gall check moved to Jul/Aug, sugarcane refresh Oct + Apr added, leaf miner glance Jan/Feb added."
+    category: general
   - date: "2026-10-09"
     entry: "October gall wasp check done: no galls found. Nothing else to do on this tree until the Nov sunburn-paint check."
     category: general
@@ -40,36 +44,60 @@ log:
     entry: "Eco-oil round 1 sprayed (whole tree, scale treatment). Fed with Experts Choice, light dose — September feed replaced. Gall wasp triple-checked. Second oil spray due ~mid-Aug. Post-session photo (IMG_2086): foliage colour looking decent, good crop of ripe oranges still on the tree — harvest still to do."
     category: spray
   - date: "2026-07-30"
-    entry: "Second gall wasp pruning pass done. Eco-oil spray is the next job — harvest ripe oranges first, then spray."
+    entry: Second gall wasp pruning pass done. Eco-oil spray is the next job — harvest ripe oranges first, then spray.
     category: prune
   - date: "2026-07-21"
-    entry: "Epsom salts drench applied for the magnesium/interveinal yellowing."
+    entry: Epsom salts drench applied for the magnesium/interveinal yellowing.
     category: feed
   - date: "2026-07-21"
     entry: "Photo assessment: heavy ripe orange crop, interveinal chlorosis on older leaves (Mg/N hunger — fruit load + winter), ants trailing in parts with sooty smudges on leaves = suspected scale. Plan: harvest, oil spray x2, Epsom drench. Light clearance prune done (branches in the way only). One leaf with dense spider web — ordinary garden spider, harmless, left alone."
     category: general
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
-  - months: [9]
+  - months:
+      - 9
     task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
-    completed: "2026-08"
-  - months: [11]
+    completed: 2026-08
+  - months:
+      - 11
     task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
     category: general
-  - months: [6, 7, 8, 9]
-    task: Pick ripe fruit
+  - months:
+      - 6
+      - 7
+      - 8
+      - 9
+    task: "Pick ripe oranges (whenever): full colour and a little give. Taste one first, they sweeten with hang time and hold on the tree for weeks"
     category: harvest
-  - months: [10]
-    task: "Gall wasp check (5 min, no spraying): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+  - months:
+      - 7
+      - 8
+    task: "Gall wasp check (5 min, no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
     category: prune
-    completed: "2026-10"
+    completed: 2026-10
+  - months:
+      - 10
+    task: "Sugarcane top-up (10 min): 5cm from the bale over the whole root zone out to the canopy edge, a hand's width clear of the trunk. Citrus roots sit in the top 30cm and cook in a Melbourne summer without it"
+    category: mulch
+  - months:
+      - 4
+    task: "Sugarcane top-up (10 min): the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"
+    category: mulch
+  - months:
+      - 1
+      - 2
+    task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
+    category: spray

@@ -1,13 +1,17 @@
 name: Dwarf Blue Chalk Sticks
 type: groundcover
 location: Front yard
-zones: [1]
+zones:
+  - 1
 health: "Main mounds dense, plump, good colour — wintering well. The patch near the gate is flattened with woody stems exposed after the 7 Aug asparagus-fern removal: cosmetic only, everything's alive. It re-clothes from stem nodes through spring — expect it to look rough until ~Oct and be filled in by Dec. No extra water meanwhile (winter wet is the one thing that kills these)."
 healthStatus: good
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: spent flower stalk snip added."
+    category: general
   - date: "2026-09-05"
-    entry: "Jay calls the gate patch sorted for now — the optional poke-segments-in job is off the list. Let it re-clothe through spring on its own; the October check on the spring regrowth stands."
+    entry: Jay calls the gate patch sorted for now — the optional poke-segments-in job is off the list. Let it re-clothe through spring on its own; the October check on the spring regrowth stands.
     category: general
   - date: "2026-08-07"
     entry: "Designer confirmation: the chalk sticks are Dwarf Blue (serpens), per the garden designer's email — closes the serpens-vs-mandraliscae question for good. One species across the whole bed."
@@ -22,30 +26,37 @@ log:
     entry: "Bed tidy-up session (photos IMG_2332/2333): the patch near the gate got roughed up in the asparagus-fern removal — a section is flattened with old woody brown stems exposed, loose fingers/stem bits scattered across the straw, and some stems carrying misshapen, flattened-looking leaves. [Broad-leaf ID in this entry corrected later same day — see above.] Recovery is automatic: it re-leafs along the woody frame in spring, and detached pieces are free plants — poke healthy segments a few cm into soil wherever cover is wanted and they root. The big mound by the path is untouched and dense."
     category: general
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2266/2273/2279). Good blue colour, plump leaves, patches expanding along the fence line and bed edges. Wintered fine."
+    entry: End-of-winter baseline photos (IMG_2266/2273/2279). Good blue colour, plump leaves, patches expanding along the fence line and bed edges. Wintered fine.
     category: general
 image: /images/plants/IMG_0887.jpg
 photos:
   - src: /images/winter-2026/IMG_2333.jpg
-    caption: "The main mound — old sprawling serpens, winter-lean leaves reading flatter (designer-confirmed Dwarf Blue) (7 Aug 2026)"
+    caption: The main mound — old sprawling serpens, winter-lean leaves reading flatter (designer-confirmed Dwarf Blue) (7 Aug 2026)
   - src: /images/winter-2026/IMG_2332.jpg
-    caption: "The roughed-up section — stubby dwarf bits among straw; the broad leaves at top are the Cotyledon (7 Aug 2026)"
+    caption: The roughed-up section — stubby dwarf bits among straw; the broad leaves at top are the Cotyledon (7 Aug 2026)
   - src: /images/winter-2026/IMG_2267.jpg
-    caption: "Front fence patches, end of winter (6 Aug 2026)"
+    caption: Front fence patches, end of winter (6 Aug 2026)
   - src: /images/winter-2026/IMG_2279.jpg
-    caption: "Edging the renovated feijoa bed (6 Aug 2026)"
+    caption: Edging the renovated feijoa bed (6 Aug 2026)
   - src: /images/plants/IMG_0887.jpg
-    caption: "April 2026 assessment"
+    caption: April 2026 assessment
 notes: "Senecio serpens 'Dwarf Blue' (syn. Curio repens), designer-confirmed — every blue chalk sticks patch in the front garden is this one species; the big floppy mounds are just older, part-shaded plants (winter-lean leaves read flatter and longer). Flowers: cream-white button clusters on stalks above the blue mat, summer-autumn — that's the flowering Jay remembers in this bed (IMG_0887 shows it). The broad wavy powdery paddles near the gate are a different plant: Cotyledon 'Silver Waves', its own entry. The feathery blue-grey sprigs in the winter photos (IMG_2332/2333) were trample debris from the work sessions, not a plant. Stem segments dropped into gaps root easily. Very drought-tolerant, practically indestructible. Avoid overwatering in winter."
 tasks:
-  - months: [10]
+  - months:
+      - 10
     day: 20
     task: Spring recovery check on the gate patch — any stem that hasn't reshot by late Oct gets trimmed back to a live node; poke loose healthy segments into remaining gaps
     category: prune
-  - months: [3]
+  - months:
+      - 3
     task: "Leggy trim (5 min): the trigger is bare woody stem showing between the soil and the blue fingers. Cut those stems back to a point where fingers still grow, and poke the cut-off tips into any gap, they root. Never water them in, wet soil kills these"
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): a light scatter of Osmocote Native across the patches, less than the bag rate. Succulents hardly need it, and rich feed makes them soft and floppy"
     category: feed
-    completed: "2026-07"
+    completed: 2026-07
+  - months:
+      - 5
+    task: "Snip spent flower stalks (5 min): the cream button heads go brown by now. Cut each stalk at its base so the patches stay flat and blue"
+    category: prune

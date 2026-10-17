@@ -2,43 +2,23 @@ name: Grey Star
 type: perennial
 indoor: true
 location: Library
-health: "Stressed — severe leaf curl, brown edges, humidity critical"
+health: Stressed — severe leaf curl, brown edges, humidity critical
 healthStatus: struggling
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0934.jpg
-notes: "Ctenanthe setosa 'Grey Star'. Leaves curling inward as a drought/dry-air response. Purple undersides are normal. Keep away from any heating or air vents — dry air is the enemy."
+notes: "Ctenanthe setosa 'Grey Star'. Leaves curling inward as a drought/dry-air response. Purple undersides are normal. Keep away from any heating or air vents — dry air is the enemy. Watering and air: never let it fully dry, bottom-water weekly in winter. Dry air curls the leaves; keep it away from vents, pebble tray or a stint in the bathroom if edges crisp."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
+  - months:
+      - 12
+      - 1
+      - 2
     repeat: monthly
-  - months: [12, 1, 2]
-    task: Keep soil consistently moist — never let it fully dry
-    category: water
-  - months: [4, 5]
-    task: Bottom-water weekly and keep soil evenly moist — do not let it dry out
-    category: water
-  - months: [4, 5]
-    task: Run a humidifier nearby or move to a humid room (bathroom/kitchen)
+    task: "Mite and crisp check (30 sec): leaf undersides for fine speckling or webbing (shower blast if found) and leaf edges for crisping (move it to the bathroom for a fortnight if so). Summer dry air is when this plant suffers"
     category: general
-  - months: [4, 5, 6, 7, 8]
-    task: Group with other plants or sit on a pebble tray for humidity
-    category: general
-  - months: [4, 5, 6, 7, 8]
-    task: Keep away from heating vents and dry-air zones
-    category: general
-  - months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-    task: Wipe leaves with damp cloth monthly — support leaf from below, check undersides for spider mites
-    category: general
-    repeat: monthly
-  - months: [6, 7, 8]
-    task: Watch for crispy leaf edges — run humidifier or move to humid room if dry
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 9 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

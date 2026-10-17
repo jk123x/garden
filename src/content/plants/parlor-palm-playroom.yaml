@@ -2,39 +2,22 @@ name: Parlor Palm (Playroom)
 type: palm
 indoor: true
 location: Playroom
-health: "Severely leggy — etiolated single stem from chronic low light"
+health: Severely leggy — etiolated single stem from chronic low light
 healthStatus: struggling
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0950.jpg
-notes: "Chamaedorea elegans. Stem has stretched dramatically toward the window, only a small tuft of fronds at the top. Already in the brightest spot available — room just doesn't have enough light for a palm. Stretched stem won't recover; the fix is either a grow light to stop further decline, or a hard prune in Sept to force fresh basal growth."
+notes: "Chamaedorea elegans. Stem has stretched dramatically toward the window, only a small tuft of fronds at the top. Already in the brightest spot available — room just doesn't have enough light for a palm. Stretched stem won't recover; the fix is either a grow light to stop further decline, or a hard prune in Sept to force fresh basal growth. Watering: top 2cm dry, then a drink. LIGHT is the real problem: a stretched parlor palm stem never recovers and must NOT be cut back (palms don't reshoot below a cut, the stem dies). Options are a small LED grow light 6-8 hrs a day or accepting it as is."
 log:
+  - date: "2026-10-17"
+    entry: "IMPORTANT correction 17 Oct 2026: the 'cut the leggy stem back hard' row was WRONG and has been deleted. Parlor palm stems don't reshoot below a cut; cutting the stem kills it. The stretched stem is permanent. Fix = more light (small LED grow light 6-8 hrs/day) or accept the look."
+    category: general
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 7 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed
   - date: "2026-08-18"
     entry: "One of the two parlor palms (Jay forgets which) showed small white fern-scale flecks and got an alcohol spray round 1 — the sprayed one will be identifiable by the flecks/treatment residue. Whichever palm it is: cloth-wipe rounds 2-3 at 7-10 day intervals alongside the library rabbit's foot. Check stems and frond undersides."
     category: spray
-tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4]
-    task: Add a small LED grow light on a timer (6-8hrs/day) to fix chronic light deficit
-    category: general
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — check soil 2cm down before watering
-    category: water
-  - months: [10]
-    task: "Cut the leggy stem back hard to force fresh growth — ONLY if the palm has held scale-free since the wipes; skip if any flecks this spring"
-    category: prune
-  - months: [9]
-    task: Trim any brown/yellow fronds
-    category: prune
-  - months: [4, 5]
-    task: Wipe fronds with damp cloth to remove dust
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
+tasks: []

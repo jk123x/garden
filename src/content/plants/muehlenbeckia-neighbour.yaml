@@ -1,50 +1,62 @@
 name: Muehlenbeckia (East fence)
 type: climber
 location: East (neighbour) boundary fence
-zones: [1]
+zones:
+  - 1
 health: "Flattened hard 8 Sept 2026: the blob is gone, what's left is a near-bare stem skeleton flush to the fence with a fan of stems tied into the lower panel by the post. Very little leaf on it. Crowns and main stems intact, so expect 4-6 bare weeks then a flush from old wood. Right half of the run still empty — leaders go along it as the flush gives material."
 healthStatus: monitor
-lastAssessed: "2026-10"
+lastAssessed: 2026-10
 image: /images/plants/IMG_3491.jpg
 photos:
   - src: /images/plants/IMG_3491.jpg
-    caption: "After the flatten, 8 Sept 2026 — blob gone, a thin stem skeleton on the fence; right half of the run still bare"
+    caption: After the flatten, 8 Sept 2026 — blob gone, a thin stem skeleton on the fence; right half of the run still bare
   - src: /images/plants/IMG_3492.jpg
-    caption: "After the flatten, 8 Sept 2026 — fan of stems tied into the lower panel by the post, base shoots green, snails on the rail"
+    caption: After the flatten, 8 Sept 2026 — fan of stems tied into the lower panel by the post, base shoots green, snails on the rail
   - src: /images/plants/IMG_3482.jpg
-    caption: "Our side after the 8 Sept 2026 haircut — a deep blob sitting on the fence, bare run to the right where it needs to extend"
+    caption: Our side after the 8 Sept 2026 haircut — a deep blob sitting on the fence, bare run to the right where it needs to extend
   - src: /images/plants/IMG_3483.jpg
-    caption: "Neighbour's side, 8 Sept 2026 — sheared flush to the mesh; the left panel is bare on her face while the mass sits behind it on ours"
+    caption: Neighbour's side, 8 Sept 2026 — sheared flush to the mesh; the left panel is bare on her face while the mass sits behind it on ours
   - src: /images/plants/IMG_3484.jpg
-    caption: "Neighbour's side detail, 8 Sept 2026 — what does come through is cut flat at the mesh plane"
+    caption: Neighbour's side detail, 8 Sept 2026 — what does come through is cut flat at the mesh plane
   - src: /images/plants/IMG_3485.jpg
-    caption: "Interior, 8 Sept 2026 — dense dead woody core from light exclusion, normal for the species; the frame that reshoots once flattened"
+    caption: Interior, 8 Sept 2026 — dense dead woody core from light exclusion, normal for the species; the frame that reshoots once flattened
 notes: "Wire vine / maidenhair vine (Muehlenbeckia complexa), third of the three front-boundary muehlenbeckias. Runs along the EAST boundary; plan is for it and the front (south) fence vine to grow toward each other and meet at the corner. Neighbour is elderly and shears her side hard to keep her walkway clear — that's fine and won't change; our side has to carry the attachment. The neighbour's trimming isn't harmful in itself — muehlenbeckia responds to hedging by densifying — but it keeps stripping the attachment points, so the vine can't hold or extend along the fence. Fix is structural: tie main stems firmly to our side of the fence with soft ties through the grates, below where the trimmer reaches, and train leaders horizontally along the uncovered two-thirds. Done properly, the ongoing trimming becomes free density maintenance and full coverage is roughly two growing seasons away. Left alone, it stays at a third indefinitely."
 tasks:
-  - months: [12, 3]
+  - months:
+      - 12
+      - 3
     task: "Tie check (30 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
-  - months: [9]
-    day: 28
-    task: "Dieback check after the 8 Sept flatten (2 min): the flush should be showing on the main stems by now. Any stem still bare and grey while its neighbours have green = dead; bend it, if it snaps clean pull it out. Bendy = alive, leave it even if bare"
-    category: general
-  - months: [3, 9]
+  - months:
+      - 3
+      - 9
     task: "Season trim (2-3 hours): shear our face back to about 10cm out from the fence wires, following the fence line, so it stays a flat sheet and not a blob. Scissors for green handfuls, secateurs for the stiff dark core stems. Leave the dead twiggy skeleton inside: it reshoots. Check every tie still holds and none is cutting into a stem."
     category: prune
-    completed: "2026-09"
-  - months: [9]
+    completed: 2026-09
+  - months:
+      - 9
     task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the fence base on our side and watered in. Last calm weekend before spring."
     category: feed
-    completed: "2026-07"
-  - months: [10, 11, 12, 1, 2, 3]
+    completed: 2026-07
+  - months:
+      - 10
+      - 11
+      - 12
+      - 1
+      - 2
+      - 3
     task: "Coverage training (about an hour): tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached"
     category: general
     repeat: monthly
-    completed: "2026-10"
-  - months: [12]
+    completed: 2026-10
+  - months:
+      - 12
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; the fence run is being pushed for coverage"
     category: feed
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: stale Sept dieback-check row deleted."
+    category: general
   - date: "2026-10-07"
     entry: "October coverage training DONE on the east boundary fence (same session as the south and west fences): stems tied flat to our face, face kept to a flat sheet, leaders along the bare run. Next pass is November's row."
     category: general

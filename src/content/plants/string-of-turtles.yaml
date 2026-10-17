@@ -2,33 +2,21 @@ name: String of Turtles
 type: succulent
 indoor: true
 location: Library
-health: "OK — sparse, would benefit from pinch-pruning for density"
+health: OK — sparse, would benefit from pinch-pruning for density
 healthStatus: monitor
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0937.jpg
-notes: "Peperomia prostrata. Tiny round patterned leaves on trailing stems. Coverage is thin — pinch tips to encourage branching."
+notes: "Peperomia prostrata. Tiny round patterned leaves on trailing stems. Coverage is thin — pinch tips to encourage branching. Watering: dry between drinks, fortnightly or less in winter. Bright indirect light."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — let dry between drinks
-    category: water
-  - months: [12, 1, 2]
-    task: Water when soil is dry — don't overwater
-    category: water
-  - months: [4]
-    task: Pinch stem tips to encourage bushier growth
+  - months:
+      - 9
+      - 10
+    task: "Pinch tips (2 min): snip the last 1cm off each trailing stem. Each pinched stem branches into two, which is how thin coverage becomes a mat"
     category: prune
-  - months: [4, 5, 6, 7, 8]
-    task: Move to brightest available indirect-light spot
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 5 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

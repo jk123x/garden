@@ -2,36 +2,20 @@ name: Japanese Holly Fern (Grey Pot)
 type: fern
 indoor: true
 location: Library
-health: "Good — fronds spreading well, centre slightly sparse but no obvious stress"
+health: Good — fronds spreading well, centre slightly sparse but no obvious stress
 healthStatus: good
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0970.jpg
-notes: "Cyrtomium falcatum. Round grey ceramic pot. Good frond coverage, a bit more open through the middle than the Cream Pot one, but otherwise clean foliage."
+notes: "Cyrtomium falcatum. Round grey ceramic pot. Good frond coverage, a bit more open through the middle than the Cream Pot one, but otherwise clean foliage. Watering: evenly moist Oct-Mar, top 2cm dry between drinks Apr-Sept. Never oils on this fern."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [9]
-    task: Remove old/tatty fronds
+  - months:
+      - 9
+    task: "Frond tidy (5 min, scissors): cut fully brown or badly torn fronds off at the base, and look along the midribs for white flecks while you're in there (fern scale history in this room). Flecks = alcohol wipe on sight"
     category: prune
-  - months: [12, 1, 2]
-    task: Keep soil consistently moist in summer
-    category: water
-  - months: [4, 5]
-    task: Reduce watering — check soil 2cm down before watering
-    category: water
-  - months: [4, 5, 6, 7, 8]
-    task: Group with other plants or sit on pebble tray for humidity
-    category: general
-  - months: [4, 5]
-    task: Gently wipe fronds with damp cloth to remove dust
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 7 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

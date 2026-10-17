@@ -1,32 +1,43 @@
 name: Black Eyed Susan
 type: perennial
 location: Backyard (raised bed)
-zones: [3]
-health: "Still dominating its half of the original bed after the April 16 cleanup. Now has room to breathe — the Echinacea and Achillea have been transplanted out. Flowering strongly."
+zones:
+  - 3
+health: Still dominating its half of the original bed after the April 16 cleanup. Now has room to breathe — the Echinacea and Achillea have been transplanted out. Flowering strongly.
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: 2026-07
 image: /images/plants/IMG_1017.jpg
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: deadhead months moved to Jan-Mar to match when it actually flowers."
+    category: general
   - date: "2026-07-30"
-    entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
+    entry: Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced.
     category: feed
   - date: "2026-07-22"
-    entry: "Dead flower stems cut to ground level ahead of spring regrowth. Basal rosettes healthy."
+    entry: Dead flower stems cut to ground level ahead of spring regrowth. Basal rosettes healthy.
     category: prune
-notes: "Rudbeckia fulgida var. fulgida. Stayed in the original metal raised bed during the April 16 transplant — it's thriving where it is and doesn't need moving. Now that the Echinacea and divided Achillea have been removed, the bed is much clearer. Could add new companion plants in the gaps come spring (more salvias, catmint, Russian sage, sedum). For now, let everything settle."
+notes: Rudbeckia fulgida var. fulgida. Stayed in the original metal raised bed during the April 16 transplant — it's thriving where it is and doesn't need moving. Now that the Echinacea and divided Achillea have been removed, the bed is much clearer. Could add new companion plants in the gaps come spring (more salvias, catmint, Russian sage, sedum). For now, let everything settle.
 tasks:
-  - months: [6, 7]
+  - months:
+      - 6
+      - 7
     task: "Cut back (10 min): cut every dead brown flower stem down to ground level with secateurs, clearing the way for spring regrowth. The green basal rosettes at the base are the living plant, cut around them, not through them"
     category: prune
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Feed (2 min): the trigger is fresh green leaves pushing from the base. Richgro All Purpose at the bag rate scattered around the clump, then water in. Feeding before growth shows just leaches away"
     category: feed
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Divide check (10 sec): dead centre with a ring of growth round it = divide (typically every 3-4 years)."
     category: general
-    completed: "2026-09"
-  - months: [12, 1, 2]
+    completed: 2026-09
+  - months:
+      - 1
+      - 2
+      - 3
     task: "Deadhead (5 min a fortnight): the trigger is petals dropped and a bare dark cone left. Snip each spent stem back to the next side bud or leaf pair, not just the head. Cutting only the cone leaves a bare stalk and no new flower"
     category: general

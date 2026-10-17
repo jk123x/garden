@@ -2,36 +2,20 @@ name: String of Pearls
 type: succulent
 indoor: true
 location: Library
-health: "Recovering — mixed strand quality, some algae on soil surface"
+health: Recovering — mixed strand quality, some algae on soil surface
 healthStatus: establishing
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0961.jpg
-notes: "Senecio rowleyanus. Was nearly lost, back now but uneven — some plump pearls, others shrivelled. Algae/moss on the soil surface suggests it's been kept a bit too wet."
+notes: "Senecio rowleyanus. Was nearly lost, back now but uneven — some plump pearls, others shrivelled. Algae/moss on the soil surface suggests it's been kept a bit too wet. Watering: only when the pearls start to wrinkle slightly, fully dry in between, monthly in winter. Algae on the soil = it's been too wet. Brightest spot available."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at quarter strength, about 0.5ml per litre, only when the soil is due a drink anyway. Overfeeding stretches the strands and rots the roots. Fishy for a day, so do it outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering significantly — let soil dry fully between drinks
-    category: water
-  - months: [12, 1, 2]
-    task: Water when pearls start to look slightly wrinkled
-    category: water
-  - months: [4]
-    task: Trim any mushy strands and check for root rot
-    category: prune
-  - months: [4, 5]
-    task: Clear any algae or moss from the soil surface
+  - months:
+      - 10
+    task: "Repot check (2 min): soil still wet a week after watering, or green algae on the surface = tip it out and repot into a gritty cactus mix in a shallow pot. Pearls rot from wet mix, not from drought"
     category: general
-  - months: [4, 5, 6, 7, 8]
-    task: Move to brightest available spot — succulents need every photon in autumn
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 7 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

@@ -1,20 +1,29 @@
 name: Dusty Miller
 type: perennial
 location: Backyard (lawn edge near the paving / wood-chip patch)
-zones: [4]
-health: "Spotted in July 2026 photos — healthy knee-high mound of silvery-white woolly foliage, flowering small yellow buttons through midwinter. Thriving on zero attention."
+zones:
+  - 4
+health: Spotted in July 2026 photos — healthy knee-high mound of silvery-white woolly foliage, flowering small yellow buttons through midwinter. Thriving on zero attention.
 healthStatus: healthy
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: late-summer leggy trim added."
+    category: general
   - date: "2026-08-06"
     entry: "CORRECTION after comparing photos side by side: the blue-grey lobed plant near the bench in IMG_2306 is NOT this dusty miller — its fronds are smooth, while the real dusty miller (record photo) is unmistakably woolly-white with yellow buttons. The 2306 plant is back on the ID list as an unknown. This entry's plant unchanged — healthy at the lawn edge, thriving on zero attention."
     category: general
 image: /images/plants/dusty-miller.jpg
 photos:
   - src: /images/plants/dusty-miller.jpg
-    caption: "July 2026 — woolly white foliage, yellow buttons (the reference photo that ruled out the 2306 lookalike)"
+    caption: July 2026 — woolly white foliage, yellow buttons (the reference photo that ruled out the 2306 lookalike)
 notes: "Tentative ID: Dusty Miller (Jacobaea maritima, syn. Senecio cineraria) — Jay doesn't know its origin, ID from July 2026 photos. Silver woolly leaves, small yellow clustered button flowers when mature. If correct, it's a bulletproof drought-hardy Mediterranean subshrub grown mainly for the silver foliage. The yellow flowers signal a mature plant; many gardeners shear them off to keep the silver foliage dense, but leaving them is harmless. Gets leggy over years — a light shear after flowering keeps it compact. Never needs water once established, dislikes wet feet, no feeding required. Confirm ID when convenient: woolly white felted leaves, deeply lobed, held on whitish stems."
 tasks:
-  - months: [11]
+  - months:
+      - 11
     task: "Shear the mound once the yellow buttons finish (5 min, scissors): spent stalks plus the top few cm of foliage off all over, so the silver stays dense. Every cut leaves silver leaves below it. Cut into bare old wood and that stem stays bare. No feed, no water, ever."
+    category: prune
+  - months:
+      - 3
+    task: "Leggy check (5 min, scissors): bare woody stems showing under the silver = cut those stems back by a third to where there's still foliage. It goes woody and open by late summer if left"
     category: prune

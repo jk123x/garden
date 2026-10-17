@@ -2,53 +2,71 @@ name: Giant Taro
 type: perennial
 indoor: false
 location: Right (east) side, behind star jasmine fence
-zones: [4]
-health: "Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small."
+zones:
+  - 4
+health: Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small.
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 image: /images/winter-2026/IMG_2310.jpg
 photos:
   - src: /images/winter-2026/IMG_2310.jpg
-    caption: "The kept trunk, two big leaves — the mulch pups visible here were pulled 7 Aug (6 Aug 2026)"
+    caption: The kept trunk, two big leaves — the mulch pups visible here were pulled 7 Aug (6 Aug 2026)
   - src: /images/plants/giant-taro.jpg
-    caption: "Before the April cutback"
-notes: "Alocasia, species TBC — most likely Alocasia 'Calidora' or Alocasia × portora (macrorrhizos × odora hybrid) given the combination of thick brown tree-like trunk with rounded matte leaves. Could also be Alocasia macrorrhizos. Confirm species by checking trunk texture (smooth-fibrous vs scarred-rough) and whether it ever flowers (odora flowers are strongly fragrant at night). Wear gloves and long sleeves when cutting — sap contains calcium oxalate crystals, severe skin/eye irritant. Multiple stems = original plant + established offsets. To keep permanently smaller, dig out side pups when cutting back. Watch for any regrowth from missed root pieces and cut at ground level early."
+    caption: Before the April cutback
+notes: Alocasia, species TBC — most likely Alocasia 'Calidora' or Alocasia × portora (macrorrhizos × odora hybrid) given the combination of thick brown tree-like trunk with rounded matte leaves. Could also be Alocasia macrorrhizos. Confirm species by checking trunk texture (smooth-fibrous vs scarred-rough) and whether it ever flowers (odora flowers are strongly fragrant at night). Wear gloves and long sleeves when cutting — sap contains calcium oxalate crystals, severe skin/eye irritant. Multiple stems = original plant + established offsets. To keep permanently smaller, dig out side pups when cutting back. Watch for any regrowth from missed root pieces and cut at ground level early.
 tasks:
-  - months: [4]
+  - months:
+      - 4
     task: "Autumn cutback (30 min, gloves and long sleeves, the sap burns): keep one trunk at ~1m for the window view, cut every other stem at ground level and dig the stump so it can't pup. Bag the sap-wet offcuts."
     category: prune
-    completed: "2026-04"
-  - months: [9]
+    completed: 2026-04
+  - months:
+      - 9
     task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the base and watered in once a new leaf is unrolling. Feeding it while dormant just leaches away."
     category: feed
-    completed: "2026-07"
-  - months: [12, 1, 2]
+    completed: 2026-07
+  - months:
+      - 12
+      - 1
+      - 2
     task: "Heat-day deep water (5 min): on a 35°+ day, or when the big leaves are drooping by mid-morning, run the hose slowly on the root zone for a couple of minutes on top of the drip. Afternoon droop alone is normal, it recovers overnight."
     category: water
-  - months: [6, 7]
+  - months:
+      - 6
+      - 7
     task: "Mulch the crown before frost (5 min): 5-8cm of sugarcane over the base and lower trunk, loose, not packed wet against the trunk. Frost-burnt leaves are cosmetic; a frozen crown isn't."
     category: mulch
-    completed: "2026-05"
-  - months: [3, 4, 5]
+    completed: 2026-05
+  - months:
+      - 3
+      - 4
+      - 5
     task: "Cut spent leaves (2 min, gloves): any leaf more than half yellow comes off at the base of its stalk, flush with the trunk. Any arrowhead leaf in the mulch is a pup: cut it at ground level while small."
     category: prune
-    completed: "2026-05"
+    completed: 2026-05
+  - months:
+      - 12
+    task: "Summer top-up (2 min): Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
+    category: feed
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: December feed added."
+    category: general
   - date: "2026-08-07"
-    entry: "All regrowth pups pulled — back to just the one kept trunk. Closes the low-urgency weeding item early. Pups regrow from any root fragment, so glance at the mulch each visit and cut new arrowhead leaves at ground level while they're small."
+    entry: All regrowth pups pulled — back to just the one kept trunk. Closes the low-urgency weeding item early. Pups regrow from any root fragment, so glance at the mulch each visit and cut new arrowhead leaves at ground level while they're small.
     category: general
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2310). Kept trunk carrying two big healthy leaves through winter. The small arrowhead-leaf seedlings in the mulch around the base: Jay confirmed they're just more taro — regrowth pups from root pieces missed in the April dig. DECISION: Jay will pull them all out at some point, no rush — it stays on the weeding round-2 list as the low-urgency item (gloves and long sleeves for the sap; easier now while small than after a spring growth spurt)."
     category: general
   - date: "2026-07-30"
-    entry: "Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced."
+    entry: Fed with Richgro All Purpose (feed blitz round 2) — September feed replaced.
     category: feed
-  - date: "2026-04"
-    entry: "Cut back hard — kept one trunk at ~1m for window view, others removed at ground level, stumps dug."
+  - date: 2026-04
+    entry: Cut back hard — kept one trunk at ~1m for window view, others removed at ground level, stumps dug.
     category: prune
-  - date: "2026-05"
-    entry: "Yellowing leaves cleaned up at petiole base."
+  - date: 2026-05
+    entry: Yellowing leaves cleaned up at petiole base.
     category: prune
-  - date: "2026-05"
-    entry: "Crown mulched ahead of frost season."
+  - date: 2026-05
+    entry: Crown mulched ahead of frost season.
     category: mulch

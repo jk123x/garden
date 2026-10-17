@@ -2,30 +2,21 @@ name: Unknown Fuzzy Succulent
 type: succulent
 indoor: true
 location: Library
-health: "OK — slightly leggy, a trim will bring it back in shape"
+health: OK — slightly leggy, a trim will bring it back in shape
 healthStatus: monitor
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0935.jpg
-notes: "Unidentified. Upright fuzzy stems — likely Tradescantia sillamontana (White Velvet). Some stems flopping; a small flower spike was visible. Benefits from pruning back to encourage bushier, upright growth."
+notes: "Unidentified. Upright fuzzy stems — likely Tradescantia sillamontana (White Velvet). Some stems flopping; a small flower spike was visible. Benefits from pruning back to encourage bushier, upright growth. Watering: dry between drinks, monthly in winter. Bright light keeps it upright."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — let dry between drinks
-    category: water
-  - months: [4]
-    task: Trim leggy stems and use cuttings to fill the pot
+  - months:
+      - 9
+      - 10
+    task: "Cut back and refill (10 min): cut every leggy stem back to 5cm, then poke the cut tops straight into gaps in the same pot. Tradescantia roots in a week and the pot comes back full and upright"
     category: prune
-  - months: [4, 5, 6, 7, 8]
-    task: Move to brightest available indirect-light spot
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 4 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

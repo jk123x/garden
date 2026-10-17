@@ -2,28 +2,16 @@ name: Purple Peperomia
 type: perennial
 indoor: true
 location: Library
-health: "Healthy"
+health: Healthy
 healthStatus: healthy
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0947.jpg
-notes: "Heart-shaped leaves, green tops with purple/red undersides and stems. Possibly Peperomia caperata or similar. Looks happy."
-tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — let soil dry more between drinks
-    category: water
-  - months: [4, 5]
-    task: Wipe leaves with damp cloth to remove dust
-    category: general
-    repeat: monthly
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
+notes: "Heart-shaped leaves, green tops with purple/red undersides and stems. Possibly Peperomia caperata or similar. Looks happy. Watering: soil well dried between drinks, fortnightly or less in winter. Peperomias rot before they wilt."
+tasks: []
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 4 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

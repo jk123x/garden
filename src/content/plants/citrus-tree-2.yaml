@@ -1,20 +1,24 @@
 name: Grapefruit Tree
 type: fruit
 location: Backyard
-zones: [4]
-health: "Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency."
+zones:
+  - 4
+health: Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency.
 healthStatus: good
-lastAssessed: "2026-10"
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2291.jpg
 photos:
   - src: /images/winter-2026/IMG_2291.jpg
-    caption: "Canopy with ripening fruit — taste-test season open (6 Aug 2026)"
+    caption: Canopy with ripening fruit — taste-test season open (6 Aug 2026)
   - src: /images/winter-2026/IMG_2292.jpg
-    caption: "Multi-trunk in the tub by the bins (6 Aug 2026)"
+    caption: Multi-trunk in the tub by the bins (6 Aug 2026)
   - src: /images/plants/IMG_0917.jpg
-    caption: "April 2026 assessment"
+    caption: April 2026 assessment
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: gall check moved to Jul/Aug, sugarcane refresh Oct + Apr added, leaf miner glance and Epsom check added."
+    category: general
   - date: "2026-10-09"
     entry: "Sunshade clearance prune done: watershoots wrapping the retractable shade cut out. October gall check done, no galls found. Dec/Feb re-wrap checks stay on the card. No more cutting this year."
     category: prune
@@ -37,37 +41,68 @@ log:
     entry: "Variety confirmed: grapefruit. Renamed from 'Citrus Tree (Backyard, small)'."
     category: general
   - date: "2026-07-21"
-    entry: "Epsom salts drench applied — leaves still pale, treating for magnesium alongside the big backyard citrus."
+    entry: Epsom salts drench applied — leaves still pale, treating for magnesium alongside the big backyard citrus.
     category: feed
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
-  - months: [8, 9, 10]
+  - months:
+      - 8
+      - 9
+      - 10
     task: Taste-test a grapefruit every few weeks — yellow ≠ ripe, they sweeten with hang time and hold on the tree for months
     category: harvest
-  - months: [9]
+  - months:
+      - 9
     task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
-    completed: "2026-08"
-  - months: [11]
+    completed: 2026-08
+  - months:
+      - 11
     task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
     category: general
-  - months: [10]
+  - months:
+      - 10
     task: "Sunshade clearance prune (20 min, secateurs, loppers for anything thicker than a thumb): the tree is wrapping around the retractable sunshade. Take out every vertical watershoot that reaches the shade right back to where it leaves the limb, flush, no stub: those straight soft shoots are regrowth from the August hard prune and they come back if you only shorten them. Anything else touching the shade, cut 40cm below the line the shade sits on when extended, back to a bud or side branch, so a month of growth does not re-wrap it. Stop there. No cutting into the thick old wood and no more than that off the tree this year: it already lost half its canopy in August."
     category: prune
-    completed: "2026-10"
-  - months: [12, 2]
+    completed: 2026-10
+  - months:
+      - 12
+      - 2
     task: "Sunshade clearance check (5 min): any shoot within 20cm of the extended sunshade, cut it 40cm below the shade line to a bud, watershoots out at the limb. Clear = done."
     category: prune
-  - months: [10]
-    task: "Gall wasp check (5 min, no spraying): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+  - months:
+      - 7
+      - 8
+    task: "Gall wasp check (5 min, no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
     category: prune
-    completed: "2026-10"
+    completed: 2026-10
+  - months:
+      - 10
+    task: "Sugarcane top-up (10 min): 5cm from the bale over the whole root zone out to the canopy edge, a hand's width clear of the trunk. Citrus roots sit in the top 30cm and cook in a Melbourne summer without it"
+    category: mulch
+  - months:
+      - 4
+    task: "Sugarcane top-up (10 min): the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"
+    category: mulch
+  - months:
+      - 1
+      - 2
+    task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
+    category: spray
+  - months:
+      - 10
+      - 3
+    task: "Magnesium check (5 min): older leaves yellow between green veins (the inverted-V pattern) = 2 tablespoons Epsom salts in a 9L can, poured over the root zone. Even green = skip it. This tree has the Mg history, so look"
+    category: feed

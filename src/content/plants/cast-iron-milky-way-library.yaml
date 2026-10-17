@@ -2,32 +2,17 @@ name: Cast Iron Plant (Milky Way)
 type: perennial
 indoor: true
 location: Library
-health: "OK — good leaf density, some outer leaves bronzing at edges"
+health: OK — good leaf density, some outer leaves bronzing at edges
 healthStatus: monitor
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0944.jpg
-notes: "Aspidistra elatior 'Milky Way'. The white speckles are normal — not yellowing. A couple of outer leaves show bronze edges which may indicate over-watering or mineral buildup. Flush soil in autumn and hold off feed."
+notes: "Aspidistra elatior 'Milky Way'. The white speckles are normal — not yellowing. A couple of outer leaves show bronze edges which may indicate over-watering or mineral buildup. Flush soil in autumn and hold off feed. Watering: let it dry well between drinks; bronze leaf edges = too wet or salts."
 tasks:
-  - months: [9, 3]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
-    category: feed
-    repeat: monthly
-  - months: [4]
-    task: Flush soil with plain water; hold off feed until spring
+  - months:
+      - 4
+    task: "Flush the pot (5 min): stand it in the shower and run lukewarm water through until three pots' worth has drained out the bottom. Washes out the fertiliser salts behind the bronze leaf edges. Then no feed until September"
     category: water
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — let soil dry more between drinks
-    category: water
-  - months: [4, 5]
-    task: Wipe leaves with damp cloth to remove dust
+log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 6 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
     category: general
-    repeat: monthly
-  - months: [9]
-    task: Wipe dust off leaves
-    category: general
-  - months: [9]
-    task: Remove any yellowing leaves at base
-    category: prune
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray

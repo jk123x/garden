@@ -4,31 +4,20 @@ indoor: true
 location: Study (wall-mounted)
 health: "OK — sculptural form, watch for etiolation if stems pale further. Aug 2026 photo: unchanged from April — still sparse/wild and slightly pale, not worse."
 healthStatus: monitor
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 image: /images/plants/IMG_0965.jpg
 photos:
   - src: /images/plants/rhipsalis-teres-aug-2026.jpg
-    caption: "On the study wall bracket — unchanged from April (23 Aug 2026)"
-notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth. A slightly pale green — make sure it gets enough light. Location corrected Aug 2026: it's on the STUDY shelf wall (was filed as library)."
+    caption: On the study wall bracket — unchanged from April (23 Aug 2026)
+notes: "Wall-mounted in speckled pot. Angular branching stems, wild/sculptural growth. A slightly pale green — make sure it gets enough light. Location corrected Aug 2026: it's on the STUDY shelf wall (was filed as library). Watering: dries between drinks. Top cm dry in summer, every 3-4 weeks in winter. Pale stems = wants more light."
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 4 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed
   - date: "2026-08-23"
     entry: "Photo check on the study shelf (location corrected library → study). Same as April: sparse angular sculptural growth, slightly pale but stable. Monitor stands — the tell would be new growth coming through paler and stretchier than the old."
     category: general
-tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — let dry out between drinks
-    category: water
-  - months: [12, 1, 2]
-    task: Water when top cm of soil is dry
-    category: water
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
+tasks: []

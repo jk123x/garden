@@ -2,33 +2,21 @@ name: String of Hearts
 type: succulent
 indoor: true
 location: Front entrance (hanging)
-health: "OK — sparse trailing, would benefit from a trim and brighter spot"
+health: OK — sparse trailing, would benefit from a trim and brighter spot
 healthStatus: monitor
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0951.jpg
-notes: "Ceropegia woodii. Strand coverage is modest — could be denser. A haircut encourages branching. Make sure it gets bright indirect light."
+notes: "Ceropegia woodii. Strand coverage is modest — could be denser. A haircut encourages branching. Make sure it gets bright indirect light. Watering: fully dry between drinks, monthly in winter. Brightest indirect spot available."
 tasks:
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering — very drought tolerant, let dry fully between drinks
-    category: water
-  - months: [4]
-    task: Give stems a haircut to encourage branching and bushier growth
+  - months:
+      - 9
+      - 10
+    task: "Haircut for density (5 min): cut the longest strands back by a third to just above a leaf pair, then lay the cut pieces on the soil surface in the same pot and pin them with a bent paperclip. They root at the nodes and thicken the top"
     category: prune
-  - months: [9]
-    task: Trim leggy stems to encourage bushier growth
-    category: prune
-  - months: [4, 5, 6, 7, 8]
-    task: Move to brightest available indirect-light spot
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 5 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed

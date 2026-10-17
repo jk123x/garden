@@ -1,22 +1,26 @@
 name: Cinnamon Wattle 'Scarlet Blaze'
 type: tree
 location: Front yard
-zones: [1]
+zones:
+  - 1
 health: "Assessed Aug 2026 (photo zoom + Jay's report): genuinely healthy despite the slump. Dense phyllode cover with only normal cycling yellowing, smooth clean bark with no borer holes, gum bleeds or cracking visible, and a heavy load of red flowers opening along the branchlets — that's a tree with energy to spare, not one in decline. The pronounced lean is structural (wind incident), not a health problem: the canopy has kept growing and flowering at the new angle."
 healthStatus: healthy
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 image: /images/winter-2026/IMG_2271.jpg
 photos:
   - src: /images/plants/IMG_2337.jpg
-    caption: "Pre-flowering baseline — loaded with bud, draping over the westringia (8 Aug 2026)"
+    caption: Pre-flowering baseline — loaded with bud, draping over the westringia (8 Aug 2026)
   - src: /images/winter-2026/IMG_2271.jpg
-    caption: "In heavy red bud — Scarlet Blaze confirmed (6 Aug 2026)"
+    caption: In heavy red bud — Scarlet Blaze confirmed (6 Aug 2026)
   - src: /images/winter-2026/IMG_2265.jpg
-    caption: "Weeping over the front bed (6 Aug 2026)"
+    caption: Weeping over the front bed (6 Aug 2026)
   - src: /images/plants/IMG_0891.jpg
-    caption: "April 2026 assessment"
+    caption: April 2026 assessment
 notes: "VARIETY CONFIRMED Aug 2026: Acacia leprosa 'Scarlet Blaze' — the red flowers settle it (the only red-flowered wattle in cultivation; famous Melbourne chance find, floral emblem candidate stuff). Jay loves this tree. What the ID means: naturally semi-weeping with a flexible leader — a slumped, willowy posture is partly just what it does, wind assist or not. It is also SHORT-LIVED: 7-15 years is the realistic span, so enjoy it hard and take cuttings/succession seriously in a few years. Managing the slump: do NOT try to winch it upright (snaps roots on an established tree); instead use the October post-flowering prune to lighten the heavy side and reduce sail so the lean stops progressing. Old stakes sit against the trunk — check any remaining ties aren't girdling and cut them off if the tree is self-supporting at the base. Watch-fors on an aging leprosa: borer holes/gum or sawdust frass on the trunk, and sudden branch dieback — either one is worth a photo. Low phosphorus feeds only."
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: autumn borer check added."
+    category: general
   - date: "2026-08-17"
     entry: "De-staked: slack straps cut off, broken stakes pulled, trunk debris cleared. Pressure ridge on the bark heals itself as the trunk thickens — glance once a season. Next touchpoint is the October post-flowering prune (lighten the heavy side, clear the westringia's shoulder)."
     category: general
@@ -30,15 +34,22 @@ log:
     entry: "VARIETY LOCKED IN: 'Scarlet Blaze' — Jay confirmed, and the photo zooms show the red pompoms already opening along the branchlets. Health evaluation off the baseline photos (IMG_2265/2271 + crops): dense healthy canopy, clean bark (no borer holes, gum or cracks visible at the trunk or unions), heavy flower load = good vigour. The wind-incident slump is structural only — the tree has kept growing and flowering at its new angle, and semi-weeping posture is native to this cultivar anyway. Plan: don't pull it upright; use the October post-flowering prune to lighten the heavy side so the lean doesn't progress; check the old stake ties at the trunk aren't girdling; keep a casual eye out for borer frass as it ages (short-lived species, 7-15yr)."
     category: general
 tasks:
-  - months: [10]
+  - months:
+      - 10
     day: 20
     task: "Post-flowering prune (30 min, secateurs for anything thicker than a pencil): lighten the heavy slumped side, and clear the westringia by removing the branches resting on the dome so its shoulder gets 30-50cm of daylight. Every cut back to a green lateral; wattles don't reshoot from bare wood. Then finish the westringia's unfinished side in the same session (its own 20 Oct row)."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Osmocote Native at the bag rate over the root zone out to the drip line, then water in. Only ever this product, wattles are phosphorus-sensitive"
     category: feed
-    completed: "2026-07"
-  - months: [4]
+    completed: 2026-07
+  - months:
+      - 4
     task: "Mulch (10 min): top up to about 5cm over the root zone, keeping a clear hand-width gap around the trunk. While there, glance at the old strap pressure ridge on the trunk: bark healing over it is fine, gum or sawdust there is a borer sign worth a photo"
     category: mulch
-    completed: "2026-04"
+    completed: 2026-04
+  - months:
+      - 3
+    task: "Borer check (2 min): look at the trunk base and the big branch forks for sawdust frass, weeping gum or a neat round hole. Found = push a wire in to kill the grub, or cut the branch off below the damage. Borers are what shortens a wattle's life"
+    category: general

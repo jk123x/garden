@@ -1,17 +1,27 @@
 name: Dichondra
 type: groundcover
 location: Front yard — woven throughout garden beds
-zones: [1]
-health: "Spreading well — visible as a living ground cover between and around other plants. Soft green kidney-shaped leaves forming a low mat."
+zones:
+  - 1
+health: Spreading well — visible as a living ground cover between and around other plants. Soft green kidney-shaped leaves forming a low mat.
 healthStatus: healthy
-lastAssessed: "2026-04"
-notes: "Dichondra repens (Kidney Weed). Australian native ground cover threading through the front garden beds. Acts as living mulch between the dianella, chalk sticks, and other plantings. Low-maintenance — just let it spread. Handles foot traffic, part shade, and dry spells. One of those plants that works hardest when you notice it least."
+lastAssessed: 2026-04
+notes: Dichondra repens (Kidney Weed). Australian native ground cover threading through the front garden beds. Acts as living mulch between the dianella, chalk sticks, and other plantings. Low-maintenance — just let it spread. Handles foot traffic, part shade, and dry spells. One of those plants that works hardest when you notice it least.
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Feed light (2 min): a thin scatter of Richgro All Purpose over the mat, half the bag rate, then water in. It shares beds with natives, so keep the scatter to the dichondra itself, not the banksia or paws"
     category: feed
-    completed: "2026-07"
+    completed: 2026-07
+  - months:
+      - 2
+      - 3
+    task: "Edge pull (5 min): where the mat has crept over the chalk sticks, cotyledon or a dianella crown, pull it back to clear ground by hand. It smothers the succulents if left through autumn"
+    category: prune
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: late-summer edge pull added."
+    category: general
   - date: "2026-07-30"
-    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    entry: Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced.
     category: feed

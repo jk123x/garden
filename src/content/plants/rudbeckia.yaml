@@ -1,31 +1,41 @@
 name: Rudbeckia 'Deamii'
 type: perennial
 location: Backyard (cutting bed + other beds)
-zones: [3]
-health: "Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting bed, 2 distributed to other beds. Sugarcane mulch applied. Establishing."
+zones:
+  - 3
+health: Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting bed, 2 distributed to other beds. Sugarcane mulch applied. Establishing.
 healthStatus: establishing
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 image: /images/plants/cutting-bed.jpg
 photos:
   - src: /images/winter-2026/IMG_2307.jpg
-    caption: "The copper tub — green shoots through the straw (6 Aug 2026)"
+    caption: The copper tub — green shoots through the straw (6 Aug 2026)
   - src: /images/winter-2026/IMG_2289.jpg
-    caption: "The flower beds under winter straw (6 Aug 2026)"
+    caption: The flower beds under winter straw (6 Aug 2026)
   - src: /images/plants/cutting-bed.jpg
-    caption: "The cutting bed at planting, May 2026"
-notes: "Rudbeckia fulgida var. deamii (Deam's Black-eyed Susan). 3 plants total — 1 in the cutting bed, 2 distributed to other beds around the garden. Tough, long-lived perennial that handles Melbourne heat and drought once established. Flowers late summer into autumn on stiff stems — great cut flower. Leave spent seed heads through winter for structure and birds. Cut old stems to ground level in late winter before new basal growth emerges."
+    caption: The cutting bed at planting, May 2026
+notes: Rudbeckia fulgida var. deamii (Deam's Black-eyed Susan). 3 plants total — 1 in the cutting bed, 2 distributed to other beds around the garden. Tough, long-lived perennial that handles Melbourne heat and drought once established. Flowers late summer into autumn on stiff stems — great cut flower. Leave spent seed heads through winter for structure and birds. Cut old stems to ground level in late winter before new basal growth emerges.
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Crown check, then feed only on a yes: green basal shoots showing = one 9L can of half-strength PowerFeed (about 1ml per litre) round the crown, not on it. Nothing showing = leave it alone, no water, no feed"
     category: feed
-    completed: "2026-09"
-  - months: [3, 4]
+    completed: 2026-09
+  - months:
+      - 5
     task: "Cut back (5 min): once the flowers are brown and the stems dry, cut every old stem to 3cm above the crown with scissors. Want the seed heads for the birds? Leave them and do this cut in August instead. Never cut the green basal leaves: that is next year's plant."
     category: prune
-  - months: [12, 1, 2, 3]
+  - months:
+      - 1
+      - 2
+      - 3
+      - 4
     task: "Cut for the vase (whenever): cut stems long, to just above a leaf pair, and take them freely. Cutting is what keeps the plant compact and flowering. Leave a few late heads if you want winter seed heads for the birds."
     category: harvest
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: cutback moved to May (same as the echinaceas), vase months moved to Jan-Apr."
+    category: general
   - date: "2026-09-10"
     entry: "Fed: half-strength PowerFeed round the crown (basal shoots showing, so the conditional was a yes)."
     category: feed
@@ -36,7 +46,7 @@ log:
     entry: "Multiguard re-scattered after the 10 Aug rain washed out the July bait: copper tub, cutting bed, bartlettina ring. Tub shoots covered through to the mid-Sept keep-or-replace verdict."
     category: general
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2307 tub, IMG_2288/2289 raised beds). Green shoots visible in the copper tub through the straw — if that's the grazed plant reshooting, the mid-September replace-or-keep verdict is trending keep. Weed seedlings are coming up through the sugarcane in the raised beds — worth a 10-minute hand-pull before they seed, so the crowns aren't competing at spring push."
+    entry: End-of-winter baseline photos (IMG_2307 tub, IMG_2288/2289 raised beds). Green shoots visible in the copper tub through the straw — if that's the grazed plant reshooting, the mid-September replace-or-keep verdict is trending keep. Weed seedlings are coming up through the sugarcane in the raised beds — worth a 10-minute hand-pull before they seed, so the crowns aren't competing at spring push.
     category: general
   - date: "2026-07-29"
     entry: "Snail bait done: Multiguard (iron EDTA, cat-safe) scattered in the copper tub and cutting bed. Spring basal shoots protected."
@@ -45,5 +55,5 @@ log:
     entry: "Photo check: the distributed plants live in the copper tub planter near the path (Jay confirmed). One grazed to bare stems by snails — straw mulch in the tub is prime snail habitat. Crown left in place: winter dieback is normal anyway, roots likely alive. Verdict mid-September — replace if no basal shoots by then. Protect: scatter cat-safe iron-EDTA snail bait (Multiguard-type) in the tub and pull straw back from the crowns. Healthy basal rosettes also seen in the back-fence raised bed."
     category: general
   - date: "2026-05-20"
-    entry: "3 plants from 100mm pots. 1 in the cutting bed with echinacea, 2 distributed to other beds. Sugarcane mulch applied."
+    entry: 3 plants from 100mm pots. 1 in the cutting bed with echinacea, 2 distributed to other beds. Sugarcane mulch applied.
     category: plant

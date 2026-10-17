@@ -72,6 +72,19 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - Deploy to Vercel
 - **Cutting bed (old tomato bed):** standalone irrigated 1m² north-facing bed, hot/harsh part-sun, drains and dries in summer. Cat-safe cut-flower patch. **Planted May 2026:** Rudbeckia fulgida var. deamii + Echinacea (species type, variety TBC) alongside the existing Echinacea Sombrero (transplanted April). Sugarcane mulch applied. Salvia cut back. All establishing — leave alone through winter, rain handles watering. Deliberately avoided fancy Echinacea hybrids — short-lived/rot-prone, and Jay has prior echinacea-rot history. Care = cutting for the vase is the maintenance, cut old stems down late autumn, no extra water for the echinacea (rot risk), bed irrigation only.
 
+## Card audit 17 Oct 2026 (Jay: 'every plant should be set up for what it needs each month/season')
+
+- 106 changes across the collection, all logged on the cards with 'Card audit 17 Oct 2026'. Conventions set that day, keep them:
+- **Indoor: shared jobs live on `indoor-collection.yaml`** (monthly feed Sept-Feb, Oct + Apr watering-mode switch, Mar + Sept shower day, quarterly quarter-turn). Per-plant indoor cards carry ONLY plant-specific rows (pups, repots, mite glances, pinches). Each indoor card's notes end with its watering rule. Never re-add per-plant watering / wipe / rotate / gnat / 'move to light' / feed rows. When Jay feeds the indoor plants, mark the ONE collection row completed for that month
+- **Parlor palms never get cut back** (stems don't reshoot below a cut). The playroom palm's stretch is permanent: grow light or accept it
+- **Lawn feed cadence = Oct, Dec, Feb, Apr** (Sudden Impact is a 6-8 week product). Mow row runs Oct-Apr. No aerating, ever. Bare patches = peg runners (Nov row)
+- **Citrus gall wasp check is Jul/Aug on all four trees** (adults emerge Sept-Nov; October is too late). Citrus also carry Oct + Apr sugarcane refresh and a Jan/Feb leaf-miner glance; lemon has a May scale/ant glance; grapefruit an Oct/Mar Epsom check
+- **Flowering-month fixes:** lavender prune Feb/Mar (not May/Jun); Caradonna deadhead Nov-Jan; black eyed susan deadhead Jan-Mar; rudbeckia cutback May, vase Jan-Apr; echinacea deadhead to March; bartlettina feed Nov after the prune, frost check through Aug, hot-day hose row; achillea summer deadhead added
+- Added where a real job had no row: native daisies spring shear, dusty miller Mar leggy trim, dichondra Feb/Mar edge pull, chalk sticks May stalk snip, banksia Oct tip prune, wattle Mar borer check, gymea Sept native feed, taro Dec feed, olive Feb lace-bug glance + Apr/May fruit row, strawberry Oct/Nov runners+snail bait + Aug clean-up + Mar runner sort
+- Deleted: feijoa 'no feed' reminder row (rule in notes), the two stale Sept dieback-check rows on the muehlenbeckias, the east jasmine's May 2026 one-offs
+- Olive watershoot patrol thinned to Nov/Jan/Mar (`repeat: monthly` kept so a done-mark hides one month). Jasmine cohort ties now run Nov-Mar
+- Scan after any session: `node -e` js-yaml for `task.length<60 && !completed && category!=='harvest'` (should be 0) and the date-in-prose regex
+
 ## Dashboard rules
 
 - The dashboard "To do" section is **data-driven** — pulled from plants with `urgency` set, displaying `nextAction`. Do not add hardcoded HTML lists to `index.astro`. To add a to-do item, edit the relevant plant YAML.

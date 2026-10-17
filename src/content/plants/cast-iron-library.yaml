@@ -2,35 +2,18 @@ name: Cast Iron Plant (x2, Library)
 type: perennial
 indoor: true
 location: Library
-health: "Struggling — very sparse (2-3 limp leaves), oversized pot risks overwatering"
+health: Struggling — very sparse (2-3 limp leaves), oversized pot risks overwatering
 healthStatus: struggling
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0936.jpg
-notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring."
+notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring. Watering: two plants in too much soil. Top 5cm dry before a drink, monthly in winter."
 tasks:
-  - months: [9, 3]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
-    category: feed
-    repeat: monthly
-  - months: [4]
-    task: Stop watering until top 5cm of soil is fully dry; relocate to brightest available spot
-    category: water
-  - months: [4, 5, 6, 7, 8]
-    task: Reduce watering significantly — soil stays wet much longer in cool months
-    category: water
-  - months: [9]
-    task: Repot into a snug, smaller pot and use a free-draining mix
+  - months:
+      - 10
+      - 11
+    task: "Repot into a snug pot (20 min): the pot is far too big for the roots, which is why it stays wet. Knock it out, shake off the sodden mix, and pot into a container only 2-3cm wider than the root mass in free-draining mix. Water once, then leave it a fortnight"
     category: general
-  - months: [4, 5, 6, 7, 8]
-    task: Move closer to brightest available window — light drops fast through autumn
+log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 7 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
     category: general
-  - months: [4, 5]
-    task: Wipe leaves with damp cloth to remove dust
-    category: general
-    repeat: monthly
-  - months: [9]
-    task: Remove any yellowing leaves at base
-    category: prune
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray

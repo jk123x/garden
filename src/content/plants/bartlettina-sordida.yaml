@@ -20,17 +20,26 @@ tasks:
     category: prune
     byDay: 15
   - months:
-      - 9
-    task: "Feed (2 min): Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feed AFTER the spring cutback, not before it, or you feed growth you are about to remove"
+      - 11
+    task: "Feed (2 min), straight after the November prune: Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feeding before the prune just grows wood you're about to cut off"
     category: feed
-    completed: 2026-07
   - months:
       - 6
       - 7
+      - 8
     task: "Frost check (1 min): the trigger is a forecast under 2 degrees on the dashboard weather strip. That night, throw an old sheet over the top and pull it off in the morning. Blackened soft tips after a frost are cosmetic, cut them off in spring, not now"
     category: general
     completed: 2026-07
+  - months:
+      - 12
+      - 1
+      - 2
+    task: "Hot-day hose (5 min): the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
+    category: water
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: feed moved to Nov after the prune, frost check through Aug, hot-day hose added."
+    category: general
   - date: "2026-10-16"
     entry: Full purple flower, looking gorgeous. Jay holding the cutback until the show is over; prune row moved from 15 Oct to November with a 'puffs browned off' trigger.
     category: general

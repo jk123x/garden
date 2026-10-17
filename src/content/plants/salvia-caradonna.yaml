@@ -1,28 +1,39 @@
 name: Salvia nemorosa 'Caradonna'
 type: perennial
 location: Backyard (raised bed)
-zones: [3]
-health: "Cut back hard. Nothing visible above ground — dormant through winter, expected to reshoot from the crown in spring (September)."
+zones:
+  - 3
+health: Cut back hard. Nothing visible above ground — dormant through winter, expected to reshoot from the crown in spring (September).
 healthStatus: dormant
-lastAssessed: "2026-04"
-notes: "Ornamental sage (Salvia nemorosa 'Caradonna'). Originally 2 plants in the raised bed. Jay cut them back hard when the bed got messy. Salvia nemorosa is a clumping perennial that dies back to the base and reshoots — a hard cutback isn't a death sentence. Watch for new basal growth in September. If nothing emerges by October, the crowns are dead. The overwatering that killed the Echinacea may have also damaged these — Salvia nemorosa prefers well-drained soil."
+lastAssessed: 2026-04
+notes: Ornamental sage (Salvia nemorosa 'Caradonna'). Originally 2 plants in the raised bed. Jay cut them back hard when the bed got messy. Salvia nemorosa is a clumping perennial that dies back to the base and reshoots — a hard cutback isn't a death sentence. Watch for new basal growth in September. If nothing emerges by October, the crowns are dead. The overwatering that killed the Echinacea may have also damaged these — Salvia nemorosa prefers well-drained soil.
 tasks:
-  - months: [1, 2]
+  - months:
+      - 11
+      - 12
+      - 1
     task: "Deadhead (5 min): when a spike is mostly brown, cut it off just above the first pair of leaves below it, not just the tip. Cutting to leaves is what triggers the second flush. Do the whole clump in one go once about half the spikes are spent."
     category: prune
-  - months: [3, 4]
+  - months:
+      - 3
+      - 4
     task: "Cut back (5 min): once the last flush is finished and the stems are browning, cut every stem down to the low basal leaves, about 5cm. Leave the basal rosette alone. Do not water afterwards: soggy winter soil is what killed the echinacea in this bed."
     category: prune
-    completed: "2026-04"
-  - months: [9]
+    completed: 2026-04
+  - months:
+      - 9
     task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the clump once green basal shoots are showing, then watered in. No shoots yet = no feed, look again in a fortnight."
     category: feed
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Divide check (10 sec): woody, sparse centre = divide (roughly every 3-4 years)."
     category: general
-    completed: "2026-09"
+    completed: 2026-09
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: deadhead moved to Nov-Jan to catch the first flush."
+    category: general
   - date: "2026-07-29"
-    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed

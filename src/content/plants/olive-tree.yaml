@@ -1,46 +1,66 @@
 name: Olive Tree
 type: tree
 location: Backyard
-zones: [4]
+zones:
+  - 4
 health: "Big winter prune done 31 July 2026 — ~33% off, lower limbs removed for a clean lifted trunk with the canopy carried high. Healthy silvery canopy on what remains. Expect a vigorous response in spring: watershoots along the trunk and around cuts — rub or snip them off while pencil-thin, monthly through the growing season."
 healthStatus: healthy
-lastAssessed: "2026-10"
-notes: "Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden."
+lastAssessed: 2026-10
+notes: Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden.
 image: /images/winter-2026/IMG_2299.jpg
 photos:
   - src: /images/winter-2026/IMG_2299.jpg
-    caption: "The crown lift from the lawn (6 Aug 2026)"
+    caption: The crown lift from the lawn (6 Aug 2026)
   - src: /images/winter-2026/IMG_2300.jpg
-    caption: "Clean trunk, canopy carried high (6 Aug 2026)"
+    caption: Clean trunk, canopy carried high (6 Aug 2026)
   - src: /images/plants/IMG_2120.jpg
-    caption: "Right after the prune, 31 Jul 2026"
+    caption: Right after the prune, 31 Jul 2026
 tasks:
-  - months: [7, 8]
+  - months:
+      - 7
+      - 8
     task: "Winter shape prune (1 hr, secateurs + saw): open the centre for airflow, crossing and inward branches back to a fork, never more than a quarter of the canopy. After the 2026 crown lift, 2027 is a light year: tidy only, no more lifting."
     category: prune
-    completed: "2026-07"
-  - months: [10, 11, 12, 1, 2, 3]
-    task: "Watershoot patrol (5 min): rub off with a thumb, or snip flush, every soft upright shoot on the trunk or around the big 2026 cuts while it is still pencil-thin and green. Left a season they harden into a second canopy from the base. Monthly because they come in waves."
+    completed: 2026-07
+  - months:
+      - 11
+      - 1
+      - 3
+    task: "Watershoot patrol (5 min, every second month): rub off with a thumb, or snip flush, every soft upright shoot on the trunk or around the big 2026 cuts while it is still pencil-thin and green. Left a season they harden into a second canopy from the base. Monthly because they come in waves."
     category: prune
-    completed: "2026-10"
+    completed: 2026-10
     repeat: monthly
-  - months: [9]
+  - months:
+      - 9
     task: "Late-winter feed (5 min): Richgro All Purpose, normal dose, scattered at the dripline (the canopy edge, not against the trunk) and watered in."
     category: feed
-    completed: "2026-07"
-  - months: [3]
+    completed: 2026-07
+  - months:
+      - 3
     task: "Autumn feed (5 min): Richgro All Purpose, normal dose at the dripline, watered in. This is the feed that builds next spring's flower buds, so do it even though the tree looks like it needs nothing."
     category: feed
+  - months:
+      - 2
+    task: "Lace bug and scale glance (2 min): leaves speckled yellow on top with black specks underneath = olive lace bug; brown bumps on stems = scale. Either = eco-oil under the leaves on a cool evening, twice a fortnight apart. Clean = nothing"
+    category: spray
+  - months:
+      - 4
+      - 5
+    task: "Fruit (1 hour, only if it's carrying olives): pick for brining, or strip and bin them. Left on, they drop, stain the paving and feed the rats"
+    category: harvest
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: watershoot patrol thinned to Nov/Jan/Mar, lace bug glance and fruit row added."
+    category: general
   - date: "2026-10-09"
     entry: "October watershoot patrol done: trunk and cut-site shoots rubbed/snipped off. Next wave due November."
     category: prune
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2299/2300). The crown lift reads really well from the lawn — clean trunk, canopy held high, healthy silvery foliage, no stress from the ~33% cut. Nothing to do until spring watershoot patrol."
+    entry: End-of-winter baseline photos (IMG_2299/2300). The crown lift reads really well from the lawn — clean trunk, canopy held high, healthy silvery foliage, no stress from the ~33% cut. Nothing to do until spring watershoot patrol.
     category: general
   - date: "2026-07-31"
     entry: "Winter prune done — ~33% of canopy removed, heavier than the planned 20% and more of a crown lift than an interior thin (lower limbs off, clean bare trunk, canopy carried high — photos IMG_2119/2120). Olives tolerate this fine. Follow-through job created: watershoots and trunk suckers will erupt in spring along the trunk and cut sites — rub them off young or the tree re-bushes from the base. No more pruning this year."
     category: prune
   - date: "2026-07-29"
-    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed

@@ -4,35 +4,22 @@ indoor: true
 location: Library (isolated)
 health: "Fern scale (Pinnaspis aspidistrae) confirmed July 2026 — the white material was never sori. All three treatment rounds complete (29 Jul cut + spray, 8 Aug wipe, 18 Aug wipe). Now in the weekly-inspection phase: fresh white flecks on the midribs = bin the plant."
 healthStatus: monitor
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 urgency: later
 nextAction: "Weekly library fleck glance (1 min): both holly ferns' midribs, the rabbit's foot fern's fronds and feet, the flecked parlor palm, and the cascade palm's frond undersides. Fresh white flecks on a fern = the wipes lost, bin it — two ferns aren't worth the collection. Everything clean through mid-Sept = won, end isolation and resume normal care + feeding."
 image: /images/plants/IMG_0971.jpg
-notes: "Cyrtomium falcatum. DIAGNOSIS HISTORY: April 2026 flagged white powdery material, treated with alcohol + soap, then re-read as probable sori and downgraded to monitor. July 2026 photos overturned that — the white felted 1-2mm flecks and cottony ribbons run along the TOP of the rachis and scatter across leaflet upper surfaces, which sori never do (sori are firm round dots in rows on the underside only). This matches male fern scale armor exactly: white, felted, conspicuous against dark foliage, clustering along midribs, with tan oyster-shell females hidden in the mass. Fern scale is one of the most common pests of exactly this species. Armored scale, so no honeydew — the April 'honeydew' was a misread. It has been active since at least April; the wipe-downs knocked it back but never cleared the crawlers."
+notes: "Cyrtomium falcatum. DIAGNOSIS HISTORY: April 2026 flagged white powdery material, treated with alcohol + soap, then re-read as probable sori and downgraded to monitor. July 2026 photos overturned that — the white felted 1-2mm flecks and cottony ribbons run along the TOP of the rachis and scatter across leaflet upper surfaces, which sori never do (sori are firm round dots in rows on the underside only). This matches male fern scale armor exactly: white, felted, conspicuous against dark foliage, clustering along midribs, with tan oyster-shell females hidden in the mass. Fern scale is one of the most common pests of exactly this species. Armored scale, so no honeydew — the April 'honeydew' was a misread. It has been active since at least April; the wipe-downs knocked it back but never cleared the crawlers. Watering: evenly moist Oct-Mar, top 2cm dry between drinks Apr-Sept. Never oils on this fern."
 tasks:
-  - months: [8, 9]
-    task: "Fern scale follow-up — wipe fronds with soapy water/alcohol every 7-10 days, inspect midribs for new white flecks. Still recurring after 3 rounds = bin the plant"
-    category: spray
-  - completed: "2026-10"
-    months: [9, 10, 11, 12, 1, 2]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, poured onto already-moist soil on a normal watering day. Never onto dry soil. Fishy for a day, so do it in the laundry or outside. Only once the fleck checks have held clear"
-    category: feed
-    repeat: monthly
-  - months: [9]
-    task: Remove old/tatty fronds
+  - months:
+      - 9
+    task: "Frond tidy (5 min, scissors): cut fully brown or badly torn fronds off at the base, and look along the midribs for white flecks while you're in there (fern scale history in this room). Flecks = alcohol wipe on sight"
     category: prune
-  - months: [12, 1, 2]
-    task: Keep soil consistently moist in summer
-    category: water
-  - months: [4, 5]
-    task: Reduce watering — check soil 2cm down before watering
-    category: water
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 6 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
+    category: general
   - date: "2026-10-16"
-    entry: "Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass)."
+    entry: Watered with PowerFeed (October monthly feed done, whole indoor collection in one pass).
     category: feed
   - date: "2026-08-18"
     entry: "SPREAD CONFIRMED same day as round 3: small white flecks found on the library rabbit's foot fern + one of the parlor palms (both alcohol-sprayed on sight). Crawlers are circulating beyond the two holly ferns — the 29 Jul collection all-clear is dead. Retrospective: the library bird's nest fern that died and was binned 8 Aug lived in this same room; with scale now confirmed jumping plants here, both indoor bird's nest deaths look like probable scale casualties rather than 'the species can't cope indoors'. Collection-wide fleck check is now part of the weekly routine until everything holds clear."
@@ -47,7 +34,7 @@ log:
     entry: "Collection inspection done: white scale clearly present on 2 holly ferns only (this one + one other — pot TBC). Library bird's nest, rabbit's foots and the rest look clear. Both affected ferns get the wipe rounds together; round 1 alcohol spray covered them."
     category: general
   - date: "2026-07-29"
-    entry: "Jay reports the big indoor bird's nest fern (study) went gradually lifeless and was binned earlier in July — retrospectively a possible fern scale casualty (bird's nest ferns are prime hosts). Notably its decline was diagnosed in May as dryness/low humidity and never responded to daily misting — consistent with scale being the real cause. If so, the infestation has been circulating indoors for months. Raises the priority of inspecting all remaining indoor ferns. YAML for the binned fern deleted; outdoor bird's nest is fine."
+    entry: Jay reports the big indoor bird's nest fern (study) went gradually lifeless and was binned earlier in July — retrospectively a possible fern scale casualty (bird's nest ferns are prime hosts). Notably its decline was diagnosed in May as dryness/low humidity and never responded to daily misting — consistent with scale being the real cause. If so, the infestation has been circulating indoors for months. Raises the priority of inspecting all remaining indoor ferns. YAML for the binned fern deleted; outdoor bird's nest is fine.
     category: general
   - date: "2026-07-29"
     entry: "Treatment round 1 done same day as diagnosis: worst-affected fronds cut off, remaining fronds sprayed liberally with isopropyl alcohol (neighbouring plants sprayed too). Round 2 due 5-8 Aug as a cloth wipe, round 3 a week after that. Watch for alcohol burn on fronds from the heavy spray."

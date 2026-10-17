@@ -2,29 +2,13 @@ name: Cast Iron Plant (Library, small)
 type: perennial
 indoor: true
 location: Library
-health: "Recovering — cut back hard, a few pale leaves, watch for new shoots"
+health: Recovering — cut back hard, a few pale leaves, watch for new shoots
 healthStatus: establishing
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0960.jpg
-notes: "Aspidistra elatior. Cut way back, slowly regrowing in a blue ceramic pot. Pot size looks appropriate — just needs patience and the right conditions."
-tasks:
-  - months: [9, 3]
-    task: "Feed: PowerFeed at half strength, about 1ml per litre, onto already-moist soil. Cast irons barely need it, so one dose now and one in March is plenty"
-    category: feed
-    repeat: monthly
-  - months: [4, 5, 6]
-    task: Resist watering — new shoots emerge slowly; keep dry-side
-    category: water
-  - months: [4, 5, 6, 7, 8]
-    task: Move closer to brightest available window — light drops fast through autumn
+notes: "Aspidistra elatior. Cut way back, slowly regrowing in a blue ceramic pot. Pot size looks appropriate — just needs patience and the right conditions. Watering: dry-side always. Top 5cm dry before a drink, monthly in winter."
+tasks: []
+log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: 6 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
     category: general
-  - months: [4, 5]
-    task: Wipe leaves with damp cloth to remove dust
-    category: general
-    repeat: monthly
-  - months: [9]
-    task: Wipe dust off leaves
-    category: general
-  - months: [4, 5, 6]
-    task: Check soil for fungus gnat larvae; yellow sticky trap if needed
-    category: spray

@@ -46,10 +46,15 @@ tasks:
       - 11
       - 12
       - 1
+      - 2
+      - 3
     task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: cohort ties extended to March."
+    category: general
   - date: "2026-10-16"
     entry: "Big spring facelift in progress: ~3 hours a day for a week, 20 hours in, plenty left. Jay is thinning every wire to ONE leader per direction, removing the 2-3 competing green runners that were racing along the same wire. Confirmed as the right structure (a rope of runners shades itself and throws no laterals), with the refinement that losers get rerouted to bare wire or shortened to 2-3 leaves before anything is cut out at the base. Cost: some spring flower lost and coverage starts a few weeks behind, regrows fast in October. From here the monthly cohort-ties pass is a short untwine-and-tie, not another 20 hours."
     category: prune

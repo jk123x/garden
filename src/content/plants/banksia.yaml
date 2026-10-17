@@ -1,37 +1,48 @@
 name: Banksia
 type: shrub
 location: Front yard
-zones: [1]
-health: "Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged."
+zones:
+  - 1
+health: Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged.
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: 2026-07
 image: /images/winter-2026/IMG_2278.jpg
 photos:
   - src: /images/winter-2026/IMG_2278.jpg
-    caption: "Candles at multiple stages, end of winter (6 Aug 2026)"
+    caption: Candles at multiple stages, end of winter (6 Aug 2026)
   - src: /images/winter-2026/IMG_2273.jpg
-    caption: "The bed toward the street — feijoa stubs behind (6 Aug 2026)"
+    caption: The bed toward the street — feijoa stubs behind (6 Aug 2026)
   - src: /images/winter-2026/IMG_2272.jpg
-    caption: "From the porch side (6 Aug 2026)"
+    caption: From the porch side (6 Aug 2026)
   - src: /images/plants/IMG_0955.jpg
-    caption: "April 2026 assessment"
+    caption: April 2026 assessment
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: optional spring tip prune added."
+    category: general
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2272/2273/2278). Flowering well — multiple orange-brown candles at different stages, fine foliage clean and green. Nothing needed."
+    entry: End-of-winter baseline photos (IMG_2272/2273/2278). Flowering well — multiple orange-brown candles at different stages, fine foliage clean and green. Nothing needed.
     category: general
   - date: "2026-07-29"
     entry: "Native feed blitz done: Osmocote Native applied to all 8 natives (banksia, cinnamon wattle, kangaroo paw, westringia, cushion bush, chalk sticks, dianellas, native daisies). Replaces the September native feeds."
     category: feed
 notes: "Native banksia with distinctive cone-like flower heads. July 2026 photos sharpen the ID: low mounding habit, fine needle foliage, round orange-brown brush cones held close to the bush — reads as a dwarf Banksia spinulosa type ('Birthday Candles' or similar cultivar). Grows in the front bed alongside the kangaroo paws and feijoas. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or snap off for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Osmocote Native at the bag rate, scattered over the root zone out to the drip line, then water in. Only ever this product: regular fertiliser is high phosphorus and can kill a banksia"
     category: feed
-    completed: "2026-07"
-  - months: [3]
+    completed: 2026-07
+  - months:
+      - 3
     task: "Cone tidy (5 min, optional): snap or snip off cones that have gone grey-brown and dry. Leave anything still green, yellow or orange, those are live flowers still developing. Never cut into the foliage behind a cone, the bush does not need shaping"
     category: prune
-  - months: [4]
+  - months:
+      - 4
     task: "Mulch (10 min): rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"
     category: mulch
-    completed: "2026-04"
+    completed: 2026-04
+  - months:
+      - 10
+    task: "Tip prune after flowering (10 min, optional): snip the last 5cm off stems that have finished flowering, always leaving leaves below the cut. Keeps a dwarf banksia dense; cut into bare wood and that stem is dead"
+    category: prune

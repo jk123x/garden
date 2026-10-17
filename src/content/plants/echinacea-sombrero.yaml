@@ -1,11 +1,15 @@
 name: Echinacea Sombrero
 type: perennial
 location: Backyard (new composted bed)
-zones: [2]
-health: "Transplanted April 16 to the newly composted bed. Clump is intact with multiple emerging flower buds and the original red bloom. In better drainage now — should really take off once it settles."
+zones:
+  - 2
+health: Transplanted April 16 to the newly composted bed. Clump is intact with multiple emerging flower buds and the original red bloom. In better drainage now — should really take off once it settles.
 healthStatus: good
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 log:
+  - date: "2026-10-17"
+    entry: "Card audit 17 Oct 2026: deadhead extended to March."
+    category: general
   - date: "2026-09-17"
     entry: "Irrigation: the composted bed near the house is on ZONE 2 (the lawn zone, 12-min run, one shrubbler) not zone 3 as first mapped. Its shrubbler was buried and dead; dug out and working 17 Sept. A 12-min run is ~5L, so on a 35°+ day this bed is a hose job."
     category: water
@@ -13,27 +17,34 @@ log:
     entry: "Fed: half-strength PowerFeed round the crown, kept off it (shoots showing, so the conditional was a yes)."
     category: feed
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos of the flower beds (IMG_2288/2289). Bed quiet under sugarcane — normal, echinacea is fully dormant; the crown check for new growth runs Aug-Sept as tasked. Weeds germinating through the straw are on the round-2 weeding list — hand-pull only, no digging near the crown, and no watering during checks (the old overwatering rule stands)."
+    entry: End-of-winter baseline photos of the flower beds (IMG_2288/2289). Bed quiet under sugarcane — normal, echinacea is fully dormant; the crown check for new growth runs Aug-Sept as tasked. Weeds germinating through the straw are on the round-2 weeding list — hand-pull only, no digging near the crown, and no watering during checks (the old overwatering rule stands).
     category: general
 image: /images/plants/IMG_1018.jpg
 photos:
   - src: /images/winter-2026/IMG_2289.jpg
-    caption: "The flower beds, dormant under straw (6 Aug 2026)"
+    caption: The flower beds, dormant under straw (6 Aug 2026)
   - src: /images/plants/IMG_1018.jpg
-    caption: "After the April transplant"
+    caption: After the April transplant
 notes: "Echinacea 'Sombrero Salsa Red'. Moved from the original metal raised bed (where overwatering killed the others) into the freshly composted bed that previously held tomatoes/basil. Water in deeply, mulch 3-5cm keeping it off the crown, then leave alone. No fertiliser for 2-3 weeks. Key rule: don't overwater over winter — that's what killed the previous plants. Normal rainfall should be enough. Check soil with finger test before watering."
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Crown check, then feed only on a yes: green shoots at the crown = one 9L can of half-strength PowerFeed (about 1ml per litre) round the crown, never poured onto it. No shoots = do nothing, no extra water either (rot risk)"
     category: feed
-    completed: "2026-09"
-  - months: [5]
+    completed: 2026-09
+  - months:
+      - 5
     task: "Cut the dead stems to ground level (5 min, secateurs) once they are fully brown, just above the crown. Don't dig around the crown and don't water it in: overwatering killed the previous plants."
     category: prune
-  - months: [4]
-    task: "Top up sugarcane to 3-5cm around the plant (5 min), leaving a clear ring around the crown itself. Mulch piled on the crown holds water against it and rots it, which is what killed the previous plants."
+  - months:
+      - 4
+    task: Top up sugarcane to 3-5cm around the plant (5 min), leaving a clear ring around the crown itself. Mulch piled on the crown holds water against it and rots it, which is what killed the previous plants.
     category: mulch
-    completed: "2026-04"
-  - months: [12, 1, 2]
+    completed: 2026-04
+  - months:
+      - 12
+      - 1
+      - 2
+      - 3
     task: "Deadhead (2 min per visit): cut each spent flower back to the next bud or leaf pair down the stem, or cut the fresh ones for the vase, same effect. Leave the last autumn flush to form seed heads."
     category: general
