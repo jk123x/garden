@@ -4,9 +4,9 @@ location: Backyard (near path)
 zones:
   - 2
   - 4
-health: Sugarcane mulch down April 2026. Good foliage — dense dark green leaves with active runners extending outward. No fruit visible (expected for April). Some yellowed older leaves at base from normal cycling.
-healthStatus: healthy
-lastAssessed: 2026-04
+health: Healthy plants, flowering and setting fruit Oct 2026, but the crop is being thinned by a toddler pulling green fruit and snails are active in the patch (17 Oct). Crowns intact.
+healthStatus: good
+lastAssessed: 2026-10
 image: /images/plants/IMG_0920.jpg
 notes: Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months.
 tasks:
@@ -38,13 +38,16 @@ tasks:
   - months:
       - 10
       - 11
-    task: "Runners off + snail bait (5 min): snip runners while the plants are flowering and fruiting so the energy goes to fruit, and scatter Multiguard round the plants as the first fruit colours. Slugs take the ripe ones overnight"
+    task: "Snail bait + runners off (5 min): snails seen in the patch 17 Oct. Multiguard in a thin scatter between the plants, a pellet every 5cm, never piles (toddler in the bed), reapply after rain. Lift the straw edges and pick off what's hiding there at dusk. Snip runners while the plants are fruiting so the energy goes to fruit. Any crown pulled loose by small hands = press it back in at soil level and water"
     category: general
   - months:
       - 3
     task: "Runner sort (10 min): a runner with its own roots and a good crown = snip the cord and leave it as a new plant. Runners crossing the path = cut off. Three-year-old crowns that fruited poorly = pull them, the young plants replace them"
     category: prune
 log:
+  - date: "2026-10-17"
+    entry: "Jay's daughter has been ripping up the baby strawberries, a lot of green fruit lost. Plants themselves fine as long as crowns stay in the ground (press any loose crown back in at soil level). Snails spotted in the patch today (her catch). Advice: Multiguard thin scatter now, reapply after rain, two dusk torch walks, lift the straw edges when looking; net tunnel over the patch for the fruiting weeks if the damage keeps up, otherwise accept a thin crop this season."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: spring runner/snail row added, clean-up moved to August, autumn runner sort added."
     category: general
