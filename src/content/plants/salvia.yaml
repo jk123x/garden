@@ -31,17 +31,17 @@ tasks:
     category: feed
     completed: 2026-07
   - months:
-      - 10
       - 11
-      - 12
-      - 1
-      - 2
-      - 3
-    task: "Deadhead (5 min): snip any spike that has gone brown and dry back to the leaf pair below it. Keeps the purple spikes coming through summer. While there, trim any stem sprawling across the stone path back to the bed edge."
-    category: general
-    repeat: monthly
-    completed: 2026-10
+    task: "Pinch the tips (10 min, scissors): once the new stems are knee-high, snip the top 5cm off each one. Bushier plant, more flowering tips in autumn, less of the flop. One pass, not repeated"
+    category: prune
+  - months:
+      - 4
+    task: "Tidy brown spikes (10 min), only if it looks tatty: snip each finished spike back to the leaf pair below it. Still flowering with bees on it = leave it, the May cutback clears everything anyway"
+    category: prune
 log:
+  - date: "2026-10-17"
+    entry: "Monthly Oct-Mar deadhead row deleted (Jay: why monthly?). Mexican sage flowers late summer to autumn on new growth and doesn't re-flush from deadheading, so the row was noise. Replaced with one November tip pinch and an optional April tidy."
+    category: general
   - date: "2026-10-17"
     entry: October deadhead done (Jay). Monthly row returns 1 Nov.
     category: prune
