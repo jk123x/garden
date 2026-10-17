@@ -43,12 +43,10 @@ tasks:
       - 2
     task: "Lace bug and scale glance (2 min): leaves speckled yellow on top with black specks underneath = olive lace bug; brown bumps on stems = scale. Either = eco-oil under the leaves on a cool evening, twice a fortnight apart. Clean = nothing"
     category: spray
-  - months:
-      - 4
-      - 5
-    task: "Fruit (1 hour, only if it's carrying olives): pick for brining, or strip and bin them. Left on, they drop, stain the paving and feed the rats"
-    category: harvest
 log:
+  - date: "2026-10-17"
+    entry: "Fruit row deleted: Jay won't be stripping or picking olives. Fruit drop is accepted."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: watershoot patrol thinned to Nov/Jan/Mar, lace bug glance and fruit row added."
     category: general
