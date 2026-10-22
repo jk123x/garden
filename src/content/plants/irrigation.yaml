@@ -50,6 +50,7 @@ tasks:
     day: 18
     task: "Morning-after check at 15 min on the lawn zone (2 min): first run at the new 15 min was this morning. Walk the lawn: squelching underfoot or standing water = back to 12 min on zone 2, it's the zone that flooded. Firm and damp = 15 stays. While the lid is open, read back: every 3 days, one start time, zone 1 at 15."
     category: water
+    completed: 2026-10
   - months:
       - 10
     day: 24

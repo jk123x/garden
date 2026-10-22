@@ -26,7 +26,7 @@ log:
   - date: "2026-07-29"
     entry: "Native feed blitz done: Osmocote Native applied to all 8 natives (banksia, cinnamon wattle, kangaroo paw, westringia, cushion bush, chalk sticks, dianellas, native daisies). Replaces the September native feeds."
     category: feed
-notes: "Native banksia with distinctive cone-like flower heads. July 2026 photos sharpen the ID: low mounding habit, fine needle foliage, round orange-brown brush cones held close to the bush — reads as a dwarf Banksia spinulosa type ('Birthday Candles' or similar cultivar). Grows in the front bed alongside the kangaroo paws and feijoas. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or snap off for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne."
+notes: "Native banksia with distinctive cone-like flower heads. July 2026 photos sharpen the ID: low mounding habit, fine needle foliage, round orange-brown brush cones held close to the bush — reads as a dwarf Banksia spinulosa type ('Birthday Candles' or similar cultivar). Grows in the front bed alongside the kangaroo paws and feijoas. The cones develop over weeks, so seeing them at different stages (green through to yellow/brown) is normal, not dieback. Leave spent cones on or snap off for neatness — they're not harmful. Clear leaf litter from around the base to reduce pest habitat. Very low maintenance native, well-suited to Melbourne. Optional, never scheduled: a 5cm tip snip on finished flower stems in spring keeps a dwarf banksia dense. Only if Jay feels like it."
 tasks:
   - months:
       - 9
@@ -42,7 +42,3 @@ tasks:
     task: "Mulch (10 min): rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"
     category: mulch
     completed: 2026-04
-  - months:
-      - 10
-    task: "Tip prune after flowering (10 min, optional): snip the last 5cm off stems that have finished flowering, always leaving leaves below the cut. Keeps a dwarf banksia dense; cut into bare wood and that stem is dead"
-    category: prune

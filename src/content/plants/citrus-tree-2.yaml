@@ -91,14 +91,6 @@ tasks:
     category: prune
     completed: 2026-10
   - months:
-      - 10
-    task: "Sugarcane top-up (10 min): 5cm from the bale over the whole root zone out to the canopy edge, a hand's width clear of the trunk. Citrus roots sit in the top 30cm and cook in a Melbourne summer without it"
-    category: mulch
-  - months:
-      - 4
-    task: "Sugarcane top-up (10 min): the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"
-    category: mulch
-  - months:
       - 1
       - 2
     task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
@@ -108,6 +100,7 @@ tasks:
       - 3
     task: "Magnesium check (5 min): older leaves yellow between green veins (the inverted-V pattern) = 2 tablespoons Epsom salts in a 9L can, poured over the root zone. Even green = skip it. This tree has the Mg history, so look"
     category: feed
+    completed: 2026-10
 urgency: week
 dueBy: "2026-10-29"
 nextAction: "Pale leaf check (30 sec): only the new soft tip growth pale, old leaves behind it dark = normal spring flush, do nothing. Old leaves pale too: yellow between the veins with a green arrow at the base = Epsom salts, 2 tablespoons in a 9L can over the root zone, once. Old leaves fading evenly, lowest first = nitrogen, bring the December feed forward: Experts Choice at HALF the bag rate at the dripline, watered in (half because gall wasps are laying now and lush flush is what they target)."
