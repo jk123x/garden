@@ -1,17 +1,24 @@
 name: Cushion Bush
 type: shrub
 location: Front yard
-zones: [1]
-health: "Mostly dense silvery foliage but there are some brown/dead sections within the mound and a few bare woody stems visible. Small new growth buds present. May need light trimming to remove dead material."
+zones:
+  - 1
+health: Mostly dense silvery foliage but there are some brown/dead sections within the mound and a few bare woody stems visible. Small new growth buds present. May need light trimming to remove dead material.
 healthStatus: healthy
-lastAssessed: "2026-04"
+lastAssessed: 2026-04
 image: /images/plants/IMG_0886.jpg
-notes: "Leucophyta brownii (Cushion Bush). Multiple patches through the front garden. The silvery-white coral-like texture is the main visual feature. Some internal die-off is normal — trim out dead brown sections to keep it tidy and encourage fresh growth. Australian coastal native that likes full sun and sharp drainage. If brown sections are increasing, check drainage — they hate wet feet."
+notes: Leucophyta brownii (Cushion Bush). Multiple patches through the front garden. The silvery-white coral-like texture is the main visual feature. Some internal die-off is normal — trim out dead brown sections to keep it tidy and encourage fresh growth. Australian coastal native that likes full sun and sharp drainage. If brown sections are increasing, check drainage — they hate wet feet.
 tasks:
-  - months: [3]
+  - months:
+      - 3
     task: "Trim after flowering (10 min, scissors): spent flower heads and the top 2-3cm of the mound off all over, then cut any brown dead sections back to silver growth. Never into bare woody stems, they won't resprout. Brown patches spreading = a drainage problem, not a pruning one."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Osmocote Native, standard dose, scattered round the base. Native only, no regular fertiliser."
     category: feed
-    completed: "2026-07"
+    completed: 2026-07
+log:
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch

@@ -1,38 +1,54 @@
 name: Muehlenbeckia (West fence, new)
 type: climber
 location: West fence
-zones: [1]
+zones:
+  - 1
 health: "7 Oct 2026: strands tied along the lower grate, leafing up, still thin. Earlier: tiny but alive, 8 Sept 2026: a handful of thin strands with small leaves, one low clump at the base, a couple of strands tied along the bottom rail. Regrowing after the May dieback. Tip-pinched 8 Sept. No trimming needed; this plant needs every leaf it has. Coverage is 1-2 seasons away."
 healthStatus: monitor
-lastAssessed: "2026-10"
+lastAssessed: 2026-10
 image: /images/plants/IMG_0957.jpg
 photos:
   - src: /images/plants/IMG_3928.jpg
     caption: "7 Oct 2026: strands tied along the lower grate toward the street gate, leafing up after the spring flush"
   - src: /images/plants/IMG_3497.jpg
     caption: "8 Sept 2026: still tiny, strands tied along the bottom rail, hose reel right beside it"
-notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place."
+notes: New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place.
 tasks:
-  - months: [12, 3]
+  - months:
+      - 12
+      - 3
     task: "Tie check (20 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
-  - months: [3, 9]
+  - months:
+      - 3
+      - 9
     task: "Season tidy (5 min): this plant is still tiny, so trim means tidy only. Snip anything dead (dry, snaps clean) and pinch the tip off any runner racing straight up so it branches low instead. No shearing until the fence is covered."
     category: prune
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Feed (2 min): Richgro All Purpose, light dose, half a handful spread wide around the plant and never against the stem. Small root system, so more is not better. Water in."
     category: feed
-    completed: "2026-07"
-  - months: [10, 11, 12, 1, 2, 3]
+    completed: 2026-07
+  - months:
+      - 10
+      - 11
+      - 12
+      - 1
+      - 2
+      - 3
     task: "Coverage training (30-60 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage"
     category: general
     repeat: monthly
-    completed: "2026-10"
-  - months: [12]
+    completed: 2026-10
+  - months:
+      - 12
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; this vine is being pushed for coverage"
     category: feed
-  - months: [12, 1, 2]
+  - months:
+      - 12
+      - 1
+      - 2
     task: "Heat check (1 min): on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
 log:
@@ -48,11 +64,14 @@ log:
   - date: "2026-09-08"
     entry: "Jay: this is the WEST fence vine, and it is still really small. Not to be confused with the south (street) fence vine or the east (neighbour) fence vine."
     category: general
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch
   - date: "2026-07-31"
-    entry: "Competing strappy clump near the vine (fence line, among the chalk sticks) cut to 5cm by Jay — deliberately clearing the establishment zone so the muehlenbeckia gets the light and the low fence grates. If the clump regrows vigorously in spring, remove it entirely."
+    entry: Competing strappy clump near the vine (fence line, among the chalk sticks) cut to 5cm by Jay — deliberately clearing the establishment zone so the muehlenbeckia gets the light and the low fence grates. If the clump regrows vigorously in spring, remove it entirely.
     category: general
   - date: "2026-07-29"
-    entry: "Tidied and trimmed along with the established section — dead top growth from the May desiccation stripped out. September trim front-loaded. Fed with Richgro All Purpose same day — September feed replaced."
+    entry: Tidied and trimmed along with the established section — dead top growth from the May desiccation stripped out. September trim front-loaded. Fed with Richgro All Purpose same day — September feed replaced.
     category: prune
   - date: "2026-05-18"
     entry: "Top half browned off suddenly mid-May, reported same week as the East star jasmine desiccation. Same diagnosis by parallel: cold-night / warm-sunny-day swing, establishing plant on shallow immature roots with no drip — exposed upper portion died, sheltered lower growth stayed green. Zoomed crops confirmed it: upper run pale/browned and heavily defoliated (bare wiry stem), lower drape still green — same exposed-top/sheltered-base signature as the jasmine (the lush green behind the mesh is background grass/weeds, not the vine). Synchronous timing + matching pattern across two unrelated plants makes the environmental cause confident. Recovery expected; do not over-water (15mm rain 17 May was sufficient). Scratch-test stems + check for a girdling stem to rule out mechanical."
