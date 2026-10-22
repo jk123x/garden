@@ -16,7 +16,7 @@ notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive,
 tasks:
   - months:
       - 10
-    task: "Spring feed (10 min): Sudden Impact for Lawns at the bag rate over the whole 25m², spread evenly, then water in well the same day. Unwatered granules scorch the grass in patches. Last fed 31 July, this is the one that thickens it before summer"
+    task: "Buy Sudden Impact for Lawns, then spring feed (10 min): none in the shed as of 23 Oct 2026, so it's on the shopping list first. Bag rate over the whole 25m², spread evenly, water in well the same day. Unwatered granules scorch the grass in patches. Last fed 31 July, this is the one that thickens it before summer"
     category: feed
   - months:
       - 12
@@ -64,6 +64,9 @@ tasks:
     task: "Bare patch check (5 min): any bare patch bigger than a hand that isn't closing by now = cut a rooted runner from the edge, lay it across the patch in a shallow scrape, peg it with a bent wire, water it. Buffalo isn't sold as seed, runners are the only repair"
     category: general
 log:
+  - date: "2026-10-23"
+    entry: Sudden Impact for Lawns is out; on the shopping list ahead of the October feed.
+    category: feed
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: feed cadence fixed to Oct/Dec/Feb/Apr (was Sept/Dec/Mar), mow months widened to Oct-Apr, bare-patch runner-pegging row added."
     category: general
