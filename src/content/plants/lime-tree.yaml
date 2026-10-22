@@ -14,6 +14,9 @@ photos:
   - src: /images/plants/IMG_2087.jpg
     caption: After the gall renovation prune, Jul 2026
 log:
+  - date: "2026-10-23"
+    entry: "Mulch history reconstructed: last sugarcane on this tree was ~April 2026 (Jay, 23 Oct). The 6 Aug job was compost only. October top-up queued on the lemon card for all four citrus."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: sugarcane refresh Oct + Apr added, leaf miner glance Jan/Feb added (limes are the worst hit)."
     category: general
@@ -44,6 +47,9 @@ log:
   - date: "2026-07-21"
     entry: Light clearance prune (only where branches were in the way). Dense healthy dark green canopy in July photos.
     category: prune
+  - date: 2026-04
+    entry: "Sugarcane mulched (approximate date, reconstructed 23 Oct 2026 from Jay's memory: 6-8 months before)."
+    category: mulch
 tasks:
   - months:
       - 11

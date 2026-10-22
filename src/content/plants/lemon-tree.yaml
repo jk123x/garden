@@ -20,10 +20,10 @@ notes: Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026
 log:
   - date: "2026-10-23"
     entry: "Correction: the 6 Aug job was compost only, no sugarcane. Last sugarcane on the citrus was ~April 2026 (Jay). October top-up reinstated, 2 bales on the shopping list."
-    category: mulch
+    category: general
   - date: "2026-10-23"
     entry: "Audit mistake fixed: the October sugarcane rows on all four citrus were redundant (compost + mulch top-up done 6 Aug 2026) and were four copies of one job. Now one row here covering all four trees, marked done for 2026."
-    category: mulch
+    category: general
   - date: "2026-10-23"
     entry: "Sunburn paint row deleted: Jay's not doing it. Accept some bark scald on the newly exposed limbs; it's cosmetic on an established tree."
     category: general

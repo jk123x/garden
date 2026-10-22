@@ -85,7 +85,7 @@ tasks:
 log:
   - date: "2026-10-23"
     entry: "Jay: the run was pine-bark mulched about 2-3 months ago (roughly Aug 2026), which never made it onto the card. Logged now. Pine bark lasts 2-3 years, so the November top-up row is deleted and bark is off the shopping list. Next look at mulch depth: spring 2028, or sooner only if bare soil shows."
-    category: mulch
+    category: general
   - date: "2026-10-23"
     entry: Replacement star jasmine bought (Jay, 23 Oct). Planting is the remaining job; row widened to Oct-Nov so it doesn't vanish on 1 Nov.
     category: general
@@ -119,6 +119,9 @@ log:
   - date: "2026-08-02"
     entry: "Hand-watering tasks for the new plants removed (Jay's call): rain forecast covers the next stretch, irrigation comes on mid-September, and both plants have been on the drip extension since May — the hand-watering schedule was legacy from before the drip install. Watering is now system-level like the rest of the garden."
     category: water
+  - date: 2026-08
+    entry: "Pine bark mulched along the whole run (approximate date, reconstructed 23 Oct 2026 from Jay's memory: 2-3 months before)."
+    category: mulch
   - date: "2026-07-30"
     entry: Section near the giant taro fed — light dose of Richgro All Purpose, spread wide, not against stems (feed blitz round 2). Whole east run's September feed now replaced.
     category: feed
@@ -128,30 +131,30 @@ log:
   - date: "2026-07-22"
     entry: New jasmines watered (5L each) — up to date and looking good.
     category: water
-  - date: "2026-05-06"
-    entry: Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on.
+  - date: "2026-05-18"
+    entry: "Root zone now well charged (Fri soak + Sun rain). No further watering — risk flipped to cold waterlogging. Recovery/monitor phase: scratch-test stems for survival verdict, hand-strip dead leaves + undo bundled ties anytime, cut only individually-confirmed-dead stems, structural cut-back waits for Jan/Feb. Hold nitrogen feed until spring."
     category: general
-  - date: "2026-05-01"
-    entry: Planted 2 new star jasmines past the giant taro stump, 1m apart. Backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires.
-    category: plant
-  - date: "2026-05-07"
-    entry: On top of hand-watering the 2 new plants while drip extension is being prepped.
+  - date: "2026-05-17"
+    entry: ~15mm slow soaking rain — excellent deep penetration across the whole run, no runoff. Effectively a second deep soak 2 days after the manual one.
     category: water
-  - date: "2026-05-08"
-    entry: Drip extension installed and working. First test, an adjustable shrubbler cap blew off under pressure — swapped both for Holman PC pressure-compensating shrubblers (24 L/hr). Both new plants now on drip.
-    category: general
-  - date: "2026-05-13"
-    entry: Wall-top section observed pale/yellow-green compared to other sections. Likely drying out + nutrient draw-down (thinner soil + more sun on wall top). Liquid feed + deep water to-do added. Reassess in 4 weeks.
-    category: general
   - date: "2026-05-15"
     entry: "Wall-top run crisped from pale to brown/desiccated over ~2 days (photos). Desiccation collapse: cold-night / warm-sunny-day swing — chilled shallow roots couldn't resupply water fast enough on a run of 22°C blue-sky days, dark fence radiating extra heat onto the foliage. Lower foliage + new plants fine. Ruled out eco-seaweed (mild tonic, wrong damage pattern, section was already failing on the 13th)."
     category: general
   - date: "2026-05-15"
     entry: Friday night — deep soak ~50L+ over ~30 min along the whole laundry-side run (not just wall-top). Slow 30-min delivery soaked in well; cold-night downside minor given the volume.
     category: water
-  - date: "2026-05-17"
-    entry: ~15mm slow soaking rain — excellent deep penetration across the whole run, no runoff. Effectively a second deep soak 2 days after the manual one.
-    category: water
-  - date: "2026-05-18"
-    entry: "Root zone now well charged (Fri soak + Sun rain). No further watering — risk flipped to cold waterlogging. Recovery/monitor phase: scratch-test stems for survival verdict, hand-strip dead leaves + undo bundled ties anytime, cut only individually-confirmed-dead stems, structural cut-back waits for Jan/Feb. Hold nitrogen feed until spring."
+  - date: "2026-05-13"
+    entry: Wall-top section observed pale/yellow-green compared to other sections. Likely drying out + nutrient draw-down (thinner soil + more sun on wall top). Liquid feed + deep water to-do added. Reassess in 4 weeks.
     category: general
+  - date: "2026-05-08"
+    entry: Drip extension installed and working. First test, an adjustable shrubbler cap blew off under pressure — swapped both for Holman PC pressure-compensating shrubblers (24 L/hr). Both new plants now on drip.
+    category: general
+  - date: "2026-05-07"
+    entry: On top of hand-watering the 2 new plants while drip extension is being prepped.
+    category: water
+  - date: "2026-05-06"
+    entry: Drip irrigation extension parts purchased. Install pending — extending the existing east drip line to the 2 new plantings before spring turn-on.
+    category: general
+  - date: "2026-05-01"
+    entry: Planted 2 new star jasmines past the giant taro stump, 1m apart. Backfilled with native clay / garden soil / compost mix, watered in, pine bark mulched, tied to fence wires.
+    category: plant

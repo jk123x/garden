@@ -35,6 +35,8 @@ const gallery = await Promise.all(
 );
 
 const logEntries = [...log].sort((a, b) => b.date.localeCompare(a.date));
+const LAST_DONE = ['mulch', 'feed', 'prune', 'spray'];
+const lastDone = LAST_DONE.map((c) => ({ c, date: logEntries.find((e) => e.category === c)?.date })).filter((x) => x.date);
 
 const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
   const month = i + 1;
@@ -73,6 +75,11 @@ const tasksByMonth = Array.from({ length: 12 }, (_, i) => {
                   <span class="text-xs text-ink-faint">Assessed {lastAssessed}</span>
                 )}
               </div>
+            )}
+            {lastDone.length > 0 && (
+              <p class="text-xs text-ink-faint mt-2 flex flex-wrap gap-x-3 gap-y-1">
+                {lastDone.map(({ c, date }) => (<span>Last {({ mulch: 'mulched', feed: 'fed', prune: 'pruned', spray: 'sprayed' } as Record<string, string>)[c]} <span class="font-semibold text-ink-soft">{date}</span></span>))}
+              </p>
             )}
             {health && (
               <p class="text-ink-soft mt-2">{health}</p>

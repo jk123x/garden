@@ -17,6 +17,9 @@ photos:
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
   - date: "2026-10-23"
+    entry: "Mulch history reconstructed: last sugarcane on this tree was ~April 2026 (Jay, 23 Oct). The 6 Aug job was compost only. October top-up queued on the lemon card for all four citrus."
+    category: general
+  - date: "2026-10-23"
     entry: "Sunburn paint row deleted: Jay's not doing it. Accept some bark scald on the newly exposed limbs; it's cosmetic on an established tree."
     category: general
   - date: "2026-10-22"
@@ -49,6 +52,9 @@ log:
   - date: "2026-07-21"
     entry: Epsom salts drench applied — leaves still pale, treating for magnesium alongside the big backyard citrus.
     category: feed
+  - date: 2026-04
+    entry: "Sugarcane mulched (approximate date, reconstructed 23 Oct 2026 from Jay's memory: 6-8 months before)."
+    category: mulch
 tasks:
   - months:
       - 9

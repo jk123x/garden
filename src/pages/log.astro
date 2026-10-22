@@ -1,0 +1,122 @@
+---
+import Layout from '../layouts/layout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORY_LABELS, CATEGORY_COLORS } from '../lib/utils';
+
+const allPlants = await getCollection('plants');
+
+type Entry = { date: string; entry: string; category: string; plant: string; slug: string; indoor: boolean };
+const entries: Entry[] = allPlants.flatMap((p) =>
+  (p.data.log ?? []).map((l) => ({ date: l.date, entry: l.entry, category: l.category ?? 'general', plant: p.data.name, slug: p.id, indoor: p.data.indoor })),
+).sort((a, b) => b.date.localeCompare(a.date));
+
+const WORK = ['mulch', 'feed', 'prune', 'spray', 'water', 'plant', 'harvest'];
+const lastDone = WORK.map((cat) => {
+  const seen = new Map<string, Entry>();
+  for (const e of entries) if (e.category === cat && !seen.has(e.slug)) seen.set(e.slug, e);
+  return { cat, rows: [...seen.values()].sort((a, b) => a.date.localeCompare(b.date)) };
+});
+
+const byMonth = new Map<string, Entry[]>();
+for (const e of entries) {
+  const key = e.date.slice(0, 7);
+  if (!byMonth.has(key)) byMonth.set(key, []);
+  byMonth.get(key)!.push(e);
+}
+const monthLabel = (ym: string) => new Date(ym + '-15T12:00:00').toLocaleDateString('en-AU', { month: 'long', year: 'numeric' });
+const dayLabel = (d: string) => d.length >= 10 ? new Date(d + 'T12:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short' }) : 'approx';
+const FILTERS = ['all', ...WORK, 'general'];
+---
+
+<Layout title="Log — Garden">
+  <div class="animate-in">
+    <div class="mb-10">
+      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">What has been done</p>
+      <h1 class="text-4xl font-semibold mb-3">Log</h1>
+      <p class="text-ink-soft max-w-2xl">
+        Every dated entry from every plant card, newest first. The table answers "when did I last mulch, feed, prune, spray" for each plant without opening a card: longest ago at the top.
+      </p>
+    </div>
+
+    <section class="mb-12">
+      <h2 class="font-display text-2xl font-semibold mb-4">When did I last…</h2>
+      <div class="flex gap-2 flex-wrap mb-4" data-last-tabs>
+        {WORK.map((cat, i) => (
+          <button data-last-tab={cat} class:list={['px-3 py-1.5 rounded-md text-sm font-medium border transition-colors', i === 0 ? 'bg-ink text-paper border-ink' : 'bg-paper text-ink-soft border-rule hover:border-ink']}>{CATEGORY_LABELS[cat]}</button>
+        ))}
+      </div>
+      {lastDone.map(({ cat, rows }, i) => (
+        <div data-last-panel={cat} class:list={[i === 0 ? '' : 'hidden']}>
+          {rows.length === 0 ? (
+            <p class="text-ink-faint text-sm">Nothing logged under {CATEGORY_LABELS[cat].toLowerCase()} yet.</p>
+          ) : (
+            <div class="bg-paper rounded-xl border border-rule overflow-x-auto">
+              <table class="w-full text-sm">
+                <tbody>
+                  {rows.map((r) => (
+                    <tr data-indoor={String(r.indoor)} class="border-b border-rule-light last:border-0 align-top">
+                      <td class="px-4 py-2.5 whitespace-nowrap font-display font-semibold text-ink">{r.date}</td>
+                      <td class="px-2 py-2.5 whitespace-nowrap"><a href={`/plants/${r.slug}`} class="text-terra hover:text-terra/80 font-medium">{r.plant}</a></td>
+                      <td class="px-4 py-2.5 text-ink-soft">{r.entry.length > 140 ? r.entry.slice(0, 140) + '…' : r.entry}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      ))}
+    </section>
+
+    <section>
+      <div class="flex items-baseline justify-between gap-4 flex-wrap mb-4">
+        <h2 class="font-display text-2xl font-semibold">Everything, newest first</h2>
+        <div class="flex gap-1.5 flex-wrap" data-log-filters>
+          {FILTERS.map((f) => (
+            <button data-log-filter={f} class:list={['px-2.5 py-1 rounded-md text-xs font-semibold uppercase tracking-wide border transition-colors', f === 'all' ? 'bg-ink text-paper border-ink' : 'bg-paper text-ink-soft border-rule hover:border-ink']}>{f === 'all' ? 'All' : CATEGORY_LABELS[f]}</button>
+          ))}
+        </div>
+      </div>
+      <div class="space-y-8">
+        {[...byMonth.entries()].map(([ym, list]) => (
+          <div data-log-month>
+            <h3 class="font-display text-xl font-semibold text-ink mb-3 sticky top-[4.5rem] bg-parchment/95 py-1">{monthLabel(ym)}</h3>
+            <ol class="space-y-3 border-l border-rule-light pl-5">
+              {list.map((e) => (
+                <li data-indoor={String(e.indoor)} data-log-cat={e.category} class="relative">
+                  <span class="absolute -left-[27px] top-1.5 w-2.5 h-2.5 rounded-full bg-terra ring-2 ring-paper"></span>
+                  <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                    <span class="font-display font-semibold text-ink whitespace-nowrap">{dayLabel(e.date)}</span>
+                    <a href={`/plants/${e.slug}`} class="text-terra hover:text-terra/80 font-medium">{e.plant}</a>
+                    <span class:list={['inline-block px-2 py-0.5 rounded-md text-[10px] font-semibold tracking-wide uppercase', CATEGORY_COLORS[e.category]]}>{CATEGORY_LABELS[e.category]}</span>
+                  </div>
+                  <p class="text-ink-soft leading-relaxed mt-0.5 text-sm">{e.entry}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<script>
+  const on = 'bg-ink text-paper border-ink';
+  const off = 'bg-paper text-ink-soft border-rule hover:border-ink';
+  const swap = (btns: NodeListOf<HTMLElement>, active: HTMLElement) => btns.forEach((b) => { b.className = b.className.replace(on, '').replace(off, '').trim() + ' ' + (b === active ? on : off); });
+
+  const tabs = document.querySelectorAll<HTMLElement>('[data-last-tab]');
+  tabs.forEach((btn) => btn.addEventListener('click', () => {
+    swap(tabs, btn);
+    document.querySelectorAll<HTMLElement>('[data-last-panel]').forEach((p) => { p.classList.toggle('hidden', p.dataset.lastPanel !== btn.dataset.lastTab); });
+  }));
+
+  const filters = document.querySelectorAll<HTMLElement>('[data-log-filter]');
+  filters.forEach((btn) => btn.addEventListener('click', () => {
+    swap(filters, btn);
+    const f = btn.dataset.logFilter;
+    document.querySelectorAll<HTMLElement>('[data-log-cat]').forEach((li) => { li.dataset.logHidden = f === 'all' || li.dataset.logCat === f ? '' : '1'; li.style.display = li.dataset.logHidden ? 'none' : ''; });
+    document.querySelectorAll<HTMLElement>('[data-log-month]').forEach((m) => { const any = [...m.querySelectorAll<HTMLElement>('[data-log-cat]')].some((li) => li.style.display !== 'none'); m.style.display = any ? '' : 'none'; });
+  }));
+</script>
