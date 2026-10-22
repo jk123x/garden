@@ -74,14 +74,18 @@ tasks:
     completed: 2026-10
   - months:
       - 11
-    task: "Pine bark top-up along the run (about 4 bagged 50L pine bark from Bunnings, carried to the bed, no bulk orders; PINE BARK on the jasmine runs, sugarcane is for the citrus and strawberries only): get it down before summer heat. A hot-summer year makes this matter — mulch is the difference between the drip coping and not"
-    category: mulch
-  - months:
-      - 11
       - 12
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
+  - months:
+      - 9
+    task: "Mulch depth glance (1 min): bare soil showing through the bark anywhere along the run = top up that spot with bagged pine bark, keeping it off the blue star fern's surface rhizomes at the bench corner. Still 3cm+ of bark = nothing, it lasts years"
+    category: mulch
+    completed: 2026-09
 log:
+  - date: "2026-10-23"
+    entry: "Jay: the run was pine-bark mulched about 2-3 months ago (roughly Aug 2026), which never made it onto the card. Logged now. Pine bark lasts 2-3 years, so the November top-up row is deleted and bark is off the shopping list. Next look at mulch depth: spring 2028, or sooner only if bare soil shows."
+    category: mulch
   - date: "2026-10-23"
     entry: Replacement star jasmine bought (Jay, 23 Oct). Planting is the remaining job; row widened to Oct-Nov so it doesn't vanish on 1 Nov.
     category: general
