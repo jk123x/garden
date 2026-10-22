@@ -3,11 +3,13 @@ type: shrub
 location: Backyard (around frangipani)
 zones:
   - 2
-health: In full flower mid-October 2026, gorgeous (Jay). Big volume expansion through winter; slumping under its own soft top-heavy growth (normal for bartlettina, the post-flowering cutback resets it).
+health: "Mid-flower 22 Oct 2026 (IMG_4057): about half the heads still purple, half gone to seed fluff. Plant is smaller than the notes suggested, a modest clump of big leaves under the frangipani, so the November prune is to 30-40cm, not a third to a half."
 healthStatus: healthy
 lastAssessed: 2026-10
-image: /images/winter-2026/IMG_2295.jpg
+image: /images/spring-2026/IMG_4057.jpg
 photos:
+  - src: /images/spring-2026/IMG_4057.jpg
+    caption: "Mid-show, 22 Oct 2026: half the heads purple, half gone to seed fluff. Fluff off now, full prune when the purples finish"
   - src: /images/winter-2026/IMG_2295.jpg
     caption: Budded up, ready for the lilac show (6 Aug 2026)
   - src: /images/plants/IMG_0911.jpg
@@ -16,7 +18,7 @@ notes: Purple Torch / Mexican Bush Daisy (Bartlettina sordida). Semi-tropical wi
 tasks:
   - months:
       - 11
-    task: "Prune to shape once the purple puffs have browned off (1 hour, secateurs): it's in full flower mid-October, so this waits for the show to finish, usually early November. Take the whole bush back by a third to a half, cutting each soft stem just above a pair of leaves or an outward bud. It's soft wood, so it cuts easily and reshoots fast. Puffs still purple = leave it another week"
+    task: "Prune after flowering (30 min, secateurs): once the last purple heads have browned, cut every stem back to 30-40cm from the ground, each cut just above a pair of leaves. It's a modest clump, so this is the whole job, not a third-off trim. Regrows fast over summer and flowers on that growth next spring. Feed straight after (next row). Heads still purple = wait another week"
     category: prune
     byDay: 15
   - months:
@@ -37,6 +39,9 @@ tasks:
     task: "Hot-day hose (5 min): the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
     category: water
 log:
+  - date: "2026-10-22"
+    entry: "Photo IMG_4057: mid-show, roughly half the heads gone to brown seed fluff, half still purple. Advice: snip the fluffy heads now to the leaf pair below (self-sows), leave the purples, full prune to 30-40cm in 2-3 weeks when the rest finish. Yellow petals on the mulch are the native frangipani's flower drop."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: feed moved to Nov after the prune, frost check through Aug, hot-day hose added."
     category: general
@@ -58,3 +63,6 @@ log:
   - date: "2026-07-29"
     entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed
+urgency: week
+nextAction: "Deadhead the seeded heads (5 min, scissors): snip every fluffy brown head back to the first pair of leaves below it, leave every purple one. Fluff into the green bin, not the mulch, it self-sows. The full prune waits until the last purples brown, that row surfaces in November."
+dueBy: "2026-10-29"
