@@ -1,28 +1,44 @@
 name: Rosemary
 type: herb
 location: Backyard
-zones: [4]
-health: "Dead half removed 22 July 2026 (photo verified — clean work). What remains is a leaning, sculptural old trunk with long woody stems carrying healthy green growth and flowers at the tips. Alive and viable, but permanently leggy — rosemary can't reshoot from the bare wood, so the form now is roughly the form forever. Foliage will thicken at the green tips through spring."
+zones:
+  - 4
+health: Dead half removed 22 July 2026 (photo verified — clean work). What remains is a leaning, sculptural old trunk with long woody stems carrying healthy green growth and flowers at the tips. Alive and viable, but permanently leggy — rosemary can't reshoot from the bare wood, so the form now is roughly the form forever. Foliage will thicken at the green tips through spring.
 healthStatus: monitor
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 image: /images/winter-2026/IMG_2294.jpg
 photos:
   - src: /images/winter-2026/IMG_2294.jpg
-    caption: "The kept half, flowering blue (6 Aug 2026)"
+    caption: The kept half, flowering blue (6 Aug 2026)
   - src: /images/winter-2026/IMG_2303.jpg
-    caption: "At the citrus corner (6 Aug 2026)"
+    caption: At the citrus corner (6 Aug 2026)
   - src: /images/plants/IMG_0921.jpg
-    caption: "Before the dead-half removal"
-notes: "Rosmarinus officinalis. Big established bush along the back fence near the star jasmine. Dense, upright, and full with no bare patches or dieback. Thrives on the full sun and free-draining position. Basically bulletproof in Melbourne. Prune for shape and harvest after flowering in spring."
+    caption: Before the dead-half removal
+notes: Rosmarinus officinalis. Big established bush along the back fence near the star jasmine. Dense, upright, and full with no bare patches or dieback. Thrives on the full sun and free-draining position. Basically bulletproof in Melbourne. Prune for shape and harvest after flowering in spring.
 tasks:
-  - months: [2, 3]
+  - months:
+      - 2
+      - 3
     task: "Shape prune (10 min, scissors): after flowering, snip the green tips back by a third to thicken the ends. Only cut where green leaves remain below the cut. Bare grey wood does not reshoot, so a cut into it is permanent."
     category: prune
-  - months: [9]
+  - months:
+      - 9
     task: "Light feed: PowerFeed at half strength, about 1ml per litre, one 9L can poured round the dripline, not the trunk. Lean-soil plant recovering from dieback, so half is the ceiling and once is enough"
     category: feed
-    completed: "2026-09"
-  - months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    completed: 2026-09
+  - months:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
     task: Harvest sprigs as needed
     category: harvest
 log:
@@ -30,8 +46,11 @@ log:
     entry: "Fed: one 9L can of half-strength PowerFeed round the dripline. Its only feed for the year."
     category: feed
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2294/2302/2303). The kept half is flowering blue and holding good green tip growth — the July call is vindicated, plant clearly viable. Cut stems still piled in/near the tub — green bin them when passing."
+    entry: End-of-winter baseline photos (IMG_2294/2302/2303). The kept half is flowering blue and holding good green tip growth — the July call is vindicated, plant clearly viable. Cut stems still piled in/near the tub — green bin them when passing.
     category: general
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch
   - date: "2026-07-22"
     entry: "Dead half cut out at the base. Remaining live section: leaning woody trunk, green flowering growth at stem tips. Verdict: correct call, plant viable. Long-term options: embrace the windswept look and tip-pinch new growth in spring to thicken the ends, or plant a young replacement nearby and let this one see out its years. Take cuttings from green sprigs as succession insurance. No watering — drainage stress was the likely cause of the collapse."
     category: prune
@@ -39,5 +58,5 @@ log:
     entry: "Photo assessment: ~half the bush dead (grey sprawled bare stems), other half regrowing nicely and flowering. Jay confirmed same from the ground. Plan: remove dead half at base, keep live half, take cuttings as insurance."
     category: general
   - date: "2026-05-18"
-    entry: "Pruned back (off-season tidy). Bulletproof bush, handled it fine. Doesn't replace the normal after-flowering shape prune in Feb/Mar."
+    entry: Pruned back (off-season tidy). Bulletproof bush, handled it fine. Doesn't replace the normal after-flowering shape prune in Feb/Mar.
     category: prune

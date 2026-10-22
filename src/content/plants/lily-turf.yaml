@@ -1,37 +1,45 @@
 name: Lily Turf
 type: groundcover
 location: Sleeper clumps around the native frangipani (lawn edge) + two tub-side clumps by the orange
-zones: [2, 4]
-health: "Annual cut-back done 30 Jul 2026 — sheared low along the sleepers, fed. Looks stubbly now; fresh spring growth replaces the lot. Was dense and healthy pre-shear."
+zones:
+  - 2
+  - 4
+health: Annual cut-back done 30 Jul 2026 — sheared low along the sleepers, fed. Looks stubbly now; fresh spring growth replaces the lot. Was dense and healthy pre-shear.
 healthStatus: healthy
-lastAssessed: "2026-07"
+lastAssessed: 2026-07
 image: /images/plants/IMG_0983.jpg
 photos:
   - src: /images/winter-2026/IMG_2290.jpg
-    caption: "The two tub-side clumps the shear missed — leave alone (6 Aug 2026)"
+    caption: The two tub-side clumps the shear missed — leave alone (6 Aug 2026)
   - src: /images/plants/IMG_0983.jpg
-    caption: "The sleeper clumps, April 2026"
+    caption: The sleeper clumps, April 2026
 notes: "Liriope muscari. Clumping ground cover with dark green strappy leaves and purple flower spikes in season. Growing in neat clumps along wooden sleepers, PLUS two clumps at the base of the orange's tub (ID'd Aug 2026, photo IMG_2290) — those two are exempt from the annual shear, Jay's call: leave them alone. Virtually indestructible."
 tasks:
-  - months: [8]
+  - months:
+      - 8
     task: "Annual shear (15 min, scissors): cut the sleeper clumps down to 5-8cm before the new spring blades push, tatty old foliage and all. Leave the two clumps at the base of the orange's tub alone (Jay's call). Shear after the new blades are up and you take the tips off fresh growth."
     category: prune
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Feed (2 min): Richgro All Purpose, light dose, scattered along the sleeper clumps and watered in."
     category: feed
-    completed: "2026-07"
-  - months: [9]
+    completed: 2026-07
+  - months:
+      - 9
     task: "Divide check (10 sec): dead centre with growth only round the rim = divide. Goes years without needing it."
     category: general
-    completed: "2026-09"
+    completed: 2026-09
 log:
   - date: "2026-08-07"
     entry: "Two more clumps identified from the winter photos (IMG_2290): the green strappy pair at the base of the orange's tub are lily turf the shear missed — Jay confirmed. His standing call: those two stay unsheared, leave alone."
     category: general
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch
   - date: "2026-07-30"
-    entry: "Annual cut-back done — old foliage sheared along the sleepers ahead of spring regrowth."
+    entry: Annual cut-back done — old foliage sheared along the sleepers ahead of spring regrowth.
     category: prune
   - date: "2026-07-30"
-    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    entry: Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced.
     category: feed

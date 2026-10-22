@@ -1,18 +1,19 @@
 name: Passionfruit
 type: climber
 location: Backyard
-zones: [4]
-health: "WINTER PRUNE COMPLETE 2 Aug 2026 — cap tightened to a clean band, dead thatch out, east-bound runners trained along the top wire past the shed (two-storey arrangement live), roof cleared, fruiting stems spared. Green fruit ripening near the shed corner into spring. Expect the new-growth eruption from October — that's where this season's flowers and fruit come from."
+zones:
+  - 4
+health: WINTER PRUNE COMPLETE 2 Aug 2026 — cap tightened to a clean band, dead thatch out, east-bound runners trained along the top wire past the shed (two-storey arrangement live), roof cleared, fruiting stems spared. Green fruit ripening near the shed corner into spring. Expect the new-growth eruption from October — that's where this season's flowers and fruit come from.
 healthStatus: good
-lastAssessed: "2026-08"
+lastAssessed: 2026-08
 image: /images/plants/IMG_2175.jpg
 photos:
   - src: /images/winter-2026/IMG_2305.jpg
-    caption: "The post-prune cap as a clean band (6 Aug 2026)"
+    caption: The post-prune cap as a clean band (6 Aug 2026)
   - src: /images/winter-2026/IMG_2311.jpg
-    caption: "The east runner, already past the shed at the laundry side (6 Aug 2026)"
+    caption: The east runner, already past the shed at the laundry side (6 Aug 2026)
   - src: /images/plants/IMG_2175.jpg
-    caption: "August 2026, after the winter prune"
+    caption: August 2026, after the winter prune
 notes: "Growing on the back (north) fence, tangled in with the star jasmine. The two climbers share the fence, so they compete — passionfruit leaves are larger and 3-lobed vs the jasmine's small glossy ovals. Passionfruit are short-lived (5-7 years) and heavy feeders. STANDING ARRANGEMENT (revised Aug 2026): the vine may run east past the shed as a TRAINED TOP-WIRE CAP over the patchy laundry-side run — two-storey model, same as the back fence: vine owns the top wire, jasmine owns the fence face below (new jasmines climb from the bottom, ~10m east, no conflict for years). Hard rules: the shed ROOF is forbidden (dead mats, gutters, ladder work — cut-and-pull strays while green); runners diving down the fence face come out at each winter prune; dropped fruit along that blind-corner run gets picked up and binned (fruit fly). Exit condition: when the vine declines (it's short-lived) or the jasmine reaches the top wire, the vine gives ground — it's the temporary storey."
 log:
   - date: "2026-10-07"
@@ -21,6 +22,9 @@ log:
   - date: "2026-08-06"
     entry: "End-of-winter baseline photos (IMG_2305/2311). Post-prune cap sitting as a clean band along the back fence top. Jay confirmed IMG_2311 is the runner from the backyard having reached the FAR side of the shed (outside the laundry) — the east extension has already covered the distance, ahead of expectations. Arrangement rules apply out there now: top wire only, no face-diving into the jasmine's mesh, no shed roof, and that blind corner joins the fruit-drop pickup route in season."
     category: general
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch
   - date: "2026-08-02"
     entry: "WINTER PRUNE COMPLETE (second pass, same day): dead thatch picked out of the cap's right half, strongest east-bound runners tied along the top wire past the shed (east extension arrangement now live), remaining shed-corner tangle cut and pulled while green, roof cleared, fruiting stems spared until harvest. Vine set up for the October new-growth flush — fruit forms on that growth."
     category: prune
@@ -28,31 +32,45 @@ log:
     entry: "First prune pass done — cap tightened to a clean band, hanging ropes shortened by a third, jasmine border kept (photos IMG_2173/2175). Green fruit spotted near the shed corner — first confirmed fruit; ripens on the vine into spring. Decision: containment at the shed line, no eastward roaming (jasmine recovery zone + roof/gutter/fruit-fly downsides). Remaining: dead-thatch pick on the right half, de-roof the runners (cut reachable, pull while green), fruiting stems spared until harvest."
     category: prune
   - date: "2026-07-29"
-    entry: "Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed."
+    entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed
 tasks:
-  - months: [8, 9]
+  - months:
+      - 8
+      - 9
     task: "Winter prune (1-2 hr, secateurs): cut the tangle back by about a third, dead brown thatch out of the cap, runners diving down the fence face cut out, anything on the shed roof cut and pulled while green. Spare stems carrying green fruit until picked. Fruit forms on the new growth that follows, so this prune sets the crop."
     category: prune
-    completed: "2026-08"
-  - months: [9]
+    completed: 2026-08
+  - months:
+      - 9
     task: "Late-winter feed (5 min): Richgro All Purpose, generous dose (heavy feeder), spread over the whole root zone a metre out from the base and watered in. Never piled against the stem: collar rot."
     category: feed
-    completed: "2026-07"
-  - months: [12]
+    completed: 2026-07
+  - months:
+      - 12
     task: "Summer feed (5 min): Richgro All Purpose, generous dose over the root zone a metre out from the base, watered in. Flowers are setting fruit now and this is the feed that fills them. Never against the stem."
     category: feed
-  - months: [3]
+  - months:
+      - 3
     task: "Autumn feed (5 min): Richgro All Purpose, normal dose over the root zone, watered in. Last feed before the vine slows; keeps the fruit still on the vine filling."
     category: feed
-  - months: [4]
+  - months:
+      - 4
     task: "Mulch (15 min): sugarcane from the bale 5-8cm deep over the root zone a metre out from the base, a hand's width clear of the stem. Shallow-rooted vine, the mulch is its water buffer."
     category: mulch
-    completed: "2026-04"
-  - months: [11, 12, 1, 2]
+    completed: 2026-04
+  - months:
+      - 11
+      - 12
+      - 1
+      - 2
     task: "Runner patrol (5 min): any runner heading onto the shed roof, or diving down the fence face into the jasmine's mesh, gets cut at the top wire and pulled while green. Left to autumn it dies into a mat you cannot pull. The top wire is the vine's only lane."
     category: prune
-  - months: [2, 3, 4, 5]
+  - months:
+      - 2
+      - 3
+      - 4
+      - 5
     task: "Harvest: purple and slightly wrinkled, or drops into your hand. Walk the east run past the shed too and pick up every dropped fruit; bin it, never compost (fruit fly)."
     category: harvest
-    completed: "2026-04"
+    completed: 2026-04

@@ -1,20 +1,26 @@
 name: Native Violets
 type: groundcover
 location: Various — planted around the garden
-zones: [4]
-health: "Spreading and visible in wider garden shots, with small purple-white flowers. No dedicated photo but looks fine where visible."
+zones:
+  - 4
+health: Spreading and visible in wider garden shots, with small purple-white flowers. No dedicated photo but looks fine where visible.
 healthStatus: healthy
-lastAssessed: "2026-04"
-notes: "Viola hederacea. Australian native ground cover with small round leaves and purple/white flowers. Visible near the stone path in wider backyard shots. Evergreen, handles part shade well, and spreads to fill gaps. Like the dichondra, it's doing its job as living ground cover. A dedicated close-up photo would let us check for any issues."
+lastAssessed: 2026-04
+notes: Viola hederacea. Australian native ground cover with small round leaves and purple/white flowers. Visible near the stone path in wider backyard shots. Evergreen, handles part shade well, and spreads to fill gaps. Like the dichondra, it's doing its job as living ground cover. A dedicated close-up photo would let us check for any issues.
 log:
+  - date: "2026-08-04"
+    entry: "Pine bark mulched from the Daisy's 1m³ 20mm bark delivery (Jay, 23 Oct 2026: the pile reached every bed bark is appropriate for; this is one of them). Good for 2-3 years, no top-up until bare soil shows."
+    category: mulch
   - date: "2026-07-30"
-    entry: "Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced."
+    entry: Fed with Richgro All Purpose, light dose (feed blitz round 2) — September feed replaced.
     category: feed
 tasks:
-  - months: [9]
+  - months:
+      - 9
     task: "Feed (2 min): Richgro All Purpose, light dose, scattered over the patches and watered in."
     category: feed
-    completed: "2026-07"
-  - months: [3]
+    completed: 2026-07
+  - months:
+      - 3
     task: "Edge check (5 min, hand fork): runners crossing into the path or over a neighbour's crown = pull them back to the bed edge, and replant the lifted pieces into any bare shady gap. Still inside its bed = leave it."
     category: prune
