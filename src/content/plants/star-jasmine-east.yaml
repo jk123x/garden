@@ -50,7 +50,8 @@ tasks:
     completed: 2026-10
   - months:
       - 10
-    task: "Replace the dead plant (1-2 hours + a Bunnings trip): buy one Trachelospermum jasminoides in a 200mm pot. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
+      - 11
+    task: "Plant the replacement jasmine (1-2 hours): the new plant is bought (23 Oct 2026), get it in the ground this week while the soil is damp. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
     category: plant
   - months:
       - 10
@@ -81,6 +82,9 @@ tasks:
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
     category: general
 log:
+  - date: "2026-10-23"
+    entry: Replacement star jasmine bought (Jay, 23 Oct). Planting is the remaining job; row widened to Oct-Nov so it doesn't vanish on 1 Nov.
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: cohort ties extended to March."
     category: general

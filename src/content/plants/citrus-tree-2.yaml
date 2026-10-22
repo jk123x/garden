@@ -16,6 +16,9 @@ photos:
     caption: April 2026 assessment
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-10-23"
+    entry: "Sunburn paint row deleted: Jay's not doing it. Accept some bark scald on the newly exposed limbs; it's cosmetic on an established tree."
+    category: general
   - date: "2026-10-22"
     entry: "Jay: leaves looking pretty pale after the recent heat and the big prune. Advice: heat doesn't bleach citrus. New-growth-only pale = normal flush, leave it. Old leaves pale with green veins = Epsom once. Old leaves fading evenly = nitrogen, December Experts Choice brought forward at half rate (gall wasp season). Check set as the do-now."
     category: general
@@ -71,10 +74,6 @@ tasks:
     task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: 2026-08
-  - months:
-      - 11
-    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
-    category: general
   - months:
       - 10
     task: "Sunshade clearance prune (20 min, secateurs, loppers for anything thicker than a thumb): the tree is wrapping around the retractable sunshade. Take out every vertical watershoot that reaches the shade right back to where it leaves the limb, flush, no stub: those straight soft shoots are regrowth from the August hard prune and they come back if you only shorten them. Anything else touching the shade, cut 40cm below the line the shade sits on when extended, back to a bud or side branch, so a month of growth does not re-wrap it. Stop there. No cutting into the thick old wood and no more than that off the tree this year: it already lost half its canopy in August."

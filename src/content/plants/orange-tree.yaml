@@ -16,6 +16,9 @@ photos:
   - src: /images/plants/IMG_2086.jpg
     caption: After the oil + feed session, 30 Jul 2026
 log:
+  - date: "2026-10-23"
+    entry: "Sunburn paint row deleted: Jay's not doing it. Accept some bark scald on the newly exposed limbs; it's cosmetic on an established tree."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: gall check moved to Jul/Aug, sugarcane refresh Oct + Apr added, leaf miner glance Jan/Feb added."
     category: general
@@ -71,10 +74,6 @@ tasks:
     task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: 2026-08
-  - months:
-      - 11
-    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
-    category: general
   - months:
       - 6
       - 7

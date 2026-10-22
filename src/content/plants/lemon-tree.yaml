@@ -18,6 +18,9 @@ photos:
     caption: April 2026 assessment
 notes: Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October.
 log:
+  - date: "2026-10-23"
+    entry: "Sunburn paint row deleted: Jay's not doing it. Accept some bark scald on the newly exposed limbs; it's cosmetic on an established tree."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: gall check moved to Jul/Aug (before adults emerge), sugarcane refresh Oct + Apr added, leaf miner Jan/Feb glance and May scale glance added."
     category: general
@@ -46,10 +49,6 @@ log:
     entry: Citrus gall wasp confirmed — Jay ID'd galls after googling, lots of them across the citrus trees. Winter gall-pruning added to the punch list (must happen before spring emergence). Yearly winter gall check now a standing job.
     category: general
 tasks:
-  - months:
-      - 11
-    task: "Sunburn paint (20 min): 50/50 white acrylic paint and water brushed on the top side of limbs that were shaded until the Aug 2026 hard prune and now sit in full sun. Bark going pale or splitting on the sunny side = sunburn starting. Skip limbs the regrowth already shades."
-    category: general
   - months:
       - 9
     task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
