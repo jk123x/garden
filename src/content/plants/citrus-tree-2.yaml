@@ -3,7 +3,7 @@ type: fruit
 location: Backyard
 zones:
   - 4
-health: Weeded, composted and sugarcane mulched April 2026 (5cm clear of trunk). Leaves still noticeably paler than the orange — Epsom drench applied July for suspected magnesium deficiency.
+health: Pale leaves reported 22 Oct 2026, about 11 weeks after the Aug hard prune and 3 months after a light July feed. Heat isn't the cause (heat wilts, it doesn't bleach). Most likely normal pale spring flush plus the tree's known magnesium story; check which leaves are pale before treating.
 healthStatus: good
 lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2291.jpg
@@ -16,6 +16,9 @@ photos:
     caption: April 2026 assessment
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-10-22"
+    entry: "Jay: leaves looking pretty pale after the recent heat and the big prune. Advice: heat doesn't bleach citrus. New-growth-only pale = normal flush, leave it. Old leaves pale with green veins = Epsom once. Old leaves fading evenly = nitrogen, December Experts Choice brought forward at half rate (gall wasp season). Check set as the do-now."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: gall check moved to Jul/Aug, sugarcane refresh Oct + Apr added, leaf miner glance and Epsom check added."
     category: general
@@ -106,3 +109,6 @@ tasks:
       - 3
     task: "Magnesium check (5 min): older leaves yellow between green veins (the inverted-V pattern) = 2 tablespoons Epsom salts in a 9L can, poured over the root zone. Even green = skip it. This tree has the Mg history, so look"
     category: feed
+urgency: week
+dueBy: "2026-10-29"
+nextAction: "Pale leaf check (30 sec): only the new soft tip growth pale, old leaves behind it dark = normal spring flush, do nothing. Old leaves pale too: yellow between the veins with a green arrow at the base = Epsom salts, 2 tablespoons in a 9L can over the root zone, once. Old leaves fading evenly, lowest first = nitrogen, bring the December feed forward: Experts Choice at HALF the bag rate at the dripline, watered in (half because gall wasps are laying now and lush flush is what they target)."
