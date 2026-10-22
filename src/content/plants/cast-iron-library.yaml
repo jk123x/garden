@@ -6,13 +6,8 @@ health: Struggling — very sparse (2-3 limp leaves), oversized pot risks overwa
 healthStatus: struggling
 lastAssessed: 2026-04
 image: /images/plants/IMG_0936.jpg
-notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring. Watering: two plants in too much soil. Top 5cm dry before a drink, monthly in winter."
-tasks:
-  - months:
-      - 10
-      - 11
-    task: "Repot into a snug pot (20 min): the pot is far too big for the roots, which is why it stays wet. Knock it out, shake off the sodden mix, and pot into a container only 2-3cm wider than the root mass in free-draining mix. Water once, then leave it a fortnight"
-    category: general
+notes: "Aspidistra elatior. Two plants drowning in a large grey pot — way too much soil volume for current root mass. Overwatering is the biggest risk. Relocate to brighter spot and consider repotting into a snug, smaller pot come spring. Watering: two plants in too much soil. Top 5cm dry before a drink, monthly in winter. Repotting dropped 23 Oct 2026 (Jay: not a priority). Live with the big pot and water rarely."
+tasks: []
 log:
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: 7 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."

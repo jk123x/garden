@@ -6,13 +6,8 @@ health: Struggling — tiny regrowth (2 small leaves) in a very oversized pot
 healthStatus: struggling
 lastAssessed: 2026-04
 image: /images/plants/IMG_0933.jpg
-notes: "Aspidistra elatior. Was cut back hard and is re-emerging from the rhizome. Pot is way too big for current root mass — huge overwatering risk. Keep dry and consider repotting into a much smaller pot in spring. Watering: the pot is oversized for the roots, so bone dry between drinks. Top 5cm dry, monthly in winter."
-tasks:
-  - months:
-      - 10
-      - 11
-    task: "Repot into a snug pot (20 min): the pot is far too big for the roots, which is why it stays wet. Knock it out, shake off the sodden mix, and pot into a container only 2-3cm wider than the root mass in free-draining mix. Water once, then leave it a fortnight"
-    category: general
+notes: "Aspidistra elatior. Was cut back hard and is re-emerging from the rhizome. Pot is way too big for current root mass — huge overwatering risk. Keep dry and consider repotting into a much smaller pot in spring. Watering: the pot is oversized for the roots, so bone dry between drinks. Top 5cm dry, monthly in winter. Repotting dropped 23 Oct 2026 (Jay: not a priority). Live with the big pot and water rarely."
+tasks: []
 log:
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: 6 generic rows removed (watering, wiping, rotating, gnat checks, light moves, the monthly feed). Watering rule now in notes; shared jobs live on the Indoor Collection card."
