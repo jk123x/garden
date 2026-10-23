@@ -12,7 +12,7 @@ photos:
     caption: "7 Oct 2026: strands tied along the lower grate toward the street gate, leafing up after the spring flush"
   - src: /images/plants/IMG_3497.jpg
     caption: "8 Sept 2026: still tiny, strands tied along the bottom rail, hose reel right beside it"
-notes: New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place.
+notes: "New planting along the front fence, extending the coverage from the established muehlenbeckia section. Still in very early stages — just small thread-like stems starting out. Given how vigorous the established section is, this should fill in well once roots take hold. Keep watered through dry spells while establishing. Don't worry about the slow start — muehlenbeckia is deceptively quick once the root system is in place. REACHERS RULE (Jay, 23 Oct 2026): any strand standing off the fence chasing light gets cut back to 5-10cm outside the wires with scissors, whenever seen, no monthly limit (the monthly ceiling is for the full-face top shear only). Never re-tie a reacher, the tip pulls out again; ties are for laying a strand along bare fence. Each cut reacher branches into 2-3 fence-hugging laterals, which is the coverage."
 tasks:
   - months:
       - 12
@@ -37,7 +37,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Coverage training (30-60 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage"
+    task: "Coverage training (30-60 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
     completed: 2026-10
@@ -52,6 +52,9 @@ tasks:
     task: "Heat check (1 min): on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
 log:
+  - date: "2026-10-23"
+    entry: "Jay: strands have untwined from the Sept ties and are reaching out from the fence for light. Advice: shear every reacher to 5-10cm outside the wires, scissors, as often as seen; don't re-tie reachers; leave anything running flat along the fence. Rule written into notes and the monthly rows."
+    category: general
   - date: "2026-10-07"
     entry: "October coverage training DONE (IMG_3928/3929): more strands tied sideways along the lower grate toward the gate, small leaves coming along every strand. Still thin, but every strand is on the fence and pointed the right way. Nothing needed, because the plant needs all its leaf right now and the November row picks it up again."
     category: general

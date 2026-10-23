@@ -20,7 +20,7 @@ photos:
     caption: Neighbour's side detail, 8 Sept 2026 — what does come through is cut flat at the mesh plane
   - src: /images/plants/IMG_3485.jpg
     caption: Interior, 8 Sept 2026 — dense dead woody core from light exclusion, normal for the species; the frame that reshoots once flattened
-notes: "Wire vine / maidenhair vine (Muehlenbeckia complexa), third of the three front-boundary muehlenbeckias. Runs along the EAST boundary; plan is for it and the front (south) fence vine to grow toward each other and meet at the corner. Neighbour is elderly and shears her side hard to keep her walkway clear — that's fine and won't change; our side has to carry the attachment. The neighbour's trimming isn't harmful in itself — muehlenbeckia responds to hedging by densifying — but it keeps stripping the attachment points, so the vine can't hold or extend along the fence. Fix is structural: tie main stems firmly to our side of the fence with soft ties through the grates, below where the trimmer reaches, and train leaders horizontally along the uncovered two-thirds. Done properly, the ongoing trimming becomes free density maintenance and full coverage is roughly two growing seasons away. Left alone, it stays at a third indefinitely."
+notes: "Wire vine / maidenhair vine (Muehlenbeckia complexa), third of the three front-boundary muehlenbeckias. Runs along the EAST boundary; plan is for it and the front (south) fence vine to grow toward each other and meet at the corner. Neighbour is elderly and shears her side hard to keep her walkway clear — that's fine and won't change; our side has to carry the attachment. The neighbour's trimming isn't harmful in itself — muehlenbeckia responds to hedging by densifying — but it keeps stripping the attachment points, so the vine can't hold or extend along the fence. Fix is structural: tie main stems firmly to our side of the fence with soft ties through the grates, below where the trimmer reaches, and train leaders horizontally along the uncovered two-thirds. Done properly, the ongoing trimming becomes free density maintenance and full coverage is roughly two growing seasons away. Left alone, it stays at a third indefinitely. REACHERS RULE (Jay, 23 Oct 2026): any strand standing off the fence chasing light gets cut back to 5-10cm outside the wires with scissors, whenever seen, no monthly limit (the monthly ceiling is for the full-face top shear only). Never re-tie a reacher, the tip pulls out again; ties are for laying a strand along bare fence. Each cut reacher branches into 2-3 fence-hugging laterals, which is the coverage."
 tasks:
   - months:
       - 12
@@ -45,7 +45,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Coverage training (about an hour): tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached"
+    task: "Coverage training (about an hour): tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
     completed: 2026-10
@@ -54,6 +54,9 @@ tasks:
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; the fence run is being pushed for coverage"
     category: feed
 log:
+  - date: "2026-10-23"
+    entry: "Jay: strands have untwined from the Sept ties and are reaching out from the fence for light. Advice: shear every reacher to 5-10cm outside the wires, scissors, as often as seen; don't re-tie reachers; leave anything running flat along the fence. Rule written into notes and the monthly rows."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: stale Sept dieback-check row deleted."
     category: general

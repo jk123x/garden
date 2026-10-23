@@ -32,7 +32,7 @@ photos:
     caption: Runners threading through the fence — trim the escapees (6 Aug 2026)
   - src: /images/plants/IMG_0954.jpg
     caption: July 2026, after the tidy
-notes: Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill.
+notes: "Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill. REACHERS RULE (Jay, 23 Oct 2026): any strand standing off the fence chasing light gets cut back to 5-10cm outside the wires with scissors, whenever seen, no monthly limit (the monthly ceiling is for the full-face top shear only). Never re-tie a reacher, the tip pulls out again; ties are for laying a strand along bare fence. Each cut reacher branches into 2-3 fence-hugging laterals, which is the coverage."
 tasks:
   - months:
       - 12
@@ -46,7 +46,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Monthly top shear (about an hour): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip"
+    task: "Monthly top shear (about an hour): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: prune
     repeat: monthly
     completed: 2026-10
@@ -66,6 +66,9 @@ tasks:
     task: "Growth-push top-up: second dose of Richgro — the July feed is spent by now; this fence is being pushed for full coverage"
     category: feed
 log:
+  - date: "2026-10-23"
+    entry: "Jay: strands have untwined from the Sept ties and are reaching out from the fence for light. Advice: shear every reacher to 5-10cm outside the wires, scissors, as often as seen; don't re-tie reachers; leave anything running flat along the fence. Rule written into notes and the monthly rows."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: stale Sept dieback-check row deleted."
     category: general
@@ -99,3 +102,6 @@ log:
   - date: "2026-07-29"
     entry: Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced.
     category: prune
+urgency: week
+dueBy: "2026-10-30"
+nextAction: "Shear the reachers on all three fences (30-60 min, scissors): every strand standing off the fence chasing light, cut back to 5-10cm outside the wires. Don't re-tie them. Leave anything running flat along the fence. Each cut strand branches into 2-3 fence-hugging laterals."
