@@ -39,6 +39,9 @@ tasks:
     task: "Hot-day hose (5 min): the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
     category: water
 log:
+  - date: "2026-10-23"
+    entry: Spent flower heads cut back to the closest leaf joint (Jay). Correct technique. Full post-flowering prune to 30-40cm stays queued for November once the last heads finish.
+    category: prune
   - date: "2026-10-22"
     entry: "Photo IMG_4057: mid-show, roughly half the heads gone to brown seed fluff, half still purple. Advice: snip the fluffy heads now to the leaf pair below (self-sows), leave the purples, full prune to 30-40cm in 2-3 weeks when the rest finish. Yellow petals on the mulch are the native frangipani's flower drop."
     category: general
@@ -66,6 +69,3 @@ log:
   - date: "2026-07-29"
     entry: Fed with Richgro All Purpose (pre-baby feed blitz) — replaces the September feed.
     category: feed
-urgency: week
-nextAction: "Deadhead the seeded heads (5 min, scissors): snip every fluffy brown head back to the first pair of leaves below it, leave every purple one. Fluff into the green bin, not the mulch, it self-sows. The full prune waits until the last purples brown, that row surfaces in November."
-dueBy: "2026-10-29"
