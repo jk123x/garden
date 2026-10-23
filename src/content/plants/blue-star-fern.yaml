@@ -2,29 +2,34 @@ name: Blue Star Fern
 type: fern
 indoor: false
 location: Backyard — bench/bee hotel corner, base of the jasmine fence
-zones: [4]
-health: "Thriving and quietly colonising — a spreading colony of blue-grey fronds over about a metre of bed, which for this fern is the signature of a happy plant. Sheltered part-shade under the jasmine canopy is close to its ideal spot."
+zones:
+  - 4
+health: Thriving and quietly colonising — a spreading colony of blue-grey fronds over about a metre of bed, which for this fern is the signature of a happy plant. Sheltered part-shade under the jasmine canopy is close to its ideal spot.
 healthStatus: healthy
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 image: /images/winter-2026/IMG_2306-bluestar.jpg
 photos:
   - src: /images/plants/IMG_3570.jpg
     caption: "Spring check after a quick tidy: dense blue-grey fronds, no browning, rhizomes clear (11 Sept 2026)"
   - src: /images/winter-2026/IMG_2306-bluestar.jpg
-    caption: "The colony against the jasmine fence (6 Aug 2026)"
+    caption: The colony against the jasmine fence (6 Aug 2026)
   - src: /images/winter-2026/IMG_2306.jpg
-    caption: "In context by the bench, next to the lavender (6 Aug 2026)"
+    caption: In context by the bench, next to the lavender (6 Aug 2026)
 notes: "Phlebodium aureum 'Blue Star' (golden polypody) — CONFIRMED Aug 2026: identified from the end-of-winter photos, held up under an adversarial second research pass (prostrate banksia, melianthus, cardoon, grevillea seedling all positively excluded on frond architecture), and Jay agreed after his own image comparison. (Tiny residual chance it's the near-identical sibling P. pseudoaureum — same care, horticulturally irrelevant.) Widely sold in Australia for shaded borders, so plausibly a designer pick or past purchase that outgrew its label. Care: basically nothing — it wants exactly what it has. Not invasive; creeps politely and pulls back easily. Two cautions: frost-tender, so a rare hard frost may scorch fronds — they regrow from the rhizome, don't dig it out thinking it's dead; and NEVER bury the surface rhizomes when mulching, they need to sit on top."
 tasks:
-  - months: [9]
-    task: "Spring glance (10 sec), act only on a yes: a frond that is fully brown = snip at the base with scissors. Yellowing = leave it, still feeding the plant. Anything piled on the furry golden rhizomes = brush it off, they must sit on top uncovered. Nothing showing = nothing to do"
+  - months:
+      - 9
+    task: "Spring glance, act only on a yes: a frond that is fully brown = snip at the base with scissors. Yellowing = leave it, still feeding the plant. Anything piled on the furry golden rhizomes = brush it off, they must sit on top uncovered. Nothing showing = nothing to do"
     category: prune
-    completed: "2026-09"
-  - months: [4]
-    task: "Mulch caution (1 min): when mulching the jasmine bed, stop short of the fern. Mulch over the surface rhizomes smothers them. A thin layer between the fronds is fine, nothing on top of the furry rhizomes"
+    completed: 2026-09
+  - months:
+      - 4
+    task: "Mulch caution: when mulching the jasmine bed, stop short of the fern. Mulch over the surface rhizomes smothers them. A thin layer between the fronds is fine, nothing on top of the furry rhizomes"
     category: mulch
-  - months: [7, 8]
-    task: "Frost check (10 sec): fronds gone limp and grey after a frost = scorch, not death. Leave the plant alone, it regrows from the rhizome in spring. The mistake is digging it out thinking it is dead"
+  - months:
+      - 7
+      - 8
+    task: "Frost check: fronds gone limp and grey after a frost = scorch, not death. Leave the plant alone, it regrows from the rhizome in spring. The mistake is digging it out thinking it is dead"
     category: general
 log:
   - date: "2026-09-11"

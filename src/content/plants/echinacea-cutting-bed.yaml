@@ -23,14 +23,14 @@ tasks:
     completed: 2026-09
   - months:
       - 5
-    task: "Cut the dead stems to ground level (5 min, secateurs) once they are fully brown and the seed heads spent, just above the crown. Don't dig around the crown and don't water it in: this bed has rot history."
+    task: "Cut the dead stems to ground level (secateurs) once they are fully brown and the seed heads spent, just above the crown. Don't dig around the crown and don't water it in: this bed has rot history."
     category: prune
   - months:
       - 12
       - 1
       - 2
       - 3
-    task: "Deadhead or cut for the vase (2 min per visit): cut each spent flower back to the next bud or leaf pair down the stem. Leave the last flush standing in March, the seed heads feed the birds and the stems protect the crown"
+    task: "Deadhead or cut for the vase: cut each spent flower back to the next bud or leaf pair down the stem. Leave the last flush standing in March, the seed heads feed the birds and the stems protect the crown"
     category: harvest
 log:
   - date: "2026-10-17"

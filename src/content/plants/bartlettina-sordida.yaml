@@ -18,25 +18,25 @@ notes: Purple Torch / Mexican Bush Daisy (Bartlettina sordida). Semi-tropical wi
 tasks:
   - months:
       - 11
-    task: "Prune after flowering (30 min, secateurs): once the last purple heads have browned, cut every stem back to 30-40cm from the ground, each cut just above a pair of leaves. It's a modest clump, so this is the whole job, not a third-off trim. Regrows fast over summer and flowers on that growth next spring. Feed straight after (next row). Heads still purple = wait another week"
+    task: "Prune after flowering (secateurs): once the last purple heads have browned, cut every stem back to 30-40cm from the ground, each cut just above a pair of leaves. It's a modest clump, so this is the whole job, not a third-off trim. Regrows fast over summer and flowers on that growth next spring. Feed straight after (next row). Heads still purple = wait another week"
     category: prune
     byDay: 15
   - months:
       - 11
-    task: "Feed (2 min), straight after the November prune: Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feeding before the prune just grows wood you're about to cut off"
+    task: "Feed, straight after the November prune: Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feeding before the prune just grows wood you're about to cut off"
     category: feed
   - months:
       - 6
       - 7
       - 8
-    task: "Frost check (1 min): the trigger is a forecast under 2 degrees on the dashboard weather strip. That night, throw an old sheet over the top and pull it off in the morning. Blackened soft tips after a frost are cosmetic, cut them off in spring, not now"
+    task: "Frost check: the trigger is a forecast under 2 degrees on the dashboard weather strip. That night, throw an old sheet over the top and pull it off in the morning. Blackened soft tips after a frost are cosmetic, cut them off in spring, not now"
     category: general
     completed: 2026-07
   - months:
       - 12
       - 1
       - 2
-    task: "Hot-day hose (5 min): the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
+    task: "Hot-day hose: the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
     category: water
 log:
   - date: "2026-10-23"

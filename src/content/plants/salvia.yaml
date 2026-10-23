@@ -22,21 +22,21 @@ tasks:
   - months:
       - 5
       - 6
-    task: "Hard cutback (20 min, secateurs): when the bees abandon the spikes, cut every stem to 10-20cm stubs. Take the whole clump, not just the spent bits: half-hearted cutting leaves a woody frame that flowers less. It regrows from the base in spring. Refresh the sugarcane round the base after."
+    task: "Hard cutback (secateurs): when the bees abandon the spikes, cut every stem to 10-20cm stubs. Take the whole clump, not just the spent bits: half-hearted cutting leaves a woody frame that flowers less. It regrows from the base in spring. Refresh the sugarcane round the base after."
     category: prune
     completed: 2026-05
   - months:
       - 9
-    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered round each clump at the dripline and watered in. Last calm weekend before spring."
+    task: "Feed: Richgro All Purpose, normal dose, scattered round each clump at the dripline and watered in. Last calm weekend before spring."
     category: feed
     completed: 2026-07
   - months:
       - 11
-    task: "Pinch the tips (10 min, scissors): once the new stems are knee-high, snip the top 5cm off each one. Bushier plant, more flowering tips in autumn, less of the flop. One pass, not repeated"
+    task: "Pinch the tips (scissors): once the new stems are knee-high, snip the top 5cm off each one. Bushier plant, more flowering tips in autumn, less of the flop. One pass, not repeated"
     category: prune
   - months:
       - 4
-    task: "Tidy brown spikes (10 min), only if it looks tatty: snip each finished spike back to the leaf pair below it. Still flowering with bees on it = leave it, the May cutback clears everything anyway"
+    task: "Tidy brown spikes, only if it looks tatty: snip each finished spike back to the leaf pair below it. Still flowering with bees on it = leave it, the May cutback clears everything anyway"
     category: prune
 log:
   - date: "2026-10-17"

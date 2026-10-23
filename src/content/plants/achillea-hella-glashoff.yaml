@@ -20,24 +20,24 @@ tasks:
   - months:
       - 3
       - 4
-    task: "Cut back (5 min): once the flat flower heads have gone brown and papery, cut every flowering stem down to the ferny basal rosette. Leave the rosette itself untouched, that is next year's plant. Snap test on doubtful stems: dry and hollow = cut"
+    task: "Cut back: once the flat flower heads have gone brown and papery, cut every flowering stem down to the ferny basal rosette. Leave the rosette itself untouched, that is next year's plant. Snap test on doubtful stems: dry and hollow = cut"
     category: prune
     completed: 2026-04
   - months:
       - 9
-    task: "Divide check (10 sec): dead/bald centre with growth only round the rim, or flowering way down = time to divide. Divided Apr 2026 — unlikely to need it before ~2028."
+    task: "Divide check: dead/bald centre with growth only round the rim, or flowering way down = time to divide. Divided Apr 2026 — unlikely to need it before ~2028."
     category: general
     completed: 2026-09
   - months:
       - 9
-    task: "Feed light (2 min): a small scatter of Richgro All Purpose around each clump, about half what the bag says, then water in. The mistake is generosity: rich soil makes achillea tall, soft and floppy, so if in doubt use less"
+    task: "Feed light: a small scatter of Richgro All Purpose around each clump, about half what the bag says, then water in. The mistake is generosity: rich soil makes achillea tall, soft and floppy, so if in doubt use less"
     category: feed
     completed: 2026-07
   - months:
       - 12
       - 1
       - 2
-    task: "Deadhead (5 min): once a flat head has gone brown, cut that stem back to the next side shoot or leaf below it, or cut the fresh ones for the vase, same effect. Cutting to a side shoot is what brings the second flush in Feb"
+    task: "Deadhead: once a flat head has gone brown, cut that stem back to the next side shoot or leaf below it, or cut the fresh ones for the vase, same effect. Cutting to a side shoot is what brings the second flush in Feb"
     category: prune
 log:
   - date: "2026-10-17"

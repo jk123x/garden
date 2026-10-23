@@ -53,12 +53,12 @@ tasks:
   - months:
       - 10
       - 11
-    task: "Strip every flower (5 min, every few days through Oct-Nov): pinch off the red-and-white flowers and buds along all the regrowth, all within reach on a 1m plant. First flower seen and snipped 22 Oct 2026. Flowering runs 4-5 weeks, so keep walking past it. A missed flower is a fruit on the ground in autumn, and that's fruit fly. The petals are edible and sweet"
+    task: "Strip every flower (every few days through Oct-Nov): pinch off the red-and-white flowers and buds along all the regrowth, all within reach on a 1m plant. First flower seen and snipped 22 Oct 2026. Flowering runs 4-5 weeks, so keep walking past it. A missed flower is a fruit on the ground in autumn, and that's fruit fly. The petals are edible and sweet"
     category: general
   - months:
       - 11
       - 12
-    task: "Tip the regrowth (10 min, scissors): once new shoots reach about 30cm, snip 2-3cm off each tip so it branches. Builds the dense low shrub and stops late flowers. Only the soft new shoots, not back into old wood."
+    task: "Tip the regrowth (scissors): once new shoots reach about 30cm, snip 2-3cm off each tip so it branches. Builds the dense low shrub and stops late flowers. Only the soft new shoots, not back into old wood."
     category: prune
   - months:
       - 2
@@ -67,11 +67,11 @@ tasks:
       - 5
       - 6
       - 7
-    task: "Fruit pickup, daily in season (2 min): any fallen fruit into a sealed black bag to solarise for 2+ weeks, or the red-lid bin. Never compost, fruit fly host. With the flower-strip there should be almost none, so check under the bark mulch."
+    task: "Fruit pickup, daily in season: any fallen fruit into a sealed black bag to solarise for 2+ weeks, or the red-lid bin. Never compost, fruit fly host. With the flower-strip there should be almost none, so check under the bark mulch."
     category: general
   - months:
       - 7
       - 8
-    task: "Winter height check (2 min): shrubs above the 1.5m target = cut the tallest trunks back to just below fence top with secateurs, angled cuts, leafy laterals kept below the line. Under target = nothing to do."
+    task: "Winter height check: shrubs above the 1.5m target = cut the tallest trunks back to just below fence top with secateurs, angled cuts, leafy laterals kept below the line. Under target = nothing to do."
     category: prune
     completed: 2026-07

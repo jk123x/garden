@@ -57,26 +57,26 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Weekly hose (5 min): once a week Nov-Mar, plus any 35°+ day, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its zone 2 shrubbler gives ~5L a run and the zone can never run longer than 15 min for the lawn, so the hose is what carries this tree through summer."
+    task: "Weekly hose: once a week Nov-Mar, plus any 35°+ day, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its zone 2 shrubbler gives ~5L a run and the zone can never run longer than 15 min for the lawn, so the hose is what carries this tree through summer."
     category: water
   - months:
       - 9
-    task: "Late-winter feed (5 min, from 2027 on): Experts Choice fruit & citrus, LIGHT dose under the outer canopy edge, watered in. The tree's first post-renovation feed is the autumn 2027 one, so skip this row until the 2027 autumn feed has happened"
+    task: "Late-winter feed (from 2027 on): Experts Choice fruit & citrus, LIGHT dose under the outer canopy edge, watered in. The tree's first post-renovation feed is the autumn 2027 one, so skip this row until the 2027 autumn feed has happened"
     category: feed
     completed: 2026-07
   - months:
       - 3
-    task: "Autumn feed (5 min), the first feed since the 2026 gall renovation: Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. If the tree is still pushing pale soft shoots, wait a month; feed hardened growth, not the flush."
+    task: "Autumn feed, the first feed since the 2026 gall renovation: Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. If the tree is still pushing pale soft shoots, wait a month; feed hardened growth, not the flush."
     category: feed
     completed: 2026-07
   - months:
       - 9
-    task: "Light shape prune (10 min, secateurs): only crossing branches and anything dragging on the ground, cuts back to a fork. While recovering from the 2026 renovation, that is the ceiling: the tree needs every leaf it has."
+    task: "Light shape prune (secateurs): only crossing branches and anything dragging on the ground, cuts back to a fork. While recovering from the 2026 renovation, that is the ceiling: the tree needs every leaf it has."
     category: prune
     completed: 2026-07
   - months:
       - 10
-    task: "Eco-oil on the spring flush (10 min): spray the new soft leaves until dripping, both sides, on a cool evening under 25°. Leaf miner tunnels the flush and the winter oil has no residual, so this round is its own job. Never spray in heat or full sun: leaf burn."
+    task: "Eco-oil on the spring flush: spray the new soft leaves until dripping, both sides, on a cool evening under 25°. Leaf miner tunnels the flush and the winter oil has no residual, so this round is its own job. Never spray in heat or full sun: leaf burn."
     category: spray
     completed: 2026-10
   - months:
@@ -91,11 +91,11 @@ tasks:
   - months:
       - 6
       - 7
-    task: "Annual gall snip (10 min, the one job that matters on this tree): run a hand along every young stem feeling for sausage-shaped swellings. Mid-stem between joints = gall, cut 5cm below it and bin it, never compost (the wasps emerge from it). Swelling at a branch fork = normal wood, leave it. Must be done before spring emergence."
+    task: "Annual gall snip (the one job that matters on this tree): run a hand along every young stem feeling for sausage-shaped swellings. Mid-stem between joints = gall, cut 5cm below it and bin it, never compost (the wasps emerge from it). Swelling at a branch fork = normal wood, leave it. Must be done before spring emergence."
     category: prune
     completed: 2026-07
   - months:
       - 1
       - 2
-    task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
+    task: "Leaf miner glance on the summer flush: silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
     category: spray

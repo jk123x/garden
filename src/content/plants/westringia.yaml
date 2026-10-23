@@ -34,19 +34,19 @@ tasks:
   - months:
       - 9
     completed: 2026-09
-    task: "Shape reduction, pass 1 (20 min per dome): up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood."
+    task: "Shape reduction, pass 1: up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood."
     category: prune
   - months:
       - 10
     day: 20
-    task: "Reshoot check + finish the wattle-side dome (same session as the wattle prune, 20 min): first look just below your Sept cut line on the porch dome. New shoots pushing from below the cuts all over = the plant reshoots readily, so take the next bite now, toward a third off, and a little into older wood wherever a leaf bud shows. No shoots below the cuts = tip-grower, stay conservative. Then, with the wattle's branches off the second dome's shoulder, finish that side to match the rest: grab a handful, snip, green leaf below every cut."
+    task: "Reshoot check + finish the wattle-side dome (same session as the wattle prune): first look just below your Sept cut line on the porch dome. New shoots pushing from below the cuts all over = the plant reshoots readily, so take the next bite now, toward a third off, and a little into older wood wherever a leaf bud shows. No shoots below the cuts = tip-grower, stay conservative. Then, with the wattle's branches off the second dome's shoulder, finish that side to match the rest: grab a handful, snip, green leaf below every cut."
     category: prune
   - months:
       - 3
-    task: "Shape reduction, pass 2 (20 min per dome): up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood. How hard to go was settled by the 20 Oct reshoot check."
+    task: "Shape reduction, pass 2: up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood. How hard to go was settled by the 20 Oct reshoot check."
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, standard dose, scattered under the dome at the dripline and watered in. Native fertiliser only, never the Richgro: the phosphorus burns it. Controlled-release, so going early costs nothing."
+    task: "Feed: Osmocote Native, standard dose, scattered under the dome at the dripline and watered in. Native fertiliser only, never the Richgro: the phosphorus burns it. Controlled-release, so going early costs nothing."
     category: feed
     completed: 2026-07

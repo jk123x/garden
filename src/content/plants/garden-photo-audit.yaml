@@ -2,17 +2,21 @@ name: Garden Photo Rounds
 type: groundcover
 location: Whole garden
 healthStatus: healthy
-lastAssessed: "2026-09"
+lastAssessed: 2026-09
 notes: "Tracking entry, not a plant. REVIEW RULE (8 Sept 2026, after the westringia slipped through the Aug round): every photo in a round must produce either a dated job on the plant card or an explicit 'nothing needed, because...' in the log. A plant that has outgrown its spot, gone leggy or changed shape counts as a job, not a healthy note. The winter 2026 works (feijoa renovation, paw haircut, olive prune, passionfruit reshape, feed blitz) reset half the garden — this photo set is the 'before' baseline. AUDIT CLOSED 7 Aug 2026: every ID settled, no open questions. The only follow-up is the spring comparison shoot (task below)."
 tasks:
-  - months: [11, 12]
-    task: "Spring photo round (20 min): walk every area with the phone and re-shoot the 51 winter-2026 baseline angles on /photo-audit, plus a close-up of anything that changed. Send the lot to Claude: it compares against the baseline, updates every plant's health, and writes the summer job list"
+  - months:
+      - 11
+      - 12
+    task: "Spring photo round: walk every area with the phone and re-shoot the 51 winter-2026 baseline angles on /photo-audit, plus a close-up of anything that changed. Send the lot to Claude: it compares against the baseline, updates every plant's health, and writes the summer job list"
     category: general
-  - months: [3]
-    task: "Autumn photo round (20 min): same walk, every area, wide shots + close-ups of anything struggling after summer. Send to Claude for the autumn job list and to see how the season went"
+  - months:
+      - 3
+    task: "Autumn photo round: same walk, every area, wide shots + close-ups of anything struggling after summer. Send to Claude for the autumn job list and to see how the season went"
     category: general
-  - months: [8]
-    task: "End-of-winter photo round (20 min): every area before the spring flush. This is the year's baseline set, so match the /photo-audit angles. Send to Claude for the spring job list"
+  - months:
+      - 8
+    task: "End-of-winter photo round: every area before the spring flush. This is the year's baseline set, so match the /photo-audit angles. Send to Claude for the spring job list"
     category: general
 log:
   - date: "2026-09-08"
@@ -31,8 +35,8 @@ log:
     entry: "ID review session with Jay, same day — most questions answered live: 2277 = dianellas (no missed paw haircut), 2274 = miscanthus reshooting, 2288's tree = native frangipani, 2291/2292 = grapefruit (not orange), 2289/2293 = the flower beds (achillea/echinacea), 2305's 'bare tree' = jasmine's bare lower framework, 2306 = dusty miller + lavender (both already catalogued), 2308/2309/2311 = east side outside the laundry (passionfruit runner has reached the far side of the shed), 2272 big dome = westringia, wattle = 'Scarlet Blaze' CONFIRMED. Weeding round 2 put on the dashboard at Jay's request (kikuyu in east bed, flower-bed rosettes, taro seedlings). Remaining: jasmine run mapping for 2280-2287, base test on the tub-side clumps, bartlettina confirm."
     category: general
   - date: "2026-08-06"
-    entry: "Photo sweep DONE — 51 photos (IMG_2265-2315) covering front bed, front fence, nature strip, all three jasmine runs, passionfruit wall, all four citrus, olive, rosemary, sage bed, bartlettina, frangipani, taro, raised beds and tubs. Stored in /images/winter-2026/ as the end-of-winter baseline. Review page built at /photo-audit with proposed IDs and open questions; log entries written to all clearly-identified plants."
+    entry: Photo sweep DONE — 51 photos (IMG_2265-2315) covering front bed, front fence, nature strip, all three jasmine runs, passionfruit wall, all four citrus, olive, rosemary, sage bed, bartlettina, frangipani, taro, raised beds and tubs. Stored in /images/winter-2026/ as the end-of-winter baseline. Review page built at /photo-audit with proposed IDs and open questions; log entries written to all clearly-identified plants.
     category: general
   - date: "2026-08-02"
-    entry: "Created at Jay's request — end-of-winter photo sweep of every garden area, to be sent to Claude for storage and record updates."
+    entry: Created at Jay's request — end-of-winter photo sweep of every garden area, to be sent to Claude for storage and record updates.
     category: general

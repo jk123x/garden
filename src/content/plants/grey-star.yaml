@@ -13,7 +13,7 @@ tasks:
       - 1
       - 2
     repeat: monthly
-    task: "Mite and crisp check (30 sec): leaf undersides for fine speckling or webbing (shower blast if found) and leaf edges for crisping (move it to the bathroom for a fortnight if so). Summer dry air is when this plant suffers"
+    task: "Mite and crisp check: leaf undersides for fine speckling or webbing (shower blast if found) and leaf edges for crisping (move it to the bathroom for a fortnight if so). Summer dry air is when this plant suffers"
     category: general
 log:
   - date: "2026-10-17"

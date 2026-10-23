@@ -17,17 +17,17 @@ tasks:
   - months:
       - 7
       - 8
-    task: "Annual cutback (15 min, secateurs or scissors in handfuls): once the clump is fully brown, tie it into a bundle with string, then cut the lot to 10-15cm above ground. Do it before the end of August: cutting after the new green blades are up shears their tips."
+    task: "Annual cutback (secateurs or scissors in handfuls): once the clump is fully brown, tie it into a bundle with string, then cut the lot to 10-15cm above ground. Do it before the end of August: cutting after the new green blades are up shears their tips."
     category: prune
     completed: 2026-04
   - months:
       - 9
-    task: "Feed (2 min): Richgro All Purpose, normal dose, round the crown once new blades are showing. Feeding before it wakes just leaches."
+    task: "Feed: Richgro All Purpose, normal dose, round the crown once new blades are showing. Feeding before it wakes just leaches."
     category: feed
     completed: 2026-07
   - months:
       - 9
-    task: "Divide check as shoots emerge (10 sec): hollow dead ring in the clump centre = divide this spring."
+    task: "Divide check as shoots emerge: hollow dead ring in the clump centre = divide this spring."
     category: general
     completed: 2026-09
 log:

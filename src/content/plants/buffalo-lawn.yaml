@@ -16,19 +16,19 @@ notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive,
 tasks:
   - months:
       - 10
-    task: "Buy Sudden Impact for Lawns, then spring feed (10 min): none in the shed. Bunnings sells the 10kg granular (about $53); any bag 5kg+ covers the season. Rate for an established lawn is 50g per m², so about 1.25kg over the 25m², spread evenly, watered in well the same day. Unwatered granules scorch the grass. Last fed 31 July"
+    task: "Buy Sudden Impact for Lawns, then spring feed: none in the shed. Bunnings sells the 10kg granular (about $53); any bag 5kg+ covers the season. Rate for an established lawn is 50g per m², so about 1.25kg over the 25m², spread evenly, watered in well the same day. Unwatered granules scorch the grass. Last fed 31 July"
     category: feed
   - months:
       - 12
-    task: "Summer feed (10 min): Sudden Impact for Lawns at the bag rate, spread evenly and watered in the same day. Do it on a mild morning, never ahead of a 35° day or it burns. Eight weeks after the October feed"
+    task: "Summer feed: Sudden Impact for Lawns at the bag rate, spread evenly and watered in the same day. Do it on a mild morning, never ahead of a 35° day or it burns. Eight weeks after the October feed"
     category: feed
   - months:
       - 4
-    task: "Autumn feed (10 min): Sudden Impact for Lawns at the bag rate, evenly, watered in. The autumn feed is what holds buffalo's winter colour, so don't skip it. Last feed until October"
+    task: "Autumn feed: Sudden Impact for Lawns at the bag rate, evenly, watered in. The autumn feed is what holds buffalo's winter colour, so don't skip it. Last feed until October"
     category: feed
   - months:
       - 10
-    task: "Thatch check (10 sec): press a hand into the lawn. If there is more than a finger-width of spongy brown dead material under the green, rake it out hard with a metal rake. Buffalo rarely needs this, so if it feels firm, skip it"
+    task: "Thatch check: press a hand into the lawn. If there is more than a finger-width of spongy brown dead material under the green, rake it out hard with a metal rake. Buffalo rarely needs this, so if it feels firm, skip it"
     category: general
     completed: 2026-10
   - months:
@@ -44,7 +44,7 @@ tasks:
       - 2
       - 3
       - 4
-    task: "Mow (20 min): only when it looks shaggy. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
+    task: "Mow: only when it looks shaggy. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
     category: general
     repeat: monthly
   - months:
@@ -52,16 +52,16 @@ tasks:
       - 6
       - 7
       - 8
-    task: "Winter grass pull (10 min when passing): the tell is soft light-green tufts with fine white-green seed heads, paler than the buffalo. Pull whole tufts by hand, they come out easily. Do it before the seed heads open or it explodes in spring"
+    task: "Winter grass pull: the tell is soft light-green tufts with fine white-green seed heads, paler than the buffalo. Pull whole tufts by hand, they come out easily. Do it before the seed heads open or it explodes in spring"
     category: general
     completed: 2026-07
   - months:
       - 2
-    task: "Late-summer feed (10 min): Sudden Impact for Lawns at the bag rate, evenly, watered in the same day. Mild morning only. This feed is what gets it through the February heat without thinning"
+    task: "Late-summer feed: Sudden Impact for Lawns at the bag rate, evenly, watered in the same day. Mild morning only. This feed is what gets it through the February heat without thinning"
     category: feed
   - months:
       - 11
-    task: "Bare patch check (5 min): any bare patch bigger than a hand that isn't closing by now = cut a rooted runner from the edge, lay it across the patch in a shallow scrape, peg it with a bent wire, water it. Buffalo isn't sold as seed, runners are the only repair"
+    task: "Bare patch check: any bare patch bigger than a hand that isn't closing by now = cut a rooted runner from the edge, lay it across the patch in a shallow scrape, peg it with a bent wire, water it. Buffalo isn't sold as seed, runners are the only repair"
     category: general
 log:
   - date: "2026-10-23"

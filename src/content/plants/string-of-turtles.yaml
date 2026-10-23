@@ -11,7 +11,7 @@ tasks:
   - months:
       - 9
       - 10
-    task: "Pinch tips (2 min): snip the last 1cm off each trailing stem. Each pinched stem branches into two, which is how thin coverage becomes a mat"
+    task: "Pinch tips: snip the last 1cm off each trailing stem. Each pinched stem branches into two, which is how thin coverage becomes a mat"
     category: prune
 log:
   - date: "2026-10-17"

@@ -17,10 +17,10 @@ log:
 tasks:
   - months:
       - 9
-    task: "Feed (2 min): Richgro All Purpose, light dose, scattered over the patches and watered in."
+    task: "Feed: Richgro All Purpose, light dose, scattered over the patches and watered in."
     category: feed
     completed: 2026-07
   - months:
       - 3
-    task: "Edge check (5 min, hand fork): runners crossing into the path or over a neighbour's crown = pull them back to the bed edge, and replant the lifted pieces into any bare shady gap. Still inside its bed = leave it."
+    task: "Edge check (hand fork): runners crossing into the path or over a neighbour's crown = pull them back to the bed edge, and replant the lifted pieces into any bare shady gap. Still inside its bed = leave it."
     category: prune

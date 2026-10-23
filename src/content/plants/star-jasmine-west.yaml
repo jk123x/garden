@@ -21,11 +21,11 @@ tasks:
   - months:
       - 1
       - 2
-    task: "After-flowering prune (2-3 hours, secateurs): once flowering finishes, cut back the runners that have gone over the top of the pergola and anything drooping off it into head height. Along the fence, the bare ends keep every live runner: that is the coverage target and pruning there costs a season. Where the fence is already covered, thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base, never shortened."
+    task: "After-flowering prune (secateurs): once flowering finishes, cut back the runners that have gone over the top of the pergola and anything drooping off it into head height. Along the fence, the bare ends keep every live runner: that is the coverage target and pruning there costs a season. Where the fence is already covered, thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base, never shortened."
     category: prune
   - months:
       - 9
-    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
+    task: "Feed: Richgro All Purpose, normal dose, scattered along the full fence length at the dripline and watered in. Go the last calm weekend before spring: earlier and winter rain leaches it past sleeping roots."
     category: feed
     completed: 2026-07
   - months:
@@ -34,12 +34,12 @@ tasks:
     category: feed
   - months:
       - 3
-    task: "Autumn feed (5 min): Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
+    task: "Autumn feed: Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
     category: feed
   - months:
       - 10
     day: 1
-    task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty fence is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
+    task: "THE timing-critical session: go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on, runners supple — pinch leader tips to force branching, then tie the soft new runners SIDEWAYS into the bare trellis at the run's ends. The empty fence is the target; don't let everything race up top. Cool spring / no runners yet? Wait until they hit 30cm. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: general
     completed: 2026-10
   - months:
@@ -48,7 +48,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest runners into the remaining bare trellis while they're still supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
 log:

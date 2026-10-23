@@ -10,13 +10,13 @@ notes: Dichondra repens (Kidney Weed). Australian native ground cover threading 
 tasks:
   - months:
       - 9
-    task: "Feed light (2 min): a thin scatter of Richgro All Purpose over the mat, half the bag rate, then water in. It shares beds with natives, so keep the scatter to the dichondra itself, not the banksia or paws"
+    task: "Feed light: a thin scatter of Richgro All Purpose over the mat, half the bag rate, then water in. It shares beds with natives, so keep the scatter to the dichondra itself, not the banksia or paws"
     category: feed
     completed: 2026-07
   - months:
       - 2
       - 3
-    task: "Edge pull (5 min): where the mat has crept over the chalk sticks, cotyledon or a dianella crown, pull it back to clear ground by hand. It smothers the succulents if left through autumn"
+    task: "Edge pull: where the mat has crept over the chalk sticks, cotyledon or a dianella crown, pull it back to clear ground by hand. It smothers the succulents if left through autumn"
     category: prune
 log:
   - date: "2026-10-17"

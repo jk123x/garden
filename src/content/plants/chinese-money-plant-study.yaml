@@ -10,7 +10,7 @@ tasks:
   - months:
       - 9
       - 10
-    task: "Pot up pups (10 min): any pup with 3+ leaves and 5cm of height = cut it off below the soil with a bit of root and pot it in its own small pot. Smaller than that = leave it another month. Give them away or fill gaps"
+    task: "Pot up pups: any pup with 3+ leaves and 5cm of height = cut it off below the soil with a bit of root and pot it in its own small pot. Smaller than that = leave it another month. Give them away or fill gaps"
     category: general
 log:
   - date: "2026-10-17"

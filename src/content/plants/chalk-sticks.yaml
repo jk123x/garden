@@ -49,14 +49,14 @@ tasks:
     category: prune
   - months:
       - 3
-    task: "Leggy trim (5 min): the trigger is bare woody stem showing between the soil and the blue fingers. Cut those stems back to a point where fingers still grow, and poke the cut-off tips into any gap, they root. Never water them in, wet soil kills these"
+    task: "Leggy trim: the trigger is bare woody stem showing between the soil and the blue fingers. Cut those stems back to a point where fingers still grow, and poke the cut-off tips into any gap, they root. Never water them in, wet soil kills these"
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): a light scatter of Osmocote Native across the patches, less than the bag rate. Succulents hardly need it, and rich feed makes them soft and floppy"
+    task: "Feed: a light scatter of Osmocote Native across the patches, less than the bag rate. Succulents hardly need it, and rich feed makes them soft and floppy"
     category: feed
     completed: 2026-07
   - months:
       - 5
-    task: "Snip spent flower stalks (5 min): the cream button heads go brown by now. Cut each stalk at its base so the patches stay flat and blue"
+    task: "Snip spent flower stalks: the cream button heads go brown by now. Cut each stalk at its base so the patches stay flat and blue"
     category: prune

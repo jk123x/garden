@@ -12,16 +12,16 @@ notes: Multiple plants along the stone path, spreading via runners. The dark gre
 tasks:
   - months:
       - 3
-    task: "Autumn feed (5 min): Richgro All Purpose, normal dose scattered between the plants and watered in. Autumn is when next spring's crowns build, so this is the feed that sets the crop."
+    task: "Autumn feed: Richgro All Purpose, normal dose scattered between the plants and watered in. Autumn is when next spring's crowns build, so this is the feed that sets the crop."
     category: feed
   - months:
       - 9
-    task: "Spring feed (5 min): Richgro All Purpose, normal dose scattered between the plants and watered in, as the new leaves push. Not on the crowns."
+    task: "Spring feed: Richgro All Purpose, normal dose scattered between the plants and watered in, as the new leaves push. Not on the crowns."
     category: feed
     completed: 2026-07
   - months:
       - 4
-    task: "Straw mulch (10 min): sugarcane from the bale tucked under the leaves so fruit sits on straw, not soil (soil contact = rot and slugs). Keep it off the crowns or they rot too."
+    task: "Straw mulch: sugarcane from the bale tucked under the leaves so fruit sits on straw, not soil (soil contact = rot and slugs). Keep it off the crowns or they rot too."
     category: mulch
     completed: 2026-04
   - months:
@@ -33,16 +33,16 @@ tasks:
     category: harvest
   - months:
       - 8
-    task: "Winter clean-up (15 min, scissors): cut every old, red or dead leaf off at the base so the crown starts spring clean (grey mould overwinters on old leaves). Then let autumn-rooted runners stay, they're next summer's producers"
+    task: "Winter clean-up (scissors): cut every old, red or dead leaf off at the base so the crown starts spring clean (grey mould overwinters on old leaves). Then let autumn-rooted runners stay, they're next summer's producers"
     category: prune
   - months:
       - 10
       - 11
-    task: "Snail bait, straw, runners off (10 min): tuck fresh sugarcane under the leaves so the fruit sits on straw not soil (leftover from the citrus bales). snails seen in the patch 17 Oct. Multiguard in a thin scatter between the plants, a pellet every 5cm, never piles (toddler in the bed), reapply after rain. Lift the straw edges and pick off what's hiding there at dusk. Snip runners while the plants are fruiting so the energy goes to fruit. Any crown pulled loose by small hands = press it back in at soil level and water"
+    task: "Snail bait, straw, runners off: tuck fresh sugarcane under the leaves so the fruit sits on straw not soil (leftover from the citrus bales). snails seen in the patch 17 Oct. Multiguard in a thin scatter between the plants, a pellet every 5cm, never piles (toddler in the bed), reapply after rain. Lift the straw edges and pick off what's hiding there at dusk. Snip runners while the plants are fruiting so the energy goes to fruit. Any crown pulled loose by small hands = press it back in at soil level and water"
     category: general
   - months:
       - 3
-    task: "Runner sort (10 min): a runner with its own roots and a good crown = snip the cord and leave it as a new plant. Runners crossing the path = cut off. Three-year-old crowns that fruited poorly = pull them, the young plants replace them"
+    task: "Runner sort: a runner with its own roots and a good crown = snip the cord and leave it as a new plant. Runners crossing the path = cut off. Three-year-old crowns that fruited poorly = pull them, the young plants replace them"
     category: prune
 log:
   - date: "2026-10-17"

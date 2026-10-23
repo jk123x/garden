@@ -34,11 +34,11 @@ tasks:
     completed: 2026-09
   - months:
       - 5
-    task: "Cut the dead stems to ground level (5 min, secateurs) once they are fully brown, just above the crown. Don't dig around the crown and don't water it in: overwatering killed the previous plants."
+    task: "Cut the dead stems to ground level (secateurs) once they are fully brown, just above the crown. Don't dig around the crown and don't water it in: overwatering killed the previous plants."
     category: prune
   - months:
       - 4
-    task: Top up sugarcane to 3-5cm around the plant (5 min), leaving a clear ring around the crown itself. Mulch piled on the crown holds water against it and rots it, which is what killed the previous plants.
+    task: Top up sugarcane to 3-5cm around the plant, leaving a clear ring around the crown itself. Mulch piled on the crown holds water against it and rots it, which is what killed the previous plants.
     category: mulch
     completed: 2026-04
   - months:
@@ -46,5 +46,5 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Deadhead (2 min per visit): cut each spent flower back to the next bud or leaf pair down the stem, or cut the fresh ones for the vase, same effect. Leave the last autumn flush to form seed heads."
+    task: "Deadhead: cut each spent flower back to the next bud or leaf pair down the stem, or cut the fresh ones for the vase, same effect. Leave the last autumn flush to form seed heads."
     category: general

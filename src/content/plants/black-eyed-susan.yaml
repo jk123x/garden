@@ -22,22 +22,22 @@ tasks:
   - months:
       - 6
       - 7
-    task: "Cut back (10 min): cut every dead brown flower stem down to ground level with secateurs, clearing the way for spring regrowth. The green basal rosettes at the base are the living plant, cut around them, not through them"
+    task: "Cut back: cut every dead brown flower stem down to ground level with secateurs, clearing the way for spring regrowth. The green basal rosettes at the base are the living plant, cut around them, not through them"
     category: prune
     completed: 2026-07
   - months:
       - 9
-    task: "Feed (2 min): the trigger is fresh green leaves pushing from the base. Richgro All Purpose at the bag rate scattered around the clump, then water in. Feeding before growth shows just leaches away"
+    task: "Feed: the trigger is fresh green leaves pushing from the base. Richgro All Purpose at the bag rate scattered around the clump, then water in. Feeding before growth shows just leaches away"
     category: feed
     completed: 2026-07
   - months:
       - 9
-    task: "Divide check (10 sec): dead centre with a ring of growth round it = divide (typically every 3-4 years)."
+    task: "Divide check: dead centre with a ring of growth round it = divide (typically every 3-4 years)."
     category: general
     completed: 2026-09
   - months:
       - 1
       - 2
       - 3
-    task: "Deadhead (5 min a fortnight): the trigger is petals dropped and a bare dark cone left. Snip each spent stem back to the next side bud or leaf pair, not just the head. Cutting only the cone leaves a bare stalk and no new flower"
+    task: "Deadhead: the trigger is petals dropped and a bare dark cone left. Snip each spent stem back to the next side bud or leaf pair, not just the head. Cutting only the cone leaves a bare stalk and no new flower"
     category: general

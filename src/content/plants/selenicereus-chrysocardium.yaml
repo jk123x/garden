@@ -10,7 +10,7 @@ notes: "Fernleaf cactus. Epiphytic, big lobed leaves. Looking deep green and str
 tasks:
   - months:
       - 9
-    task: "Repot check (10 sec): roots poking out the drainage holes or water running straight through = repot into well-draining epiphyte mix. Otherwise leave it."
+    task: "Repot check: roots poking out the drainage holes or water running straight through = repot into well-draining epiphyte mix. Otherwise leave it."
     category: general
 log:
   - date: "2026-10-17"

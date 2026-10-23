@@ -10,7 +10,7 @@ notes: "Davallia. Fuzzy rhizomes creep over pot edges. Bathroom humidity suits i
 tasks:
   - months:
       - 9
-    task: "Repot check (10 sec): furry rhizomes circling the pot rim with nowhere left to creep = repot one size up. Room to roam = leave it."
+    task: "Repot check: furry rhizomes circling the pot rim with nowhere left to creep = repot one size up. Room to roam = leave it."
     category: general
 log:
   - date: "2026-10-17"

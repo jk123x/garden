@@ -17,36 +17,36 @@ notes: Alocasia, species TBC — most likely Alocasia 'Calidora' or Alocasia × 
 tasks:
   - months:
       - 4
-    task: "Autumn cutback (30 min, gloves and long sleeves, the sap burns): keep one trunk at ~1m for the window view, cut every other stem at ground level and dig the stump so it can't pup. Bag the sap-wet offcuts."
+    task: "Autumn cutback (gloves and long sleeves, the sap burns): keep one trunk at ~1m for the window view, cut every other stem at ground level and dig the stump so it can't pup. Bag the sap-wet offcuts."
     category: prune
     completed: 2026-04
   - months:
       - 9
-    task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the base and watered in once a new leaf is unrolling. Feeding it while dormant just leaches away."
+    task: "Feed: Richgro All Purpose, normal dose, scattered round the base and watered in once a new leaf is unrolling. Feeding it while dormant just leaches away."
     category: feed
     completed: 2026-07
   - months:
       - 12
       - 1
       - 2
-    task: "Heat-day deep water (5 min): on a 35°+ day, or when the big leaves are drooping by mid-morning, run the hose slowly on the root zone for a couple of minutes on top of the drip. Afternoon droop alone is normal, it recovers overnight."
+    task: "Heat-day deep water: on a 35°+ day, or when the big leaves are drooping by mid-morning, run the hose slowly on the root zone for a couple of minutes on top of the drip. Afternoon droop alone is normal, it recovers overnight."
     category: water
   - months:
       - 6
       - 7
-    task: "Mulch the crown before frost (5 min): 5-8cm of sugarcane over the base and lower trunk, loose, not packed wet against the trunk. Frost-burnt leaves are cosmetic; a frozen crown isn't."
+    task: "Mulch the crown before frost: 5-8cm of sugarcane over the base and lower trunk, loose, not packed wet against the trunk. Frost-burnt leaves are cosmetic; a frozen crown isn't."
     category: mulch
     completed: 2026-05
   - months:
       - 3
       - 4
       - 5
-    task: "Cut spent leaves (2 min, gloves): any leaf more than half yellow comes off at the base of its stalk, flush with the trunk. Any arrowhead leaf in the mulch is a pup: cut it at ground level while small."
+    task: "Cut spent leaves (gloves): any leaf more than half yellow comes off at the base of its stalk, flush with the trunk. Any arrowhead leaf in the mulch is a pup: cut it at ground level while small."
     category: prune
     completed: 2026-05
   - months:
       - 12
-    task: "Summer top-up (2 min): Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
+    task: "Summer top-up: Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
     category: feed
 log:
   - date: "2026-10-17"

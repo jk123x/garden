@@ -10,18 +10,18 @@ tasks:
   - months:
       - 10
       - 11
-    task: "Late-spring weeding round (45 min): the warm flush is when everything germinates, so this is the round that matters. Order: front bed and street-visible spots first, then the flower-bed flatweed through the sugarcane (feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL), then any taro seedlings, cut out young. Pull when the soil is moist, green-bin it. Kikuyu at the east jasmines is on that card."
+    task: "Late-spring weeding round: the warm flush is when everything germinates, so this is the round that matters. Order: front bed and street-visible spots first, then the flower-bed flatweed through the sugarcane (feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL), then any taro seedlings, cut out young. Pull when the soil is moist, green-bin it. Kikuyu at the east jasmines is on that card."
     category: general
     completed: 2026-10
   - months:
       - 2
       - 3
-    task: "Late-summer weeding round (30 min): pull anything carrying seed heads before they drop. One seeding weed pulled now is a hundred fewer next spring. Front bed and the nature strip edge first. Hand-pull only, no digging: the succulents' roots are shallow."
+    task: "Late-summer weeding round: pull anything carrying seed heads before they drop. One seeding weed pulled now is a hundred fewer next spring. Front bed and the nature strip edge first. Hand-pull only, no digging: the succulents' roots are shallow."
     category: general
   - months:
       - 6
       - 7
-    task: "Winter grass pass (20 min): poa annua is the soft pale-green tufty grass that pulls out whole by hand from moist soil. Get it before the fluffy whitish seed heads form in late winter. Front bed, path edges, the raised beds."
+    task: "Winter grass pass: poa annua is the soft pale-green tufty grass that pulls out whole by hand from moist soil. Get it before the fluffy whitish seed heads form in late winter. Front bed, path edges, the raised beds."
     category: general
 log:
   - date: "2026-10-16"

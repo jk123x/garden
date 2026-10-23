@@ -20,11 +20,11 @@ tasks:
       - 12
       - 1
       - 2
-    task: "Flower spear watch (10 sec): look for a thick stalk rising from the centre of the rosette. If one appears, photograph it: a 2-4m spear with a red head confirms gymea, a shorter stem of white or pink trumpets means crinum. No stalk = nothing to do."
+    task: "Flower spear watch: look for a thick stalk rising from the centre of the rosette. If one appears, photograph it: a 2-4m spear with a red head confirms gymea, a shorter stem of white or pink trumpets means crinum. No stalk = nothing to do."
     category: general
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, standard dose, scattered round the rosette and watered in. Gymeas need years of growth before they spear, feeding is how you shorten that"
+    task: "Feed: Osmocote Native, standard dose, scattered round the rosette and watered in. Gymeas need years of growth before they spear, feeding is how you shorten that"
     category: feed
 log:
   - date: "2026-10-17"

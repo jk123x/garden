@@ -17,18 +17,18 @@ notes: "Cotyledon orbiculata 'Silver Waves' — CONFIRMED Aug 2026: the garden d
 tasks:
   - months:
       - 3
-    task: "Trim leggy or snapped stems (5 min, scissors): cut any bare or broken stem back to just above a node with leaves. Healthy offcuts go straight in the ground as stem cuttings where cover is wanted (leaves alone won't root on this one)"
+    task: "Trim leggy or snapped stems (scissors): cut any bare or broken stem back to just above a node with leaves. Healthy offcuts go straight in the ground as stem cuttings where cover is wanted (leaves alone won't root on this one)"
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, a light scatter alongside the chalk sticks, less than the bag rate. Rich feed makes it soft and floppy"
+    task: "Feed: Osmocote Native, a light scatter alongside the chalk sticks, less than the bag rate. Rich feed makes it soft and floppy"
     category: feed
     completed: 2026-07
   - months:
       - 11
       - 12
       - 1
-    task: "Flower watch (10 sec): a 30-60cm stalk with drooping orange bells is the main event. Photograph it, then once the bells drop, snip the stalk at the base"
+    task: "Flower watch: a 30-60cm stalk with drooping orange bells is the main event. Photograph it, then once the bells drop, snip the stalk at the base"
     category: general
 log:
   - date: "2026-10-17"

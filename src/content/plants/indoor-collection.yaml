@@ -14,28 +14,28 @@ tasks:
       - 1
       - 2
     repeat: monthly
-    task: "Feed the whole indoor collection (30 min): PowerFeed at half strength, 1ml per litre, poured onto already-moist soil on a normal watering day. String of pearls at a quarter, 0.5ml per litre. Cast irons and the kentia only every second month (Sept, Nov, Jan). Never onto dry soil. Fishy for a day, so do it in the laundry"
+    task: "Feed the whole indoor collection: PowerFeed at half strength, 1ml per litre, poured onto already-moist soil on a normal watering day. String of pearls at a quarter, 0.5ml per litre. Cast irons and the kentia only every second month (Sept, Nov, Jan). Never onto dry soil. Fishy for a day, so do it in the laundry"
     category: feed
     completed: 2026-10
   - months:
       - 10
-    task: "Switch to summer watering (1 min): from now, a drink when a finger 3cm down comes out dry, roughly weekly for ferns, palms and pileas, every 2 weeks for the cacti, peperomias and succulents. Pearls when they wrinkle slightly. Each card's notes carry its own rule"
+    task: "Switch to summer watering: from now, a drink when a finger 3cm down comes out dry, roughly weekly for ferns, palms and pileas, every 2 weeks for the cacti, peperomias and succulents. Pearls when they wrinkle slightly. Each card's notes carry its own rule"
     category: water
   - months:
       - 4
-    task: "Switch to winter watering (1 min): from now, every 2-3 weeks for ferns, palms and pileas, monthly for the cacti and succulents, and always finger-test first. Tiny black flies hovering over a pot = fungus gnats, push a yellow sticky trap in and let that pot dry harder between drinks"
+    task: "Switch to winter watering: from now, every 2-3 weeks for ferns, palms and pileas, monthly for the cacti and succulents, and always finger-test first. Tiny black flies hovering over a pot = fungus gnats, push a yellow sticky trap in and let that pot dry harder between drinks"
     category: water
   - months:
       - 3
       - 9
-    task: "Shower day (1 hour): every plant to the shower or laundry sink, lukewarm rinse over and under every leaf (dust, mite and scale crawlers off in one go), snip any fully brown leaf or frond at the base while it drains. Ferns get the rinse, never a wipe with anything oily. Library plants last, so nothing hitches a ride out of that room"
+    task: "Shower day: every plant to the shower or laundry sink, lukewarm rinse over and under every leaf (dust, mite and scale crawlers off in one go), snip any fully brown leaf or frond at the base while it drains. Ferns get the rinse, never a wipe with anything oily. Library plants last, so nothing hitches a ride out of that room"
     category: general
   - months:
       - 1
       - 4
       - 7
       - 10
-    task: "Quarter-turn and shuffle (5 min): give every pot a quarter turn so growth stays even, and move anything leaning hard toward the glass a step closer to it. Keep the library plants a hand's width apart from each other"
+    task: "Quarter-turn and shuffle: give every pot a quarter turn so growth stays even, and move anything leaning hard toward the glass a step closer to it. Keep the library plants a hand's width apart from each other"
     category: general
 log:
   - date: "2026-10-17"

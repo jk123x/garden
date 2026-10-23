@@ -60,20 +60,20 @@ log:
 tasks:
   - months:
       - 9
-    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
+    task: "Late-winter feed: Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
     completed: 2026-08
   - months:
       - 12
-    task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
+    task: "Summer feed: Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
   - months:
       - 3
-    task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
+    task: "Autumn feed: Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
   - months:
       - 9
-    task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
+    task: "Light shape prune (secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: 2026-08
   - months:
@@ -87,23 +87,23 @@ tasks:
   - months:
       - 7
       - 8
-    task: "Gall wasp check (5 min, no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+    task: "Gall wasp check (no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
     category: prune
     completed: 2026-08
   - months:
       - 10
-    task: "Buy 2 sugarcane bales, then top up ALL FOUR citrus (30 min): last sugarcane was ~April 2026 and the August job was compost only, so the root zones are bare going into summer. 5cm over each tree's whole root zone out to the canopy edge, a hand's width clear of the trunk. Citrus roots sit in the top 30cm and cook without it. Leftover goes under the strawberries"
+    task: "Buy 2 sugarcane bales, then top up ALL FOUR citrus: last sugarcane was ~April 2026 and the August job was compost only, so the root zones are bare going into summer. 5cm over each tree's whole root zone out to the canopy edge, a hand's width clear of the trunk. Citrus roots sit in the top 30cm and cook without it. Leftover goes under the strawberries"
     category: mulch
   - months:
       - 4
-    task: "Sugarcane top-up (10 min): the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"
+    task: "Sugarcane top-up: the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"
     category: mulch
   - months:
       - 1
       - 2
-    task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
+    task: "Leaf miner glance on the summer flush: silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
     category: spray
   - months:
       - 5
-    task: "Scale and ant glance (2 min): ants running up and down the trunk = they're farming scale. Look under the leaves and along young stems for brown bumps or white cotton. Found = eco-oil both sides until dripping, twice a fortnight apart. No ants = nothing"
+    task: "Scale and ant glance: ants running up and down the trunk = they're farming scale. Look under the leaves and along young stems for brown bumps or white cotton. Found = eco-oil both sides until dripping, twice a fortnight apart. No ants = nothing"
     category: spray

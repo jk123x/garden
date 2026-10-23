@@ -19,58 +19,58 @@ tasks:
   - months:
       - 9
     completed: 2026-09
-    task: "Set the controller to the new run times (3 min): zone 1 front 15 min, zone 2 lawn 12 min, zone 3 flower beds 30 min, zone 4 jasmines and back 60 min. One programme, one start time at 5-6am, 1 day a week for September. Before closing the lid read the days back and count the start times: every day, or two start times, is the mis-code that flooded the lawn. Full table on the Irrigation page in the nav."
+    task: "Set the controller to the new run times: zone 1 front 15 min, zone 2 lawn 12 min, zone 3 flower beds 30 min, zone 4 jasmines and back 60 min. One programme, one start time at 5-6am, 1 day a week for September. Before closing the lid read the days back and count the start times: every day, or two start times, is the mis-code that flooded the lawn. Full table on the Irrigation page in the nav."
     category: water
   - months:
       - 9
     day: 10
     completed: 2026-09
-    task: "Morning-after check (5 min): after the first 6am run, walk the lawn and the flower beds. Standing water or a squelching lawn = the run time is too long for that zone, halve it. Then open the controller and read back the watering days: it should say one day a week for September, not every day. Every day is the mis-code that flooded the lawn."
+    task: "Morning-after check: after the first 6am run, walk the lawn and the flower beds. Standing water or a squelching lawn = the run time is too long for that zone, halve it. Then open the controller and read back the watering days: it should say one day a week for September, not every day. Every day is the mis-code that flooded the lawn."
     category: water
   - months:
       - 10
     day: 7
-    task: "Rain delay ends today (2 min): push it another 7 days so the first run back is Wed 14 Oct. The 1-3 Oct soak was ~75mm and the week is 14-21°, so the beds want water around the 11th-14th, not today. Open the lid, add 7 days of rain delay, read back: 1 day a week, one 5-6am start, run times unchanged. Only let it run today if a flower bed is dry 5cm down. If the forecast shows a 25°+ day before the 14th, start a manual run of all four zones that morning instead."
+    task: "Rain delay ends today: push it another 7 days so the first run back is Wed 14 Oct. The 1-3 Oct soak was ~75mm and the week is 14-21°, so the beds want water around the 11th-14th, not today. Open the lid, add 7 days of rain delay, read back: 1 day a week, one 5-6am start, run times unchanged. Only let it run today if a flower bed is dry 5cm down. If the forecast shows a 25°+ day before the 14th, start a manual run of all four zones that morning instead."
     category: water
     completed: 2026-10
   - months:
       - 10
     day: 14
     completed: 2026-10
-    task: "Rain check before the first run back (1 min): the delay should be set so the first run is Sat 17 Oct. Look at the dashboard weather strip: if 12-14 Oct brought 10mm+ as forecast, do nothing, the 17th stands. If it fizzled under 5mm, start a manual run of all four zones this morning and leave the Sat run in place."
+    task: "Rain check before the first run back: the delay should be set so the first run is Sat 17 Oct. Look at the dashboard weather strip: if 12-14 Oct brought 10mm+ as forecast, do nothing, the 17th stands. If it fizzled under 5mm, start a manual run of all four zones this morning and leave the Sat run in place."
     category: water
   - months:
       - 10
     byDay: 31
     completed: 2026-10
-    task: Step up to 2 days a week (2 min at the controller) the first week the forecast shows a 25°+ day with under 5mm of rain in the previous 7 days (rain total is on the dashboard weather strip). Pick two days three or four apart (Wed + Sat), keep the one 5-6am start, run times unchanged. Read the days back before closing the lid. Still cool and damp at the end of October = stay on 1 day a week and this rolls into November.
+    task: Step up to 2 days a week the first week the forecast shows a 25°+ day with under 5mm of rain in the previous 7 days (rain total is on the dashboard weather strip). Pick two days three or four apart (Wed + Sat), keep the one 5-6am start, run times unchanged. Read the days back before closing the lid. Still cool and damp at the end of October = stay on 1 day a week and this rolls into November.
     category: water
   - months:
       - 10
     day: 18
-    task: "Morning-after check at 15 min on the lawn zone (2 min): first run at the new 15 min was this morning. Walk the lawn: squelching underfoot or standing water = back to 12 min on zone 2, it's the zone that flooded. Firm and damp = 15 stays. While the lid is open, read back: every 3 days, one start time, zone 1 at 15."
+    task: "Morning-after check at 15 min on the lawn zone: first run at the new 15 min was this morning. Walk the lawn: squelching underfoot or standing water = back to 12 min on zone 2, it's the zone that flooded. Firm and damp = 15 stays. While the lid is open, read back: every 3 days, one start time, zone 1 at 15."
     category: water
     completed: 2026-10
   - months:
       - 10
     day: 24
-    task: "Rain skip check (1 min): the forecast had ~20mm on Fri 23 Oct then a cold snap (13-15°). Look at the dashboard weather strip. 15mm+ landed = put a 3-day rain delay on the controller so the next run is Tue 27. Under 5mm = leave the every-3-days schedule alone. Don't step up to 3 days a week for the one 30° day on the 22nd, it's a one-off ahead of rain."
+    task: "Rain skip check: the forecast had ~20mm on Fri 23 Oct then a cold snap (13-15°). Look at the dashboard weather strip. 15mm+ landed = put a 3-day rain delay on the controller so the next run is Tue 27. Under 5mm = leave the every-3-days schedule alone. Don't step up to 3 days a week for the one 30° day on the 22nd, it's a one-off ahead of rain."
     category: water
   - months:
       - 11
-    task: "Summer frequency (2 min): when the first 30°+ day is in the 7-day forecast, go to 3 days a week (e.g. Mon/Wed/Sat), run times unchanged. Only the frequency changes for heat, never the run time, or the lawn floods again."
+    task: "Summer frequency: when the first 30°+ day is in the 7-day forecast, go to 3 days a week (e.g. Mon/Wed/Sat), run times unchanged. Only the frequency changes for heat, never the run time, or the lawn floods again."
     category: water
   - months:
       - 12
-    task: "Summer line walk (10 min): run each zone by hand and walk every line while it runs. Look for dry dripper ends, a puddle at a blown joint, and drippers at the two new east jasmines actually wetting their root zones. A dry dripper in a heatwave kills a plant in a week."
+    task: "Summer line walk: run each zone by hand and walk every line while it runs. Look for dry dripper ends, a puddle at a blown joint, and drippers at the two new east jasmines actually wetting their root zones. A dry dripper in a heatwave kills a plant in a week."
     category: water
   - months:
       - 4
-    task: "Autumn wind-down (2 min): drop to 1 day a week once April days sit under 25°. Rain is doing more of the work now and wet April beds rot crowns in the flower beds."
+    task: "Autumn wind-down: drop to 1 day a week once April days sit under 25°. Rain is doing more of the work now and wet April beds rot crowns in the flower beds."
     category: water
   - months:
       - 5
-    task: "Turn the drip system OFF (2 min): once May rain is regular, close the one tap fully and set the controller to off, not paused. A tap left weeping through winter is what rots crowns in the flower beds. Rain covers everything until the spring turn-on."
+    task: "Turn the drip system OFF: once May rain is regular, close the one tap fully and set the controller to off, not paused. A tap left weeping through winter is what rots crowns in the flower beds. Rain covers everything until the spring turn-on."
     category: water
 log:
   - date: "2026-10-23"

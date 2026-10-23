@@ -27,11 +27,11 @@ tasks:
   - months:
       - 1
       - 2
-    task: "After-flowering prune (2-3 hours): this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Then, on the COVERED laundry end only, the haircut: shear the face flat to 10cm off the fence, cut anything above the top wire back to just below it, and thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base. It re-clothes over summer and sets next year's buds on the new growth. Bare sections keep every live runner."
+    task: "After-flowering prune: this run is being pushed for coverage, so prune means remove only what is wrong: dead stems, runners diving off the fence face toward the ground, and anything tangling into the passionfruit on the top wire (the vine owns the wire, the jasmine owns the fence face). Then, on the COVERED laundry end only, the haircut: shear the face flat to 10cm off the fence, cut anything above the top wire back to just below it, and thin the tangle to a skeleton of one stem per grate, cutting surplus woody stems at the base. It re-clothes over summer and sets next year's buds on the new growth. Bare sections keep every live runner."
     category: prune
   - months:
       - 9
-    task: "Feed (5 min): Richgro All Purpose, LIGHT dose spread wide around the two new plants and never against the stems (one over-feed scare already). Normal dose along the established part of the run. Water in."
+    task: "Feed: Richgro All Purpose, LIGHT dose spread wide around the two new plants and never against the stems (one over-feed scare already). Normal dose along the established part of the run. Water in."
     category: feed
     completed: 2026-07
   - months:
@@ -40,22 +40,22 @@ tasks:
     category: feed
   - months:
       - 3
-    task: "Autumn feed (5 min): Richgro All Purpose, light dose wide around the new plants, normal dose along the rest, watered in. Carries the run through the last warm flush before winter."
+    task: "Autumn feed: Richgro All Purpose, light dose wide around the new plants, normal dose along the rest, watered in. Carries the run through the last warm flush before winter."
     category: feed
   - months:
       - 10
     day: 1
-    task: "THE timing-critical session (half a day): go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on and runners supple — pinch the tips of the new plants' leaders and any leader you want to branch, then tie the soft new runners into the SPARSE laundry-side fence and the wires past the taro (loose figure-8s, led horizontally). This one session sets the whole season's direction. Cool spring / no runners yet? Wait until they hit 30cm and do it then"
+    task: "THE timing-critical session: go the week the new runners hit 30-60cm and still bend easily — hot spring could mean NOW, typical is mid-Oct. Flush on and runners supple — pinch the tips of the new plants' leaders and any leader you want to branch, then tie the soft new runners into the SPARSE laundry-side fence and the wires past the taro (loose figure-8s, led horizontally). This one session sets the whole season's direction. Cool spring / no runners yet? Wait until they hit 30cm and do it then"
     category: general
     completed: 2026-10
   - months:
       - 10
       - 11
-    task: "Plant the replacement jasmine (1-2 hours): the new plant is bought (23 Oct 2026), get it in the ground this week while the soil is damp. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
+    task: "Plant the replacement jasmine: the new plant is bought (23 Oct 2026), get it in the ground this week while the soil is damp. Dig the stump out first: spade in a circle 20cm out from it, lever up, roots are shallow and fibrous so it comes with one or two levers; a May plant lifts with a hand fork. Same spot, hole twice the pot width, a spade of compost mixed through the backfill, plant at the same depth it sat in the pot, firm, 10L of water, bark mulch kept off the stem. Move the existing dripper so it sits at the stem. Tie the longest shoot to the lowest wire with a loose figure-8. No fertiliser at planting."
     category: plant
   - months:
       - 10
-    task: "Thin the covered laundry end (2-3 hours, secateurs then scissors): on any wire carrying 3-4 shoots, keep the lowest one that is twined on and cut the rest off at the base where they leave the parent stem, never shortened. Only on covered fence: bare sections keep every runner. No shearing the face now: that comes off the old wood and takes the flowers with it, it is the Jan/Feb job. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
+    task: "Thin the covered laundry end (secateurs then scissors): on any wire carrying 3-4 shoots, keep the lowest one that is twined on and cut the rest off at the base where they leave the parent stem, never shortened. Only on covered fence: bare sections keep every runner. No shearing the face now: that comes off the old wood and takes the flowers with it, it is the Jan/Feb job. Old-wood rule: brown stiff stems carry the Christmas flowers, so a healthy one with plenty of leaves and bud clusters stays even if it is not where you would design it. The exception is the clear-cut swap: a tired woody stem barely growing along a grate right next to vigorous new shoots that come from a DIFFERENT stem or the base = cut the old one at its base now. Trace each new shoot back first: if it springs off the old branch, cutting the old branch kills it, so cut the old branch back to just past the last good new shoot instead. Stem by stem, never a clearance, no more than a third of the old wood on any covered section this spring."
     category: prune
   - months:
       - 11
@@ -63,7 +63,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Cohort ties (1-2 hours): one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
   - months:
@@ -79,7 +79,7 @@ tasks:
     category: general
   - months:
       - 9
-    task: "Mulch depth glance (1 min): bare soil showing through the bark anywhere along the run = top up that spot with bagged pine bark, keeping it off the blue star fern's surface rhizomes at the bench corner. Still 3cm+ of bark = nothing, it lasts years"
+    task: "Mulch depth glance: bare soil showing through the bark anywhere along the run = top up that spot with bagged pine bark, keeping it off the blue star fern's surface rhizomes at the bench corner. Still 3cm+ of bark = nothing, it lasts years"
     category: mulch
     completed: 2026-09
 log:

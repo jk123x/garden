@@ -25,17 +25,17 @@ tasks:
   - months:
       - 12
       - 3
-    task: "Tie check (30 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
+    task: "Tie check (scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
   - months:
       - 3
       - 9
-    task: "Season trim (2-3 hours): shear our face back to about 10cm out from the fence wires, following the fence line, so it stays a flat sheet and not a blob. Scissors for green handfuls, secateurs for the stiff dark core stems. Leave the dead twiggy skeleton inside: it reshoots. Check every tie still holds and none is cutting into a stem."
+    task: "Season trim: shear our face back to about 10cm out from the fence wires, following the fence line, so it stays a flat sheet and not a blob. Scissors for green handfuls, secateurs for the stiff dark core stems. Leave the dead twiggy skeleton inside: it reshoots. Check every tie still holds and none is cutting into a stem."
     category: prune
     completed: 2026-09
   - months:
       - 9
-    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the fence base on our side and watered in. Last calm weekend before spring."
+    task: "Feed: Richgro All Purpose, normal dose, scattered along the fence base on our side and watered in. Last calm weekend before spring."
     category: feed
     completed: 2026-07
   - months:
@@ -45,7 +45,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Coverage training (about an hour): tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
+    task: "Coverage training: tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
     completed: 2026-10

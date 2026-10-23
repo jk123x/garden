@@ -27,15 +27,15 @@ tasks:
   - months:
       - 3
       - 4
-    task: "Shear the mats (10 min, scissors): a third off all over, spent flowers and leggy stems together, so the mat stays tight. Cut only where there is green below the cut; it doesn't reshoot from bare woody stems. Still in full flower = wait for the lull."
+    task: "Shear the mats (scissors): a third off all over, spent flowers and leggy stems together, so the mat stays tight. Cut only where there is green below the cut; it doesn't reshoot from bare woody stems. Still in full flower = wait for the lull."
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, standard dose, scattered over the mats. Native only."
+    task: "Feed: Osmocote Native, standard dose, scattered over the mats. Native only."
     category: feed
     completed: 2026-07
   - months:
       - 11
       - 12
-    task: "Shear after the spring flush (5 min, scissors): once most flowers have browned, take a third off all over. Brachyscome flowers again in a few weeks if sheared, and sprawls bare if not"
+    task: "Shear after the spring flush (scissors): once most flowers have browned, take a third off all over. Brachyscome flowers again in a few weeks if sheared, and sprawls bare if not"
     category: prune

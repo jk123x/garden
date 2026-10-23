@@ -12,22 +12,22 @@ tasks:
       - 11
       - 12
       - 1
-    task: "Deadhead (5 min): when a spike is mostly brown, cut it off just above the first pair of leaves below it, not just the tip. Cutting to leaves is what triggers the second flush. Do the whole clump in one go once about half the spikes are spent."
+    task: "Deadhead: when a spike is mostly brown, cut it off just above the first pair of leaves below it, not just the tip. Cutting to leaves is what triggers the second flush. Do the whole clump in one go once about half the spikes are spent."
     category: prune
   - months:
       - 3
       - 4
-    task: "Cut back (5 min): once the last flush is finished and the stems are browning, cut every stem down to the low basal leaves, about 5cm. Leave the basal rosette alone. Do not water afterwards: soggy winter soil is what killed the echinacea in this bed."
+    task: "Cut back: once the last flush is finished and the stems are browning, cut every stem down to the low basal leaves, about 5cm. Leave the basal rosette alone. Do not water afterwards: soggy winter soil is what killed the echinacea in this bed."
     category: prune
     completed: 2026-04
   - months:
       - 9
-    task: "Feed (2 min): Richgro All Purpose, normal dose, scattered round the clump once green basal shoots are showing, then watered in. No shoots yet = no feed, look again in a fortnight."
+    task: "Feed: Richgro All Purpose, normal dose, scattered round the clump once green basal shoots are showing, then watered in. No shoots yet = no feed, look again in a fortnight."
     category: feed
     completed: 2026-07
   - months:
       - 9
-    task: "Divide check (10 sec): woody, sparse centre = divide (roughly every 3-4 years)."
+    task: "Divide check: woody, sparse centre = divide (roughly every 3-4 years)."
     category: general
     completed: 2026-09
 log:

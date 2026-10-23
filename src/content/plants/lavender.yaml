@@ -17,12 +17,12 @@ tasks:
   - months:
       - 2
       - 3
-    task: "Hard prune after flowering (15 min, secateurs): once the flower spikes have gone grey, cut every stem to the lowest point that still has green leaves, spent stalks included, keeping the mound shape. Never into bare grey wood, it won't reshoot. Late summer, so it regrows before the cold"
+    task: "Hard prune after flowering (secateurs): once the flower spikes have gone grey, cut every stem to the lowest point that still has green leaves, spent stalks included, keeping the mound shape. Never into bare grey wood, it won't reshoot. Late summer, so it regrows before the cold"
     category: prune
     completed: 2026-05
   - months:
       - 9
-    task: "Light feed (2 min): Richgro All Purpose, half the bag rate, scattered at the dripline and watered in. Rich soil makes lavender soft and floppy, so half dose is the ceiling."
+    task: "Light feed: Richgro All Purpose, half the bag rate, scattered at the dripline and watered in. Rich soil makes lavender soft and floppy, so half dose is the ceiling."
     category: feed
     completed: 2026-07
   - months:
@@ -30,7 +30,7 @@ tasks:
       - 10
     byDay: 15
     completed: 2026-09
-    task: "Tidy second cut (~10 min): balance the shape, cutting only into stubs with green regrowth — never into bare grey wood. Stubs still brown and dry from the May cut are dead: snip them off flush. Why the deadline: after mid-Oct you are cutting off the spring flush and delaying summer flowers"
+    task: "Tidy second cut: balance the shape, cutting only into stubs with green regrowth — never into bare grey wood. Stubs still brown and dry from the May cut are dead: snip them off flush. Why the deadline: after mid-Oct you are cutting off the spring flush and delaying summer flowers"
     category: prune
 log:
   - date: "2026-10-17"

@@ -11,11 +11,11 @@ notes: Leucophyta brownii (Cushion Bush). Multiple patches through the front gar
 tasks:
   - months:
       - 3
-    task: "Trim after flowering (10 min, scissors): spent flower heads and the top 2-3cm of the mound off all over, then cut any brown dead sections back to silver growth. Never into bare woody stems, they won't resprout. Brown patches spreading = a drainage problem, not a pruning one."
+    task: "Trim after flowering (scissors): spent flower heads and the top 2-3cm of the mound off all over, then cut any brown dead sections back to silver growth. Never into bare woody stems, they won't resprout. Brown patches spreading = a drainage problem, not a pruning one."
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, standard dose, scattered round the base. Native only, no regular fertiliser."
+    task: "Feed: Osmocote Native, standard dose, scattered round the base. Native only, no regular fertiliser."
     category: feed
     completed: 2026-07
 log:

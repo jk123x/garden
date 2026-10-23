@@ -21,23 +21,23 @@ tasks:
   - months:
       - 3
       - 4
-    task: "Annual haircut after flowering (15 min, scissors): cut each whole clump to ~5cm stubble, spent flower stalks and all. This is the ink spot prevention, not a tidy: a partial trim leaves infected leaves behind. Foliage to the green bin, never compost."
+    task: "Annual haircut after flowering (scissors): cut each whole clump to ~5cm stubble, spent flower stalks and all. This is the ink spot prevention, not a tidy: a partial trim leaves infected leaves behind. Foliage to the green bin, never compost."
     category: prune
   - months:
       - 9
-    task: "Feed (2 min): Osmocote Native, standard dose, scattered round each clump and watered in. Native only: the phosphorus in regular fertiliser harms it."
+    task: "Feed: Osmocote Native, standard dose, scattered round each clump and watered in. Native only: the phosphorus in regular fertiliser harms it."
     category: feed
     completed: 2026-07
   - months:
       - 9
-    task: "Divide check (10 sec): congested clump with a dead centre and fewer flower stems = divide."
+    task: "Divide check: congested clump with a dead centre and fewer flower stems = divide."
     category: general
     completed: 2026-09
   - months:
       - 11
       - 12
       - 1
-    task: "Ink spot check (30 sec per clump): black blotches or streaks on the new fans = cut those leaves off at the base and green-bin them. A few marks after a wet spell are normal. A clump more than half blackened gets the full 5cm haircut early."
+    task: "Ink spot check: black blotches or streaks on the new fans = cut those leaves off at the base and green-bin them. A few marks after a wet spell are normal. A clump more than half blackened gets the full 5cm haircut early."
     category: spray
 log:
   - date: "2026-10-16"

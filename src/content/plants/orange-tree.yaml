@@ -64,20 +64,20 @@ log:
 tasks:
   - months:
       - 9
-    task: "Late-winter feed (5 min): Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
+    task: "Late-winter feed: Experts Choice fruit & citrus, LIGHT dose, scattered under the outer canopy edge (not against the trunk) and watered in. Light on purpose: soft nitrogen-fed growth is exactly what gall wasps lay eggs into."
     category: feed
     completed: 2026-07
   - months:
       - 12
-    task: "Summer feed (5 min): Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
+    task: "Summer feed: Experts Choice fruit & citrus, LIGHT dose, half what the bag says, scattered at the dripline and watered in. The tree was hard-pruned in Aug 2026 and will flush hard anyway; feeding it up just makes gall wasp bait."
     category: feed
   - months:
       - 3
-    task: "Autumn feed (5 min): Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
+    task: "Autumn feed: Experts Choice fruit & citrus, LIGHT dose at the dripline, watered in. Last feed before winter. Skip it if the tree is still pushing pale soft shoots from the summer feed: that is the gall wasp target, not a hungry tree."
     category: feed
   - months:
       - 9
-    task: "Light shape prune (15 min, secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
+    task: "Light shape prune (secateurs): only crossing or inward-growing branches and anything touching the ground, each cut back to a fork. Never more than a fifth of the canopy. Hard cuts bring the soft flush gall wasps want."
     category: prune
     completed: 2026-08
   - months:
@@ -90,11 +90,11 @@ tasks:
   - months:
       - 7
       - 8
-    task: "Gall wasp check (5 min, no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
+    task: "Gall wasp check (no spraying, must be done before September): run hands along the young stems feeling for sausage-shaped swellings. Found one? Cut 5cm below it with secateurs and bin it, not compost, before month's end: the adults emerge from galls in Oct-Nov and lay into the spring flush. Nothing found = done"
     category: prune
     completed: 2026-10
   - months:
       - 1
       - 2
-    task: "Leaf miner glance on the summer flush (2 min): silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
+    task: "Leaf miner glance on the summer flush: silvery squiggly tunnels in the newest soft leaves = eco-oil both sides of the new growth on a cool evening under 25°, repeat in a week. Old leaves with tunnels are history, ignore them"
     category: spray

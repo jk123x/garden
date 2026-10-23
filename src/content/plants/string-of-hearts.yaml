@@ -11,7 +11,7 @@ tasks:
   - months:
       - 9
       - 10
-    task: "Haircut for density (5 min): cut the longest strands back by a third to just above a leaf pair, then lay the cut pieces on the soil surface in the same pot and pin them with a bent paperclip. They root at the nodes and thicken the top"
+    task: "Haircut for density: cut the longest strands back by a third to just above a leaf pair, then lay the cut pieces on the soil surface in the same pot and pin them with a bent paperclip. They root at the nodes and thicken the top"
     category: prune
 log:
   - date: "2026-10-17"

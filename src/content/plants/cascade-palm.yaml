@@ -38,5 +38,5 @@ tasks:
       - 1
       - 2
     repeat: monthly
-    task: "Mite glance (30 sec) on a watering day: turn a few fronds over and look for pale speckling or fine webbing where leaflets meet the stem. Found = shower blast top and underside, repeat weekly four times. Warm dry summer rooms are mite season"
+    task: "Mite glance on a watering day: turn a few fronds over and look for pale speckling or fine webbing where leaflets meet the stem. Found = shower blast top and underside, repeat weekly four times. Warm dry summer rooms are mite season"
     category: spray

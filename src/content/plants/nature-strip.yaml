@@ -1,34 +1,38 @@
 name: Nature Strip
 type: groundcover
 location: Front (nature strip)
-health: "First pass weeding done with the xact taproot puller, then mowed. Looking tidier but a second pass is needed once the deeper-rooted weeds regrow."
+health: First pass weeding done with the xact taproot puller, then mowed. Looking tidier but a second pass is needed once the deeper-rooted weeds regrow.
 healthStatus: good
-lastAssessed: "2026-05"
+lastAssessed: 2026-05
 image: /images/plants/IMG_1020.jpg
 photos:
   - src: /images/winter-2026/IMG_2276.jpg
-    caption: "The un-weeded half through the fence — second pass pending (6 Aug 2026)"
+    caption: The un-weeded half through the fence — second pass pending (6 Aug 2026)
   - src: /images/plants/IMG_1020.jpg
-    caption: "After the first pass, May 2026"
-notes: "The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover."
+    caption: After the first pass, May 2026
+notes: The nature strip between the footpath and road. Grass is holding on but lots of small weeds have crept in. Autumn is a good time to hand-weed while the soil is soft and before they seed. For bigger patches, selective lawn weedkiller targets broadleaf weeds without killing grass. Could also over-seed bare patches with buffalo runners or a turf patch mix in September for a thicker cover.
 tasks:
-  - months: [9, 10]
-    task: "Weed pass (30 min, taproot puller): work the strip after rain when the soil is soft, pull thistle and flatweed rosettes before they throw a seed stalk, then mow. Dry soil snaps the root and it regrows."
+  - months:
+      - 9
+      - 10
+    task: "Weed pass (taproot puller): work the strip after rain when the soil is soft, pull thistle and flatweed rosettes before they throw a seed stalk, then mow. Dry soil snaps the root and it regrows."
     category: general
-    completed: "2026-08"
-  - months: [3, 4]
-    task: "Autumn weed pass (30 min, taproot puller): after the first proper autumn rain, pull every rosette before it seeds, then mow. Bare patches bigger than a hand = push in a few buffalo runners and keep them damp for a fortnight."
+    completed: 2026-08
+  - months:
+      - 3
+      - 4
+    task: "Autumn weed pass (taproot puller): after the first proper autumn rain, pull every rosette before it seeds, then mow. Bare patches bigger than a hand = push in a few buffalo runners and keep them damp for a fortnight."
     category: general
 log:
   - date: "2026-08-21"
     entry: "Second-pass remainder dropped from the pre-baby list (Jay's call — too low priority). The un-weeded half will seed through spring; consequence is a heavier weed load for the next proper pass, which is fine — it's a nature strip. Next round: the existing summer/autumn 2027 weed-and-tidy task, taproot puller when soil is soft."
     category: general
   - date: "2026-08-06"
-    entry: "End-of-winter baseline photos (IMG_2276). Thistle and flatweed rosettes visible on the un-done half — the second pass is still the right call before they seed."
+    entry: End-of-winter baseline photos (IMG_2276). Thistle and flatweed rosettes visible on the un-done half — the second pass is still the right call before they seed.
     category: general
   - date: "2026-07-29"
-    entry: "Second weeding pass halfway done with the taproot puller, wet-soil conditions ideal. Remaining half still to go."
+    entry: Second weeding pass halfway done with the taproot puller, wet-soil conditions ideal. Remaining half still to go.
     category: general
   - date: "2026-05-06"
-    entry: "First pass weeding with xact taproot puller, then mowed. Second pass pending once weeds regrow."
+    entry: First pass weeding with xact taproot puller, then mowed. Second pass pending once weeds regrow.
     category: general

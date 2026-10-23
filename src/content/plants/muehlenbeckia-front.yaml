@@ -17,17 +17,17 @@ tasks:
   - months:
       - 12
       - 3
-    task: "Tie check (20 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
+    task: "Tie check (scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
   - months:
       - 3
       - 9
-    task: "Season tidy (5 min): this plant is still tiny, so trim means tidy only. Snip anything dead (dry, snaps clean) and pinch the tip off any runner racing straight up so it branches low instead. No shearing until the fence is covered."
+    task: "Season tidy: this plant is still tiny, so trim means tidy only. Snip anything dead (dry, snaps clean) and pinch the tip off any runner racing straight up so it branches low instead. No shearing until the fence is covered."
     category: prune
     completed: 2026-07
   - months:
       - 9
-    task: "Feed (2 min): Richgro All Purpose, light dose, half a handful spread wide around the plant and never against the stem. Small root system, so more is not better. Water in."
+    task: "Feed: Richgro All Purpose, light dose, half a handful spread wide around the plant and never against the stem. Small root system, so more is not better. Water in."
     category: feed
     completed: 2026-07
   - months:
@@ -37,7 +37,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Coverage training (30-60 min): tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
+    task: "Coverage training: tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
     completed: 2026-10
@@ -49,7 +49,7 @@ tasks:
       - 12
       - 1
       - 2
-    task: "Heat check (1 min): on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
+    task: "Heat check: on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
 log:
   - date: "2026-10-23"

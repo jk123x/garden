@@ -37,7 +37,7 @@ tasks:
   - months:
       - 12
       - 3
-    task: "Tie check (30 min, scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
+    task: "Tie check (scissors): the Sept garden ties were guides, not permanent. Undo each one in turn. Stem stays flat on the fence by itself (its laterals have wrapped the wire) = leave the tie off. Stem springs away = re-tie it loose. Also cut off any tie that is biting into a stem. Every Sept tie should be off by the end of March; a tie left on for a year girdles the stem."
     category: general
   - months:
       - 10
@@ -46,30 +46,30 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Monthly top shear (about an hour): risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
+    task: "Monthly top shear: risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: prune
     repeat: monthly
     completed: 2026-10
   - months:
       - 3
       - 9
-    task: "Season trim (2-3 hours): cut the top cap back tight to the fence line on both faces, snip the street-side escapees flush with the wires, and cut out any strand that is dry and snaps clean (bendy = alive, leave it). Scissors for handfuls of green, secateurs for stiff dark stems. Rake the clippings off the succulents below."
+    task: "Season trim: cut the top cap back tight to the fence line on both faces, snip the street-side escapees flush with the wires, and cut out any strand that is dry and snaps clean (bendy = alive, leave it). Scissors for handfuls of green, secateurs for stiff dark stems. Rake the clippings off the succulents below."
     category: prune
     completed: 2026-07
   - months:
       - 9
-    task: "Feed (5 min): Richgro All Purpose, normal dose, scattered along the fence base over the root zone and watered in. Go the last calm weekend before spring: any earlier and winter rain leaches it past sleeping roots."
+    task: "Feed: Richgro All Purpose, normal dose, scattered along the fence base over the root zone and watered in. Go the last calm weekend before spring: any earlier and winter rain leaches it past sleeping roots."
     category: feed
     completed: 2026-07
   - months:
       - 12
-    task: "Growth-push top-up, LIGHT (2 min): half a handful of Richgro spread along the fence base, half the normal dose. This fence sits under the street tree, and feeding a shaded vine mostly grows long soft reachers. The east and west fences get the normal dose, not this one"
+    task: "Growth-push top-up, LIGHT: half a handful of Richgro spread along the fence base, half the normal dose. This fence sits under the street tree, and feeding a shaded vine mostly grows long soft reachers. The east and west fences get the normal dose, not this one"
     category: feed
   - months:
       - 12
       - 1
       - 2
-    task: "Heat-day glance (30 sec): on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
+    task: "Heat-day glance: on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
     category: water
 log:
   - date: "2026-10-23"
@@ -113,4 +113,4 @@ log:
     category: prune
 urgency: week
 dueBy: "2026-10-30"
-nextAction: "Shear the reachers on all three fences (30-60 min, scissors): every strand standing off the fence chasing light, cut back to 5-10cm outside the wires. Don't re-tie them. Leave anything running flat along the fence. Each cut strand branches into 2-3 fence-hugging laterals."
+nextAction: "Shear the reachers on all three fences (scissors): every strand standing off the fence chasing light, cut back to 5-10cm outside the wires. Don't re-tie them. Leave anything running flat along the fence. Each cut strand branches into 2-3 fence-hugging laterals."
