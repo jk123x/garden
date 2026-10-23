@@ -32,7 +32,7 @@ photos:
     caption: Runners threading through the fence — trim the escapees (6 Aug 2026)
   - src: /images/plants/IMG_0954.jpg
     caption: July 2026, after the tidy
-notes: "Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill. REACHERS RULE (Jay, 23 Oct 2026): any strand standing off the fence chasing light gets cut back to 5-10cm outside the wires with scissors, whenever seen, no monthly limit (the monthly ceiling is for the full-face top shear only). Never re-tie a reacher, the tip pulls out again; ties are for laying a strand along bare fence. Each cut reacher branches into 2-3 fence-hugging laterals, which is the coverage."
+notes: "Wire vine / maidenhair vine / mattress vine (Muehlenbeckia complexa). This is the SOUTH (street) fence vine; long-term it and the east (neighbour) fence vine grow toward each other and meet at the corner. The established section of front fence is well-covered with dense fine foliage. The brown material inside the mass is normal — muehlenbeckia grows so densely that interior growth dies from lack of light. Can be given a hard haircut if it gets too wild. Vigorous grower that's hard to kill. REACHERS RULE (Jay, 23 Oct 2026): any strand standing off the fence chasing light gets cut back to 5-10cm outside the wires with scissors, whenever seen, no monthly limit (the monthly ceiling is for the full-face top shear only). Never re-tie a reacher, the tip pulls out again; ties are for laying a strand along bare fence. Each cut reacher branches into 2-3 fence-hugging laterals, which is the coverage. STREET TREE (Jay, 23 Oct 2026): a massive council tree on the nature strip hangs over this fence. It is why the vine reaches: the face is shaded and the tree's roots take the zone 1 water first. Plan adjusted: reachers get snipped fortnightly in spring, the Dec feed is LIGHT (feeding in shade grows reachers), leaders and ties go into the lighter stretches (top wire, the ends toward the corner), the darkest section under the canopy is allowed to stay an open scramble. Target is an even thin cover along the whole run, not dense patches. Wilting on a 35° day while east/west fences don't = tree root competition, zone 1 to 20 min that week. Council clearance prune can be requested, low odds."
 tasks:
   - months:
       - 12
@@ -63,9 +63,18 @@ tasks:
     completed: 2026-07
   - months:
       - 12
-    task: "Growth-push top-up: second dose of Richgro — the July feed is spent by now; this fence is being pushed for full coverage"
+    task: "Growth-push top-up, LIGHT (2 min): half a handful of Richgro spread along the fence base, half the normal dose. This fence sits under the street tree, and feeding a shaded vine mostly grows long soft reachers. The east and west fences get the normal dose, not this one"
     category: feed
+  - months:
+      - 12
+      - 1
+      - 2
+    task: "Heat-day glance (30 sec): on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
+    category: water
 log:
+  - date: "2026-10-23"
+    entry: "Jay: a massive council tree on the nature strip hangs over this fence, which explains the reaching. Plan revised: fortnightly reacher snips in spring, December feed cut to light, effort concentrated on the lighter stretches, darkest section allowed to stay thin, heat-day wilt glance added."
+    category: general
   - date: "2026-10-23"
     entry: "Jay: strands have untwined from the Sept ties and are reaching out from the fence for light. Advice: shear every reacher to 5-10cm outside the wires, scissors, as often as seen; don't re-tie reachers; leave anything running flat along the fence. Rule written into notes and the monthly rows."
     category: general
