@@ -16,7 +16,7 @@ notes: "Roughly 5x5m patch in the backyard. The lawn is green which is positive,
 tasks:
   - months:
       - 10
-    task: "Buy Sudden Impact for Lawns, then spring feed: none in the shed. Bunnings sells the 10kg granular (about $53); any bag 5kg+ covers the season. Rate for an established lawn is 50g per m², so about 1.25kg over the 25m², spread evenly, watered in well the same day. Unwatered granules scorch the grass. Last fed 31 July"
+    task: Buy Sudden Impact for Lawns (Bunnings, 10kg granular), then feed the lawn. Spread about 1.25kg evenly over the whole lawn, 50g per square metre. Water it in well the same day. Dry granules scorch the grass
     category: feed
   - months:
       - 12
@@ -44,7 +44,7 @@ tasks:
       - 2
       - 3
       - 4
-    task: "Mow: only when it looks shaggy. Mow high, 40-50mm, and never take more than a third of the blade in one cut. Scalping is what makes it thin and brown"
+    task: Mow only when it looks shaggy. Blade high, 40-50mm. Never take more than a third off in one cut
     category: general
     repeat: monthly
   - months:

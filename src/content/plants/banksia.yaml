@@ -44,13 +44,10 @@ tasks:
   - months:
       - 10
       - 3
-    task: "Cone tidy (scissors): snip each grey-brown dry cone off 1-2cm below its base, above the first green needles, never into bare wood. Anything with green, yellow or orange left on it is live, leave it. Cones into the green bin, not under the bush. Photo plate on /field-notes"
+    task: Snip the dozen spent cones (scissors). Cut each grey-brown cone off 1-2cm below its base, just above the first green needles. Green, yellow or orange on a cone = still live, leave it. Never cut into bare wood. Cones go in the green bin, not under the bush. Photo on Field notes
     category: prune
   - months:
       - 4
     task: "Mulch: rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"
     category: mulch
     completed: 2026-04
-urgency: week
-dueBy: "2026-10-31"
-nextAction: "Cone tidy (scissors): about a dozen spent grey-brown cones. Snip each one 1-2cm below the cone, above the first green needles, never into bare wood. Bin the cones. Marked up on /field-notes."

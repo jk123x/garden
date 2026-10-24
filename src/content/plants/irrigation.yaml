@@ -54,7 +54,7 @@ tasks:
   - months:
       - 10
     day: 24
-    task: "Rain skip check: the forecast had ~20mm on Fri 23 Oct then a cold snap (13-15°). Look at the dashboard weather strip. 15mm+ landed = put a 3-day rain delay on the controller so the next run is Tue 27. Under 5mm = leave the every-3-days schedule alone. Don't step up to 3 days a week for the one 30° day on the 22nd, it's a one-off ahead of rain."
+    task: "Rain check at the controller. Read the dashboard weather strip: if 15mm or more fell since Thursday, set a 3-day rain delay so the next run is Tuesday. Under 5mm, leave every 3 days alone. Do not go to 3 days a week yet"
     category: water
   - months:
       - 11
