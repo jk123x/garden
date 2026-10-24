@@ -3,10 +3,13 @@ type: groundcover
 location: Front yard
 zones:
   - 1
-health: "Main mounds dense, plump, good colour — wintering well. The patch near the gate is flattened with woody stems exposed after the 7 Aug asparagus-fern removal: cosmetic only, everything's alive. It re-clothes from stem nodes through spring — expect it to look rough until ~Oct and be filled in by Dec. No extra water meanwhile (winter wet is the one thing that kills these)."
+health: Gate patch recovered into a dense mat by the post (24 Oct 2026, IMG_4096); a bare trample gap between the two patches to fill with cuttings; dried flower stalks to snip.
 healthStatus: good
-lastAssessed: 2026-09
+lastAssessed: 2026-10
 log:
+  - date: "2026-10-24"
+    entry: "Photo review (IMG_4096): gate patch has recovered, dense by the post, with a bare gap between it and the small patch. Plan: 12-15 cuttings from the dense mat into the gap, dried flower stalks snipped, sparse patch trimmed to live tufts. Spring recovery check marked done, cuttings job set as the do-now and marked up on field notes."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: spent flower stalk snip added."
     category: general
@@ -30,6 +33,8 @@ log:
     category: general
 image: /images/plants/IMG_0887.jpg
 photos:
+  - src: /images/field/IMG_4096.jpg
+    caption: "24 Oct 2026: gate patch back as a dense mat by the post, bare trample gap to fill with cuttings. Plan marked up on field notes."
   - src: /images/winter-2026/IMG_2333.jpg
     caption: The main mound — old sprawling serpens, winter-lean leaves reading flatter (designer-confirmed Dwarf Blue) (7 Aug 2026)
   - src: /images/winter-2026/IMG_2332.jpg
@@ -47,6 +52,7 @@ tasks:
     day: 20
     task: Spring recovery check on the gate patch — any stem that hasn't reshot by late Oct gets trimmed back to a live node; poke loose healthy segments into remaining gaps
     category: prune
+    completed: 2026-10
   - months:
       - 3
     task: "Leggy trim: the trigger is bare woody stem showing between the soil and the blue fingers. Cut those stems back to a point where fingers still grow, and poke the cut-off tips into any gap, they root. Never water them in, wet soil kills these"
@@ -60,3 +66,6 @@ tasks:
       - 5
     task: "Snip spent flower stalks: the cream button heads go brown by now. Cut each stalk at its base so the patches stay flat and blue"
     category: prune
+urgency: week
+dueBy: "2026-10-31"
+nextAction: "Gate bed, marked up on /field-notes: snip 12-15 finger tips (8-10cm) from the edge of the dense mat by the post, leave them in the shade for a day, then push each 3cm into the bare gap a hand-width apart, clear of the riser. Snip the dried cream flower stalks at the base. In the small sparse patch, cut any brown or bare stem back to the nearest live tuft. Pull the grass and clover tufts first."

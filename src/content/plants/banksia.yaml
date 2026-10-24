@@ -3,11 +3,13 @@ type: shrub
 location: Front yard
 zones:
   - 1
-health: Pine bark mulch down April 2026 (debris cleared first). Healthy — active flowering cones at various stages. Fine needle-like foliage green and undamaged.
+health: Healthy and dense, 24 Oct 2026 (IMG_4095). Foliage even all over, no dieback. A dozen spent cones to snip.
 healthStatus: healthy
-lastAssessed: 2026-07
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2278.jpg
 photos:
+  - src: /images/field/IMG_4095.jpg
+    caption: "24 Oct 2026: healthy and dense, every cone spent. Cone tidy marked up on field notes."
   - src: /images/winter-2026/IMG_2278.jpg
     caption: Candles at multiple stages, end of winter (6 Aug 2026)
   - src: /images/winter-2026/IMG_2273.jpg
@@ -17,6 +19,9 @@ photos:
   - src: /images/plants/IMG_0955.jpg
     caption: April 2026 assessment
 log:
+  - date: "2026-10-24"
+    entry: "Photo review (IMG_4095): healthy, dense, even. Every cone spent, so the March cone tidy is brought forward to now; cut marked on a field-notes plate. Chalk sticks threading under the bush, left alone."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: optional spring tip prune added."
     category: general
@@ -37,11 +42,15 @@ tasks:
     category: feed
     completed: 2026-07
   - months:
+      - 10
       - 3
-    task: "Cone tidy (optional): snap or snip off cones that have gone grey-brown and dry. Leave anything still green, yellow or orange, those are live flowers still developing. Never cut into the foliage behind a cone, the bush does not need shaping"
+    task: "Cone tidy (scissors): snip each grey-brown dry cone off 1-2cm below its base, above the first green needles, never into bare wood. Anything with green, yellow or orange left on it is live, leave it. Cones into the green bin, not under the bush. Photo plate on /field-notes"
     category: prune
   - months:
       - 4
     task: "Mulch: rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"
     category: mulch
     completed: 2026-04
+urgency: week
+dueBy: "2026-10-31"
+nextAction: "Cone tidy (scissors): about a dozen spent grey-brown cones. Snip each one 1-2cm below the cone, above the first green needles, never into bare wood. Bin the cones. Marked up on /field-notes."

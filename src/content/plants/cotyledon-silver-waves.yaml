@@ -4,11 +4,13 @@ indoor: false
 location: Front yard, near the gate
 zones:
   - 1
-health: Established sprawler, healthy under the mess — got trampled in the 7 Aug asparagus-fern removal, so a section is flattened with bent and detached leaves. Recovers from stem nodes in spring; the loose leaves won't re-root, bin them.
+health: Big and healthy, 24 Oct 2026 (IMG_4096). Nothing needed. Orange bell stalk expected from November.
 healthStatus: good
-lastAssessed: 2026-08
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2332.jpg
 photos:
+  - src: /images/field/IMG_4096.jpg
+    caption: "24 Oct 2026: big, healthy, nothing needed. Flower stalk watch from November."
   - src: /images/winter-2026/IMG_2332.jpg
     caption: The roughed-up patch after the asparagus removal — broad wavy powder-coated leaves, thick sprawling stems (7 Aug 2026)
   - src: /images/winter-2026/IMG_2267.jpg
@@ -31,6 +33,9 @@ tasks:
     task: "Flower watch: a 30-60cm stalk with drooping orange bells is the main event. Photograph it, then once the bells drop, snip the stalk at the base"
     category: general
 log:
+  - date: "2026-10-24"
+    entry: "Photo review (IMG_4096): big, healthy, slightly sprawling as it does. Nothing needed, because the plant is full and firm; flower stalk watch starts November."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: three bare-label rows rewritten."
     category: general
