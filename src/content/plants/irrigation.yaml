@@ -5,7 +5,7 @@ healthStatus: good
 lastAssessed: 2026-10
 irrigation:
   stage: spring
-  schedule: every 3 days
+  schedule: every 3 days, next run Wed 28 Oct
   since: "2026-10-17"
 notes: |-
   Tracking entry, not a plant — the garden-wide drip system run by a basic Rainbird controller. ZONE MAP (Jay's audit, 11 Sept 2026; each plant card carries its zone as a chip next to its location): ZONE 1 = POP-UP SPRINKLERS (not drip), the whole front yard: banksia, wattle, westringia domes, cushion bush, dianellas, gymea, chalk sticks + cotyledon, dichondra, front bird's nest fern, lemon, feijoa, all three fence muehlenbeckias (south, east and west fences are all front-yard), miscanthus, front kangaroo paws. ZONE 2 = the lawn pop-ups PLUS a drip line (found 17 Sept 2026, the shrubblers were buried in mulch): the newest flower bed nearest the house (the composted ex-tomato bed: echinacea Sombrero + the achillea's second half, one shrubbler), plus shrubblers at the LIME (best-covered of the back citrus) and through the Mexican sage / strawberry area, probably reaching the back kangaroo paws; those ground-cover areas also get zone 4 water. The orange and grapefruit stay on zone 4. Run time is set for the lawn (12 min, never more than 15) so each shrubbler on this zone delivers only ~5L a run; the frangipani, lily turf and bartlettina live off overspray, and anything on zone 2 that wants more in a heatwave gets a hose soak, never a longer zone 2 run. ZONE 3 = the other flower beds: the achillea's original bed, black eyed susan, Caradonna, and the cutting bed (echinacea + rudbeckia). ZONE 4 = everything else out the back: all three star jasmine runs (east, west, back; ~20 plants between them), the orange and grapefruit (the lime is zone 2), olive, passionfruit, giant taro, blue star fern, Mexican sage, lavender, dusty miller, rosemary, strawberry, native daisies, native violets, the tub-side lily turf, kangaroo paws out the back. Four zones total (confirmed by the audit). REPAIRS DONE 17 Sept 2026: every zone runs, every head checked. Spares in the shed: goof plugs, 4mm off-take barbs, 4mm joiners, riser stakes, 13mm + 19mm end plugs, drip punch plus PC shrubblers and 4mm tube (bought 23 Oct 2026, the full spares kit is now in the shed). Replacing a shrubbler: pull the old body off, hot-water the tube end 10 seconds, push the new one on to the hilt, clip the tube into a riser stake so the head sits above the mulch. Nature strip: not irrigated. Every outdoor plant is tagged; nature strip is unirrigated. Stations 5-6: Jay believes unused, checking. Runs spring/summer, off through autumn/winter (rain covers it). One tap/switch turns the whole thing on. The drip extension to the new east jasmines was plumbed in May 2026, so they're covered the moment it's on.
@@ -56,6 +56,7 @@ tasks:
     day: 24
     task: "Rain check at the controller. Read the dashboard weather strip: if 15mm or more fell since Thursday, set a 3-day rain delay so the next run is Tuesday. Under 5mm, leave every 3 days alone. Do not go to 3 days a week yet"
     category: water
+    completed: 2026-10
   - months:
       - 11
     task: "Summer frequency: when the first 30°+ day is in the 7-day forecast, go to 3 days a week (e.g. Mon/Wed/Sat), run times unchanged. Only the frequency changes for heat, never the run time, or the lawn floods again."
@@ -73,6 +74,9 @@ tasks:
     task: "Turn the drip system OFF: once May rain is regular, close the one tap fully and set the controller to off, not paused. A tap left weeping through winter is what rots crowns in the flower beds. Rain covers everything until the spring turn-on."
     category: water
 log:
+  - date: "2026-10-24"
+    entry: "Rain delay set after the 22-24 Oct rain: controller back to every 3 days from Wed 28 Oct. Run times unchanged."
+    category: general
   - date: "2026-10-23"
     entry: Jay bought the PC shrubblers and 4mm tube that were missing from the September delivery. Spares kit complete.
     category: general
