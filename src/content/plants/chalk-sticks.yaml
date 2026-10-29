@@ -3,10 +3,13 @@ type: groundcover
 location: Front yard
 zones:
   - 1
-health: Gate patch recovered into a dense mat by the post (24 Oct 2026, IMG_4096); a bare trample gap between the two patches to fill with cuttings; dried flower stalks to snip.
+health: Gate patch recovered into a dense mat by the post (24 Oct 2026, IMG_4096). A few cuttings poked into the trample gap 28 Oct; the rest fills in on its own. Fiddly job, Jay is done with it.
 healthStatus: good
 lastAssessed: 2026-10
 log:
+  - date: "2026-10-28"
+    entry: "Gate-gap cuttings: a half-hearted go, a few tips poked in, then abandoned as too fiddly (Jay). Decision: let the gap grow out on its own from the mat edges, no more cuttings jobs on this card. Job cleared."
+    category: plant
   - date: "2026-10-24"
     entry: "Photo review (IMG_4096): gate patch has recovered, dense by the post, with a bare gap between it and the small patch. Plan: 12-15 cuttings from the dense mat into the gap, dried flower stalks snipped, sparse patch trimmed to live tufts. Spring recovery check marked done, cuttings job set as the do-now and marked up on field notes."
     category: general
@@ -66,6 +69,3 @@ tasks:
       - 5
     task: "Snip spent flower stalks: the cream button heads go brown by now. Cut each stalk at its base so the patches stay flat and blue"
     category: prune
-urgency: week
-dueBy: "2026-10-31"
-nextAction: "Fill the gate-bed gap with cuttings. 1) Pull the grass and clover tufts out of the bare gap. 2) Snip 12-15 finger tips, 8-10cm each, from the edge of the dense mat by the post. 3) Leave them in the shade overnight. 4) Push each one 3cm into the gap, a hand-width apart, clear of the riser. No water, no feed. Also: snip the dried cream flower stalks at the base, and in the small sparse patch cut any brown or bare stem back to the nearest live tuft. Photo on Field notes."

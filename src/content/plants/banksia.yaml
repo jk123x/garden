@@ -3,13 +3,13 @@ type: shrub
 location: Front yard
 zones:
   - 1
-health: Healthy and dense, 24 Oct 2026 (IMG_4095). Foliage even all over, no dieback. A dozen spent cones to snip.
+health: Healthy and dense, 26 Oct 2026. Foliage even all over, no dieback. Spent cones snipped off.
 healthStatus: healthy
 lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2278.jpg
 photos:
   - src: /images/field/IMG_4095.jpg
-    caption: "24 Oct 2026: healthy and dense, every cone spent. Cone tidy marked up on field notes."
+    caption: "24 Oct 2026: healthy and dense, every cone spent. All snipped off 26 Oct."
   - src: /images/winter-2026/IMG_2278.jpg
     caption: Candles at multiple stages, end of winter (6 Aug 2026)
   - src: /images/winter-2026/IMG_2273.jpg
@@ -19,6 +19,9 @@ photos:
   - src: /images/plants/IMG_0955.jpg
     caption: April 2026 assessment
 log:
+  - date: "2026-10-26"
+    entry: "Spent cones snipped off, the dozen from the 24 Oct photo. Green bin. Next look is the March cone check."
+    category: prune
   - date: "2026-10-24"
     entry: "Photo review (IMG_4095): healthy, dense, even. Every cone spent, so the March cone tidy is brought forward to now; cut marked on a field-notes plate. Chalk sticks threading under the bush, left alone."
     category: general
@@ -44,8 +47,9 @@ tasks:
   - months:
       - 10
       - 3
-    task: "Snip the dozen spent cones (scissors). Cut each grey-brown cone off 1-2cm below its base, just above the first green needles. All of them today, rusty orange fuzz included: that fuzz is dried styles, the flower finished in winter. Only a bright yellow cone with soft waxy bristles is live, and there are none in October. Never cut into bare wood. Cones go in the green bin, not under the bush. Photo on Field notes"
+    task: "Snip the spent cones (scissors). Cut each grey-brown cone off 1-2cm below its base, just above the first green needles. Rusty orange fuzz on a cone is dried styles, the flower is finished, it comes off too. Only a bright yellow cone with soft waxy bristles is live, leave those. Never cut into bare wood. Cones go in the green bin, not under the bush"
     category: prune
+    completed: "2026-10"
   - months:
       - 4
     task: "Mulch: rake out leaf litter and old cones from under the bush first (pest habitat), then top up pine bark to about 5cm over the root zone. Keep a clear hand-width gap around the trunk, mulch touching bark invites collar rot"

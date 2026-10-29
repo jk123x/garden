@@ -4,7 +4,7 @@ location: Front + visible beds
 healthStatus: good
 lastAssessed: 2026-10
 urgency: later
-nextAction: "Standing job, any spare 10 minutes: walk the front bed, the path edges and the raised flower beds and pull whatever's showing. Feathery grey-green rosette = achillea, LEAVE; flat rosette pressed to the straw = flatweed, PULL; soft pale tufty grass = poa, pull whole from moist soil. Hand-pull only, no digging, green-bin it. Never finished, always worth it."
+nextAction: "Standing job, any spare minutes: pull weeds where they do the most harm, in this order. 1) Around anything young or small: the new jasmines, the small west fence vine, the cutting bed. A weed there drinks the dripper water meant for a root ball the size of a fist. 2) Running grass creeping from the lawn into a bed edge: trace the runner back and lift it whole with its rooted nodes, it is the one weed that becomes permanent. 3) Anything carrying a seed head, anywhere. 4) Weeds rooted inside the front succulent mats and the groundcovers, while still small enough to lift without tearing the mat. 5) Front bed and path edges, for looks. Bark beds under the big shrubs come last, a weed under an established shrub does nothing. Hand-pull from moist soil, green-bin it. Don't dig in the succulent bed, the roots are shallow."
 notes: "Tracking entry, not a plant. Covers the short list of weeding spots that matter most: beds around favourite plants and street-visible areas. Created July 2026 as part of the pre-baby punch list — the goal is 'finished-looking' in the places people (and Jay) actually see. Round 1 DONE 2 Aug 2026. Round 2 closed 7 Aug 2026 — Jay's best-effort pass before checking out for a few months (baby). Next round: late spring/early summer when the warm flush comes through — kikuyu ring defence at the east jasmines is queued on that plant's own tasks (Nov/Dec)."
 tasks:
   - months:
@@ -24,6 +24,9 @@ tasks:
     task: "Winter grass pass: poa annua is the soft pale-green tufty grass that pulls out whole by hand from moist soil. Get it before the fluffy whitish seed heads form in late winter. Front bed, path edges, the raised beds."
     category: general
 log:
+  - date: "2026-10-28"
+    entry: "Standing item rewritten (Jay): plant-specific achillea/flatweed tells dropped, replaced with a priority order of where weeds do the most harm (young plants, running grass at bed edges, seed heads, inside groundcover mats, then looks). The rosette tell stays on the Oct-Nov round row."
+    category: general
   - date: "2026-10-16"
     entry: "Jay: on top of the weeds, all the flower beds look good. Late-spring round marked done for Oct-Nov. Standing 'whenever you're passing' job stays, as always."
     category: general

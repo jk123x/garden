@@ -3,11 +3,13 @@ type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
 zones:
   - 4
-health: "7 Oct 2026: spring tie-in session done on the laundry side. The second-last plant toward the back garden is dead (May collapse casualty), cut to the stump, replacement due this month. Earlier: scratch test done and confirmed-dead growth cut out along the laundry side, 5 Aug 2026. Some MARGINAL stems deliberately left on the fence — wait-and-see through spring. The October flush is the verdict: anything that hasn't pushed new leaf by late October is dead and comes off then. Sparse but tidy going into spring. Ties removed run-wide (tie audit complete). Both new 150mm plants (planted 1 May past the giant taro stump, on drip since May) totally healthy — over-feed watch cleared 5 Aug with no leaf-edge browning."
+health: "28 Oct 2026: replacement jasmine planted in the dead plant's spot (compost-rich backfill). Laundry-side spring tie-in done 7 Oct, one-leader thinning underway. Both May 2026 plantings past the taro stump healthy and on drip. Top-wire tips show dead grey stubs (frost/wind or possums), recut job open."
 healthStatus: monitor
 lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2312.jpg
 photos:
+  - src: /images/plants/IMG_4129.jpg
+    caption: "27 Oct 2026: top-wire tips ending in dead grey stubs, frost or possums. Snipped back to live leaf pairs"
   - src: /images/winter-2026/IMG_2308.jpg
     caption: The dense mature end outside the laundry (6 Aug 2026)
   - src: /images/winter-2026/IMG_2309.jpg
@@ -22,6 +24,8 @@ photos:
     caption: Kikuyu cleared to bare brick around the new plant, mulch ring rebuilt (7 Aug 2026)
   - src: /images/plants/sj-east-side.jpg
     caption: April 2026 assessment
+urgency: week
+nextAction: "Top wires on all three jasmine runs (scissors): 1) every tip that ends in a bare grey stub, snip back to just above the first healthy leaf pair below it. 2) Leave any tip that is still green and growing. 3) While up there, look along the fence rail for possum droppings (dark 2cm pellets) and torn leaf edges. Don't cut green leader tips, they are what extends along the wire; because a dead stub never regrows but the buds under the cut throw two shoots."
 notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
   - months:
@@ -53,6 +57,12 @@ tasks:
       - 11
     task: "Plant the new jasmine in the dead one's spot. 1) Dig the old stump out: spade in a circle 20cm out, lever up. 2) Hole twice the pot width, same depth the plant sat in the pot. 3) Backfill with the soil you dug, firm, 10L of water. 4) Move the existing dripper to sit at the stem. 5) Tie the longest shoot to the lowest wire, loose figure-8. Bark back around it, off the stem. No fertiliser"
     category: plant
+    completed: "2026-10"
+  - months:
+      - 11
+    day: 18
+    task: "Settle check on the new jasmine (planted 28 Oct in compost): look at where the stem meets the soil. Crown sunk below the surrounding ground = scrape bark and compost back off the stem so it sits in a shallow dish, no further. Crown standing proud with roots showing = tuck a handful of soil around them. Then confirm the dripper is wetting the root ball, not the gap beside it. No fertiliser, the compost is plenty"
+    category: general
   - months:
       - 10
     task: "Thin the covered laundry end to one leader per wire (secateurs, then scissors). Wire by wire: 1) Where a wire carries 2-4 shoots, keep the lowest one that is twined on. 2) Trace each extra shoot back to where it leaves its parent stem and cut it there, at the base, never shortened. 3) Old brown stems with leaves and bud clusters stay, they carry the Christmas flowers. Swap one out only when it is barely growing and a vigorous new shoot from a different stem runs the same wire. Bare sections: keep every runner. No shearing the face, that is the January job"
@@ -83,6 +93,15 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-10-28"
+    entry: "Replacement star jasmine planted in the dead plant's spot (second-last toward the back garden), backfilled with a lot of compost. Compost-heavy backfill is fine for jasmine; the one risk is the plant settling as the compost shrinks, so the Nov check looks at the crown height."
+    category: plant
+  - date: "2026-10-27"
+    entry: "Jay's photo IMG_4129: many top-wire tips end in bare grey stubs that look pinched, and Jay has not touched them for months. Two candidates: frost and wind killing the soft tips over winter (dries to a blunt grey end), or possums browsing along the fence top (clean bitten ends, only at fence-top height, droppings on the rail). Either way the dead stub never grows again. Job set on the east card for all three runs: snip each dead tip back to the first healthy leaf pair now, tie the lateral that comes along the wire."
+    category: general
+  - date: "2026-10-26"
+    entry: "Jay's photos IMG_4116-4120 (all three runs): growth on the wires above the fence top is thin, pale and part-bare while the board-backed section below is dense. Verdict: exposure above the fence line (wind both sides, frost in winter, no board for shelter or warmth), not distance from the roots and not the cobwebs. The top wires are already reflushing pale new leaves and buds. Nothing to do beyond the existing tie rows; wilting up top in summer is the first drought signal."
+    category: general
   - date: "2026-10-23"
     entry: "Jay: the run was pine-bark mulched about 2-3 months ago (roughly Aug 2026), which never made it onto the card. Logged now. Pine bark lasts 2-3 years, so the November top-up row is deleted and bark is off the shopping list. Next look at mulch depth: spring 2028, or sooner only if bare soil shows."
     category: general

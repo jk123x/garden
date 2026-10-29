@@ -3,10 +3,15 @@ type: shrub
 location: Front yard
 zones:
   - 1
-health: "Pass 1 of the size reduction done 16 Sept 2026, conservatively: shape kept, no cuts into bare wood, still well short of a third off. Porch dome finished; the wattle-side dome is unfinished where the wattle drapes over it. Reshoot check 20 Oct decides how hard pass 2 can go. Was: healthy but has outgrown its spot — Jay, 8 Sept 2026: the front domes have 'gotten so huge'. Dense, no dieback. Size reduction is the job, done in two passes (Sept + March) so no cut goes into bare wood."
+health: "30 Oct 2026: two light passes so far (16 Sept, late Oct), each 10-20% off, no cuts into bare wood. Inner shoots now showing low down across much of both domes, so the next cut can follow the inner green to about a third off. Dense, no dieback, still bigger than the spot wants."
 healthStatus: healthy
-lastAssessed: 2026-09
+lastAssessed: 2026-10
+urgency: week
+nextAction: "Second bite on both westringia domes (scissors), now while the spring flush is on. 1) Part the outer foliage at a spot and find the lowest green shoot or leaf inside, then cut a few centimetres above it. 2) Repeat all over, following the dome, so the cut line sits just above the inner green everywhere. That lands near a third off. 3) Where you part it and find only bare grey stems inside, leave that section long. Don't cut the top harder than the sides; because the shoots inside only fill the dome once the outer skin stops shading them."
 log:
+  - date: "2026-10-30"
+    entry: "October pass on the domes done, light again: 10-20% off, Jay held back by the green-below-every-cut rule. He reports leaves coming through lower down across much of the bush, which is the reshoot signal the 20 Oct check was waiting for. Advice: go back now and cut to just above the inner green all over."
+    category: prune
   - date: "2026-09-16"
     entry: "Pass 1 done by Jay (IMG_3713 porch dome, IMG_3714 wattle-side dome). Verdict on the work: correct. Dome shape kept, no flat top, no bare patches or brown showing, clippings are leafy tips not thick stems, so every cut left green below it. Deliberately conservative, nowhere near a third, because we don't yet know how this plant reshoots from older wood. The wattle-side dome stopped short under the wattle's drape; it gets finished in the October wattle-prune session once the shoulder is clear. Follow-up set for 20 Oct: look just below the cut line. New shoots pushing from below the cuts all over = reshoots readily, take the next bite then (toward a third, a little into older wood where a leaf bud shows). No shoots below the cuts = tip-grower only, stay conservative for good. Sweep the cut bits off the brick path and stone slab; on the mulch they're fine."
     category: prune
@@ -41,6 +46,7 @@ tasks:
     day: 20
     task: "Westringia domes, same session as the wattle (scissors). 1) Look just below your September cut line on the porch dome. New shoots pushing below the cuts = take the next bite now, toward a third off all over, a little into older wood wherever a leaf bud shows. No shoots below the cuts = stay light. 2) Finish the wattle-side dome to match the rest: grab a handful, snip, green leaf below every cut"
     category: prune
+    completed: "2026-10"
   - months:
       - 3
     task: "Shape reduction, pass 2: up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood. How hard to go was settled by the 20 Oct reshoot check."

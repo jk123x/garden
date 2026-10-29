@@ -18,162 +18,11 @@ interface Plate {
 }
 
 const PLATES: Plate[] = [
-  {
-    img: '/images/field/IMG_2098.jpg',
-    ratio: '3/4',
-    section: 'The feijoa cut',
-    title: 'The patient, before',
-    intro:
-      'Healthy, vigorous, multi-trunked — and carrying all its foliage up high, well above the fence. The renovation cut resets where the leafy growth starts.',
-    marks: [
-      { kind: 'pin', n: 1, x: 48, y: 28, tone: 'id', text: 'Feijoa canopy — all the leaf is up here. After the cut, regrowth erupts at and below the cut height instead.' },
-      { kind: 'pin', n: 2, x: 20, y: 63, tone: 'id', text: 'Fence top — your proposed cut height. The recommendation sits just below this line (see next plate).' },
-      { kind: 'pin', n: 3, x: 85, y: 58, tone: 'leave', text: 'Banksia and the strappy underplanting — not part of this job. Drop branches outward onto the driveway side, not onto these.' },
-    ],
-    foot: 'Winter timing is right: cut on a dry day, before the spring flush. Offcuts in the green bin.',
-  },
-  {
-    img: '/images/field/IMG_2100.jpg',
-    ratio: '3/4',
-    section: 'The feijoa cut',
-    title: 'Where to cut',
-    intro:
-      'Every trunk, individually, with loppers or the pruning saw — at about 1m, a hand-width below the fence top. Slight angle on each cut so water sheds. No need to find a bud: feijoas reshoot from dormant buds under old bark, even on bare wood.',
-    marks: [
-      { kind: 'cutline', y: 64, tilt: -2, tag: 'cut all trunks about here (~1m)', text: 'A hand-width below the fence top. Stubs hidden from the street; regrowth fills the 1–1.5m zone and reaches the target height within a season. Stagger individual cuts ±10cm for a natural dome rather than a flat-top.' },
-      { kind: 'ring', n: 1, x: 40, y: 20, r: 9, tone: 'act', text: 'Orange sprinkler fitting and old nursery tag wedged in the branches — take both out before you start cutting.' },
-      { kind: 'pin', n: 2, x: 62, y: 50, tone: 'id', text: 'Clear any dead or crossing wood in the middle while the structure is open.' },
-    ],
-    foot: 'Cutting at the full fence height would work too — but it leaves only ~30cm of regrowth room before the 1.5m target, so the bush ends up top-heavy and needs trimming almost immediately. Lower cut, better shrub.',
-  },
-  {
-    img: '/images/field/IMG_2112.jpg',
-    ratio: '3/4',
-    section: 'Lemon: gall or not',
-    title: 'This one is a gall',
-    intro:
-      'Exactly what you thought. Spindle-shaped swelling in the middle of a stem, tapering back to normal wood at both ends, surface smooth with no exit holes — an occupied gall, cut it.',
-    marks: [
-      { kind: 'ring', n: 1, x: 49, y: 45, r: 9, tone: 'act', text: 'The gall — sausage swelling mid-stem, smooth and solid. No pinprick holes means this season’s brood is still inside.' },
-      { kind: 'pin', n: 2, x: 50, y: 33, tone: 'act', text: 'Cut here: 1–2cm above the gall in this photo — the thicker grey wood is the trunk side. If no fruit hangs beyond the cut, it can come off today; no need to wait for harvest on this branch.' },
-    ],
-    foot: 'Offcut goes sealed in a bag or straight into a green bin that’s getting collected. Never compost, never an open pile.',
-  },
-  {
-    img: '/images/field/IMG_2113.jpg',
-    ratio: '3/4',
-    section: 'Lemon: gall or not',
-    title: 'This one is not',
-    intro:
-      'Also exactly what you thought. The swelling sits at a junction where several branches radiate from one point — that’s normal wood doing normal wood things, not a gall.',
-    marks: [
-      { kind: 'ring', n: 1, x: 46, y: 58, r: 11, tone: 'leave', text: 'Branch junction — the swelling is the collar where the stems meet, not a mid-stem sausage. Leave it alone.' },
-      { kind: 'pin', n: 2, x: 76, y: 10, tone: 'id', text: 'Lemons stay on until picked — fruit is safe to eat regardless of galls elsewhere on the tree.' },
-    ],
-    foot: 'The rule that decides every case: mid-stem swelling tapering at both ends = gall. Swelling at a fork = wood.',
-  },
-  {
-    img: '/images/field/IMG_2109.jpg',
-    ratio: '3/4',
-    section: 'The strappy layer',
-    title: 'The black-marked clumps — kangaroo paws, most likely',
-    intro:
-      'Revised call: these sit exactly where the kangaroo paws live, the leaves are flat straps in iris-like fans, and the black marking is classic kangaroo paw ink spot that develops over a wet winter. Marked leaves never clean up — the black is permanent on that leaf. The fix is the full haircut: cut the whole clump to ~5cm now, late winter is the textbook time, and the spring fans come back clean.',
-    marks: [
-      { kind: 'pin', n: 1, x: 45, y: 45, tone: 'act', text: 'Cut the whole clump to ~5cm. Foliage to the green bin, not compost. Flowering resumes on the clean new growth.' },
-      { kind: 'pin', n: 2, x: 28, y: 58, tone: 'id', text: 'The black blotching — ink spot. It will NOT fade in the warm months; only new leaves come clean, which is why the full cut beats picking at it.' },
-      { kind: 'pin', n: 3, x: 84, y: 18, tone: 'leave', text: 'Dwarf banksia with spent ‘candles’ — old flower brushes can be snapped off for tidiness or left; the plant doesn’t care.' },
-      { kind: 'pin', n: 4, x: 40, y: 87, tone: 'leave', text: 'Chalk sticks creeping in from the bed edge — fine where it is.' },
-    ],
-    foot: 'Ten-second check before each scalp: flat strappy leaves in a fan = kangaroo paw, cut away. A folded/keeled leaf with a raised midrib = an actual dianella — those get the groom instead. Any clump you’re unsure about, cut one leaf at the base and look at its cross-section.',
-  },
-  {
-    img: '/images/field/IMG_2110.jpg',
-    ratio: '3/4',
-    section: 'The strappy layer',
-    title: 'The big one is not a dianella',
-    intro:
-      'The broad-leaved fountain is a different plant — and it’s not on the books. The wide pleated leaves and thick fleshy base read as a crinum lily or young gymea, not any dianella. It gets nothing done to it for now.',
-    marks: [
-      { kind: 'ring', n: 1, x: 50, y: 28, r: 13, tone: 'id', text: 'Broad, soft, pleated straps from a thick base — dianella leaves are half this width and stiff. Likely crinum (swamp lily) or gymea. A flower will settle it — send a photo when it throws one.' },
-      { kind: 'pin', n: 2, x: 30, y: 72, tone: 'act', text: 'More of the black-marked clumps — same verdict as the previous plate: kangaroo paw fans get the 5cm haircut; any genuinely folded-leaf dianella gets the groom.' },
-      { kind: 'pin', n: 3, x: 72, y: 84, tone: 'leave', text: 'Banksia — nothing needed.' },
-    ],
-    foot: 'Added to the notes as an unrecorded plant. If you want it catalogued properly, a flower or a base close-up will pin the ID.',
-  },
-  {
-    img: '/images/field/IMG_2107.jpg',
-    ratio: '4/3',
-    section: 'The strappy layer',
-    title: 'The tuft among the dusty miller',
-    intro:
-      'This finer, darker tuft is the lily turf suspect. The base test decides it: grip a few leaves where they emerge. Soft, floppy, narrow, grassy = liriope — shear the lot to 5cm like the ones along the sleepers. Stiff leaves rising in a flat iris-like fan = a dianella seedling — groom only.',
-    marks: [
-      { kind: 'ring', n: 1, x: 55, y: 42, r: 11, tone: 'act', text: 'The suspect. My read from the photo leans liriope (narrower, softer, darker than the dianellas two plates up) — but the base test takes ten seconds and is definitive.' },
-      { kind: 'pin', n: 2, x: 50, y: 10, tone: 'leave', text: 'Dusty miller — the white felted leaves. Never needs feeding, nothing to do.' },
-      { kind: 'pin', n: 3, x: 14, y: 55, tone: 'leave', text: 'Chalk sticks — leave.' },
-    ],
-  },
-  {
-    img: '/images/field/IMG_2106.jpg',
-    ratio: '3/4',
-    section: 'The strappy layer',
-    title: 'The clump on the fence line — already handled',
-    intro:
-      'Cut to 5cm on 31 July: it sat in the new muehlenbeckia’s establishment zone and the vine wins. Nothing more to do — just watch what regrows in spring.',
-    marks: [
-      { kind: 'pin', n: 1, x: 55, y: 45, tone: 'id', text: 'The clump, pre-cut. If it regrows as a soft grassy tuft it was liriope and will look fine at the fence base; if it sulks or stays sparse it was a dianella — pull it out then and let the vine have the spot.' },
-      { kind: 'pin', n: 2, x: 22, y: 76, tone: 'leave', text: 'Chalk sticks bed — it marks easily when stepped on, mind it when tying the vine.' },
-    ],
-  },
-  {
-    img: '/images/field/IMG_4095.jpg',
-    ratio: '4/3',
-    section: 'Front bed, 24 Oct 2026',
-    title: 'Banksia: the cones come off now',
-    intro:
-      'Healthy dwarf banksia, dense fine foliage, no dieback. Every cone in this shot is spent (the rusty orange fuzz is dried styles from the winter flowers, not live colour), so the cone tidy that was parked in March happens now. About a dozen cones.',
-    marks: [
-      { kind: 'ring', n: 1, x: 59, y: 58, r: 7, tone: 'act', text: 'A spent cone. Cut here: follow the cone\'s stalk down 1-2cm below the base of the cone and snip there, above the first green needles. Never cut below the green, banksia does not reshoot from bare wood.' },
-      { kind: 'ring', n: 2, x: 19, y: 52, r: 8, tone: 'act', text: 'Same cut on every cone, this pair included. The rusty orange fuzz is dried styles, not live flower: all twelve come off. Only a bright yellow cone with soft waxy bristles is live, and there are none here.' },
-      { kind: 'pin', n: 3, x: 18, y: 65, tone: 'leave', text: 'Chalk sticks threading in under the banksia. Leave them, they are not hurting it.' },
-      { kind: 'pin', n: 4, x: 56, y: 24, tone: 'leave', text: 'Gymea base. One lower leaf yellowing is normal, nothing to do.' },
-      { kind: 'pin', n: 5, x: 80, y: 38, tone: 'leave', text: 'Foliage is dense and even all over. No shaping needed, no tip prune, no feed until September.' },
-    ],
-    foot: 'Drop the cut cones in the green bin, not under the bush: old cones under the canopy are pest habitat (that is also why the April mulch row starts with raking them out).',
-  },
-  {
-    img: '/images/field/IMG_4096.jpg',
-    ratio: '4/3',
-    section: 'Front bed, 24 Oct 2026',
-    title: 'Gate bed: fill the gap with cuttings',
-    intro:
-      'The gate-patch chalk sticks have come back into a dense mat by the post. The bare mulched stretch between the two blue patches is the trample zone, and the fix is cuttings from the dense mat, not waiting.',
-    marks: [
-      { kind: 'ring', n: 1, x: 76, y: 52, r: 11, tone: 'id', text: 'Cutting source. Snip 12-15 finger tips from the edge of this mat, each 8-10cm long with a blue tuft on top. Taking them from the edge thins nothing you can see.' },
-      { kind: 'ring', n: 2, x: 47, y: 64, r: 12, tone: 'act', text: 'The gap. Lay the cuttings in the shade for a day so the cut end seals, then push each one 3cm into the mulch and soil here, a hand-width apart. Zone 1 waters them from there. Do not firm them in hard and do not feed.' },
-      { kind: 'pin', n: 3, x: 55, y: 57, tone: 'act', text: 'The small sparse patch. Any stem that is brown, soft or bare of blue tips, cut back to the nearest live tuft. The rest stays.' },
-      { kind: 'pin', n: 4, x: 54, y: 46, tone: 'act', text: 'Dried cream flower stalks lying over the mulch. Snip each one at its base and bin them. That was the May row, done early.' },
-      { kind: 'pin', n: 5, x: 72, y: 44, tone: 'leave', text: 'Irrigation riser. Leave it clear, do not poke cuttings within a hand-width of it.' },
-      { kind: 'pin', n: 6, x: 22, y: 34, tone: 'leave', text: 'Cotyledon Silver Waves, big and healthy. Nothing to do. Watch for the orange bell stalk from November.' },
-      { kind: 'pin', n: 7, x: 46, y: 30, tone: 'leave', text: 'The silver needle-leaf shrub, still un-named. Healthy, tight, no job. A flower photo settles the ID when it blooms.' },
-      { kind: 'pin', n: 8, x: 71, y: 36, tone: 'id', text: 'Strappy green seedling against the fence. If the leaves are folded with a keel it is a dianella volunteer, leave it. Flat and grassy, pull it.' },
-    ],
-    foot: 'Weeds: a few grass and clover tufts in the gap and the brick joints. Pull them before the cuttings go in so you are not weeding around them later.',
-  },
 ];
 
 const sections = [...new Set(PLATES.map((p) => p.section))];
 const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
 
-const GALL_SHEET = [
-  ['Is it a gall?', 'Sausage-shaped swelling in the middle of a stem, tapering back to normal at both ends. Swelling at a fork where branches meet = normal wood.'],
-  ['Old or live?', 'Tiny pinprick holes = last season’s, empty, low priority. Smooth and solid = occupied, cut it.'],
-  ['The cut', '1–2cm below the gall into clean stem. Everything past the cut comes off — check no fruit is hanging beyond it first.'],
-  ['Disposal', 'Green bin that’s getting collected, never compost, never an open pile. Cap: a third of any tree’s canopy per winter.'],
-  ['Fruit safety', 'Fruit on galled branches is 100% fine — larvae live in stem wood only.'],
-  ['The clock', 'Wasps emerge ~October. All gall cutting done by end of September.'],
-];
 
 const TONE = {
   act: { dot: 'bg-terra text-white', ring: 'border-terra', chip: 'bg-terra text-white' },
@@ -185,7 +34,7 @@ const TONE = {
 <Layout title="Field Notes — Garden">
   <div class="animate-in">
     <div class="mb-10">
-      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">Annotated photos · 31 July 2026</p>
+      <p class="font-medium text-terra uppercase tracking-widest text-sm mb-1">Annotated photos · open jobs only</p>
       <h1 class="text-4xl font-semibold mb-2">Field Notes</h1>
       <p class="text-ink-soft max-w-2xl">
         The garden, marked up — where to cut, what each thing is, what to leave alone.
@@ -195,6 +44,10 @@ const TONE = {
       </p>
       <p class="mt-3 text-sm"><a href="/photo-audit" class="text-terra font-medium hover:underline">Winter 2026 baseline photos</a> <span class="text-ink-faint">— 51 shots, the before set for the spring comparison</span></p>
     </div>
+
+    {sections.length === 0 && (
+      <p class="font-display italic text-ink-faint text-xl">Nothing marked up right now. Plates appear here when a job needs a photo to explain it, and come down once it's done.</p>
+    )}
 
     {sections.map((section) => (
       <section class="mb-14">
@@ -269,16 +122,6 @@ const TONE = {
             );
           })}
 
-          {section === 'Lemon: gall or not' && (
-            <section class="bg-paper rounded-xl border border-rule p-5">
-              <h3 class="font-display text-2xl font-semibold mb-3">Gall wasp cheat sheet</h3>
-              <div class="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-[0.97rem]">
-                {GALL_SHEET.map(([q, a]) => (
-                  <p><strong class="font-semibold">{q}:</strong> {a}</p>
-                ))}
-              </div>
-            </section>
-          )}
         </div>
       </section>
     ))}

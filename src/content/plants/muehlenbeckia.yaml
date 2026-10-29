@@ -72,6 +72,9 @@ tasks:
     task: "Heat-day glance: on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
     category: water
 log:
+  - date: "2026-10-27"
+    entry: "Reachers sheared and the whole face given a haircut (Jay, same session as the other two fences). Do-now cleared. Next pass is the November shear row."
+    category: prune
   - date: "2026-10-23"
     entry: "Jay: a massive council tree on the nature strip hangs over this fence, which explains the reaching. Plan revised: fortnightly reacher snips in spring, December feed cut to light, effort concentrated on the lighter stretches, darkest section allowed to stay thin, heat-day wilt glance added."
     category: general
@@ -111,6 +114,3 @@ log:
   - date: "2026-07-29"
     entry: Tidied and trimmed — September trim front-loaded. Fed with Richgro All Purpose 29 Jul — September feed replaced.
     category: prune
-urgency: week
-dueBy: "2026-10-30"
-nextAction: "Shear the reachers on all three fences (scissors). Any strand standing off the fence chasing light: over bare or thin fence, cut it to a 5-10cm stub outside the wires; over fence that is already dense, cut it flush. Don't re-tie them. Leave anything running flat along the fence."

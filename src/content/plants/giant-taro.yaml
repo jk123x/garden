@@ -6,7 +6,7 @@ zones:
   - 4
 health: Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small.
 healthStatus: good
-lastAssessed: 2026-08
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2310.jpg
 photos:
   - src: /images/winter-2026/IMG_2310.jpg
@@ -49,6 +49,12 @@ tasks:
     task: "Summer top-up: Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
     category: feed
 log:
+  - date: "2026-10-30"
+    entry: "Compost spread round the base from the leftover jasmine-planting compost. Compost job closed: Jay did the taro and the lawn, strawberries, flower beds and the May jasmines skipped."
+    category: mulch
+  - date: "2026-10-28"
+    entry: "Leftover compost from the jasmine planting: one Do now job set here covering taro, strawberries, cutting and flower beds, lawn bare patches and the two May jasmines. Log on each card as it lands."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: December feed added."
     category: general

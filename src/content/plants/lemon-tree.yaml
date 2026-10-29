@@ -18,6 +18,9 @@ photos:
     caption: April 2026 assessment
 notes: Front yard lemon tree. Confirmed producing lemons. Last fed April 15 2026 with fruit fertiliser (had been 2 months since previous feed). Epsom salts drench applied April 16 (pre-emptive, given the backyard citrus issues). Front yard conditions clearly suit it better than the backyard spot — possibly better airflow, different microclimate, not crowded by competing plants. Keep to a 6-8 week fruit fertiliser schedule through the growing season. Watch for citrus gall wasp in late winter/spring and prune out any galls before October.
 log:
+  - date: "2026-10-28"
+    entry: "Sugarcane mulched from the two new bales, 5cm over the root zone, clear of the trunk (Jay: bales done, October citrus top-up)."
+    category: mulch
   - date: "2026-10-23"
     entry: "Correction: the 6 Aug job was compost only, no sugarcane. Last sugarcane on the citrus was ~April 2026 (Jay). October top-up reinstated, 2 bales on the shopping list."
     category: general
@@ -94,6 +97,7 @@ tasks:
       - 10
     task: Buy 2 sugarcane bales (26m² size), then mulch all four citrus. 5cm deep over each tree's whole root zone out to the canopy edge, a hand-width clear of the trunk. Leftover goes under the strawberries
     category: mulch
+    completed: "2026-10"
   - months:
       - 4
     task: "Sugarcane top-up: the summer layer has broken down to nothing by now. 5cm from the bale over the root zone, clear of the trunk, before the winter rain"

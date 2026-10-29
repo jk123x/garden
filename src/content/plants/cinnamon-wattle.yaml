@@ -3,11 +3,21 @@ type: tree
 location: Front yard
 zones:
   - 1
-health: "Assessed Aug 2026 (photo zoom + Jay's report): genuinely healthy despite the slump. Dense phyllode cover with only normal cycling yellowing, smooth clean bark with no borer holes, gum bleeds or cracking visible, and a heavy load of red flowers opening along the branchlets — that's a tree with energy to spare, not one in decline. The pronounced lean is structural (wind incident), not a health problem: the canopy has kept growing and flowering at the new angle."
+health: "28 Oct 2026, post-prune (IMG_4152): healthy but now an open, leggy small tree. Bare trunk with the Z-kink, a sparse crown of a few leafy arms, top brought down to about the neighbour's gutter line, westringia fully clear. Roughly half the foliage came off over the two sessions, past the plan, so no more cutting this year. Expect new shoots behind every cut within weeks and a thicker, weeping crown again by late summer."
 healthStatus: healthy
-lastAssessed: 2026-08
+lastAssessed: 2026-10
 image: /images/winter-2026/IMG_2271.jpg
 photos:
+  - src: /images/plants/IMG_4152.jpg
+    caption: "28 Oct 2026: prune finished. Whips topped at the gutter line, westringia clear, open crown left to reflush"
+  - src: /images/field/IMG_4122.jpg
+    caption: "26 Oct 2026, before the prune: skirt on the westringia, whips above the gutter line"
+  - src: /images/plants/IMG_4149.jpg
+    caption: "28 Oct 2026, prune part-done: westringia cleared, body thinned, top whips and window tips still to cut"
+  - src: /images/plants/IMG_4150.jpg
+    caption: "28 Oct 2026: the window arm still reaching the glass, whips still above the neighbour's gutter line"
+  - src: /images/plants/IMG_4121.jpg
+    caption: Post-flowering, before the October prune. Cut plan marked up on Field notes (26 Oct 2026)
   - src: /images/plants/IMG_2337.jpg
     caption: Pre-flowering baseline — loaded with bud, draping over the westringia (8 Aug 2026)
   - src: /images/winter-2026/IMG_2271.jpg
@@ -18,6 +28,15 @@ photos:
     caption: April 2026 assessment
 notes: "VARIETY CONFIRMED Aug 2026: Acacia leprosa 'Scarlet Blaze' — the red flowers settle it (the only red-flowered wattle in cultivation; famous Melbourne chance find, floral emblem candidate stuff). Jay loves this tree. What the ID means: naturally semi-weeping with a flexible leader — a slumped, willowy posture is partly just what it does, wind assist or not. It is also SHORT-LIVED: 7-15 years is the realistic span, so enjoy it hard and take cuttings/succession seriously in a few years. Managing the slump: do NOT try to winch it upright (snaps roots on an established tree); instead use the October post-flowering prune to lighten the heavy side and reduce sail so the lean stops progressing. Old stakes sit against the trunk — check any remaining ties aren't girdling and cut them off if the tree is self-supporting at the base. Watch-fors on an aging leprosa: borer holes/gum or sawdust frass on the trunk, and sudden branch dieback — either one is worth a photo. Low phosphorus feeds only."
 log:
+  - date: "2026-10-28"
+    entry: "Prune finished (IMG_4151-4153): whips cut back to about the neighbour's gutter line, cuts landed in leafy wood. Total over the two sessions is about half the foliage, double the plan, mostly from the body and street side. Tree is fine for it in spring, but it is now top-light and leggy and needs every remaining leaf. Rule: nothing more off it until the Oct 2027 post-flowering prune, and that one is a quarter at most. Regrowth check set for 10 Dec."
+    category: prune
+  - date: "2026-10-28"
+    entry: "Prune part one (IMG_4148-4150). Skirt off the westringia: done, the bush has full daylight. Body of the canopy thinned well past the plan, roughly a third to 40% gone including most of the street side that was marked leave. Not yet done: the whips above the neighbour's gutter line and the window arm's tips, which are the two cuts that reduce sail on the kinked trunk. Rule from here: no more off the body this year, finish the tops only."
+    category: prune
+  - date: "2026-10-26"
+    entry: "Jay sent post-flowering photos (IMG_4121-4123) asking how hard to cut. Healthy, dense, flowering finished. Plan marked up on Field notes: about a quarter off, from three places (whips topped at the neighbour's gutter line, the window arm back to the house corner, the dome skirt lifted 30-50cm), kink and street side untouched."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: autumn borer check added."
     category: general
@@ -40,8 +59,14 @@ tasks:
   - months:
       - 10
     day: 20
-    task: "Prune the wattle (secateurs, saw for anything thicker than a thumb). 1) Take the branches resting on the westringia dome off at a green side shoot, so the dome's shoulder gets 30-50cm of air. 2) Lighten the heavy slumped side: every cut back to a green side branch, never to bare wood, wattles don't reshoot from it. Leave the lean alone. Then do the westringia row"
+    task: "Prune after flowering (secateurs, scissors on thin tips). A quarter of the canopy at most, never more: whips above the neighbour's gutter line back to a green side shoot, anything resting on the westringia lifted 30-50cm clear, tips touching the window back to a green side shoot. Every cut just above green, wattles don't reshoot from bare wood. Nothing at or below the Z-kink, leave the lean alone"
     category: prune
+    completed: "2026-10"
+  - months:
+      - 12
+    day: 10
+    task: "Regrowth check after the October prune: look at the end of every cut arm for new shoots behind the cut. New growth everywhere = done, nothing else this year. An arm with no new shoots and browning leaves = cut it back to the next live side shoot; gum, sawdust or a round hole on it = borer, photo it"
+    category: general
   - months:
       - 9
     task: "Feed: Osmocote Native at the bag rate over the root zone out to the drip line, then water in. Only ever this product, wattles are phosphorus-sensitive"

@@ -3,11 +3,13 @@ type: grass
 location: Front yard
 zones:
   - 1
-health: Reshooting confirmed Aug 2026 — a healthy tuft of fine new blades up through the sugarcane at the deck edge (early, but normal for a mild winter). Fed 30 Jul. Back to full height by January.
+health: "27 Oct 2026 (IMG_4134): healthy spring clump about knee height, splayed open and flopped toward the deck after rain and foot traffic. New blades keep coming from the crown and overtop the splay by December. Earlier: reshooting confirmed Aug 2026 — a healthy tuft of fine new blades up through the sugarcane at the deck edge (early, but normal for a mild winter). Fed 30 Jul. Back to full height by January."
 healthStatus: good
-lastAssessed: 2026-08
+lastAssessed: 2026-10
 image: /images/plants/IMG_0893.jpg
 photos:
+  - src: /images/plants/IMG_4134.jpg
+    caption: "27 Oct 2026: spring clump splayed toward the deck. Deck-side blades snipped, the rest left to grow through"
   - src: /images/winter-2026/IMG_2274.jpg
     caption: Reshooting at the deck edge after the April cutback (6 Aug 2026)
   - src: /images/plants/IMG_0893.jpg
@@ -31,6 +33,12 @@ tasks:
     category: general
     completed: 2026-09
 log:
+  - date: "2026-10-28"
+    entry: "Deck-side blades snipped flush with the deck edge (Jay). Rest of the clump left to grow through the splay."
+    category: prune
+  - date: "2026-10-27"
+    entry: "Jay's photo IMG_4134: the spring clump has splayed open and flopped onto the deck (rain weight plus kids on the verandah). Verdict: cosmetic. Grass blades don't stand back up once kinked, but the crown keeps pushing new ones and the clump fills above the splay by summer. Job set: snip only the deck-side blades flush with the deck edge, no shearing. If the middle still reads hollow at the Aug cutback, that is the divide signal."
+    category: general
   - date: "2026-08-06"
     entry: "Baseline photo mystery solved: the fine grassy tuft at the deck edge (IMG_2274) is this miscanthus reshooting from the April cutback — Jay ID'd it (I'd flagged it as possible onion grass). Regrowth already moving in early August. Nothing to do; it feeds itself back to full height from here."
     category: general
