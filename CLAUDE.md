@@ -40,7 +40,7 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - `/calendar` — Full year view, tasks grouped by plant per month
 - `/feeding` — Quick-reference feeding guide: 4 products with plant lists + doses, skip list, year timeline. Data in `FEEDING_PLAN`/`FEEDING_SKIPS`/`FEEDING_YEAR` in utils.ts. Rewritten 5 Sept as a durable year-round reference (the stale "order arrives / early August" moves are gone); `FEEDING_YEAR` entries carry `months` and the page computes the "next up" marker from the current month
 - `/log` — every log entry across all cards, newest first, with a 'When did I last…' table per work category (added 23 Oct 2026)
-- `/field-notes` — annotated plates (pins/rings/cutlines in the page frontmatter) + the gall wasp cheat sheet (moved here from the playbook) + link to `/photo-audit`
+- `/field-notes` — annotated plates (pins/rings/cutlines in the page frontmatter), **open jobs only**: a plate goes up when a job needs a photo to explain it and comes down the moment it's done (Jay, 26 Oct 2026, 'kill the first 9 plates, already handled'). Gall wasp sheet REMOVED 26 Oct 2026. Currently empty (renders an empty-state line). Link to `/photo-audit`
 - `/photo-audit` — winter-2026 baseline gallery. Not in the nav; reached from field notes
 - `/playbook` — **DELETED 5 Sept 2026** (baby window passed). Redirects to `/` via astro.config. Its done-list is history (in plant logs); the gall wasp sheet lives on field notes
 
@@ -85,6 +85,16 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - Deleted: feijoa 'no feed' reminder row (rule in notes), the two stale Sept dieback-check rows on the muehlenbeckias, the east jasmine's May 2026 one-offs
 - Olive watershoot patrol thinned to Nov/Jan/Mar (`repeat: monthly` kept so a done-mark hides one month). Jasmine cohort ties now run Nov-Mar
 - Scan after any session: `node -e` js-yaml for `task.length<60 && !completed && category!=='harvest'` (should be 0) and the date-in-prose regex
+
+## Late Oct 2026 field session (26-30 Oct)
+
+- **Scarlet Blaze wattle pruned 28 Oct 2026** over two sessions: about half the foliage came off (plan was a quarter; the top is hard to reach with control). Open leggy tree now, no more cutting this year. Rule written into the Oct row: a quarter at most, every cut just above green, nothing at or below the Z-kink. Day-gated 10 Dec regrowth check on the card (no shoots behind a cut + browning = cut back to the next live side shoot; gum/sawdust/round hole = borer). "Whip" = a long thin unbranched shoot; "the dome" = the westringia bush under the wattle (Jay asked, reworded).
+- **Westringia domes:** pass 1 (16 Sept) and the Oct pass (late Oct) were both 10-20% only. Jay reads 'green below every cut' as 'stay above the outer leaves'. Correction given 30 Oct: the green that counts is the inner shoots, now visible low down; cut to just above the inner green all over (lands near a third). Second-bite job in Do now; March pass 2 stays. Jay finds careful work on it slow.
+- **Star jasmine top wires:** thin growth above the fence top = exposure (sun/wind/frost at height, furthest from the roots), not bugs. Dead grey tip stubs on the top wires = frost/wind or possums. Recut-to-live-node job on star-jasmine-east (all three runs) STILL OPEN. **Replacement east jasmine PLANTED 28 Oct 2026** in a lot of compost (fine); 18 Nov settle-check row on the card.
+- **Done and logged:** banksia cones 26 Oct; miscanthus deck-side blades 28 Oct (splayed clump, Jay's kids/deck); all three muehlenbeckias sheared 27 Oct, the neighbour's gardener cut into the fence plane again and severed the tied stems on the east one (note on the card: keep every stem on OUR face, one polite ask of the gardener; Jay refused a tie autopsy, he trims fortnightly); chalk sticks gap: half-hearted go, letting it grow out, NO more cuttings jobs ever; sugarcane 28 Oct from 2 new bales on all four citrus + strawberries (the lemon-tree row done); lawn mowed + Sudden Impact 28 Oct (new 10kg bag); compost top-dress on the taro + lawn bare patches 30 Oct.
+- **Feijoa flower-strip** moved to 'Whenever you're passing' (urgency later, dueBy 15 Nov) at Jay's request; the Oct-Nov row marked done for the year so it doesn't double up.
+- **High-impact weeding standing item rewritten 30 Oct** as a priority order (young plants > running grass at bed edges > seed heads > inside groundcover mats > looks; bark beds under big shrubs last). Plant-specific rosette tells live only on the Oct-Nov round row.
+- Plant ID IMG_4135 (lush deciduous regrowth, leaf curl, Jay says it dies back in winter): I called peach/nectarine, Jay doubts it. Unresolved, no card. Don't re-ask; a pink Aug/Sept blossom settles it.
 
 ## Dashboard rules
 
