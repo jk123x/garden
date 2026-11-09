@@ -38,13 +38,16 @@ tasks:
   - months:
       - 10
       - 11
-    task: "Snails and straw in the strawberry patch. 1) Multiguard in a thin scatter between the plants, one pellet every 5cm, never piles. 2) Tuck sugarcane under the leaves so the fruit sits on straw, not soil. 3) Snip the runners off while the plants are fruiting: a runner is the thin bare wiry stem that creeps flat along the ground away from the plant with a baby plantlet at the end, not the short upright stems holding flowers or fruit. Cut it at the mother plant. 4) Press any crown the kids have pulled loose back in at soil level and water it. Reapply pellets after rain"
+    task: "Snails and straw in the strawberry patch. 1) Multiguard in a thin scatter between the plants, one pellet every 5cm, never piles. 2) Tuck sugarcane under the leaves so the fruit sits on straw, not soil. 3) Runners (the thin bare wiry stems creeping flat along the ground with a baby plantlet at the end, not the short upright flower stems): let them roam inside the bed, Jay's call. Cut only the ones heading out of the bed or across the path, at the mother plant. 4) Press any crown the kids have pulled loose back in at soil level and water it. Reapply pellets after rain"
     category: general
   - months:
       - 3
-    task: "Runner sort: a runner with its own roots and a good crown = snip the cord and leave it as a new plant. Runners crossing the path = cut off. Three-year-old crowns that fruited poorly = pull them, the young plants replace them"
+    task: "Runner sort (scissors): 1) each runner keeps its first plantlet, press it onto bare soil so it roots, snip the stem beyond it. 2) Runners crossing the path = cut off at the mother. 3) Pull the tired old mothers (woody crown, small leaves, poor fruit this season), the daughters replace them. Letting them run is the renewal plan, so this sort is what keeps the patch from becoming a mat"
     category: prune
 log:
+  - date: "2026-11-09"
+    entry: "Runner policy set (Jay): let them roam inside the bed, kids love them. Only path-bound and out-of-bed runners get cut in season; the March sort keeps the first plantlet per runner and pulls worn-out mothers. Cost is a little less fruit per mother, accepted."
+    category: general
   - date: "2026-10-28"
     entry: "Sugarcane tucked under the plants from the leftover of the citrus bales (Jay: bales done)."
     category: mulch
