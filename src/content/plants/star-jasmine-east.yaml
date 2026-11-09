@@ -6,6 +6,9 @@ zones:
 health: "28 Oct 2026: replacement jasmine planted in the dead plant's spot (compost-rich backfill). Laundry-side spring tie-in done 7 Oct, one-leader thinning underway. Both May 2026 plantings past the taro stump healthy and on drip. Top-wire tips show dead grey stubs (frost/wind or possums), recut job open."
 healthStatus: monitor
 lastAssessed: 2026-11
+urgency: week
+dueBy: "2026-11-30"
+nextAction: "Feed all three jasmine runs (Richgro All Purpose) on the first day the soil has drained, not sodden: normal dose scattered along the base of the back and west runs out to the dripline, a LIGHT dose spread wide around the east run's new plants and never against a stem, then water in. Don't feed onto waterlogged soil, it washes straight through; because the July feed is gone and the Dec-Feb run is what builds coverage."
 image: /images/winter-2026/IMG_2312.jpg
 photos:
   - src: /images/plants/IMG_4129.jpg
@@ -89,7 +92,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire. A wire's leader is never tipped until it reaches the end of its wire: pinching makes density, running makes coverage."
     category: general
     repeat: monthly
     completed: 2026-11
@@ -110,6 +113,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-10"
+    entry: "Jay: growth feels stalled after a cool wet spring and hard thinning; one-leader thinning about 80% done and paused while the vine flowers. Advice: normal, the run happens Dec-Feb. Plan: Richgro in the first dry spell (replaces the Dec top-up, a second dose moves to January), finish the thinning as the flowers fade by early Dec, no tipping of wire leaders, steady water. Feed job set on the east card for all three runs."
+    category: general
   - date: "2026-11-09"
     entry: "Top-wire recut done on all three runs (Jay): dead stubs and bitten tips cut back to live leaf pairs, regrowth to be tied along the wires. Do-now cleared. Possum nibbling accepted, no deterrent."
     category: prune

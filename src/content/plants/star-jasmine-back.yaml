@@ -7,6 +7,9 @@ health: Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thi
 healthStatus: healthy
 lastAssessed: 2026-11
 log:
+  - date: "2026-11-10"
+    entry: "Jay: growth feels stalled after a cool wet spring and hard thinning; one-leader thinning about 80% done and paused while the vine flowers. Advice: normal, the run happens Dec-Feb. Plan: Richgro in the first dry spell (replaces the Dec top-up, a second dose moves to January), finish the thinning as the flowers fade by early Dec, no tipping of wire leaders, steady water. Feed job set on the east card for all three runs."
+    category: general
   - date: "2026-11-09"
     entry: "November cohort-ties session done (Jay): one leader per wire per direction, competing runners rerouted or snipped. Row marked done for November, back on 1 Dec."
     category: prune
@@ -93,7 +96,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
+    task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire. A wire's leader is never tipped until it reaches the end of its wire: pinching makes density, running makes coverage."
     category: general
     repeat: monthly
     completed: 2026-11
