@@ -31,6 +31,7 @@ tasks:
       - 2
     task: "Heat-day deep water: on a 35°+ day, or when the big leaves are drooping by mid-morning, run the hose slowly on the root zone for a couple of minutes on top of the drip. Afternoon droop alone is normal, it recovers overnight."
     category: water
+    heat: 35
   - months:
       - 6
       - 7

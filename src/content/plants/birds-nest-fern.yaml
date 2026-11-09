@@ -48,3 +48,4 @@ tasks:
       - 2
     task: "Heat check: on any forecast 35+ day, water the root zone the evening before and drape shade cloth or an old sheet over it for the afternoon. Crisp brown frond margins after a hot day mean it needed this. Drip covers normal summer days"
     category: water
+    heat: 35

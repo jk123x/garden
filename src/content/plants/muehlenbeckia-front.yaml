@@ -51,6 +51,7 @@ tasks:
       - 2
     task: "Heat check: on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
+    heat: 32
 log:
   - date: "2026-11-09"
     entry: "November training pass done (Jay): runners pinched and tied low and sideways. Next pass is the December row."

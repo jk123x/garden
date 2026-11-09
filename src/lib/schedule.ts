@@ -40,6 +40,18 @@ export interface TaskLike {
   byDay?: number;
   completed?: string;
   repeat?: 'monthly';
+  heat?: number; // forecast max (°C) that makes this row live
+}
+
+// One forecast day, hottest first few days only. `label` is what the chip
+// shows: "today", "tomorrow", "Thu".
+export interface DayForecast { max: number; label: string }
+
+// A heat-gated row only exists while the forecast has a day at or above its
+// threshold. With no forecast (build time, fetch failed) it stays hidden.
+export function heatHit(task: TaskLike, forecast?: DayForecast[]): DayForecast | null {
+  if (!task.heat) return null;
+  return forecast?.find((d) => d.max >= task.heat!) ?? null;
 }
 
 export type Placement = 'now' | 'wait' | 'pool';
@@ -53,8 +65,9 @@ export function isDone(task: TaskLike, today: Today): boolean {
   return task.completed.startsWith(String(today.year));
 }
 
-export function placeTask(task: TaskLike, today: Today): Placement {
+export function placeTask(task: TaskLike, today: Today, forecast?: DayForecast[]): Placement {
   if (isDone(task, today)) return 'pool';
+  if (task.heat && !heatHit(task, forecast)) return 'pool';
   if (task.months.includes(today.month)) {
     return task.day && today.day < task.day ? 'wait' : 'now';
   }
@@ -75,14 +88,17 @@ export function windowEnd(months: number[], fromMonth: number): { endMonth: numb
 
 // Sort key for "Do now": window close first, then the byDay inside it.
 export function deadlineKey(task: TaskLike, today: Today): number {
+  if (task.heat) return -1; // a hot day is the soonest deadline there is
   return windowEnd(task.months, today.month).steps * 31 + (task.byDay ?? 31);
 }
 
 export type ChipTone = 'urgent' | 'late' | 'muted';
 export interface Chip { text: string; tone: ChipTone }
 
-export function taskChip(task: TaskLike, placement: Placement, today: Today): Chip {
+export function taskChip(task: TaskLike, placement: Placement, today: Today, forecast?: DayForecast[]): Chip {
   const cur = MONTHS_SHORT[today.month - 1];
+  const hit = heatHit(task, forecast);
+  if (hit) return { text: `${Math.round(hit.max)}° ${hit.label}`, tone: 'urgent' };
   if (placement === 'wait') return { text: `from ${task.day} ${cur}`, tone: 'muted' };
   // A Do-now row is this month's job. The chip never points past the current
   // month, even when the task's months run on: a monthly shear listed Oct-Mar

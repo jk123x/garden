@@ -37,6 +37,7 @@ export const plantSchema = z.object({
     category: z.enum(['prune', 'feed', 'water', 'mulch', 'spray', 'plant', 'harvest', 'general']),
     completed: z.string().optional(),
     repeat: z.enum(['monthly']).optional(),
+    heat: z.number().min(25).max(45).optional(),
   })).default([]),
   log: z.array(z.object({
     date: z.string(),

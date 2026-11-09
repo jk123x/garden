@@ -65,6 +65,7 @@ tasks:
       - 3
     task: "Heat-day hose: on any 35°+ day, or if the newest leaves curl or droop by mid-afternoon, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its 3-4 zone 2 shrubblers give 15-20L a run, enough in normal weather, and the zone can never run longer than 15 min for the lawn, so the hose is the heat-day top-up only."
     category: water
+    heat: 35
   - months:
       - 9
     task: "Late-winter feed (from 2027 on): Experts Choice fruit & citrus, LIGHT dose under the outer canopy edge, watered in. The tree's first post-renovation feed is the autumn 2027 one, so skip this row until the 2027 autumn feed has happened"

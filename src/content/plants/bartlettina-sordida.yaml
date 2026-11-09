@@ -44,6 +44,7 @@ tasks:
       - 2
     task: "Hot-day hose: the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
     category: water
+    heat: 32
 log:
   - date: "2026-11-09"
     entry: "Fed Richgro All Purpose round the base straight after the prune (Jay). Next feed is next spring's round."

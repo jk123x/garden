@@ -37,11 +37,14 @@ type TaskRow = {
   task: string;
   category: string;
   completed?: string;
+  repeat?: 'monthly';
+  heat?: number;
 };
 
 // Every non-harvest task, all twelve months — the client script places each
-// row (Do now / Coming up / hidden) against the real current date,
-// so nothing goes stale between deploys.
+// row (Do now / hidden) against the real current date, so nothing goes stale
+// between deploys. Heat-gated rows (`heat: 35`) only appear once the live
+// forecast has a day that hot.
 const taskRowsFor = (plants: typeof allPlants): TaskRow[] =>
   plants
     .flatMap((plant) =>
@@ -91,6 +94,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
         data-by-day={row.byDay}
         data-completed={row.completed}
         data-repeat={row.repeat}
+        data-heat={row.heat}
       >
         <span class="shrink-0 text-olive">·</span>
         <span class="text-sm">
@@ -264,6 +268,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
   // are shared with the build step above.
   import {
     MONTHS_LONG, todayFrom, placeTask, taskChip, deadlineKey, attentionChip, isWaiting,
+    type DayForecast,
   } from '../lib/schedule';
 
   const today = todayFrom();
@@ -320,8 +325,11 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
           else if (stage === 'spring' && hottest >= 30) hints.push(`${Math.round(hottest)}° day ahead but rain follows it: not the step-up trigger, stay on ${schedule}.`);
           else hints.push(`Warm dry stretch, irrigation (${schedule}) covers it. Hose the backyard on the hot afternoons; lemon wilting = zone 1 to 20 min this week.`);
         } else if (hottest >= 32) {
-          hints.push(on ? '32°+ day coming: hose-soak the new plantings and the giant taro the evening before. Zone runs stay as they are.' : '32°+ day coming: deep-water anything recently planted the evening before.');
+          hints.push(on ? '32°+ day coming: the heat-day hose rows are in Do now, do them the evening before. Zone runs stay as they are.' : '32°+ day coming: deep-water anything recently planted the evening before.');
         }
+        // Heat-gated task rows go live against the next three days' maximums.
+        const dayLabel = (i: number) => i === T ? 'today' : i === T + 1 ? 'tomorrow' : new Date(time[i] + 'T12:00:00').toLocaleDateString('en-AU', { weekday: 'short' });
+        placeGroups([T, T + 1, T + 2].map((i) => ({ max: mx[i], label: dayLabel(i) })));
         if (weekRain >= 20) hints.push(on ? `Proper rain coming (~${Math.round(weekRain)}mm): once it has actually fallen, put a rain delay on the controller.` : `Proper rain coming (~${Math.round(weekRain)}mm): skip any watering plans.`);
         if (hints.length) { hint.textContent = hints.join(' '); hint.classList.remove('hidden'); }
         weatherBox.classList.remove('hidden');
@@ -329,6 +337,7 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
       .catch(() => {});
   }
 
+  function placeGroups(forecast?: DayForecast[]) {
   document.querySelectorAll<HTMLElement>('[data-dash-group]').forEach((group) => {
     const nowList = group.querySelector<HTMLElement>('[data-now-list]');
     const tasksNowList = group.querySelector<HTMLElement>('[data-tasks-now-list]');
@@ -350,14 +359,15 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
       byDay: Number(li.dataset.byDay ?? 0) || undefined,
       completed: li.dataset.completed || undefined,
       repeat: li.dataset.repeat === 'monthly' ? ('monthly' as const) : undefined,
+      heat: Number(li.dataset.heat ?? 0) || undefined,
     });
 
     group.querySelectorAll<HTMLElement>('[data-task-row]').forEach((li) => {
       const task = taskOf(li);
-      const placement = placeTask(task, today);
+      const placement = placeTask(task, today, forecast);
       const dest = placement === 'now' ? tasksNowList : pool;
       if (li.parentElement !== dest) dest.appendChild(li);
-      if (placement === 'now') setChip(li.querySelector<HTMLElement>('[data-task-chip]'), taskChip(task, placement, today));
+      if (placement === 'now') setChip(li.querySelector<HTMLElement>('[data-task-chip]'), taskChip(task, placement, today, forecast));
     });
 
     // Most urgent first: real deadline (window close + byDay) soonest to the top
@@ -373,4 +383,6 @@ const chipClass = (chip: Chip | null) => (chip ? `${CHIP_BASE} ${CHIP_CLASS[chip
     const headerCount = group.querySelector('[data-header-count]');
     if (headerCount) headerCount.textContent = String(tasksNowList.children.length);
   });
+  }
+  placeGroups();
 </script>

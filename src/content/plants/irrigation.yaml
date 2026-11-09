@@ -61,6 +61,7 @@ tasks:
       - 12
     task: "Summer frequency: when the first 30°+ day is in the 7-day forecast, go to 3 days a week (e.g. Mon/Wed/Sat), run times unchanged. Only the frequency changes for heat, never the run time, or the lawn floods again."
     category: water
+    heat: 30
   - months:
       - 12
     task: "Summer line walk: run each zone by hand and walk every line while it runs. Look for dry dripper ends, a puddle at a blown joint, and drippers at the two new east jasmines actually wetting their root zones. A dry dripper in a heatwave kills a plant in a week."

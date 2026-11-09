@@ -87,3 +87,26 @@ describe('attention items', () => {
     expect(attentionChip({}, sep5)).toBeNull();
   });
 });
+
+describe('heat-gated rows', () => {
+  const hose = { months: [11, 12, 1, 2, 3], heat: 35 };
+  const cool = [{ max: 24, label: 'today' }, { max: 28, label: 'tomorrow' }, { max: 31, label: 'Thu' }];
+  const hot = [{ max: 29, label: 'today' }, { max: 36.4, label: 'tomorrow' }, { max: 38, label: 'Thu' }];
+  it('stays hidden with no forecast (build time)', () => {
+    expect(placeTask(hose, dec20)).toBe('pool');
+  });
+  it('stays hidden while the next three days are below the threshold', () => {
+    expect(placeTask(hose, dec20, cool)).toBe('pool');
+  });
+  it('goes live on the first forecast day at or over the threshold', () => {
+    expect(placeTask(hose, dec20, hot)).toBe('now');
+    expect(taskChip(hose, 'now', dec20, hot)).toEqual({ text: '36° tomorrow', tone: 'urgent' });
+  });
+  it('still respects its months and done-marks', () => {
+    expect(placeTask({ months: [12], heat: 35 }, sep5, hot)).toBe('pool');
+    expect(placeTask({ ...hose, completed: '2026-12' }, dec20, hot)).toBe('pool');
+  });
+  it('sorts above every dated row', () => {
+    expect(deadlineKey(hose, dec20)).toBeLessThan(deadlineKey({ months: [12], byDay: 1 }, dec20));
+  });
+});

@@ -71,6 +71,7 @@ tasks:
       - 2
     task: "Heat-day glance: on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
     category: water
+    heat: 35
 log:
   - date: "2026-11-09"
     entry: "November top shear done (Jay): risers off, cap tight to the fence line. Next pass is the December shear row."
