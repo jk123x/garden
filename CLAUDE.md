@@ -96,6 +96,14 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - **High-impact weeding standing item rewritten 30 Oct** as a priority order (young plants > running grass at bed edges > seed heads > inside groundcover mats > looks; bark beds under big shrubs last). Plant-specific rosette tells live only on the Oct-Nov round row.
 - Plant ID IMG_4135 (lush deciduous regrowth, leaf curl, Jay says it dies back in winter): I called peach/nectarine, Jay doubts it. Unresolved, no card. Don't re-ask; a pink Aug/Sept blossom settles it.
 
+## 9 Nov 2026 session
+
+- **Possums CONFIRMED on the top wires of all three jasmine runs** (droppings along the fence, torn leaf edges): the 27 Oct dead grey stubs were bites, not frost. Brushtails run the fence top and nip the flush; plant is fine, the cost is top-wire coverage. Rule on the east card's open top-wire job: bitten green leader = cut to the leaf pair below, tie the strongest regrowth shoot along the wire. Deterrent spray (Poss Off / D-Ter, top 50cm, fortnightly + after rain to late Dec) OFFERED, not yet accepted; no row added. Never suggest trapping/relocating (protected in Vic) or netting the fence.
+- Bartlettina post-flowering prune DONE 9 Nov (stems to ~40cm above leaf pairs, IMG_4314 before / IMG_4315 after, photos in src/images/spring-2026) + Richgro fed same day. Olive Nov watershoot patrol done. Jasmine cohort ties done for Nov on all three. Lawn mowed + bare-patch check done. Pale east jasmine PowerFeed done (14 Nov recheck row pending).
+- **Richgro: part bag FOUND 9 Nov** (noted on `/feeding`). December needs 8 doses (3 jasmines, 3 muehlenbeckias, taro, passionfruit): check the bag before Dec.
+- Scarlet Blaze got a can of PowerFeed by mistake (logged as feed, not a problem for an acacia). No more feed of any kind on it this season; Eco-Seaweed only.
+- **Eco-Seaweed = the Seasol equivalent, don't buy Seasol.** Tonic for transplants and freshly hard-cut plants only (new east jasmines, the wattle, the westringia domes after a cut). PowerFeed is a real feed, 2-3 weeks of effect. Don't offer seaweed for established plants in growth.
+
 ## Dashboard rules
 
 - The dashboard "To do" section is **data-driven** — pulled from plants with `urgency` set, displaying `nextAction`. Do not add hardcoded HTML lists to `index.astro`. To add a to-do item, edit the relevant plant YAML.
