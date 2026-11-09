@@ -3,11 +3,14 @@ type: perennial
 location: Backyard (raised bed)
 zones:
   - 3
-health: Still dominating its half of the original bed after the April 16 cleanup. Now has room to breathe — the Echinacea and Achillea have been transplanted out. Flowering strongly.
+health: "9 Nov 2026: healthy and green, not flowering yet. Flowers Jan-Mar, deadhead row starts January."
 healthStatus: healthy
-lastAssessed: 2026-07
+lastAssessed: 2026-11
 image: /images/plants/IMG_1017.jpg
 log:
+  - date: "2026-11-09"
+    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead months moved to Jan-Mar to match when it actually flowers."
     category: general

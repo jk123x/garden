@@ -3,15 +3,15 @@ type: perennial
 location: Backyard (raised bed)
 zones:
   - 3
-health: Cut back hard. Nothing visible above ground — dormant through winter, expected to reshoot from the crown in spring (September).
+health: "9 Nov 2026: reshot from the crown, healthy and green, no spikes yet. Deadhead row starts December."
 healthStatus: dormant
-lastAssessed: 2026-04
+lastAssessed: 2026-11
 notes: Ornamental sage (Salvia nemorosa 'Caradonna'). Originally 2 plants in the raised bed. Jay cut them back hard when the bed got messy. Salvia nemorosa is a clumping perennial that dies back to the base and reshoots — a hard cutback isn't a death sentence. Watch for new basal growth in September. If nothing emerges by October, the crowns are dead. The overwatering that killed the Echinacea may have also damaged these — Salvia nemorosa prefers well-drained soil.
 tasks:
   - months:
-      - 11
       - 12
       - 1
+      - 2
     task: "Deadhead: when a spike is mostly brown, cut it off just above the first pair of leaves below it, not just the tip. Cutting to leaves is what triggers the second flush. Do the whole clump in one go once about half the spikes are spent."
     category: prune
   - months:
@@ -31,6 +31,9 @@ tasks:
     category: general
     completed: 2026-09
 log:
+  - date: "2026-11-09"
+    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead moved to Nov-Jan to catch the first flush."
     category: general

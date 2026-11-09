@@ -3,9 +3,9 @@ type: perennial
 location: Backyard (cutting bed + other beds)
 zones:
   - 3
-health: Newly planted May 2026. 3 plants from 100mm pots — 1 in the cutting bed, 2 distributed to other beds. Sugarcane mulch applied. Establishing.
+health: "9 Nov 2026: all three plants healthy and green, no buds yet. First summer in the ground; vase row starts January."
 healthStatus: establishing
-lastAssessed: 2026-09
+lastAssessed: 2026-11
 image: /images/plants/cutting-bed.jpg
 photos:
   - src: /images/winter-2026/IMG_2307.jpg
@@ -33,6 +33,9 @@ tasks:
     task: "Cut for the vase (whenever): cut stems long, to just above a leaf pair, and take them freely. Cutting is what keeps the plant compact and flowering. Leave a few late heads if you want winter seed heads for the birds."
     category: harvest
 log:
+  - date: "2026-11-09"
+    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: cutback moved to May (same as the echinaceas), vase months moved to Jan-Apr."
     category: general

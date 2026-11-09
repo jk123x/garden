@@ -4,9 +4,9 @@ location: Backyard (new composted bed + original bed)
 zones:
   - 2
   - 3
-health: Settled in after the April 16 division/transplant. Three weeks on, all clumps are fine — no wilting, foliage holding. Established.
+health: "9 Nov 2026: healthy green foliage in both beds, no flower heads yet. Deadhead/vase row starts December."
 healthStatus: healthy
-lastAssessed: 2026-08
+lastAssessed: 2026-11
 image: /images/plants/IMG_1018.jpg
 photos:
   - src: /images/winter-2026/IMG_2289.jpg
@@ -40,6 +40,9 @@ tasks:
     task: "Deadhead: once a flat head has gone brown, cut that stem back to the next side shoot or leaf below it, or cut the fresh ones for the vase, same effect. Cutting to a side shoot is what brings the second flush in Feb"
     category: prune
 log:
+  - date: "2026-11-09"
+    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: summer deadhead row added."
     category: general

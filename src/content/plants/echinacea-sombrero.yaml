@@ -3,10 +3,13 @@ type: perennial
 location: Backyard (new composted bed)
 zones:
   - 2
-health: Transplanted April 16 to the newly composted bed. Clump is intact with multiple emerging flower buds and the original red bloom. In better drainage now — should really take off once it settles.
+health: "9 Nov 2026: healthy green clump in the composted bed, no flowers yet. Deadhead/vase row starts December."
 healthStatus: good
-lastAssessed: 2026-09
+lastAssessed: 2026-11
 log:
+  - date: "2026-11-09"
+    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead extended to March."
     category: general
