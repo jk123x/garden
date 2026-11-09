@@ -5,7 +5,7 @@ zones:
   - 4
 health: WINTER PRUNE COMPLETE 2 Aug 2026 — cap tightened to a clean band, dead thatch out, east-bound runners trained along the top wire past the shed (two-storey arrangement live), roof cleared, fruiting stems spared. Green fruit ripening near the shed corner into spring. Expect the new-growth eruption from October — that's where this season's flowers and fruit come from.
 healthStatus: good
-lastAssessed: 2026-08
+lastAssessed: 2026-11
 image: /images/plants/IMG_2175.jpg
 photos:
   - src: /images/winter-2026/IMG_2305.jpg
@@ -16,6 +16,9 @@ photos:
     caption: August 2026, after the winter prune
 notes: "Growing on the back (north) fence, tangled in with the star jasmine. The two climbers share the fence, so they compete — passionfruit leaves are larger and 3-lobed vs the jasmine's small glossy ovals. Passionfruit are short-lived (5-7 years) and heavy feeders. STANDING ARRANGEMENT (revised Aug 2026): the vine may run east past the shed as a TRAINED TOP-WIRE CAP over the patchy laundry-side run — two-storey model, same as the back fence: vine owns the top wire, jasmine owns the fence face below (new jasmines climb from the bottom, ~10m east, no conflict for years). Hard rules: the shed ROOF is forbidden (dead mats, gutters, ladder work — cut-and-pull strays while green); runners diving down the fence face come out at each winter prune; dropped fruit along that blind-corner run gets picked up and binned (fruit fly). Exit condition: when the vine declines (it's short-lived) or the jasmine reaches the top wire, the vine gives ground — it's the temporary storey."
 log:
+  - date: "2026-11-09"
+    entry: "Runner patrol / tidy-up done (Jay): roof-bound and face-diving runners cut at the top wire. Row made repeat monthly so it comes back 1 Dec."
+    category: prune
   - date: "2026-10-07"
     entry: "Jay: no passionfruit on the vine. The spring fruit-watch item is gone; the summer runner patrol row covers the vine from November."
     category: general
@@ -66,6 +69,8 @@ tasks:
       - 2
     task: "Runner patrol: any runner heading onto the shed roof, or diving down the fence face into the jasmine's mesh, gets cut at the top wire and pulled while green. Left to autumn it dies into a mat you cannot pull. The top wire is the vine's only lane."
     category: prune
+    repeat: monthly
+    completed: 2026-11
   - months:
       - 2
       - 3
