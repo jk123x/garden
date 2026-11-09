@@ -25,7 +25,7 @@ photos:
   - src: /images/plants/sj-east-side.jpg
     caption: April 2026 assessment
 urgency: week
-nextAction: "Top wires on all three jasmine runs (scissors): 1) every tip that ends in a bare grey stub, snip back to just above the first healthy leaf pair below it. 2) Leave any tip that is still green and growing. 3) A green leader with a bitten end gets the same cut, then tie the strongest of the two shoots that follow along the wire. Don't cut green leader tips that are intact, they are what extends along the wire; because a dead stub never regrows but the buds under the cut throw two shoots. Possums are the culprit (confirmed 9 Nov), they travel the fence top and nip the flush."
+nextAction: "Top wires on all three jasmine runs (scissors): 1) every tip that ends in a bare grey stub, snip back to just above the first healthy leaf pair below it. 2) Leave any tip that is still green and growing. 3) A green leader with a bitten end gets the same cut, then tie the strongest of the two shoots that follow along the wire. Don't cut green leader tips that are intact, they are what extends along the wire; because a dead stub never regrows but the buds under the cut throw two shoots."
 notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
   - months:
@@ -110,6 +110,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-09"
+    entry: "Decision (Jay): no possum deterrent, no good product found. Accepting the top-wire nibbling and letting warmer weather push runners higher. Don't re-raise."
+    category: general
   - date: "2026-11-09"
     entry: "Pale May 2026 jasmine past the taro stump given PowerFeed at 2ml/L, one can (Jay). Recheck leaf colour against its neighbour on the 14 Nov row."
     category: feed
