@@ -5,7 +5,7 @@ zones:
   - 1
 health: "27 Oct 2026: our face sheared and tidied by Jay, then the neighbour's gardener hacked her side into the fence plane and cut through tied stems. Looks bare again on the east run. Crowns intact, reshoots from old wood; expect leaf back by late November. Earlier: flattened hard 8 Sept 2026 to a stem skeleton, right half of the run still empty."
 healthStatus: monitor
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_3491.jpg
 photos:
   - src: /images/plants/IMG_3491.jpg
@@ -48,12 +48,15 @@ tasks:
     task: "Coverage training: tie main stems flat to the wires on OUR face (loose figure-8, never woven through to her side — she shears it off), lead leaders horizontally into the bare run toward the front corner, shear our face back to ~10cm out from the wires so it stays a flat sheet not a blob, re-check ties after the neighbour's hedge-trim sessions — her trimming is free density IF the vine stays attached Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
-    completed: 2026-10
+    completed: 2026-11
   - months:
       - 12
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; the fence run is being pushed for coverage"
     category: feed
 log:
+  - date: "2026-11-09"
+    entry: "November training pass done, best-effort dead material pulled (Jay). Rule agreed: dead stems are inert, pull only what sits on a wire you want a live stem on or shades new shoots on our face; leave the rest, especially anything through on the neighbour's side. No hands-and-knees clear-out. Next pass is the December row."
+    category: prune
   - date: "2026-10-28"
     entry: "Tie triage dropped (Jay): no autopsy, dead bits come out as they show up during the fortnightly trims. Do-now cleared."
     category: general
