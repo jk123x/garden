@@ -15,7 +15,7 @@ photos:
     caption: After the gall renovation prune, Jul 2026
 log:
   - date: "2026-11-09"
-    entry: "Hosed round the dripline (Jay), the first of the Nov-Mar weekly hose runs. Zone 2 shrubbler only gives ~5L a run, so the hose is the lime's real water."
+    entry: "Hosed round the dripline (Jay). Correction same day: the lime has 3-4 shrubblers, not one, so it gets 15-20L per zone 2 run. The weekly hose row is now a heat-day (35°+ or leaf curl) job only."
     category: water
   - date: "2026-10-28"
     entry: "Sugarcane mulched from the two new bales, 5cm over the root zone, clear of the trunk (Jay: bales done, October citrus top-up)."
@@ -63,7 +63,7 @@ tasks:
       - 1
       - 2
       - 3
-    task: "Weekly hose: once a week Nov-Mar, plus any 35°+ day, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its zone 2 shrubbler gives ~5L a run and the zone can never run longer than 15 min for the lawn, so the hose is what carries this tree through summer."
+    task: "Heat-day hose: on any 35°+ day, or if the newest leaves curl or droop by mid-afternoon, hose the lime slowly round the dripline until the top 10cm is wet, about 20L. Its 3-4 zone 2 shrubblers give 15-20L a run, enough in normal weather, and the zone can never run longer than 15 min for the lawn, so the hose is the heat-day top-up only."
     category: water
   - months:
       - 9
