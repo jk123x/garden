@@ -5,7 +5,7 @@ zones:
   - 2
 health: "Major renovation prune 22 July 2026: heavy gall wasp infestation discovered — the worst of the four citrus by far — and ~50-65% of canopy removed cutting out clear galls. This chronic gall load explains the years of poor cropping from a big tree. Post-prune photos: open structure, decent green foliage remaining, even flowering. Viable, but in recovery mode — expect a big soft regrowth flush from October (which is also prime gall wasp egg-laying target) and little to no fruit for 12-18 months. Leaf miner history on file; spring flush will need eco-oil."
 healthStatus: struggling
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 notes: "Growing next to sage plants near the back deck. LOW-PRIORITY TREE (Jay's call, July 2026): minimal-care regime after the gall renovation prune. Rules: no fertiliser until autumn 2027, no further pruning while it recovers, irrigation covers water. The one standing job is the annual winter gall snip (in tasks) — without it the gall load rebuilds and the tree goes back to producing nothing. Optional extras (whitewash, netting, leaf-miner oil) deliberately dropped. Leaf miner history: cosmetic, ignore. Gall ID rule: sausage swelling mid-stem between joints = gall; swelling at a branch fork = normal wood."
 image: /images/plants/IMG_2087.jpg
 photos:
@@ -14,6 +14,9 @@ photos:
   - src: /images/plants/IMG_2087.jpg
     caption: After the gall renovation prune, Jul 2026
 log:
+  - date: "2026-11-09"
+    entry: "Hosed round the dripline (Jay), the first of the Nov-Mar weekly hose runs. Zone 2 shrubbler only gives ~5L a run, so the hose is the lime's real water."
+    category: water
   - date: "2026-10-28"
     entry: "Sugarcane mulched from the two new bales, 5cm over the root zone, clear of the trunk (Jay: bales done, October citrus top-up)."
     category: mulch
