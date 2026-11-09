@@ -4,11 +4,13 @@ location: Backyard (new composted bed + original bed)
 zones:
   - 2
   - 3
-health: "9 Nov 2026: healthy green foliage in both beds, no flower heads yet. Deadhead/vase row starts December."
+health: "9 Nov 2026 (IMG_4323, IMG_4324): ferny grey-green mounds in both beds, the composted-bed clump the biggest, no flower stems yet. No action."
 healthStatus: healthy
 lastAssessed: 2026-11
 image: /images/plants/IMG_1018.jpg
 photos:
+  - src: /images/spring-2026/IMG_4324.jpg
+    caption: "Ferny mound at the right of the composted bed, 9 Nov 2026"
   - src: /images/winter-2026/IMG_2289.jpg
     caption: Ferny rosettes holding in the flower beds (6 Aug 2026)
   - src: /images/winter-2026/IMG_2293.jpg
@@ -41,7 +43,7 @@ tasks:
     category: prune
 log:
   - date: "2026-11-09"
-    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    entry: "Photos IMG_4323 and IMG_4324, 9 Nov 2026: ferny mounds healthy in both beds, no flower stems. Nothing needed until the December deadhead/vase row."
     category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: summer deadhead row added."

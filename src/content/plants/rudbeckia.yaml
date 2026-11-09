@@ -3,11 +3,13 @@ type: perennial
 location: Backyard (cutting bed + other beds)
 zones:
   - 3
-health: "9 Nov 2026: all three plants healthy and green, no buds yet. First summer in the ground; vase row starts January."
-healthStatus: establishing
+health: "9 Nov 2026 (IMG_4322, IMG_4323): all plants healthy with big soft hairy leaves, one stem starting to run up in the tub (first bud coming). The broad-leaf plant at the front edge of the raised bed is one of these, not a weed. No action."
+healthStatus: good
 lastAssessed: 2026-11
 image: /images/plants/cutting-bed.jpg
 photos:
+  - src: /images/spring-2026/IMG_4322.jpg
+    caption: "Bulking up in the tub, one stem starting to run up, 9 Nov 2026"
   - src: /images/winter-2026/IMG_2307.jpg
     caption: The copper tub — green shoots through the straw (6 Aug 2026)
   - src: /images/winter-2026/IMG_2289.jpg
@@ -34,7 +36,7 @@ tasks:
     category: harvest
 log:
   - date: "2026-11-09"
-    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    entry: "Photos IMG_4322 and IMG_4323, 9 Nov 2026: healthy, bulking up, one stem elongating toward a first bud. The broad-leaf plant at the front edge of the raised bed is a rudbeckia, leave it. Status establishing to good."
     category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: cutback moved to May (same as the echinaceas), vase months moved to Jan-Apr."

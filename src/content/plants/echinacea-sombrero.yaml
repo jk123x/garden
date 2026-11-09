@@ -3,12 +3,12 @@ type: perennial
 location: Backyard (new composted bed)
 zones:
   - 2
-health: "9 Nov 2026: healthy green clump in the composted bed, no flowers yet. Deadhead/vase row starts December."
+health: "9 Nov 2026 (IMG_4324): healthy clump of toothed lance-shaped leaves in the composted bed, no buds yet. No action."
 healthStatus: good
 lastAssessed: 2026-11
 log:
   - date: "2026-11-09"
-    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    entry: "Photo IMG_4324, 9 Nov 2026: healthy, no buds. Nothing needed until the December deadhead/vase row."
     category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead extended to March."
@@ -22,8 +22,10 @@ log:
   - date: "2026-08-06"
     entry: End-of-winter baseline photos of the flower beds (IMG_2288/2289). Bed quiet under sugarcane — normal, echinacea is fully dormant; the crown check for new growth runs Aug-Sept as tasked. Weeds germinating through the straw are on the round-2 weeding list — hand-pull only, no digging near the crown, and no watering during checks (the old overwatering rule stands).
     category: general
-image: /images/plants/IMG_1018.jpg
+image: /images/spring-2026/IMG_4324.jpg
 photos:
+  - src: /images/spring-2026/IMG_4324.jpg
+    caption: "Composted bed, 9 Nov 2026: echinaceas left and centre, achillea right"
   - src: /images/winter-2026/IMG_2289.jpg
     caption: The flower beds, dormant under straw (6 Aug 2026)
   - src: /images/plants/IMG_1018.jpg

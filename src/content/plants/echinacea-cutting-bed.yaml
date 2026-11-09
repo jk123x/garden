@@ -3,11 +3,13 @@ type: perennial
 location: Backyard (cutting bed)
 zones:
   - 3
-health: "9 Nov 2026: both plants healthy and green, no buds yet. First summer in the ground; deadhead/vase row starts December."
-healthStatus: establishing
+health: "9 Nov 2026 (IMG_4322): narrow-leaf clump healthy and green beside the rudbeckias, no buds yet. No action."
+healthStatus: good
 lastAssessed: 2026-11
 image: /images/plants/cutting-bed.jpg
 photos:
+  - src: /images/spring-2026/IMG_4322.jpg
+    caption: "Narrow-leaf clump front centre of the tub, 9 Nov 2026"
   - src: /images/winter-2026/IMG_2289.jpg
     caption: Dormant under straw — normal for August (6 Aug 2026)
   - src: /images/winter-2026/IMG_2293.jpg
@@ -34,7 +36,7 @@ tasks:
     category: harvest
 log:
   - date: "2026-11-09"
-    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    entry: "Photo IMG_4322, 9 Nov 2026: healthy narrow-leaf clump, no buds. Status establishing to good."
     category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead row extended to March and rewritten."

@@ -3,13 +3,16 @@ type: perennial
 location: Backyard (raised bed)
 zones:
   - 3
-health: "9 Nov 2026: healthy and green, not flowering yet. Flowers Jan-Mar, deadhead row starts January."
+health: "9 Nov 2026 (IMG_4323): big healthy bush filling the left half of the raised bed, first yellow flowers open. Flowering has started a couple of months earlier than the card assumed. Nothing to do until blooms brown off."
 healthStatus: healthy
 lastAssessed: 2026-11
-image: /images/plants/IMG_1017.jpg
+image: /images/spring-2026/IMG_4323.jpg
+photos:
+  - src: /images/spring-2026/IMG_4323.jpg
+    caption: "First flowers open, 9 Nov 2026. Raised bed with the achillea and Caradonna reshoots behind"
 log:
   - date: "2026-11-09"
-    entry: "Jay, 9 Nov 2026: healthy and green, no flowers yet. Nothing needed until the deadhead/vase rows start."
+    entry: "Photo IMG_4323, 9 Nov 2026: first yellow flowers open, bush healthy and full. Deadhead row brought forward to start December."
     category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: deadhead months moved to Jan-Mar to match when it actually flowers."
@@ -39,6 +42,7 @@ tasks:
     category: general
     completed: 2026-09
   - months:
+      - 12
       - 1
       - 2
       - 3
