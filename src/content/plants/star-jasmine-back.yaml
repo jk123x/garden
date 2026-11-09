@@ -5,8 +5,14 @@ zones:
   - 4
 health: Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous.
 healthStatus: healthy
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 log:
+  - date: "2026-11-09"
+    entry: "November cohort-ties session done (Jay): one leader per wire per direction, competing runners rerouted or snipped. Row marked done for November, back on 1 Dec."
+    category: prune
+  - date: "2026-11-09"
+    entry: "Possums confirmed on the top wires of all three jasmine runs (Jay): droppings along the fence and torn leaf edges. The dead grey top-wire stubs from 27 Oct are possum bites, not frost. Brushtails run the fence top and nip the soft flush. Plant is fine; the cost is top-wire coverage. Bitten leader = cut to the leaf pair below, tie the strongest regrowth shoot along the wire."
+    category: general
   - date: "2026-10-27"
     entry: "Jay's photo IMG_4129: many top-wire tips end in bare grey stubs that look pinched, and Jay has not touched them for months. Two candidates: frost and wind killing the soft tips over winter (dries to a blunt grey end), or possums browsing along the fence top (clean bitten ends, only at fence-top height, droppings on the rail). Either way the dead stub never grows again. Job set on the east card for all three runs: snip each dead tip back to the first healthy leaf pair now, tie the lateral that comes along the wire."
     category: general
@@ -90,3 +96,4 @@ tasks:
     task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. lead the newest laterals into the remaining low gaps while supple Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
+    completed: 2026-11

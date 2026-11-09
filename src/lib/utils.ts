@@ -129,7 +129,7 @@ export const FEEDING_PLAN: FeedProduct[] = [
     timing: 'Late winter round, then a December top-up on the six climbers',
     accent: 'bg-olive',
     chip: 'bg-olive-soft text-olive',
-    note: 'Conventional fertiliser. Applied too early, winter rain leaches it past sleeping roots, so hold the winter round until the last calm weekend before spring. Check the bag before December.',
+    note: 'Conventional fertiliser. Applied too early, winter rain leaches it past sleeping roots, so hold the winter round until the last calm weekend before spring. Stock: a part bag found 9 Nov 2026 (second bag bought 30 Jul). December needs eight doses, so check the bag after the bartlettina feed and buy before December if low.',
     groups: [
       { dose: 'Normal dose', plants: ['Mexican Sage', "Salvia 'Caradonna'", 'Black Eyed Susan', 'Miscanthus', 'Bartlettina', 'Olive Tree', 'Native Frangipani', 'Giant Taro', 'Strawberry', 'Muehlenbeckia ×3', 'Star Jasmine (back)', 'Star Jasmine (west)'] },
       { dose: 'Generous, heavy feeder', plants: ['Passionfruit'] },

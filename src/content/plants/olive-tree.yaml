@@ -5,7 +5,7 @@ zones:
   - 4
 health: "Big winter prune done 31 July 2026 — ~33% off, lower limbs removed for a clean lifted trunk with the canopy carried high. Healthy silvery canopy on what remains. Expect a vigorous response in spring: watershoots along the trunk and around cuts — rub or snip them off while pencil-thin, monthly through the growing season."
 healthStatus: healthy
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 notes: Olea europaea. Well-established tree near the back fence. Dense canopy with characteristic silvery-green foliage. Could benefit from light structural thinning of internal branches to improve airflow and reduce pest habitat, but not urgent. Drought-tolerant and low-maintenance — one of the easiest plants in the garden.
 image: /images/winter-2026/IMG_2299.jpg
 photos:
@@ -28,7 +28,7 @@ tasks:
       - 3
     task: "Watershoot patrol (every second month): rub off with a thumb, or snip flush, every soft upright shoot on the trunk or around the big 2026 cuts while it is still pencil-thin and green. Left a season they harden into a second canopy from the base. Monthly because they come in waves."
     category: prune
-    completed: 2026-10
+    completed: 2026-11
     repeat: monthly
   - months:
       - 9
@@ -44,6 +44,9 @@ tasks:
     task: "Lace bug and scale glance: leaves speckled yellow on top with black specks underneath = olive lace bug; brown bumps on stems = scale. Either = eco-oil under the leaves on a cool evening, twice a fortnight apart. Clean = nothing"
     category: spray
 log:
+  - date: "2026-11-09"
+    entry: "November watershoot patrol done (Jay): soft upright shoots on the trunk and around the 2026 cuts rubbed off. Next patrol January."
+    category: prune
   - date: "2026-10-17"
     entry: "Fruit row deleted: Jay won't be stripping or picking olives. Fruit drop is accepted."
     category: general

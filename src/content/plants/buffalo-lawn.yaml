@@ -5,7 +5,7 @@ zones:
   - 2
 health: "Oct 2026: green, thin in patches, flood damage from last year still growing out. Fed 28 Oct (October Sudden Impact), on 15 min zone 2 every 3 days. Mow + feed cadence is the whole program, no aerating, no reseeding."
 healthStatus: monitor
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_0978.jpg
 photos:
   - src: /images/winter-2026/IMG_2288.jpg
@@ -48,7 +48,7 @@ tasks:
     task: Mow only when it looks shaggy. Blade high, 40-50mm. Never take more than a third off in one cut
     category: general
     repeat: monthly
-    completed: "2026-10"
+    completed: "2026-11"
   - months:
       - 5
       - 6
@@ -65,7 +65,11 @@ tasks:
       - 11
     task: "Bare patch check: any bare patch bigger than a hand that isn't closing by now = cut a rooted runner from the edge, lay it across the patch in a shallow scrape, peg it with a bent wire, water it. Buffalo isn't sold as seed, runners are the only repair"
     category: general
+    completed: 2026-11
 log:
+  - date: "2026-11-09"
+    entry: "Mowed (Jay). November mow and bare-patch check rows marked done."
+    category: general
   - date: "2026-10-30"
     entry: "Leftover compost rubbed into the bare patches as a top-dress, two days after the October feed."
     category: mulch

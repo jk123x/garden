@@ -3,11 +3,15 @@ type: shrub
 location: Backyard (around frangipani)
 zones:
   - 2
-health: "Mid-flower 22 Oct 2026 (IMG_4057): about half the heads still purple, half gone to seed fluff. Plant is smaller than the notes suggested, a modest clump of big leaves under the frangipani, so the November prune is to 30-40cm, not a third to a half."
+health: "Post-flowering prune done 9 Nov 2026 (IMG_4315): half a dozen stems at roughly 40cm, each cut above a leaf pair with a few leaves kept. Minor snail holes only. Fed the same day. Regrows fast over summer; nothing to do until the hot-day hose rows."
 healthStatus: healthy
-lastAssessed: 2026-10
-image: /images/spring-2026/IMG_4057.jpg
+lastAssessed: 2026-11
+image: /images/spring-2026/IMG_4315.jpg
 photos:
+  - src: /images/spring-2026/IMG_4315.jpg
+    caption: "After the post-flowering prune, 9 Nov 2026: stems to ~40cm above leaf pairs, a few leaves kept on each"
+  - src: /images/spring-2026/IMG_4314.jpg
+    caption: "Before the prune, 9 Nov 2026: flowers finished, full clump of leaves"
   - src: /images/spring-2026/IMG_4057.jpg
     caption: "Mid-show, 22 Oct 2026: half the heads purple, half gone to seed fluff. Fluff off now, full prune when the purples finish"
   - src: /images/winter-2026/IMG_2295.jpg
@@ -21,10 +25,12 @@ tasks:
     task: "Prune after flowering (secateurs): once the last purple heads have browned, cut every stem back to 30-40cm from the ground, each cut just above a pair of leaves. It's a modest clump, so this is the whole job, not a third-off trim. Regrows fast over summer and flowers on that growth next spring. Feed straight after (next row). Heads still purple = wait another week"
     category: prune
     byDay: 15
+    completed: 2026-11
   - months:
       - 11
     task: "Feed, straight after the November prune: Richgro All Purpose at the bag rate scattered around the base out to the drip line, then water in. Feeding before the prune just grows wood you're about to cut off"
     category: feed
+    completed: 2026-11
   - months:
       - 6
       - 7
@@ -39,6 +45,12 @@ tasks:
     task: "Hot-day hose: the big soft leaves flag by mid-afternoon on a 32°+ day. Hose the root zone slowly in the evening. It lives off the lawn zone's overspray, which is nowhere near enough in heat"
     category: water
 log:
+  - date: "2026-11-09"
+    entry: "Fed Richgro All Purpose round the base straight after the prune (Jay). Next feed is next spring's round."
+    category: feed
+  - date: "2026-11-09"
+    entry: "Post-flowering prune done (Jay, IMG_4314 before / IMG_4315 after): every stem cut back to roughly 40cm just above a leaf pair, a few leaves kept on each stem. Good cuts, right height for a clump this size. Feed is next."
+    category: prune
   - date: "2026-10-23"
     entry: Spent flower heads cut back to the closest leaf joint (Jay). Correct technique. Full post-flowering prune to 30-40cm stays queued for November once the last heads finish.
     category: prune

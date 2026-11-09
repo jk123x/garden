@@ -5,7 +5,7 @@ zones:
   - 4
 health: "28 Oct 2026: replacement jasmine planted in the dead plant's spot (compost-rich backfill). Laundry-side spring tie-in done 7 Oct, one-leader thinning underway. Both May 2026 plantings past the taro stump healthy and on drip. Top-wire tips show dead grey stubs (frost/wind or possums), recut job open."
 healthStatus: monitor
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2312.jpg
 photos:
   - src: /images/plants/IMG_4129.jpg
@@ -25,7 +25,7 @@ photos:
   - src: /images/plants/sj-east-side.jpg
     caption: April 2026 assessment
 urgency: week
-nextAction: "Top wires on all three jasmine runs (scissors): 1) every tip that ends in a bare grey stub, snip back to just above the first healthy leaf pair below it. 2) Leave any tip that is still green and growing. 3) While up there, look along the fence rail for possum droppings (dark 2cm pellets) and torn leaf edges. Don't cut green leader tips, they are what extends along the wire; because a dead stub never regrows but the buds under the cut throw two shoots."
+nextAction: "Top wires on all three jasmine runs (scissors): 1) every tip that ends in a bare grey stub, snip back to just above the first healthy leaf pair below it. 2) Leave any tip that is still green and growing. 3) A green leader with a bitten end gets the same cut, then tie the strongest of the two shoots that follow along the wire. Don't cut green leader tips that are intact, they are what extends along the wire; because a dead stub never regrows but the buds under the cut throw two shoots. Possums are the culprit (confirmed 9 Nov), they travel the fence top and nip the flush."
 notes: "Trachelospermum jasminoides. Right (east) side fence near kids' bedrooms. Still very early — bare woody stems with small new leaves just starting to emerge. Be patient with this one. Tie stems to the fence where you want them to go, feed well in spring and summer, and keep watered through dry spells while it's establishing. It'll get there. Extension run begins past the cleared taro area — same conditions, same care. Shared-fence note (Aug 2026): the passionfruit is approved to run a trained cap along the TOP WIRE of this fence from the shed end — two-storey model, the jasmine owns the fence face. The vine is short-lived and gives ground when it declines or when the jasmine reaches the top; passionfruit runners diving down into the jasmine's wires get removed at each winter prune. Framework rule (Jay, 16 Oct 2026): ONE leader per wire per direction. A second runner twining the same wire gets, in order: rerouted to a bare wire or gap, or snipped to 2-3 leaves as a fill-in lateral, or cut out at the base only where that stretch is already covered. Never cut the short perpendicular side shoots off a tied leader (that's the fill) or the old brown framework."
 tasks:
   - months:
@@ -59,6 +59,22 @@ tasks:
     category: plant
     completed: "2026-10"
   - months:
+      - 10
+      - 11
+    task: "Pale jasmine (the May planting past the taro stump): 1) pull the pine bark back 10cm from the stem so the crown can breathe. 2) Poke a finger in 5cm beside it: muddy = leave it alone, the soil is the problem. Don't feed it yet; because fertiliser on cold waterlogged roots burns instead of greening"
+    category: general
+  - months:
+      - 11
+    day: 7
+    task: "Liquid feed the pale jasmine (watering can): only when the top 5cm is damp, not wet. PowerFeed at 2ml/L, one full can over the root zone of each May planting, none against the stem. Don't use Richgro; because granules leach straight through wet soil and these two have the over-feed history"
+    category: feed
+    completed: 2026-11
+  - months:
+      - 11
+    day: 14
+    task: "Pale-plant recheck on the May 2026 planting past the taro stump: stand it next to its neighbour and compare leaf colour. Darkened up after the liquid feed and a warm fortnight = done, nothing more. Still pale with green veins on the youngest leaves = iron lockout, buy iron chelate (not Multiguard, that is snail bait) and water a 1g/L can over the root zone. Oldest leaves yellow and dropping while the soil is still wet = waterlogging, keep the bark pulled back and skip that dripper until it dries. Don't add Richgro either way, December's top-up is the next granular feed"
+    category: general
+  - months:
       - 11
     day: 18
     task: "Settle check on the new jasmine (planted 28 Oct in compost): look at where the stem meets the soil. Crown sunk below the surrounding ground = scrape bark and compost back off the stem so it sits in a shallow dish, no further. Crown standing proud with roots showing = tuck a handful of soil around them. Then confirm the dripper is wetting the root ball, not the gap beside it. No fertiliser, the compost is plenty"
@@ -76,6 +92,7 @@ tasks:
     task: "Cohort ties: one leader per wire per direction, Highlander rule. Untwine any new runner competing on an already-led wire and reroute it to bare wire or a gap; no gap in reach = snip it to 2-3 leaves as a fill lateral. tie the newest batch of runners into the remaining laundry-side gaps while they're still supple — each month's growth is a fresh chance to fill fence Pinch rule: a runner heading into bare fence is NOT pinched, lead it horizontally and let it run until it reaches the far edge of the gap, then pinch so it fills back. Pinch only shoots over already-covered fence and anything racing above the top wire."
     category: general
     repeat: monthly
+    completed: 2026-11
   - months:
       - 10
       - 11
@@ -93,6 +110,18 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-09"
+    entry: "Pale May 2026 jasmine past the taro stump given PowerFeed at 2ml/L, one can (Jay). Recheck leaf colour against its neighbour on the 14 Nov row."
+    category: feed
+  - date: "2026-11-09"
+    entry: "November cohort-ties session done (Jay): one leader per wire per direction, competing runners rerouted or snipped. Row marked done for November, back on 1 Dec."
+    category: prune
+  - date: "2026-11-09"
+    entry: "Possum confirmed (Jay): droppings along the fence and torn leaf edges on the jasmine. Answers the 27 Oct question: the dead grey top-wire stubs are possum bites, not frost. Brushtails run the fence top and nip the soft flush as they go. Jay: all three runs, top wires getting wrecked."
+    category: general
+  - date: "2026-10-31"
+    entry: "One of the May 2026 plantings past the taro stump has gone pale, not sick, just short of the deep green the rest of the run carries. About 70mm of rain in the week plus every-3-day irrigation on a shallow root zone over the old brick paving, soil cold and sodden, July Richgro spent. Read: cold wet soil locking out nitrogen/iron on a young plant, plus normal light-green spring flush. Plan: 7-day rain delay, bark pulled back from the crown, PowerFeed 2ml/L once the top 5cm is only damp, recheck 14 Nov. No Richgro into wet soil (over-feed history)."
+    category: general
   - date: "2026-10-28"
     entry: "Replacement star jasmine planted in the dead plant's spot (second-last toward the back garden), backfilled with a lot of compost. Compost-heavy backfill is fine for jasmine; the one risk is the plant settling as the compost shrinks, so the Nov check looks at the crown height."
     category: plant
