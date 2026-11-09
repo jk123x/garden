@@ -63,6 +63,7 @@ tasks:
       - 11
     task: "Pale jasmine (the May planting past the taro stump): 1) pull the pine bark back 10cm from the stem so the crown can breathe. 2) Poke a finger in 5cm beside it: muddy = leave it alone, the soil is the problem. Don't feed it yet; because fertiliser on cold waterlogged roots burns instead of greening"
     category: general
+    completed: 2026-11
   - months:
       - 11
     day: 7
@@ -74,6 +75,7 @@ tasks:
     day: 14
     task: "Pale-plant recheck on the May 2026 planting past the taro stump: stand it next to its neighbour and compare leaf colour. Darkened up after the liquid feed and a warm fortnight = done, nothing more. Still pale with green veins on the youngest leaves = iron lockout, buy iron chelate (not Multiguard, that is snail bait) and water a 1g/L can over the root zone. Oldest leaves yellow and dropping while the soil is still wet = waterlogging, keep the bark pulled back and skip that dripper until it dries. Don't add Richgro either way, December's top-up is the next granular feed"
     category: general
+    completed: 2026-11
   - months:
       - 11
     day: 18
@@ -102,7 +104,7 @@ tasks:
   - months:
       - 11
       - 12
-    task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. 10 minutes, don't fight the whole brick apron."
+    task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. Don't fight the whole brick apron."
     category: general
   - months:
       - 9
@@ -110,6 +112,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-09"
+    entry: "Pale May 2026 jasmine checked (Jay): plant doing fine, roots fine. Crown/root check and the 14 Nov colour recheck closed. Nothing more on it; December Richgro light dose is the next feed."
+    category: general
   - date: "2026-11-09"
     entry: "Decision (Jay): no possum deterrent, no good product found. Accepting the top-wire nibbling and letting warmer weather push runners higher. Don't re-raise."
     category: general
