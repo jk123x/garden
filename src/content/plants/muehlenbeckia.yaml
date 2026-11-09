@@ -5,7 +5,7 @@ zones:
   - 1
 health: "7 Oct 2026: October shear done, more strands tied down low. Upper half dense, lower half still open net over grate. Earlier: top reduction done 8 Sept 2026 (scissors + secateurs), possibly including some thick feeder stems. Watch for strands wilting then browning over the next 2-3 weeks: that's a severed run, pull it once crispy and tie a live runner into the gap. Coverage still patchy on the lower half; thickening is the job, not reach."
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_0954.jpg
 photos:
   - src: /images/plants/IMG_3925.jpg
@@ -49,7 +49,7 @@ tasks:
     task: "Monthly top shear: risers off flush, cap tight to the fence line — monthly is the sweet spot; the vine needs ~a month to convert each shear into new laterals, so more often just re-cuts the same growth. While there, tie down any long strand that reaches bare grate and pinch its tip Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: prune
     repeat: monthly
-    completed: 2026-10
+    completed: 2026-11
   - months:
       - 3
       - 9
@@ -72,6 +72,9 @@ tasks:
     task: "Heat-day glance: on a 35°+ day, look at this run against the east and west fences. Wilting here and not there = the street tree's roots are taking the zone 1 water. Zone 1 to 20 min for that week, then back to 15. No hosing out the front"
     category: water
 log:
+  - date: "2026-11-09"
+    entry: "November top shear done (Jay): risers off, cap tight to the fence line. Next pass is the December shear row."
+    category: prune
   - date: "2026-10-27"
     entry: "Reachers sheared and the whole face given a haircut (Jay, same session as the other two fences). Do-now cleared. Next pass is the November shear row."
     category: prune

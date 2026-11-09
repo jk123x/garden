@@ -5,7 +5,7 @@ zones:
   - 1
 health: "7 Oct 2026: strands tied along the lower grate, leafing up, still thin. Earlier: tiny but alive, 8 Sept 2026: a handful of thin strands with small leaves, one low clump at the base, a couple of strands tied along the bottom rail. Regrowing after the May dieback. Tip-pinched 8 Sept. No trimming needed; this plant needs every leaf it has. Coverage is 1-2 seasons away."
 healthStatus: monitor
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_0957.jpg
 photos:
   - src: /images/plants/IMG_3928.jpg
@@ -40,7 +40,7 @@ tasks:
     task: "Coverage training: tip-pinch every runner past ~1m and tie/weave new strands sideways into empty LOW grates — sideways and low beats up and high. This is the season it earns real coverage Reachers (strands standing off the fence chasing light): cut to 5-10cm outside the wires whenever seen, don't re-tie them"
     category: general
     repeat: monthly
-    completed: 2026-10
+    completed: 2026-11
   - months:
       - 12
     task: "Growth-push top-up: light dose of Richgro — the July feed is spent; this vine is being pushed for coverage"
@@ -52,6 +52,9 @@ tasks:
     task: "Heat check: on any 32°+ day, poke a finger in beside the plant. Dry 3cm down = 5L from the can, slowly. Still shallow-rooted after the May dieback, so it feels heat before the established vines do."
     category: water
 log:
+  - date: "2026-11-09"
+    entry: "November training pass done (Jay): runners pinched and tied low and sideways. Next pass is the December row."
+    category: prune
   - date: "2026-10-27"
     entry: "Reachers sheared and a tidy haircut (Jay, same session as the other two fences). Next pass is the November training row."
     category: prune
