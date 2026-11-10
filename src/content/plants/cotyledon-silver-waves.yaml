@@ -27,12 +27,14 @@ tasks:
     category: feed
     completed: 2026-07
   - months:
-      - 11
       - 12
       - 1
     task: "Flower watch: a 30-60cm stalk with drooping orange bells is the main event. Photograph it, then once the bells drop, snip the stalk at the base"
     category: general
 log:
+  - date: "2026-11-11"
+    entry: "Flower watch row moved to Dec-Jan (Jay): no stalk showing yet and he doesn't want a wait-and-see item on the list in November."
+    category: general
   - date: "2026-10-24"
     entry: "Photo review (IMG_4096): big, healthy, slightly sprawling as it does. Nothing needed, because the plant is full and firm; flower stalk watch starts November."
     category: general
