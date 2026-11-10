@@ -8,6 +8,9 @@ healthStatus: healthy
 lastAssessed: 2026-11
 log:
   - date: "2026-11-10"
+    entry: "Richgro All Purpose fed along the run (Jay fed all three jasmine runs today). Replaces the December growth-push top-up; the second dose is now the January row."
+    category: feed
+  - date: "2026-11-10"
     entry: "Jay: growth feels stalled after a cool wet spring and hard thinning; one-leader thinning about 80% done and paused while the vine flowers. Advice: normal, the run happens Dec-Feb. Plan: Richgro in the first dry spell (replaces the Dec top-up, a second dose moves to January), finish the thinning now, flowers or not (same day: Jay asked, pause lifted; a competing leader goes even if flowering, a healthy well-placed flowering stem stays), no tipping of wire leaders, steady water. Feed job set on the east card for all three runs."
     category: general
   - date: "2026-11-09"
@@ -80,9 +83,14 @@ tasks:
       - 12
     task: "Growth-push top-up: second slow-release dose (Richgro) — the July feed is spent by now and the vine is mid-sprint"
     category: feed
+    completed: "2026-11"
+  - months:
+      - 1
+    task: "Growth-push second dose: Richgro All Purpose, normal dose along the fence base at the dripline and watered in. Only if the last Richgro went down six or more weeks ago (check the card's last-fed line). Don't feed onto sodden soil; because the slow-release is spent at six weeks and Jan-Feb is the coverage run."
+    category: feed
   - months:
       - 3
-    task: "Autumn feed: Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the December top-up went down late, after mid-January."
+    task: "Autumn feed: Richgro All Purpose, normal dose, along the fence base and watered in. Carries the vine through the last warm flush before winter. Skip it if the last Richgro went down after mid-January."
     category: feed
   - months:
       - 10

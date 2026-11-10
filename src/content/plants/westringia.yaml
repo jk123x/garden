@@ -3,12 +3,16 @@ type: shrub
 location: Front yard
 zones:
   - 1
-health: "30 Oct 2026: two light passes so far (16 Sept, late Oct), each 10-20% off, no cuts into bare wood. Inner shoots now showing low down across much of both domes, so the next cut can follow the inner green to about a third off. Dense, no dieback, still bigger than the spot wants."
+health: "10 Nov 2026: both domes renovated the same day. Dome 1 taken to the ground (IMG_4328/4329), a 10-15cm woody crown with a few leafy basal sprigs. Dome 2 cut to about 30cm (IMG_4330/4331), a wide radiating crown of thick clean-cut poles with plenty of low leafy twigs around it, the better of the two. Caveat: dichondra threads through this bed, so some of the low green under both is groundcover, not the shrub. Verdict on reshooting due 20 Dec."
 healthStatus: healthy
-lastAssessed: 2026-10
-urgency: week
-nextAction: "Second bite on both westringia domes (scissors), now while the spring flush is on. 1) Part the outer foliage at a spot and find the lowest green shoot or leaf inside, then cut a few centimetres above it. 2) Repeat all over, following the dome, so the cut line sits just above the inner green everywhere. That lands near a third off. 3) Where you part it and find only bare grey stems inside, leave that section long. Don't cut the top harder than the sides; because the shoots inside only fill the dome once the outer skin stops shading them."
+lastAssessed: 2026-11
 log:
+  - date: "2026-11-10"
+    entry: "Aftercare done on both crowns (Jay): tidied up, 18L watered on each with Eco-Seaweed after a 29° day. One-off soak only; from here zone 1 covers them, no more hand water. Stake skipped as optional. Next: second seaweed can 24 Nov, scratch test 20 Dec."
+    category: water
+  - date: "2026-11-10"
+    entry: "Second dome CUT to about 30cm the same afternoon (IMG_4330/4331): a wide radiating crown of thick poles, all clean cuts, with far more low leafy growth round it than dome 1. Correct cut. Caveat raised on review: dichondra is woven through the front beds, so some of the low green under both domes is groundcover rather than the shrub's own regrowth; the tell is written into the aftercare (round leaf on an upright woody twig = shrub, kidney leaf on a creeping runner = dichondra, pull it 20cm back from the crowns). Decision to do dome 2 now rather than wait for dome 1's verdict: November beats an autumn hard cut. No Christmas lights bush this year. Earlier that day: Jay cut into the centre of a dome for the second bite (IMG_4325-4327): bare poles with leaves only in the outer skin, fresh small-leaved shoots from the base on separate stems, grass through the middle. Advice was a renovation cut, poles to about 30cm. Jay then took the whole dome to the ground (IMG_4328/4329): a woody crown 10-15cm high with clean fresh cuts, two or three leafy basal sprigs beside it, and almost nothing else. Harder than advised but not reversible, and the live sprigs mean the crown has active buds. Aftercare set: stake, bark raked back from the crown, Eco-Seaweed now and again in a fortnight, no extra water. 20 Dec scratch-test row. The porch dome now waits for this stump's verdict before anything beyond a skin shear. Forecast mild all week (17-19°, no heat)."
+    category: prune
   - date: "2026-10-30"
     entry: "October pass on the domes done, light again: 10-20% off, Jay held back by the green-below-every-cut rule. He reports leaves coming through lower down across much of the bush, which is the reshoot signal the 20 Oct check was waiting for. Advice: go back now and cut to just above the inner green all over."
     category: prune
@@ -26,6 +30,20 @@ log:
     category: mulch
 image: /images/winter-2026/IMG_2272.jpg
 photos:
+  - src: /images/spring-2026/IMG_4331.jpg
+    caption: Dome 2 cut to 30cm, radiating crown, low twigs round it (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4330.jpg
+    caption: Dome 2 from above after the cut, by the stepping stones (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4329.jpg
+    caption: The dome taken to the ground, crown and basal sprigs (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4328.jpg
+    caption: The crown close up, fresh cuts and the sprigs that have to carry it (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4326.jpg
+    caption: Second bite, centre opened up, bare poles under the leafy skin (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4325.jpg
+    caption: Inside the dome, leaves only at the pole tips, fresh shoots low down on separate stems (10 Nov 2026)
+  - src: /images/spring-2026/IMG_4327.jpg
+    caption: Base of the dome, wiry interlaced poles, grass weeds through the middle (10 Nov 2026)
   - src: /images/plants/IMG_3713.jpg
     caption: Porch dome after pass 1, conservative (16 Sept 2026)
   - src: /images/plants/IMG_3714.jpg
@@ -34,7 +52,7 @@ photos:
     caption: The big dome by the porch — the Christmas-lights bush (6 Aug 2026)
   - src: /images/plants/IMG_0889.jpg
     caption: April 2026 assessment
-notes: "The big round grey-green domes out the front (Jay calls them the westringias; the one by the porch carries the Christmas lights). Bulletproof, dense, no pest history. They've outgrown their spots, so from 2026 they get a two-pass shape reduction each year: early Sept and March, up to a third each time, never cutting into leafless wood. ID caveat, no action needed: the tiny rounded leaves don't match Westringia fruticosa (which has narrow needle leaves) — Correa alba or bush germander (Teucrium fruticans) are the likely candidates, and a flower photo settles it whenever it flowers. Pruning rules are the same for all three."
+notes: "The big round grey-green domes out the front (Jay calls them the westringias; the one by the porch carries the Christmas lights). Bulletproof, dense, no pest history. Structure (seen 10 Nov 2026 when a dome was cut down): the whole dome was long bare grey poles from one small woody crown, with a thin leafy skin at the tips, and the plant regenerates from the crown and base on new stems rather than from the poles. So trimming the skin can never reduce it; reduction means a renovation cut to about 30cm, then shaping the regrowth. The stubs are leafless and that is expected: a renovation relies on dormant buds at the old leaf nodes, not on leaves, so leave pole wood for the buds (10 Nov 2026: dome 1 went to the ground, dome 2 to 30cm, so the two are a built-in comparison). Dichondra runs under these domes: when judging regrowth, count only round leaves on upright woody twigs, not kidney leaves on runners. After a renovation, keep it in bounds with a light shear after each growth flush so a skin never builds again. Hard cuts get Eco-Seaweed, never fertiliser. ID caveat, no action needed: the tiny rounded leaves don't match Westringia fruticosa (narrow needle leaves). Correa alba or bush germander (Teucrium fruticans) were the candidates; the wiry interlaced interior and tiny round leaves also fit Muehlenbeckia astonii (shrubby tororaro, a cousin of the fence vines). All three take a hard cut, and a flower photo settles it whenever it flowers."
 tasks:
   - months:
       - 9
@@ -48,8 +66,18 @@ tasks:
     category: prune
     completed: "2026-10"
   - months:
+      - 11
+    day: 24
+    task: "Second can of Eco-Seaweed on both westringia stumps (watering can), over the root zone not the cuts. Nothing else: no fertiliser, no extra water."
+    category: feed
+  - months:
+      - 12
+    day: 20
+    task: "Westringia stump check, both domes. Scratch a stub with a thumbnail: green and damp under the bark = alive, leave it. New shoots on the stubs or the basal sprigs thickening and leafing up = it has taken, keep the bark off the crown and do nothing until March. Brown and dry under the bark on every stub = the crown is finished and the sprigs are the plant; cut the dead stubs to the ground and keep the sprigs staked. Pull any grass that has come back."
+    category: prune
+  - months:
       - 3
-    task: "Shape reduction, pass 2: up to a third off all over following the dome, every cut leaving green leaf below it, never into bare wood. How hard to go was settled by the 20 Oct reshoot check."
+    task: "Westringia stumps, March (secateurs). Shoots up: tip each new shoot back by a third so it branches, aiming at a loose dome, and cut every dead stub to its base. Stubs still bare: scratch test, brown and dry = cut to the ground and the basal sprigs are the plant. Then a light shear after each flush from here on; because a leafy skin over bare poles is what forced this cut, and shearing little and often stops it building again."
     category: prune
   - months:
       - 9
