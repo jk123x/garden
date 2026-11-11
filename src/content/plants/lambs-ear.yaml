@@ -1,0 +1,29 @@
+name: Lamb's Ear
+type: perennial
+location: Backyard (edging the lawn along the back bed, clumps round to the frangipani)
+zones:
+  - 2
+  - 4
+health: "11 Nov 2026 (IMG_4359, IMG_4344): thick felty silver clumps edging the lawn for several metres, healthy and spreading, no flower spikes yet."
+healthStatus: healthy
+lastAssessed: 2026-11
+image: /images/spring-2026/IMG_4359.jpg
+photos:
+  - src: /images/spring-2026/IMG_4359.jpg
+    caption: "Edging the lawn (11 Nov 2026)"
+notes: "Stachys byzantina, ID from the Nov 2026 photo round, card added at Jay's request. Tough silver groundcover that roots as it creeps. Likes sun and dry feet: the felt holds water, so the centre of a clump can go brown and mushy after long wet spells or under sprinklers; pulling the mush out is the whole fix. No feed, ever, rich soil makes it floppy. Soft and safe for kids to touch. If it creeps onto the lawn, slice the edge with a spade and lift the strays."
+tasks:
+  - months:
+      - 12
+      - 1
+      - 2
+    task: "Cut the flower spikes (scissors): once the tall woolly spikes have finished and started to brown or flop, cut each one off at the base inside the clump. Don't shear the leaves; because the leaf mat is the plant and spikes left to flop smother it"
+    category: prune
+  - months:
+      - 8
+    task: "Winter clean-up (hands): pull out the brown, mushy or papery leaves from the middle of each clump until you are back to firm silver ones. A clump with a bare dead centre = lift a rooted piece from the edge and press it into the gap. No feed"
+    category: prune
+log:
+  - date: "2026-11-11"
+    entry: "Card created at Jay's request after the spring photo round (IMG_4359, IMG_4344, IMG_4354). Healthy and spreading along the lawn edge; one clump by the citrus sits under the hose line and gets flattened, cosmetic."
+    category: general

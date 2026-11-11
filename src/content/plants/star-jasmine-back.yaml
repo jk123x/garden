@@ -8,6 +8,9 @@ healthStatus: healthy
 lastAssessed: 2026-11
 log:
   - date: "2026-11-11"
+    entry: "Jay confirmed the bee-hotel panel behind the table and the stretch round to the frangipani corner (IMG_4345, IMG_4361) are part of this back run. Flowering on every wire, one leader per wire, top wire thin. Nothing needed, because the monthly cohort-ties row covers it."
+    category: general
+  - date: "2026-11-11"
     entry: "Spring photo round (IMG_4346, IMG_4350, IMG_4353, IMG_4363-4365): nothing needed, because the dense section is healthy and the thin studio run is flowering on every tied leader with the monthly cohort-ties row already covering the fill."
     category: general
   - date: "2026-11-10"
@@ -60,6 +63,10 @@ log:
     category: general
 image: /images/winter-2026/IMG_2285.jpg
 photos:
+  - src: /images/spring-2026/IMG_4345.jpg
+    caption: "The bee-hotel panel behind the table (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4361.jpg
+    caption: "The frangipani corner (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4346.jpg
     caption: "The mature wall in full flower under the passionfruit cap (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4365.jpg

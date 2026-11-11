@@ -1,0 +1,30 @@
+name: Coastal Rosemary
+type: shrub
+location: Backyard back bed (one beside the citrus, one nearer the table) + probably one out the front by the fence
+zones:
+  - 1
+  - 4
+health: "11 Nov 2026 (IMG_4350, IMG_4367): two knee-to-waist-high mounds of soft needle foliage in the back bed, healthy green, a few small white flowers. The one beside the citrus has a thin skirt on the hose side."
+healthStatus: healthy
+lastAssessed: 2026-11
+image: /images/spring-2026/IMG_4350.jpg
+photos:
+  - src: /images/spring-2026/IMG_4350.jpg
+    caption: "The one beside the citrus, hose along its base (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4367.jpg
+    caption: "Both back-bed shrubs, left and centre (11 Nov 2026)"
+notes: "Westringia fruticosa (coastal rosemary), ID from the Nov 2026 photo round: soft needle leaves in whorls, small white flowers; Jay agrees and likes them. Card added at his request. Jay believes there is one out the front too: that fits the needle-leaf, lilac-flowered shrub by the front fence next to the chalk sticks (IMG_2268, IMG_2319), which was never ID'd (a lilac-flowered westringia variety). NOT the same plants as the big round front domes on the Westringia card. Native: Osmocote Native only, never Richgro. Tough, drought-hardy once established. Shape rule: light trims after each flush keep it dense; never cut into bare brown wood, it does not reshoot from it."
+tasks:
+  - months:
+      - 12
+      - 3
+    task: "Shape trim (scissors): grab-and-snip the outer 5-10cm of soft growth all over each shrub, following its natural mound. Stop where the stems turn bare and brown. Don't cut into bare wood; because coastal rosemary does not reshoot from it and a light trim after each flush is what keeps it dense"
+    category: prune
+  - months:
+      - 9
+    task: "Feed: Osmocote Native, one small handful scattered under each shrub and watered in. Don't use Richgro or any all-purpose feed; because natives burn on the phosphorus"
+    category: feed
+log:
+  - date: "2026-11-11"
+    entry: "Card created at Jay's request after the spring photo round (IMG_4350, IMG_4353, IMG_4367). Two back-bed shrubs healthy; the hose-side skirt trim on the one beside the citrus is part of the hose-line job on the dusty miller card. Front shrub not photographed this round."
+    category: general

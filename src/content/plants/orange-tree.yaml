@@ -3,12 +3,14 @@ type: fruit
 location: Backyard
 zones:
   - 4
-health: "Scale treatment CLOSED 8 Sept 2026: eco-oil rounds 1 (30 Jul) and 2 (18 Aug) done, ant check 8 Sept = no ants, cycle broken. Fed (Experts Choice light) + Epsom drenched July; gall wasp triple-checked. Background: heavy ripe orange crop, interveinal yellowing on older leaves from fruit load + winter drawdown (Mg/N — expected, don't re-treat)."
+health: "11 Nov 2026 (IMG_4348): the compact bush by the studio door. Dense and pushing new flush; the older leaves still carry yellow blotches and pale margins (the known chlorosis, don't re-treat), the new growth is coming in green. All 2026 scale and ant programs closed."
 healthStatus: monitor
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 notes: Larger backyard citrus near the sage. The leaf colour and density are genuinely good — this tree is getting what it needs. The Mexican Sage is growing right into its canopy though, which reduces airflow. When the sage gets its post-flowering cutback, that'll create space. Keep up regular feeding — citrus are heavy feeders. Last fed April 15 2026 — had been 2 months since the previous feed. Keep to a regular 6-8 week feeding schedule through the growing season.
 image: /images/winter-2026/IMG_2303.jpg
 photos:
+  - src: /images/spring-2026/IMG_4348.jpg
+    caption: "Orange (front left) and lime (behind, against the window) (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2303.jpg
     caption: End-of-winter profile — fruit still on (6 Aug 2026)
   - src: /images/winter-2026/IMG_2302.jpg
@@ -16,6 +18,9 @@ photos:
   - src: /images/plants/IMG_2086.jpg
     caption: After the oil + feed session, 30 Jul 2026
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4348, IMG_4347), position confirmed by Jay: the orange is the compact bush by the studio door. Dense and flushing; older leaves still yellow-blotched, new flush green. Nothing needed, because the blotching is the known chlorosis on old leaves and they get replaced by the flush."
+    category: general
   - date: "2026-10-28"
     entry: "Sugarcane mulched from the two new bales, 5cm over the root zone, clear of the trunk (Jay: bales done, October citrus top-up)."
     category: mulch
