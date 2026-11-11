@@ -3,7 +3,7 @@ type: perennial
 location: Front yard — banksia/feijoa bed, near the fence
 zones:
   - 1
-health: "11 Nov 2026 (IMG_4375): rosette bigger again, upright and healthy; a few old outer leaves yellow at the tips (normal cycling). No spear. The needle mat at its base was checked the same day."
+health: "11 Nov 2026 (IMG_4375): rosette bigger again, upright and healthy; a few old outer leaves yellow at the tips (normal cycling). No spear. The needle-leaf mat at its base is old banksia (Jay), leave it."
 healthStatus: healthy
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2265.jpg
@@ -31,6 +31,9 @@ tasks:
     task: "Feed: Osmocote Native, standard dose, scattered round the rosette and watered in. Gymeas need years of growth before they spear, feeding is how you shorten that"
     category: feed
 log:
+  - date: "2026-11-11"
+    entry: "Needle mat resolved (Jay): it is old banksia, not asparagus fern and not sedum. My weed call was wrong. Needle whorls on red-brown stems fit a low needle-leaf banksia. Nothing to pull, no regrowth watch."
+    category: general
   - date: "2026-11-11"
     entry: "Needle mat at the base dealt with (Jay reported the whole to-do list done). Whether it tested as asparagus fern or sedum was not stated; asked."
     category: general
