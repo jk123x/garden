@@ -17,6 +17,11 @@ notes: |-
   ADJUSTING (no calibration tests, Jay 20 Sept 2026; run times are fixed and only these three signals change anything): lawn squelching the morning after a run = take 3 min off zone 2. Flower beds dry 5cm down the day after a summer run = add 10 min to zone 3. Citrus or jasmine wilting by evening in a hot week = hose them, never lengthen the zone; the lemon is the one exception, zone 1 to 20 min for that week then back to 15.
 tasks:
   - months:
+      - 11
+    day: 13
+    task: "First run after the rain delay, walk it once it has run: 1) Each zone: a flooded patch = a blown or uncapped dripper, swap the head from the spares box; a whole area bone dry beside wet neighbours = that zone did not run, read the controller. 2) Zone 3: every bubbler wetting a circle. 3) Controller read-back: every 3 days, one start time, 15 / 15 / 30 / 60 minutes. Nothing found = nothing to change."
+    category: water
+  - months:
       - 9
     completed: 2026-09
     task: "Set the controller to the new run times: zone 1 front 15 min, zone 2 lawn 12 min, zone 3 flower beds 30 min, zone 4 jasmines and back 60 min. One programme, one start time at 5-6am, 1 day a week for September. Before closing the lid read the days back and count the start times: every day, or two start times, is the mis-code that flooded the lawn. Full table on the Irrigation page in the nav."
@@ -76,7 +81,7 @@ tasks:
     category: water
 log:
   - date: "2026-11-11"
-    entry: "Next run Fri 13 Nov (Jay): rain delay ends, back to every 3 days."
+    entry: "Next run Fri 13 Nov (Jay): rain delay ends, back to every 3 days. First run in a few weeks, so a day-gated walk-through sits on 13 Nov. Weather: about 24mm in the previous 10 days, nothing since 7 Nov, week ahead cool and near-dry (15-19°), so the run is right and no step-up."
     category: general
   - date: "2026-11-09"
     entry: "Still too wet to run (Jay): first run of the season now unlikely before mid Nov. Summer step-up row (3 days a week on the first 30° forecast) moved from November to December at Jay's request; no frequency change before then."
