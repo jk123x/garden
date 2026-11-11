@@ -109,12 +109,16 @@ tasks:
       - 12
     task: "Kikuyu ring check at the new plants — the Aug clear will regrow from nodes in the brick joints once it warms up. Defend a ~30cm ring around each plant only: lift regrowth with fingers when soil is moist, hands only near the dripper, green-bin it. Don't fight the whole brick apron."
     category: general
+    completed: "2026-11"
   - months:
       - 9
     task: "Mulch depth glance: bare soil showing through the bark anywhere along the run = top up that spot with bagged pine bark, keeping it off the blue star fern's surface rhizomes at the bench corner. Still 3cm+ of bark = nothing, it lasts years"
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-11"
+    entry: "Kikuyu ring check at the young plants done (Jay). Young plants also hand-watered this week on top of the feed."
+    category: general
   - date: "2026-11-10"
     entry: "Richgro All Purpose fed along the run (Jay fed all three jasmine runs today; light wide dose around the young plants here). Replaces the December growth-push top-up; the second dose is now the January row."
     category: feed
