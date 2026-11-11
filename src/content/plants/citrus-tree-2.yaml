@@ -3,9 +3,7 @@ type: fruit
 location: Backyard
 zones:
   - 4
-health: "11 Nov 2026 (IMG_4358, IMG_4366): canopy dense and deep green with fresh flush at the tips; the pale look from October is gone, so the 23 Oct Epsom did its job. Soft pale shoots are sprouting low on the trunk at the fork, with leafminer curl on them, and the tub is carpeted in oxalis and mint."
-urgency: week
-nextAction: "Rub off the low trunk shoots on the grapefruit (fingers or secateurs): 1) Snap or snip every soft pale shoot sprouting from the trunk at or below the main fork, flush with the bark. 2) Pull the oxalis out of the tub, roots and all. Don't touch the new growth up in the canopy; because low trunk shoots steal the flush from the canopy and are the first thing leafminer hits"
+health: "11 Nov 2026 (IMG_4358, IMG_4366): canopy dense and deep green with fresh flush at the tips; the pale look from October is gone, so the 23 Oct Epsom did its job. Low trunk shoots rubbed off and oxalis pulled from the tub the same day; the mint in the tub stays (the kid picks it)."
 healthStatus: good
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2291.jpg
@@ -22,6 +20,9 @@ photos:
     caption: April 2026 assessment
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-11-11"
+    entry: "Low trunk shoots rubbed off and the oxalis pulled from the tub (Jay). Mint left in place."
+    category: prune
   - date: "2026-11-11"
     entry: "Jay: the mint in the tub stays. He doesn't know if it was planted, but his kid loves picking it. Only the oxalis comes out. Don't suggest pulling the mint."
     category: general

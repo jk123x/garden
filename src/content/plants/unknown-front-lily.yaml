@@ -3,9 +3,7 @@ type: perennial
 location: Front yard — banksia/feijoa bed, near the fence
 zones:
   - 1
-health: "11 Nov 2026 (IMG_4375): rosette bigger again, upright and healthy; a few old outer leaves yellow at the tips (normal cycling). No spear. A mat of needle-leaf growth is spreading at its base, suspected asparagus fern."
-urgency: week
-nextAction: "Check the needle mat at the gymea's base (hand fork): 1) Push a finger under the mat and feel the roots, then pinch a needle. White grape-size tubers on the roots, or small thorns on the wiry stems = asparagus fern. Fat needles that snap wet like a succulent, no tubers = a sedum groundcover, leave it and tell Claude. 2) If asparagus fern, fork out the whole crown and every tuber, including the small tuft by the kangaroo paws, red bin not green. Don't just cut the tops off; because it regrows from the tubers. Photo on Field notes"
+health: "11 Nov 2026 (IMG_4375): rosette bigger again, upright and healthy; a few old outer leaves yellow at the tips (normal cycling). No spear. The needle mat at its base was checked the same day."
 healthStatus: healthy
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2265.jpg
@@ -33,6 +31,9 @@ tasks:
     task: "Feed: Osmocote Native, standard dose, scattered round the rosette and watered in. Gymeas need years of growth before they spear, feeding is how you shorten that"
     category: feed
 log:
+  - date: "2026-11-11"
+    entry: "Needle mat at the base dealt with (Jay reported the whole to-do list done). Whether it tested as asparagus fern or sedum was not stated; asked."
+    category: general
   - date: "2026-11-11"
     entry: "Jay couldn't see the suspect plant in the wide shot; close-up crop added (IMG_4375-needles). On the close-up my confidence drops to roughly even: soft needle tufts on red-brown creeping stems fit asparagus fern, but also a needle-leaf sedum planted as groundcover. The finger test now names both outcomes."
     category: general

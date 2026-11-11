@@ -4,9 +4,7 @@ indoor: false
 location: Right (east) side, behind star jasmine fence
 zones:
   - 4
-health: "11 Nov 2026 (IMG_4368): short stump carrying two leaves, smaller than the August pair, compost top-dress visible round it. A fibrous length of old trunk is lying on the bark beside it. Alive and pushing new leaves; the size comes back with heat."
-urgency: week
-nextAction: "Sort the fallen taro trunk (gloves, knife): 1) Press a thumb into the top of the standing stump. Firm = leave it. Soft or smelly = slice it back to clean firm flesh. 2) Put the fallen trunk piece in the green bin. 3) Pull the bark back a hand-width from the stump. Don't leave the fallen piece on the ground; because it re-roots where it lies, and raw taro burns the mouth if the two-year-old chews it"
+health: "11 Nov 2026 (IMG_4368): one plant with a creeping trunk. The old trunk lies along the ground and curves round to the upright growing end, which carries two leaves, smaller than the August pair. Jay half-buried the exposed length 11 Nov. Alive and pushing; the size comes back with heat."
 healthStatus: good
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2310.jpg
@@ -54,6 +52,9 @@ tasks:
     task: "Summer top-up: Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
     category: feed
 log:
+  - date: "2026-11-11"
+    entry: "CORRECTION (Jay): nothing fell off. The taro is one plant: the length lying on the bark is its own trunk, which runs along the ground and curves round to the upright growing end. It was sitting proud of the soil, so Jay half-buried it. My 'fallen trunk piece' read and the green-bin instruction were wrong. Advice given: leave the plant where it is, no move; a taro trunk that lies down roots along its length where it touches soil, which anchors and feeds it. Keep the buried part shallow and the growing tip clear."
+    category: general
   - date: "2026-11-11"
     entry: "Jay: the trunk came down on its own, probably blown over; he found it like that. Stump is alive with two leaves. Clean-up job set in Do now: thumb test on the stump top, fallen piece to the green bin (it re-roots where it lies, and raw taro burns the mouth if the two-year-old chews it)."
     category: general

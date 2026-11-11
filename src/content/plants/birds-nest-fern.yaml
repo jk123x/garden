@@ -8,6 +8,9 @@ healthStatus: good
 lastAssessed: 2026-11
 log:
   - date: "2026-11-11"
+    entry: "Watered and fed with half-strength PowerFeed on the soil round each rosette (Jay). Sunburn watch on the first 30° days stands."
+    category: feed
+  - date: "2026-11-11"
     entry: "Spring photo round (IMG_4373, IMG_4374): size and frond condition the best on record, colour noticeably yellower than the August baseline (IMG_2275). November liquid feed row added; sunburn watch written into it."
     category: general
   - date: "2026-09-08"
@@ -35,6 +38,7 @@ tasks:
       - 11
     task: "Water, then feed the bird's nest ferns (watering can): 1) If the soil at the base is dry a finger deep, pour a full can of plain water round each rosette first. 2) Then PowerFeed at 1ml/L, half a can on the soil round each, none into the cup of the nest. Skip step 1 the morning after rain or a sprinkler run. On the first 30° days look at the middle of the fronds: crisp brown patches = sunburn, tell Claude. Don't use granules; because granules lodge in the nest and rot the crown"
     category: feed
+    completed: "2026-11"
   - months:
       - 9
       - 12

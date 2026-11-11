@@ -3,9 +3,7 @@ type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
 zones:
   - 4
-health: "11 Nov 2026 (IMG_4369-4372): laundry end dense, in full flower and bulging well off the fence. The three young plants are all alive, dark-leaved and flowering, shoots tied sideways along the bottom two wires, which is the right order (horizontal first, the plant finds its own way up); the palest one still shows lime new growth (normal flush). Kikuyu was hard against two of them in the photos, weeded since (Jay). Possum nibbling on the top wires accepted. Richgro down 10 Nov."
-urgency: week
-nextAction: "One climber per young jasmine (ties): 1) Leave every sideways tie exactly as it is. 2) On each of the three young plants, pick one strong new shoot, or wait for the next one that heads up by itself, and tie it loosely straight up an upright wire. 3) Each time it passes a wire, leave it alone; tie the side shoots it throws along that wire. Don't pinch the climber until it reaches the top wire; because sideways stems fill the base and one upright stem is what reaches the upper wires this summer"
+health: "11 Nov 2026 (IMG_4369-4372): laundry end dense, in full flower and bulging well off the fence. The three young plants are all alive, dark-leaved and flowering, set up as fans: sideways ties along the bottom two wires plus one climber each tied straight up (done 11 Nov). Weeded round all three the same day. Possum nibbling on the top wires accepted. Richgro down 10 Nov."
 healthStatus: monitor
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2312.jpg
@@ -126,6 +124,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-11"
+    entry: "One strong shoot tied straight up on each of the three young plants (Jay), sideways ties left as they were. From here: leave the climbers unpinched until the top wire and tie their side shoots along each wire at the monthly cohort-ties pass."
+    category: general
   - date: "2026-11-11"
     entry: "Researched at Jay's request (RHS climber + espalier pages, star jasmine training guides). Both of us were half right. Sideways stems slow down and break side shoots, which is what fills the base; an upright stem grows fastest and is what gets to the upper wires. Standard practice for a young climber is a fan: most stems out sideways or diagonal, one left to climb. Settled rule: keep all the sideways ties, and let ONE strong shoot per young plant run straight up, unpinched, tying its side shoots along each wire as it passes. Job reinstated in that form."
     category: general
