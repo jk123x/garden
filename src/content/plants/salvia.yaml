@@ -32,13 +32,16 @@ tasks:
     completed: 2026-07
   - months:
       - 11
-    task: "Pinch the tips (scissors): once the new stems are knee-high, snip the top 5cm off each one. Bushier plant, more flowering tips in autumn, less of the flop. One pass, not repeated"
+    task: "Pinch the tips (scissors): once the new stems are knee-high, snip the top 5cm off each one, flower spike included if it has one. Early spring spikes are a preview, the show is Feb-May on branched growth, so a flowering tip gets pinched like any other. Stems still below knee height can keep their spike. One pass, not repeated"
     category: prune
   - months:
       - 4
     task: "Tidy brown spikes, only if it looks tatty: snip each finished spike back to the leaf pair below it. Still flowering with bees on it = leave it, the May cutback clears everything anyway"
     category: prune
 log:
+  - date: "2026-11-11"
+    entry: "Jay: some stems already carrying purple spikes at pinch time, snip or leave? Answer: early flush, not the main event (Feb-May on branched growth), so pinch the flowering tips with the rest. Written into the November row."
+    category: general
   - date: "2026-10-17"
     entry: "Monthly Oct-Mar deadhead row deleted (Jay: why monthly?). Mexican sage flowers late summer to autumn on new growth and doesn't re-flush from deadheading, so the row was noise. Replaced with one November tip pinch and an optional April tidy."
     category: general
