@@ -122,6 +122,10 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 - When Jay reports completed field work, clear `urgency`, `nextAction`, `readyFrom` and `dueBy` on the plant so it drops off the dashboard. Then add a `log` entry with the date and what was done, and refresh `health` and `lastAssessed`.
 - Tasks marked `completed: "<year>-<month>"` are hidden for the rest of that year. Use this for once-per-season jobs (mulch, cut-back, plant). **Genuinely monthly-recurring rows carry `repeat: monthly`** (added 7 Oct 2026: muehlenbeckia shears/training ×3, cohort ties ×3, olive watershoots, lawn mow (salvia monthly deadhead DELETED 17 Oct 2026: it flowers Feb-May on new growth, deadheading doesn't re-flush it; now one Nov tip pinch + optional Apr tidy), every indoor feed/rotate/wipe row): for those, `completed: "2026-10"` hides the row for October only and it comes back on 1 Nov. When Jay reports a monthly job done, set `completed` to the current month on that row. Any new monthly row must get `repeat: monthly` or a done-mark will hide it for the rest of the year.
 
+## Kid safety (Jay, 11 Nov 2026)
+
+- **No snail bait in the strawberry patch, ever, and none anywhere the two-year-old plays.** She grazes the strawberries and the pellets look like cereal. Multiguard (iron EDTA) is the lowest-toxicity bait and stays the only one ever named, but a mouthful can still poison a toddler. Snails in the strawberries = hand-pick at dusk. Never name metaldehyde baits (Blitzem, Defender). If she eats any: Poisons Information Centre 13 11 26. Before writing any spray, bait or chemical row, ask whether a toddler roams that bed.
+
 ## Watering and irrigation
 
 The garden runs **garden-wide drip irrigation** that's switched off through autumn and winter (rain handles it) and back on for spring/summer. Do NOT add per-plant "reduce watering", "less water in winter", or "minimal watering" tasks — they're noise. Watering at the system level is Jay's call, not a per-plant decision.

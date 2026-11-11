@@ -8,7 +8,7 @@ health: Healthy plants, flowering and setting fruit Oct 2026, but the crop is be
 healthStatus: good
 lastAssessed: 2026-10
 image: /images/plants/IMG_0920.jpg
-notes: Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months.
+notes: Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months. NO SNAIL BAIT in this patch, ever: the toddler grazes it (Jay, 11 Nov 2026). Hand-pick snails instead.
 tasks:
   - months:
       - 3
@@ -38,7 +38,7 @@ tasks:
   - months:
       - 10
       - 11
-    task: "Snails and straw in the strawberry patch. 1) Multiguard in a thin scatter between the plants, one pellet every 5cm, never piles. 2) Tuck sugarcane under the leaves so the fruit sits on straw, not soil. 3) Runners (the thin bare wiry stems creeping flat along the ground with a baby plantlet at the end, not the short upright flower stems): let them roam inside the bed, Jay's call. Cut only the ones heading out of the bed or across the path, at the mother plant. 4) Press any crown the kids have pulled loose back in at soil level and water it. Reapply pellets after rain"
+    task: "Snails and straw in the strawberry patch. NO snail pellets here, ever: the two-year-old grazes this patch and the pellets look like cereal. 1) Snails: hand-pick at dusk or after rain into a bucket, lift the straw edges and the lowest leaves where they hide. 2) Tuck sugarcane under the leaves so the fruit sits on straw, not soil. 3) Runners (the thin bare wiry stems creeping flat along the ground with a baby plantlet at the end, not the short upright flower stems): let them roam inside the bed, Jay's call. Cut only the ones heading out of the bed or across the path, at the mother plant. 4) Press any crown the kids have pulled loose back in at soil level and water it."
     category: general
     completed: "2026-11"
   - months:
@@ -46,6 +46,9 @@ tasks:
     task: "Runner sort (scissors): 1) each runner keeps its first plantlet, press it onto bare soil so it roots, snip the stem beyond it. 2) Runners crossing the path = cut off at the mother. 3) Pull the tired old mothers (woody crown, small leaves, poor fruit this season), the daughters replace them. Letting them run is the renewal plan, so this sort is what keeps the patch from becoming a mat 4) Any runner that has crept under the dusty miller's outer leaves = cut at the mother, it will never fruit in that shade."
     category: prune
 log:
+  - date: "2026-11-11"
+    entry: "SAFETY RULE (Jay, 11 Nov 2026): no snail bait of any kind in the strawberry patch, the toddler grazes it. Multiguard (iron EDTA) is the lowest-toxicity bait but a mouthful can still poison a small child and the pellets look like cereal. Snails here are hand-picked from now on. Poisons Information Centre 13 11 26 if she eats any. Pellets already down today: hose the patch so they dissolve into the straw, keep her out for a couple of days."
+    category: general
   - date: "2026-11-11"
     entry: "Snails-and-straw row done (Jay). Same session: runners under the dusty miller cut at the mother and strays in other plants' space pulled, open-ground spread kept."
     category: general

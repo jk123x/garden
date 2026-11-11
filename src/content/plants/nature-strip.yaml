@@ -23,6 +23,7 @@ tasks:
     task: "Mow the nature strip (mower, blade high, catcher on): whenever it looks shaggy, and always before the weeds throw seed stalks. Catcher on so seed heads go in the green bin, not back onto the strip. Never take more than a third off in one cut"
     category: general
     repeat: monthly
+    completed: "2026-11"
   - months:
       - 9
       - 10
@@ -35,6 +36,9 @@ tasks:
     task: "Autumn weed pass (taproot puller): after the first proper autumn rain, pull every rosette before it seeds, then mow. Bare patches bigger than a hand = push in a few buffalo runners and keep them damp for a fortnight."
     category: general
 log:
+  - date: "2026-11-11"
+    entry: "Nature strip mowed (Jay)."
+    category: general
   - date: "2026-11-09"
     entry: "Monthly mow row added Oct-Apr at Jay's request (he wanted the reminder on the dashboard)."
     category: general
