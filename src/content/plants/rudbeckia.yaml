@@ -8,6 +8,8 @@ healthStatus: good
 lastAssessed: 2026-11
 image: /images/plants/cutting-bed.jpg
 photos:
+  - src: /images/spring-2026/IMG_4351.jpg
+    caption: "Copper tub by the steps (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4322.jpg
     caption: "Bulking up in the tub, one stem starting to run up, 9 Nov 2026"
   - src: /images/winter-2026/IMG_2307.jpg
@@ -35,6 +37,9 @@ tasks:
     task: "Cut for the vase (whenever): cut stems long, to just above a leaf pair, and take them freely. Cutting is what keeps the plant compact and flowering. Leave a few late heads if you want winter seed heads for the birds."
     category: harvest
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4351): the copper tub by the steps is full of lush hairy leaves with stems starting to run up. Nothing needed, because it is healthy and on its dripper."
+    category: general
   - date: "2026-11-09"
     entry: "Photos IMG_4322 and IMG_4323, 9 Nov 2026: healthy, bulking up, one stem elongating toward a first bud. The broad-leaf plant at the front edge of the raised bed is a rudbeckia, leave it. Status establishing to good."
     category: general

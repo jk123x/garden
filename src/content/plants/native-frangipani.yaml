@@ -3,11 +3,13 @@ type: tree
 location: Backyard
 zones:
   - 2
-health: Canopy is open/sparse but that's partly intentional — Jay pruned the lower branches to let light through to plants below. Leaves look dark green where visible. The open structure is a combination of deliberate shaping and normal autumn thinning.
+health: "11 Nov 2026 (IMG_4355, IMG_4356): in full yellow flower from top to bottom, canopy fuller than at any point this year, leaves dark and healthy. Spent flowers dropping on the lawn and bark."
 healthStatus: good
-lastAssessed: 2026-09
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2297.jpg
 photos:
+  - src: /images/spring-2026/IMG_4355.jpg
+    caption: "Full flower (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2297.jpg
     caption: Canopy dense through winter (6 Aug 2026)
   - src: /images/winter-2026/IMG_2296.jpg
@@ -28,6 +30,9 @@ tasks:
     category: feed
     completed: 2026-07
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4355, IMG_4356, IMG_4361): flowering heavily. Nothing needed, because it is healthy and the flower drop is just litter."
+    category: general
   - date: "2026-09-16"
     entry: "Jay (IMG_3715): canopy going nuts, one long high lateral reaching out sideways, tree in flower. Asked if it'll shade out what's below. Answer: no. Tiered open canopy, high limb = moving dappled shade, nothing under it is in shade all day. Only the orange would care (fruit set). December midday shade check on the orange's crown decides whether the lateral gets shortened; otherwise leave it."
     category: general

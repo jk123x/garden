@@ -3,11 +3,15 @@ type: perennial
 location: Front yard — banksia/feijoa bed, near the fence
 zones:
   - 1
-health: Healthy and vigorous — big fountain of broad, soft, pleated strap leaves from a thick fleshy base. No action needed; awaiting ID.
+health: "11 Nov 2026 (IMG_4375): rosette bigger again, upright and healthy; a few old outer leaves yellow at the tips (normal cycling). No spear. A mat of needle-leaf growth is spreading at its base, suspected asparagus fern."
+urgency: week
+nextAction: "Check the needle mat at the gymea's base (hand fork): 1) Push a finger under the mat and feel the roots. White grape-size tubers, or small thorns on the wiry stems = asparagus fern. 2) If so, fork out the whole crown and every tuber, including the small tuft by the kangaroo paws, and put the lot in the red bin, not the green. No tubers and no thorns = leave it and tell Claude. Don't just cut the tops off; because it regrows from the tubers and spreads by red berries. Photo on Field notes"
 healthStatus: healthy
-lastAssessed: 2026-08
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2265.jpg
 photos:
+  - src: /images/spring-2026/IMG_4375.jpg
+    caption: "Rosette in spring with the suspect needle mat at its base (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2265.jpg
     caption: The fountain, end of winter — unchanged rosette (6 Aug 2026)
   - src: /images/winter-2026/IMG_2278.jpg
@@ -27,6 +31,9 @@ tasks:
     task: "Feed: Osmocote Native, standard dose, scattered round the rosette and watered in. Gymeas need years of growth before they spear, feeding is how you shorten that"
     category: feed
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4375, IMG_4376): gymea itself healthy. New finding: a 60cm mat of whorled needle foliage on wiry stems at its base, yellowing in places, plus a small tuft a metre away by the kangaroo paws. Reads as asparagus fern (Asparagus aethiopicus, a declared weed in Victoria), a different spot from the one pulled on 7 Aug. Tuber-and-thorn test set as a Do now job with a Field notes plate."
+    category: general
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: native feed added."
     category: general

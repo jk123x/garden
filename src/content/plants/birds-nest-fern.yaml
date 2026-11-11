@@ -3,10 +3,13 @@ type: fern
 location: Front yard
 zones:
   - 1
-health: Centre of rosette cleared and worst brown fronds removed April 2026. Good colour and size. Brown frond margins (wind/sun damage) still visible on some fronds. Possibly needs more shelter if browning continues.
+health: "11 Nov 2026 (IMG_4373, IMG_4374): two rosettes by the deck and one further along the path, all big and whole with very little edge browning, but the fronds have gone from mid green in August to yellow-lime. Stronger sun as the season turns plus hunger; not burning yet."
 healthStatus: good
-lastAssessed: 2026-08
+lastAssessed: 2026-11
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4373, IMG_4374): size and frond condition the best on record, colour noticeably yellower than the August baseline (IMG_2275). November liquid feed row added; sunburn watch written into it."
+    category: general
   - date: "2026-09-08"
     entry: Fed by Jay (spring feed, both rosettes). September feed row marked completed.
     category: feed
@@ -18,6 +21,8 @@ log:
     category: general
 image: /images/winter-2026/IMG_2275.jpg
 photos:
+  - src: /images/spring-2026/IMG_4373.jpg
+    caption: "Deck-side rosettes, big but yellow-lime (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2275.jpg
     caption: Both rosettes, fresh lime-green fronds (6 Aug 2026)
   - src: /images/winter-2026/IMG_2265.jpg
@@ -26,6 +31,10 @@ photos:
     caption: April 2026 assessment
 notes: Asplenium australasicum. Big outdoor specimen in the front yard. The close-up photo confirms brown frond edges — this is most likely wind damage or summer sun scorch. The centre of the rosette has accumulated dead frond bases and leaf litter that should be cleaned out to prevent rot. Remove the worst-damaged fronds at the base. If the browning keeps getting worse, the fern may need more afternoon shade — either from nearby plants or a temporary shade cloth over summer. Keep the soil consistently moist but not waterlogged.
 tasks:
+  - months:
+      - 11
+    task: "Feed the bird's nest ferns (watering can): PowerFeed at 1ml/L, half a can poured on the soil round the base of each rosette, none into the cup of the nest. Then on the first 30° days look at the middle of the fronds: crisp brown patches = sunburn, tell Claude. Don't use granules; because granules lodge in the nest and rot the crown"
+    category: feed
   - months:
       - 9
       - 12

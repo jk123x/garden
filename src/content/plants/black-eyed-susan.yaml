@@ -8,9 +8,14 @@ healthStatus: healthy
 lastAssessed: 2026-11
 image: /images/spring-2026/IMG_4323.jpg
 photos:
+  - src: /images/spring-2026/IMG_4363.jpg
+    caption: "Flowering clump, bed wall bowed on the lawn side (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4323.jpg
     caption: "First flowers open, 9 Nov 2026. Raised bed with the achillea and Caradonna reshoots behind"
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4363, IMG_4358): the big clump is flowering. The bed's steel wall is bowed out of shape on the lawn side where it gets leaned and stepped on; cosmetic, nothing needed for the plant."
+    category: general
   - date: "2026-11-09"
     entry: "Photo IMG_4323, 9 Nov 2026: first yellow flowers open, bush healthy and full. Deadhead row brought forward to start December."
     category: general

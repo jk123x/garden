@@ -8,6 +8,8 @@ healthStatus: good
 lastAssessed: 2026-11
 image: /images/plants/cutting-bed.jpg
 photos:
+  - src: /images/spring-2026/IMG_4364.jpg
+    caption: "Bed from above, loose pipe on the mulch (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4322.jpg
     caption: "Narrow-leaf clump front centre of the tub, 9 Nov 2026"
   - src: /images/winter-2026/IMG_2289.jpg
@@ -35,6 +37,9 @@ tasks:
     task: "Deadhead or cut for the vase: cut each spent flower back to the next bud or leaf pair down the stem. Leave the last flush standing in March, the seed heads feed the birds and the stems protect the crown"
     category: harvest
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4364): clumps healthy and leafy, no buds yet, a few weeds through the straw. The black irrigation pipe has lifted and sits loose on top of the mulch with the drippers still in place. Nothing needed, because the drippers still reach the plants."
+    category: general
   - date: "2026-11-09"
     entry: "Photo IMG_4322, 9 Nov 2026: healthy narrow-leaf clump, no buds. Status establishing to good."
     category: general

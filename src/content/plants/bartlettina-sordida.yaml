@@ -8,6 +8,8 @@ healthStatus: healthy
 lastAssessed: 2026-11
 image: /images/spring-2026/IMG_4315.jpg
 photos:
+  - src: /images/spring-2026/IMG_4360.jpg
+    caption: "Two days after the prune, minor snail holes (11 Nov 2026)"
   - src: /images/spring-2026/IMG_4315.jpg
     caption: "After the post-flowering prune, 9 Nov 2026: stems to ~40cm above leaf pairs, a few leaves kept on each"
   - src: /images/spring-2026/IMG_4314.jpg
@@ -46,6 +48,9 @@ tasks:
     category: water
     heat: 32
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4360): two days after the prune, the stem by the lily turf carries big healthy leaves with a few snail holes. Nothing needed, because the holes are minor and the plant was fed on the 9th."
+    category: general
   - date: "2026-11-09"
     entry: "Fed Richgro All Purpose round the base straight after the prune (Jay). Next feed is next spring's round."
     category: feed

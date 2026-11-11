@@ -18,6 +18,67 @@ interface Plate {
 }
 
 const PLATES: Plate[] = [
+  {
+    img: '/images/spring-2026/IMG_4367.jpg',
+    ratio: '3/4',
+    section: 'Hose path',
+    title: 'Where the hose cuts through the back bed',
+    intro: 'The hose runs from the lawn to the back fence in a straight line, and the straight line goes through three plants. Two posts make it go round instead.',
+    marks: [
+      { kind: 'ring', n: 1, x: 36, y: 63, r: 15, tone: 'id', text: 'Yellow buttons (the dusty miller card): split open and pressed flat along the hose line. Healthy, stands back up once the hose stops crossing it.' },
+      { kind: 'pin', n: 2, x: 50, y: 80, tone: 'act', text: 'Post one: at the bed corner where the lawn meets the stepping stones. The hose pivots here and stays on the stones.' },
+      { kind: 'pin', n: 3, x: 62, y: 46, tone: 'act', text: 'Post two: beside the needle-leaf shrub, on the path side. Keeps the hose off its skirt and out of the sage behind it.' },
+    ],
+    foot: 'Pull the hose round the outside of both posts every time. Any hose guide or hardwood stake does the job.',
+  },
+  {
+    img: '/images/spring-2026/IMG_4352.jpg',
+    ratio: '3/4',
+    section: 'Hose path',
+    title: 'The same hose, further along, through the sage',
+    intro: 'Past the needle-leaf shrub the hose dives under the Mexican sage and comes out on the paving.',
+    marks: [
+      { kind: 'pin', n: 1, x: 21, y: 20, tone: 'id', text: 'Hose enters between the sage and the citrus.' },
+      { kind: 'pin', n: 2, x: 13, y: 58, tone: 'id', text: 'Runs under the lawn-side edge of the mound. Stems on this side get bent and snapped each time it is dragged.' },
+      { kind: 'ring', n: 3, x: 52, y: 55, r: 30, tone: 'leave', text: 'The sage itself: healthy, leave it. Post two on the plate above fixes this stretch too.' },
+    ],
+  },
+  {
+    img: '/images/spring-2026/IMG_4344.jpg',
+    ratio: '4/3',
+    section: 'Foot traffic',
+    title: 'Lawn wear spots',
+    intro: 'The lawn is the greenest it has been this year. The bare soil that is left sits exactly where feet land.',
+    marks: [
+      { kind: 'ring', n: 1, x: 74, y: 47, r: 9, tone: 'act', text: 'Under the hoop: move the hoop a couple of metres along the roller door each mow so this spot rests and the runners close in.' },
+      { kind: 'ring', n: 2, x: 45, y: 50, r: 10, tone: 'leave', text: 'Strip in front of the raised beds: the run between the deck and the side path. It thins and recovers with use. No pegging while it is being walked on.' },
+    ],
+  },
+  {
+    img: '/images/spring-2026/IMG_4364.jpg',
+    ratio: '3/4',
+    section: 'Foot traffic',
+    title: 'The side path pinch point',
+    intro: 'Everyone going down the side squeezes between the raised bed and the stepping stones.',
+    marks: [
+      { kind: 'pin', n: 1, x: 43, y: 12, tone: 'leave', text: 'Side path: worn to a dirt track. It is the walkway, leave it.' },
+      { kind: 'ring', n: 2, x: 12, y: 60, r: 10, tone: 'leave', text: 'Lawn edge worn thin by the turn onto the stepping stones.' },
+      { kind: 'pin', n: 3, x: 30, y: 62, tone: 'id', text: 'Bed wall bowed out of shape on the walking side, from being leaned and stepped on. Cosmetic.' },
+      { kind: 'pin', n: 4, x: 52, y: 78, tone: 'id', text: 'Irrigation pipe lifted out and sitting loose on the mulch. Drippers still reach the plants.' },
+    ],
+  },
+  {
+    img: '/images/spring-2026/IMG_4375.jpg',
+    ratio: '3/4',
+    section: 'Check this plant',
+    title: 'Needle mat under the gymea',
+    intro: 'Whorls of flat green needles on wiry stems, spreading across the bark. It looks like asparagus fern, a weed that comes back from tubers.',
+    marks: [
+      { kind: 'ring', n: 1, x: 31, y: 63, r: 21, tone: 'act', text: 'Push a finger under the mat. White grape-size tubers on the roots, or small thorns on the stems = asparagus fern: fork out the crown and every tuber, red bin. Neither = leave it.' },
+      { kind: 'pin', n: 2, x: 60, y: 45, tone: 'leave', text: 'The gymea: healthy. Work round its base, do not lever against it.' },
+    ],
+    foot: 'A second small tuft sits a metre away, in front of the kangaroo paws.',
+  },
 ];
 
 const sections = [...new Set(PLATES.map((p) => p.section))];

@@ -5,11 +5,13 @@ zones:
   - 1
   - 2
   - 4
-health: "Flowering mid-October 2026: paws popping up around the place (Jay). Spring regrowth after the 2 Aug ink spot haircut came through and is flowering on the new fans. Ink spot check rows from November stand."
+health: "11 Nov 2026 (IMG_4376, IMG_4377): front clumps in full red flower on tall stems, foliage clean green with no ink spot blackening visible. Back clump by the sage flowering too (IMG_4347)."
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_1021.jpg
 photos:
+  - src: /images/spring-2026/IMG_4377.jpg
+    caption: "Front clumps in flower, clean foliage (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2279.jpg
     caption: Post-haircut stubble pushing through the fresh bark (6 Aug 2026)
   - src: /images/winter-2026/IMG_2272.jpg
@@ -41,6 +43,9 @@ tasks:
     category: spray
     completed: "2026-11"
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4376, IMG_4377, IMG_4347): flowering front and back with clean leaves. Nothing needed, because the post-haircut foliage shows no ink spot."
+    category: general
   - date: "2026-11-11"
     entry: "Ink spot glance done (Jay): clumps look stunning, only old cut-end blackening seen, nothing cut."
     category: general

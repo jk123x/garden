@@ -3,10 +3,13 @@ type: climber
 location: Back (north) fence
 zones:
   - 4
-health: Mulched April 2026 (sugarcane, extended from passionfruit mulching). Thick, dense coverage — fence is completely hidden. Glossy dark green leaves in good condition. Some dried debris and yellow leaves from normal cycling. Fully established and vigorous.
+health: "11 Nov 2026: the mature section behind the table is a solid wall in full flower under the passionfruit cap (IMG_4346, IMG_4353). The studio run past the raised beds is a thin one-leader espalier, flowering along every wire, with the wires above the fence line mostly bare (IMG_4363-4365). That is the expected look after the one-leader thinning; the fill comes December to February."
 healthStatus: healthy
 lastAssessed: 2026-11
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4346, IMG_4350, IMG_4353, IMG_4363-4365): nothing needed, because the dense section is healthy and the thin studio run is flowering on every tied leader with the monthly cohort-ties row already covering the fill."
+    category: general
   - date: "2026-11-10"
     entry: "Richgro All Purpose fed along the run (Jay fed all three jasmine runs today). Replaces the December growth-push top-up; the second dose is now the January row."
     category: feed
@@ -57,6 +60,10 @@ log:
     category: general
 image: /images/winter-2026/IMG_2285.jpg
 photos:
+  - src: /images/spring-2026/IMG_4346.jpg
+    caption: "The mature wall in full flower under the passionfruit cap (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4365.jpg
+    caption: "The studio run: one leader per wire, flowering (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2283.jpg
     caption: The studio run — camellia over the top (6 Aug 2026)
   - src: /images/winter-2026/IMG_2285.jpg

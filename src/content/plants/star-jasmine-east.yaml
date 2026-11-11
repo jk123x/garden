@@ -3,11 +3,21 @@ type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
 zones:
   - 4
-health: "28 Oct 2026: replacement jasmine planted in the dead plant's spot (compost-rich backfill). Laundry-side spring tie-in done 7 Oct, one-leader thinning underway. Both May 2026 plantings past the taro stump healthy and on drip. Top-wire tips show dead grey stubs (frost/wind or possums), recut job open. Richgro down on all three runs 10 Nov."
+health: "11 Nov 2026 (IMG_4369-4372): laundry end dense, in full flower and bulging well off the fence. The three young plants are all alive, dark-leaved and flowering, but every tied shoot runs sideways along the bottom two wires and none has a leader heading up; the palest one still shows lime new growth (normal flush). Kikuyu was hard against two of them in the photos, weeded since (Jay). Possum nibbling on the top wires accepted. Richgro down 10 Nov."
+urgency: week
+nextAction: "Give each of the three young jasmines one climbing leader (ties): 1) On each plant pick the longest, strongest shoot. 2) If it is tied sideways, untie it and tie it straight up the nearest upright wire, loose figure-8. 3) Leave the other shoots running sideways along the bottom wires. Don't pinch the upright one; because a plant with only sideways leaders fills the bottom 30cm and never climbs"
 healthStatus: monitor
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2312.jpg
 photos:
+  - src: /images/spring-2026/IMG_4370.jpg
+    caption: "Young plant in the trough, bushy and flowering (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4371.jpg
+    caption: "Young plant, leaders tied along the bottom wire (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4372.jpg
+    caption: "Young plant with pale new flush, grass since weeded (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4369.jpg
+    caption: "The mature laundry end in full flower (11 Nov 2026)"
   - src: /images/plants/IMG_4129.jpg
     caption: "27 Oct 2026: top-wire tips ending in dead grey stubs, frost or possums. Snipped back to live leaf pairs"
   - src: /images/winter-2026/IMG_2308.jpg
@@ -116,6 +126,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4369-4372): Jay weeded around all three young jasmines after the photos. Mature end at its best. Young plants healthy; the gap is structure: no upright leader on any of them, so a climbing-leader job is set in Do now."
+    category: general
   - date: "2026-11-11"
     entry: "Kikuyu ring check at the young plants done (Jay). Young plants also hand-watered this week on top of the feed."
     category: general

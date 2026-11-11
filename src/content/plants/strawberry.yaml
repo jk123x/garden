@@ -6,7 +6,7 @@ zones:
   - 4
 health: Healthy plants, flowering and setting fruit Oct 2026, but the crop is being thinned by a toddler pulling green fruit and snails are active in the patch (17 Oct). Crowns intact.
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_0920.jpg
 notes: "Multiple plants along the stone path, spreading via runners. The dark green colour and active runner production are good signs — the plants are establishing and expanding. Autumn runners that root in now will be strong producers next spring/summer. No obvious pest damage (slugs, aphids). Remove any yellowed leaves at the base to reduce fungal disease risk over the damp winter months. NO SNAIL BAIT in this patch, ever: the toddler grazes it (Jay, 11 Nov 2026). Hand-pick snails instead."
 tasks:
@@ -46,6 +46,9 @@ tasks:
     task: "Runner sort (scissors): 1) each runner keeps its first plantlet, press it onto bare soil so it roots, snip the stem beyond it. 2) Runners crossing the path = cut off at the mother. 3) Pull the tired old mothers (woody crown, small leaves, poor fruit this season), the daughters replace them. Letting them run is the renewal plan, so this sort is what keeps the patch from becoming a mat 4) Any runner that has crept under the dusty miller's outer leaves = cut at the mother, it will never fruit in that shade."
     category: prune
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4343, IMG_4354, IMG_4367): plants have threaded right through the back bed and along the lawn edge, leaf healthy. Nothing needed, because the runner row already covers the spread."
+    category: general
   - date: "2026-11-11"
     entry: "SAFETY RULE (Jay, 11 Nov 2026): no snail bait of any kind in the strawberry patch, the toddler grazes it. Multiguard (iron EDTA) is the lowest-toxicity bait but a mouthful can still poison a small child and the pellets look like cereal. Snails here are hand-picked from now on. Poisons Information Centre 13 11 26 if she eats any. Pellets already down today: hose the patch so they dissolve into the straw, keep her out for a couple of days."
     category: general

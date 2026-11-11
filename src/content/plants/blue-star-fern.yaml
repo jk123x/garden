@@ -4,11 +4,13 @@ indoor: false
 location: Backyard — bench/bee hotel corner, base of the jasmine fence
 zones:
   - 4
-health: Thriving and quietly colonising — a spreading colony of blue-grey fronds over about a metre of bed, which for this fern is the signature of a happy plant. Sheltered part-shade under the jasmine canopy is close to its ideal spot.
+health: "11 Nov 2026 (IMG_4345, IMG_4354): colony bigger than August, fronds tall and unmarked, pushing out past the lily turf toward the table."
 healthStatus: healthy
-lastAssessed: 2026-09
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2306-bluestar.jpg
 photos:
+  - src: /images/spring-2026/IMG_4345.jpg
+    caption: "Colony at the bee-hotel panel (11 Nov 2026)"
   - src: /images/plants/IMG_3570.jpg
     caption: "Spring check after a quick tidy: dense blue-grey fronds, no browning, rhizomes clear (11 Sept 2026)"
   - src: /images/winter-2026/IMG_2306-bluestar.jpg
@@ -32,6 +34,9 @@ tasks:
     task: "Frost check: fronds gone limp and grey after a frost = scorch, not death. Leave the plant alone, it regrows from the rhizome in spring. The mistake is digging it out thinking it is dead"
     category: general
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4345, IMG_4354): nothing needed, because a spreading colony with clean fronds is this fern at its happiest."
+    category: general
   - date: "2026-09-11"
     entry: "Photo check (IMG_3570) after Jay's quick tidy: colony dense and healthy, fronds blue-grey with a couple of normal yellowing ones, nothing brown, rhizomes uncovered. Nothing needed."
     category: general

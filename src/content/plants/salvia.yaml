@@ -4,11 +4,13 @@ location: Backyard
 zones:
   - 2
   - 4
-health: "Spring regrowth strong (11 Sept 2026 photo IMG_3571): a ring of fresh grey-green shoots from the base and from the old stubs, exactly the normal post-cutback pattern. The dead-looking centre is last season's cut stems; new growth comes from the rhizomes around them. Jay mounded potting mix with a little dolomite over the centre on 10-11 Sept thinking it was the lavender. Harmless: the sage roots along buried stems anyway."
+health: "11 Nov 2026 (IMG_4352, IMG_4346): dense waist-high mound, wider than it is tall and spilling onto the paving. Healthy, a few yellow lower leaves inside the mound (shaded out, normal). The hose runs through its lawn-side edge."
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2304.jpg
 photos:
+  - src: /images/spring-2026/IMG_4352.jpg
+    caption: "Full spring mound, hose running through the edge (11 Nov 2026)"
   - src: /images/plants/IMG_3571.jpg
     caption: After the dead-stub pass and the potting-mix mound over the centre. Rim shoots are the spring regrowth (11 Sept 2026)
   - src: /images/winter-2026/IMG_2304.jpg
@@ -40,6 +42,9 @@ tasks:
     task: "Tidy brown spikes, only if it looks tatty: snip each finished spike back to the leaf pair below it. Still flowering with bees on it = leave it, the May cutback clears everything anyway"
     category: prune
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4352, IMG_4346): big healthy mound, no flower yet as expected. Nothing needed beyond the November tip pinch row, because the yellow inner leaves are shade, not hunger. Hose path through its edge is covered by the hose-guide job on the dusty miller card."
+    category: general
   - date: "2026-11-11"
     entry: "November tip pinch done (Jay): top 5cm off each knee-high stem, early flower spikes included. Next job is the optional April tidy, then the May cutback when the bees leave."
     category: prune

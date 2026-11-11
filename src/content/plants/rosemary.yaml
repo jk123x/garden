@@ -3,11 +3,13 @@ type: herb
 location: Backyard
 zones:
   - 4
-health: Dead half removed 22 July 2026 (photo verified — clean work). What remains is a leaning, sculptural old trunk with long woody stems carrying healthy green growth and flowers at the tips. Alive and viable, but permanently leggy — rosemary can't reshoot from the bare wood, so the form now is roughly the form forever. Foliage will thicken at the green tips through spring.
+health: "11 Nov 2026 (IMG_4357): the kept half in the copper tub by the deck is one leaning trunk carrying dense healthy green tips, no dieback. Permanently one-sided, as expected."
 healthStatus: monitor
-lastAssessed: 2026-09
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2294.jpg
 photos:
+  - src: /images/spring-2026/IMG_4357.jpg
+    caption: "The kept half, leaning from the copper tub (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2294.jpg
     caption: The kept half, flowering blue (6 Aug 2026)
   - src: /images/winter-2026/IMG_2303.jpg
@@ -42,6 +44,9 @@ tasks:
     task: Harvest sprigs as needed
     category: harvest
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4357, IMG_4349): nothing needed until the Feb/Mar shape prune, because the live half is growing strongly."
+    category: general
   - date: "2026-09-10"
     entry: "Fed: one 9L can of half-strength PowerFeed round the dripline. Its only feed for the year."
     category: feed

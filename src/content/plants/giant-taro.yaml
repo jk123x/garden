@@ -4,11 +4,13 @@ indoor: false
 location: Right (east) side, behind star jasmine fence
 zones:
   - 4
-health: Back to a single trunk. Regrowth pups pulled 7 Aug 2026 — the kept ~1m trunk carrying two big healthy leaves through winter. Watch for fresh pups from missed root pieces and cut them at ground level while small.
+health: "11 Nov 2026 (IMG_4368): short stump carrying two leaves, smaller than the August pair, compost top-dress visible round it. A fibrous length of old trunk is lying on the bark beside it. Alive and pushing new leaves; the size comes back with heat."
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2310.jpg
 photos:
+  - src: /images/spring-2026/IMG_4368.jpg
+    caption: "Two leaves on the stump, old trunk piece on the bark (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2310.jpg
     caption: The kept trunk, two big leaves — the mulch pups visible here were pulled 7 Aug (6 Aug 2026)
   - src: /images/plants/giant-taro.jpg
@@ -50,6 +52,9 @@ tasks:
     task: "Summer top-up: Richgro All Purpose, normal dose round the base, watered in. Heavy feeder in full growth, the September dose is spent by now"
     category: feed
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4368): smaller than the August baseline (IMG_2310) but healthy green. Nothing needed, because taro sulks until the soil warms and the December feed row is next."
+    category: general
   - date: "2026-10-30"
     entry: "Compost spread round the base from the leftover jasmine-planting compost. Compost job closed: Jay did the taro and the lawn, strawberries, flower beds and the May jasmines skipped."
     category: mulch

@@ -3,11 +3,15 @@ type: grass
 location: Backyard
 zones:
   - 2
-health: "Oct 2026: green, thin in patches, flood damage from last year still growing out. Fed 28 Oct (October Sudden Impact), on 15 min zone 2 every 3 days. Mow + feed cadence is the whole program, no aerating, no reseeding."
+health: "11 Nov 2026 (IMG_4344, IMG_4359, IMG_4362): much greener and denser than August across the middle. Worn to bare soil in two play spots, under the basketball hoop by the roller door and the strip in front of the raised beds, and the side path past the beds is a dirt track. Wear from feet, not disease. Mow + feed cadence is the whole program, no aerating, no reseeding."
+urgency: later
+nextAction: "Move the basketball hoop a couple of metres along the roller door each time you mow, so the bare spot under it gets a rest and the runners close in. Don't peg runners into a patch that is still being stood on. Photo on Field notes"
 healthStatus: monitor
 lastAssessed: 2026-11
 image: /images/plants/IMG_0978.jpg
 photos:
+  - src: /images/spring-2026/IMG_4344.jpg
+    caption: "Wear spots at the hoop and in front of the raised beds (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2288.jpg
     caption: Winter lawn at the flower-bed corner (6 Aug 2026)
   - src: /images/plants/IMG_0978.jpg
@@ -67,6 +71,9 @@ tasks:
     category: general
     completed: 2026-11
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4344, IMG_4359, IMG_4362, IMG_4364): lawn the best it has looked this year. Bare spots line up exactly with play traffic (hoop, raised-bed strip, side path). Hoop-shuffle set as a Whenever-you're-passing item with a Field notes plate. The side path stays a dirt track: no fix worth doing while it is the main walkway."
+    category: general
   - date: "2026-11-09"
     entry: "Mowed (Jay). November mow and bare-patch check rows marked done."
     category: general

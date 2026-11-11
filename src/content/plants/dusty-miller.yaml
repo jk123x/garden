@@ -3,10 +3,15 @@ type: perennial
 location: Backyard (lawn edge near the paving / wood-chip patch)
 zones:
   - 4
-health: Spotted in July 2026 photos — healthy knee-high mound of silvery-white woolly foliage, flowering small yellow buttons through midwinter. Thriving on zero attention.
+health: "11 Nov 2026 (IMG_4354, IMG_4367): in full yellow-button flower and about twice its winter spread, but splayed flat and split open down the middle where the hose drags across it, and sprawling over the stepping stones where it gets trodden. The plant is healthy; the shape is hose and feet."
+urgency: week
+nextAction: "Stop the hose sawing through the back bed (2 hose guide posts or hardwood stakes, mallet): 1) Knock one post in at the bed corner where the lawn meets the stepping stones. 2) Knock the second in beside the needle-leaf shrub next to the citrus. 3) From now on pull the hose round the outside of both. Don't cut the flattened yellow buttons back; because they are in full flower and stand back up once the hose stops crossing them. Photo on Field notes"
 healthStatus: healthy
-lastAssessed: 2026-08
+lastAssessed: 2026-11
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4354, IMG_4367): flowering hard and spreading, flattened along the hose line and over the stepping stones. Hose-guide job set in Do now with a Field notes plate. Side note, no action: the yellow button flowers on woolly silver stems fit yellow buttons (Chrysocephalum apiculatum) better than true dusty miller; care is the same."
+    category: general
   - date: "2026-11-11"
     entry: "Boundary with the strawberries set (Jay asked how to handle the two competing): the mound keeps its current footprint and no more, strawberries get all the ground beyond it. Overhang gets cut back to a leaf at the December shear; strawberry runners under the skirt get cut at the mother. Neither plant is long-lived enough to be a structural worry."
     category: general
@@ -24,6 +29,10 @@ log:
     category: mulch
 image: /images/plants/dusty-miller.jpg
 photos:
+  - src: /images/spring-2026/IMG_4367.jpg
+    caption: "The hose line straight through the middle, in full flower (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4354.jpg
+    caption: "Spread along the lawn edge and over the stepping stones (11 Nov 2026)"
   - src: /images/plants/dusty-miller.jpg
     caption: July 2026 — woolly white foliage, yellow buttons (the reference photo that ruled out the 2306 lookalike)
 notes: "Tentative ID: Dusty Miller (Jacobaea maritima, syn. Senecio cineraria) — Jay doesn't know its origin, ID from July 2026 photos. Silver woolly leaves, small yellow clustered button flowers when mature. If correct, it's a bulletproof drought-hardy Mediterranean subshrub grown mainly for the silver foliage. The yellow flowers signal a mature plant; many gardeners shear them off to keep the silver foliage dense, but leaving them is harmless. Gets leggy over years — a light shear after flowering keeps it compact. Never needs water once established, dislikes wet feet, no feeding required. Confirm ID when convenient: woolly white felted leaves, deeply lobed, held on whitish stems."

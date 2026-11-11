@@ -3,11 +3,17 @@ type: fruit
 location: Backyard
 zones:
   - 4
-health: Pale leaves 22 Oct 2026 after the Aug hard prune; Epsom salts given 23 Oct for the tree's known magnesium story. Response check late November.
+health: "11 Nov 2026 (IMG_4358, IMG_4366): canopy dense and deep green with fresh flush at the tips; the pale look from October is gone, so the 23 Oct Epsom did its job. Soft pale shoots are sprouting low on the trunk at the fork, with leafminer curl on them, and the tub is carpeted in oxalis and mint."
+urgency: week
+nextAction: "Rub off the low trunk shoots on the grapefruit (fingers or secateurs): 1) Snap or snip every soft pale shoot sprouting from the trunk at or below the main fork, flush with the bark. 2) Pull the oxalis out of the tub, roots and all. Don't touch the new growth up in the canopy; because low trunk shoots steal the flush from the canopy and are the first thing leafminer hits"
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2291.jpg
 photos:
+  - src: /images/spring-2026/IMG_4358.jpg
+    caption: "Deep green canopy three weeks after the Epsom (11 Nov 2026)"
+  - src: /images/spring-2026/IMG_4366.jpg
+    caption: "Low trunk shoots to rub off, oxalis and mint in the tub (11 Nov 2026)"
   - src: /images/winter-2026/IMG_2291.jpg
     caption: Canopy with ripening fruit — taste-test season open (6 Aug 2026)
   - src: /images/winter-2026/IMG_2292.jpg
@@ -16,6 +22,9 @@ photos:
     caption: April 2026 assessment
 notes: "Grapefruit — ID confirmed by Jay July 2026 (was 'unknown backyard citrus'). Fairly big tree out the back, near the deck. The pale lime-green tone compared to the orange suggests it's not getting enough nutrients — being treated with regular feeds + Epsom. Same citrus care as the others: light Experts Choice doses only (gall wasp caution), gall checks each winter/spring."
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4349, IMG_4358, IMG_4366): colour fully recovered since the 23 Oct Epsom, which answers the late-November response check early. Low trunk shoots and tub weeds set as a Do now job."
+    category: general
   - date: "2026-10-28"
     entry: "Sugarcane mulched from the two new bales, 5cm over the root zone, clear of the trunk (Jay: bales done, October citrus top-up)."
     category: mulch

@@ -5,7 +5,7 @@ zones:
   - 1
 health: "27 Oct 2026 (IMG_4134): healthy spring clump about knee height, splayed open and flopped toward the deck after rain and foot traffic. New blades keep coming from the crown and overtop the splay by December. Earlier: reshooting confirmed Aug 2026 — a healthy tuft of fine new blades up through the sugarcane at the deck edge (early, but normal for a mild winter). Fed 30 Jul. Back to full height by January."
 healthStatus: good
-lastAssessed: 2026-10
+lastAssessed: 2026-11
 image: /images/plants/IMG_0893.jpg
 photos:
   - src: /images/plants/IMG_4134.jpg
@@ -33,6 +33,9 @@ tasks:
     category: general
     completed: 2026-09
 log:
+  - date: "2026-11-11"
+    entry: "Spring photo round (IMG_4373, IMG_4374): clump tall and arching over the deck edge and round the bird's nest ferns, healthy. Nothing needed, because it has grown past the October splay."
+    category: general
   - date: "2026-10-28"
     entry: "Deck-side blades snipped flush with the deck edge (Jay). Rest of the clump left to grow through the splay."
     category: prune
