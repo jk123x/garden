@@ -124,7 +124,7 @@ Personal garden care app for tracking plants and seasonal tasks. Melbourne, Zone
 
 ## Kid safety (Jay, 11 Nov 2026)
 
-- **No snail bait in the strawberry patch, ever, and none anywhere the two-year-old plays.** She grazes the strawberries and the pellets look like cereal. Multiguard (iron EDTA) is the lowest-toxicity bait and stays the only one ever named, but a mouthful can still poison a toddler. Snails in the strawberries = hand-pick at dusk. Never name metaldehyde baits (Blitzem, Defender). If she eats any: Poisons Information Centre 13 11 26. Before writing any spray, bait or chemical row, ask whether a toddler roams that bed.
+- **No snail bait in the strawberry patch, ever.** The two-year-old grazes it and the pellets look like cereal. Jay, 11 Nov 2026: it's only the strawberries, no other bed is an issue, don't extend the rule. Multiguard (iron EDTA) is the lowest-toxicity bait and stays the only one ever named, but a mouthful can still poison a toddler. Snails in the strawberries = hand-pick at dusk. Never name metaldehyde baits (Blitzem, Defender). If she eats any: Poisons Information Centre 13 11 26.
 
 ## Watering and irrigation
 
