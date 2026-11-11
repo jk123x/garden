@@ -7,6 +7,9 @@ health: Spotted in July 2026 photos — healthy knee-high mound of silvery-white
 healthStatus: healthy
 lastAssessed: 2026-08
 log:
+  - date: "2026-11-11"
+    entry: "Boundary with the strawberries set (Jay asked how to handle the two competing): the mound keeps its current footprint and no more, strawberries get all the ground beyond it. Overhang gets cut back to a leaf at the December shear; strawberry runners under the skirt get cut at the mother. Neither plant is long-lived enough to be a structural worry."
+    category: general
   - date: "2026-11-10"
     entry: "Shear pushed to 1 Dec (Jay): the yellow buttons are still thriving, he'll do it in early December."
     category: general
@@ -28,7 +31,7 @@ tasks:
   - months:
       - 12
     day: 1
-    task: "Shear the mound once the yellow buttons finish (scissors): spent stalks plus the top few cm of foliage off all over, so the silver stays dense. Every cut leaves silver leaves below it. Cut into bare old wood and that stem stays bare. No feed, no water, ever."
+    task: "Shear the mound once the yellow buttons finish (scissors): spent stalks plus the top few cm of foliage off all over, so the silver stays dense. Every cut leaves silver leaves below it. Cut into bare old wood and that stem stays bare. On the strawberry side, take the side stems back to the mound's own footprint, each cut to a leaf: the strawberries own the ground beyond it. No feed, no water, ever."
     category: prune
   - months:
       - 3

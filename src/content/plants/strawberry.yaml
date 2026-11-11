@@ -42,9 +42,12 @@ tasks:
     category: general
   - months:
       - 3
-    task: "Runner sort (scissors): 1) each runner keeps its first plantlet, press it onto bare soil so it roots, snip the stem beyond it. 2) Runners crossing the path = cut off at the mother. 3) Pull the tired old mothers (woody crown, small leaves, poor fruit this season), the daughters replace them. Letting them run is the renewal plan, so this sort is what keeps the patch from becoming a mat"
+    task: "Runner sort (scissors): 1) each runner keeps its first plantlet, press it onto bare soil so it roots, snip the stem beyond it. 2) Runners crossing the path = cut off at the mother. 3) Pull the tired old mothers (woody crown, small leaves, poor fruit this season), the daughters replace them. Letting them run is the renewal plan, so this sort is what keeps the patch from becoming a mat 4) Any runner that has crept under the dusty miller's outer leaves = cut at the mother, it will never fruit in that shade."
     category: prune
 log:
+  - date: "2026-11-11"
+    entry: "Boundary with the dusty miller set (Jay): strawberries own all the ground outside the dusty miller's footprint; runners that creep under its outer leaves get cut at the mother whenever he's passing and at the March sort. The mound's overhang gets cut back at its December shear."
+    category: general
   - date: "2026-11-09"
     entry: "Runner policy set (Jay): let them roam inside the bed, kids love them. Only path-bound and out-of-bed runners get cut in season; the March sort keeps the first plantlet per runner and pulls worn-out mothers. Cost is a little less fruit per mother, accepted."
     category: general
