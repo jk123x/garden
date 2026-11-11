@@ -4,8 +4,6 @@ location: Backyard
 zones:
   - 2
 health: "11 Nov 2026 (IMG_4344, IMG_4359, IMG_4362): much greener and denser than August across the middle. Worn to bare soil in two play spots, under the basketball hoop by the roller door and the strip in front of the raised beds, and the side path past the beds is a dirt track. Wear from feet, not disease. Mow + feed cadence is the whole program, no aerating, no reseeding."
-urgency: later
-nextAction: "Move the basketball hoop a couple of metres along the roller door each time you mow, so the bare spot under it gets a rest and the runners close in. Don't peg runners into a patch that is still being stood on. Photo on Field notes"
 healthStatus: monitor
 lastAssessed: 2026-11
 image: /images/plants/IMG_0978.jpg
@@ -71,6 +69,9 @@ tasks:
     category: general
     completed: 2026-11
 log:
+  - date: "2026-11-11"
+    entry: "Jay: he already moves the basketball hoop regularly so it never sits in one spot. Hoop-shuffle item withdrawn; the wear is just use. Don't suggest it again."
+    category: general
   - date: "2026-11-11"
     entry: "Spring photo round (IMG_4344, IMG_4359, IMG_4362, IMG_4364): lawn the best it has looked this year. Bare spots line up exactly with play traffic (hoop, raised-bed strip, side path). Hoop-shuffle set as a Whenever-you're-passing item with a Field notes plate. The side path stays a dirt track: no fix worth doing while it is the main walkway."
     category: general

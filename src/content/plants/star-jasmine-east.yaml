@@ -3,9 +3,7 @@ type: climber
 location: Right (east) side fence, near kids' bedrooms (laundry side)
 zones:
   - 4
-health: "11 Nov 2026 (IMG_4369-4372): laundry end dense, in full flower and bulging well off the fence. The three young plants are all alive, dark-leaved and flowering, but every tied shoot runs sideways along the bottom two wires and none has a leader heading up; the palest one still shows lime new growth (normal flush). Kikuyu was hard against two of them in the photos, weeded since (Jay). Possum nibbling on the top wires accepted. Richgro down 10 Nov."
-urgency: week
-nextAction: "Give each of the three young jasmines one climbing leader (ties): 1) On each plant pick the longest, strongest shoot. 2) If it is tied sideways, untie it and tie it straight up the nearest upright wire, loose figure-8. 3) Leave the other shoots running sideways along the bottom wires. Don't pinch the upright one; because a plant with only sideways leaders fills the bottom 30cm and never climbs"
+health: "11 Nov 2026 (IMG_4369-4372): laundry end dense, in full flower and bulging well off the fence. The three young plants are all alive, dark-leaved and flowering, shoots tied sideways along the bottom two wires, which is the right order (horizontal first, the plant finds its own way up); the palest one still shows lime new growth (normal flush). Kikuyu was hard against two of them in the photos, weeded since (Jay). Possum nibbling on the top wires accepted. Richgro down 10 Nov."
 healthStatus: monitor
 lastAssessed: 2026-11
 image: /images/winter-2026/IMG_2312.jpg
@@ -126,6 +124,9 @@ tasks:
     category: mulch
     completed: 2026-09
 log:
+  - date: "2026-11-11"
+    entry: "Correction (Jay, right): on the young plants horizontal comes first. The plant climbs on its own, so sideways ties along the bottom wires are what fill the base; an upright leader tied early leaves the bottom bare. My climbing-leader job withdrawn. Rule: keep tying sideways; when a shoot heads up by itself, let it reach the next wire and bend it along that one."
+    category: general
   - date: "2026-11-11"
     entry: "Spring photo round (IMG_4369-4372): Jay weeded around all three young jasmines after the photos. Mature end at its best. Young plants healthy; the gap is structure: no upright leader on any of them, so a climbing-leader job is set in Do now."
     category: general
