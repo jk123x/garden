@@ -14,6 +14,9 @@ photos:
     caption: July 2026, spreading well
 notes: Unidentified native flowering plants near the stone path. Purple daisy-like flowers — possibly Brachyscome multifida (Cut-leaf Daisy) or similar native daisy. White flowers also present nearby. Jay can't remember the name. A closer look at the leaf shape would help narrow the ID. Flowering well in April which is a good sign.
 log:
+  - date: "2026-11-11"
+    entry: "Spring shear done (Jay): a third off all over after the flush."
+    category: prune
   - date: "2026-10-17"
     entry: "Card audit 17 Oct 2026: spring shear added."
     category: general
@@ -39,3 +42,4 @@ tasks:
       - 12
     task: "Shear after the spring flush (scissors): once most flowers have browned, take a third off all over. Brachyscome flowers again in a few weeks if sheared, and sprawls bare if not"
     category: prune
+    completed: "2026-11"
