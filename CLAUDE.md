@@ -140,7 +140,7 @@ Plant YAMLs have a `log` field — array of `{ date, entry, category? }`. Use it
 
 ## 11 Nov 2026 spring photo round, part 1
 
-- 35 photos (IMG_4343-4377) in `src/images/spring-2026/`, logged on 25 cards with 'Spring photo round'. Not shot yet: banksia, wattle, west jasmine run, olive, the three muehlenbeckias, nature strip, lavender, cushion bush, dianellas, lemon close-up. The Nov/Dec round row on garden-photo-audit stays open until those arrive.
+- 35 photos (IMG_4343-4377) in `src/images/spring-2026/`, logged on 25 cards with 'Spring photo round'. Not shot yet: banksia, wattle, west jasmine run, olive, the three muehlenbeckias, nature strip, lavender, cushion bush, dianellas, lemon close-up. Jay had the Nov/Dec round row marked done 11 Nov (off the to-do list); don't chase the missing areas, the March round covers them.
 - **Field notes has 5 plates up** (hose path ×2, foot traffic ×2, needle mat under the gymea). Take each down when its job is done.
 - **Hose path (Jay raised it):** the backyard hose runs lawn → back fence straight through the yellow buttons, the needle-leaf shrub's skirt and the Mexican sage. **Jay does NOT want stakes, guide posts or rerouting, never suggest them.** He flags hose and foot damage so the affected plants get trimmed/neatened; the trim job lives on dusty-miller.yaml.
 - **Foot traffic:** lawn bare spots = under the basketball hoop + the strip in front of the raised beds; side path is a dirt track and stays one. Jay already moves the hoop regularly, never suggest it. The wear is just use; no job.

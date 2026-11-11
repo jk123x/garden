@@ -10,6 +10,7 @@ tasks:
       - 12
     task: "Spring photo round: walk every area with the phone and re-shoot the 51 winter-2026 baseline angles on /photo-audit, plus a close-up of anything that changed. Send the lot to Claude: it compares against the baseline, updates every plant's health, and writes the summer job list"
     category: general
+    completed: "2026-11"
   - months:
       - 3
     task: "Autumn photo round: same walk, every area, wide shots + close-ups of anything struggling after summer. Send to Claude for the autumn job list and to see how the season went"
@@ -19,6 +20,9 @@ tasks:
     task: "End-of-winter photo round: every area before the spring flush. This is the year's baseline set, so match the /photo-audit angles. Send to Claude for the spring job list"
     category: general
 log:
+  - date: "2026-11-11"
+    entry: "Spring round row marked done at Jay's request (35 photos sent 11 Nov). Off the to-do list until the March autumn round. Areas not shot this round get picked up then."
+    category: general
   - date: "2026-11-11"
     entry: "Spring photo round, part 1: 35 photos (IMG_4343-4377) stored in /images/spring-2026/ and compared with the winter baseline. Covered: back bed, lawn, both back jasmine sections, east run and its three young plants, passionfruit, grapefruit and the citrus by the studio, frangipani, lily turf, blue star fern, raised beds and tubs, taro, and the front deck-side bed, gymea, paws and feijoa. Jobs raised: hose guides (dusty miller card), suspect asparagus fern under the gymea, grapefruit trunk shoots, climbing leaders on the young jasmines, bird's nest feed, hoop shuffle on the lawn. Every other photo has a 'nothing needed, because' line on its card. Not shot yet: banksia, wattle, west jasmine run, olive, the three fence muehlenbeckias, nature strip, lavender, cushion bush, dianellas, lemon close-up."
     category: general
