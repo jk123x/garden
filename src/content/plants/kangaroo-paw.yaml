@@ -37,9 +37,12 @@ tasks:
       - 11
       - 12
       - 1
-    task: "Kangaroo paws, ink spot check (scissors): the strappy fan-shaped clumps with the furry red flower stalks. Walk to each clump and look at the leaves. No black = nothing to do. A leaf with black blotches or black streaks = cut that leaf off at the base, green bin. More than half a clump's leaves black = cut the whole clump to 5cm stubble, flower stalks and all. Don't compost the cuttings; because the black is a fungus that spreads in wet weather and survives in compost."
+    task: "Kangaroo paws, ink spot glance: the strappy fan-shaped clumps with the furry red flower stalks. Clump looks good = nothing to do, walk away. Black only at a cut end or a dry tip, same as last time = leave it, that is the cut dying back. Black spots or streaks in the MIDDLE of a leaf you never cut, or black that has grown since you last looked = cut that leaf off at the base with scissors, green bin. Don't go hunting on a clump that looks great; because the hard haircut after flowering is the real control and this glance only catches a bad outbreak early."
     category: spray
 log:
+  - date: "2026-11-11"
+    entry: "Jay: what counts as ink spot? A black tinge at the end of a leaf he cut months ago is the cut dying back, not disease. Rule written into the row: ignore black at cut ends and dry tips; act only on black in the middle of uncut leaves or black that is spreading; a clump that looks stunning has passed the check. Paws look stunning right now (Jay)."
+    category: general
   - date: "2026-11-11"
     entry: "Jay: the ink spot row assumed he knew the plant and the disease. Rewritten in plain words: what the plant looks like, what ink spot looks like, the three outcomes. Rule for this card from now: no jargon (fans, ink spot without a description)."
     category: general
