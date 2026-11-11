@@ -33,7 +33,7 @@ notes: Asplenium australasicum. Big outdoor specimen in the front yard. The clos
 tasks:
   - months:
       - 11
-    task: "Feed the bird's nest ferns (watering can): PowerFeed at 1ml/L, half a can poured on the soil round the base of each rosette, none into the cup of the nest. Then on the first 30° days look at the middle of the fronds: crisp brown patches = sunburn, tell Claude. Don't use granules; because granules lodge in the nest and rot the crown"
+    task: "Water, then feed the bird's nest ferns (watering can): 1) If the soil at the base is dry a finger deep, pour a full can of plain water round each rosette first. 2) Then PowerFeed at 1ml/L, half a can on the soil round each, none into the cup of the nest. Skip step 1 the morning after rain or a sprinkler run. On the first 30° days look at the middle of the fronds: crisp brown patches = sunburn, tell Claude. Don't use granules; because granules lodge in the nest and rot the crown"
     category: feed
   - months:
       - 9
